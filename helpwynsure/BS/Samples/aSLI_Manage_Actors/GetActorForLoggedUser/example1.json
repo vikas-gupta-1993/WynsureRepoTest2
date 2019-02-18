@@ -1,0 +1,39 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_GetActorInfo_Out",
+		"buid":"318843693_21",
+		"paramEntity":{
+			"className":"aSPLI_LicensedBroker",
+			"name":"John Dell Agency",
+			"shortName":"JDA",
+			"creationDate":"2011-01-06",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"preferredCurrency":"cUSDollar",
+			"brokerStatus":"1",
+			"doNotSubscribeCompensationContract":false,
+			"doNotPayCommission":false,
+			"doNotPayCommissionFromDate":null,
+			"doNotSubscribeInsurancePolicy":false,
+			"doNotSubscribeInsurancePolicyFromDate":null,
+			"isDistributor":false,
+			"distributionType":"meUndefined",
+			"brokerNotes":"",
+			"isBrokerUS":false
+		},
+		"distributionNetwork":"DistRoot",
+		"actorId":"10000146"
+	},
+	"eval":null,
+	"className":"asli_manage_actors",
+	"methodName":"GetActorForLoggedUser",
+	"version":"5.8.2.0",
+	"date":"2018-08-28",
+	"errors":[
+	]
+}

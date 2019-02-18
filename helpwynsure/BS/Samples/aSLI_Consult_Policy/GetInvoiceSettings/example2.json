@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"{{contractBUID}}"
+	},
+	"response":{
+		"className":"aSPCB_InvoiceSettings",
+		"currency":"cUSDollar",
+		"invoiceCurrency":"cUSDollar",
+		"isHousehold":false,
+		"householdSyncDate":null,
+		"householdFrequency":"meUndefined"
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetInvoiceSettings",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

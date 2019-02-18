@@ -1,0 +1,8 @@
+.result .CustomizedTablePresenter th.date{
+	width : 75px;
+}
+
+.document a{
+	padding-left: 20px;
+	background: url(./images/ContactHistory/download_16.png) no-repeat;
+}

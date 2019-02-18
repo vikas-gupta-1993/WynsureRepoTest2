@@ -1,0 +1,22 @@
+17/09/2007  16:34:46
+*Authorization system.htm#aWLI_Main_TestLogonBroker_WFSimpleLogonM* Class: aWLI_Main_TestLogonBroker Scenario: WFSimpleLogonMainForaWLI_Main_TestLogonBroker Overriding WFSimpleLogonMain
+17/09/2007  16:35:10
+*DeskTop.htm#aWFApplicationReport_aWApplicationReport* Class: aWFApplicationReport Scenario: aWApplicationReport001
+17/09/07  16:41:11
+*Product.htm#aWLILifeAnnuityBenefit_WFBenefitDefaultF* Class: aWLILifeAnnuityBenefit Scenario: WFBenefitDefaultForaWFBenefit Overriding WFBenefitDefault
+17/09/07  16:41:15
+*Product.htm#Pricing_aWLILifeAnnuityBenefit* Class: aWLILifeAnnuityBenefit Scenario: WFBenefit_BenefitPricingRule
+17/09/07  16:41:17
+*Product.htm#Description_aWLILifeAnnuityBenefit* Class: aWLILifeAnnuityBenefit Scenario: WFBenefitTextualDesc
+17/09/07  16:41:19
+*Product.htm#Benefitclasses_aWLILifeAnnuityBenefit* Class: aWLILifeAnnuityBenefit Scenario: WLIBenefitClassifications
+17/09/07  16:41:21
+*Product.htm#Language_aWLILifeAnnuityBenefit* Class: aWLILifeAnnuityBenefit Scenario: WLIBenefit_Language
+17/09/07  16:43:56
+*Product.htm#aWLIDeliveredServiceCalculateBillLineBro* Class: aWLIDeliveredServiceCalculateBillLineBroker Scenario: WLISingleBrokerMain
+17/09/07  16:43:58
+*Product.htm#Contents_aWLIDeliveredServiceCalculateBi* Class: aWLIDeliveredServiceCalculateBillLineBroker Scenario: WFBasedOnPartitionsBrokerContentForaWLISubscribedCalculateBillL Overriding WLISubscribedCalculateBillLineBrokerMainFolderPage
+17/09/07  16:44:00
+*Product.htm#Taxes_aWLIDeliveredServiceCalculateBillL* Class: aWLIDeliveredServiceCalculateBillLineBroker Scenario: WLISubscribedCalculateBillLineBrokerTaxes
+17/09/07  16:44:26
+*Product.htm#Taxes_aWLIIndividualCoveragePeriodicPric* Class: aWLIIndividualCoveragePeriodicPricingBroker Scenario: WLISubscribedCalculateBillLineBrokerTaxes

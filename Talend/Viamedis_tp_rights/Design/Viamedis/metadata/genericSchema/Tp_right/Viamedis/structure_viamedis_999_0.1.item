@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_oziugLiuEeaprLqhZz_MuA" name="repository.metadataGenericSchema" dataPackage="_oziugbiuEeaprLqhZz_MuA"/>
+  <TalendMetadata:GenericPackage xmi:id="_oziugbiuEeaprLqhZz_MuA" name="repository.metadataGenericSchema" dataManager="_oziugLiuEeaprLqhZz_MuA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_oziugriuEeaprLqhZz_MuA" id="_ZGwFgLiuEeaprLqhZz_MuA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziug7iuEeaprLqhZz_MuA" name="FFTYLIGN" label="FFTYLIGN" length="3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuhLiuEeaprLqhZz_MuA" name="FFCODRA" label="FFCODRA" length="3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuhbiuEeaprLqhZz_MuA" name="FFNUMCLI" label="FFNUMCLI" length="6" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuhriuEeaprLqhZz_MuA" name="FFNUMSEQ" label="FFNUMSEQ" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuh7iuEeaprLqhZz_MuA" name="FFTYPFUB" label="FFTYPFUB" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuiLiuEeaprLqhZz_MuA" name="FFNBENR" label="FFNBENR" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oziuibiuEeaprLqhZz_MuA" name="FILLER" label="FILLER" length="3259" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

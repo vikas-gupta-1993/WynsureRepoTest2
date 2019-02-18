@@ -1,0 +1,98 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##22",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"3",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"32 MAIN",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"40000",
+						"city":"Concord"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NH",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"+1 2056645884",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"",
+				"fax":"",
+				"eMail":"",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+		],
+		"contacts":[
+		],
+		"logins":[
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000098",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"Wooden Work Lmt",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"Wooden Work Lmt",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"NH",
+			"industrialClassification":{
+				"classificationSystem":"",
+				"code":""
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+			],
+			"taxId":""
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"Wooden Work Lmt (Wooden Work Lmt)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000098",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

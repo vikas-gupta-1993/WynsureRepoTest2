@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P38]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red128\green0\blue0;\red146\green148\blue152;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-333\slmult0\cf1\b\f0\fs16 D\'e9finition de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 En cas de d\'e9c\'e8s du participant survenant avant l'\'e2ge de 65 ans, l'institution garantit le versement d'une rente temporaire et/ou d'une rente viag\'e8re au profit de son conjoint survivant non s\'e9par\'e
+9 judiciairement, selon les modalit\'e9s fix\'e9es sur le certificat d'adh\'e9sion. Pour les participants c\'e9libataires, veufs ou divorc\'e9s, la garantie rente de conjoint viag\'e8re est remplac\'e9e par un capital d\'e9c\'e8s compl\'e9mentaire dont le
+ montant est indiqu\'e9 sur le certificat d'adh\'e9sion.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Cessation de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 La garantie rente de conjoint viag\'e8re cesse \'e0 la date de r\'e9siliation de l'adh\'e9sion sous r\'e9serve des dispositions de l'article 34 et au plus tard au 65\'e8me anniversaire du participant.\par
+La garantie rente de conjoint temporaire cesse \'e0 la date de r\'e9siliation de l'adh\'e9sion, sous r\'e9serve des dispositions de l'article 34, au 65\'e8me anniversaire du participant et au plus tard au 60\super\up2\'e8me\nosupersub\up0 anniversaire du 
+conjoint.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Cas d'exclusion de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3\b Les cas d'exclusion pour la garantie rente de conjoint sont \ul ceux de la garantie d\'e9c\'e8s indiqu\'e9s au point 3 de l'article 19.\ulnone\b0\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-360\slmult0\cf1\b B\'e9n\'e9ficiaire\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 La rente est vers\'e9e au conjoint survivant du participant d\'e9c\'e9d\'e9, non s\'e9par\'e9 judiciairement. En cas de pluralit\'e9 de conjoints l\'e9gitimes, le montant de la rente pr\'e9vue pour chacun d'eux e
+st affect\'e9 d'un coefficient \'e9gal \'e0 1/n, n \'e9tant le nombre de conjoints, cette proportion ne pouvant varier jusqu'au terme de versement des prestations. Pour les participants c\'e9libataires, veufs ou divorc\'e9s, le capital d\'e9c\'e8s compl\'
+e9mentaire est vers\'e9 au b\'e9n\'e9ficiaire de la garantie d\'e9c\'e8s.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Modalit\'e9s de versement de la rente\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 Le versement de la rente sera effectu\'e9 apr\'e8s remise des pi\'e8ces pr\'e9vues pour le paiement du capital d\'e9c\'e8s. La rente est vers\'e9e trimestriellement \'e0 terme \'e9chu. Si l'ensemble des pi\'e8ces
+ justificatives n\'e9cessaires a \'e9t\'e9 fourni, le premier versement intervient le premier jour du trimestre civil qui suit celui au cours duquel a eu lieu le d\'e9c\'e8s du participant. Le dernier versement intervient \'e0 la fin du trimestre civil au
+ cours duquel le conjoint d\'e9c\'e8de ou se remarie dans le cas de la rente viag\'e8re, \'e0 la fin du trimestre civil au cours duquel le conjoint d\'e9c\'e8de, se remarie ou atteint son 60\'e8me anniversaire dans le cas de la rente temporaire.\par
+\b En cas de remariage du conjoint survivant, le versement des rentes n'est plus d\'fb par l'Institution.\b0\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Revalorisation\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 Apr\'e8s une ann\'e9e continue de paiement, les prestations sont revaloris\'e9es annuellement en fonction d'un indice d\'e9termin\'e9 chaque ann\'e9e par le conseil d'administration de l'Institution et dans la li
+mite de disponibilit\'e9 du fonds de revalorisation constitu\'e9 \'e0 cet effet. \b En cas de r\'e9siliation de l'adh\'e9sion, les prestations ne sont plus revaloris\'e9es et les rentes continuent d'\'eatre vers\'e9es au niveau atteint le jour de la r\'e9
+siliation.\b0\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Garantie rente de conjoint viagère ou temporaire]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance Rente conjoint]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[41]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

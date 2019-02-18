@@ -1,0 +1,31 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_CustomerRequest"
+		},
+		"contactBUID":"318844253_2"
+	},
+	"response":{
+		"className":"aSPLI_GetCustomerCorrespondenceDetails_Out",
+		"documents":[
+		],
+		"comment":"",
+		"response":"",
+		"name":"nilesh bhau ",
+		"user":"Super manager",
+		"media":"mPhone",
+		"dateOfContact":"2017-12-26",
+		"timeOfContact":"12:30:53Z",
+		"contactKind":"ckIncoming",
+		"contactName":"",
+		"correspondence":"",
+		"buid":"318844253_2"
+	},
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"GetCustomerContactDetails",
+	"version":"5.8.1.0",
+	"date":"2017-12-26",
+	"errors":[
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"description":"",
+	"request":{
+		"customerBUID":"{{personBUID}}",
+		"maxSize":1
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetRequestedRequirements_Out",
+			"buid":"318844864_18",
+			"name":"Life Insurance Policy # 4800000567 (Disability Insurance-DI)",
+			"requirementDescs":[
+				{
+					"bUID":"318839006_9",
+					"name":"Signed Application",
+					"code":"SA",
+					"reqType":"cDocument",
+					"documentDescType":"wdtOther",
+					"documentDescDomain":[
+						"Policy Administration"
+					]
+				},
+				{
+					"bUID":"318839006_15",
+					"name":"ACH Authorization Form",
+					"code":"DOC_004",
+					"reqType":"cDocument",
+					"documentDescType":"wdtFinancial",
+					"documentDescDomain":[
+						"Policy Administration"
+					]
+				}
+			]
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchRequestedRequirements",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

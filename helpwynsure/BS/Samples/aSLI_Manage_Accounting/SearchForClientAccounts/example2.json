@@ -1,0 +1,38 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"buid":"{{personBUID}}",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_142",
+			"accountNumber":"D142",
+			"thirdParty":"Austin Elaine",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Austin Elaine / W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"SearchForClientAccounts",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

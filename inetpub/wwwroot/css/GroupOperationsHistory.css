@@ -1,0 +1,30 @@
+#criteriaGBP{
+	width:50%;
+	float:left;
+}
+
+#criteriaEnrollement{
+	width:50%;
+	float:left;
+}
+
+#criteriaGBP .checkboxItem, #criteriaEnrollement .checkboxItem{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#criteriaCheckBoxes #criteriaEnrollement .aPF_InputCheckBoxField,#criteriaCheckBoxes #criteriaGBP .aPF_InputCheckBoxField {
+	padding: 0 0 0 0;
+	width:100%;
+}
+
+#criteriaCheckBoxes #criteriaGBP #BusinessDomainGBPActivationWrapper.aPF_InputCheckBoxField, 
+#criteriaCheckBoxes #criteriaGBP #BusinessDomainGBPTerminationWrapper.aPF_InputCheckBoxField, 
+#criteriaCheckBoxes #criteriaEnrollement #BusinessDomainEnrollementNewWrapper.aPF_InputCheckBoxField, 
+#criteriaCheckBoxes #criteriaEnrollement #BusinessDomainEnrollementTerminationWrapper.aPF_InputCheckBoxField{
+	padding-left: 10px;
+}
+
+#criteriaCheckBoxes{
+	margin-top:6px;
+}

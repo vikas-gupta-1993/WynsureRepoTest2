@@ -1,0 +1,11 @@
+table.TablePresenter .benefit{
+	width : 80px;
+}
+
+table.TablePresenter .paymentStatus {
+	width : 280px;
+}
+
+.ClaimDeliverableOption {
+	margin-bottom: 10px;
+}

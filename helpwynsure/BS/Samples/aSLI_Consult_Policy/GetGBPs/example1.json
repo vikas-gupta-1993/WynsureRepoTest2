@@ -1,0 +1,89 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Consult_Policy"
+		},
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318843033_11"
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000530",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_12"
+			},
+			"effectiveDate":"2017-11-30",
+			"signatureDate":"2017-11-30",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000519",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_8"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		}
+	],
+	"className":"asli_consult_policy",
+	"methodName":"GetGBPs",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

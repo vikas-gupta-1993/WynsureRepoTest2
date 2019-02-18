@@ -1,0 +1,416 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"className":"aSPLI_CreateOrUpdateBrokerWithLicense_In",
+			"licenses":[
+				{
+					"className":"aSPCB_US_BrokerLicense",
+					"uSState":"cAS",
+					"licenseID":0,
+					"name":"Brokers on the Boulevard",
+					"beginDate":"2012-01-01",
+					"endDate":null,
+					"country":"USA",
+					"shortState":"USA"
+				}
+			],
+			"brokerID":{
+				"brokerID":"7374440",
+				"buid":""
+			},
+			"updateDate":null,
+			"brokerIdentity":{
+				"className":"aSPLI_LicensedBroker",
+				"isBrokerUS":false,
+				"brokerStatus":"1",
+				"doNotSubscribeCompensationContract":false,
+				"doNotPayCommission":true,
+				"doNotPayCommissionFromDate":"2012-05-09",
+				"doNotSubscribeInsurancePolicy":true,
+				"doNotSubscribeInsurancePolicyFromDate":"2012-05-09",
+				"isDistributor":true,
+				"distributionType":"tdkExternalBroker",
+				"brokerNotes":"BrokerNotes",
+				"name":"Broker US",
+				"shortName":"Broker US",
+				"creationDate":"2012-05-09",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"correspondences":[
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2012-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Marvel Street",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(913) 721-3708",
+					"privatePhoneExtension":"3300",
+					"officePhone":"(319) 832-4819",
+					"officePhoneExtension":"4411",
+					"cellPhone":"(913) 721-3709",
+					"fax":"(913) 721-3710",
+					"eMail":"ann.barret@free.com",
+					"mediaType":""
+				}
+			],
+			"paymentMethods":[
+				{
+					"className":"aSPCB_US_BankAccount",
+					"accountNumber":"000140867194644",
+					"routingNumber":"091000019",
+					"preNoteCompleted":false,
+					"preNoteProcessCompletionDate":null,
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_CA_BankAccount",
+					"accountNumber":"000140867129536",
+					"preNoteProcessCompletionDate":null,
+					"institution":"910",
+					"branch":"00019",
+					"currency":"cCanadianDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"7051 Lexiton Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_IBAN_BankAccount",
+					"iBAN":"GB87 BARC 2065 8244 9716 55",
+					"bIC":"BARCGB22",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_Fr_BankAccount",
+					"bankCode":"24145",
+					"officeCode":"74317",
+					"accountNumber":"50261598443",
+					"rIBKey":"92",
+					"iBAN":"FR7624145743175026159844392",
+					"bIC":"CEPAFRPP118",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_CreditCard",
+					"creditCardNumber":"6011002634035463",
+					"creditCardType":"cDiscover",
+					"validationCode":"",
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":"2015-01-01",
+					"holderName":"Cookies & Milk"
+				}
+			],
+			"contactInformations":[
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"Anne Barette",
+					"contactName":"Anne Barette",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2012-01-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"Street",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				},
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"Secretary",
+					"contactName":"Secretary",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2012-01-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"Street 2",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				},
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"Director",
+					"contactName":"Director",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2012-01-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"Street 2",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				}
+			],
+			"brokerHierarchies":[
+				{
+					"className":"aSPLI_CreateOrUpdateBrokerHierarchy_In",
+					"hierarchyInformation":{
+						"className":"aSPCB_BrokerHierarchy",
+						"name":"Hierarchy 1",
+						"shortName":"H1"
+					},
+					"brokerUnits":[
+						{
+							"className":"aSPLI_CreateOrUpdateBrokerHierarchyUnit_In",
+							"brokerHierarchyUnitIdentity":{
+								"className":"aSCB_BrokerHierarchyUnit",
+								"brokerId":{
+									"brokerID":"10000173",
+									"buid":""
+								},
+								"isActive":true,
+								"isAWritingAgent":true,
+								"isAServicingAgent":true
+							},
+							"brokerUnits":[
+								{
+									"className":"aSPLI_CreateOrUpdateBrokerHierarchyUnit_In",
+									"brokerHierarchyUnitIdentity":{
+										"className":"aSCB_BrokerHierarchyUnit",
+										"brokerId":{
+											"brokerID":"10000156",
+											"buid":""
+										},
+										"isActive":true,
+										"isAWritingAgent":true,
+										"isAServicingAgent":true
+									},
+									"brokerUnits":[
+									]
+								},
+								{
+									"className":"aSPLI_CreateOrUpdateBrokerHierarchyUnit_In",
+									"brokerHierarchyUnitIdentity":{
+										"className":"aSCB_BrokerHierarchyUnit",
+										"brokerId":{
+											"brokerID":"10000160",
+											"buid":""
+										},
+										"isActive":true,
+										"isAWritingAgent":true,
+										"isAServicingAgent":true
+									},
+									"brokerUnits":[
+										{
+											"className":"aSPLI_CreateOrUpdateBrokerHierarchyUnit_In",
+											"brokerHierarchyUnitIdentity":{
+												"className":"aSCB_BrokerHierarchyUnit",
+												"brokerId":{
+													"brokerID":"10000155",
+													"buid":""
+												},
+												"isActive":true,
+												"isAWritingAgent":true,
+												"isAServicingAgent":true
+											},
+											"brokerUnits":[
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"commissionPlanInformations":[
+				{
+					"className":"aSPLI_CreateOrUpdateCommissionPlanInformation_In",
+					"issuingCompanyShortName":"WIC",
+					"commissionedProductInformations":[
+						{
+							"className":"aSPLI_CommissionedProductInformation",
+							"commissionedProductCode":"DI",
+							"startDate":null,
+							"expirationDate":null,
+							"usedDefaultCommissionPercentageValue":false,
+							"percentage":0.5
+						}
+					]
+				}
+			]
+		}
+	},
+	"response":{
+		"brokerID":"7374440",
+		"buid":"318839609_8"
+	},
+	"className":"aSLI_Manage_Broker",
+	"methodName":"CreateOrUpdateBroker",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"BS_00005",
+			"message":"Error during Validation of Credit Card",
+			"kind":"errBadValue",
+			"kindNumber":0
+		},
+		{
+			"code":"WF_00002",
+			"message":"Credit card is not valid at this date",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

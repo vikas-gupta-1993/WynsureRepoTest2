@@ -1,0 +1,134 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"buid":"318842869_37",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_255",
+			"accountNumber":"L255",
+			"thirdParty":"Edwards Aaron",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":2.52,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000567 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_298",
+			"accountNumber":"L298",
+			"thirdParty":"Edwards Aaron",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":2.68,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000598 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_299",
+			"accountNumber":"L299",
+			"thirdParty":"Edwards Aaron",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":2.52,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000599 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_302",
+			"accountNumber":"L302",
+			"thirdParty":"Edwards Aaron",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":2.52,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000600 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_256",
+			"accountNumber":"D256",
+			"thirdParty":"Aaron Edwards",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Aaron Edwards / W Insurance Company"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_301",
+			"accountNumber":"D301",
+			"thirdParty":"Aaron Edwards",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":-1200,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":-1200,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Aaron Edwards / W Insurance Company CA"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318848343_300",
+			"accountNumber":"C300",
+			"thirdParty":"Aaron Edwards",
+			"kind":"Claim Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Claim Account for Aaron Edwards / W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"GetAllPossibleAccountsForClient",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

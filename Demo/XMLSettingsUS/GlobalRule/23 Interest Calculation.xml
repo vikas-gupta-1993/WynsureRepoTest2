@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang3084{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[A]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><bmp Id="34"><![CDATA[]]></bmp><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770155]]></NSId><Id Id="2"><![CDATA[23]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Amount]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770863]]></NSId><Id Id="2"><![CDATA[38]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang3084{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[AD]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><bmp Id="34"><![CDATA[]]></bmp><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770155]]></NSId><Id Id="2"><![CDATA[23]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Annuity duration]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770853]]></NSId><Id Id="2"><![CDATA[116]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Percent><DefaultValuePercent Id="1"><![CDATA[0.00%]]></DefaultValuePercent><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang3084{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[IR]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><bmp Id="34"><![CDATA[]]></bmp><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770155]]></NSId><Id Id="2"><![CDATA[23]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Interest rate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770825]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Percent></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:3) (Implem Version:1)
+
+uses WFTypes
+
+Amount : Num8
+Annuityduration : Int4
+Interestrate : tWFPercent
+
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   var i : Int4
+   var tmp : Num8
+   
+   Result = self.Amount
+   for i = 1 to self.Annuityduration
+      Result += self.Interestrate * Result
+   endFor
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218106862]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[0]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[0]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936750148422206075</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770155]]></NSId><Id Id="2"><![CDATA[23]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Interest calculation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768385]]></NSId><Id Id="2"><![CDATA[260]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang3084{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Interest calculation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770155]]></NSId><Id Id="2"><![CDATA[23]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFStandAloneRule></EntityExport>

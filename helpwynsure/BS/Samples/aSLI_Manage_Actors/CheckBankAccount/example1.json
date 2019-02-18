@@ -1,0 +1,45 @@
+{
+	"description":"Everything is correct - no error in account number or address",
+	"request":{
+		
+		"paymentMethod":{
+			"className":"aSPCB_Fr_BankAccount",
+			"bankCode":"75527",
+			"officeCode":"80774",
+			"accountNumber":"27298725709",
+			"rIBKey":"35",
+			"iBAN":"FR7675527807742729872570935",
+			"bIC":"CEPAFRPP118",
+			"currency":"cEuro",
+			"accountType":"catChecking",
+			"branchName":"BNP Opéra",
+			"depositType":"dpNA",
+			"bankName":"BNP",
+			"address":{
+				"className":"aSPCB_Fr_AfnorPostalAddress",
+				"doorOrLetterbox_Floor_Staircase":"",
+				"specialMention_GeographicalCity":"",
+				"recipient":"",
+				"line1":"23 BD DES ITALIENS",
+				"line2":"",
+				"zipCodeAndCity":{
+					"zipCode":"75002",
+					"city":"PARIS"
+				},
+				"country":"FRA"
+			},
+			"name":"BNP",
+			"effectiveDate":"2000-01-01",
+			"endDate":null,
+			"holderName":"BARRET"
+		},
+		"atDate":"2010-01-01"
+	},
+	"response":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"CheckBankAccount",
+	"version":"5.7.3.0",
+	"date":"2017-12-11",
+	"errors":[
+	]
+}

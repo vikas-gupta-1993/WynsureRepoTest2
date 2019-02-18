@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <ClientId>
+      <InternalClientId>0000000051</InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-06-26</UpdateDate>
+   <PersonIdentity xsi:type="ns:aSPLI_US_Person">
+      <Name>ESRAN</Name>
+      <ShortName>Kate</ShortName>
+      <CreationDate>2012-06-19</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <BirthDate>1960-01-01</BirthDate>
+      <PersonTitleEnum>2</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gFemale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>GBR</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>GBR</BirthCountry>
+      <BirthPlaceCity>LONDON</BirthPlaceCity>
+      <BirthPlaceZipCode>SW193RQ</BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Internal Employee</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>Is Not Internal Employee</FieldValue>
+         </Element>
+         <Element xsi:type="ns:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>Is not VIP</ValueCode>
+            <FieldValue>Is not VIP</FieldValue>
+         </Element>
+      </AdditionalDatas>
+      <SSN></SSN>
+      <MaritalStatus>cSingle</MaritalStatus>
+   </PersonIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address>
+            <Line1></Line1>
+            <Line2> WILSON AVENUE</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>SW193RQ</ZipCode>
+               <City>LONDON</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>+33 1 45456501</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>+33 6 56784323</CellPhone>
+         <Fax>+33 1 45456502</Fax>
+         <eMail>kate.esran@free.com</eMail>
+      </Element>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>1</AddressUsage>
+         <Address>
+            <Line1></Line1>
+            <Line2> WILSON AVENUE</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>SW193RQ</ZipCode>
+               <City>LONDON</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IsDefaultCorrespondance>false</IsDefaultCorrespondance>
+         <PrivatePhone></PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns:aSPCB_US_BankAccount">
+         <Name>Chase Manhattan Bank</Name>
+         <EffectiveDate>2012-06-19</EffectiveDate>
+         <HolderName>Esran</HolderName>
+         <Currency>cUSDollar</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>Branch</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>Chase Manhattan Bank</BankName>
+         <Address>
+            <Line1></Line1>
+            <Line2> WILSON AVENUE</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>SW193RQ</ZipCode>
+               <City>LONDON</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <AccountNumber>000140867118594</AccountNumber>
+         <RoutingNumber>091000019</RoutingNumber>
+         <PreNoteCompleted>true</PreNoteCompleted>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secretary</Name>
+         <ContactName>John Smith</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Director</Name>
+         <ContactName>William Doe</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Sales man</Name>
+         <ContactName>Kent Johns</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Financial director</Name>
+         <ContactName>Ruth Browns</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Project manager</Name>
+         <ContactName>Steve Powell</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Chief executive officer</Name>
+         <ContactName>Roberta Jackson</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Advisor</Name>
+         <ContactName>Elizabeth White</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Staff manager</Name>
+         <ContactName>Sandy Robinson</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Accountant</Name>
+         <ContactName>Heather Clarck</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+      <Element>
+         <Name>Technical director</Name>
+         <ContactName>Maria Walker</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address>
+               <Line1></Line1>
+               <Line2> WILSON AVENUE</Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>SW193RQ</ZipCode>
+                  <City>LONDON</City>
+               </ZipCodeAndCity>
+               <Country>GBR</Country>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>+33 1 45456501</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>+33 6 56784323</CellPhone>
+            <Fax>+33 1 45456502</Fax>
+            <eMail>kate.esran@free.com</eMail>
+         </Correspondence>
+      </Element>
+   </ContactInformations>
+</_Result>

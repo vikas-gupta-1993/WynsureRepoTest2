@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Synchro GIT">
+	<aWFxIntegShellScriptDesc name="Synchro GIT">
+		<BatchFile>(WF-root)\bin\Synchronize.bat</BatchFile>
+		<CmdLine>/git /nopause</CmdLine>
+	</aWFxIntegShellScriptDesc>
+</aWEXIntegrationPlanDesc>

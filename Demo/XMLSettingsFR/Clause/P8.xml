@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P8]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1036\f0\fs16       Les pr\f1\'eats \'e0 \'e9ch\'e9ances modulables sont couverts sous r\'e9serve que la limite de variation entre 2 \'e9ch\'e9ances soit au   
+\par       maximum de 30% et qu'un d\'e9lai de 12 mois minimum s'\'e9coule entre 2 modifications. En outre, la dur\'e9e des pr\'eats peut \'eatre 
+\par       diminu\'e9e ou rallong\'e9e de 5 ans sans toutefois exc\'e9der la dur\'e9e maximum de 30 ans.\f0 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Objet de l'assurance]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[CG Emprunteur Objet de l'assurance]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[9]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

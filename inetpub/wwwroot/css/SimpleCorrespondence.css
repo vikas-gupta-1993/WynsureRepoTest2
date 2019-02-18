@@ -1,0 +1,74 @@
+/* Correspondence Display*/
+.CountryField{
+  width: 60%;
+  float: right;
+}
+
+#CityWrapper, #ZipCodeWrapper {
+  height: 38px;
+}
+
+#eMailWrapper {
+  float: left;
+  width: 50%;
+}
+
+#eMailWrapper input {
+  float: left;
+  width: 20em;
+}
+
+#eMailWrapper .error-wrapper, #StateWrapper{
+ 	float : left;
+}
+
+#NewAdress #ZipCodeWrapper,#NewAdress #CityWrapper,#NewAdress #StateWrapper,#NewAdress #CountryWrapper {
+  float: left;
+  width: 50%;
+}
+
+#NewAdress #Line1Wrapper input, #NewAdress #Line2Wrapper input {
+  width: 47.5em;
+}
+
+#NewAdress #PrivatePhoneExtensionWrapper, #NewAdress #OfficePhoneExtensionWrapper {
+  width: 10em; 
+}
+
+#NewAdress #CellPhoneWrapper, #NewAdress #FaxWrapper{
+  float: right;
+  width: 50%;
+}
+
+#PrivatePhoneExtensionWrapper, #OfficePhoneExtensionWrapper {
+	float: left;
+	width: 20em;
+}
+#PrivatePhoneExtension, #OfficePhoneExtension {
+	width: 3em;
+}
+
+#PrivatePhoneExtensionWrapper dd, #OfficePhoneExtensionWrapper dd {
+	margin: 0;
+	padding: 0;
+}
+
+.action {
+	clear: both;
+}
+
+form .usZipCode{
+  width: 89px;
+}
+
+form .frZipCode{
+  width: 89px;
+}
+
+form .cityAndZipCode .zipCodeSection{
+  width: calc(100% - 94px);
+}
+
+form  .zipCodeSection>div{
+  width: 100%
+}

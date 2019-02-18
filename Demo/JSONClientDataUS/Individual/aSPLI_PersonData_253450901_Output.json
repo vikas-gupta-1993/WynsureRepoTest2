@@ -1,0 +1,128 @@
+{
+	"data":{
+		"className":"aSPLI_PersonData",
+		"bUID":"##70",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1973-04-12",
+				"addressUsage":"3",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"1899 THORN STREET",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"20000",
+						"city":"Atlanta"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"GA",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"+1 3076894628",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"",
+				"fax":"",
+				"eMail":"",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+		],
+		"contacts":[
+		],
+		"logins":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000069",
+		"actor":{
+			"className":"aSPLI_Person",
+			"name":"Taylor",
+			"shortName":"Elena",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1973-04-12",
+			"personTitleEnum":"ptMrs",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gFemale",
+			"sSN":"",
+			"maritalStatus":"cMarried",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":0,
+			"birthCountry":"",
+			"birthPlaceCity":"",
+			"birthPlaceZipCode":"",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false
+		},
+		"claimDisbursementChannel":[
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Elena Taylor 1899 THORN STREET, Atlanta, GA 20000",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000069",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

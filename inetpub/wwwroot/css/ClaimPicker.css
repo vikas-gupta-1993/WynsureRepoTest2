@@ -1,0 +1,22 @@
+
+
+#SelectionArgumentWrapper, #StatusWrapper {
+	width: 27em;
+}
+
+#ToOpenDateWrapper dd {
+	margin: 0;
+	padding: 0;
+}
+
+#FromOpenDateWrapper, #ToOpenDateWrapper {
+	float: left;
+	width: 14em;
+}
+#Client_uidWrapper {
+	width: 32em;
+}
+#Client_uid_input {
+	width: 15em;
+}
+

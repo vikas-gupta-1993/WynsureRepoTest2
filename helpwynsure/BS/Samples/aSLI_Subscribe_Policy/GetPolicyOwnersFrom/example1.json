@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"policyFullId":{
+			"buid":"318842719_1",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			}
+		},
+		"atDate":"{{currentDate}}"
+	},
+	"response":[
+		{
+			"className":"aSPLI_ClientPolicyOwner",
+			"client":null,
+			"information":{
+				"className":"aSPCB_PolicyOwner",
+				"fromDate":"2019-01-03",
+				"toDate":"2020-01-02",
+				"role":"cPOOC_PrimaryOwner",
+				"mainOwner":true
+			}
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetPolicyOwnersFrom",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

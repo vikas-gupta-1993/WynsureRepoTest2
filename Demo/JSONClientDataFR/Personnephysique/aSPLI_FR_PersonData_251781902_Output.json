@@ -1,0 +1,339 @@
+{
+	"data":{
+		"className":"aSPLI_FR_PersonData",
+		"bUID":"##68",
+		"dataHistory":[
+		],
+		"thirdPartyId":"AA",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1985-08-03",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"70000",
+						"city":"Ho Chi Minh City"
+					},
+					"country":"VIET NAM",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"QUYET TIEN",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(84-4) 37345152",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(84-4) 37345152",
+				"fax":"(84-4) 37345152",
+				"eMail":"ming.chang@free.com",
+				"mediaType":"Courrier",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"BNP",
+				"effectiveDate":"2000-01-01",
+				"endDate":null,
+				"holderName":"CHANG",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75002",
+						"city":"PARIS"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"23 BD DES ITALIENS",
+					"line2":""
+				},
+				"bankCode":"23524",
+				"officeCode":"91245",
+				"accountNumber":"74307623175",
+				"rIBKey":"43",
+				"iBAN":"FR7623524912457430762317543",
+				"bIC":"CEPAFRPP118"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Administrateur collectif",
+							"code":"WAC"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Gestion interne (Distributeur) (Distribution directe)",
+						"unitCode":"AI"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"ming.chang@free.com",
+						"name":"ming.chang@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"ming.chang@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##68",
+						"description":"Ming CHANG QUYET TIEN, Ho Chi Minh City, 70000, VIET NAM"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"ming.chang@free.com",
+					"name":"ming.chang@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Ming CHANG QUYET TIEN, Ho Chi Minh City, 70000, VIET NAM",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000071WEX",
+							"thirdPartyID":"AA"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":{
+			"className":"aSPH_FR_PersonExtensionData",
+			"bUID":"",
+			"dataHistory":[
+			],
+			"actorDataExtension":{
+				"className":"aSPH_FR_PersonExtension",
+				"birthRank":1,
+				"thirdPartyPayerActivated":false
+			},
+			"actor":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Ming CHANG QUYET TIEN, Ho Chi Minh City, 70000, VIET NAM",
+				"internalClientId":"0000000069",
+				"externalClientId":{
+					"externalClientId":"0000000071WEX",
+					"thirdPartyID":"AA"
+				}
+			},
+			"personDataVersions":[
+				{
+					"className":"aSPH_FR_PersonExtensionVersionData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"personDataVersion":{
+						"className":"aSPH_FR_PersonExtensionVersion",
+						"effectiveDate":"1800-01-01",
+						"code":"01701000",
+						"socialSchemeCode":"01",
+						"registeredDeskCode":"701",
+						"centerCode":"000",
+						"cTICode":"010",
+						"addressee":"701",
+						"state":"70",
+						"attachedToPerson":false,
+						"alsaceMoselle":false,
+						"noemieActivated":false
+					},
+					"attachedToPersonDataExtensions":[
+					],
+					"preferredAttachedToPersonDataExtension":null
+				}
+			]
+		},
+		"externalClientId":"0000000071WEX",
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"E",
+						"fieldValue":"Assurance de prêt",
+						"nameDescription":"Assurance de prêt"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"TI",
+						"fieldValue":"Assurance voyage",
+						"nameDescription":"Assurance voyage"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"CV",
+						"fieldValue":"Epargne",
+						"nameDescription":"Epargne"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"PC",
+						"fieldValue":"IARD",
+						"nameDescription":"IARD"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"D",
+						"fieldValue":"Prévoyance",
+						"nameDescription":"Prévoyance"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"S",
+						"fieldValue":"Santé",
+						"nameDescription":"Santé"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"L",
+						"fieldValue":"Vie",
+						"nameDescription":"Vie"
+					}
+				],
+				"channelType":"aWF_SEPACreditTransfer_DisbursementChannel",
+				"actorPaymentMethodName":"BNP"
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"actor":{
+			"className":"aSPLI_Fr_Person",
+			"name":"CHANG",
+			"shortName":"Ming",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1985-08-03",
+			"personTitleEnum":"ptMrs",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gFemale",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Ho Chi Minh City",
+			"birthPlaceZipCode":"70000",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Employé interne",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"N'est pas employé interne",
+					"nameDescription":"N'est pas employé interne"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"N'est pas VIP",
+					"fieldValue":"N'est pas VIP",
+					"nameDescription":"N'est pas VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false,
+			"sSN":"285087385628633",
+			"maritalStatus":"cOtherMaritalStatus",
+			"regime":"01",
+			"caisse":"701"
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Ming CHANG QUYET TIEN, Ho Chi Minh City, 70000, VIET NAM",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000071WEX",
+			"thirdPartyID":"AA"
+		}
+	}
+}

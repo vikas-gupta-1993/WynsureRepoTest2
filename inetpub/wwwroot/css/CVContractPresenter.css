@@ -1,0 +1,25 @@
+.jqplot-grid-canvas{
+	/*hide grey background on pie chart*/
+	display: none;
+}
+
+.cashValue .chartWrapper>form{
+	margin-top: -32px;
+	margin-bottom: -16px;
+}
+
+.iconCashValue,
+.iconCashValueOperation{
+	float: left;
+	margin-right: 5px;
+}
+body .iconCashValue{
+	margin-top: 8px;
+	margin-left: 3px;
+}
+
+body .iconCashValueOperation{
+	margin-left: 1px;
+	font-size: 10px;
+	margin-top: 4.5px;
+}

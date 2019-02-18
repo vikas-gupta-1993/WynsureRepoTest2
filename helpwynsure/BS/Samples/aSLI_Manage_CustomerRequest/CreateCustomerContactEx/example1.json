@@ -1,0 +1,45 @@
+{
+	"description": "",
+	"request": {
+		"contactDescription": {
+			"$ref": "#",
+			"className": "aSPLI_CreateContact_In",
+			"name": "Reminder for missing documents",
+			"clientBuid": "{{personBUID}}",
+			"media": "mMail",
+			"dateOfContact": "2008-01-01",
+			"timeOfContact": "0:00:00Z",
+			"contactKind": "ckIncomingContact",
+			"contactText": "missing documents are required"
+		}
+	},
+	"response": {
+		"error": {
+			"code": "CONFLICT",
+			"message": "",
+			"innererror": {
+				"className": "aSF_Exception",
+				"detailsFromException": {
+					"error": {
+						"errorCode": "SWF-F0005",
+						"errorKind": "bsErrCannotFind",
+						"errorMessage": "318842770_8 is not of the expected class aWFContactDescription"
+					}
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "aSLI_Manage_CustomerRequest",
+	"methodName": "CreateCustomerContactEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-06",
+	"errors": [
+		{
+			"code": "SWF-F0005",
+			"message": "318842770_8 is not of the expected class aWFContactDescription",
+			"kind": "Cannot Find",
+			"kindNumber": 8
+		}
+	]
+}

@@ -1,0 +1,31 @@
+Network;Name;Firstname;Title;m/f;DOB;marital status;street number;Address;PROVINCE/etats;Zip code;City;Post Town;Country;CONTACT;Cell Phone
+Front Office;Keane ;Tina;Mrs;Female;01/13/1976;Single;30;Broad Street;SCO;AB10 1AR;Aberdeen City;ABERDEEN;GBR;(01224) 725 767;(01224) 725 768
+Front Office;Wendler;Jack;M.;Male;07/12/1954;Domestic partner;40;Nino Avenue;ENG;BN2 4ND;Brighton;BRIGHTON;GBR;(01273) 799 000;(01273) 799 001
+Front Office;Peyton Jones;Julia;Miss;Female;06/02/1954;Married;1;Wallasey Park;IRL;BT14 6PQ;Belfast City;BELFAST;GBR;(02890) 320 202;(02890) 320 203
+Front Office;Gardner;Dorothy;Miss;Female;04/12/1965;Married;130;Grove Park;IRL;BT53 7QQ;Balnamore;BALLYMONEY;GBR;(02827)  200 1003;(02827)  200 1004
+Front Office;Alison;James;M.;Male;4/25/1956;Married;2;Pantbach Road;WLS;CF14 1UF;Cardiff;CARDIFF;GBR;(02920) 291 758;(02920) 291 759
+Front Office;Asley;Tony;M.;Male;12/15/1978;Married;5;Mill Street;ENG;DT3 5DW;Weymouth;WEYMOUTH;GBR;(02189) 323 4121;(02189) 323 4122
+Front Office;Austin;Elaine;Mrs;Female;12/15/1950;Married;1;Barnwood Road;ENG;GL4 3HD;Gloucester;GLOUCESTER;GBR;(01452) 899 722;(01452) 899 723
+Front Office;Barret;Ann;Mrs;Female;12/08/1968;Divorced;4;Elmdale Close;ENG;L37 2LF;Formby;LIVERPOOL;GBR;(0151) 676 0039;(0151) 676 0040
+Front Office;Clay;Stephany;Mrs;Female;11/30/1984;Married;1;Lord Sefton Way;ENG;L37 5AG;Liverpool;LIVERPOOL;GBR;(0151) 232 2009;(0151) 232 2010
+Front Office;Edwards;Vicky;Mrs;Female;12/08/1997;Single;104;Sparth Road;ENG;M40 1QH;Manchester;MANCHESTER;GBR;(0161) 306 6000;(0161) 306 6001
+Front Office;Harper;Susan;Mrs;Female;11/30/1952;Domestic partner;10;Ballards Lane;ENG;N3 2DN;London;LONDON;GBR;(0203) 285 7398;(0203) 285 7399
+Front Office;Harris;Carolyn;Mrs;Female;07/05/1956;Married;1;Oakfield Lane;ENG;NG20 0JF;Warsop;MANSFIELD;GBR;(01623) 595 313;(01623) 595 314
+Front Office;Hayes;Bret;M.;Male;1/15/1959;Divorced;5;Manor Drive;ENG;NG25 0UZ;Morton;SOUTHWELL;GBR;(01636) 813 561;(01636) 813 562
+Front Office;Hemphrey;Lorraine;Mrs;Female;6/18/1967;Single;1;High Street;ENG;KY13 8AN;Kinross;KINROSS;GBR;(01577) 101 2801;(01577) 101 2802
+Front Office;Mcguire;Georgina;Mrs;Female;6/19/1968;Married;22;Maclean Court;SCO;FK7 0QT;Stirling;STIRLING;GBR;(01786) 281 9802;(01786) 281 9803
+Front Office;Morton;Stuart;M.;Male;3/31/1961;Divorced;1;Poplar Road;ENG;DY11 6NH;Kidderminster;KIDDERMINSTER;GBR;(01562) 700 005;(01562) 700 006
+Front Office;Palmer;Stephen;M.;Male;05/10/1976;Married;6;Brookside;ENG;DE45 1DY;Bakewell;BAKEWELL;GBR;(01629) 636 258;(01629) 636 259
+Front Office;Pank;Victoria;Mrs;Female;8/20/1978;Domestic partner;7;St. Francis Road;ENG;CT19 4BJ;Folkestone;FOLKESTONE;GBR;(01303) 245 344;(01303) 245 345
+Front Office;Perry;Emma;Miss;Female;3/19/1971;Single;8;Gaston Street;ENG;CO7 6SS;East Bergholt;COLCHESTER;GBR;(01206) 798 687;(01206) 798 688
+Front Office;Snow;Julian;M.;Male;1/29/1981;Domestic partner;9;Wellesley Road;ENG;CM14 4XA;Brentwood;BRENTWOOD;GBR;(01277) 264 777 ;(01277) 264 778
+Front Office;Taylor;Emma;Miss;Female;08/03/1985;Domestic partner;25;Tenby Drive;ENG;CH46 0QA;Wirral;WIRRAL;GBR;(0151) 648 6177;(0151) 648 6178
+Front Office;Thrower;Glenn;M.;Male;5/28/1988;Domestic partner;5;Arrendene Road;ENG;CB9 9JQ;Haverhill;Suffolk;GBR;(01440) 768 868;(01440) 768 869
+Front Office;Walton;Kelly;Miss;Female;2/15/1996;Single;15;Oakwood Drive;ENG;AL4 0UL;St. Albans;ST. ALBANS;GBR;(01727) 853 060;(01727) 853 061
+Front Office;Young;Andy;M.;Male;08/09/1998;Single;69;Upper Pitching;ENG;BA3 4HS;Chilcompton;RADSTOCK;GBR;(01749) 841 544;(01749) 841 545
+Front Office;Williams;Beverly;Mrs;Female;05/04/1992;Married;22;Bradford Road;ENG;BD12 7DY;Oakenshaw;BRADFORD;GBR;(01274) 788 986;(01274) 788 987
+Front Office;Moore;Wyatt;M.;Male;10/21/1974;Single;42;Millenium stadium street;WLS;CF10 4XR;Cardiff;CARDIFF;GBR;(02920) 291 758;(02920) 291 759
+Front Office;Brown;Jill;Mrs;Female;07/23/1986;Married;33;Powell Drive;WLS;CF72 9UU;Llanharan;PONTYCLUN;GBR;(01443) 227 841;(01443) 227 842
+Front Office;Hunt;Danielle;M.;Male;12/18/1972;Married;45;Central Road;ENG;CT11 7SB;Ramsgate;RAMSGATE;GBR;(01843) 597 402;(01843) 597 403
+Front Office;Morales;Avis;M.;Male;02/05/1962;Single;12;Back Lane;ENG;CV13 0JT;Market Bosworth;NUNEATON;GBR;(01455) 212 394;(01455) 212 395
+Front Office;Blake;Robert;M.;Male;06/21/1960;Married;37;Seacroft Road;ENG;LN12 2DQ;Mablethorpe;MABLETHORPE;GBR;(01507) 441 382;(01507) 441 383

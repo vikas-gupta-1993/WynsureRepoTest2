@@ -1,0 +1,618 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##14",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"1 KNOLLWOOD CT",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"88203",
+						"city":"Roswell"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NM",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(949) 495-1032",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(949) 495-1032",
+				"fax":"(949) 495-1032",
+				"eMail":"woodmantreetransport@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-05-24",
+				"endDate":null,
+				"holderName":"Woodman Tree Transport",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"2129 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867181678",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Secretary",
+				"contactName":"John Smith",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Director",
+				"contactName":"William Doe",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Sales man",
+				"contactName":"Kent Johns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Financial director",
+				"contactName":"Ruth Browns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Project manager",
+				"contactName":"Steve Powell",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Chief executive officer",
+				"contactName":"Roberta Jackson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Advisor",
+				"contactName":"Elizabeth White",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Staff manager",
+				"contactName":"Sandy Robinson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Accountant",
+				"contactName":"Heather Clarck",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Technical director",
+				"contactName":"Maria Walker",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"1 KNOLLWOOD CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"88203",
+							"city":"Roswell"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NM",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(949) 495-1032",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(949) 495-1032",
+					"fax":"(949) 495-1032",
+					"eMail":"woodmantreetransport@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			}
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Group Admin",
+							"code":"WGA"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Legal Entity Client",
+							"code":"WLEC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"woodmantreetransport@free.com",
+						"name":"woodmantreetransport@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"woodmantreetransport@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##14",
+						"description":"Woodman Tree Transport (WOO)"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"woodmantreetransport@free.com",
+					"name":"woodmantreetransport@free.com",
+					"actorReference":{
+						"className":"aSPLI_LegalEntityIdentifier",
+						"bUID":"",
+						"description":"Woodman Tree Transport (WOO)",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000078WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000078WEX",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"WOO",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"Woodman Tree Transport",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"NY",
+			"industrialClassification":{
+				"classificationSystem":"SIC US",
+				"code":"2063"
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+				"MN",
+				"NY"
+			],
+			"taxId":"15"
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"Woodman Tree Transport (WOO)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000078WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"subscriptionProcessID":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318843752_14",
+			"description":""
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPF_ProcessData",
+		"bUID":"318843752_14",
+		"dataHistory":[
+		],
+		"processEntity":null
+	},
+	"eval":null,
+	"className":"asli_subscribe_policy",
+	"methodName":"DeclinePolicySubscription",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

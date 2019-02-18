@@ -1,0 +1,97 @@
+{
+	"ActiveDirectory": {
+		"ConnectionInfo": {
+			"Server": "Wyde.paris.product",
+			"Port": 389,
+			"AdminUserName": "Admin_prod",
+			"AdminPassword": "Hf89r%xSd2",
+			"AnonymousBind": true,
+			"UseSSL": false,
+			"LDAP_AUTH_Protocol": 1158
+		},
+		"SearchInfo": {
+			"LDAPSearchKind": 2,
+			"FollowReferrals": true,
+			"LDAPUsersLocation": "OU=WynUsers591US",
+			"LDAPProfilesLocation": "OU=WynProfiles591US",
+			"DNSSuffix": "@Wyde.paris.product",
+			"SearchBase": "DC=Wyde,DC=paris,DC=product",
+			"GroupFilter": "(&(objectclass=group)(name=WF US*))",
+			"FilterADGroupNamePrefix": "WynProfileGrp-",
+			"FilterADGroupNamePostfix": "-591US",
+			"EnableADResultText": false
+		},
+		"AdminTest": {
+			"LDAPIsValidationSuite": false,
+			"DefaultTestUserName": "Wynsure Test User",
+			"LDAPTestUsersLocation": "OU=WynTstUsers591US",
+			"LDAPTestProfilesLocation": "OU=WynTstProfiles591US"
+		},
+		"LDAPAttributesInfo": {
+			"LDAPAttributesList": [{
+				"Wynsure": "Email",
+				"LDAP": "mail"
+			},
+			{
+				"Wynsure": "IsEmailChecked",
+				"LDAP": "IsEmailVerified"
+			},
+			{
+				"Wynsure": "OutOfOfficeFlag",
+				"LDAP": "outOfOfficeFlag"
+			},
+			{
+				"Wynsure": "ForBatch",
+				"LDAP": "isBatchUser"
+			},
+			{
+				"Wynsure": "Job",
+				"LDAP": "department"
+			},
+			{
+				"Wynsure": "OrganizationUnit",
+				"LDAP": "division"
+			},
+			{
+				"Wynsure": "Position",
+				"LDAP": "employeeType"
+			},
+			{
+				"Wynsure": "SeesDistributionUnit",
+				"LDAP": "physicalDeliveryOfficeName"
+			}],
+			"LDAPAttributesListSupportedValues": [{
+				"Wynsure": "Email",
+				"LDAP": "mail"
+			},
+			{
+				"Wynsure": "IsEmailChecked",
+				"LDAP": "IsEmailVerified"
+			},
+			{
+				"Wynsure": "OutOfOfficeFlag",
+				"LDAP": "outOfOfficeFlag"
+			},
+			{
+				"Wynsure": "ForBatch",
+				"LDAP": "isBatchUser"
+			},
+			{
+				"Wynsure": "Job",
+				"LDAP": "department"
+			},
+			{
+				"Wynsure": "OrganizationUnit",
+				"LDAP": "division"
+			},
+			{
+				"Wynsure": "Position",
+				"LDAP": "employeeType"
+			},
+			{
+				"Wynsure": "SeesDistributionUnit",
+				"LDAP": "physicalDeliveryOfficeName"
+			}]
+		}
+	}
+}

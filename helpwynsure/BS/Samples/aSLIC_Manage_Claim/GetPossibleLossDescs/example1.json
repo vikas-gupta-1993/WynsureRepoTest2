@@ -1,0 +1,117 @@
+{
+	"description":"",
+	"request":{
+		"self":null,
+		"claimDeclarationProcessIdentifier":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318848904_7",
+			"description":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLIC_LossDesc",
+			"lossDescName":"Critical Illness",
+			"code":"CI",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			]
+		},
+		{
+			"className":"aSPLIC_LossDesc",
+			"lossDescName":"Death of the Insured",
+			"code":"DCP",
+			"disabled":false,
+			"lossFamily":"lfCollision",
+			"classificationValues":[
+			]
+		},
+		{
+			"className":"aSPLIC_LossDesc",
+			"lossDescName":"Long Term Disability",
+			"code":"LTD",
+			"disabled":false,
+			"lossFamily":"lfCollision",
+			"classificationValues":[
+			]
+		},
+		{
+			"className":"aSPLIC_LossDesc",
+			"lossDescName":"Short Term Disability",
+			"code":"STD",
+			"disabled":false,
+			"lossFamily":"lfCollision",
+			"classificationValues":[
+			]
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Accidental Dismemberment",
+			"code":"ACD",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Accidental Gunshot",
+			"code":"GUNSHOT",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Accelerated Death Benefit",
+			"code":"ACDB",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Paralysis",
+			"code":"PL",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Retirement Annuity",
+			"code":"RA",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		},
+		{
+			"className":"aSPLIC_PersonLossDesc",
+			"lossDescName":"Waiver of Premium",
+			"code":"WOP",
+			"disabled":false,
+			"lossFamily":"lfUndefined",
+			"classificationValues":[
+			],
+			"withPathologies":false
+		}
+	],
+	"eval":null,
+	"className":"aslic_manage_Claim",
+	"methodName":"GetPossibleLossDescs",
+	"version":"5.8.2.0",
+	"date":"2018-08-10",
+	"errors":[
+	]
+}

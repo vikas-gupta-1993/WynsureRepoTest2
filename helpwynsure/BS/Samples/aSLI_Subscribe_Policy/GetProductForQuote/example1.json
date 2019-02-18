@@ -1,0 +1,92 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_ProductsForNormalQuote_In",
+			"subscriber":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842236_55"
+			},
+			"distributionUnitCode":"",
+			"subscriptionDate":"2017-11-13",
+			"productAvailabilities":[
+			]
+		},
+		"productCode":{
+			"productIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"productCode":"SI10TLM"
+			},
+			"buid":""
+		}
+	},
+	"response":{
+		"className":"aSPLI_ProductAndAuthorization",
+		"productWithOptions":{
+			"className":"aSPCB_ProductWithOptions_Out",
+			"productCode":{
+				"productIdentifier":{
+					"issuingCompanyCode":"WIC",
+					"productCode":"SI10TLM"
+				},
+				"buid":"318842979_4"
+			},
+			"product":{
+				"className":"aSPLI_Product",
+				"subscribedBy":"cWFSubscribedByIndividual",
+				"productIsForGroup":false,
+				"productFamily":"Life",
+				"productAvailabilities":[
+					"Available on wPortal"
+				],
+				"isMultiOwner":true,
+				"name":"Simplified Issue 10 Year Renewable Term Life",
+				"entityDescription":"Renewable Level Term & Simplified Underwriting. 10 Year Level Premium Period.\r\nAfter the 10 Year Term Period, coverage may be continued at annually increasing premium rates to age 85.\r\nConvertible up to the earlier of age 65 or the end of the Base Term Period (10 year) without evidence of insurability. The conversion policy will be a whole life policy."
+			},
+			"isMultiInsured":true,
+			"options":[
+				{
+					"className":"aSPCB_OfferedOption",
+					"code":"10YTL",
+					"name":"Term Life",
+					"entityDescription":"Base Policy Coverage"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"code":"ADB",
+					"name":"Accidental Death Benefit Rider",
+					"entityDescription":"Additional benefit payable for accidental death of the primary insured only.\r\n\r\nThis rider automatically doubles the death benefit of your life insurance policy if the insurer die due to an accident."
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"code":"ABR",
+					"name":"Accelerated Benefit Rider",
+					"entityDescription":"This rider provides a full payout of 50% of the basic death benefit under the Base Policy only for the primary insured, if the insured is certified as terminally ill with no more than 12 months remaining to live. An accelerated benefit payment is subject to an administrative fee: $200. The amount of any benefit payable under this Rider will be paid in a single sum. \r\n\r\nThe payment of an accelerated death benefit under this Rider will reduce the death benefit payable thereafter under the Base Policy. The accelerated death benefits payable under this Rider may be taxable under State or Federal law. You should contact your tax advisor for specific advice"
+				}
+			],
+			"buid":""
+		},
+		"loggedUserIsAuthorizedToCreateQuote":true,
+		"loggedUserIsAuthorizedToCreatePolicy":true,
+		"isEligible":true,
+		"subscriberType":"tpli_Individual"
+	},
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetProductForQuote",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-11-13",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"1F65_BS_00001",
+			"message":"More than one Distribution Unit Found",
+			"kind":"errInfo",
+			"kindNumber":4
+		}
+	]
+}

@@ -1,0 +1,220 @@
+{
+	"data":{
+		"className":"aSPLI_PersonData",
+		"bUID":"##42",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1963-04-21",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"3324 RACCOON RUN",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"98109",
+						"city":"Seattle"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"WA",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(206) 902-6090",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(206) 902-6090",
+				"fax":"",
+				"eMail":"raymond.charles@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-06-17",
+				"endDate":null,
+				"holderName":"Charles",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"3878 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867179885",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Individual Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"raymond.charles@free.com",
+						"name":"raymond.charles@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"raymond.charles@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##42",
+						"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"raymond.charles@free.com",
+					"name":"raymond.charles@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000043WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000043WEX",
+		"actor":{
+			"className":"aSPLI_Person",
+			"name":"Charles",
+			"shortName":"Raymond",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1963-04-21",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"sSN":"758685214",
+			"maritalStatus":"cMarried",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Seattle",
+			"birthPlaceZipCode":"98109",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false
+		},
+		"claimDisbursementChannel":[
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000043WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

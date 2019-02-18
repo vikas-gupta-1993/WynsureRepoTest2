@@ -1,0 +1,54 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"buid":"318842869_2",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318853952_83",
+			"accountNumber":"D83",
+			"thirdParty":"Jack Wendler",
+			"kind":"Investments Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Cash Value Account Policy # 4800000508"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318853771_75",
+			"accountNumber":"D75",
+			"thirdParty":"Jack Wendler",
+			"kind":"Investments Account",
+			"balance":{
+				"amount":-36000,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Cash Value Account Policy # 4800000507"
+		}
+	],
+	"eval":null,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"GetCustomerInvestmentAccounts",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

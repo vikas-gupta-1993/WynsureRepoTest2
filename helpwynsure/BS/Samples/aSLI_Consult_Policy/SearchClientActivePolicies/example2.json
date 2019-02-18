@@ -1,0 +1,99 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_SearchActivePolicies_In",
+			"kind":"tplib_All",
+			"policyName":"",
+			"clientIdentifiers":{
+				"internalClientId":"0000000034",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":"DistRoot"
+				},
+				"buid":""
+			},
+			"productIdentifiers":{
+				"productIdentifier":{
+					"issuingCompanyCode":"",
+					"productCode":""
+				},
+				"buid":""
+			},
+			"brokerIdentifiers":{
+				"brokerID":"",
+				"buid":""
+			},
+			"ownerLastName":"",
+			"ownerFirstName":"",
+			"withQuote":false,
+			"fromDate":null,
+			"toDate":null,
+			"fromTerminationDate":null,
+			"toTerminationDate":null,
+			"resultMaxSize":10
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000511",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318844991_1"
+			},
+			"effectiveDate":"2017-11-21",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Family Health Plus Base Plan",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Chougule",
+			"ownerFirstName":"Nilesh",
+			"ownerBuid":"318842996_2"
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000538",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318855173_2"
+			},
+			"effectiveDate":"2017-12-12",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Variable Life",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Chougule",
+			"ownerFirstName":"Nilesh",
+			"ownerBuid":"318842996_2"
+		}
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchClientActivePolicies",
+	"version":"5.8.1.0",
+	"date":"2018-01-02",
+	"errors":[
+	]
+}

@@ -1,0 +1,123 @@
+{
+	"description": "Creation of FR legal entity",
+	"request": {
+		"input": {
+			"$ref": "#",
+			"className": "aSPLI_CreateLegalEntityWithHistory",
+			"thirdPartyID": "AA",
+			"clientId": {
+				"buid": "",
+				"internalClientId": "",
+				"externalClientIdentifier": {
+					"externalClientId": "",
+					"thirdPartyID": "AA"
+				}
+			},
+			"legalEntityIdentityHistories": [
+				{
+					"$ref": "#",
+					"className": "aSPLI_LegalEntityIdentityHistory",
+					"effectiveDate": "2018-11-14",
+					"legalEntityIdentity": {
+						"$ref": "#",
+						"className": "aSPLI_Fr_LegalEntity",
+						"shortName": "ECAL",
+						"creationDate": "2013-06-19",
+						"preferredLanguageCode": "Fr",
+						"terminationDate": null,
+						"preferredContactChoice": "pcDefaultCorrespondence",
+						"delinquent": false,
+						"underSurveillance": false,
+						"isAnonymous": false,
+						"name": "ETUDES CONSTRUCTION AERONAVALTE",
+						"masterLegalEntity": {
+							"buid": "",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": ""
+							}
+						},
+						"activity": "",
+						"inBankrupcy": false,
+						"country": "FRA",
+						"state": "",
+						"industrialClassification": {
+							"classificationSystem": "NAF 2008 REV 2",
+							"code": "01.14Z"
+						},
+						"totalNumberOfEmployees": 0,
+						"additionalDatas": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "CCN",
+								"fieldName": "Convention Collective Nationale",
+								"codeForPopulationClass": "",
+								"valueCode": "NA",
+								"fieldValue": "Non définie",
+								"nameDescription": "Non définie"
+							}
+						],
+						"companyType": "",
+						"sIRET": ""
+					}
+				}
+			],
+			"correspondences": [
+				{
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_Fr_AfnorPostalAddress",
+						"zipCodeAndCity": {
+							"zipCode": "24240",
+							"city": "THENAC"
+						},
+						"country": "FRA",
+						"district": "",
+						"doorOrLetterbox_Floor_Staircase": "",
+						"specialMention_GeographicalCity": "",
+						"recipient": "",
+						"line1": "6 IMPASSE FERNANDIERE",
+						"line2": ""
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "33565985487",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "33565985487",
+					"fax": "33565985487",
+					"eMail": "etudesconstructionaeronaval@free.com",
+					"mediaType": "Courrier",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				}
+			],
+			"paymentMethods": [
+			],
+			"contactInformations": [
+			],
+			"employeeInformations": [
+			],
+			"legalEntityDivision": [
+			]
+		}
+	},
+	"response": {
+		"buid": "318851912_23",
+		"internalClientId": "0000000137",
+		"externalClientIdentifier": {
+			"externalClientId": "",
+			"thirdPartyID": "AA"
+		}
+	},
+	"eval": null,
+	"className": "aSLI_Manage_Actors",
+	"methodName": "CreateLegalEntityWithHistory",
+	"version": "5.8.2.2",
+	"date": "2018-11-14",
+	"errors": [
+	]
+}

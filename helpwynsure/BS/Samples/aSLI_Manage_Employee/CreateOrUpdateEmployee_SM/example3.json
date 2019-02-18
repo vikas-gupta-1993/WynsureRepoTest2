@@ -1,0 +1,126 @@
+{
+	"description": "This exapmle creates employment for an existing person",
+	"request": {
+		"self": {
+			"className": "aSLI_Manage_Employee"
+		},
+		"data": {
+			"className": "aSPLI_EmployeeData",
+			"employee": {
+				"className": "aSPLI_Employee",
+				"effectiveDate": "{{CurrentDate}}",
+				"hireDate": "{{HireDate}}",
+				"salaryDefinedAtDate": null,
+				"employmentStatus": "esActive",
+				"workingHours": 40,
+				"workingHoursDefinedForFrequency": "fWeekly",
+				"workingCategory": "cFullTime",
+				"baseSalaryAmount": {
+					"amount": "{{EmployeeSalary}}",
+					"currency": "USD"
+				},
+				"baseSalaryFrequency": "wfHourly",
+				"salaryCommissionAmount": {
+					"amount": 0,
+					"currency": "USD"
+				},
+				"salaryCommissionFrequency": "meUndefined",
+				"salaryBonusAmount": {
+					"amount": 0,
+					"currency": "USD"
+				},
+				"salaryBonusFrequency": "meUndefined",
+				"canBeEnrolled": false,
+				"additionalDynamicDatas": [
+				]
+			},
+			"person": {
+				"data": null,
+				"identifier": {
+					"className": "aSPLI_PersonIdentifier",
+					"bUID": "{{PersonBUID}}"
+				}
+			},
+			"legalEntity": {
+				"identifier": {
+					"className": "aSPLI_LegalEntityIdentifier",
+					"bUID": "{{LegalEntityBUID}}"
+				}
+			},
+			"bUID": "",
+			"dataHistory": [
+			]
+		}
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_EmployeeData",
+		"bUID": "318842822_56",
+		"dataHistory": [
+		],
+		"employee": {
+			"className": "aSPLI_US_Employee",
+			"effectiveDate": "2018-12-01",
+			"terminationReason": "",
+			"terminationDate": null,
+			"hireDate": "2018-12-01",
+			"salaryDefinedAtDate": null,
+			"employmentStatus": "esActive",
+			"workingHours": 40,
+			"workingHoursDefinedForFrequency": "fWeekly",
+			"workingCategory": "cFullTime",
+			"baseSalaryAmount": {
+				"amount": 30000.00,
+				"currency": "USD"
+			},
+			"baseSalaryFrequency": "wfHourly",
+			"salaryCommissionAmount": {
+				"amount": 0.00,
+				"currency": "USD"
+			},
+			"salaryCommissionFrequency": "meUndefined",
+			"salaryBonusAmount": {
+				"amount": 0.00,
+				"currency": "USD"
+			},
+			"salaryBonusFrequency": "meUndefined",
+			"canBeEnrolled": true,
+			"additionalDynamicDatas": [
+			],
+			"worksiteState": "meUndefined"
+		},
+		"person": {
+			"data": null,
+			"identifier": {
+				"className": "aSPLI_PersonIdentifier",
+				"bUID": "318842869_55",
+				"description": "Joseph Abdo 4588 EMMA STREET, Lubbock, TX 79401",
+				"internalClientId": "0000000055",
+				"externalClientId": {
+					"externalClientId": "0000000055WEX",
+					"thirdPartyID": "DistRoot"
+				}
+			}
+		},
+		"legalEntity": {
+			"data": null,
+			"identifier": {
+				"className": "aSPLI_LegalEntityIdentifier",
+				"bUID": "318842906_27",
+				"description": "Asian Painting Company (Asain Painting Company)",
+				"internalClientId": "0000000102",
+				"externalClientId": {
+					"externalClientId": "",
+					"thirdPartyID": "DistRoot"
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "asli_manage_employee",
+	"methodName": "CreateOrUpdateEmployee_SM",
+	"version": "5.8.2.2",
+	"date": "2018-12-11",
+	"errors": [
+	]
+}

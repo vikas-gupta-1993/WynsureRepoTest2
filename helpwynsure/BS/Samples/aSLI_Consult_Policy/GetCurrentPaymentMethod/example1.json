@@ -1,0 +1,50 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21"
+	},
+	"response":{
+		"className":"aSPCB_GetBankPaymentMethod_Out",
+		"paramEntity":{
+			"className":"aSPCB_US_BankAccount",
+			"accountNumber":"000140867135560",
+			"routingNumber":"091000019",
+			"preNoteCompleted":true,
+			"preNoteProcessCompletionDate":"2014-01-01",
+			"currency":"cUSDollar",
+			"accountType":"catChecking",
+			"branchName":"Branch",
+			"depositType":"dpNA",
+			"bankName":"Chase Manhattan Bank",
+			"address":{
+				"className":"aSPCB_PostalAddressWithState",
+				"state":"NY",
+				"line1":"2742 Lexington Avenue",
+				"line2":"",
+				"zipCodeAndCity":{
+					"zipCode":"10015",
+					"city":"NEW YORK"
+				},
+				"country":"USA"
+			},
+			"name":"Chase Manhattan Bank",
+			"effectiveDate":"2013-06-17",
+			"endDate":null,
+			"holderName":"Austin"
+		},
+		"name":"Chase Manhattan Bank Austin",
+		"buid":"318836794_68"
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetCurrentPaymentMethod",
+	"version":"5.7.3.0",
+	"duration":56,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true,
+		"sCB_Utils\/NewEmptyParamObject":true
+	}
+}

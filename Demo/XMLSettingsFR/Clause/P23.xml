@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P23]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red128\green0\blue0;\red146\green148\blue152;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-360\slmult0\cf1\b\f0\fs16 Paiement des cotisations\cf2\b0\par
+\pard\nowidctlpar\li253\sl-306\slmult0\cf3 Les cotisations sont payables trimestriellement \'e0 terme \'e9chu, sur la base des taux de cotisation indiqu\'e9s sur le certificat d'adh\'e9sion et de la masse salariale d'un trimestre. L'entreprise adh\'e9rent
+e est seule responsable de leur paiement \'e0 l'\'e9gard de l'institution. La cotisation du 4\super\up2\'e8me\nosupersub\up0 trimestre de chaque exercice civil est \'e9gale \'e0 la diff\'e9rence entre :\par
+\pard\nowidctlpar\li253\sl-306\slmult0\bullet  d'une part la cotisation correspondant \'e0 la masse salariale totale de l'exercice,\par
+\pard\nowidctlpar\li253\sl-226\slmult0\bullet  d'autre part le total des cotisations vers\'e9es les 3 premiers trimestres de l'exercice.\par
+\pard\nowidctlpar\li253\sl-280\slmult0 Les cotisations sont exigibles dans les 10 jours qui suivent la fin de chaque trimestre civil.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b D\'e9faut de paiement des cotisations\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 A d\'e9faut de paiement d'une cotisation ou d'une partie de celle-ci dans les 10 jours de son \'e9ch\'e9ance, l'Institution adresse \'e0 l'entreprise adh\'e9rente une lettre recommand\'e9e de mise en demeure, par
+ laquelle elle l'informe que si la cotisation reste impay\'e9e :\par
+\bullet  les garanties de la couverture seront suspendues imm\'e9diatement \'e0 la fin d'un d\'e9lai de 30 jours \'e0 compter de la date d'envoi de cette lettre et de plein droit pour l'ensemble des participants,\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  l'Institution a le droit de r\'e9silier l'adh\'e9sion 10 jours apr\'e8s l'expiration du d\'e9lai de 30 jours mentionn\'e9 ci-dessus.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Cotisations]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Cotisations]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[26]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

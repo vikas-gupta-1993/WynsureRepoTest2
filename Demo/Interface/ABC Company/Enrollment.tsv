@@ -1,0 +1,116 @@
+MemberId	GBPId	OptionId	CoverageAmount	Classifications	EffectiveDate	TerminationDate	TerminationReason	BillingInfo	CoveredPerson1_Name	CoveredPerson1_SSN	CoveredPerson1_BirthDate	CoveredPerson1_Dependant	CoveredPerson1_Classification	CoveredPerson1_EffectiveDate	CoveredPerson1_EndDate	CoveredPerson_FirstName	CoveredPerson_MaritalStatus	CoveredPerson_Classification	CoveredPerson2_Name	CoveredPerson2_SSN	CoveredPerson2_BirthDate	CoveredPerson2_Dependant	CoveredPerson2_Classification	CoveredPerson2_EffectiveDate	CoveredPerson2_EndDate	CoveredPerson2_FirstName	CoveredPerson2_MaritalStatus	CoveredPerson2_Classification	CoveredPerson3_Name	CoveredPerson3_SSN	CoveredPerson3_BirthDate	CoveredPerson3_Dependant	CoveredPerson3_Classification	CoveredPerson3_EffectiveDate	CoveredPerson3_EndDate	CoveredPerson3_FirstName	CoveredPerson3_MaritalStatus	CoveredPerson3_Classification	CoveredPerson4_Name	CoveredPerson4_SSN	CoveredPerson4_BirthDate	CoveredPerson4_Dependant	CoveredPerson4_Classification	CoveredPerson4_EffectiveDate	CoveredPerson4_EndDate	CoveredPerson4_FirstName	CoveredPerson4_MaritalStatus	CoveredPerson4_Classification	CoveredPerson5_Name	CoveredPerson5_SSN	CoveredPerson5_BirthDate	CoveredPerson5_Dependant	CoveredPerson5_Classification	CoveredPerson5_EffectiveDate	CoveredPerson5_EndDate	CoveredPerson5_FirstName	CoveredPerson5_MaritalStatus	CoveredPerson5_Classification
+517755		Group Life		Monthly Salaried,EE only				info billing																																																		
+517755		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+517755		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+517755		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+517755		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+945694		Group Life		Monthly Salaried,EE only				info billing																																																		
+945694		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+945694		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+945694		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+945694		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+958753		Group Life		Monthly Salaried,EE only				info billing																																																		
+958753		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+958753		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+958753		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+958753		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+588269		Group Life		Monthly Salaried,EE + S				info billing	Anderson	999999999	09/09/1968	Spouse				Lola	Married	Non smoker																																								
+588269		Additional Group Life		Monthly Salaried,EE + S				info billing	Anderson	999999999	09/09/1968	Spouse				Lola	Married	Non smoker																																								
+588269		Group AD&D		Monthly Salaried,EE + S				info billing	Anderson	999999999	09/09/1968	Spouse				Lola	Married	Non smoker																																								
+588269		Short Term Disability		Monthly Salaried,EE + S				info billing																																																		
+588269		Long Term Disability		Monthly Salaried,EE + S				info billing																																																		
+599123		Group Life		Monthly Salaried,EE + C				info billing																																																		
+599123		Additional Group Life		Monthly Salaried,EE + C				info billing																																																		
+599123		Group AD&D		Monthly Salaried,EE + C				info billing																																																		
+599123		Short Term Disability		Monthly Salaried,EE + C				info billing																																																		
+599123		Long Term Disability		Monthly Salaried,EE + C				info billing																																																		
+748575		Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+748575		Additional Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+748575		Group AD&D		Monthly Salaried,EE + S + C				info billing																																																		
+748575		Short Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+748575		Long Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+565546		Group Life		Monthly Salaried,EE only				info billing																																																		
+565546		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+565546		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+565546		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+565546		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+649196		Group Life		Monthly Salaried,EE + S				info billing																																																		
+649196		Additional Group Life		Monthly Salaried,EE + S				info billing																																																		
+649196		Group AD&D		Monthly Salaried,EE + S				info billing																																																		
+649196		Short Term Disability		Monthly Salaried,EE + S				info billing																																																		
+649196		Long Term Disability		Monthly Salaried,EE + S				info billing																																																		
+269364		Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+269364		Additional Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+269364		Group AD&D		Monthly Salaried,EE + S + C				info billing																																																		
+269364		Short Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+269364		Long Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+580690		Group Life		Monthly Salaried,EE only				info billing																																																		
+580690		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+580690		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+580690		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+580690		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+906203		Group Life		Monthly Salaried,EE only				info billing																																																		
+906203		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+906203		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+906203		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+906203		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+671786		Group Life		Monthly Salaried,EE only				info billing																																																		
+671786		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+671786		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+671786		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+671786		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+167852		Group Life		Monthly Salaried,EE + S				info billing																																																		
+167852		Additional Group Life		Monthly Salaried,EE + S				info billing																																																		
+167852		Group AD&D		Monthly Salaried,EE + S				info billing																																																		
+167852		Short Term Disability		Monthly Salaried,EE + S				info billing																																																		
+167852		Long Term Disability		Monthly Salaried,EE + S				info billing																																																		
+579820		Group Life		Monthly Salaried,EE + C				info billing																																																		
+579820		Additional Group Life		Monthly Salaried,EE + C				info billing																																																		
+579820		Group AD&D		Monthly Salaried,EE + C				info billing																																																		
+579820		Short Term Disability		Monthly Salaried,EE + C				info billing																																																		
+579820		Long Term Disability		Monthly Salaried,EE + C				info billing																																																		
+271002		Group Life		Monthly Salaried,EE + C				info billing																																																		
+271002		Additional Group Life		Monthly Salaried,EE + C				info billing																																																		
+271002		Group AD&D		Monthly Salaried,EE + C				info billing																																																		
+271002		Short Term Disability		Monthly Salaried,EE + C				info billing																																																		
+271002		Long Term Disability		Monthly Salaried,EE + C				info billing																																																		
+866027		Group Life		Monthly Salaried,EE + C				info billing																																																		
+866027		Additional Group Life		Monthly Salaried,EE + C				info billing																																																		
+866027		Group AD&D		Monthly Salaried,EE + C				info billing																																																		
+866027		Short Term Disability		Monthly Salaried,EE + C				info billing																																																		
+866027		Long Term Disability		Monthly Salaried,EE + C				info billing																																																		
+734627		Group Life		Monthly Salaried,EE + C				info billing																																																		
+734627		Additional Group Life		Monthly Salaried,EE + C				info billing																																																		
+734627		Group AD&D		Monthly Salaried,EE + C				info billing																																																		
+734627		Short Term Disability		Monthly Salaried,EE + C				info billing																																																		
+734627		Long Term Disability		Monthly Salaried,EE + C				info billing																																																		
+431730		Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+431730		Additional Group Life		Monthly Salaried,EE + S + C				info billing																																																		
+431730		Group AD&D		Monthly Salaried,EE + S + C				info billing																																																		
+431730		Short Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+431730		Long Term Disability		Monthly Salaried,EE + S + C				info billing																																																		
+464922		Group Life		Monthly Salaried,EE only				info billing																																																		
+464922		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+464922		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+464922		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+464922		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+475058		Group Life		Monthly Salaried,EE only				info billing																																																		
+475058		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+475058		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+475058		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+475058		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+369076		Group Life		Monthly Salaried,EE + S				info billing																																																		
+369076		Additional Group Life		Monthly Salaried,EE + S				info billing																																																		
+369076		Group AD&D		Monthly Salaried,EE + S				info billing																																																		
+369076		Short Term Disability		Monthly Salaried,EE + S				info billing																																																		
+369076		Long Term Disability		Monthly Salaried,EE + S				info billing																																																		
+891984		Group Life		Monthly Salaried,EE only				info billing																																																		
+891984		Additional Group Life		Monthly Salaried,EE only				info billing																																																		
+891984		Group AD&D		Monthly Salaried,EE only				info billing																																																		
+891984		Short Term Disability		Monthly Salaried,EE only				info billing																																																		
+891984		Long Term Disability		Monthly Salaried,EE only				info billing																																																		
+389728		Group Life		Monthly Salaried,EE + S				info billing																																																		
+389728		Additional Group Life		Monthly Salaried,EE + S				info billing																																																		
+389728		Group AD&D		Monthly Salaried,EE + S				info billing																																																		
+389728		Short Term Disability		Monthly Salaried,EE + S				info billing																																																		
+389728		Long Term Disability		Monthly Salaried,EE + S				info billing																																																		

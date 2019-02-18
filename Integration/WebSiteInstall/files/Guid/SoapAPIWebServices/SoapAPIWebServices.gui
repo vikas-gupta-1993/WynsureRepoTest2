@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<gui display="SoapAPI Web Services">
+	<intro height="50">
+		<h3 align="center">SoapAPI Web Services Install</h3>
+	</intro>
+	<command display="Install for eWam 32 bit">install_SoapAPIWebServices.bat Win32 {IIS_PORT_WS} {WSM_PORT_WS} {USER_NAME}</command>
+	<command display="Install for eWam 64 bit">install_SoapAPIWebServices.bat x64 {IIS_PORT_WS} {WSM_PORT_WS} {USER_NAME}</command>
+	<arg type="text" id="IIS_PORT_WS" display="IIS Port (default: 54200)">54200</arg>
+	<arg type="text" id="WSM_PORT_WS" display="Wyseman Port (default: 54300)">54300</arg>
+	<arg type="text" id="USER_NAME" display="Your first name"></arg>
+</gui>

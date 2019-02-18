@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		
+		"myParam":{
+			"className":"aSPLI_ContactInfoAndAddressChange_In",
+			"effectiveDate":"2017-01-01",
+			"myNewAddress":null,
+			"myNewCorrespondence":null,
+			"buid":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"UpdateContactInfoAndCorrespondenceWithMailConfirmation",
+	"version":"5.7.3.0",
+	"date":"2017-11-06",
+	"errors":[
+	]
+}

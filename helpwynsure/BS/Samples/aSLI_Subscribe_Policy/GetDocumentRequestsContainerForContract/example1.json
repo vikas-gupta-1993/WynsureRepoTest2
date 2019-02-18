@@ -1,0 +1,40 @@
+{
+	"description":"",
+	"request":{
+		"contractID":{
+			"$ref":"#",
+			"className":"aSPCB_ContractIdentifier",
+			"bUID":"318842719_1",
+			"description":"",
+			"internalContractID":"",
+			"externalContractID":""
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_DocumentRequestsContainerForContractData",
+		"bUID":"318844653_1",
+		"dataHistory":[
+		],
+		"requirementRequests":[
+		],
+		"documentRequestsContainer":{
+			"className":"aSPCB_DocumentRequestsContainerForContract",
+			"name":""
+		},
+		"myContract":{
+			"className":"aSPCB_ContractIdentifier",
+			"bUID":"318842719_1",
+			"description":"Contract #4800000501 Group Whole Life Plan (ABC Timber Lmt (ABC Timber Lmt))",
+			"internalContractID":"",
+			"externalContractID":""
+		}
+	},
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetDocumentRequestsContainerForContract",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

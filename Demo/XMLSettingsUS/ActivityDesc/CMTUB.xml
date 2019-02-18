@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aEDA_ActivityDesc_ManualTask><RecipientKind Id="37"><![CDATA[1]]></RecipientKind><TaskTitle Id="12"><![CDATA[Please Update the Group Contract]]></TaskTitle><TaskMessageBaseOnRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses WFTypes, aWLIGroupBenefitPlanContract, aListOfInstances
+
+
+function GBPContract return aWLIGroupBenefitPlanContract
+   if self.Master <> Nil
+      return aWLIGroupBenefitPlanContract(self.Master.OnObject)
+   else
+      return aWLIGroupBenefitPlanContract(self.OnObject)
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : tWF_RTF_Text)
+   uses aWF_RTF_TextType, aWFProduct, aWFOfferedOption
+   
+   var ListOfProducts : aListOfInstances
+   var ListOfCoverages : aListOfInstances
+   var curProdcut : aWFProduct
+   var curCoverage : aWFOfferedOption
+   
+   new(ListOfProducts)
+   new(ListOfCoverages)
+   ;
+   self.GBPContract.FillListWithAllNewMandatoryVersionToSubscribe(ListOfProducts, 
+      ListOfCoverages)
+   ;
+   Result.type.WriteLn(Concat('The Group Contract ', self.GBPContract.ContractName, 
+      ' need to be update due to new Product Mandatory Version'), @Result)
+   if ListOfProducts.count > 0
+      forEach curProdcut in ListOfProducts
+         Result.type.Write(Concat('    ', 'Please Amend the Contract on', ' '), @Result)
+         Result.type.Write(Concat(curProdcut.EffectiveDate), @Result)
+         Result.type.Write(Concat(' ', 'due to the Product Mandaotry Version', ' ', 
+            curProdcut.GetTranslatedName), @Result)
+         Result.type.Write(Concat(curProdcut.GetTranslatedName), @Result)
+         Result.type.WriteLn('', @Result)
+      endFor
+   endIf
+   ;
+   if ListOfCoverages.count > 0
+      forEach curCoverage in ListOfCoverages
+         Result.type.Write(Concat('    ', 'Please Amend the Contract on', ' '), @Result)
+         Result.type.Write(Concat(curCoverage.EffectiveDate), @Result)
+         Result.type.Write(Concat(' ', 'due to the Coverage Mandaotry Version', ' ', 
+            curProdcut.GetTranslatedName), @Result)
+         Result.type.Write(Concat(curCoverage.GetTranslatedName), @Result)
+         Result.type.WriteLn('', @Result)
+      endFor
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218497280]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIGroupBenefitPlanContract]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDesc_ManualTask]]></RuleEngineUsingKindContext><ReturnType><aWF_RTF_TextType><Name>tWF_RTF_Text</Name><NSId>218103824</NSId><Id>936752437639774429</Id><ClassName>WFTypes</ClassName></aWF_RTF_TextType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318796827]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActivityDesc_ManualTask></UsedRules><MyOwner><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318796827]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActivityDesc_ManualTask></MyOwner><Name Id="3"><![CDATA[Task Message For Mandatoy Version Update]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[776]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></TaskMessageBaseOnRule><TaskMessageStatic Id="11"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></TaskMessageStatic><Priority Id="19"><![CDATA[0]]></Priority><ChosenFunctionalDomain Id="59"><![CDATA[3001]]></ChosenFunctionalDomain><EffectiveDateDefinitionType Id="44"><![CDATA[0]]></EffectiveDateDefinitionType><EffectiveDate_Duration Id="45"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></EffectiveDate_Duration><DueDateDefinitionType Id="46"><![CDATA[0]]></DueDateDefinitionType><DueDate_Duration Id="48"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></DueDate_Duration><OnActor_Rule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses aWFActor, aWLIGroupBenefitPlanContract
+
+
+function GBPContract return aWLIGroupBenefitPlanContract
+   if self.Master <> Nil
+      return aWLIGroupBenefitPlanContract(self.Master.OnObject)
+   else
+      return aWLIGroupBenefitPlanContract(self.OnObject)
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : aWFActor)
+   Result = self.GBPContract.Subscriber
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218497280]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIGroupBenefitPlanContract]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDesc_ManualTask]]></RuleEngineUsingKindContext><ReturnType><aClassDef><Name Id="2"><![CDATA[aWFActor]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218106519]]></Id></aClassDef></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318796827]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActivityDesc_ManualTask></UsedRules><MyOwner><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318796827]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActivityDesc_ManualTask></MyOwner><Name Id="3"><![CDATA[Get Subscriber from Group Contract]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[777]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></OnActor_Rule><Code Id="35"><![CDATA[CMTUB]]></Code><IsTechnical Id="72"><![CDATA[No]]></IsTechnical><Resource><aWFX_ResourceRepresentation><RepresentingClassDef><aClassDef><Name>aWLIGroupBenefitPlanContract</Name><NSId>218103810</NSId><Id>218112740</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><SelectedVars><aOverrideInstanceVarDesc><Name>TerminationReason</Name><NSId>218103824</NSId><Id>936787085140951541</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aOverrideInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>MemberProduct</Name><NSId>218103824</NSId><Id>936787085140951041</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aInstanceVarDesc></SelectedVars><UseStringExtract Id="33"><![CDATA[No]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><Name Id="3"><![CDATA[GBP Contract]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318796939]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Yes]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><FatalErrorText Id="66"><![CDATA[]]></FatalErrorText><Description Id="73"><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\htmautsp\deff2{\fonttbl{\f0\fcharset0 Times New Roman;}{\f2\fcharset0 Segoe UI;}}{\colortbl\red0\green0\blue0;\red255\green255\blue255;}\loch\hich\dbch\pard\plain\ltrpar\itap0{\lang1033\fs18\f2\cf0 \cf0\ql{\f2 {\lang1036\ltrch This activity identify on the GBP all Prodcut and Coverage Version subscribed that need to be amend due to the creation of a new Mandatory Version }\li0\ri0\sa0\sb0\fi0\ql\par}
+{\f2 {\lang1036\ltrch A manual task will be create to request user to Amend the GBP}\li0\ri0\sa0\sb0\fi0\ql\par}
+}
+}]]></Description><Name Id="3"><![CDATA[Create Manual Task To Update GBP]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318796827]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActivityDesc_ManualTask></EntityExport>

@@ -1,0 +1,151 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_SearchPolicies_In",
+			"kind":"tplib_All",
+			"policyName":"",
+			"clientIdentifiers":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842236_7"
+			},
+			"productIdentifiers":{
+				"productIdentifier":{
+					"issuingCompanyCode":"",
+					"productCode":""
+				},
+				"buid":""
+			},
+			"brokerIdentifiers":{
+				"brokerID":"",
+				"buid":""
+			},
+			"ownerLastName":"",
+			"ownerFirstName":"",
+			"withQuote":false,
+			"fromDate":null,
+			"toDate":null,
+			"fromTerminationDate":null,
+			"toTerminationDate":null,
+			"resultMaxSize":100
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000527",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"4800000527WEX",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318851264_19"
+			},
+			"effectiveDate":"2017-07-24",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Variable Life",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Austin",
+			"ownerFirstName":"Elaine",
+			"ownerBuid":"318842236_7"
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000528",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"4800000528WEX",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318851264_20"
+			},
+			"effectiveDate":"2017-07-24",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Universal Life",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Austin",
+			"ownerFirstName":"Elaine",
+			"ownerBuid":"318842236_7"
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000529",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"4800000529WEX",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318851264_21"
+			},
+			"effectiveDate":"2017-07-24",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Immediate Annuity",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Austin",
+			"ownerFirstName":"Elaine",
+			"ownerBuid":"318842236_7"
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000530",
+					"issuingCompanyCode":"W Insurance Company"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"4800000530WEX",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318844231_8"
+			},
+			"effectiveDate":"2017-07-24",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Disability Insurance",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Austin",
+			"ownerFirstName":"Elaine",
+			"ownerBuid":"318842236_7"
+		}
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchClientPolicies",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

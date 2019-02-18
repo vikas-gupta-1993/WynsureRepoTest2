@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport>
+	<aELI_ActivityDesc_MemberEnrollmentCompletion>
+		<Code Id="35">
+			<![CDATA[CIE]]>
+		</Code>
+		<IsTechnical Id="72">
+			<![CDATA[No]]>
+		</IsTechnical>
+		<Resource>
+			<aWFX_ResourceRepresentation>
+				<RepresentingClassDef>
+					<aClassDef>
+						<Name>aWLI_ManualEnrollment_Process</Name>
+						<NSId>218103810</NSId>
+						<Id>218113900</Id>
+					</aClassDef>
+				</RepresentingClassDef>
+				<Description Id="19">
+					<![CDATA[]]>
+				</Description>
+				<UseStringExtract Id="33">
+					<![CDATA[No]]>
+				</UseStringExtract>
+				<ExtractMode Id="34">
+					<![CDATA[0]]>
+				</ExtractMode>
+				<Name Id="3">
+					<![CDATA[Member Enrollment Process]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318796939]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[15]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[1]]>
+				</Version>
+			</aWFX_ResourceRepresentation>
+		</Resource>
+		<ProcessActivities Id="42">
+			<![CDATA[Yes]]>
+		</ProcessActivities>
+		<visibility Id="47">
+			<![CDATA[0]]>
+		</visibility>
+		<FatalErrorText Id="66">
+			<![CDATA[]]>
+		</FatalErrorText>
+		<Description Id="73">
+			<![CDATA[]]>
+		</Description>
+		<Name Id="3">
+			<![CDATA[Complete Initial Enrollment Activation]]>
+		</Name>
+		<MigrationDate Id="15">
+			<![CDATA[--/--/----]]>
+		</MigrationDate>
+		<NSId Id="1">
+			<![CDATA[321191999]]>
+		</NSId>
+		<Id Id="2">
+			<![CDATA[1]]>
+		</Id>
+		<Version Id="3">
+			<![CDATA[1]]>
+		</Version>
+	</aELI_ActivityDesc_MemberEnrollmentCompletion>
+</EntityExport>

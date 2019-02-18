@@ -1,0 +1,16 @@
+.addDataWrapper,
+.itemName {
+	margin-bottom: 5px;
+}
+
+.itemContener .divider {
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #FFFFFF;
+    height: 1px;
+    margin: 8px 1px;
+    overflow: hidden;
+}
+
+.fieldsOnCondition .condition .checkbox{
+	padding-left: 0px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWLI_SimpleLossDesc><Code Id="28"><![CDATA[ARR]]></Code><Disabled Id="18"><![CDATA[Faux]]></Disabled><LossClassDef><aClassDef><Name Id="2"><![CDATA[aWLIFR_TemporaryDisabilityLoss]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218187871]]></Id></aClassDef></LossClassDef><LossFamily Id="29"><![CDATA[0]]></LossFamily><DynamicDataDesc><aWFDynamicObjectDesc><UseValidationRule Id="14"><![CDATA[Faux]]></UseValidationRule><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838829]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[9]]></Version></aWFDynamicObjectDesc></DynamicDataDesc><CloseDateCalculationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[If the claim is open with a loss open without benefit delivered then : 3 months after the creation the motive of closure is "without further action"("Sans suite")
+If the claim is open with a loss open with benefit delivered without indemnification then : 6 months after the creation the motive of closure is "without further action"("Sans suite")
+If the claim is open with all losses closed then : 3 months after the creation the motive of closure is "Closed"("Fermé")
+]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLI_ClaimRuleEngine) (Def Version:11) (Implem Version:1)
+
+class aWF_RT_Formule (aWLI_ClaimRuleEngine)
+
+uses WFTypes, aWLI_Claim
+
+
+; Rule
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFDate)
+   var dateDeCloture : tWFDate
+   
+   if (self.Sinistre__Statut <> msClosed) and (self.Prejudice__Statut <> msClosed) and 
+      (self.Prejudice__Date_de_derniere_modification = self.Prejudice__DateDeclaration)
+      dateDeCloture = self.Prejudice__DateDeclaration
+      self.Incrementer_En_Mois_Une_Date(3, dateDeCloture)
+      if self.Definir_motif_de_cloture('1')
+      endIf
+   elseif (self.Sinistre__Statut <> msClosed) and (self.Prejudice__Statut <> msClosed) and 
+      (self.Prejudice__Date_de_modification_service_delivre <> self.Prejudice__DateDeclaration) and 
+      (self.ServiceDelivre__Date_de_derniere_indemnisation <> self.Prejudice__DateDeclaration)
+      dateDeCloture = self.Prejudice__DateDeclaration
+      self.Incrementer_En_Mois_Une_Date(6, dateDeCloture)
+      if self.Definir_motif_de_cloture('1')
+      endIf
+   elseif (self.Sinistre__Statut <> msClosed) and (self.Prejudice__Statut = msClosed)
+      dateDeCloture = self.Prejudice__DateDeclaration
+      self.Incrementer_En_Mois_Une_Date(3, dateDeCloture)
+      if self.Definir_motif_de_cloture('5')
+      endIf
+   else
+      dateDeCloture = self.Date_Non_Definie
+   endIf
+   ;
+   Result = dateDeCloture
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLI_ClaimRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218186010]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLI_CapitalBenefitBroker]]></RuleEngineUsingKindContext><ReturnType><aWFDateType><Name>tWFDate</Name><NSId>218103824</NSId><Id>937033324205965314</Id><ClassName>WFTypes</ClassName></aWFDateType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Règle de clôture ]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835509]]></NSId><Id Id="2"><![CDATA[687]]></Id><Version Id="3"><![CDATA[11]]></Version></aWFRuleDesc></CloseDateCalculationRule><DefaultAutomaticCloseReason Id="48"><![CDATA[1]]></DefaultAutomaticCloseReason><Name Id="3"><![CDATA[Arrêt de travail]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[9]]></Version></aWLI_SimpleLossDesc></EntityExport>

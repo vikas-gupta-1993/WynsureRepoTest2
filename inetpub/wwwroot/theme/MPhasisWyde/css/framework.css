@@ -1,0 +1,75 @@
+@import url("framework-language.css");
+@import url("framework-bootstrap.css");
+@import url("framework-portalfooter.css");
+@import url("framework-portalheader.css");
+@import url("framework-pagetitle.css");
+@import url("framework-pagecontent.css");
+
+#LeftPanelWrapper div.nav-list {
+  padding: 0;
+}
+ul.nav-list {
+  padding-right: 0;
+}
+div.nav-list > h5 > a {
+  display: block;
+  padding: 3px 0 3px 2px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.removeLink{
+	color: #bd362f;
+}
+.input-date{
+	width: 75px;
+}
+
+.input-SizeInherite{
+	width: inherit;
+}
+
+.input-smallMedium{
+	width: 110px;
+}
+
+a.muted{
+	cursor: pointer;
+}
+
+body .input-append, body .input-prepend {
+  margin-bottom: 0px;
+}
+/* the following code is to make the portal semi-responsive(tablet and laptop view; mobile view is a WIP) */
+
+#SideNavigation {
+  width: 100%;
+  height: auto;
+  position: relative;
+  }
+  
+  @media screen and (max-width: 991px) {
+  #SideNavigation .sub-menu-row{
+      text-align: left;
+      display:table-cell;
+      padding-right: 5px;
+    }
+  
+    #LeftPanel .ActorSideDigestPresenter{
+      float: left;
+    }
+  
+    #RightPanel .sub-menu-row{
+      text-align: left;
+      display:table-cell;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    #SideNavigation .sub-menu-row{  
+      text-align:left;
+      display:inline;
+    }
+  }

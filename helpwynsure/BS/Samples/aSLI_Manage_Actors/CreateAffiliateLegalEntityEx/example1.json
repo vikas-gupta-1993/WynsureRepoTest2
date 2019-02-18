@@ -1,0 +1,665 @@
+{
+	"description": "",
+	"request": {
+		"legalEntityId": {
+			"buid": "318842807_10",
+			"internalClientId": "",
+			"externalClientIdentifier": {
+				"externalClientId": "",
+				"thirdPartyID": ""
+			}
+		},
+		"affiliateInformation": {
+			"$ref": "#",
+			"className": "aSPLI_CreateOrUpdateLegalEntityDivision_In",
+			"headQuarter": {
+				"$ref": "#",
+				"className": "aSPLI_GetLegalEntity",
+				"searchLegalEntity": {
+					"buid": "318842807_21",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": ""
+					}
+				},
+				"createOrUpdateLegalEntity": null
+			},
+			"startDate": "2015-01-07",
+			"endDate": null
+		}
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_LegalEntityData",
+		"bUID": "318842807_10",
+		"dataHistory": [
+		],
+		"thirdPartyId": "DistRoot",
+		"correspondences": [
+			{
+				"className": "aSPCB_Correspondence",
+				"effectiveDate": "1800-01-01",
+				"addressUsage": "0",
+				"address": {
+					"className": "aSPCB_US_PostalAddress",
+					"line1": "320 CONESTOGA WAY APT 4105",
+					"line2": "",
+					"zipCodeAndCity": {
+						"zipCode": "82001",
+						"city": "Cheyenne"
+					},
+					"country": "USA",
+					"district": "",
+					"state": "WY",
+					"county": "",
+					"fIPSCode": 0
+				},
+				"isDefaultCorrespondance": true,
+				"privatePhone": "(732) 263-0151",
+				"privatePhoneExtension": "",
+				"officePhone": "",
+				"officePhoneExtension": "",
+				"cellPhone": "(732) 263-0151",
+				"fax": "(732) 263-0151",
+				"eMail": "athomecareinc@free.com",
+				"mediaType": "Mail",
+				"isInvalid": false,
+				"reasonForInvalidAddress": ""
+			}
+		],
+		"paymentMethods": [
+			{
+				"className": "aSPCB_US_BankAccount",
+				"name": "Chase Manhattan Bank",
+				"effectiveDate": "2013-05-24",
+				"endDate": null,
+				"holderName": "At Home Care Inc.",
+				"currency": "cUSDollar",
+				"accountType": "catChecking",
+				"branchName": "Branch",
+				"depositType": "dpNA",
+				"bankName": "Chase Manhattan Bank",
+				"address": {
+					"className": "aSPCB_US_PostalAddress",
+					"line1": "8063 LEXINGTON AVENUE",
+					"line2": "",
+					"zipCodeAndCity": {
+						"zipCode": "10015",
+						"city": "NEW YORK"
+					},
+					"country": "USA",
+					"district": "",
+					"state": "NY",
+					"county": "",
+					"fIPSCode": 0
+				},
+				"accountNumber": "000140867176225",
+				"routingNumber": "091000019",
+				"preNoteCompleted": true,
+				"preNoteProcessCompletionDate": "2014-01-01"
+			}
+		],
+		"contacts": [
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Secretary",
+				"contactName": "John Smith",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Director",
+				"contactName": "William Doe",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Sales man",
+				"contactName": "Kent Johns",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Financial director",
+				"contactName": "Ruth Browns",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Project manager",
+				"contactName": "Steve Powell",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Chief executive officer",
+				"contactName": "Roberta Jackson",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Advisor",
+				"contactName": "Elizabeth White",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Staff manager",
+				"contactName": "Sandy Robinson",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Accountant",
+				"contactName": "Heather Clarck",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			},
+			{
+				"className": "aSPCB_ActorContact",
+				"name": "Technical director",
+				"contactName": "Maria Walker",
+				"beginDate": null,
+				"endDate": null,
+				"correspondence": {
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "320 CONESTOGA WAY APT 4105",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "82001",
+							"city": "Cheyenne"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "WY",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(732) 263-0151",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(732) 263-0151",
+					"fax": "(732) 263-0151",
+					"eMail": "athomecareinc@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				},
+				"role": [
+				],
+				"correspondenceChoice": "predefined",
+				"mediaType": "Mail",
+				"isDeaultContact": false
+			}
+		],
+		"logins": [
+			{
+				"data": {
+					"className": "aSPCB_ExternalApplicationUserData",
+					"bUID": "318840020_95",
+					"dataHistory": [
+					],
+					"profiles": [
+						{
+							"className": "aSPCB_ProfileIdentifier",
+							"bUID": "318833058_49",
+							"description": "wPortal Broker",
+							"code": "WB"
+						},
+						{
+							"className": "aSPCB_ProfileIdentifier",
+							"bUID": "318833058_51",
+							"description": "wPortal Group Admin",
+							"code": "WGA"
+						},
+						{
+							"className": "aSPCB_ProfileIdentifier",
+							"bUID": "318833058_52",
+							"description": "wPortal Legal Entity Client",
+							"code": "WLEC"
+						}
+					],
+					"organizationUnit": null,
+					"hasVisibilityOnDistributionTree": {
+						"className": "aSPCB_OrganizationUnitIdentifier",
+						"bUID": "318842782_3",
+						"description": "Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode": "AA"
+					},
+					"loginEntity": {
+						"className": "aSPCB_ApplicationLogin",
+						"name": "athomecareinc@free.com",
+						"password": "",
+						"forbatch": false,
+						"isDisabled": false,
+						"jobLabel": "",
+						"preferedLanguageCode": "",
+						"email": "athomecareinc@free.com"
+					},
+					"actor": {
+						"className": "aSPCB_ActorIdentifier",
+						"bUID": "318842807_10",
+						"description": "At Home Care Inc. (AHC)"
+					}
+				},
+				"identifier": {
+					"className": "aSPCB_ExternalApplicationUserIdentifier",
+					"bUID": "318840020_95",
+					"description": "athomecareinc@free.com",
+					"name": "athomecareinc@free.com",
+					"actorReference": {
+						"className": "aSPLI_LegalEntityIdentifier",
+						"bUID": "318842807_10",
+						"description": "At Home Care Inc. (AHC)",
+						"internalClientId": "0000000085",
+						"externalClientId": {
+							"externalClientId": "0000000073WEX",
+							"thirdPartyID": "DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"claimDisbursementChannel": [
+		],
+		"actorDataExtension": null,
+		"externalClientId": "0000000073WEX",
+		"actor": {
+			"className": "aSPLI_US_LegalEntity",
+			"shortName": "AHC",
+			"creationDate": "2018-09-10",
+			"preferredLanguageCode": "En",
+			"terminationDate": null,
+			"preferredContactChoice": "pcDefaultCorrespondence",
+			"delinquent": false,
+			"underSurveillance": false,
+			"isAnonymous": false,
+			"name": "At Home Care Inc.",
+			"masterLegalEntity": {
+				"buid": "",
+				"internalClientId": "",
+				"externalClientIdentifier": {
+					"externalClientId": "",
+					"thirdPartyID": ""
+				}
+			},
+			"activity": "",
+			"inBankrupcy": false,
+			"country": "USA",
+			"state": "NY",
+			"industrialClassification": {
+				"classificationSystem": "SIC US",
+				"code": "4493"
+			},
+			"totalNumberOfEmployees": 100,
+			"additionalDatas": [
+			],
+			"companyType": "PRI",
+			"worksiteStates": [
+				"MN",
+				"NY"
+			],
+			"taxId": "10"
+		},
+		"headquarters": [
+			{
+				"className": "aSPCB_ExternalRelationWithActorData",
+				"bUID": "318837252_10",
+				"dataHistory": [
+				],
+				"externalRelationshipWithActor": {
+					"className": "aSPCB_ExternalRelationWithActor",
+					"startDate": "2015-01-07",
+					"endDate": null
+				},
+				"actor": {
+					"className": "aSPCB_ClientIdentifier",
+					"bUID": "318842807_21",
+					"description": "Alpha Trading Company (Alpha Trading Company)",
+					"internalClientId": "0000000096",
+					"externalClientId": {
+						"externalClientId": "0000000096",
+						"thirdPartyID": "DistRoot"
+					}
+				}
+			}
+		]
+	},
+	"eval": null,
+	"className": "asli_manage_Actors",
+	"methodName": "CreateAffiliateLegalEntityEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-07",
+	"errors": [
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"accountId":"",
+			"clientId":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318843033_11"
+			},
+			"buid":""
+		}
+	},
+	"response":{
+		"_Result":null
+	},
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetClientAccount",
+	"version":"5.7.3.0",
+	"date":"2017-11-27",
+	"errors":[
+		{
+			"code":"786B_BS_00002",
+			"message":"Business Object is not a descendant of aWFClientAccount",
+			"kind":"errInfo",
+			"kindNumber":4
+		},
+		{
+			"code":"031D_BS_00030",
+			"message":"Account type not handled",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

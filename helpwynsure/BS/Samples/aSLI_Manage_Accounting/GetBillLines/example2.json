@@ -1,0 +1,76 @@
+{
+	"description":"",
+	"request":{
+		"billBuid":"318844139_13"
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetBillLineInfo_Out",
+			"whoIsBilled":"master master",
+			"amount":{
+				"amount":1.09,
+				"currency":"cUSDollar"
+			},
+			"amountHT":{
+				"amount":1.03,
+				"currency":"cUSDollar"
+			},
+			"billedEntityName":"Short Term Disability",
+			"fromDate":"2017-12-26",
+			"toDate":"2018-01-25",
+			"lineKind":"cPeriodic",
+			"comment":"Flat rate $12.00  Annually Rate guaranteed in policy from 12\/26\/2017\r\n\r\nCalculated rate $12.00 for master master (Owner) (From 12\/26\/2017 To...)\r\n\r\n\r\nModal details without tax Annually\/$12.00, Premium factor used 0.086\r\n\r\n   OASDI: 6.20% = $0.06 (0.063984)\r\n",
+			"shortComment":"Flat rate $12.00  Annually Rate guaranteed in policy from 12\/26\/2017",
+			"adjustment":false,
+			"waivedAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"waivedAmountHT":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"dayPrice":0.0353543225806452,
+			"dayPriceHT":0.0332903225806452,
+			"status":"cNotReconciled",
+			"buid":""
+		},
+		{
+			"className":"aSPLI_GetBillLineInfo_Out",
+			"whoIsBilled":"Monthly Fees",
+			"amount":{
+				"amount":1.25,
+				"currency":"cUSDollar"
+			},
+			"amountHT":{
+				"amount":1.25,
+				"currency":"cUSDollar"
+			},
+			"billedEntityName":"Short Term Disability",
+			"fromDate":"2017-12-26",
+			"toDate":null,
+			"lineKind":"cFee",
+			"comment":"Fee $1.25 per billing period\r\n\r\n",
+			"shortComment":"Fee $1.25 per billing period",
+			"adjustment":false,
+			"waivedAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"waivedAmountHT":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"dayPrice":1.25,
+			"dayPriceHT":1.25,
+			"status":"cNotReconciled",
+			"buid":""
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetBillLines",
+	"version":"5.8.1.0",
+	"date":"2018-01-03",
+	"errors":[
+	]
+}

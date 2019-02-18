@@ -1,0 +1,5 @@
+/* Hidding the Quote title from RTF summary: Quote for.... already displayed above*/
+.TitleId0Lvl3{
+	display: none
+}
+

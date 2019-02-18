@@ -1,0 +1,35 @@
+{
+	"description":"",
+	"request":{
+		"paramIn":{
+			"className":"aSPLI_GetEmployee_In",
+			"lEBuid":"318842273_25",
+			"lEShortName":"",
+			"lEName":"",
+			"lastName":"",
+			"firstName":"",
+			"birthDate":null,
+			"memberID":"",
+			"clientID":"",
+			"minSalary":{
+				"amount":0,
+				"currency":"USD"
+			},
+			"maxSalary":{
+				"amount":0,
+				"currency":"USD"
+			}
+		},
+		"maxSize":100
+	},
+	"response":[
+	],
+	"className":"aSLI_Manage_Employee",
+	"methodName":"SearchEmployees",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

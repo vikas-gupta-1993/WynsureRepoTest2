@@ -1,0 +1,659 @@
+{
+	"description": "",
+	"request": {
+		"quoteBuid": "{{quoteBUID}}"
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_IndividualContractData",
+		"bUID": "318844765_25",
+		"dataHistory": [
+		],
+		"documentRequest": {
+			"data": null,
+			"identifier": {
+				"className": "aSPCB_ContractIdentifier",
+				"bUID": "318844554_75",
+				"description": "",
+				"internalContractID": "",
+				"externalContractID": "",
+				"thirdPartyID": ""
+			}
+		},
+		"contract": {
+			"className": "aSPLI_TC_Policy",
+			"policyIdentifier": {
+				"buid": "",
+				"internalPolicyIdentifier": {
+					"internalPolicyId": "",
+					"issuingCompanyCode": ""
+				},
+				"externalPolicyIdentifier": {
+					"externalPolicyId": "",
+					"thirdPartyID": ""
+				}
+			},
+			"updateDate": "2018-12-18",
+			"billingService": {
+				"className": "aSPLI_TC_BillingService",
+				"billingSettings": {
+					"className": "aSPLI_IndividualBillDesc",
+					"beginOfFirstPeriod": "2018-12-18",
+					"beginOfSecondPeriod": "2018-12-18",
+					"endOfLastPeriod": null,
+					"beginOfNextPeriod": null,
+					"terminationDate": null,
+					"waiveBillingPeriod": false,
+					"isManuallyManaged": false,
+					"frequency": "fMonthly"
+				},
+				"billContactName": "B_0",
+				"invoiceSettings": null,
+				"disbursementSettings": null
+			},
+			"limitsAndDeductibles": {
+				"className": "aSPCB_ContractLimitsAndDeductibles_Data",
+				"supportLimitsAndDeductible": false,
+				"modifiableAtSubscription": false,
+				"limitsAndDeductibles": [
+				],
+				"coveragesLimitsAndDeductibles": [
+					{
+						"className": "aSPCB_CoverageLimitsAndDeductibles_Data",
+						"supportLimitsAndDeductible": false,
+						"modifiableAtSubscription": false,
+						"limitsAndDeductibles": [
+						],
+						"coveredOption": {
+							"className": "aSPLI_IndividualLifeCoverage",
+							"creationDate": "2018-12-18",
+							"subscribedPackage": "",
+							"optionCode": "10YTL",
+							"optionName": "Term Life",
+							"effectiveDate": "2018-12-18",
+							"subscriptionDate": "2018-12-18",
+							"terminationDate": null,
+							"terminationReason": "",
+							"terminationNumber": 0,
+							"billingServiceName": "",
+							"status": "cProject",
+							"additionalDatas": [
+							],
+							"grandFathered": false
+						}
+					}
+				]
+			},
+			"policyInformation": {
+				"className": "aSPLI_IndividualContract",
+				"creationDate": "2018-12-18",
+				"effectiveDate": "2018-12-18",
+				"subscriptionDate": "2018-12-18",
+				"signatureDate": "2018-12-18",
+				"termOrRenewalDate": "2028-12-18",
+				"lastRenewalDate": null,
+				"reinstatementDate": null,
+				"terminationDate": null,
+				"terminationReason": "",
+				"terminationNumber": 0,
+				"billingMode": "cNextPeriod",
+				"endorsementKind": "",
+				"status": "cProject",
+				"externalManagement": false,
+				"claimExternalManagement": false,
+				"residenceStateCode": {
+					"stateName": "RI",
+					"stateCode": "RI",
+					"stateLabel": "Signature State"
+				},
+				"additionalDatas": [
+				],
+				"productCode": {
+					"buid": "318843513_4",
+					"productIdentifier": {
+						"issuingCompanyCode": "WIC",
+						"productCode": "SI10TLM"
+					}
+				}
+			},
+			"subscriber": {
+				"className": "aSPLI_TC_Person",
+				"subscriber": {
+					"className": "aSPLI_CreateOrUpdatePerson_Data",
+					"thirdPartyID": "DistRoot",
+					"updateDate": null,
+					"correspondences": [
+						{
+							"className": "aSPCB_Correspondence",
+							"effectiveDate": "1800-01-01",
+							"addressUsage": "0",
+							"address": {
+								"className": "aSPCB_US_PostalAddress",
+								"line1": "1405 MELM STREET",
+								"line2": "",
+								"zipCodeAndCity": {
+									"zipCode": "02908",
+									"city": "Providence"
+								},
+								"country": "USA",
+								"district": "",
+								"state": "RI",
+								"county": "",
+								"fIPSCode": 0
+							},
+							"isDefaultCorrespondance": true,
+							"privatePhone": "(401) 271-2285",
+							"privatePhoneExtension": "",
+							"officePhone": "",
+							"officePhoneExtension": "",
+							"cellPhone": "(401) 271-2285",
+							"fax": "",
+							"eMail": "cheryl.bennett@free.com",
+							"mediaType": "Mail",
+							"isInvalid": false,
+							"reasonForInvalidAddress": ""
+						}
+					],
+					"paymentMethods": [
+						{
+							"className": "aSPCB_US_BankAccount",
+							"name": "Chase Manhattan Bank",
+							"effectiveDate": "2013-06-17",
+							"endDate": null,
+							"holderName": "Bennett",
+							"currency": "cUSDollar",
+							"accountType": "catChecking",
+							"branchName": "Branch",
+							"depositType": "dpNA",
+							"bankName": "Chase Manhattan Bank",
+							"address": {
+								"className": "aSPCB_US_PostalAddress",
+								"line1": "1508 LEXINGTON AVENUE",
+								"line2": "",
+								"zipCodeAndCity": {
+									"zipCode": "10015",
+									"city": "NEW YORK"
+								},
+								"country": "USA",
+								"district": "",
+								"state": "NY",
+								"county": "",
+								"fIPSCode": 0
+							},
+							"accountNumber": "000140867161567",
+							"routingNumber": "091000019",
+							"preNoteCompleted": true,
+							"preNoteProcessCompletionDate": "2014-01-01"
+						}
+					],
+					"contactInformations": [
+					],
+					"loginInformation": {
+						"className": "aSPCB_CreateOrUpdateLoginForActor_Data",
+						"logins": [
+							{
+								"className": "aSPCB_CreateOrUpdateLogin_Data",
+								"applicationLogin": {
+									"className": "aSPCB_GetApplicationLoginInfo",
+									"buid": "318840020_64",
+									"paramEntity": {
+										"className": "aSPCB_ApplicationLogin",
+										"name": "cheryl.bennett@free.com",
+										"password": "",
+										"forbatch": false,
+										"isDisabled": false,
+										"jobLabel": "",
+										"preferedLanguageCode": "",
+										"email": "cheryl.bennett@free.com"
+									},
+									"hasExtendedProfile": false
+								},
+								"profiles": [
+									{
+										"className": "aSPF_GetAuthorizationProfileInfo",
+										"buid": "318833058_49",
+										"paramEntity": {
+											"className": "aSPF_AuthorizationProfile",
+											"name": "wPortal Broker",
+											"code": "WB",
+											"isDisabled": false,
+											"isForExternalActor": true
+										}
+									},
+									{
+										"className": "aSPF_GetAuthorizationProfileInfo",
+										"buid": "318833058_50",
+										"paramEntity": {
+											"className": "aSPF_AuthorizationProfile",
+											"name": "wPortal Individual Client",
+											"code": "WC",
+											"isDisabled": false,
+											"isForExternalActor": true
+										}
+									}
+								]
+							}
+						]
+					},
+					"clientId": {
+						"buid": "318842770_42",
+						"internalClientId": "0000000042",
+						"externalClientIdentifier": {
+							"externalClientId": "0000000042WEX",
+							"thirdPartyID": "DistRoot"
+						}
+					},
+					"personIdentity": {
+						"className": "aSPLI_Person",
+						"name": "Bennett",
+						"shortName": "Cheryl",
+						"creationDate": "2018-09-10",
+						"preferredLanguageCode": "En",
+						"terminationDate": null,
+						"preferredContactChoice": "pcDefaultCorrespondence",
+						"delinquent": false,
+						"underSurveillance": false,
+						"isAnonymous": false,
+						"birthDate": "1967-06-15",
+						"personTitleEnum": "ptMrs",
+						"priorName": "",
+						"middleName1": "",
+						"middleName2": "",
+						"nameSuffix": "",
+						"gender": "gFemale",
+						"sSN": "476262165",
+						"maritalStatus": "cMarried",
+						"attachedToAnOtherSSN": false,
+						"nationality": "USA",
+						"birthRank": 1,
+						"birthCountry": "USA",
+						"birthPlaceCity": "Providence",
+						"birthPlaceZipCode": "02908",
+						"birthPlaceState": "",
+						"legalRepresentativeId_Deprecated5200": {
+							"buid": "",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": ""
+							}
+						},
+						"occupation": "",
+						"additionalDatas": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "1",
+								"fieldName": "Internal Employee",
+								"codeForPopulationClass": "",
+								"valueCode": "NIE",
+								"fieldValue": "Is Not Internal Employee",
+								"nameDescription": "Is Not Internal Employee"
+							},
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "2",
+								"fieldName": "VIP",
+								"codeForPopulationClass": "",
+								"valueCode": "Is not VIP",
+								"fieldValue": "Is not VIP",
+								"nameDescription": "Is not VIP"
+							}
+						],
+						"oldSSN": "",
+						"oldLastName": "",
+						"oldFirstname": "",
+						"oldDOB": null,
+						"isIncapableAdult": false,
+						"isEmancipatedMinor": false
+					},
+					"legalRepresentative": null,
+					"claimDisbursementChannel": [
+					]
+				}
+			},
+			"coverages": [
+				{
+					"className": "aSPLI_TC_Coverage",
+					"coverageGeneralInformation": {
+						"className": "aSPLI_IndividualLifeCoverage",
+						"creationDate": "2018-12-18",
+						"subscribedPackage": "",
+						"optionCode": "10YTL",
+						"optionName": "Term Life",
+						"effectiveDate": "2018-12-18",
+						"subscriptionDate": "2018-12-18",
+						"terminationDate": null,
+						"terminationReason": "",
+						"terminationNumber": 0,
+						"billingServiceName": "",
+						"status": "cProject",
+						"additionalDatas": [
+						],
+						"grandFathered": false
+					},
+					"coverageAmount": {
+						"className": "aSPLI_CoverageAmountVersion",
+						"effectiveDate": "2018-12-18",
+						"amount": {
+							"amount": 20000.00,
+							"currency": "USD"
+						}
+					},
+					"insuredPersons": [
+						{
+							"className": "aSPLI_CreateOrUpdateCoveredPerson_In",
+							"coveredPerson": {
+								"className": "aSPLI_GetPerson",
+								"searchPerson": {
+									"buid": "318842770_42",
+									"internalClientId": "0000000042",
+									"externalClientIdentifier": {
+										"externalClientId": "0000000042WEX",
+										"thirdPartyID": "DistRoot"
+									}
+								},
+								"createOrUpdatePerson": {
+									"className": "aSPLI_CreateOrUpdatePerson_Data",
+									"thirdPartyID": "DistRoot",
+									"updateDate": null,
+									"correspondences": [
+										{
+											"className": "aSPCB_Correspondence",
+											"effectiveDate": "1800-01-01",
+											"addressUsage": "0",
+											"address": {
+												"className": "aSPCB_US_PostalAddress",
+												"line1": "1405 MELM STREET",
+												"line2": "",
+												"zipCodeAndCity": {
+													"zipCode": "02908",
+													"city": "Providence"
+												},
+												"country": "USA",
+												"district": "",
+												"state": "RI",
+												"county": "",
+												"fIPSCode": 0
+											},
+											"isDefaultCorrespondance": true,
+											"privatePhone": "(401) 271-2285",
+											"privatePhoneExtension": "",
+											"officePhone": "",
+											"officePhoneExtension": "",
+											"cellPhone": "(401) 271-2285",
+											"fax": "",
+											"eMail": "cheryl.bennett@free.com",
+											"mediaType": "Mail",
+											"isInvalid": false,
+											"reasonForInvalidAddress": ""
+										}
+									],
+									"paymentMethods": [
+										{
+											"className": "aSPCB_US_BankAccount",
+											"name": "Chase Manhattan Bank",
+											"effectiveDate": "2013-06-17",
+											"endDate": null,
+											"holderName": "Bennett",
+											"currency": "cUSDollar",
+											"accountType": "catChecking",
+											"branchName": "Branch",
+											"depositType": "dpNA",
+											"bankName": "Chase Manhattan Bank",
+											"address": {
+												"className": "aSPCB_US_PostalAddress",
+												"line1": "1508 LEXINGTON AVENUE",
+												"line2": "",
+												"zipCodeAndCity": {
+													"zipCode": "10015",
+													"city": "NEW YORK"
+												},
+												"country": "USA",
+												"district": "",
+												"state": "NY",
+												"county": "",
+												"fIPSCode": 0
+											},
+											"accountNumber": "000140867161567",
+											"routingNumber": "091000019",
+											"preNoteCompleted": true,
+											"preNoteProcessCompletionDate": "2014-01-01"
+										}
+									],
+									"contactInformations": [
+									],
+									"loginInformation": {
+										"className": "aSPCB_CreateOrUpdateLoginForActor_Data",
+										"logins": [
+											{
+												"className": "aSPCB_CreateOrUpdateLogin_Data",
+												"applicationLogin": {
+													"className": "aSPCB_GetApplicationLoginInfo",
+													"buid": "318840020_64",
+													"paramEntity": {
+														"className": "aSPCB_ApplicationLogin",
+														"name": "cheryl.bennett@free.com",
+														"password": "",
+														"forbatch": false,
+														"isDisabled": false,
+														"jobLabel": "",
+														"preferedLanguageCode": "",
+														"email": "cheryl.bennett@free.com"
+													},
+													"hasExtendedProfile": false
+												},
+												"profiles": [
+													{
+														"className": "aSPF_GetAuthorizationProfileInfo",
+														"buid": "318833058_49",
+														"paramEntity": {
+															"className": "aSPF_AuthorizationProfile",
+															"name": "wPortal Broker",
+															"code": "WB",
+															"isDisabled": false,
+															"isForExternalActor": true
+														}
+													},
+													{
+														"className": "aSPF_GetAuthorizationProfileInfo",
+														"buid": "318833058_50",
+														"paramEntity": {
+															"className": "aSPF_AuthorizationProfile",
+															"name": "wPortal Individual Client",
+															"code": "WC",
+															"isDisabled": false,
+															"isForExternalActor": true
+														}
+													}
+												]
+											}
+										]
+									},
+									"clientId": {
+										"buid": "318842770_42",
+										"internalClientId": "0000000042",
+										"externalClientIdentifier": {
+											"externalClientId": "0000000042WEX",
+											"thirdPartyID": "DistRoot"
+										}
+									},
+									"personIdentity": {
+										"className": "aSPLI_Person",
+										"name": "Bennett",
+										"shortName": "Cheryl",
+										"creationDate": "2018-09-10",
+										"preferredLanguageCode": "En",
+										"terminationDate": null,
+										"preferredContactChoice": "pcDefaultCorrespondence",
+										"delinquent": false,
+										"underSurveillance": false,
+										"isAnonymous": false,
+										"birthDate": "1967-06-15",
+										"personTitleEnum": "ptMrs",
+										"priorName": "",
+										"middleName1": "",
+										"middleName2": "",
+										"nameSuffix": "",
+										"gender": "gFemale",
+										"sSN": "476262165",
+										"maritalStatus": "cMarried",
+										"attachedToAnOtherSSN": false,
+										"nationality": "USA",
+										"birthRank": 1,
+										"birthCountry": "USA",
+										"birthPlaceCity": "Providence",
+										"birthPlaceZipCode": "02908",
+										"birthPlaceState": "",
+										"legalRepresentativeId_Deprecated5200": {
+											"buid": "",
+											"internalClientId": "",
+											"externalClientIdentifier": {
+												"externalClientId": "",
+												"thirdPartyID": ""
+											}
+										},
+										"occupation": "",
+										"additionalDatas": [
+											{
+												"className": "aSPCB_ClassificationValue",
+												"fieldCode": "1",
+												"fieldName": "Internal Employee",
+												"codeForPopulationClass": "",
+												"valueCode": "NIE",
+												"fieldValue": "Is Not Internal Employee",
+												"nameDescription": "Is Not Internal Employee"
+											},
+											{
+												"className": "aSPCB_ClassificationValue",
+												"fieldCode": "2",
+												"fieldName": "VIP",
+												"codeForPopulationClass": "",
+												"valueCode": "Is not VIP",
+												"fieldValue": "Is not VIP",
+												"nameDescription": "Is not VIP"
+											}
+										],
+										"oldSSN": "",
+										"oldLastName": "",
+										"oldFirstname": "",
+										"oldDOB": null,
+										"isIncapableAdult": false,
+										"isEmancipatedMinor": false
+									},
+									"legalRepresentative": null,
+									"claimDisbursementChannel": [
+									]
+								}
+							},
+							"details": {
+								"className": "aSPLI_CoveredPerson",
+								"relationship_Deprecated": "cCoveredSubscriber",
+								"endDate": null,
+								"effectiveDate": "2018-12-18",
+								"additionalDatas": [
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "USC",
+										"fieldName": "US Citizen",
+										"codeForPopulationClass": "",
+										"valueCode": "1",
+										"fieldValue": "Is US Citizen",
+										"nameDescription": "Yes"
+									},
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "ARC",
+										"fieldName": "Has the insured been diagnosed with ARC due to HIV infection",
+										"codeForPopulationClass": "",
+										"valueCode": "2",
+										"fieldValue": "Is Not Has the insured been diagnosed with ARC due to HIV infec",
+										"nameDescription": "No"
+									},
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "AIDS",
+										"fieldName": "Has the insured been diagnosed as having AIDS",
+										"codeForPopulationClass": "",
+										"valueCode": "2",
+										"fieldValue": "Is Not Has the insured been diagnosed as having AIDS",
+										"nameDescription": "No"
+									},
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "HIV",
+										"fieldName": "Has the insured tested positive for HIV infection",
+										"codeForPopulationClass": "",
+										"valueCode": "2",
+										"fieldValue": "Is Not Has the insured tested positive for HIV infection",
+										"nameDescription": "No"
+									},
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "SMS",
+										"fieldName": "Smoker Status",
+										"codeForPopulationClass": "",
+										"valueCode": "NSM",
+										"fieldValue": "Non Smoker",
+										"nameDescription": "Non Smoker"
+									}
+								]
+							},
+							"relationToOwners": [
+							]
+						}
+					],
+					"beneficiaries": [
+						{
+							"className": "aSPLI_BeneficiariesDescriptionForCovered",
+							"beneficiaries_Data": {
+								"className": "aSPLI_Beneficiaries",
+								"beneficiariesType": "cByWillOrEstate",
+								"overriddenBeneficiariesProvision": "",
+								"collateralAssignment": false,
+								"wholeDebt": false,
+								"assignedDebt": {
+									"amount": 0.00,
+									"currency": "USD"
+								},
+								"fractionsOrPercentage": "cUsePercentages",
+								"basedOn": {
+									"code": "",
+									"coverageName": ""
+								}
+							},
+							"beneficiariesDescription": [
+							],
+							"specificProvisions": null,
+							"secondTierBeneficiaryProvision": [
+							],
+							"covered": {
+								"className": "aSPLI_InsuredWithRelation",
+								"clientId": {
+									"buid": "318842770_42",
+									"internalClientId": "0000000042",
+									"externalClientIdentifier": {
+										"externalClientId": "0000000042WEX",
+										"thirdPartyID": "DistRoot"
+									}
+								},
+								"lastName": "Bennett",
+								"firstName": "Cheryl",
+								"birthDate": "1967-06-15",
+								"sSN": "476262165",
+								"dependence_Deprecated5200": "cCoveredSubscriber",
+								"mainOwnerRelationshipToInsured": ""
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"eval": null,
+	"className": "asli_subscribe_gbpcontract",
+	"methodName": "TransformSavedGBPQuoteIntoContractEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-18",
+	"errors": [
+	]
+}

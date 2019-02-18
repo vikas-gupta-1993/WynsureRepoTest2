@@ -1,0 +1,30 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"bUID":"318838844_2",
+			"documentDescName":"",
+			"documentDescType":""
+		},
+		"maxSize":100
+	},
+	"response":[
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838844_2",
+			"name":"Attendance Record",
+			"code":"5"
+		}
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchRequirementDescriptors",
+	"version":"5.8.1.0",
+	"date":"2017-12-26",
+	"errors":[
+	]
+}

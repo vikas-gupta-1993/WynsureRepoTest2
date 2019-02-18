@@ -1,0 +1,18 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Employee"
+		},
+		"legalEntityBuid":"318843033_11"
+	},
+	"response":{
+		"_Result":3
+	},
+	"className":"asli_manage_employee",
+	"methodName":"GetEmployeesNumber",
+	"version":"5.7.3.0",
+	"date":"2017-12-06",
+	"errors":[
+	]
+}

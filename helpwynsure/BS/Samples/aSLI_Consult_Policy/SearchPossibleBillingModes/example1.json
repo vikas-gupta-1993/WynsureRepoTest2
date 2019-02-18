@@ -1,0 +1,25 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetBillingMode_Out",
+			"name":"Monthly",
+			"frequency":"f13thly",
+			"buid":"318837826_20"
+		}
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchPossibleBillingModes",
+	"version":"5.7.3.0",
+	"duration":101,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P22]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red34\green31\blue31;\red0\green0\blue0;\red128\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-333\slmult0\cf1\f0\fs16 A la fin de chaque exercice, l'Institution \'e9tablit un compte de r\'e9sultats du contrat sur lequel figurent :\par
+\pard\nowidctlpar\sl-213\slmult0\cf2\par
+\pard\nowidctlpar\sl-346\slmult0\cf3\b AU CR\'c9DIT :\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf1\bullet  les cotisations encaiss\'e9es lors de l'exercice, nettes de r\'e9assurance,\par
+\bullet  les cotisations \'e0 encaisser au 31 d\'e9cembre de l'exercice, nettes de r\'e9assurance, diminu\'e9es des cotisations \'e0 encaisser au 1\super\up2 er\nosupersub\up0 janvier de l'exercice, nettes de r\'e9assurance,\par
+\pard\nowidctlpar\li253\sl-226\slmult0\bullet  les int\'e9r\'eats sur les provisions. Ces int\'e9r\'eats sont calcul\'e9s sur la moyenne arithm\'e9tique des provisions \'e0 l'ouverture et \'e0 la cl\'f4ture de l'exercice,\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  les commissions de r\'e9assurance.\par
+\pard\nowidctlpar\sl-213\slmult0\cf2\par
+\pard\nowidctlpar\sl-346\slmult0\cf3\b AU D\'c9BIT :\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf1\bullet  les prestations servies lors de l'exercice, nettes de r\'e9assurance,\par
+\bullet  les provisions pour sinistres en cours et les capitaux constitutifs de rente d\'e9termin\'e9s au 31 d\'e9cembre de l'exercice, nets de r\'e9assurance, diminu\'e9s des provisions pour sinistres en cours et des capitaux constitutifs de rentes d\'e9
+termin\'e9s au 1\super\up2 er\nosupersub\up0 janvier de l'exercice, nets de r\'e9assurance,\par
+\bullet  les frais inh\'e9rents \'e0 la gestion des cotisations, fix\'e9s forfaitairement \'e0 10 % des cotisations encaiss\'e9es au cours de l'exercice,\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  les frais inh\'e9rents \'e0 la gestion des prestations, fix\'e9s forfaitairement \'e0 3 % du montant des indemnit\'e9s journali\'e8res et des prestations en rente vers\'e9es au cours de l'exercice,\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  le report \'e9ventuel du solde d\'e9biteur. Lorsque le compte de r\'e9sultats fait appara\'eetre un solde cr\'e9diteur :\par
+\bullet  40 % de celui-ci est affect\'e9 au fonds de revalorisation des prestations de ce contrat ;\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  50 % de celui-ci est affect\'e9 \'e0 la provision pour \'e9galisation. Cette affectation est limit\'e9e du fait que la provision pour \'e9galisation est plafonn\'e9e \'e0 100 % des cotisations de l'exercice ;
+\par
+\pard\nowidctlpar\li253\sl-280\slmult0\bullet  le reste permet de constituer la marge de solvabilit\'e9 de l'Institution.\par
+\pard\nowidctlpar\li253\sl-280\slmult0 Lorsque le compte de r\'e9sultats fait appara\'eetre un solde d\'e9biteur, celui-ci est repris sur la provision d'\'e9galisation. Si apr\'e8s reprise de la provision pour \'e9galisation, le solde demeure n\'e9gatif, 
+le reliquat est report\'e9 sur l'exercice suivant major\'e9 d'un an d'int\'e9r\'eats. Tous les int\'e9r\'eats sont calcul\'e9s \'e0 partir d'un taux d'int\'e9r\'eat \'e9gal au plus petit des 2 taux suivants : 3,5 % ou 60 % du taux moyen des emprunts de l'
+\'c9tat fran\'e7ais.\par
+\pard\cf0\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Compte de résultats]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Compte de résultats]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[25]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

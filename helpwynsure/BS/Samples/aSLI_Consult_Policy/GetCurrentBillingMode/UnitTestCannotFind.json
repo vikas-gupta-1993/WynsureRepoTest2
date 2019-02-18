@@ -1,0 +1,39 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"InexistingBUID"
+	},
+	"response":{
+		"error":{
+			"code":"CONFLICT",
+			"message":"",
+			"innererror":{
+				"className":"aSF_Exception",
+				"detailsFromException":{
+					"error":{
+						"errorCode":"3CE1_BS_00001",
+						"errorKind":"bsErrCannotFind",
+						"errorMessage":"Identifiant métier invalide"
+					}
+				}
+			}
+		}
+	},
+	"eval":{
+		"error/innererror/detailsFromException/error/errorCode":{
+			"matchregEx":"3CE1_BS_00001"
+		}
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetCurrentBillingMode",
+	"version":"5.8.2.0",
+	"date":"2018-08-01",
+	"errors":[
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Introuvable",
+			"kindNumber":8
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"description":"",
+	"request":{
+		"containerID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318848488_23",
+			"description":""
+		}
+	},
+	"response":[
+		"Document Requirement",
+		"Third Party Requirement",
+		"Custom Requirement"
+	],
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"GetPossibleRequirementTypes",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

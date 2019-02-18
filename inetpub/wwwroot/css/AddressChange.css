@@ -1,0 +1,36 @@
+#DisplayNewAddressWrapper {
+	float : left;
+	Width : 70%;
+	height:100%;
+}
+.ui-accordion-content {
+	padding-bottom:32px;
+}
+
+#DisplayOldAddressWrapper {
+	Width : 30%;
+	float : right;
+	min-height : 300px;
+}
+
+.action{
+}
+
+#DisplayNewAddressWrapper #Line1Wrapper input, #DisplayNewAddressWrapper #Line2Wrapper input{ 
+	Width : 100%;
+}
+
+#DisplayNewAddressWrapper #CityAsCstringWrapper  input, #DisplayNewAddressWrapper #StateWrapper input{
+	Width : 90%;
+}
+
+#DisplayNewAddressWrapper #ZipCodeAsCstringWrapper  input, #DisplayNewAddressWrapper #CountryWrapper input{
+	Width : 90%;
+}
+
+dl#CityAsCstringWrapper .aPF_InputTextForCstring.FieldWrapper, dl#StateWrapper.aPF_InputTextForCstring.FieldWrapper, dl#ZipCodeAsCstringWrapper .aPF_InputTextForCstring.FieldWrapper, dl#CountryWrapper.aPF_AutoCompleteInputTextForDynamicEnum.FieldWrapper {
+	float : left;
+	width : 50%;
+	height : 30%;
+}
+

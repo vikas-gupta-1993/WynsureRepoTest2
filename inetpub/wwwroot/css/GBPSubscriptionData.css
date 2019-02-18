@@ -1,0 +1,31 @@
+.employeeClassName{
+  color : #047EA7;
+  border-bottom: 1px solid #5E97A8;
+  margin-left:4px;
+  padding-left:4px;
+  margin-top:3px;
+  width: 95%;
+  font-weight: bold;
+}
+
+.employeeClassContent{
+  padding: 0 4px 0 4px;
+  margin: 2px 20px 10px 0px;
+}
+
+#AdditionalData .employeeClassContent dt {
+  width: 208px;
+}
+
+.employeeClassContent dt {
+  padding-top:3px;
+}
+
+#ContractAdditionalData .aPF_SelectField{
+  float:left;
+  width:100%;
+}
+
+#AdditionalData input{
+    text-align: right;
+}

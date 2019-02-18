@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><ImpactedObjectsRuleDesc><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses aListOfInstances, aWLIMemberContractRoot
+
+
+function MemberContract return aWLIMemberContractRoot
+   if self.Master <> Nil
+      return aWLIMemberContractRoot(self.Master.OnObject)
+   else
+      return aWLIMemberContractRoot(self.OnObject)
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : aListOfInstances)
+   uses aWLI_ManualEnrollment_Process
+   
+   var Process : aWLI_ManualEnrollment_Process
+   
+   Process = self.MemberContract.GetMyInitialEnrollmentProcess
+   if Process <> Nil
+      Result.AppendObject(Process)
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218497280]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIMemberContractRoot]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActionLogCreationActivityDescBasedOnRuleEngine]]></RuleEngineUsingKindContext><ReturnType><aClassDef><Name Id="2"><![CDATA[aListOfInstances]]></Name><NSId Id="1"><![CDATA[2]]></NSId><Id Id="2"><![CDATA[5]]></Id></aClassDef></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318963818]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></UsedRules><MyOwner><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318963818]]></NSId><Id Id="2"><![CDATA[2]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></MyOwner><Name Id="3"><![CDATA[Get Initial Enrollment Processes]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[778]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></ImpactedObjectsRuleDesc><ImpactedBusinessDomains Id="15"><![CDATA[Enrollement,GBP]]></ImpactedBusinessDomains><Reason Id="13"><![CDATA[From action logs of member contracts, get the enrollment process that is on standby]]></Reason><EventDesc><aEDA_ActionLogEventDesc><ActionLogTitle Id="2"><![CDATA[Complete Initial Enrollment]]></ActionLogTitle><visibility Id="2"><![CDATA[0]]></visibility><resource><aWFX_ResourceRepresentation><Name>Member Enrollment Process</Name><NSId>318796939</NSId><Id>15</Id></aWFX_ResourceRepresentation></resource><Name Id="3"><![CDATA[Complete Initial Enrollment __ Member Enrollment Process]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318796817]]></NSId><Id Id="2"><![CDATA[64]]></Id><Version Id="3"><![CDATA[4]]></Version></aEDA_ActionLogEventDesc></EventDesc><Code Id="35"><![CDATA[GEPC]]></Code><IsTechnical Id="72"><![CDATA[No]]></IsTechnical><Resource><aWFX_ResourceRepresentation><RepresentingClassDef><aClassDef><Name>aWLIMemberContractRoot</Name><NSId>218103810</NSId><Id>218112828</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><UseStringExtract Id="33"><![CDATA[No]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><Name Id="3"><![CDATA[Member Contract]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318796939]]></NSId><Id Id="2"><![CDATA[14]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Yes]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><FatalErrorText Id="66"><![CDATA[]]></FatalErrorText><Description Id="73"><![CDATA[]]></Description><Name Id="3"><![CDATA[Get Enrollment Process to Complete]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318963818]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[2]]></Version></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></EntityExport>

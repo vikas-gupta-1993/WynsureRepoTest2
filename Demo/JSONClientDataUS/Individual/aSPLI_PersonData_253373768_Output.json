@@ -1,0 +1,220 @@
+{
+	"data":{
+		"className":"aSPLI_PersonData",
+		"bUID":"##4",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1956-04-25",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"COLUMBIA AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"23669",
+						"city":"Hampton"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"VA",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(732) 263-0151",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(732) 264-0152",
+				"fax":"",
+				"eMail":"james.alison@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-06-17",
+				"endDate":null,
+				"holderName":"Alison",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"7065 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867162757",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Individual Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"james.alison@free.com",
+						"name":"james.alison@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"james.alison@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##4",
+						"description":"James Alison COLUMBIA AVENUE, Hampton, VA 23669"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"james.alison@free.com",
+					"name":"james.alison@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"James Alison COLUMBIA AVENUE, Hampton, VA 23669",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000005WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000005WEX",
+		"actor":{
+			"className":"aSPLI_Person",
+			"name":"Alison",
+			"shortName":"James",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1956-04-25",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"sSN":"833768241",
+			"maritalStatus":"cMarried",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Hampton",
+			"birthPlaceZipCode":"23669",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false
+		},
+		"claimDisbursementChannel":[
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"James Alison COLUMBIA AVENUE, Hampton, VA 23669",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000005WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

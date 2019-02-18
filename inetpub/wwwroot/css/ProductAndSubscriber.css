@@ -1,0 +1,11 @@
+#product-list .row-fluid{
+  margin-bottom: 20px;
+}
+
+#product-list .page-header{
+	margin-bottom: 20px;
+}
+.quotesForFamily{
+  width:100%;
+  display: block;
+}

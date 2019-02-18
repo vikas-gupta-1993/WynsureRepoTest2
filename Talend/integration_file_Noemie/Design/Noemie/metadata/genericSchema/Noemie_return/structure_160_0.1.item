@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_sTUFAC1ZEea5Jb-IjdDYeg" name="repository.metadataGenericSchema" dataPackage="_sTUFAS1ZEea5Jb-IjdDYeg"/>
+  <TalendMetadata:GenericPackage xmi:id="_sTUFAS1ZEea5Jb-IjdDYeg" name="repository.metadataGenericSchema" dataManager="_sTUFAC1ZEea5Jb-IjdDYeg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_sTUFAi1ZEea5Jb-IjdDYeg" id="_ZmjD4C1ZEea5Jb-IjdDYeg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTUFAy1ZEea5Jb-IjdDYeg" name="Idntfr" label="Idntfr" length="8" precision="-1" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTUFBC1ZEea5Jb-IjdDYeg" name="Entity" label="Entity" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTUFBS1ZEea5Jb-IjdDYeg" name="Level" label="Level" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTUFBi1ZEea5Jb-IjdDYeg" name="ARC_DET" label="ARC_DET" length="17" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_sTUFBy1ZEea5Jb-IjdDYeg" name="Idntfr_045" label="Idntfr_045" length="-1" precision="-1" talendType="id_Long" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

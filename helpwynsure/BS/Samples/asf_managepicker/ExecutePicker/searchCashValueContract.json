@@ -1,0 +1,305 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"picker":"awlicontractpicker",
+			"params":[
+				{
+					"name":"product",
+					"value":"buid://{{cashValueProductBUID}}"
+				}
+			]
+		}
+	},
+	"response":[
+		{
+			"$ref":"318853961_1",
+			"summary":{
+				"contractNumber":"2018/4800000505",
+				"subscriberName":"AHMETOVIC Julian",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_2",
+			"summary":{
+				"contractNumber":"2018/4800000507",
+				"subscriberName":"BRAUN Claude",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_3",
+			"summary":{
+				"contractNumber":"2018/4800000509",
+				"subscriberName":"BRENNEMANNE Hamed",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_4",
+			"summary":{
+				"contractNumber":"2018/4800000511",
+				"subscriberName":"CATIC Aliya",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_5",
+			"summary":{
+				"contractNumber":"2018/4800000513",
+				"subscriberName":"CERVINO Francisco",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_6",
+			"summary":{
+				"contractNumber":"2018/4800000515",
+				"subscriberName":"CHANG Ming",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_7",
+			"summary":{
+				"contractNumber":"2018/4800000517",
+				"subscriberName":"CHEDDADI Hakim",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_8",
+			"summary":{
+				"contractNumber":"2018/4800000519",
+				"subscriberName":"CHEN Saibin",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_9",
+			"summary":{
+				"contractNumber":"2018/4800000521",
+				"subscriberName":"CHIN Huyeng",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_10",
+			"summary":{
+				"contractNumber":"2018/4800000523",
+				"subscriberName":"CHOEUNG Tkeat",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_11",
+			"summary":{
+				"contractNumber":"2018/4800000525",
+				"subscriberName":"CHONG  Kwong",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_12",
+			"summary":{
+				"contractNumber":"2018/4800000527",
+				"subscriberName":"CONNOR Sarah",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_13",
+			"summary":{
+				"contractNumber":"2018/4800000529",
+				"subscriberName":"DANG HUU Tam",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_14",
+			"summary":{
+				"contractNumber":"2018/4800000531",
+				"subscriberName":"DI CARLO Rodrigues",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_15",
+			"summary":{
+				"contractNumber":"2018/4800000533",
+				"subscriberName":"DIJKMAN Anneke",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_16",
+			"summary":{
+				"contractNumber":"2018/4800000535",
+				"subscriberName":"DUBRU Marie",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_17",
+			"summary":{
+				"contractNumber":"2018/4800000537",
+				"subscriberName":"DUPONT Michel",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_18",
+			"summary":{
+				"contractNumber":"2018/4800000539",
+				"subscriberName":"DURANT Alain",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_19",
+			"summary":{
+				"contractNumber":"2018/4800000541",
+				"subscriberName":"ELAMIN Gasdi",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		},
+		{
+			"$ref":"318853961_20",
+			"summary":{
+				"contractNumber":"2018/4800000543",
+				"subscriberName":"ELMAOULI Mbarka",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance - Vie Variable",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		}
+	],
+	"eval":{
+		"[0]/$ref":"cashValueContractBUID"
+	},
+	"className":"asf_managepicker",
+	"methodName":"ExecutePicker",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

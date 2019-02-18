@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P32]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red34\green31\blue31;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-320\slmult0\cf1\f0\fs16 Il est cr\'e9\'e9 un fonds de revalorisation destin\'e9 \'e0 la revalorisation du salaire de base et des prestations suivantes :\par
+\pard\nowidctlpar\sl-280\slmult0\bullet  rentes d'\'e9ducation, uniformes et progressives,\par
+\bullet  rentes de conjoint, temporaires et viag\'e8res,\par
+\pard\nowidctlpar\sl-226\slmult0\bullet  indemnit\'e9s journali\'e8res servies en cas d'incapacit\'e9 et rentes servies en cas d'invalidit\'e9.\par
+\pard\nowidctlpar\sl-280\slmult0 Ce fonds est aliment\'e9 comme indiqu\'e9 \'e0 l'article 13. Il est d\'e9bit\'e9 du montant n\'e9cessaire pour revaloriser le salaire de base et les prestations. La revalorisation des prestations est payable conjointement 
+avec les prestations servies en ex\'e9cution du contrat.\par
+Le salaire de base et les prestations sont revaloris\'e9es dans la limite des disponibilit\'e9s du fonds de revalorisation. Le taux de revalorisation, pour chaque garantie, est fix\'e9 tous les ans par le conseil d'administration de R\'c9UNICA Pr\'e9voyan
+ce.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Revalorisation des prestations]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Revalorisation des prestations]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[35]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

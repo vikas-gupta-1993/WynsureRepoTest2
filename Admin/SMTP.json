@@ -1,0 +1,15 @@
+{
+	"SMTPConnection": {
+		"SMTPServer": "smtp.gmail.com",
+		"SMTPServerPort": 465,
+		"SMTPConnectionTimeout": 10,
+		"SMTPUseSSL": true,
+		"SMTPUserName": "RDTestMail@wyde.com",
+		"SMTPPassword": "3%r3MJq5*",
+		"SMTPAuthenticate": "Basic"
+	},
+	"EmailSendInfo": {
+		"SendUsingMethod": "Port",
+		"DefaulSenderEMail": "do_not_reply@wynsure.com"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"description":"",
+	"request":{
+		"claimFullId":{
+			"buid":"318848035_1",
+			"internalClaimId":"",
+			"externalClaimId":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPF_GetRequirementDescInfo_Out",
+			"buid":"318846571_1",
+			"requirementName":"Medical certificate ",
+			"status":"",
+			"requestedfor":"",
+			"requestedby":"",
+			"completionDate":null,
+			"requestedDate":null
+		}
+	],
+	"eval":null,
+	"className":"aSLIC_Consult_Claim",
+	"methodName":"GetClaimDocuments",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"description":"Search for contract 4800000502",
+	"request":{
+		"input":{
+			"picker":"awlicontractpicker",
+			"params":[
+				{
+					"name":"myContractNumber",
+					"value":"%%%%%4800000502"
+				}
+			]
+		}
+	},
+	"response":[
+		{
+			"$ref":"318857925_1",
+			"summary":{
+				"contractNumber":"2018/4800000502",
+				"subscriberName":"LAMARLIERE Leonard",
+				"status":"Actif",
+				"effectiveDate":"2018-06-13",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Assurance emprunteur mixte",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		}
+	],
+	"eval":{
+		"[0]/summary/contractNumber":"contractNumber",
+		"[0]/$ref":"contractBUID"
+	},
+	"className":"asf_managepicker",
+	"methodName":"ExecutePicker",
+	"version":"5.8.2.0",
+	"date":"2018-07-31",
+	"errors":[
+	]
+}

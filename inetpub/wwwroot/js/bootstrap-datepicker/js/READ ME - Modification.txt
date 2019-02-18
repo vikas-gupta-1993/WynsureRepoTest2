@@ -1,0 +1,5 @@
+bootstrap-datepicker.js is modified to support french words (line 774)
+
+<Nakul>
+bootstrap-datepicker.js is modified to support Font Awesome Pro 5.0.8 (line 73)
+</Nakul>

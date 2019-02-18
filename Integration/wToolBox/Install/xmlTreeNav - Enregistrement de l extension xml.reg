@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\treeview]
+@="View with xmlTreeNav"
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\treeview\command]
+@="P:\\Document\\Appli\\ToolBox\\Free\\xmlTreeNav\\xmlTreeNav.exe \"%1\""

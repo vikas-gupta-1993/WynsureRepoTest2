@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Acceptance" jobType="Standard">
+  <context confirmationNeeded="false" name="Acceptance">
+    <contextParameter comment="" name="loginName" prompt="loginName?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;Super Gestionnaire&quot;"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;D:/talend/clientkeystore&quot;"/>
+    <contextParameter comment="" name="keystore_path" prompt="keystore_path?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="endPoint" prompt="endPoint?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;http://localhost:8008/WebServices/axih56Servlet.gold&quot;"/>
+    <contextParameter comment="" name="keystore_pw" prompt="keystore_pw?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;wynsure&quot;"/>
+    <contextParameter comment="" name="auth_usr" prompt="auth_usr?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;acceptance&quot;"/>
+    <contextParameter comment="" name="auth_pw" prompt="auth_pw?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;58uF7Prz&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="Local">
+    <contextParameter comment="" name="loginName" prompt="loginName?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;Super Gestionnaire&quot;"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="keystore_path" prompt="keystore_path?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="endPoint" prompt="endPoint?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;http://localhost:8008/WebServices/aXi582Servlet.gold&quot;"/>
+    <contextParameter comment="" name="keystore_pw" prompt="keystore_pw?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="auth_usr" prompt="auth_usr?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="auth_pw" prompt="auth_pw?" promptNeeded="false" repositoryContextId="_ILCRcIgWEeeG78O4BKW36A" type="id_String" value="&quot;&quot;"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="System.getenv(&quot;CONFIG_TALEND&quot;)+&quot;/talend.properties&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;=&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Info"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;D:/Talend_6.4/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_oDxAYnHXEeez8J2of0mmCw" name="DataOperation"/>
+    <routinesParameter id="_oENFQHHXEeez8J2of0mmCw" name="Mathematical"/>
+    <routinesParameter id="_oEgnQHHXEeez8J2of0mmCw" name="Numeric"/>
+    <routinesParameter id="_oEpxMHHXEeez8J2of0mmCw" name="Relational"/>
+    <routinesParameter id="_oEziMHHXEeez8J2of0mmCw" name="StringHandling"/>
+    <routinesParameter id="_oEziNHHXEeez8J2of0mmCw" name="TalendDataGenerator"/>
+    <routinesParameter id="_oE8sI3HXEeez8J2of0mmCw" name="TalendDate"/>
+    <routinesParameter id="_oFGdI3HXEeez8J2of0mmCw" name="TalendString"/>
+    <routinesParameter id="_vHL50Dy8Eeiy69ehXMDyPw" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="System.getenv(&quot;BankMobilityPath&quot;)"/>
+    <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
+    <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
+    <elementParameter field="CHECK" name="ERROR" value="false"/>
+    <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;*.xml&quot;"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_FILESIZE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_BY_MODIFIEDDATE" value="false"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_ASC" value="true"/>
+    <elementParameter field="RADIO" name="ORDER_ACTION_DESC" value="false"/>
+    <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
+    <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;" show="false"/>
+    <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_LKbLoHHZEeez8J2of0mmCw - metadata" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/n0:Document/n0:AcctSwtchngInfSvcRptV01/n0:Mod/n0:Id&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MsgId1"/>
+      <elementValue elementRef="QUERY" value="&quot;../../n0:Assgnmt/n0:MsgId&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ModId"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DtOfSgntr"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:AcctSwtchngRef/n0:DtOfSgntr&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IBAN_original"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:OrgnlPtyAndAcctId/n0:Acct/n0:IBAN&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BIC_original"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:OrgnlPtyAndAcctId/n0:Agt/n0:FinInstnId/n0:BICFI&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IBAN_updated"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:UpdtdPtyAndAcctId/n0:Acct/n0:IBAN&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BIC_updated"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:UpdtdPtyAndAcctId/n0:Agt/n0:FinInstnId/n0:BICFI&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Rum"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:TxRprt/n0:TxDtls/n0:Refs/n0:MndtId&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Name_updated"/>
+      <elementValue elementRef="QUERY" value="&quot;../n0:UpdtdPtyAndAcctId/n0:Pty/n0:Nm&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value="500"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_LKbLoHHZEeez8J2of0mmCw - metadata" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" value="&quot;D:/TalendV6.3.1/workspace/temp.xml&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputXML_1">
+      <column comment="" key="false" length="14" name="MsgId1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ModId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="DtOfSgntr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="IBAN_original" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="BIC_original" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="IBAN_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="BIC_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="Rum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Name_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="14" name="MsgId1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ModId" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="DtOfSgntr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="IBAN_original" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="BIC_original" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="IBAN_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="BIC_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="Rum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Name_updated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="bs_call">
+      <column comment="" key="false" length="-1" name="out" nullable="true" pattern="" precision="-1" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+        <nodes name="MsgId1" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.4" xpath="row1/MsgId1"/>
+        <nodes name="ModId" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.7" xpath="row1/ModId"/>
+        <nodes name="DtOfSgntr" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.5" xpath="row1/DtOfSgntr"/>
+        <nodes name="IBAN_original" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.0" xpath="row1/IBAN_original"/>
+        <nodes name="BIC_original" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.2" xpath="row1/BIC_original"/>
+        <nodes name="IBAN_updated" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.1" xpath="row1/IBAN_updated"/>
+        <nodes name="BIC_updated" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.3" xpath="row1/BIC_updated"/>
+        <nodes name="Rum" type="id_String" xpath="row1/Rum"/>
+        <nodes name="Name_updated" type="id_String" outgoingConnections="//@node.2/@nodeData/@connections.6" xpath="row1/Name_updated"/>
+      </inputTrees>
+      <outputTrees activateCondensedTool="true" name="bs_call">
+        <nodes name="out" expression="" type="id_Document" xpath="bs_call/out" pattern="">
+          <children xsi:type="TalendXMLMap:OutputTreeNode" name="soap:Envelope" type="id_String" xpath="bs_call.out:/soap:Envelope" loop="true" main="true">
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="soap" type="id_String" xpath="bs_call.out:/soap:Envelope/xmlns:soap" nodeType="NAME_SPACE" defaultValue="http://www.w3.org/2003/05/soap-envelope"/>
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="xsd" type="id_String" xpath="bs_call.out:/soap:Envelope/xmlns:xsd" nodeType="NAME_SPACE" defaultValue="http://tempuri.org/xsd"/>
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="soap:Header" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Header">
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="xsd:aSF_Manage_LogOn_PreAndPostTreatment" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="LogOn_LogOn_In" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment/LogOn_LogOn_In">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="loginName" expression="context.loginName" type="id_Character" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment/LogOn_LogOn_In/loginName"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="password" expression="context.password" type="id_Character" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment/LogOn_LogOn_In/password"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="token" expression="" type="id_Character" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment/LogOn_LogOn_In/token"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="languageCode" expression="" type="id_Character" xpath="bs_call.out:/soap:Envelope/soap:Header/xsd:aSF_Manage_LogOn_PreAndPostTreatment/LogOn_LogOn_In/languageCode"/>
+                </children>
+              </children>
+            </children>
+            <children xsi:type="TalendXMLMap:OutputTreeNode" name="soap:Body" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Body">
+              <children xsi:type="TalendXMLMap:OutputTreeNode" name="xsd:aSCB_Manage_BankMobility_BankMobility" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility">
+                <children xsi:type="TalendXMLMap:OutputTreeNode" name="Input" type="id_String" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input">
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="IBAN_original" expression=" row1.IBAN_original" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.0" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/IBAN_original"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="IBAN_updated" expression="row1.IBAN_updated" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.1" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/IBAN_updated"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="BIC_original" expression="row1.BIC_original" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.2" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/BIC_original"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="BIC_updated" expression="row1.BIC_updated" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.3" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/BIC_updated"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="RUM" expression="" type="id_Character" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/RUM"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="id_message" expression="row1.MsgId1" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.4" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/id_message"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="id_modification" expression="row1.ModId" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.7" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/id_modification"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="Name_updated" expression="row1.Name_updated" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.6" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/Name_updated"/>
+                  <children xsi:type="TalendXMLMap:OutputTreeNode" name="sig_date" expression="row1.DtOfSgntr" type="id_Character" incomingConnections="//@node.2/@nodeData/@connections.5" xpath="bs_call.out:/soap:Envelope/soap:Body/xsd:aSCB_Manage_BankMobility_BankMobility/Input/sig_date"/>
+                </children>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var" minimized="true"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.3" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.0"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.1"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.4" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.2"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.3"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.0" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.5"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.8"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.8" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.7"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.2/@nodeData/@inputTrees.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3/@children.0/@children.0/@children.6"/>
+    </nodeData>
+  </node>
+  <node componentName="tSOAP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSOAP_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="NTLM_DOMAIN" value="&quot;192.168.0.100&quot;" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.auth_usr"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="8pW6Nmy2kuf+xGVzNRHyTQ=="/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;61.163.92.4&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="8080" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="CHECK" name="NEED_SSL_TO_TRUSTSERVER" value="true"/>
+    <elementParameter field="TEXT" name="SSL_TRUSTSERVER_TRUSTSTORE" value="context.keystore_path"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="8pW6Nmy2kufD/QsW3q/OqGpNe1F3JUnO"/>
+    <elementParameter field="TEXT" name="ENDPOINT" value="context.endPoint"/>
+    <elementParameter field="TEXT" name="ACTION" value="&quot;http://tempuri.org/aSCB_Manage_BankMobility/BankMobility&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="SOAP_VERSION" value="Soap12"/>
+    <elementParameter field="CHECK" name="USE_MESSAGE_FROM_SCHEMA" value="true"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="SOAPMESSAGE_FROM_SCHEMA" value="out"/>
+    <elementParameter field="MEMO" name="SOAPMESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OUTPUT_DOCUMENT" value="true"/>
+    <elementParameter field="CHECK" name="USE_KERBEROS" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="KERBEROS_CONFIGURATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="ENFORCE_NTLM" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSOAP_1">
+      <column defaultValue="" key="false" length="0" name="Soap" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;D:/TalendV6.3.1/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="System.getenv(&quot;BankMobilityPath&quot;)+&quot;/archive&quot;"/>
+    <elementParameter field="CHECK" name="RENAME" value="false"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;NewName.temp&quot;" show="false"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_1"/>
+  </node>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tFileInputXML_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="bs_call" lineStyle="0" metaname="bs_call" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tSOAP_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="bs_call" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSOAP_1" offsetLabelX="0" offsetLabelY="0" source="tSOAP_1" target="tFileCopy_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

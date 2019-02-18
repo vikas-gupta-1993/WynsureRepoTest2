@@ -1,0 +1,25 @@
+{
+	"description":"",
+	"request":{
+		
+		"contactDescription":{
+			"className":"aSPLI_CreateContact_In",
+			"name":"Demande d'information",
+			"clientBuid":"{{personBUID}}",
+			"media":"mMail",
+			"dateOfContact":"2018-01-01",
+			"timeOfContact":"0:00:00Z",
+			"contactKind":"ckIncomingContact",
+			"contactText":"",
+			"businessDomain":"hlbdContract"
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"CreateCustomerContact",
+	"version":"5.8.2.0",
+	"date":"2018-07-13",
+	"errors":[
+	]
+}

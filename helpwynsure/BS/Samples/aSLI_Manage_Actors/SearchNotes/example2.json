@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"objectBuid":"318847796_20"
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetNote_Out",
+			"content":"gg",
+			"title":"gg",
+			"createdBy":"Super manager (Active)",
+			"date":"2017-10-11",
+			"isImportant":false,
+			"isSensitive":false,
+			"buid":""
+		}
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"SearchNotes",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

@@ -1,0 +1,163 @@
+{
+	"description": "This example searches for an existing employee & creates member enrollment for a Single product GBP with given coverages and plan design ",
+	"request": {
+		"input": {
+			"className": "aSPLI_CreateOrUpdateEmployeeEnrollment_In",
+			"thirdPartyID": "DistRoot",
+			"employee": {
+				"className": "aSPLI_GetEmployee",
+				"searchEmployee": {
+					"bUID": "{{employeeBUID}}"
+				}
+			},
+			"updateDate": "{{CurrentDate}}",
+			"enrollmentInformation": {
+				"className": "aSPLI_MemberContract",
+				"gBPNumber": {
+					"buid": "{{mono_GBP_BUID}}"
+				},
+				"memberClassCode": "",
+				"externalManagement": false,
+				"claimExternalManagement": false,
+				"residenceStateCode": {
+					"stateName": "AL",
+					"stateCode": "AL",
+					"stateLabel": "Owner Residence State"
+				},
+				"additionalDatas": [
+					{
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "JC",
+						"fieldName": "Job Classification",
+						"codeForPopulationClass": "",
+						"valueCode": "MS",
+						"fieldValue": "Monthly Salaried",
+						"nameDescription": "Monthly Salaried"
+					},
+					{
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "MC",
+						"fieldName": "Member Class",
+						"codeForPopulationClass": "",
+						"valueCode": "EX",
+						"fieldValue": "Executive",
+						"nameDescription": "Executive"
+					}
+				],
+				"creationDate": "{{CurrentDate}}",
+				"effectiveDate": "{{CurrentDate}}",
+				"subscriptionDate": "{{CurrentDate}}",
+				"signatureDate": "{{CurrentDate}}",
+				"termOrRenewalDate": null,
+				"lastRenewalDate": null,
+				"reinstatementDate": null,
+				"terminationDate": null,
+				"terminationReason": "",
+				"terminationNumber": 0,
+				"billingMode": "cNextPeriod",
+				"endorsementKind": "",
+				"status": "cActive"
+			},
+			"coverages": [
+				{
+					"className": "aSPLI_CreateOrUpdateIndividualLifeCoverage_In",
+					"coverageGeneralInformation": {
+						"className": "aSPLI_IndividualLifeCoverage",
+						"grandFathered": false,
+						"additionalDatas": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "PlanDesign",
+								"fieldName": "Plan Design",
+								"codeForPopulationClass": "",
+								"valueCode": "P1",
+								"fieldValue": "Plan 1",
+								"nameDescription": "Plan 1"
+							}
+						],
+						"creationDate": "{{CurrentDate}}",
+						"subscribedPackage": "",
+						"optionCode": "{{CoverageCode}}",
+						"optionName": "{{CoverageName}}",
+						"effectiveDate": "{{Cov_InitialEffectiveDate}}",
+						"subscriptionDate": "{{CurrentDate}}",
+						"terminationDate": null,
+						"terminationReason": "",
+						"terminationNumber": 0,
+						"billingServiceName": "",
+						"status": "cActive"
+					},
+					"insuredPersons": [
+						{
+							"className": "aSPLI_CreateOrUpdateCoveredPerson_In",
+							"coveredPerson": {
+								"className": "aSPLI_GetPerson",
+								"searchPerson": {
+									"buid": "{{PersonBUID}}"
+								}
+							},
+							"details": {
+								"className": "aSPLI_CoveredPerson",
+								"relationship_Deprecated": "cCoveredSubscriber",
+								"endDate": null,
+								"effectiveDate": "{{Cov_InitialEffectiveDate}}",
+								"additionalDatas": [
+									{
+										"className": "aSPCB_AdditionalDataValue_Boolean",
+										"fieldCode": "PREEX312",
+										"fieldName": "Does the Insured have Pre-existing Condition 3/12?",
+										"codeForPopulationClass": "",
+										"fieldValue": false
+									}
+								]
+							},
+							"relationToOwners": [
+							]
+						}
+					],
+					"beneficiaries": [
+					],
+					"coverageAmount": {
+						"className": "aSPLI_CoverageAmountVersion",
+						"effectiveDate": "{{Cov_InitialEffectiveDate}}",
+						"amount": {
+							"amount": "{{CoverageAmount}}",
+							"currency": "USD"
+						}
+					},
+					"underwrittingData": [
+					]
+				}
+			],
+			"endorsementInformations": [
+			]
+		},
+		"autoValidate": true
+	},
+	"response": {
+		"processID": {
+			"className": "aSPF_Identifier",
+			"bUID": "318844347_12",
+			"description": ""
+		},
+		"contractID": {
+			"buid": "318842731_18",
+			"internalPolicyIdentifier": {
+				"internalPolicyId": "2018/4800000602",
+				"issuingCompanyCode": "WIC"
+			},
+			"externalPolicyIdentifier": {
+				"externalPolicyId": "",
+				"thirdPartyID": "AA"
+			}
+		},
+		"contractEndorsementOrSubscriptionStatus": "esAccepted"
+	},
+	"eval": null,
+	"className": "aSLI_Manage_GBPMember",
+	"methodName": "saveEnrollmentProcess",
+	"version": "5.8.3.0",
+	"date": "{{CurrentDate}}",
+	"errors": [
+	]
+}

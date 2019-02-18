@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1987-05-02</EffectiveDate>
+         <AddressUsage>3</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>6 RUE BEAUBOURG</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>75004</ZipCode>
+               <City>PARIS 4EME ARRONDISSEMENT</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone></PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+         <MediaType></MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns_1:aSPCB_IBAN_BankAccount">
+         <Name>Liga BBVA</Name>
+         <EffectiveDate>2017-06-08</EffectiveDate>
+         <HolderName>John CONNOR</HolderName>
+         <Currency>cEuro</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>Madrid</BranchName>
+         <DepositType>dpRetail</DepositType>
+         <BankName>BBVA</BankName>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>CAILLE DEL BANCO</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>28002</ZipCode>
+               <City>Madrid</City>
+            </ZipCodeAndCity>
+            <Country>ESP</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IBAN>ES9121000418450200051332</IBAN>
+         <BIC>0000ES00000</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+      <Name>CONNOR</Name>
+      <ShortName>John</ShortName>
+      <CreationDate>2017-03-30</CreationDate>
+      <PreferredLanguageCode>Fr</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1987-05-02</BirthDate>
+      <PersonTitleEnum>0</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>FRA</Nationality>
+      <BirthRank>0</BirthRank>
+      <BirthCountry>FRA</BirthCountry>
+      <BirthPlaceCity></BirthPlaceCity>
+      <BirthPlaceZipCode></BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Employ&#233; interne</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+            <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>N&apos;est pas VIP</ValueCode>
+            <FieldValue>N&apos;est pas VIP</FieldValue>
+            <NameDescription>N&apos;est pas VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <EnrollmentOrganism></EnrollmentOrganism>
+      <SSN></SSN>
+      <MaritalStatus>cOtherMaritalStatus</MaritalStatus>
+   </PersonIdentity>
+</_Result>

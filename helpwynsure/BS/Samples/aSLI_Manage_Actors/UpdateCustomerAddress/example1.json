@@ -1,0 +1,30 @@
+{
+	"description":"",
+	"request":{
+		"customerBuid":"{{personBUID}}",
+		"newAddress":{
+			"$ref":"#",
+			"className":"aSPCB_US_PostalAddress",
+			"line1":"Pona",
+			"line2":"EON IT park",
+			"zipCodeAndCity":{
+				"zipCode":"01060",
+				"city":"Northampton"
+			},
+			"country":"UNITED STATES",
+			"district":"",
+			"state":"MA",
+			"county":"",
+			"fIPSCode":0
+		},
+		"atDate":"{{currentDate}}"
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"UpdateCustomerAddress",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

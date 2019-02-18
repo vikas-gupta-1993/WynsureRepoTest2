@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1935-04-25</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>139 RUE HASSIBA BEN BOUALI</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>31025</ZipCode>
+               <City>ORAN</City>
+            </ZipCodeAndCity>
+            <Country>BEL</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>213 41 53 80 70</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>213 41 53 80 70</CellPhone>
+         <Fax>213 41 53 80 70</Fax>
+         <eMail>hakim.cheddadi@free.com</eMail>
+         <MediaType>Courrier</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns_1:aSPCB_Fr_BankAccount">
+         <Name>BNP</Name>
+         <EffectiveDate>2000-01-01</EffectiveDate>
+         <HolderName>CHEDDADI</HolderName>
+         <Currency>cEuro</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>BNP Op&#233;ra</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>BNP</BankName>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>23 bd des Italiens</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>75002</ZipCode>
+               <City>PARIS</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <BankCode>35112</BankCode>
+         <OfficeCode>94397</OfficeCode>
+         <AccountNumber>18497491630</AccountNumber>
+         <RIBKey>35</RIBKey>
+         <IBAN>FR7635112943971849749163035</IBAN>
+         <BIC>CEPAFRPP118</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>hakim.cheddadi@free.com</Name>
+                  <Password>Ha237252DI</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>hakim.cheddadi@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Client</Name>
+                     <Code>WC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000023WEX</ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+      <Name>CHEDDADI</Name>
+      <ShortName>Hakim</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferredLanguageCode></PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1935-04-25</BirthDate>
+      <PersonTitleEnum>0</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>FRA</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>FRA</BirthCountry>
+      <BirthPlaceCity>ORAN</BirthPlaceCity>
+      <BirthPlaceZipCode>31025</BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Employ&#233; interne</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+            <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>N&apos;est pas VIP</ValueCode>
+            <FieldValue>N&apos;est pas VIP</FieldValue>
+            <NameDescription>N&apos;est pas VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <EnrollmentOrganism></EnrollmentOrganism>
+      <SSN>135042162813104</SSN>
+      <MaritalStatus>cWidowed</MaritalStatus>
+   </PersonIdentity>
+</_Result>

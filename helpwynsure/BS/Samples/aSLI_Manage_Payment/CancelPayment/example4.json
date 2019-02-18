@@ -1,0 +1,70 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Payment"
+		},
+		"paymentID":{
+			"paymentFunctionalIdentifier":"13",
+			"buid":"318836084_13"
+		},
+		"cancelReason":"Already paid"
+	},
+	"response":{
+		"className":"aSPLI_GetPayment_Out",
+		"paramEntity":{
+			"className":"aSPCB_Payment",
+			"receivedDate":"2017-11-25",
+			"bankInformation":{
+				"receivedDate":null,
+				"canceledDate":null,
+				"canceledReason":"71"
+			},
+			"paymentStatus":"cpsCanceled",
+			"operation":"6785786",
+			"amount":{
+				"amount":15,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":"2017-11-29"
+		},
+		"targets":[
+			{
+				"className":"aSPCB_PaymentTarget",
+				"amount":{
+					"amount":14.62,
+					"currency":"cUSDollar"
+				},
+				"target":"Invoice #: 0000000006   Amount: $14.62   Effective Date: 11\/24\/2017   (Due Date: 11\/29\/2017)"
+			},
+			{
+				"className":"aSPCB_PaymentTarget",
+				"amount":{
+					"amount":0.38,
+					"currency":"cUSDollar"
+				},
+				"target":"Suspense Account for Mark MArk \/ W Insurance Company W Insurance Company:Mark #D76 ($)"
+			}
+		],
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"13"
+			},
+			"buid":"318836084_13"
+		},
+		"actorAsAccountOwner":"Mark (MArk)",
+		"actorAsBeneficiary":"",
+		"channel":"Manual Check",
+		"buid":"318836084_13"
+	},
+	"className":"asli_manage_payment",
+	"methodName":"CancelPayment",
+	"version":"5.7.3.0",
+	"date":"2017-11-29",
+	"errors":[
+	]
+}

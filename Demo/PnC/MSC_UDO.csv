@@ -1,0 +1,39 @@
+code_d;CODE DDEC;SOCIETE;INTITULE;NOM;ADRESSE;Adresse2;CP;VILLE;TEL;FAX;SECRETARIAT;Mail
+6;603;UDOGEC;Monsieur;Daniel DEFACHEL;43 rue Laurendeau;;80000;AMIENS;322335100;03 22 33 51 09;Madame Roselyne FLESSELLES;mailto:udogec80@80.scolanet.org
+7;703;UDOGEC;Monsieur;JoÎl GACHOT;BP 28;;49010;ANGERS CEDEX 01;241795153;02 41 79 51 22;Monsieur Antoine BIOTTEAU;mailto:udogec49@49.scolanet.org
+8;803;UDOGEC;Madame;JoÎlle MAUXION;BP 230;;16007;ANGOULEME;05 45 95 16 66;05 49 94 01 10;;mailto:udogec16@16.scolanet.org
+9;903;UDOGEC;Monsieur;Jean Pierre BUTTIN;BP 144;;74004;ANNECY;04 50 33 09 24;04 50 45 43 86;Madame VÈronique GUERRIER;mailto:udogec74@74.scolanet.org
+10;1001;UDAEP Primaires;Monsieur;Claude DARRAS;BP 44;;62001;ARRAS CEDEX;03 21 21 40 61;03 21 21 40 64;Monsieur Albert BOILDIEU;mailto:udaep62@62.scolanet.org
+10;1001;UDAEP Secondaire et Tecnique;Monsieur;GÈrard TABARY;BP 44;;62001;ARRAS CEDEX;03 21 21 40 61;03 21 21 40 64;Monsieur Albert BOILDIEU;mailto:udaep62@62.scolanet.org
+13;1303;UDOGEC;Monsieur;Robert ISSARTEL;BP 2001;;84023;AVIGNON Cedex 1;04 90 13 20 41;04 90 13 20 49;;mailto:udogec84@84.scolanet.org
+14;1403;UREC;Monsieur;Francis  DEBAR;33 Place Reine Mathilde;;14000;CAEN;231947200;02 31 95 52 30;Monsieur Marcel AVEQUIN;mailto:udogec14@14.scolanet.org
+16;1603;UDOGEC;Monsieur;Guy LAMORIL;BP 80778;;60007;BEAUVAIS CEDEX;344064210;03 44 06 42 11;;mailto:udogec60@60.scolanet.org
+18;1803;UROGEC Franche ComtÈ;Monsieur;Claude MAUVAIS;9 rue Pontalier;;25041;BESANCON;03 81 82 11 59;03 81 81 40 15;Monsieur Claude BAUQUIS et Madame Marie-Pierre CANAL;mailto:urogec.franche-comte@25.scolanet.org
+19;1901;UDOGEC;Monsieur;Louis de BALINCOURT;1 bis rue de Berry;;41000;BLOIS;02 54 57 15 70;02 54 78 45 63;;mailto:udogec41@41.scolanet.org
+20;2001;UDOGEC;Monsieur;CAZENAVE-PERRON;54 Boulevard Godard;;33300;BORDEAUX;05 56 69 88 95;05 56 11 04 10;Madame Dominique FAVORY;mailto:udogec33@33.scolanet.org
+51;5103;UDOGEC;Madame;Nadine DAVIAUD;BP 44104;;44041;NANTES Cedex 01;02 40 74 62 88;02 40 74 40 52;Monsieur J. Yves SAVART 02.51.81.64.49;mailto:udogec@ec44.scolanet.org
+52;5203;UDOGEC;Monsieur;GÈrard DELARRAT;Maison du DiocËse;21 rue Gustave Mathieu;58000;NEVERS;386718642;03 86 71 86 56;;mailto:udogec58@58.scolanet.org
+53;5303;UDOGEC EvêchÈ de Nice;Monsieur;Jean-Claude MATHIGOT;23 Avenue SÈvignÈ;;6000;NICE;492078010;04 92 07 80 11;Mme Ginette CIOTTI;mailto:udogec06@06.scolanet.org
+54;5403;UDOGEC;Madame;Jacqueline KERBAUL;BP 148;;30011;NIMES CEDEX;04 66 04 94 24;04 66 04 00 98;Monsieur Eric NICOLAS;mailto:udogec30@30.scolanet.org
+55;5503;UDOGEC;Monsieur;Jacques TOURNE;Maison St Vincent;51, Bd Aristide Briant;45001;ORLEANS Cedex 1;02 38 24 28 28;02 38 24 28 29;;mailto:udogec45@45.scolanet.org
+57;5703;UROGEC;Monsieur;Bruno CORNU THENARD;76 , rue des St-PËres;;75007;PARIS;145496126;01 42 22 24 88;Monsieur de SEVIN- Monsieur HervÈ LAGOUTTE-Madame CANVEL;mailto:urogec.idf@scolanet.org
+58;5803;UDOGEC;Monsieur;Michel RUAUD;38 Av. Georges Pompidou;;24000;PERIGUEUX;05 53 06 89 05;05 53 54 89 09;;mailto:udogec24@24.scolanet.org
+59;5903;UDOGEC;Monsieur;Jean RABIER;70 bis avenue Victor Dalbiez;;66000;PERPIGNAN;468547117;04 68 56 47 54;Madame Marie Annick BES;mailto:udogec66@66.scolanet.org
+60;6001;UDOGEC;Monsieur;Daniel COIRIER;55, rue du Rempart;;79000;NIORT;549248429;;;mailto:udogec79@79.scolanet.org
+60;6001;UDOGEC;Monsieur;Jean Louis ROUMILHAC;BP 416;;86010;POITIERS CEDEX;549881793;05 49 88 49 59; ;mailto:udogec86@86.scolanet.org
+61;6103;UDOGEC;Monsieur;Roger FALCON;4, Bd docteur Chatemesse;BP 504;43010;LE PUY EN VELAY Cedex;04 71 09 27 61;04 71 02 03 98;Monsieur JeanLouis COCHO;mailto:udogec43@43.scolanet.org
+62;6203;UDOGEC;Monsieur;Jean Claude LE MEUR;2 rue CÈsar Frank;;29196;QUIMPER Cedex;02 98 64 16 00;02 98 95 76 69;Monsieur HASCOET;mailto:udogec29@29.scolanet.org
+62;6204;UDOGEC GAEL des ABERS;Monsieur;Jean Claude LE MEUR;2 rue CÈsar Frank;;29196;QUIMPER Cedex;02 98 64 16 00;02 98 95 76 69;Monsieur HASCOET;mailto:udogec29@29.scolanet.org
+63;6301;UNIDOGEC;Monsieur;Emmanuel VACHETTE;12 rue de l'Isle;;10041;TROYES;325805546;;;mailto:unidogec10@10.scolanet.org
+63;6301;UDOGEC;Monsieur;Roger TOURNANT;5 rue d'Anjou;;51723;REIMS Cedex;03 26 88 70 80;03 26 88 02 40;Mme Delphine de VARINE-BOHAN - Mme Sandrine MARIE;mailto:udogec-reims@51.scolanet.org
+64;6403;UDOGEC;Monsieur;Jean BERTEL;45 rue de Brest;;35042;RENNES CEDEX;02 99 54 62 05;02 99 59 63 51;Monsieur Jean Yves PIGREE;mailto:udogec35@35.scolanet.org
+65;6501;UDOGEC;Monsieur;Jean-FranÁois TORD;62 rue Albert 1er;;17000;LA ROCHELLE;546417822;05 46 50 62 47;Madame Fabienne THOBERT;mailto:udogec17@wanadoo.fr
+66;6601;UDOGEC;Monsieur;Bernard REMISE;35 Avenue Victor Hugo;;12000;RODEZ;05 65 73 32 00;05 65 68 43 90;;mailto:udogec12@12.scolanet.org
+67;6703;UDOGEC;Monsieur;Clause DEMARE;41 route de Neufchatel;;76044;ROUEN CEDEX;02 35 07 27 80;02 35 07 27 81;Monsieur CARON - 02 35 07 27 58;mailto:udogec76sl@espacedumoineau.com
+68;6803;UDOGEC;Monsieur;AndrÈ PECHEUL;BP 222;;22002;ST BRIEUC Cedex 01;02 96 68 32 62;02 96 33 61 66;Monsieur Loïc THOMAS;mailto:udogec22.paie@22.scolanet.org
+73;7303;UDOGEC;Monsieur;Hubert CRESPY;25bis rue ContÈ;;61500;SEES;233278160;02 33 27 56 47;Monsieur Jean-Christophe BOYER;mailto:udogec61@61.sccolanet.org
+75;7503;UDOGEC;Monsieur;Jean-Pierre DUJARDIN;9, rue des dÈportÈs et fusillÈs;;2200;SOISSONS;03 23 76 38 63;03 23 76 38 64;;mailto:udogec02@02.scolanet.org
+77;7703;UDOGEC;Monsieur;Charles VIGNAUD;51 rue de TraynËs;;65000;TARBES;562938727;05 62 51 24 75;;mailto:udogec65@65.scolanet.org
+79;7903;UIOGEC;Monsieur;GÈrard MONIER;28 rue de l'Aude;;31500;TOULOUSE;05 62 47 85 65;05 62 47 85 66;Madame Nathalie SIMPHAL;mailto:urogec31@31.scolanet.org
+91;9103;UROGEC;Monsieur;Bruno CORNU THENARD;76 , rue des St-PËres;;75007;PARIS;145496126;01 42 22 24 88;Monsieur de SEVIN- Monsieur HervÈ LAGOUTTE-Madame CANVEL;mailto:urogec.idf@scolanet.org
+96;9603;UROGEC Franche ComtÈ;Monsieur;Claude MAUVAIS;9 rue Pontalier;;25041;BESANCON;03 81 82 11 59;03 81 81 40 15;Monsieur Claude BAUQUIS et Madame Marie-Pierre CANAL;mailto:urogec.franche-comte@25.scolanet.org

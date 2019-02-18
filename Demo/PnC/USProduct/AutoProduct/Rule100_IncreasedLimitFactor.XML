@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<StandAloneRule><RuleClassName>aWFStandAloneRule</RuleClassName><RuleName>Rule 100 - Increased Limit Factor</RuleName><ReturnType>1</ReturnType><Description><![CDATA[
+]]></Description><Parameter><Name>Limit</Name><Description></Description><Comment><![CDATA[]]></Comment><Class>aWFFieldDesc_Integer</Class><ExtraData><DefaultValue>0</DefaultValue><Min>0</Min><Max>999999999999999999</Max></ExtraData></Parameter><Parameter><Name>VehicleType</Name><Description></Description><Comment><![CDATA[]]></Comment><Class>aWFFieldDesc_Classification</Class><ExtraData><Classification>Vehicle Type For Auto</Classification></ExtraData></Parameter><Parameter><Name>Weight</Name><Description></Description><Comment><![CDATA[]]></Comment><Class>aWFFieldDesc_Integer</Class><ExtraData><DefaultValue>0</DefaultValue><Min>0</Min><Max>999999999999999999</Max></ExtraData></Parameter><ImplemVersion><ClassName>aWFRuleDesc</ClassName><Content><![CDATA[name:Rule 100 - Increased Limit Factor New;engineclassdef:aWFStandAloneRuleEngine;returntype:SystemModDef.Num8;objectcontext:0;kindcontext:0
+External:Rule100_IncreasedLimitFactorForTruck
+External:Rule100_IncreasedLimitFactor_OtherThanTruck
+
+proc WFCalculate...
+    if VehicleType = Truck
+       Result = Rule100_IncreasedLimitFactorForTruck(Limit)
+    else
+       Result = Rule100_IncreasedLimitFactor_OtherThanTruck(Weight, Limit)
+    endIf
+EndProc
+]]></Content><FromDate>2147483647</FromDate><ToDate>2147483647</ToDate></ImplemVersion></StandAloneRule>

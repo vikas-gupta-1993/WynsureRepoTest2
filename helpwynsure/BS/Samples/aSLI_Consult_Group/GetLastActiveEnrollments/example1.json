@@ -1,0 +1,35 @@
+{
+	"description":"",
+	"request":{
+		"legalEntityIdentifier":{
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			},
+			"buid":""
+		},
+		"maxSize":0
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Group",
+	"methodName":"GetLastActiveEnrollments",
+	"version":"5.7.3.0",
+	"duration":63,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"5668_BS_00026",
+			"message":"Client Full Id Is Not Consistent",
+			"kind":"errInfo",
+			"kindNumber":4
+		}
+	],
+	"possibleErrorsStack":{
+		"sFBService\/_AppendErrorWithFullCodeOnFixer":true,
+		"sFBService\/AppendErrorWithCode":true,
+		"sLI_Actor\/GetLegalEntityFromClientFullId":true
+	}
+}

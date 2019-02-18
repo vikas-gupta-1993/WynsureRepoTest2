@@ -1,0 +1,29 @@
+{
+	"description":"",
+	"request":{
+		"policyId":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			},
+			"buid":""
+		}
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetIllustrationsOnContract",
+	"version":"5.7.3.0",
+	"duration":4,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

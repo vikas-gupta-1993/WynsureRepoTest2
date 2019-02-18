@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_BPqvgTRzEeacgpVlHmYjFw" name="Structure_010" comment="connectionComment" label="Structure_010" dataPackage="_tO8fwROPEeaPy8bJyYiSzw"/>
+  <TalendMetadata:GenericPackage xmi:id="_tO8fwROPEeaPy8bJyYiSzw" dataManager="_BPqvgTRzEeacgpVlHmYjFw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tO8fwhOPEeaPy8bJyYiSzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fwxOPEeaPy8bJyYiSzw" name="Idntfr" id="222559" label="Idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_tO8fxBOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fxROPEeaPy8bJyYiSzw" name="Entity" id="222560" label="Entity" length="3" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fxhOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1RvvgDRzEeacgpVlHmYjFw" name="Level" label="Level" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fxxOPEeaPy8bJyYiSzw" name="MUT_NRO" id="222561" label="MUT_NRO" length="7" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fyBOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fyROPEeaPy8bJyYiSzw" name="MUT_CLE" id="222562" label="MUT_CLE" length="1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fyhOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f4ROPEeaPy8bJyYiSzw" name="Idntfr_parent" id="222574" label="Idntfr_parent" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_tO8f4hOPEeaPy8bJyYiSzw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

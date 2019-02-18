@@ -1,0 +1,40 @@
+{
+	"description":"",
+	"request":{
+		"actorBuid":"{{personBUID}}",
+		"atDate":"{{currentdate}}"
+	},
+	"response":[
+		{
+			"className":"aSPCB_Correspondence",
+			"effectiveDate":"1800-01-01",
+			"addressUsage":"3",
+			"address":{
+				"className":"aSPCB_PostalAddressWithState",
+				"state":"MO",
+				"line1":"200 main",
+				"line2":"",
+				"zipCodeAndCity":{
+					"zipCode":"34000",
+					"city":"Jefferson city"
+				},
+				"country":"USA"
+			},
+			"isDefaultCorrespondance":true,
+			"privatePhone":"+1 2056645884",
+			"privatePhoneExtension":"",
+			"officePhone":"",
+			"officePhoneExtension":"",
+			"cellPhone":"",
+			"fax":"",
+			"eMail":"",
+			"mediaType":""
+		}
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetActorCorrespondences",
+	"version":"5.8.1.0",
+	"date":"2018-02-13",
+	"errors":[
+	]
+}

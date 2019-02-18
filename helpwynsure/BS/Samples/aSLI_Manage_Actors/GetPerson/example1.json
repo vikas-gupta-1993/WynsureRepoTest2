@@ -1,0 +1,23 @@
+{
+	"description":"",
+	"request":{
+		"identifier":{
+			"className":"aSPLI_PersonIdentifier",
+			"internalClientId":"",
+			"externalClientId":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			},
+			"bUID":"{{personBUID}}",
+			"description":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetPerson",
+	"version":"5.8.1.0",
+	"date":"2018-02-09",
+	"errors":[
+		
+	]
+}

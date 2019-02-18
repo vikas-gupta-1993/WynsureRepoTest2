@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[CA]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770486]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[CoverageAmount]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771194]]></NSId><Id Id="2"><![CDATA[47]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999,999,999,999,999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[ADA]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770486]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[AcceleratedDeathAmount]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771188]]></NSId><Id Id="2"><![CDATA[18]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Float></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[No]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[DD]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770486]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DeathDate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771147]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses WFTypes
+
+CoverageAmount : Num8
+AcceleratedDeathAmount : Num8
+DeathDate : tWFDate
+
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   var returnString : CString
+   var theCoverageAmount : tWFAmount
+   var currentDate : tWFDate
+   var deathDate : tWFDate
+   var daysBetween : Int4
+   var indexValue : Num8
+   
+   theCoverageAmount = self.CoverageAmount - self.AcceleratedDeathAmount
+   self.AppendComment(self.Msg('0008'))
+   currentDate = currentDate
+   indexValue = self.Index('BenefitDisbDelayInterest', deathDate)
+   daysBetween = currentDate - deathDate
+   returnString = self.Msg('0009')
+   returnString = Concat(returnString, indexValue)
+   returnString = Concat(returnString, self.Msg('0010'))
+   returnString = Concat(returnString, daysBetween)
+   returnString = Concat(returnString, self.Msg('0011'))
+   returnString = Concat(returnString, self.CoverageAmount)
+   self.AppendComment(returnString)
+   Result = theCoverageAmount + theCoverageAmount * indexValue * daysBetween
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107193]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936751441207362171</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLIIndexForLifeInsurance><KindOfIndex Id="1"><![CDATA[Others]]></KindOfIndex><TypeOfValue Id="5"><![CDATA[Percentage]]></TypeOfValue><Versions><aWFindexForPeriod><Name></Name><NSId>318770200</NSId><Id>1</Id></aWFindexForPeriod></Versions><LastVersion><aWFindexForPeriod><Name></Name><NSId>318770200</NSId><Id>1</Id></aWFindexForPeriod></LastVersion><Name Id="3"><![CDATA[BenefitDisbDelayInterest]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318776505]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndexForLifeInsurance></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770486]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Death Benefit Calculation with accelerated death and interests]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768716]]></NSId><Id Id="2"><![CDATA[347]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 This formula calculates death benefit taking into account what was already paid for accelerated death.\par
+It also adds up interests to take into account the time delay between time of death and time of payment.\f1\par
+}
+]]></Comment><Name Id="3"><![CDATA[Death Benefit Calculation with accelerated death and interests]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770486]]></NSId><Id Id="2"><![CDATA[24]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneRule></EntityExport>

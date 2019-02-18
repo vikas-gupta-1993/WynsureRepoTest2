@@ -1,0 +1,42 @@
+{
+	"description":"From GL is false",
+	"request":{
+		"fromOrToGLIn":{
+			"amount":{
+				"amount":10
+			},
+			"transactionDate":"{{currentDate}}",
+			"reason":"cTermination",
+			"automatic":false,
+			"accountFullId":{
+				"buid":"318848343_296",
+				"accountId":"",
+				"clientId":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				}
+			},
+			"isFromGL":false,
+			"fromLineIdentifier":{
+				"$ref":"#",
+				"className":"aSPF_Identifier",
+				"bUID":"318848352_1271310319617",
+				"description":""
+			}
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"MoveMoneyToOrFromGl",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

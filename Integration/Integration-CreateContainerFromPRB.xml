@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="CreateCpp">
+	<aWEXIntegCreateContainerFromTreeDesc name="Create Oracle PRB Container">
+		<Name>Create Oracle PRB Container</Name>
+		<myText/>
+		<StopIfErrors>false</StopIfErrors>
+		<Skip>false</Skip>
+		<ContainerName>Oracle_PRB</ContainerName>
+		<PurgeContentFirst>true</PurgeContentFirst>
+		<RootClasses>
+			<aClassDef name="aOraclePRB"/>
+		</RootClasses>
+		<OnlyDescendants>true</OnlyDescendants>
+		<ExcludedClasses>
+			<aClassDef name="aOraclePRB"/>
+			<aClassDef name="aOracleOCI9PRB"/>
+		</ExcludedClasses>
+	</aWEXIntegCreateContainerFromTreeDesc>
+	<aWEXIntegCreateContainerFromTreeDesc name="Create PGandSQLServerPRB PRB Container">
+		<Name>Create Postgresql and SQL Server PRB Container</Name>
+		<myText/>
+		<StopIfErrors>false</StopIfErrors>
+		<Skip>false</Skip>
+		<ContainerName>PGandSQLServerPRB</ContainerName>
+		<PurgeContentFirst>true</PurgeContentFirst>
+		<RootClasses>
+			<aClassDef name="aODBCPRB"/>
+		</RootClasses>
+		<OnlyDescendants>true</OnlyDescendants>
+		<ExcludedClasses>
+			<aClassDef name="aODBCPRB"/>
+			<aClassDef name="aBcpPRB"/>
+			<aClassDef name="aDB2PRB"/>
+		</ExcludedClasses>
+	</aWEXIntegCreateContainerFromTreeDesc>
+	<aWEXIntegCreateContainerFromTreeDesc name="Create Oracle PRB DBMgr Container">
+		<Name>Create Oracle PRB DBMgr Container</Name>
+		<myText/>
+		<StopIfErrors>false</StopIfErrors>
+		<Skip>false</Skip>
+		<ContainerName>Oracle_PRBDBMgr</ContainerName>
+		<PurgeContentFirst>true</PurgeContentFirst>
+		<RootClasses>
+			<aClassDef name="aStaticOracleOCI9DBMgr"/>
+		</RootClasses>
+		<OnlyDescendants>true</OnlyDescendants>
+		<ExcludedClasses>
+			<aClassDef name="aWFDynamicOpenStaticOracleOCI9DBMgr"/>
+			<aClassDef name="aStaticOracleOCI9DBMgr"/>
+		</ExcludedClasses>
+	</aWEXIntegCreateContainerFromTreeDesc>	
+	<aWEXIntegCreateContainerFromTreeDesc name="Create SQLServer PRB DBMgr Container">
+		<Name>Create SQLServer PRB DBMgr Container</Name>
+		<myText/>
+		<StopIfErrors>false</StopIfErrors>
+		<Skip>false</Skip>
+		<ContainerName>SQLServer_PRBDBMgr</ContainerName>
+		<PurgeContentFirst>true</PurgeContentFirst>
+		<RootClasses>
+			<aClassDef name="aStaticSQLServerDBMgr"/>
+		</RootClasses>
+		<OnlyDescendants>true</OnlyDescendants>
+		<ExcludedClasses>
+			<aClassDef name="aStaticSQLServerDBMgr"/>
+			<aClassDef name="aBcpDBMgr"/>
+			<aClassDef name="aWFDynamicOpenStaticSQLServerDBMgr"/>
+		</ExcludedClasses>
+	</aWEXIntegCreateContainerFromTreeDesc>
+	<aWEXIntegCreateContainerFromTreeDesc name="Create Postgresql DBMgr Container">
+		<Name>Create Postgresql DBMgr Container</Name>
+		<myText/>
+		<StopIfErrors>false</StopIfErrors>
+		<Skip>false</Skip>
+		<ContainerName>Postgresql_DBMgr</ContainerName>
+		<PurgeContentFirst>true</PurgeContentFirst>
+		<RootClasses>
+			<aClassDef name="aStaticPostgreSQLDBMgr"/>
+		</RootClasses>
+		<OnlyDescendants>true</OnlyDescendants>
+		<ExcludedClasses>
+			<aClassDef name="aStaticPostgreSQLDBMgr"/>
+		</ExcludedClasses>
+	</aWEXIntegCreateContainerFromTreeDesc>
+</aWEXIntegrationPlanDesc>

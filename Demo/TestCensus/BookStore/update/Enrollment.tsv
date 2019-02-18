@@ -1,0 +1,61 @@
+MemberId	GBP	OptionId	CoverageAmount	Classifications	EffectiveDate	TerminationDate	TerminationReason	BillingInfo	CoveredPerson1	CoveredPerson2	CoveredPerson3	CoveredPerson4	CoveredPerson5	BeneficiaryDescriptionKind	Beneficiary1	Beneficiary2	Beneficiary3	Beneficiary4	Beneficiary5	Dummy	Dummy2	
+351860679	0000000006	Group Life	100000	Non smoker,	04/14/2008																																																						Will or estate																															0	0
+351860679	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	04/14/2008																																																																																					0	0
+351860679	0000000006	Critical Illness	100000	Non smoker,	04/14/2008																																																																																					0	0
+351860688	0000000006	Group Life	100000	Non smoker,	01/15/2008																																																						Will or estate																															0	0
+351860688	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	01/15/2008																																																																																					0	0
+351860688	0000000006	Critical Illness	100000	Non smoker,	01/15/2008																																																																																					0	0
+351860696	0000000006	Group Life	100000	Non smoker,	12/24/2007	12/24/2008																																																					Will or estate																															0	0
+351860696	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	12/24/2007	12/24/2008																																																																																				0	0
+351860696	0000000006	Critical Illness	100000	Non smoker,	12/24/2007	12/24/2008																																																																																				0	0
+351860703	0000000006	Group Life	100000	Smoker,	01/17/2008																																																						Will or estate																															0	0
+351860703	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	01/17/2008																																																																																					0	0
+351860703	0000000006	Critical Illness	100000	Smoker,	01/17/2008																																																																																					0	0
+351860711	0000000006	Group Life	100000	Smoker,	12/28/2007																																																						Will or estate																															0	0
+351860711	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	12/28/2007																																																																																					0	0
+351860711	0000000006	Critical Illness	100000	Smoker,	12/28/2007																																																																																					0	0
+351860719	0000000006	Group Life	100000	Non smoker,	12/24/2007																																																						Will or estate																															0	0
+351860719	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	12/24/2007																																																																																					0	0
+351860719	0000000006	Critical Illness	100000	Non smoker,	12/24/2007																																																																																					0	0
+351860726	0000000006	Group Life	100000	Smoker,	02/19/2008																																																						Identified beneficiaries	Alstneuvenran	Marc	116833558	02/13/1969	Spouse	0.5	Alstneuvenran	Paul	538575834	05/20/1997	Child	0.5																			0	0
+351860726	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	02/19/2008																																																																																					0	0
+351860726	0000000006	Critical Illness	100000	Smoker,	02/19/2008																																																																																					0	0
+351860733	0000000006	Group Life	100000	Smoker,	03/11/2008																																																						Will or estate																															0	0
+351860733	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	03/11/2008																																																																																					0	0
+351860733	0000000006	Critical Illness	100000	Smoker,	03/11/2008																																																																																					0	0
+351860741	0000000006	Group Life	100000	Non smoker,	02/08/2008																																																						Will or estate																															0	0
+351860741	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	02/08/2008																																																																																					0	0
+351860741	0000000006	Critical Illness	100000	Non smoker,	02/08/2008																																																																																					0	0
+351860749	0000000006	Group Life	100000	Non smoker,	01/26/2008																																																						Will or estate																															0	0
+351860749	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	01/26/2008																																																																																					0	0
+351860749	0000000006	Critical Illness	100000	Non smoker,	01/26/2008																																																																																					0	0
+351860757	0000000006	Group Life	100000	Non smoker,	12/26/2007																																																						Will or estate																															0	0
+351860757	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	12/26/2007																																																																																					0	0
+351860757	0000000006	Critical Illness	100000	Non smoker,	12/26/2007																																																																																					0	0
+351860765	0000000006	Group Life	100000	Non smoker,	01/10/2008																																																						Will or estate																															0	0
+351860765	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	01/10/2008																																																																																					0	0
+351860765	0000000006	Critical Illness	100000	Non smoker,	01/10/2008																																																																																					0	0
+351860772	0000000006	Group Life	100000	Smoker,	01/22/2008																																																						Will or estate																															0	0
+351860772	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	01/22/2008																																																																																					0	0
+351860772	0000000006	Critical Illness	100000	Smoker,	01/22/2008																																																																																					0	0
+351860780	0000000006	Group Life	100000	Smoker,	05/08/2008																																																						Will or estate																															0	0
+351860780	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	05/08/2008																																																																																					0	0
+351860780	0000000006	Critical Illness	100000	Smoker,	05/08/2008																																																																																					0	0
+351860788	0000000006	Group Life	100000	Smoker,	01/03/2008																																																						Will or estate																															0	0
+351860788	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	01/03/2008																																																																																					0	0
+351860788	0000000006	Critical Illness	100000	Smoker,	01/03/2008																																																																																					0	0
+351860796	0000000006	Group Life	100000	Non smoker,	02/28/2008																																																						Will or estate																															0	0
+351860796	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	02/28/2008																																																																																					0	0
+351860796	0000000006	Critical Illness	100000	Non smoker,	02/28/2008																																																																																					0	0
+351860804	0000000006	Group Life	100000	Non smoker,	01/05/2008																																																						Will or estate																															0	0
+351860804	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	01/05/2008																																																																																					0	0
+351860804	0000000006	Critical Illness	100000	Non smoker,	01/05/2008																																																																																					0	0
+351860812	0000000006	Group Life	100000	Non smoker,	03/02/2008																																																						Will or estate																															0	0
+351860812	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	03/02/2008																																																																																					0	0
+351860812	0000000006	Critical Illness	100000	Non smoker,	03/02/2008																																																																																					0	0
+351860819	0000000006	Group Life	100000	Smoker,	03/25/2008																																																						Will or estate																															0	0
+351860819	0000000006	Accidental Death & Dismemberment Group	100000	Smoker,	03/25/2008																																																																																					0	0
+351860819	0000000006	Critical Illness	100000	Smoker,	03/25/2008																																																																																					0	0
+351860827	0000000006	Group Life	100000	Non smoker,	12/29/2007																																																						Will or estate																															0	0
+351860827	0000000006	Accidental Death & Dismemberment Group	100000	Non smoker,	12/29/2007																																																																																					0	0
+351860827	0000000006	Critical Illness	100000	Non smoker,	12/29/2007																																																																																					0	0

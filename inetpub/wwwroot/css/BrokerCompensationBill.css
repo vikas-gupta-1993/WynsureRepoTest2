@@ -1,0 +1,20 @@
+#BillHeader,
+#BillDates,
+#BillAmounts{
+	
+}
+
+#BillNumberWrapper,
+#ContractNumberWrapper,
+#AmountWrapper, 
+#FromDateWrapper, 
+#DueAmountWrapper, 
+#PaidAmountWrapper, 
+#StatusWrapper
+{
+	width: 32%;
+	float: left;
+
+	margin-right : 2px;
+}
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Enumerate><Enumerators><aWFFieldDesc_EnumeratorFromChoice><BasedOnEnumValue><aWFMemberCategoryEnum><Code Id="1"><![CDATA[C]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[Cadre]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774977]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFMemberCategoryEnum></BasedOnEnumValue><PresentedName Id="6"><![CDATA[]]></PresentedName><MyOwner><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771451]]></NSId><Id Id="2"><![CDATA[25]]></Id></aWFFieldDesc_Enumerate></MyOwner><Name Id="3"><![CDATA[Cadre]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775046]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_EnumeratorFromChoice></Enumerators><Enumerators><aWFFieldDesc_EnumeratorFromChoice><BasedOnEnumValue><aWFMemberCategoryEnum><Code Id="1"><![CDATA[NC]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[Non cadre]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774977]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFMemberCategoryEnum></BasedOnEnumValue><PresentedName Id="6"><![CDATA[]]></PresentedName><MyOwner><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771451]]></NSId><Id Id="2"><![CDATA[25]]></Id></aWFFieldDesc_Enumerate></MyOwner><Name Id="3"><![CDATA[Non cadre]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775046]]></NSId><Id Id="2"><![CDATA[9]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_EnumeratorFromChoice></Enumerators><BasedOnType><aWFDynamicEnumType><Name>tWFMemberCategory</Name><NSId>218103824</NSId><Id>936759593055289780</Id><ClassName>WFContract</ClassName></aWFDynamicEnumType></BasedOnType><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[CE]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770786]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Catégorie employé]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771451]]></NSId><Id Id="2"><![CDATA[25]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerate></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Est Bénéficiaire de l&apos;ANI</Name><NSId>318776471</NSId><Id>1</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>N&apos;est pas Bénéficiaire de l&apos;ANI</Name><NSId>318776471</NSId><Id>2</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[N'est pas Bénéficiaire de l'ANI]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Vrai]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[BANI]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Bénéficiaire de l'ANI]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318776227]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[ANI]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770786]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[estANI]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771614]]></NSId><Id Id="2"><![CDATA[82]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318776471</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318776471</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318776471</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318776227]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[NCOUV]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770786]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771614]]></NSId><Id Id="2"><![CDATA[83]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><ReusedParameters><aWFFieldDesc_Enumerate><Enumerators><aWFFieldDesc_Enumerator><Name>FMC</Name><NSId>318771453</NSId><Id>1</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>HOSPI</Name><NSId>318771453</NSId><Id>2</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>OPTI</Name><NSId>318771453</NSId><Id>3</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>DENT</Name><NSId>318771453</NSId><Id>4</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>GC</Name><NSId>318771453</NSId><Id>5</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>R_FMC</Name><NSId>318771453</NSId><Id>6</Id></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><Name>R_HOSPI</Name><NSId>318771453</NSId><Id>7</Id></aWFFieldDesc_Enumerator></Enumerators><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[CG]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><Name Id="3"><![CDATA[OSS_Code Garanties]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771451]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerate></ReusedParameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+class aWF_RT_Formule (aWFStandAloneRuleEngine) 
+
+uses WFTypes, WFContract, aWFRuleDesc, aWFStandAloneRule
+
+; Rule
+type tWF___Categorieemploye0 : tWFMemberCategory
+type tWF_Generated_Beneficiairedel_ANI_318776227_1 : (
+   [model(Text:'EstBeneficiairedel_ANI')] EstBeneficiairedel_ANI, 
+   [model(Text:'N_estpasBeneficiairedel_ANI')] N_estpasBeneficiairedel_ANI
+)
+
+type tWF_Generated_Niveaudecouverture_318776227_2 : (
+   [model(Text:'Eco')] Eco, 
+   [model(Text:'Premium')] Premium, 
+   [model(Text:'Panierdesoins')] Panierdesoins
+)
+
+type tWF___OSS_CodeGaranties1 : (
+   [model(Text:'FMC')] FMC, 
+   [model(Text:'HOSPI')] HOSPI, 
+   [model(Text:'OPTI')] OPTI, 
+   [model(Text:'DENT')] DENT, 
+   [model(Text:'GC')] GC, 
+   [model(Text:'R_FMC')] R_FMC, 
+   [model(Text:'R_HOSPI')] R_HOSPI
+)
+
+type tWF___Categorie15 : tWFMemberCategory
+
+Categorieemploye : tWF___Categorieemploye0
+estANI : tWF_Generated_Beneficiairedel_ANI_318776227_1
+Niveaudecouverture : tWF_Generated_Niveaudecouverture_318776227_2
+OSS_CodeGaranties : tWF___OSS_CodeGaranties1
+
+
+function OSS_TauxCotisation(Niveaudecouverture : tWF_Generated_Niveaudecouverture_318776227_2, 
+   Categorie : tWF___Categorie15, OSS_CodeGaranties : tWF___OSS_CodeGaranties1) return tWFPercent
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Niveaudecouverture, 0, tmpRule)
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Categorie, 1, tmpRule)
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(OSS_CodeGaranties, 2, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFNum8)
+   Result = 0
+   ;
+   if self.estANI = N_estpasBeneficiairedel_ANI
+      Result = self.OSS_TauxCotisation(self.Niveaudecouverture, self.Categorieemploye, 
+         self.OSS_CodeGaranties)
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107493]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936751067545207419</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>OSS_TauxCotisation</Name><NSId>318769033</NSId><Id>65</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Niveau de couverture</Name><NSId>318771614</NSId><Id>20</Id></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Enumerate><Name>Catégorie</Name><NSId>318771451</NSId><Id>15</Id></aWFFieldDesc_Enumerate></Parameters><ReusedParameters><aWFFieldDesc_Enumerate><Name>OSS_Code Garanties</Name><NSId>318771451</NSId><Id>1</Id></aWFFieldDesc_Enumerate></ReusedParameters><ReturnType Id="2"><![CDATA[4]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[OSS_TauxCotisation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770790]]></NSId><Id Id="2"><![CDATA[63]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770786]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[OSS_CalculTauxCotisation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769016]]></NSId><Id Id="2"><![CDATA[1032]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[OSS_CalculTauxCotisation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770786]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneRule></EntityExport>

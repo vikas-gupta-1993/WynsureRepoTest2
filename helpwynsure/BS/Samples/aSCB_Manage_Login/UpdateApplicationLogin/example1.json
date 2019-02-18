@@ -1,0 +1,83 @@
+{
+	"description":"",
+	"request":{
+		"data":{
+			"className":"aSPCB_ApplicationUserInOrganizationData",
+			"loginEntity":{
+				"className":"aSPCB_ApplicationUserInOrganisation",
+				"email":"",
+				"jobLabel":"",
+				"preferedLanguageCode":"",
+				"name":"John744179199- bis",
+				"password":"",
+				"forbatch":false,
+				"isDisabled":false
+			},
+			"profiles":[
+			],
+			"extendedProfile":null,
+			"bUID":"",
+			"dataHistory":[
+			]
+		},
+		"identifier":{
+			"className":"aSPF_Identifier",
+			"bUID":"318836818_67",
+			"description":""
+		}
+	},
+	"response":{
+		"className":"aSPCB_ApplicationUserInOrganizationData",
+		"loginEntity":{
+			"className":"aSPCB_ApplicationUserInOrganisation",
+			"email":"",
+			"jobLabel":"",
+			"preferedLanguageCode":"EN",
+			"name":"John744179199- bis",
+			"password":"",
+			"forbatch":false,
+			"isDisabled":false
+		},
+		"profiles":[
+			{
+				"data":null,
+				"identifier":{
+					"className":"aSPF_Identifier",
+					"bUID":"318833061_62",
+					"description":"Profile 1"
+				}
+			},
+			{
+				"data":null,
+				"identifier":{
+					"className":"aSPF_Identifier",
+					"bUID":"318833061_63",
+					"description":"Profile 2 bis"
+				}
+			}
+		],
+		"extendedProfile":{
+			"className":"aSPCB_AuthorizationProfileData",
+			"profileEntity":{
+				"className":"aSPF_AuthorizationProfile",
+				"name":" John Profile",
+				"code":"EXPRF",
+				"isDisabled":false,
+				"isForExternalActor":false
+			},
+			"bUID":"318833061_64",
+			"dataHistory":[
+			]
+		},
+		"bUID":"318836818_67",
+		"dataHistory":[
+		]
+	},
+	"className":"aSCB_Manage_Login",
+	"methodName":"UpdateApplicationLogin",
+	"version":"5.7.3.0",
+	"date":"2017-10-10",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

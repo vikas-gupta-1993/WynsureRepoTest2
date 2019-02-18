@@ -1,0 +1,467 @@
+body .Wynsure-portal{
+	color: #044A62;
+	font-size: 12px;
+	line-height: 14px;
+}
+.Wynsure-portal .nav-tabs>li>a{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.Wynsure-portal .nav-tabs>li>a,
+.Wynsure-portal .nav-pills>li>a{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.Wynsure-portal label,
+.Wynsure-portal input,
+.Wynsure-portal button :not(.modal),
+.Wynsure-portal select,
+.Wynsure-portal textarea{	
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+.Wynsure-portal #PortalLogoWrapper{
+	display: none;
+}
+
+.Wynsure-portal #TopPanelWrapper{
+	height: 31px;
+}
+
+/*General Border Color*/
+.Wynsure-portal #TopPanelWrapper,
+.Wynsure-portal .nav-tabs,
+.Wynsure-portal .nav-tabs li,
+.Wynsure-portal .nav-tabs li.active>a,
+.Wynsure-portal table,
+.Wynsure-portal table tr,
+.Wynsure-portal table tr td,
+.Wynsure-portal .nav-tabs > li:hover,
+.Wynsure-portal .nav-tabs > li:focus,
+.Wynsure-portal .widget header h2,
+.Wynsure-portal .widget .header h2,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active:focus,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active:hover,
+.Wynsure-portal .stepcontainer .section-footer,
+.Wynsure-portal .stepcontainer .section,
+.Wynsure-portal .wizard,
+.Wynsure-portal .nav-tabs>li>a.active,
+.Wynsure-portal .nav-pills>li>a.active,
+.Wynsure-portal .tabs-left>.nav-tabs>.active>a,
+.Wynsure-portal .tabs-left>.nav-tabs>.active>a:hover,
+.Wynsure-portal #PageContent .itemContent,
+.Wynsure-portal .tabs-left>.nav-tabs
+{
+	border-color: #9AC6D5;
+}
+
+/*Border Color for divider between process name steps*/
+.Wynsure-portal .wizard ul li .chevron{
+	border-left: 14px solid #9AC6D5;
+}
+
+/*Navigation : header tab border color*/
+.Wynsure-portal #PrimaryNavigationWrapper .nav li:hover,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li:focus{
+	border-bottom-color: #9AC6D5;
+}
+
+.Wynsure-portal #PrimaryNavigationWrapper{
+	margin-top: -47.5px;
+}
+.Wynsure-portal #PrimaryNavigation .nav-tabs > li:hover,
+.Wynsure-portal #PrimaryNavigation .nav-tabs > li:focus {
+  	background-color: #fff;
+  }
+
+ /*background deep color*/
+.Wynsure-portal .top-bar-presenter .navbar-inner,
+.Wynsure-portal #SideNavigation .nav-list li.active,
+.Wynsure-portal .nav-list>.active>a,
+.Wynsure-portal .nav-list>.active>a:hover,
+.Wynsure-portal .nav-list>.active>a:focus,
+.Wynsure-portal .nav-tabs .open .dropdown-toggle,
+.Wynsure-portal .nav-pills .open .dropdown-toggle,
+.Wynsure-portal .nav > li.dropdown.open>.active:hover,
+.Wynsure-portal .nav > li.dropdown.open>.active:focus,
+.Wynsure-portal .nav > li.dropdown.open>li:hover,
+.Wynsure-portal .nav > li.dropdown.open>li:focus{
+	background: #047AA2;
+}
+
+/*header & section light header*/
+.Wynsure-portal #PageTitlePresenter,
+.Wynsure-portal .page-header,
+.Wynsure-portal #PageTitlePresenter .navigation-path{
+	background: #EEF7FE;
+}
+
+.Wynsure-portal .top-bar-presenter .navbar-inner{
+	border: 0px;
+}
+
+.Wynsure-portal navbar-inverse a:hover{
+	color: #FFF;
+}
+.Wynsure-portal textarea,
+.Wynsure-portal input[type="text"],
+.Wynsure-portal input[type="password"],
+.Wynsure-portal input[type="datetime"],
+.Wynsure-portal input[type="datetime-local"],
+.Wynsure-portal input[type="date"],
+.Wynsure-portal input[type="month"],
+.Wynsure-portal input[type="time"],
+.Wynsure-portal input[type="week"],
+.Wynsure-portal input[type="number"],
+.Wynsure-portal input[type="email"],
+.Wynsure-portal input[type="url"],
+.Wynsure-portal input[type="search"],
+.Wynsure-portal input[type="tel"],
+.Wynsure-portal input[type="color"],
+.Wynsure-portal .uneditable-input,
+.Wynsure-portal select,
+.Wynsure-portal .input-append .add-on, 
+.Wynsure-portal .input-prepend .add-on{
+	line-height: 14px;
+	font-size: 12px;
+	/* No longer needed in bootstrap 3.3.7 *//* margin-bottom: 5px; */
+	padding: 3px 0px 2px 9px;
+}
+
+.Wynsure-portal .input-append .add-on, 
+.Wynsure-portal .input-prepend .add-on{
+	padding: 5px 3px 0px 3px;
+}
+
+/**/
+.Wynsure-portal #PageTitlePresenter,
+.Wynsure-portal textarea,
+.Wynsure-portal input[type="text"] :not(.has-*),
+.Wynsure-portal input[type="password"] :not(.has-*),
+.Wynsure-portal input[type="datetime"] :not(.has-*),
+.Wynsure-portal input[type="datetime-local"]:not(.has-*),
+.Wynsure-portal input[type="date"]:not(.has-*),
+.Wynsure-portal input[type="month"]:not(.has-*),
+.Wynsure-portal input[type="time"]:not(.has-*),
+.Wynsure-portal input[type="week"]:not(.has-*),
+.Wynsure-portal input[type="number"]:not(.has-*),
+.Wynsure-portal input[type="email"]:not(.has-*),
+.Wynsure-portal input[type="url"]:not(.has-*),
+.Wynsure-portal input[type="search"]:not(.has-*),
+.Wynsure-portal input[type="tel"]:not(.has-*),
+.Wynsure-portal input[type="color"] :not(.has-*),
+.Wynsure-portal .uneditable-input,
+.Wynsure-portal select,
+.Wynsure-portal .btn,
+.Wynsure-portal .input-append .add-on, 
+.Wynsure-portal .input-prepend .add-on,
+.Wynsure-portal .page-header 
+{
+	border: 1px solid #9AC6D5;
+	color: #044A62;
+}
+.Wynsure-portal .nav-tabs>.active>a,
+.Wynsure-portal .nav-tabs>.active>a:hover,
+.Wynsure-portal .nav-tabs>.active>a:focus,
+.Wynsure-portal .nav-tabs>.active,
+.Wynsure-portal .nav-tabs>.active:hover,
+.Wynsure-portal .nav-tabs>.active:focus{
+	color: #044A62;
+}
+
+/*Text color on deep color backgroung*/
+.Wynsure-portal .btn-primary,
+.Wynsure-portal .btn-primary:hover,
+.Wynsure-portal .btn-primary:focus,
+.Wynsure-portal .btn-primary:active,
+.Wynsure-portal .btn-primary.active,
+.Wynsure-portal .btn-primary.disabled,
+.Wynsure-portal .btn-primary[disabled],
+.Wynsure-portal .btn-warning,
+.Wynsure-portal .btn-warning:hover,
+.Wynsure-portal .btn-warning:focus,
+.Wynsure-portal .btn-warning:active,
+.Wynsure-portal .btn-warning.active,
+.Wynsure-portal .btn-warning.disabled,
+.Wynsure-portal .btn-warning[disabled],
+.Wynsure-portal .btn-danger,
+.Wynsure-portal .btn-danger:hover,
+.Wynsure-portal .btn-danger:focus,
+.Wynsure-portal .btn-danger:active,
+.Wynsure-portal .btn-danger.active,
+.Wynsure-portal .btn-danger.disabled,
+.Wynsure-portal .btn-danger[disabled],
+.Wynsure-portal .btn-danger:active,
+.Wynsure-portal .Wynsure-portal .btn-danger.active,
+.Wynsure-portal .btn-success,
+.Wynsure-portal .btn-success:hover,
+.Wynsure-portal .btn-success:focus,
+.Wynsure-portal .btn-success:active,
+.Wynsure-portal .btn-success.active,
+.Wynsure-portal .btn-success.disabled,
+.Wynsure-portal .btn-success[disabled],
+.Wynsure-portal .btn-info,
+.Wynsure-portal .btn-info:hover,
+.Wynsure-portal .btn-info:focus,
+.Wynsure-portal .btn-info:active,
+.Wynsure-portal .btn-info.active,
+.Wynsure-portal .btn-info.disabled,
+.Wynsure-portal .btn-info[disabled],
+.Wynsure-portal .btn-inverse,
+.Wynsure-portal .btn-inverse:hover,
+.Wynsure-portal .btn-inverse:focus,
+.Wynsure-portal .btn-inverse:active,
+.Wynsure-portal .btn-inverse.active,
+.Wynsure-portal .btn-inverse.disabled,
+.Wynsure-portal .btn-inverse[disabled],
+.Wynsure-portal .nav-list>.active>a,
+.Wynsure-portal .nav-list>.active>a:hover,
+.Wynsure-portal .nav-list>.active>a:focus,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li.active>a,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li:hover>a{
+	color: #ffffff;
+}
+
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active:hover,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active:focus,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li:hover,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li:focus{
+	background-image: linear-gradient(to bottom,#047AA2,#047AA2);
+}
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active:hover,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>.active:focus,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li:hover,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li:focus{
+	background-image: linear-gradient(to bottom,#047AA2,#047AA2);
+}
+.Wynsure-portal #PrimaryNavigation .nav-tabs > .active,
+.Wynsure-portal #PrimaryNavigation .nav-tabs > .active > a,
+.Wynsure-portal #PrimaryNavigation .nav-tabs > li,
+.Wynsure-portal #PrimaryNavigation .nav-tabs > li > a,
+.Wynsure-portal #PrimaryNavigation .dropdown-menu>li>a{
+	color: #044A62;
+}
+
+.Wynsure-portal #PrimaryNavigation .nav .dropdown-toggle .caret{
+	color: #044A62;
+	border-top-color: #044A62;
+	border-bottom-color: #044A62;
+}
+.Wynsure-portal .navbar-inverse .navbar-inner > div > div > a{
+	color: #EEE;
+}
+
+/*Shadow on panels and sections*/
+.Wynsure-portal .stepcontainer .step-edited .section{
+	border: 1px solid #047AA2;
+	-moz-box-shadow:inset 0 3px 7px rgba(4, 122, 162, 0.48);
+    -webkit-box-shadow:inset 0 3px 7px rgba(4, 122, 162, 0.48);
+	box-shadow: 0 3px 7px rgba(4, 122, 162, 0.48);
+}
+
+.Wynsure-portal .widget section,
+.Wynsure-portal .widget .section {
+    border-left: 1px solid #9AC6D5;
+    border-right: 1px solid #9AC6D5;
+    border-bottom: 1px solid #9AC6D5;
+}
+.Wynsure-portal #PrimaryNavigationWrapper .nav li,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li:hover{
+	border-left-width: 0px;
+	border-left-width: 0px;
+}
+.Wynsure-portal .nav-tabs>.active,
+.Wynsure-portal .nav-tabs>.active:hover,
+.Wynsure-portal .nav-tabs>.active:focus,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active:hover,
+.Wynsure-portal #PrimaryNavigationWrapper .nav li.active:focus,
+.Wynsure-portal .nav-tabs>li>a,
+.Wynsure-portal .nav-pills>li>a,
+.Wynsure-portal .nav-tabs li.active>a{
+	border-width: 1px;
+	border-bottom-color: transparent;
+}
+.Wynsure-portal .tabs-left>.nav-tabs>li>a,
+.Wynsure-portal .tabs-left>.nav-tabs>li>a:hover{
+	border-right-color: #9AC6D5;
+}
+
+.Wynsure-portal .tabs-left>.nav-tabs>.active>a,
+.Wynsure-portal .tabs-left>.nav-tabs>.active>a:hover{
+	border-right-color: transparent;
+}
+
+.Wynsure-portal .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,
+.Wynsure-portal .navbar-inverse .nav li.dropdown.active>.dropdown-toggle,
+.Wynsure-portal .navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{
+	background-color: #044A62;
+}
+.Wynsure-portal #TopPanelWrapper{
+	background: #DAEFFF; /*Do not call background-color: , it is the property background that require an override*/
+	margin-bottom: 5px;
+	margin-top: -20px;
+}
+
+.Wynsure-portal .modal-header{
+	border-bottom: 1px solid #9AC6D5;
+
+}
+.Wynsure-portal .modal-footer{
+	border-top: 1px solid #9AC6D5;
+}
+.Wynsure-portal .nav-tabs{
+	margin-bottom: 4px
+}
+.Wynsure-portal .modal-footer,
+.Wynsure-portal .input-append .add-on, 
+.Wynsure-portal .input-prepend .add-on,
+.Wynsure-portal .widget header h2,
+.Wynsure-portal .widget .header h2,
+.Wynsure-portal .page-header{
+	background-color: #E6F3FE;
+}
+.Wynsure-portal .btn-primary{
+	background-color: #5BA6D4;
+	*background-color: #3C96CB;
+	background-image: -moz-linear-gradient(top,#5BA6D4,#3C96CB);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#5BA6D4),to(#3C96CB));
+	background-image: -webkit-linear-gradient(top,#5BA6D4,#3C96CB);
+	background-image: -o-linear-gradient(top,#5BA6D4,#3C96CB);
+	background-image: linear-gradient(to bottom,#5BA6D4,#3C96CB);
+}
+
+.Wynsure-portal .btn-primary:hover,
+.Wynsure-portal .btn-primary:focus,
+.Wynsure-portal .btn-primary:active,
+.Wynsure-portal .btn-primary.active,
+.Wynsure-portal .btn-primary.disabled,
+.Wynsure-portal .btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #3691C8;
+  *background-color: #2D7BA9;
+}
+
+.Wynsure-portal .table th,
+.Wynsure-portal .table td{
+	padding: 2px 4px 2px 4px;
+}
+
+.Wynsure-portal #PageTitlePresenter{
+	padding: 4px 10px;
+	margin: 0 0 10px;
+}
+
+.Wynsure-portal #PageTitlePresenter h3{
+	margin-top: 0px;
+}
+.Wynsure-portal .phoneWithExtention .control-group,
+.Wynsure-portal .phoneWithExtention .form-horizontal .control-group {
+	margin-bottom: 5px;
+}
+
+
+
+.Wynsure-portal #PortalBottomWrapper{
+	margin-top: 20px;
+}
+
+.Wynsure-portal .section .page-header{
+	margin-bottom: 5px;
+}
+.Wynsure-portal .section .page-header .pull-right{
+	margin-top: 3px;
+	margin-right: 3px;
+}
+
+.Wynsure-portal a.brand{
+	padding: 0px;
+}
+
+.Wynsure-portal .input-block-level{
+	min-height: 27px;
+	height: 27px;
+}
+
+/*.Wynsure-portal .BSPickerCriteria{
+	border-right: solid 1px	#9AC6D5;
+}*/
+
+.checkboxItem label.checkbox {
+    padding-left: 20px;
+}
+
+.Wynsure-portal input[type="radio"],
+.Wynsure-portal input[type="checkbox"] {
+	margin-top: 0px;
+}
+.Wynsure-portal  form .BSPickerCriteria .input-date {
+	max-width: 100%;
+}
+
+.Wynsure-portal  form .input-date{
+  max-width: 81px;
+}
+/*Phone Extention Html CLass*/
+.Wynsure-portal form .pExt{
+  width: 47	px;
+}
+
+.Wynsure-portal #CenterPanelWrapper{
+	margin-top: 5px
+}
+
+.Wynsure-portal .tabItemField{
+	min-height: 0px;
+}
+
+.Wynsure-portal .deleteBtn{
+	margin-top: 4px;
+}
+
+.Wynsure-portal .input-append input,
+.Wynsure-portal .input-prepend input,
+.Wynsure-portal .input-append select,
+.Wynsure-portal .input-prepend select,
+.Wynsure-portal .input-append .uneditable-input,
+.Wynsure-portal .input-prepend .uneditable-input{
+	margin-bottom: 0;	
+}
+
+.Wynsure-portal .questionDiv{
+	margin-top: 7px;
+}
+
+.Wynsure-portal #InsuredTable .NewObjectRoot{
+	margin-bottom: 20px;
+}
+
+.Wynsure-portal .NewObjectRoot .control-group,
+.Wynsure-portal .NewObjectRoot .bootstrap-select.btn-group,
+.Wynsure-portal .AddLinks .control-group,
+.Wynsure-portal .AddLinks .bootstrap-select.btn-group,
+.Wynsure-portal .NewObjectRoot input,
+.Wynsure-portal .NewObjectRoot select{
+	margin-bottom: 0px;
+}
+
+.Wynsure-portal .btn-toolbar{
+	margin-top: 0px;
+}
+.Wynsure-portal#PageContent .stepcontainer .step-title{
+	color: #4F8090;
+}
+
+body .widget section {
+  min-height: 300px;
+
+}
+.forPickerDialog{
+	overflow-y: scroll;
+	height: 72vh; 
+}

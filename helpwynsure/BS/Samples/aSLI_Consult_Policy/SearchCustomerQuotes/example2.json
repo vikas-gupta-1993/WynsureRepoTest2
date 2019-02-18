@@ -1,0 +1,56 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Consult_Policy"
+		},
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842996_2"
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetQuoteInfo_Out",
+			"quote":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"QU0000000524",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318855173_1"
+			},
+			"validFromDate":"2017-12-12",
+			"toDate":null,
+			"status":"cQuote",
+			"quoteStatus":"cCompleted",
+			"productName":"Variable Life",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents"
+		}
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchCustomerQuotes",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

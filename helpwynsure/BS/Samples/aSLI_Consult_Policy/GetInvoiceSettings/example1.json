@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21"
+	},
+	"response":{
+		"className":"aSPCB_InvoiceSettings",
+		"currency":"cUSDollar",
+		"invoiceCurrency":"cUSDollar",
+		"isHousehold":false,
+		"householdSyncDate":null,
+		"householdFrequency":"meUndefined"
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetInvoiceSettings",
+	"version":"5.7.3.0",
+	"duration":135,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true,
+		"sCB_Utils\/NewEmptyParamObject":true
+	}
+}

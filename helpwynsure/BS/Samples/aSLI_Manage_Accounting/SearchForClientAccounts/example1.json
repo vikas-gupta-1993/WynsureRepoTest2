@@ -1,0 +1,54 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"buid":"318842869_55",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_274",
+			"accountNumber":"D274",
+			"thirdParty":"Abdo Joseph",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Abdo Joseph / W Insurance Company"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318848343_296",
+			"accountNumber":"C296",
+			"thirdParty":"Abdo Joseph",
+			"kind":"Claim Account",
+			"balance":{
+				"amount":-115.38,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":-115.38,
+				"currency":"cUSDollar"
+			},
+			"description":"Claim Account for Abdo Joseph / W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"SearchForClientAccounts",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

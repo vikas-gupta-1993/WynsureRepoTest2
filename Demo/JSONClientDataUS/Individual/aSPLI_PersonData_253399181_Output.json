@@ -1,0 +1,220 @@
+{
+	"data":{
+		"className":"aSPLI_PersonData",
+		"bUID":"##25",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1974-10-21",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"1184 VINE STREET",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"60005",
+						"city":"Arlington Heights"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"IL",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(847) 659-5573",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(847) 659-5574",
+				"fax":"",
+				"eMail":"wyatt.moore@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-06-17",
+				"endDate":null,
+				"holderName":"Moore",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"4828 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867189611",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Individual Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"wyatt.moore@free.com",
+						"name":"wyatt.moore@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"wyatt.moore@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##25",
+						"description":"Wyatt Moore 1184 VINE STREET, Arlington Heights, IL 60005"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"wyatt.moore@free.com",
+					"name":"wyatt.moore@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Wyatt Moore 1184 VINE STREET, Arlington Heights, IL 60005",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000026WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000026WEX",
+		"actor":{
+			"className":"aSPLI_Person",
+			"name":"Moore",
+			"shortName":"Wyatt",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1974-10-21",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"sSN":"524164252",
+			"maritalStatus":"cSingle",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Arlington Heights",
+			"birthPlaceZipCode":"60005",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false
+		},
+		"claimDisbursementChannel":[
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Wyatt Moore 1184 VINE STREET, Arlington Heights, IL 60005",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000026WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

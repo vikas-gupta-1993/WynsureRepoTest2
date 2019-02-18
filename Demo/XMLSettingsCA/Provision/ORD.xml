@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[ORD]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs20 In consideration of the premium charged, it is understood and agreed that:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}each coverage; coverage A, coverage B, coverage C applies only if that coverage is listed in the declarations\par
+{\pntext\f1\'B7\tab}if a cause of loss covered by this endorsement occurs to covered building property, the company will pay:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\li720 under coverage A: for the loss in value of the undamaged portion of the building as a consequence of enforcement of any ordinance or law that:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\li1440   requires the demolition of parts of the same property not damaged by a cause of loss covered by this endorsement\par
+{\pntext\f1\'B7\tab}regulates the construction or repair of buildings\par
+{\pntext\f1\'B7\tab}is in force at the time of loss\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\li720 under coverage B: the cost to demolish and clear the site of undamaged parts of the property\par
+{\pntext\f1\'B7\tab}under coverage C: for the increase cost to:\par
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\li1440 repair or reconstruct damaged portions of covered building property\par
+{\pntext\f1\'B7\tab}reconstruct or remodel undamaged portions of covered building property\par
+{\pntext\f1\'B7\tab}the cost of excavations, gradings, backfilling and filling\par
+{\pntext\f1\'B7\tab}foundations of the building\par
+{\pntext\f1\'B7\tab}pilings\par
+{\pntext\f1\'B7\tab}underground pipes\par
+}
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Apartment Building-Inflation Guard Form]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Apartment Building-Ordinance or Law Form]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

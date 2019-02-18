@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>ALLEE DE LA PLAGE</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>17110</ZipCode>
+               <City>ST GEORGE DE DIDONNE</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>33248502536</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>33248502536</CellPhone>
+         <Fax>33248502536</Fax>
+         <eMail>cantinedelaplace@free.com</eMail>
+         <MediaType>Courrier</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secr&#233;taire</Name>
+         <ContactName>Michel Petit</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur</Name>
+         <ContactName>Jacques Dupont</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Commercial</Name>
+         <ContactName>Laurent G&#233;rard</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur financier</Name>
+         <ContactName>Bernard Lef&#232;vre</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur de projet</Name>
+         <ContactName>Martin Mercier</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur g&#233;n&#233;ral</Name>
+         <ContactName>Roberta Fontaine</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Conseiller</Name>
+         <ContactName>Elizabeth Lambert</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>DRH</Name>
+         <ContactName>Fran&#231;ois Boyer</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Comptable</Name>
+         <ContactName>Jos&#233;phine Rousseau</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur technique</Name>
+         <ContactName>Garnier Legrand</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>ALLEE DE LA PLAGE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>17110</ZipCode>
+                  <City>ST GEORGE DE DIDONNE</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33248502536</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33248502536</CellPhone>
+            <Fax>33248502536</Fax>
+            <eMail>cantinedelaplace@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+   </ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>cantinedelaplace@free.com</Name>
+                  <Password></Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>cantinedelaplace@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Client Personne Morale</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000120WEX</ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <LegalEntityIdentity xsi:type="ns_1:aSPLI_Fr_LegalEntity">
+      <Name>CANTINE DE LA PLACE </Name>
+      <ShortName>CAN</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferredLanguageCode>Fr</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <MasterLegalEntity>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>FRA</Country>
+      <State></State>
+      <IndustrialClassification>
+         <ClassificationSystem></ClassificationSystem>
+         <Code></Code>
+      </IndustrialClassification>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>CCN</FieldCode>
+            <FieldName>Convention Collective Nationale</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>1501</ValueCode>
+            <FieldValue>Convention collective nationale de la restauration rapide </FieldValue>
+            <NameDescription>Convention collective nationale de la restauration rapide </NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <TotalNumberOfEmployees>0</TotalNumberOfEmployees>
+      <SIRET>13456789000014</SIRET>
+   </LegalEntityIdentity>
+   <EmployeeInformations>
+      <Element>
+         <EmployeeId>
+            <Buid></Buid>
+            <EmployeeId></EmployeeId>
+            <PersonId>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId>0000000087WEX</ExternalClientId>
+                  <ThirdPartyID>AA</ThirdPartyID>
+               </ExternalClientIdentifier>
+            </PersonId>
+            <LegalEntityId>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId>0000000120WEX</ExternalClientId>
+                  <ThirdPartyID>AA</ThirdPartyID>
+               </ExternalClientIdentifier>
+            </LegalEntityId>
+         </EmployeeId>
+         <Employee>
+            <EffectiveDate>2015-12-08</EffectiveDate>
+            <TerminationReason></TerminationReason>
+            <HireDate>2015-12-08</HireDate>
+            <EmploymentStatus>esActive</EmploymentStatus>
+            <WorkingHours>40</WorkingHours>
+            <WorkingHoursDefinedForFrequency>fWeekly</WorkingHoursDefinedForFrequency>
+            <WorkingCategory>meUndefined</WorkingCategory>
+            <BaseSalaryAmount>0</BaseSalaryAmount>
+            <BaseSalaryFrequency>meUndefined</BaseSalaryFrequency>
+            <SalaryCommissionAmount>0</SalaryCommissionAmount>
+            <SalaryCommissionFrequency>meUndefined</SalaryCommissionFrequency>
+            <SalaryBonusAmount>0</SalaryBonusAmount>
+            <SalaryBonusFrequency>meUndefined</SalaryBonusFrequency>
+            <CanBeEnrolled>true</CanBeEnrolled>
+         </Employee>
+         <Person>
+            <SearchPerson>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId></ExternalClientId>
+                  <ThirdPartyID></ThirdPartyID>
+               </ExternalClientIdentifier>
+            </SearchPerson>
+            <CreateOrUpdatePerson>
+               <ThirdPartyID>AA</ThirdPartyID>
+               <Correspondences>
+                  <Element>
+                     <EffectiveDate>1968-06-19</EffectiveDate>
+                     <AddressUsage>0</AddressUsage>
+                     <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+                        <Line1>Rue du Printemps 39-43</Line1>
+                        <Line2></Line2>
+                        <ZipCodeAndCity>
+                           <ZipCode>7100</ZipCode>
+                           <City>Haine-Saint-Paul (La Louvi&#232;re)</City>
+                        </ZipCodeAndCity>
+                        <Country>BEL</Country>
+                        <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+                        <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+                        <Recipient></Recipient>
+                     </Address>
+                     <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+                     <PrivatePhone>064 68 02 19</PrivatePhone>
+                     <PrivatePhoneExtension></PrivatePhoneExtension>
+                     <OfficePhone></OfficePhone>
+                     <OfficePhoneExtension></OfficePhoneExtension>
+                     <CellPhone>064 68 02 19</CellPhone>
+                     <Fax>064 68 02 19</Fax>
+                     <eMail>astrid.bambach@free.com</eMail>
+                     <MediaType>Courrier</MediaType>
+                  </Element>
+               </Correspondences>
+               <PaymentMethods>
+                  <Element xsi:type="ns_1:aSPCB_Fr_BankAccount">
+                     <Name>BNP</Name>
+                     <EffectiveDate>2000-01-01</EffectiveDate>
+                     <HolderName>BAMBACH</HolderName>
+                     <Currency>cEuro</Currency>
+                     <AccountType>catChecking</AccountType>
+                     <BranchName>BNP Op&#233;ra</BranchName>
+                     <DepositType>dpNA</DepositType>
+                     <BankName>BNP</BankName>
+                     <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+                        <Line1>23 bd des Italiens</Line1>
+                        <Line2></Line2>
+                        <ZipCodeAndCity>
+                           <ZipCode>75002</ZipCode>
+                           <City>PARIS</City>
+                        </ZipCodeAndCity>
+                        <Country>FRA</Country>
+                        <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+                        <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+                        <Recipient></Recipient>
+                     </Address>
+                     <BankCode>40198</BankCode>
+                     <OfficeCode>66498</OfficeCode>
+                     <AccountNumber>68388623341</AccountNumber>
+                     <RIBKey>01</RIBKey>
+                     <IBAN>FR7640198664986838862334101</IBAN>
+                     <BIC>CEPAFRPP118</BIC>
+                  </Element>
+               </PaymentMethods>
+               <ContactInformations></ContactInformations>
+               <LoginInformation>
+                  <Logins>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>astrid.bambach@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>astrid.bambach@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                  </Logins>
+               </LoginInformation>
+               <ClientId>
+                  <Buid></Buid>
+                  <InternalClientId></InternalClientId>
+                  <ExternalClientIdentifier>
+                     <ExternalClientId>0000000087WEX</ExternalClientId>
+                     <ThirdPartyID>AA</ThirdPartyID>
+                  </ExternalClientIdentifier>
+               </ClientId>
+               <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+                  <Name>BAMBACH</Name>
+                  <ShortName>Astrid</ShortName>
+                  <CreationDate>2013-06-19</CreationDate>
+                  <PreferredLanguageCode></PreferredLanguageCode>
+                  <IsAnonymous>false</IsAnonymous>
+                  <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+                  <VisibilityCode>3</VisibilityCode>
+                  <Delinquent>false</Delinquent>
+                  <UnderSurveillance>false</UnderSurveillance>
+                  <BirthDate>1968-06-19</BirthDate>
+                  <PersonTitleEnum>2</PersonTitleEnum>
+                  <PriorName></PriorName>
+                  <MiddleName1></MiddleName1>
+                  <MiddleName2></MiddleName2>
+                  <NameSuffix></NameSuffix>
+                  <Gender>gFemale</Gender>
+                  <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+                  <Nationality>FRA</Nationality>
+                  <BirthRank>1</BirthRank>
+                  <BirthCountry>FRA</BirthCountry>
+                  <BirthPlaceCity>Haine-Saint-Paul (La Louvi&#232;re)</BirthPlaceCity>
+                  <BirthPlaceZipCode>7100</BirthPlaceZipCode>
+                  <BirthPlaceState></BirthPlaceState>
+                  <LegalRepresentativeId_Deprecated5200>
+                     <Buid></Buid>
+                     <InternalClientId></InternalClientId>
+                     <ExternalClientIdentifier>
+                        <ExternalClientId></ExternalClientId>
+                        <ThirdPartyID></ThirdPartyID>
+                     </ExternalClientIdentifier>
+                  </LegalRepresentativeId_Deprecated5200>
+                  <Occupation></Occupation>
+                  <AdditionalDatas>
+                     <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                        <FieldCode>1</FieldCode>
+                        <FieldName>Employ&#233; interne</FieldName>
+                        <CodeForPopulationClass></CodeForPopulationClass>
+                        <ValueCode>NIE</ValueCode>
+                        <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+                        <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+                     </Element>
+                     <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                        <FieldCode>2</FieldCode>
+                        <FieldName>VIP</FieldName>
+                        <CodeForPopulationClass></CodeForPopulationClass>
+                        <ValueCode>N&apos;est pas VIP</ValueCode>
+                        <FieldValue>N&apos;est pas VIP</FieldValue>
+                        <NameDescription>N&apos;est pas VIP</NameDescription>
+                     </Element>
+                  </AdditionalDatas>
+                  <EnrollmentOrganism></EnrollmentOrganism>
+                  <SSN>268061785127780</SSN>
+                  <MaritalStatus>cMarried</MaritalStatus>
+               </PersonIdentity>
+            </CreateOrUpdatePerson>
+         </Person>
+      </Element>
+   </EmployeeInformations>
+   <AffiliateLegalEntity></AffiliateLegalEntity>
+</_Result>

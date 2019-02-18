@@ -1,0 +1,45 @@
+{
+	"description":"",
+	"request":{
+		"actorBuid":"318855079_2",
+		"atDate":"{{currentDate}}"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_Correspondence",
+		"effectiveDate":"2010-04-15",
+		"addressUsage":"0",
+		"address":{
+			"className":"aSPCB_US_PostalAddress",
+			"line1":"23 Stree",
+			"line2":"",
+			"zipCodeAndCity":{
+				"zipCode":"10003",
+				"city":"New York"
+			},
+			"country":"UNITED STATES",
+			"district":"",
+			"state":"NY",
+			"county":"",
+			"fIPSCode":0
+		},
+		"isDefaultCorrespondance":true,
+		"privatePhone":"",
+		"privatePhoneExtension":"",
+		"officePhone":"",
+		"officePhoneExtension":"",
+		"cellPhone":"",
+		"fax":"",
+		"eMail":"",
+		"mediaType":"",
+		"isInvalid":false,
+		"reasonForInvalidAddress":""
+	},
+	"eval":null,
+	"className":"asli_manage_actors",
+	"methodName":"GetActorDefaultCorrespondence",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

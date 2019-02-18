@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>ABCD</ThirdPartyID>
+   <ClientId>
+      <Buid>318775013_6</Buid>
+      <InternalClientId>0000000026</InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>ABCD</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-08-06</UpdateDate>
+   <LegalEntityIdentity xsi:type="ns:aSPLI_US_LegalEntity">
+      <Name>ASH grove True Value Home Center</Name>
+      <ShortName>ASH</ShortName>
+      <CreationDate>2013-08-06</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <MasterLegalEntity>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>CAN</Country>
+      <State>AB</State>
+      <IndustrialClassification>
+         <System>SIC CA</System>
+         <Code>9839</Code>
+      </IndustrialClassification>
+      <AdditionalDatas></AdditionalDatas>
+      <WorksiteStates></WorksiteStates>
+      <TaxId></TaxId>
+   </LegalEntityIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>2013-08-06</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns:aSPCB_PostalAddressWithState">
+            <Line1>2 Bridgeview Dr</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>B3P 0A1</ZipCode>
+               <City>Halifax</City>
+            </ZipCodeAndCity>
+            <Country>CAN</Country>
+            <State>NS</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(902) 422-9037&#160;&#160;&#160;&#160;&#160;&#160;</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>(902) 422-9037&#160;&#160;&#160;&#160;&#160;&#160;</CellPhone>
+         <Fax>(902) 422-9037&#160;&#160;&#160;&#160;&#160;&#160;</Fax>
+         <eMail>ash grove true value home center@free.com</eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns:aSPCB_CA_BankAccount">
+         <Name>Chase Manhattan Bank</Name>
+         <EffectiveDate>2013-08-06</EffectiveDate>
+         <HolderName>ASH grove True Value Home Center</HolderName>
+         <Currency>cCanadianDollar</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>Branch</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>Chase Manhattan Bank</BankName>
+         <Address xsi:type="ns:aSPCB_PostalAddressWithState">
+            <Line1>4090 Lexington Avenue</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>10015</ZipCode>
+               <City>Toronto</City>
+            </ZipCodeAndCity>
+            <Country>CAN</Country>
+            <State>AB</State>
+         </Address>
+         <AccountNumber>000140867187344</AccountNumber>
+         <PreNoteProcessCompletionDate>2013-08-06</PreNoteProcessCompletionDate>
+         <Institution>910</Institution>
+         <Branch>00019</Branch>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secretary</Name>
+         <ContactName>John Smith</ContactName>
+      </Element>
+      <Element>
+         <Name>Director</Name>
+         <ContactName>William Doe</ContactName>
+      </Element>
+      <Element>
+         <Name>Sales man</Name>
+         <ContactName>Kent Johns</ContactName>
+      </Element>
+      <Element>
+         <Name>Financial director</Name>
+         <ContactName>Ruth Browns</ContactName>
+      </Element>
+      <Element>
+         <Name>Project manager</Name>
+         <ContactName>Steve Powell</ContactName>
+      </Element>
+      <Element>
+         <Name>Chief executive officer</Name>
+         <ContactName>Roberta Jackson</ContactName>
+      </Element>
+      <Element>
+         <Name>Advisor</Name>
+         <ContactName>Elizabeth White</ContactName>
+      </Element>
+      <Element>
+         <Name>Staff manager</Name>
+         <ContactName>Sandy Robinson</ContactName>
+      </Element>
+      <Element>
+         <Name>Accountant</Name>
+         <ContactName>Heather Clarck</ContactName>
+      </Element>
+      <Element>
+         <Name>Technical director</Name>
+         <ContactName>Maria Walker</ContactName>
+      </Element>
+   </ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid>318773581_62</Buid>
+               <ParamEntity>
+                  <Name>ash grove true value home center@free.com</Name>
+                  <Password>AS086201er</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>ash grove true value home center@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid>318767145_43</Buid>
+                  <ParamEntity>
+                     <Name>Web Group Admin</Name>
+                     <Code>WGA</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_45</Buid>
+                  <ParamEntity>
+                     <Name>Web Legal Entity Client</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_40</Buid>
+                  <ParamEntity>
+                     <Name>Web Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+         <Element>
+            <ApplicationLogin>
+               <Buid>318773581_63</Buid>
+               <ParamEntity>
+                  <Name>ash.grove.true.value.home.center@google.com</Name>
+                  <Password>AS086201er</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>ash grove true value home center@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid>318767145_43</Buid>
+                  <ParamEntity>
+                     <Name>Web Group Admin</Name>
+                     <Code>WGA</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_45</Buid>
+                  <ParamEntity>
+                     <Name>Web Legal Entity Client</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_40</Buid>
+                  <ParamEntity>
+                     <Name>Web Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+         <Element>
+            <ApplicationLogin>
+               <Buid>318773581_65</Buid>
+               <ParamEntity>
+                  <Name>ash.grove.true.value.home.center@hotmail.com</Name>
+                  <Password>AS086201er</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>ash grove true value home center@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid>318767145_43</Buid>
+                  <ParamEntity>
+                     <Name>Web Group Admin</Name>
+                     <Code>WGA</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_45</Buid>
+                  <ParamEntity>
+                     <Name>Web Legal Entity Client</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_40</Buid>
+                  <ParamEntity>
+                     <Name>Web Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+         <Element>
+            <ApplicationLogin>
+               <Buid>318773581_64</Buid>
+               <ParamEntity>
+                  <Name>ash.grove.true.value.home.center@yahoo.com</Name>
+                  <Password>AS086201er</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>ash grove true value home center@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid>318767145_43</Buid>
+                  <ParamEntity>
+                     <Name>Web Group Admin</Name>
+                     <Code>WGA</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_45</Buid>
+                  <ParamEntity>
+                     <Name>Web Legal Entity Client</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_40</Buid>
+                  <ParamEntity>
+                     <Name>Web Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <EmployeeInformations></EmployeeInformations>
+   <AffiliateLegalEntity></AffiliateLegalEntity>
+</_Result>

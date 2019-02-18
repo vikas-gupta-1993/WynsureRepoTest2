@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFNoteDeletionReasonEnum><Code Id="1"><![CDATA[NON]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[No Longer Needed]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[321126401]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFNoteDeletionReasonEnum></EntityExport>

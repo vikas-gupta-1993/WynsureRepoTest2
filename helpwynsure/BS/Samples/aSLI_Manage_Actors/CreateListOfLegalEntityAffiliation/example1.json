@@ -1,0 +1,45 @@
+{
+	"description": "Creation of US legal entity affliate",
+	"request": {
+		"affiliateLegalEntity": {
+			"$ref": "#",
+			"className": "aSPLI_CreateListOfLegalEntityDivisions_In",
+			"headQuarter": {
+				"buid": "",
+				"internalClientId": "0000000126",
+				"externalClientIdentifier": {
+					"externalClientId": "",
+					"thirdPartyID": "DistRoot"
+				}
+			},
+			"divisions": [
+				{
+					"$ref": "#",
+					"className": "aSPLI_CreateOrUpdateLegalEntityDivision_In",
+					"headQuarter": {
+						"$ref": "#",
+						"className": "aSPLI_GetLegalEntity",
+						"searchLegalEntity": {
+							"buid": "",
+							"internalClientId": "0000000095",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": "DistRoot"
+							}
+						}
+					},
+					"startDate": "2018-11-14",
+					"endDate": null
+				}
+			]
+		}
+	},
+	"response": null,
+	"eval": null,
+	"className": "aSLI_Manage_Actors",
+	"methodName": "CreateListOfLegalEntityAffiliation",
+	"version": "5.8.2.2",
+	"date": "2018-11-14",
+	"errors": [
+	]
+}

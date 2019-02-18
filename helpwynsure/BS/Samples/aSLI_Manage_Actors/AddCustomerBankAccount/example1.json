@@ -1,0 +1,30 @@
+{
+	"description":"",
+	"request":{
+		
+		"customerBuid":"",
+		"bankAccount":{
+			"className":"aSPCB_US_BankAccount",
+			"accountNumber":"",
+			"routingNumber":"",
+			"preNoteCompleted":false,
+			"preNoteProcessCompletionDate":"1900-01-01",
+			"accountType":"catChecking",
+			"branchName":"",
+			"depositType":"dpNA",
+			"bankName":"",
+			"address":null,
+			"name":"",
+			"effectiveDate":"1900-01-01",
+			"endDate":"1900-01-01",
+			"holderName":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"AddCustomerBankAccount",
+	"version":"5.7.3.0",
+	"date":"2017-11-06",
+	"errors":[
+	]
+}

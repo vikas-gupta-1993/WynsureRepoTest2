@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Set Running Context">
+   <aWEXIntegDefaultRunningContextDesc name="Change Default Running Context">
+      <Name>Change Default Running Context</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <TheRunningContext>
+         <aDynamicMultiLangRunningContext name="Wynsure55_PATCH_EN"></aDynamicMultiLangRunningContext>
+      </TheRunningContext>
+   </aWEXIntegDefaultRunningContextDesc>
+</aWEXIntegrationPlanDesc>

@@ -1,0 +1,40 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"$ref":"#",
+			"className":"aSPCB_GetAvailableDistributionUnit_In",
+			"name":"",
+			"code":"DistRoot"
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_OrganizationUnit",
+			"name":"Front Office",
+			"actorName":"",
+			"actorID":"",
+			"parentName":"",
+			"parentUnitCode":"",
+			"isADistributor":false,
+			"isADistributionNetwork":true,
+			"unitCode":"DistRoot",
+			"externalOrgUnit":false,
+			"mainActivity":"Front Office",
+			"backOfficeActivity":0,
+			"backOfficeActivityDescription":"",
+			"externalBackOffice":false,
+			"creationDate":null,
+			"productDistributionRoleName":"",
+			"isForDirectDistribution":false,
+			"directDistributionChannel":"ddcIndividual"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"SearchAvailableDistributionUnitsForClient",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

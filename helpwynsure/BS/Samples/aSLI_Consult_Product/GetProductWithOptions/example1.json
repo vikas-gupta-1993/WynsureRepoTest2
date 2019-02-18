@@ -1,0 +1,52 @@
+{
+	"description":"",
+	"request":{
+		"productId":{
+			"productIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"productCode":"STDGP"
+			},
+			"buid":"318842087_1"
+		},
+		"atDate":"2017-10-11"
+	},
+	"response":{
+		"className":"aSPCB_ProductWithOptions_Out",
+		"productCode":{
+			"productIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"productCode":"STDGP"
+			},
+			"buid":"318842087_1"
+		},
+		"product":{
+			"className":"aSPLI_GroupBenefitPlanProduct",
+			"onlyPredefinedMemberProduct":false,
+			"customizationPossible":false,
+			"stateDefinition":"cSitusState",
+			"individualCompensation":false,
+			"automaticallyUpdateFromGBPModelChanges":true,
+			"employeeClassCustomizationAtSubscription":false,
+			"subscribedBy":"cWFSubscribedByLegalEntity",
+			"productIsForGroup":true,
+			"productFamily":"Life",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":false,
+			"name":"Fully Customizable GBP",
+			"entityDescription":"Within a GBP contract, it is possible to choose coverage of all GBP Models, and to customize all rules."
+		},
+		"isMultiInsured":false,
+		"options":[
+		],
+		"buid":""
+	},
+	"className":"aSLI_Consult_Product",
+	"methodName":"GetProductWithOptions",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

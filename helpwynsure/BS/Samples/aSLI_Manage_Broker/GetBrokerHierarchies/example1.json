@@ -1,0 +1,35 @@
+{
+	"description":"When broker hierarchy is present",
+	"request":{
+		
+		"input":{
+			"buid":"",
+			"brokerID":"10000156"
+		}
+	},
+	"response":{
+		"className":"aSPLI_CreateOrUpdateBrokerHierarchies_In",
+		"brokerId":{
+			"buid":"",
+			"brokerID":"10000156"
+		},
+		"brokerHierarchies":[
+			{
+				"className":"aSPLI_CreateOrUpdateBrokerHierarchy_In",
+				"hierarchyInformation":{
+					"className":"aSPCB_BrokerHierarchy",
+					"name":"Broker1",
+					"shortName":"B1"
+				},
+				"brokerUnits":[
+				]
+			}
+		]
+	},
+	"className":"asli_manage_Broker",
+	"methodName":"GetBrokerHierarchies",
+	"version":"5.8.1.0",
+	"date":"2018-03-09",
+	"errors":[
+	]
+}

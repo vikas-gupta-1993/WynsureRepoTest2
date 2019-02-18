@@ -1,0 +1,13 @@
+{
+	"description":"",
+	"request":{
+		"taskBuid":"1002_2"
+	},
+	"response":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"ApplyCustomerRequest",
+	"version":"5.7.3.0",
+	"date":"2017-10-12",
+	"errors":[
+	]
+}

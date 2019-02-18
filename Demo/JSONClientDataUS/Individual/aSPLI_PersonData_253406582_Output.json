@@ -1,0 +1,220 @@
+{
+	"data":{
+		"className":"aSPLI_PersonData",
+		"bUID":"##31",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1961-10-10",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"2526 RAILROAD STREET",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"32250",
+						"city":"Jacksonville Beach"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"FL",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(904) 956-0026",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(904) 956-0026",
+				"fax":"",
+				"eMail":"juan.lillibridge@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-06-17",
+				"endDate":null,
+				"holderName":"Lillibridge",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"9038 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867180725",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Individual Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"juan.lillibridge@free.com",
+						"name":"juan.lillibridge@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"juan.lillibridge@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##31",
+						"description":"Juan Lillibridge 2526 RAILROAD STREET, Jacksonville Beach, FL 32250"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"juan.lillibridge@free.com",
+					"name":"juan.lillibridge@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Juan Lillibridge 2526 RAILROAD STREET, Jacksonville Beach, FL 32250",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000032WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000032WEX",
+		"actor":{
+			"className":"aSPLI_Person",
+			"name":"Lillibridge",
+			"shortName":"Juan",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1961-10-10",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"sSN":"688331865",
+			"maritalStatus":"cMarried",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Jacksonville Beach",
+			"birthPlaceZipCode":"32250",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false
+		},
+		"claimDisbursementChannel":[
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Juan Lillibridge 2526 RAILROAD STREET, Jacksonville Beach, FL 32250",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000032WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

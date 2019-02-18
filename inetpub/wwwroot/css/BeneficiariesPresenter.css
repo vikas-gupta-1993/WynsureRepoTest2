@@ -1,0 +1,91 @@
+/*Display correctly width sized area text for overriden provisions*/
+div[id^="beneficiairiesdetails"] textarea{
+	width: 100%;
+	resize: vertical;
+}
+
+/*Align Fraction or percentage radio buttons horizontally*/
+.FractionOrPercentage .aPF_InputRadioField label {
+    display: inline-block;
+	padding-right: 20px;
+}
+/*Hide unusued portion type*/
+.UnselectedPortionKind{
+	display: none !important;
+}
+/*do not display label in the table*/
+.FractionOrPercentage .aPF_InputRadioField > label{
+	display: none;
+}
+/*Beneficiary Table column sizes*/
+.BeneficiariesType  {
+	width: 350px !important;
+}
+.IdentifiedBeneficiaryTable td.relationship,.IdentifiedBeneficiaryTable th.relationship {
+	width: 156px !important;
+}
+.RelationToInsuredColumn{
+	width:140px !important;
+}
+.IdentifiedBeneficiaryTable td.birthdate,.IdentifiedBeneficiaryTable th.birthdate  {
+	width: 135px !important;
+}
+.IdentifiedBeneficiaryTable td.portion,.IdentifiedBeneficiaryTable th.portion {
+	width: 75px !important;
+}
+.IdentifiedBeneficiaryTable td.actions,.IdentifiedBeneficiaryTable th.actions {
+	width: 30px !important;
+}
+/*Table Beneficiary Row height*/
+.IdentifiedBeneficiaryTable td aPF_InputTextField{
+	margin-bottom: 0px;
+}
+.IdentifiedBeneficiaryTable tr td div.control-group {
+margin-bottom: 0px;
+}
+.IdentifiedBeneficiaryTable tr td div.control-group label.control-label {
+	display: none;
+}
+.RelationToInsuredColumn{
+	margin-bottom: 0px !important;
+}
+.IdentifiedBeneficiaryTable tr td input, .input-prepend{
+	margin-bottom: 0px !important;
+}
+.IdentifiedBeneficiaryTable tr td{
+	vertical-align: middle !important;
+}
+
+/*Name column design*/
+.IdentifiedBeneficiaryTable tr td.name input{
+	width:100%;
+	padding: 4px 0px;
+}
+/*Actions column design*/
+.IdentifiedBeneficiaryTable td.actions{
+	text-align: right;
+}
+.IdentifiedBeneficiaryTable td.actions a:hover, .IdentifiedBeneficiaryTable td.actions a:focus {
+	text-decoration: none;
+}
+.ActionDisabled {
+	color: lightgray;
+}
+/*Relationship Column design*/
+.IdentifiedBeneficiaryTable td.relationship > div{
+	display: inline-block;
+	margin-left: 5px;
+}
+.IdentifiedBeneficiaryTable td.relationship div:first-child{
+	margin-left: 0px;
+}
+/*Add link design (below table, makes it closer to the table and draw last row bottom border*/
+.Modification div[id^="beneficiairiesdetails"] table.IdentifiedBeneficiaryTable{
+	margin-bottom: 0px;
+	border-bottom-color: lightgray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.AddLinks{
+	margin-bottom: 20px;
+}

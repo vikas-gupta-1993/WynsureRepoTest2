@@ -1,0 +1,67 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"actorBUID":"318842236_17",
+			"clientID":"",
+			"fromDate":null,
+			"toDate":null,
+			"contactKind":"ckAll"
+		},
+		"maxSize":10
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetCustomerCorrespondenceInfo_Out",
+			"name":"Claim Correspondence",
+			"user":"Admin",
+			"media":"mPhone",
+			"dateOfContact":"2018-01-24",
+			"timeOfContact":"10:17:44Z",
+			"contactKind":"ckIncoming",
+			"contactName":"",
+			"correspondence":"",
+			"buid":"318843493_68"
+		},
+		{
+			"className":"aSPLI_GetCustomerCorrespondenceInfo_Out",
+			"name":"Phone Call - Health Care Product",
+			"user":"Admin",
+			"media":"mPhone",
+			"dateOfContact":"2017-01-24",
+			"timeOfContact":"10:17:44Z",
+			"contactKind":"ckIncoming",
+			"contactName":"",
+			"correspondence":"",
+			"buid":"318843493_67"
+		},
+		{
+			"className":"aSPLI_GetCustomerCorrespondenceInfo_Out",
+			"name":"Correspondence - Sent Questionnaire to subscribe Term Life",
+			"user":"Admin",
+			"media":"mPhone",
+			"dateOfContact":"2016-11-24",
+			"timeOfContact":"10:17:44Z",
+			"contactKind":"ckIncoming",
+			"contactName":"",
+			"correspondence":"",
+			"buid":"318843493_66"
+		},
+		{
+			"className":"aSPLI_GetCustomerCorrespondenceInfo_Out",
+			"name":"Phone Call for Information on our Products",
+			"user":"Admin",
+			"media":"mPhone",
+			"dateOfContact":"2016-09-24",
+			"timeOfContact":"10:17:44Z",
+			"contactKind":"ckIncoming",
+			"contactName":"",
+			"correspondence":"",
+			"buid":"318843493_65"
+		}
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchActorContactHistory",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

@@ -1,0 +1,137 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPCB_GetOperationAssignment_In",
+			"toDoListKind":"tdlkAllPendingTasks",
+			"functionalDomains":[
+				0,
+				3011,
+				3001
+			],
+			"basketTeams":[
+			]
+		},
+		"maxSize":5
+	},
+	"response":[
+		{
+			"className":"aSPF_GetOpAssignmentInfo_Out",
+			"paramEntity":{
+				"className":"aSPF_OperationAssignment",
+				"name":"Claim # 00000012 Short Term Disability Occurred on 08\/24\/2017 f",
+				"taskDescription":"Claim # 00000012 Short Term Disability Occurred on 08\/24\/2017 for Carolyn Harris (Illness)",
+				"status":"Pending",
+				"domain":"Claim - Process",
+				"fromUser":"Lauren",
+				"toUser":"Lauren (Active)",
+				"creationDate":"2017-09-27",
+				"creationTime":"12:04:47Z",
+				"expectedLimitDate":"2017-08-28",
+				"expectedLimitTime":"10:18:05Z",
+				"removalDate":null,
+				"removalTime":null,
+				"terminationReason":"",
+				"taskKind":"Individual Claim Adjudication (Action)"
+			},
+			"opAssignmentSignature":"aWLI_IndividualClaimTreatment_Process",
+			"buid":"318833312_142"
+		},
+		{
+			"className":"aSPF_GetOpAssignmentInfo_Out",
+			"paramEntity":{
+				"className":"aSPF_OperationAssignment",
+				"name":"Claim # 00000019 Short Term Disability Occurred on 09\/11\/2017 f",
+				"taskDescription":"Claim # 00000019 Short Term Disability Occurred on 09\/11\/2017 for James Alison (Illness)",
+				"status":"Pending",
+				"domain":"Claim - Process",
+				"fromUser":"Andrea",
+				"toUser":"Super manager (Active)",
+				"creationDate":"2017-09-11",
+				"creationTime":"10:08:27Z",
+				"expectedLimitDate":"2017-09-13",
+				"expectedLimitTime":"10:08:08Z",
+				"removalDate":null,
+				"removalTime":null,
+				"terminationReason":"",
+				"taskKind":"Individual Claim Adjudication (Action)"
+			},
+			"opAssignmentSignature":"aWLI_IndividualClaimTreatment_Process",
+			"buid":"318833312_130"
+		},
+		{
+			"className":"aSPF_GetOpAssignmentInfo_Out",
+			"paramEntity":{
+				"className":"aSPF_OperationAssignment",
+				"name":"ress",
+				"taskDescription":"ress",
+				"status":"Pending",
+				"domain":"Customer Service",
+				"fromUser":"Andrea",
+				"toUser":"Default Team (Active)",
+				"creationDate":"2017-09-11",
+				"creationTime":"10:54:21Z",
+				"expectedLimitDate":"2017-09-13",
+				"expectedLimitTime":"10:54:06Z",
+				"removalDate":null,
+				"removalTime":null,
+				"terminationReason":"",
+				"taskKind":"Manual Task: Notification ()"
+			},
+			"opAssignmentSignature":"aWF_SimpleTask_Process",
+			"buid":"318833312_132"
+		},
+		{
+			"className":"aSPF_GetOpAssignmentInfo_Out",
+			"paramEntity":{
+				"className":"aSPF_OperationAssignment",
+				"name":"ress",
+				"taskDescription":"ress",
+				"status":"Pending",
+				"domain":"Customer Service",
+				"fromUser":"Andrea",
+				"toUser":"Default Team (Active)",
+				"creationDate":"2017-09-11",
+				"creationTime":"10:54:21Z",
+				"expectedLimitDate":"2017-09-13",
+				"expectedLimitTime":"10:54:06Z",
+				"removalDate":null,
+				"removalTime":null,
+				"terminationReason":"",
+				"taskKind":"Manual Task: Notification ()"
+			},
+			"opAssignmentSignature":"aWF_SimpleTask_Process",
+			"buid":"318833312_132"
+		},
+		{
+			"className":"aSPF_GetOpAssignmentInfo_Out",
+			"paramEntity":{
+				"className":"aSPF_OperationAssignment",
+				"name":"Document Reception Process",
+				"taskDescription":"Document Reception Process",
+				"status":"Pending",
+				"domain":"Document Imaging",
+				"fromUser":"Admin",
+				"toUser":"Default Team (Active)",
+				"creationDate":"2017-07-24",
+				"creationTime":"10:17:24Z",
+				"expectedLimitDate":null,
+				"expectedLimitTime":null,
+				"removalDate":null,
+				"removalTime":null,
+				"terminationReason":"",
+				"taskKind":"Treat Unmatched Document"
+			},
+			"opAssignmentSignature":"aWLI_ReceivedDoc_Process",
+			"buid":"318833312_124"
+		}
+	],
+	"className":"aSCB_Consult_TodoList",
+	"methodName":"SearchOperationAssignments",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

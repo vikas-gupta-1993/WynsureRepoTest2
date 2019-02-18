@@ -1,0 +1,44 @@
+{
+	"description":"",
+	"request":{
+		"buid":"318843693_5",
+		"newParamCorrespondence":{
+			"className":"aSPCB_Correspondence",
+			"effectiveDate":"2011-01-06",
+			"addressUsage":"0",
+			"address":{
+				"className":"aSPCB_US_PostalAddress",
+				"line1":"320 Conestoga Way Apt 4105",
+				"line2":"India",
+				"zipCodeAndCity":{
+					"zipCode":"53204",
+					"city":"Milwaukee"
+				},
+				"country":"UNITED STATES",
+				"district":"",
+				"state":"WI",
+				"county":"",
+				"fIPSCode":0
+			},
+			"isDefaultCorrespondance":true,
+			"privatePhone":"+1 4147603020",
+			"privatePhoneExtension":"",
+			"officePhone":"",
+			"officePhoneExtension":"",
+			"cellPhone":"+1 4147603020",
+			"fax":"+91345678",
+			"eMail":"contact@dib.com",
+			"mediaType":"",
+			"isInvalid":false,
+			"reasonForInvalidAddress":""
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Broker",
+	"methodName":"UpdateBrokerCorrespondence",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

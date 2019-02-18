@@ -1,0 +1,180 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##0",
+		"dataHistory":[
+		],
+		"thirdPartyId":"AA",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"2010-10-18",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"01000",
+						"city":"BOURG EN BRESSE"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"12 AVENUE MAURICE BERTEAU",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"+33 144556677",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"+33 644556676",
+				"fax":"+33 144556675",
+				"eMail":"contact@w_assurance_sa.com",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"Relevé d'Identité Bancaire",
+				"effectiveDate":"2018-01-22",
+				"endDate":null,
+				"holderName":"W Assurance SA",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"",
+				"depositType":"dpWholesale",
+				"bankName":"",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75012",
+						"city":"PARIS 12EME ARRONDISSEMENT"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"40 RUE LOUIS GÉRARD",
+					"line2":""
+				},
+				"bankCode":"30001",
+				"officeCode":"00794",
+				"accountNumber":"12345678901",
+				"rIBKey":"85",
+				"iBAN":"FR7630001007941234567890185",
+				"bIC":"AECFFR21"
+			}
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Directeur",
+				"contactName":"Jacques DUPONT",
+				"beginDate":"2018-08-08",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2010-10-18",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_Fr_AfnorPostalAddress",
+						"zipCodeAndCity":{
+							"zipCode":"01000",
+							"city":"BOURG EN BRESSE"
+						},
+						"country":"FRANCE",
+						"district":"",
+						"doorOrLetterbox_Floor_Staircase":"",
+						"specialMention_GeographicalCity":"",
+						"recipient":"",
+						"line1":"12 AVENUE MAURICE BERTEAU",
+						"line2":""
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"+33 144556677",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"+33 644556676",
+					"fax":"+33 144556675",
+					"eMail":"contact@w_assurance_sa.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":true
+			}
+		],
+		"logins":[
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000135",
+		"actor":{
+			"className":"aSPLI_Fr_LegalEntity",
+			"shortName":"W Assurance SA",
+			"creationDate":"2018-01-22",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"preferredCurrency":"cEuro",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"W Assurance SA",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"FRANCE",
+			"state":"",
+			"industrialClassification":{
+				"classificationSystem":"NAF 2008 REV 2",
+				"code":"65.12Z"
+			},
+			"totalNumberOfEmployees":0,
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"CCN",
+					"fieldName":"Convention Collective Nationale",
+					"codeForPopulationClass":"",
+					"valueCode":"NA",
+					"fieldValue":"Non définie",
+					"nameDescription":"Non définie"
+				}
+			],
+			"companyType":"Secteur Privé",
+			"sIRET":"36252187900100"
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"W Assurance SA (W Assurance SA) - 36252187900100",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000135",
+			"thirdPartyID":"AA"
+		}
+	}
+}

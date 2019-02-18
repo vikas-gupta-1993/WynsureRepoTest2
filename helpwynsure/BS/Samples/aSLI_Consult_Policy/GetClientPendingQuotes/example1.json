@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"{{personBUID}}"
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":10
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetClientPendingQuotes",
+	"version":"5.8.2.0",
+	"date":"2018-07-24",
+	"errors":[
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Information",
+			"kindNumber":4
+		}
+	]
+}

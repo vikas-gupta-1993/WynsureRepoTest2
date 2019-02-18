@@ -1,0 +1,230 @@
+/**********************/
+/* Portal main layout */
+/**********************/
+body {
+	display: block;
+	visibility: visible;
+	margin: 0 auto;
+	-text-align: center;
+}
+#PortalWrapper {
+  display: block;
+  clear: both;
+	margin: 0 auto;
+	width: 1000px;
+	-text-align: left;
+}
+#MiddlePanelWrapper td {
+  vertical-align: top;
+}
+#MiddlePanelWrapper {
+	min-height: 600px;
+	-height: 600px;
+}
+#CenterPanelWrapper {
+  width: 100%;
+}
+#SideNavigation {
+  width: 180px;
+}
+#TopPanelWrapper {
+  height: 120px;
+  width: 100%;
+  position: relative;
+}
+#BottomPanelWrapper {
+  width: 100%;
+  background-color: #577B8F;
+}
+
+/************************/
+/* Portal header layout */
+/************************/
+div#PortalLogoWrapper {
+  position: absolute;
+	width: 246px;
+	height: 90px;
+}
+
+div#PortalLogo {
+  margin-left: 10px;
+  margin-top: 10px;
+	overflow: hidden;
+}
+div#PortalLogo a {
+	float: left;
+}
+div#NavigationPathWrapper {
+  position: absolute;
+	width: 600px;
+	top: 10px;
+	margin-left: 230px;	
+}
+div#IdentityPanel {	
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+div#IdentityPanel ul {
+	margin: 0;
+	padding: 0;
+}
+div#MultiLangPanel {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+div#MultiLangPanel ul {
+	padding: 0;
+	margin: 0;
+}
+div#MultiLangPanel li {
+	float: left;
+	display: block;	
+}
+
+/************************************/
+/* Portal primary navigation layout */
+/************************************/
+/*
+div#PrimaryNavigationWrapper {
+	position: absolute;
+	top: 120px;
+	padding-left: 10px;
+	height: 3em;
+	width: 100%;
+}
+div#PrimaryNavigation {
+	display: block;
+	width: 100%;
+}
+div#PrimaryNavigation ul {
+	float: left;
+	display: block;
+	list-style: none outside none;
+	padding-left: 0em;
+	margin-left: 0;
+}
+div#PrimaryNavigation li {
+	float: left;
+	-width: 150px;
+	-text-align: left;
+}
+div#PrimaryNavigation a {
+	position: relative;
+	cursor: pointer;
+	display: block;
+}*/
+.close {
+  float: left;
+  cursor: pointer;
+}
+div#PrimaryNavigation {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+div#PrimaryNavigation ul {
+  padding-left: 20px;
+}
+/************************/
+/* Portal Right panel ***/
+/************************/
+
+#ActionList {
+  min-width: 126px;
+  margin-bottom: 5px;
+}
+#ActionList ul {
+  list-style: none;
+  padding: 0;
+}
+#ActionList ul li {
+  margin: 0;
+  margin-bottom: 3px;
+}
+#ActionList a, #ActionList button {
+  min-width: 130px;
+  text-align: left;
+}
+
+/************************/
+/* Portal bottom layout */
+/************************/
+#PortalFooter {
+	position: relative;
+	display: block;
+}
+p.copyright {
+	clear: left;
+}
+td#PortalNavigation {
+	vertical-align: top;
+	width: 200px;	
+}
+#BottomPanel {
+	clear: both;
+}
+
+/**********************/
+/* Portal misc layout */
+/**********************/
+.clear {
+	clear: both;
+}
+ul {
+	padding-left: 2em;
+	margin: 0;
+}
+dl.checkboxWrapper dt {
+	float: left;
+}
+dl.checkboxWrapper input {
+	margin: 0 0 0.3em 0;
+}
+dl span.input {
+	display: block;
+	width: 25em;
+	min-height: 15px;
+	padding: 0.5em;
+	float: left;
+	margin-right: 1em;
+}
+dl span.input ul, dl span.input ul li {
+	margin: 0;
+	padding: 0;
+}
+dl span.input ul li {
+	margin-right: 1em;
+}
+dl.checkbox dd {
+	margin-left: 1.5em;
+	padding: 0;
+	
+}
+.isDate {
+	width: 7em;
+}
+#GoogleMap {
+	margin-top: 1em;
+}
+.IconMessage {
+	float: left;
+	margin-right: 0.3em;
+}
+h3 {
+	margin: 0.4em 0;
+}
+.nowrap table {
+    white-space: nowrap;
+}
+.margin1 {
+	margin: 0.5em;
+}
+.padding1 {
+	padding: 0.5em;
+}
+.ErrorFixer {
+	padding: 0.5em;
+	margin: 0 0 0.5em 0;
+}

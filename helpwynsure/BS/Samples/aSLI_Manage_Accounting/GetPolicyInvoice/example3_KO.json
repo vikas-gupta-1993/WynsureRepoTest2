@@ -1,0 +1,27 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"statementIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"name":"1235"
+			},
+			"buid":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetPolicyInvoice",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"031D_BS_000026",
+			"message":"Can not find invoice by Id:WIC\/1235",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

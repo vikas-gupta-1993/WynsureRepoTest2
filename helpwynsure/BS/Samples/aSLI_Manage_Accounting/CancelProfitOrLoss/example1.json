@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"transactionLogID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318838589_50",
+			"description":""
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"className":"asli_manage_accounting",
+	"methodName":"CancelProfitOrLoss",
+	"version":"5.7.3.0",
+	"date":"2017-11-27",
+	"errors":[
+	]
+}

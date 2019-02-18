@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<gui display="WYDE">
+  <nested href="MappingDiff\MappingDiff.gui" />
+  <nested href="BundleDiff\BundleDiff.gui" />
+  <nested href="AppDescDiff\AppDescDiff.gui" />
+</gui>

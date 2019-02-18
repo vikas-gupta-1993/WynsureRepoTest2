@@ -1,0 +1,176 @@
+{
+	"description":"",
+	"request":{
+		
+		"criteria":{
+			"productCode":"",
+			"productFamily":"",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"issuingCompanyCode":"",
+			"activeAtDate":"",
+			"maxSize":0
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Disability",
+			"productAvailabilities":[
+				"Available on wPortal",
+				"Available on Tablet"
+			],
+			"isMultiOwner":false,
+			"name":"Disability Insurance",
+			"entityDescription":"  This products is designed to keep you financially stable during difficult times by paying an income, directly to you, when you are sick or hurt and unable to work."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Health",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":false,
+			"name":"Family Health Plus Base Plan",
+			"entityDescription":"Health insurance for people aged between 18 and 64 years old - Ideal for the self-employed.\r\nFor families."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Home",
+			"productAvailabilities":[
+				"Available on wPortal"
+			],
+			"isMultiOwner":false,
+			"name":"Homeowners",
+			"entityDescription":"It is an insurance policy that combines various personal insurance protections, which can include losses occurring to one's home, its contents, loss of its use (additional living expenses), or loss of other personal possessions of the homeowner, as well as liability insurance for accidents that may happen at the home or at the hands of the homeowner within the policy territory.\r\n\r\nIt is a multiple-line insurance, meaning that it includes both property and liability coverage, with an indivisible premium, meaning that a single premium is paid for all risks.\r\n\r\nThe cost of homeowner's insurance often depends on what it would cost to replace the house and which additional riders-additional items to be insured-are attached to the policy. The insurance policy itself is a lengthy contract, and names what will and what will not be paid in the case of various events. Typically, claims due to floods or war (whose definition typically includes a nuclear explosion from any source), amongst other standard exclusions (like termites), are excluded. Special insurance can be purchased for these possibilities, including flood insurance.\r\n\r\nA basic policy form that provides coverage on a home against 11 listed perils; contents are generally included in this type of coverage, but must be explicitly enumerated. The perils include fire or lightning, windstorm or hail, vandalism or malicious mischief, theft, damage from vehicles and aircraft, explosion riot or civil commotion, glass breakage, smoke, volcanic eruption, and personal liability. Exceptions include floods, earthquakes."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Cash Value",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":false,
+			"name":"Immediate Annuity",
+			"entityDescription":"This allows you to convert a lump sum of money into an annuity so that you can immediately \r\nreceive income. Payments generally start about a month after you purchase the annuity. This \r\ntype of annuity offers financial security in the form of income payments for the rest of your life. \r\nIn other words, you cannot outlive it.\r\n\r\nImmediate annuities allow you to:\r\nSupplement your current income. If you are nearing retirement, you may consider \r\ntransferring another savings or investment account into an immediate annuity. You \r\ncan also move the proceeds from a deferred annuity into an immediate annuity.\r\nPay taxes only on the portion of your immediate annuity payments that is considered \r\nearnings. You are not taxed on the portion that is principal. The principal is the initial \r\ndeposit made with funds that have already been taxed.\r\n\r\nLike deferred annuities, immediate annuities can be fixed or variable. Fixed immediate annuity \r\nincome payments are pegged to the amount you contribute, your age and the interest rate at \r\nthe time of purchase. Those payments to you will not go up or down. Variable immediate \r\nannuity payments vary with the investments you chose."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Health",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":false,
+			"name":"Major Medical",
+			"entityDescription":"Health insurance for people aged between 18 and 64 years old - Ideal for the self-employed. For families."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Vehicle",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":true,
+			"name":"Motor Insurance Product",
+			"entityDescription":""
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Vehicle",
+			"productAvailabilities":[
+				"Available on wPortal"
+			],
+			"isMultiOwner":false,
+			"name":"Personal Auto",
+			"entityDescription":"The main purpose of car insurance is to protect you in the event of an accident, whether or not you're responsible."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Disability",
+			"productAvailabilities":[
+				"Available on wPortal",
+				"Available on Tablet"
+			],
+			"isMultiOwner":false,
+			"name":"SAD",
+			"entityDescription":""
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Life",
+			"productAvailabilities":[
+				"Available on wPortal"
+			],
+			"isMultiOwner":true,
+			"name":"Simplified Issue 10 Year Renewable Term Life",
+			"entityDescription":"Renewable Level Term & Simplified Underwriting. 10 Year Level Premium Period.\r\nAfter the 10 Year Term Period, coverage may be continued at annually increasing premium rates to age 85.\r\nConvertible up to the earlier of age 65 or the end of the Base Term Period (10 year) without evidence of insurability. The conversion policy will be a whole life policy."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Life",
+			"productAvailabilities":[
+				"Available on wPortal"
+			],
+			"isMultiOwner":true,
+			"name":"Simplified Issue 10 Year Renewable Term Life (Europe)",
+			"entityDescription":"Renewable Level Term & Simplified Underwriting. 10 Year Level Premium Period.\r\nAfter the 10 Year Term Period, coverage may be continued at annually increasing premium rates to age 85.\r\nConvertible up to the earlier of age 65 or the end of the Base Term Period (10 year) without evidence of insurability. The conversion policy will be a whole life policy."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Travel Insurance",
+			"productAvailabilities":[
+				"Available on wPortal"
+			],
+			"isMultiOwner":false,
+			"name":"Travel",
+			"entityDescription":"Travel insurance is insurance that is intended to cover medical expenses, financial default of travel suppliers, and other losses incurred while traveling, either within one's own country, or internationally."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Cash Value",
+			"productAvailabilities":[
+				"Available on wPortal",
+				"Available on Tablet"
+			],
+			"isMultiOwner":false,
+			"name":"Universal Life",
+			"entityDescription":"Universal life insurance (often shortened to UL) is a type of permanent life insurance based on a cash value. That is, the policy is established with the insurer where premium payments above the cost of insurance are credited to the cash value of the policy. The cash value is credited each month with interest, and the policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees which are drawn from the cash value if no premium payment is made that month. The interest credited to the account is determined by the insurer; sometimes it is pegged to a financial index such as a bond or other interest rate index."
+		},
+		{
+			"className":"aSPLI_Product",
+			"subscribedBy":"cWFSubscribedByIndividual",
+			"productIsForGroup":false,
+			"productFamily":"Cash Value",
+			"productAvailabilities":[
+			],
+			"isMultiOwner":false,
+			"name":"Variable Life",
+			"entityDescription":"Variable Life insurance (often shortened to VL) is a type of permanent life insurance based on a cash value. That is, the policy is established with the insurer where deposits can be invested in investment funds. The cash value depends on the possess units and their value on the market and the rest of deposit amount not invested. The policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees which are drawn from the cash value if there is no amount left on the available amount of the multiple investment account (MIA). The units generated dividends over time that are credited to the  interest credited to the MIA account, added in its availbable amount."
+		}
+	],
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetAvailableProducts",
+	"version":"5.7.3.0",
+	"date":"2017-12-04",
+	"errors":[
+	]
+}

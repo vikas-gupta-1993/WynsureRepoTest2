@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Integration-CheckConsistency">
+	<aWEXIntegCheckConsistencyDesc name="Check Consistency on Wynsure entities">
+		<EntitiesToCheck>
+			<aWAMContainer name="All Public WF5800-3"/>
+		</EntitiesToCheck>
+	</aWEXIntegCheckConsistencyDesc>
+	<aWEXIntegCheckConsistencyDesc name="Check Consistency on eWAMex entities">
+		<EntitiesToCheck>
+			<aWAMContainer name="eWAMEx"/>
+		</EntitiesToCheck>
+	</aWEXIntegCheckConsistencyDesc>
+	<!--<aWEXIntegCheckConsistencyDesc name="Check Consistency on WynsureRESTApi entities">
+		<EntitiesToCheck>
+			<aWAMContainer name="WynsureRESTApi"/>
+		</EntitiesToCheck>
+	</aWEXIntegCheckConsistencyDesc>-->
+</aWEXIntegrationPlanDesc>

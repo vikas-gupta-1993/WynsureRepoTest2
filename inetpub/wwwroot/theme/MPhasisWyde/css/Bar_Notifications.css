@@ -1,0 +1,164 @@
+
+.topbarnotif a.topbarnotif-icon {
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+.topbarnotif .title {
+  display: none;
+}
+.nav .topbarnotif .icon-reloader, .nav .topbarnotif .icon-reloader {
+  display: none;
+}
+
+a.default-topbarnotif-icon {
+  /*background-image: url('../images/topbarnotifgray.png');*/
+}
+
+.opened-tbnotif a.default-topbarnotif-icon {
+  /*background-image: url('../images/topbarnotif.png');*/
+}
+
+.topbarnotif .topbarnotif-body {
+  border: 1px solid #585858;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+.topbarnotif .opened-tbnotif,.topbarnotif-panel {
+  display: block;
+}
+.topbarnotif-panel {
+  display: none;
+  float: left;
+  position: absolute;
+  z-index:500;
+  top: 39px;
+  left: 48px;
+  width: 380px;
+}
+.topbarnotif-panel .row{
+  margin-left: 0px;  
+}
+.topbarnotif .topbarnotif-header-decoration {
+  background-repeat: no-repeat;
+  background-image: url('../images/arrow-top.png');
+  width: 29px;
+  height: 16px;
+  position: absolute;
+  top: -15px;
+  left: 188px;
+  z-index: 100;
+  float: left;
+}
+.opened-tbnotif{
+  display: block;
+}
+.topbarnotif .topbarnotif-header {
+  border-left: 1px solid #585858;
+  border-right: 1px solid #585858;
+  border-top: 1px solid #585858;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.topbarnotif .topbarnotif-footer {
+  border-left: 1px solid #585858;
+  border-right: 1px solid #585858;
+  border-bottom: 1px solid #585858;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0;
+  min-height: 5px;
+  background-color: white;
+}
+.topbarnotif-item-header{
+	font-weight: none;
+	font-size: 0.8em;
+}
+.topbarnotif-item-body{
+	display:table;
+	width:100%;
+	position:relative;
+	padding-top:4px;
+	padding-bottom:4px;
+	
+ }
+
+ .topbarnotif-item-body,
+ .topbarnotif-item-body-lastElement{
+ 	border-top: solid 1px #E3E8F0;
+ }
+.topbarnotif-item-header:hover{
+	background-color: #F4F6F9;
+}
+.topbarnotif .notification-count {
+  color: white;
+  background-color: red;
+  font-size: 0.8em;
+  padding: 0 2px 0 2px;
+  float: right;
+  border: 1px solid red;
+  border-bottom-color: black;
+  border-bottom-color: black;
+  border-radius: 2px;
+}
+.topbarnotif .action {
+  width: 0;
+  min-width: 0;
+}
+.topbarnotif form {
+}
+.topbarnotif {
+  margin: 10px 6px 0 6px;
+  display: block;
+}
+.topbarnotif i{
+  color: #CCCCCC;
+  margin-right: 5px;
+  text-decoration: none;
+
+}
+.topbarnotif i:hover{
+  color:white;
+}
+.NotificationContent{
+
+	padding-left: 10px;
+ 	padding-right: 10px;
+	display: table-cell;
+}
+
+ul.topnav div.NotificationContent a{
+	color: #0B559B;
+}
+
+.close-notification {
+    background-image: url(../images/close.png);
+    background-repeat: no-repeat;
+    display: table-cell;
+    visibility: hidden;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.close-notification-inner{
+    width:10px;
+    height:8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.notificationHover{
+
+}
+
+.notificationCloseButtonHover{
+	visibility: visible;
+}

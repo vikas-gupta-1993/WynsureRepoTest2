@@ -1,0 +1,40 @@
+#aPLI_NotesBSPicker_result{
+	border: none;
+	box-shadow: 0px 0px white;
+}
+
+form table.CustomizedTablePresenter{
+	border:none;
+	background:white;
+}
+
+form thead{
+	display:none;
+}
+
+form p{
+	padding-left:5px;
+	margin:10px;
+}
+
+form table h6{	
+	margin-top: 1px;
+	margin-bottom: 5px;
+}
+
+form table.CustomizedTablePresenter td{
+	border:none;
+	background:white;
+}
+
+form table tr.odd{
+	background-color:white;
+}
+
+form table tr:hover td {
+	background-color:white;
+}
+
+td .text-muted {
+	font-size: 11px;
+}

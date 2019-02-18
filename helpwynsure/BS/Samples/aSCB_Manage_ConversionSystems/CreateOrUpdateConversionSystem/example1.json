@@ -1,0 +1,27 @@
+{
+	"description": "",
+	"request": {
+		"input": {
+			"$ref": "#",
+			"className": "aSPCB_CreateOrUpdateConversionSystem_Standard",
+			"conversionSystemInformation": {
+				"$ref": "#",
+				"className": "aSPCB_ConversionSystem_Standard",
+				"name": "World Trade Center",
+				"code": "WTC",
+				"conversionModules": [
+				]
+			}
+		}
+	},
+	"response": {
+		"_Result": true
+	},
+	"eval": null,
+	"className": "aSCB_Manage_ConversionSystems",
+	"methodName": "CreateOrUpdateConversionSystem",
+	"version": "5.8.2.2",
+	"date": "2018-11-14",
+	"errors": [
+	]
+}

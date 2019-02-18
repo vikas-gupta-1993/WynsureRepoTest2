@@ -1,0 +1,25 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318853961_7",
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPCV_GetCashValueContractTransaction_Out",
+			"contractNumber":"4800000511",
+			"date":"2017-03-27",
+			"amount":{
+				"amount":36000,
+				"currency":"cUSDollar"
+			}
+		}
+	],
+	"eval":null,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"GetCashValueDeposit",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

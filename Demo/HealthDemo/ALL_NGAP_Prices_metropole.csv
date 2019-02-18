@@ -1,0 +1,432 @@
+DATE;NAME;ABSTRACT;AMOUNT1;AMOUNT 2;AMOUNT3;AMOUNT4;AMOUNT5;AMOUNT6;AMOUNT7;Famille
+01/01/1980;AAD;AUTRES ACCESSOIRES TRAITEMENT A DOMICILE;0;;;;;;;
+01/01/1980;AAR;APPAREILLAGE ASSISTANCE RESPIRATOIRE;0;;;;;;;Appareillage et audioprothèse
+01/01/1980;ABA;TRANSPORT PAR AMBULANCES AGREES;0;;;;;;;Hospitalisation
+01/01/1980;ABG;AMBULANCE AGREE DE GARDE;0;;;;;;;Hospitalisation
+01/01/1980;KE;ACTES D'ECHOGRAPHIE;2,65;;;;;;;Soins courants
+01/01/1980;AIS;ACTES INFIRMIERS DE SOINS;2,65;;;;;;;Soins courants
+01/01/1980;AMC;Actes de kinésithérapie en établissement;2,15;;;;;;;Soins courants
+01/01/1980;AMD;INTERVENTION+ANESTHESIE DUREE<=12;0;;;;;;;Hospitalisation
+01/01/1980;AMF;FORFAIT PUBLIC IVG MEDICAMENTEUSE;0;;;;;;;
+01/01/1980;AMI;Soins infirmiers;3,15;;;;;;;Soins courants
+01/01/1980;AMK;ACTES DE KINESITHERAPIE;2,15;;;;;;;Soins courants
+01/01/1980;AMO;Séances d'orthophonie;2,5;;;;;;;Soins courants
+01/01/1980;AMP;Pédicurie;0,63;;;;;;;Soins courants
+01/01/1980;AMS;Actes de kinésithérapie osthéo-articulaire;2,15;;;;;;;Soins courants
+01/01/1980;AMY;Séances d'orthoptie;2,6;;;;;;;Soins courants
+01/01/1980;ANP;FORFAIT ACTIVITE NON PROGRAMMEE;0;;;;;;;
+01/01/1980;ANT;SUPPLEMENT ANTEPARTUM;0;;;;;;;
+01/01/1980;APD;INTERVENTION+ANESTHESIE,24>DUREE>12;0;;;;;;;Hospitalisation
+01/01/1980;APE;ADMINISTRATION DE PRODUITS ET PRESTATIONS EN ENVIRONNEMENT HOSPITALIER;0;;;;;;;Hospitalisation
+01/01/1980;ARE;FRAIS D’ANESTHESIE ET DE REANIMATION;0;;;;;;;Hospitalisation
+01/01/1980;ARO;GENERATEUR D'AEROSOL;0;;;;;;;
+01/01/1980;AS1;FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 1;0;;;;;;;Hospitalisation
+01/01/1980;AS2;FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2;0;;;;;;;Hospitalisation
+01/01/1980;AS3;FORFAIT HOSPITALISATION A TEMPS PARTIEL 15 %.;;;;;;;;Hospitalisation
+01/01/1980;AS4;FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2 + FAS1 ;0;;;;;;;Hospitalisation
+01/01/1980;AS5;FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2 + FAS2;0;;;;;;;Hospitalisation
+01/01/1980;ATD;COMPLEMENT AT 150% DENTAIRE;0;;;;;;;
+01/01/1980;ATL;COMPLEMENT AT 150% LPP;0;;;;;;;
+01/01/1980;ATP;Autres moyens de transports;0;;;;;;;
+01/01/1980;ATU;FORFAIT D'ACCUEIL ET DE TRAITEMENT DES URGENCES ;0;;;;;;;
+01/01/1980;B;ACTES DE BIOLOGIE;0,27;;;;;;;Soins courants
+01/01/1980;BDC;CONSULTATION DE PREVENTION BUCCO-DENTAIRE;30;;;;;;;Soins courants
+01/01/1980;BR2;CONSULTATION ET RADIO 2 CLICHES DE PREVENTION BUCCO-DENTAIRE;42;;;;;;;Soins courants
+01/01/1980;BR4;CONSULTATION ET RADIO 4 CLICHES DE PREVENTION BUCCO-DENTAIRE;54;;;;;;;Soins courants
+01/01/1980;C;consultation;23;;;0,61;;;;Soins courants
+01/01/1980;CA;CONSULTATION APPROFONDIE ;0;;;;;;;Soins courants
+01/01/1980;CG;CONSULTATION SUIVI DE GROSSESSE;0;;;;;;;Soins courants
+01/01/1980;CDE;consultation de dépistage du mélanome réalisée au cabinet par le médecin spécialiste en dermatologie;46;;;;;;;Soins courants
+01/01/1980;CNP;CONSULTATION NEURO-PSYCHIATRE;37;;;;;;;Soins courants
+01/01/1980;COR;PODO-ORTHESES ;0;;;;;;;Soins courants
+01/01/1980;CPC;FRAIS DE CHAMBRE PARTICULIERE POUR CONVENANCE PERSONNELLE ;0;;;;;;;Hospitalisation
+01/01/1980;CPH;COPIE D’ORDONNANCE;0;;;;;;;Soins courants
+01/01/1980;CRD;MAJORATION CONSULTATION REGULEE DIMANCHE ET FERIE;26,5;;;;;;;
+01/01/1980;CRM;MAJORATION CONSULTATION REGULEE MILIEU DE NUIT;51,5;;;;;;;
+01/01/1980;CRN;MAJORATION CONSULTATION REGULEE DE NUIT;42,5;;;;;;;
+01/01/1980;CRS;MAJORATION CONSULTATION REGULEE DU SAMEDI APRES-MIDI;26,5;;;;;;;
+01/01/1980;CS;consultation spécialisée;23;;;1,22;;;;Soins courants
+01/01/1980;CSC;consultation cardiologue;45,73;;;;;;;Soins courants
+01/01/1980;CST;CONTRAT DE SURVEILLANCE THERMAL;0;;;;;;;Prestations élargies
+01/01/1980;D;ACTES DENTAIRES;1,92;;;;;;;Dentaire
+01/01/1980;D11;FORFAIT HEMODIALYSE EN CENTRE;0;;;;;;;Hospitalisation
+01/01/1980;D12;FORFAIT D'AUTODIALYSE SIMPLE;0;;;;;;;Hospitalisation
+01/01/1980;D13;FORFAIT D'AUTODIALYSE ASSISTEE;0;;;;;;;Hospitalisation
+01/01/1980;D14;FORFAIT D'HEMODIALYSE A DOMICILE ;0;;;;;;;Hospitalisation
+01/01/1980;D15;FORFAIT DE DIALYSE PERITONEALE AUTOMATISEE (DPA)|0;;;;;;;;Hospitalisation
+01/01/1980;D16;FORFAIT DE DIALYSE PERITONEALE CONTINUE AMBULATOIRE (DPCA)|0;;;;;;;;Hospitalisation
+01/01/1980;D20;FORFAIT D'ENTRAINEMENT A LA DIALYSE PERITONEALE automatisé à  domicile;0;;;;;;;Hospitalisation
+01/01/1980;D21;FORFAIT D'ENTRAINEMENT A LA DIALYSE PERITONEALE continue ambulatoire Ã  domicile;0;;;;;;;Hospitalisation
+01/01/1980;D22;FORFAIT DE DIALYSE PERITONEALE AUTOMATISEE POUR HOSPITALISATION DE 3 A 6 JOURS;0;;;;;;;Hospitalisation
+01/01/1980;D23;FORFAIT DE DIALYSE PERITONEALE CONTINUE AMBULATOIRE POUR HOSPITALISATION DE 3 A 6 JOURS;0;;;;;;;Hospitalisation
+01/01/1980;D24;FORFAIT D'ENTRAINEMENT A L'HEMODIALYSE EN UNITE DE DIALYSE MEDICALISEE;0;;;;;;;Hospitalisation
+01/01/1980;DC;ACTES DE CHIRURGIE DENTAIRE;2,09;;;;;;;Dentaire
+01/01/1980;DCC;ACTE DE DEPISTAGE DU CANCER COLORECTAL;0;;;;;;;
+01/01/1980;DA;Dépassement autorisé;0;;;;;;;
+01/01/1980;DE;Dépassement pour exigence particulière du malade;0;;;;;;;
+01/01/1980;DI;DEMARCHE DE SOINS INFIRMIERS;10;;;;;;;Soins courants
+01/01/1980;DIP;SUPPLEMENT JOURNALIER DIALYSE PERITONEALE;0;;;;;;;
+01/01/1980;DTP;DIALYSE TIERCE PERSONNE;0;;;;;;;
+01/01/1980;DVO;DIVERS ORTHESE;0;;;;;;;Soins courants
+01/01/1980;EMI;ECART MEDICAMENT INDEMNISABLE;0;;;;;;;
+01/01/1980;ENT;FORFAIT D’ENTREE;0;;;;;;;
+01/01/1980;ETI;ECART TARIF INDEMNISABLE;0;;;;;;;
+01/01/1980;EXH;SEJOUR EXTREME > SEUIL HAUT;0;;;;;;;
+01/01/1980;EXS;EXAMEN SPECIAL;0;;;;;;;
+01/01/1980;FA1;FORFAIT D'ACCUEIL (CHIRURGIE AMBULATOIRE);0;;;;;;;Hospitalisation
+01/01/1980;FA2;FORFAIT D'ACCUEIL (CHIRURGIE AMBULATOIRE);0;;;;;;;Hospitalisation
+01/01/1980;FAE;FRAIS D'ACCOMPAGNEMENT POUR ENFANT HOSPITALISE ;0;;;;;;;Hospitalisation
+01/01/1980;FAT;FORFAIT DE SEANCE D'AEROSOL THERAPIE;0;;;;;;;
+01/01/1980;FCO;FORFAIT CONSOMMABLES ONEREUX (CARDIOLOGIE) ;0;;;;;;;
+01/01/1980;FDA;FORFAIT DENTAIRE CMU : PROTHESES ADJOINTES ;0;;;;;;;Dentaire
+01/01/1980;FDC;FORFAIT DENTAIRE CMU : PROTHESES CONJOINTES;0;;;;;;;Dentaire
+01/01/1980;FDO;FORFAIT DENTAIRE CMU : PROTHESES ORTHODONTIQUES;0;;;;;;;Dentaire
+01/01/1980;FDR;FORFAIT DENTAIRE CMU : REPARATION PROTHESES;0;;;;;;;Dentaire
+01/01/1980;FE;FRAIS D'ENVIRONNEMENT ;0;;;;;;;
+01/01/1980;FEN;FORFAIT ENTRETIEN;0;;;;;;;
+01/01/1980;FFM;FORFAIT FRAIS DE MATERIEL;0;;;;;;;
+01/01/1980;FGA;FRAIS DE GESTION POUR CENTRE DE GRAND APPAREILLAGE ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;FGP;FRAIS DE GARDE PARTICULIERE ;0;;;;;;;
+01/01/1980;FHV;FORFAIT HONORAIRES DE VILLE ;0;;;;;;;
+01/01/1980;FJ;Forfait journalier;0;;;;;;;Hospitalisation
+01/01/1980;FJA;FORFAIT JOURNALIER DE SORTIE A LA CHARGE DE L'ASSURE;0;;;;;;;Hospitalisation
+01/01/1980;FJC;FORFAIT JOURNALIER SEUL (DU PAR UN ORGANISME COMPLEMENTAIRE);0;;;;;;;Hospitalisation
+01/01/1980;FJL;FORFAIT JOURNALIER SEUL (DU PAR LE REGIME LOCAL ALSACEMOSELLE);0;;;;;;;Hospitalisation
+01/01/1980;FJR;FORFAIT JOURNALIER DE SORTIE A LA CHARGE DU REGIME OBLIGATOIRE;0;;;;;;;Hospitalisation
+01/01/1980;FRL;FORFAIT JOURNALIER DE SORTIE A LA CHARGE DU REGIME ALSACEMOSELLE;0;;;;;;;Hospitalisation
+01/01/1980;FMV;FORFAIT MEDICAMENT DE VILLE FHV;0;;;;;;;Hospitalisation
+01/01/1980;FNN;FORFAIT NOUVEAU NE ;0;;;;;;;Hospitalisation
+01/01/1980;FPC;FORFAIT PROTHESE CONJOINTE (CMU hors panier de soins)|0;0;;;;;;;
+01/01/1980;FMT;forfait médecin traitant pour les patients hors ALD;5;;;;;;;Soins courants
+01/01/1980;FPE;Forfait pédiatre et  généralistes enfants 0 à 2 ans;5;;;;;;;Soins courants
+01/01/1980;FSH;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;FPO;FORFAIT ORTHODONTIQUE (CMU hors panier de soins)|0;0;;;;;;;
+01/01/1980;FS;FRAIS DE SOINS;0;;;;;;;
+01/01/1980;FSD;FORFAIT DE SECURITE DERMATOLOGIQUE;0;;;;;;;Soins courants
+01/01/1980;FSG;FRAIS SALLE TRAVAIL ACCOUCHEMENT GEMELLAIRE OU DYSTOCIE ;0;;;;;;;Hospitalisation
+01/01/1980;FSJ;FORFAIT DE SOINS JOURNALIER;0;;;;;;;Hospitalisation
+01/01/1980;FSO;FRAIS DE SALLE D'OPERATION ;0;;;;;;;Hospitalisation
+01/01/1980;FST;FRAIS SALLE TRAVAIL ACCOUCHEMENT SIMPLE;0;;;;;;;
+01/01/1980;FSY;FRAIS DE SALLE D'OPERATION EN PSYCHIATRIE ;0;;;;;;;Hospitalisation
+01/01/1980;FR2;FORFAIT TECHNIQUE TARIF REDUIT N°2;0;;;;;;;
+01/01/1980;FR3;FORFAIT TECHNIQUE TARIF REDUIT N°3;0;;;;;;;
+01/01/1980;FTN;FORFAIT TECHNIQUE NORMAL;0;;;;;;;
+01/01/1980;FTG;FORFAIT TECHNIQUE GLOBAL;0;;;;;;;
+01/01/1980;FTR;FORFAIT TECHNIQUE REDUIT;0;;;;;;;
+01/01/1980;FTS;FORFAIT TECHNIQUE SCANNER;0;;;;;;;
+01/01/1980;GLU;NUTRIMENTS POUR INTOLERANTS AU GLUTEN;0;;;;;;;Prestations élargies
+01/01/1980;GHS;Groupement homogène de séjours;0;;;;;;;Hospitalisation
+01/01/1980;GHT;GROUPE HOMOGENE DE TARIF ;0;;;;;;;Hospitalisation
+01/01/1980;HC;HONORAIRE COMPLEXE;0;;;;;;;Hospitalisation
+01/01/1980;HCS;ACCES LIBRE HORS COORDINATION DES SOINS ;0;;;;;;;Hospitalisation
+01/01/1980;HD1;HONORAIRES DE DISPENSIATION A 100% ;0,82;;;;;;;Pharmacie
+01/01/1980;HD2;HONORAIRES DE DISPENSIATION A 15% ;0,82;;;;;;;Pharmacie
+01/01/1980;HD4;HONORAIRES DE DISPENSIATION A 30% ;0,82;;;;;;;Pharmacie
+01/01/1980;HD7;HONORAIRES DE DISPENSIATION A 65% ;0,82;;;;;;;Pharmacie
+01/01/1980;HG1;HONORAIRES DE DISPENSIATION A 100%;2,21;;;;;;;Pharmacie
+01/01/1980;HG2;HONORAIRES DE DISPENSIATION A 15% ;2,21;;;;;;;Pharmacie
+01/01/1980;HG4;HONORAIRES DE DISPENSIATION A 30 %;2,21;;;;;;;Pharmacie
+01/01/1980;HG7;HONORAIRES DE DISPENSIATION A 65 % ;2,21;;;;;;;Pharmacie
+01/01/1980;HN;HORS NOMENCLATURE;0;;;;;;;
+01/01/1980;HS;HONORAIRES DE SURVEILLANCE;0;;;;;;;Hospitalisation
+01/01/1980;HTH;Forfait hébergement cure thermale;150,01;;;;;;;Prestations élargies
+01/01/1980;HUM;PRODUITS ORIGINE HUMAINE;0;;;;;;;
+01/01/1980;IC;CONSULTATION GENERALISTE IVG;0;;;;;;;Soins courants
+01/01/1980;ICS;CONSULTATION SPECIALISTE IVG;0;;;;;;;Soins courants
+01/01/1980;ID;INDEMNITE DE DEPLACEMENT;0;;;;;;;
+01/01/1980;IFD;INDEMNITE FORFAITAIRE DE DEPLACEMENT;2,5;;;;;;;
+01/01/1980;IFA;INDEMNITE FORFAITAIRE DE DEPLACEMENT POUR AUXILIAIRES MEDICAUX;1,19;;;;;;;
+01/01/1980;IFN;INDEMNITE FORFAITAIRE DEPLACEMENT MK NEUROLOGIQUE;4;;;;;;;
+01/01/1980;IFO;INDEMNITE FORFAITAIRE DEPLACEMENT MK ORTHOPEDIQUE ET RHUMATOLOGIQUE;4;;;;;;;
+01/01/1980;IFP;INDEMNITE FORFAITAIRE DEPLACEMENT MK PNEUMOLOGIE;4;;;;;;;
+01/01/1980;IFR;INDEMNITE FORFAITAIRE DEPLACEMENT MK RHUMATISMALE;4;;;;;;;
+01/01/1980;IFS;INDEMNITE FORFAITAIRE DEPLACEMENT MK DE SORTIE;4;;;;;;;
+01/01/1980;IG;INTERVENTION IVG;0;;;;;;;
+01/01/1980;IGA;ANESTHESIE IVG;0;;;;;;;
+01/01/1980;IGB;INVESTIGATIONS BIOLOGIQUES;0;;;;;;;Soins courants
+01/01/1980;IGM;MIFEGYNE - PHARMACIE IVG;0;;;;;;;Pharmacie
+01/01/1980;IGP;PROSTAGLANDINES - PHARMACIE IVG;0;;;;;;;
+01/01/1980;IK;INDEMNITES KILOMETRIQUES;0;;;;;;;
+01/01/1980;IKM;INDEMNITE KILOMETRIQUE MONTAGNE;0,91;;;;;;;
+01/01/1980;IKS;INDEMNITE KILOMETRIQUE SPECIALE (SKI-PIED-BAC);4,57;;;;;;;
+01/01/1980;IMD;FORFAIT INTERVENTION DUREE <=12H;0;;;;;;;
+01/01/1980;IMI;Forfait Intervention duree <=12H ;0;;;;;;;
+01/01/1980;IPD;FORFAIT INTERVENTION, 24H>DUREE>12H;0;;;;;;;
+01/01/1980;IVB;VERIFICATION BIOLOGIQUE - IVG;0;;;;;;;Soins courants
+01/01/1980;IVE;VERIFICATION ECHOGRAPHIQUE - IVG;0;;;;;;;Soins courants
+01/01/1980;IFD;indemnité forfaitaire de déplacement;0;;;;;;;
+01/01/1980;ISD;Indemnité spéciale de dérangement;0;;;;;;;
+01/01/1980;K;acte technique;1,92;;;;;;;
+01/01/1980;KA;ACTES DE CHIRURGIE D'URGENCE;0;;;;;;;Hospitalisation
+01/01/1980;KB;PRELEVEMENT DIRECTEUR DE LABORATOIRE;1,92;;;;;;;Soins courants
+01/01/1980;KC;ACTES DE CHIRURGIE DENTAIRE PAR STOMATOLOGUE;2,09;;;;;;;Dentaire
+01/01/1980;KMB;PRELEVEMENT PAR PONCTION VEINEUSE DIRECTE POUR UN MEDECIN BIOLOGISTE;2,52;;;;;;;
+01/01/1980;KMO;ACTE EN K POUR PHONIATRE;0;;;;;;;
+01/01/1980;KTH;PRATIQUES MEDICALES COMPLEMENTAIRES EN CURE THERMALE;0;;;;;;;
+01/01/1980;LAI;LAIT HUMAIN;0;;;;;;;
+01/01/1980;LEN;LENTILLES OPTIQUES;39,48;;;;;;;Optique
+01/01/1980;LUN;MONTURE OPTIQUE;2,84;30,49;42,69;;;;;Optique
+01/01/1980;MA;MAJORATION POUR ASTREINTE;150;;;;;;;
+01/01/1980;MAC;MATERIELS ET APPAREILS DE CONTENTION;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;MAD;MATERIELS ET APPAREILS DE TRAITEMENTS DIVERS;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;MAF;MAJORATION ANNUELLE FAMILLE CNP;10;;;;;;;
+01/01/1980;MAR;MARGE FORFAITAIRE;10;;;;;;;
+01/01/1980;MAS;MAJORATION ANNUELLE DE SYNTHESE;0;;;;;;;
+01/01/1980;KE;Écho ou Doppler;0;;;;;;;Soins courants
+01/01/1980;KPH;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;MAU;Majoration Acte Unique;1,35;;;;;;;
+01/01/1980;MBB;majoration pour l'examen médical obligatoire du nourrisson dans les 8 jours suivant la naissance pour le pédiatre.|7;;;;;;;;
+01/01/1980;MCC;majoration de coordination pour les cardiologues;3,27;;;;;;;Soins courants
+01/01/1980;MCD;MAJORATION SPECIFIQUE PDS CLINIQUES DENTISTES;0;;;;;;;Hospitalisation
+01/01/1980;MCE;majoration pour le spécialiste en endocrinologie et en médecine interne avec compétence en diabétologie moins de 16 ans;10;;;;;;;Soins courants
+01/01/1980;MCG;MAJORATION COORDINATION GENERALISTE;3;;;;;;;Soins courants
+01/01/1980;MCI;Majoration Coordination Infirmière;5;;;;;;;Soins courants
+01/01/1980;MCS;majoration de coordination;3;;;;;;;Soins courants
+01/01/1980;MCSPSY;majoration de coordination en psychiatrie;4;;;;;;;Soins courants
+01/01/1980;MD;MAJORATION de DEPLACEMENT;10;;;;;;;
+01/01/1980;MDD;majoration de déplacement pour visite à domicile justifiée de dimanche et jour férié;22,6;;;;;;;
+01/01/1980;MDI;majoration de déplacement pour visite à domicile justifiée de nuit de 00h00 à 6h00;43,5;;;;;;;
+01/01/1980;MDN;majoration de déplacement pour visite à domicile justifiée de nuit de 20h00 à 00h00 et de 6h00 à 8h00;38,5;;;;;;;
+01/01/1980;MG; majoration forfaitaire de sujétion particulière pour l'ensemble des actes liés au premier accouchement pour le premier acte lié à la surveillance et pour les soins spécialisés des nouveaux-nés réalisés la nuit, le dimanche et les jours fériés;228,68;;;;;;;
+01/01/1980;MGE;majoration pour les enfants de 2 à 6 ans;3;;;;;;;
+01/01/1980;MHU;MEDICAMENT HOMEOPATHIQUE UNITAIRE (à 35 %);0;;;;;;;Pharmacie
+01/01/1980;MIC;majoration pour consultation d'un patient insuffisant cardiaque après hospitalisation par le médecin traitant;23;;;;;;;
+01/01/1980;MK1;CURES THERMALES FORFAIT KINE 18 séances collectives;0;;;;;;;Prestations élargies
+01/01/1980;MK2;CURES THERMALES FORFAIT KINE 18 séances individuelles;0;;;;;;;Prestations élargies
+01/01/1980;MK3;CURES THERMALES FORFAIT KINE 9 séances collectives;0;;;;;;;Prestations élargies
+01/01/1980;MK4;CURES THERMALES FORFAIT KINE 9 séances individuelles;0;;;;;;;Prestations élargies
+01/01/1980;MM;Majoration de nuit de 00h00 à 6h00;40;;;;;;;
+01/01/1980;MN;Majoration de nuit de 20h00 à 00h00 et de 6h00 à 8h00;35;;;;;;;
+01/01/1980;MNO;majoration pour les enfants de 0 à 2 ans;5;;;;;;;
+01/01/1980;MNP;majoration pour le pédiatre pour les consultations d'enfants de 0 à 25 mois;3;;;;;;;
+01/01/1980;MPA;rémunération forfaitaire pour les patients âgés de 80 ans et plus;5;;;;;;;
+01/01/1980;MPC;majoration forfaitaire transitoire applicable à la CS;2;;;;;;;
+01/01/1980;MPCPSY;majoration forfaitaire transitoire applicable à la CS en psychiatrie;2,7;;;;;;;
+01/01/1980;MPE;majoration pour la prise en charge des enfants de 25 mois à 6 ans par le pédiatre;3;;;;;;;
+01/01/1980;MPF;majoration pour la première consultation familiale pour le psychiatre et pédopsychiatre pour un enfant présentant une pathologie psychiatrique grave relevant d'une ALD;10;;;;;;;
+01/01/1980;MPI;MAJORATION PHARMACIE DES ILES;0;;;;;;;
+01/01/1980;MPJ;majoration forfaitaire transitoire applicable à la consultation par le pédiatre pour les enfants de 2 à 16 ans;5;;;;;;;
+01/01/1980;MPP;pour le pédiatre : majoration de suivi par le pédiatre des enfants nés grands prématurés ou atteints d'une pathologie congénitale grave;5;;;;;;;
+01/01/1980;MSH;majoration pour la consultation de suivi de sortie d'hospitalisation de court séjour des patients à forte comorbidité par le médecin traitant;23;;;;;;;
+01/01/1980;MTA;Majoration pour le spécialiste en médecine physique et réadaptation;20;;;;;;;
+01/01/1980;MTD;ACCES DIRECT SPECIFIQUE (MÉDECIN TRAITANT);0;;;;;;;Soins courants
+01/01/1980;MTH;HORS RESIDENCE HABITUEL (MÉDECIN TRAITANT);0;;;;;;;Soins courants
+01/01/1980;MTN;NOUVEAU MÉDECIN TRAITANT;0;;;;;;;Soins courants
+01/01/1980;MTO;PATIENT ORIENTE PAR LE MÉDECIN TRAITANT;0;;;;;;;Soins courants
+01/01/1980;MTR;MÉDECIN TRAITANT REMPLACE;0;;;;;;;Soins courants
+01/01/1980;MTU;URGENCE (MÉDECIN TRAITANT);0;;;;;;;Soins courants
+01/01/1980;MU;majoration d'urgence;22,6;;;;;;;
+01/01/1980;NN1;SUPPLEMENT NEONATOLOGIE 1 ;0;;;;;;;
+01/01/1980;NN2;SUPPLEMENT NEONATOLOGIE 2;0;;;;;;;
+01/01/1980;NN3;SUPPLEMENT NEONATOLOGIE 3 ;0;;;;;;;
+01/01/1980;NUT;ALIMENT DIETETIQUE;0;;;;;;;Prestations élargies
+01/01/1980;OME;FORFAIT MONTURE MOINS DE 18 ANS (CMU);0;;;;;;;Optique
+01/01/1980;OPT;OPTIQUE ;0;;;;;;;Optique
+01/01/1980;ORP;ORTHOPROTHESES;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;ORT;orthodontie;2,15;;;;;;;Dentaire
+01/01/1980;PA;ORTHESES;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PAE;PARTICIPATION ASSURE POUR SOINS EXTERNES EN ÉTABLISSEMENT ex DG;0;;;;;;;Hospitalisation
+01/01/1980;PAH;PARTICIPATION ASSURE POUR HOSPITALISATION EN ÉTABLISSEMENT ex DG;0;;;;;;;Hospitalisation
+01/01/1980;PAJ;PARTICIPATION ASSURE POUR HOSPITALISATION POUR BENEF ALSACE MOSELLE;0;;;;;;;Hospitalisation
+01/01/1980;PAL;PARTICIPATION ASSURE POUR SOINS EXTERNES POUR BENEF ALSACE;0;;;;;;;Hospitalisation
+01/01/1980;PAN;PANSEMENTS;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PAS;PARTICIPATION ASSURE SEJOUR;0;;;;;;;Hospitalisation
+01/01/1980;PAV;PARTICIPATION ASSURE POUR SOINS DE VILLE ET SOINS EXTERNES;0;;;;;;;Hospitalisation
+01/01/1980;PB;PRELEVEMENT SANGUIN PAR DIRECTEUR DE LABORATOIRE NON MEDECIN;2,52;;;;;;;Soins courants
+01/01/1980;PDM;DISPOSITIF MEDICAL;0;;;;;;;
+01/01/1980;PEX;PROTHESE EXTERNE NON ORTHOPEDIQUE ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PH1;PHARMACIE 100%;0;;;;;;;Pharmacie
+01/01/1980;PH2;PHARMACIE 15% ;0;;;;;;;Pharmacie
+01/01/1980;PH4;PHARMACIE 30%;0;;;;;;;Pharmacie
+01/01/1980;PH7;PHARMACIE 65%;0;;;;;;;Pharmacie
+01/01/1980;PH8;PHARMACIE FACTUREE EN SUS DU GHS;0;;;;;;;Pharmacie
+01/01/1980;PHA;FORFAIT PHARMACIE ACCOUCHEMENT A DOMICILE ;0;;;;;;;Pharmacie
+01/01/1980;PHD;PHARMACIE HOSPITALIERE DEROGATOIRE;0;;;;;;;Pharmacie
+01/01/1980;PHH;PHARMACIE HOSPITALIERE RETROCEDEE (taux 100%) ;0;;;;;;;Pharmacie
+01/01/1980;PHI;MEDICAMENT AVEC AUTORISATION D'IMPORTATION ;0;;;;;;;Pharmacie
+01/01/1980;PHJ;FORFAIT PHARMACEUTIQUE JOURNALIER ;0;;;;;;;Pharmacie
+01/01/1980;PHQ;PHARMACIE HOSPITALIERE RETROCEDEE (taux 35%) ;0;;;;;;;Pharmacie
+01/01/1980;PHM;PREPARATION HOSPITALIERE MAGISTRALE ;0;;;;;;;
+01/01/1980;PHN;PHARMACIE NON REMBOURSABLE;0;;;;;;;Pharmacie
+01/01/1980;PHP;PREPARATION HOSPITALIERE ;0;;;;;;;
+01/01/1980;PHS;PHARMACIE HOSPITALIERE RETROCEDEE (taux 65%)|0;;;;;;;;Pharmacie
+01/01/1980;PHT;PHARMACIE HOSPITALIERE MMH ;0;;;;;;;Pharmacie
+01/01/1980;PHU;MEDICAMENT AVEC AUTORISATION TEMPORAIRE D'UTILISATION NOMINATIVE;0;;;;;;;Pharmacie
+01/01/1980;PII;IMPLANT INERTE ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PJ;FRAIS DE SEJOUR ;0;;;;;;;Hospitalisation
+01/01/1980;PJC;TICKET MODERATEUR RELATIF AUX FRAIS DE SEJOUR;0;;;;;;;
+01/01/1980;PJE;FRAIS DE SEJOUR IME ;0;;;;;;;
+01/01/1980;PM2;PREPARATION MAGISTRALE ALLOPATHIQUE 15% ;0;;;;;;;Soins courants
+01/01/1980;PM4;PREPARATION MAGISTRALE ALLOPATHIQUE 35% ;0;;;;;;;Soins courants
+01/01/1980;PME;IMPLANT MU PAR ELECTRICITE ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PMH;PREPARATION MAGISTRALE HOMEOPATHIQUE ;0;;;;;;;
+01/01/1980;PMO;PRESCRIPTION ETABLIE PAR MEDECIN CORRESPONDANT DANS LE PARCOURS DE SOINS;0;;;;;;;
+01/01/1980;PMP;PRESCRIPTION ETABLIE DANS UNE AUTRE SITUATION DU PARCOURS DE SOINS;0;;;;;;;
+01/01/1980;PMR;PREPARATION MAGISTRALE ;0;;;;;;;Soins courants
+01/01/1980;PMS;MAJORATION PMSI ;0;;;;;;;
+01/01/1980;PMT;PRESCRIPTION ETABLIE PAR LE MEDECIN TRAITANT;0;;;;;;;Soins courants
+01/01/1980;PO1;PRELEVEMENT ORGANE 1 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO2;PRELEVEMENT ORGANE 2 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO3;PRELEVEMENT ORGANE 3 GHS;0;;;;;;;Hospitalisation
+01/01/1980;PO4;PRELEVEMENT ORGANE 4 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO5;PRELEVEMENT ORGANE 5 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO6;PRELEVEMENT ORGANE 6 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO7;PRELEVEMENT ORGANE 7 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;PO8;PRELEVEMENT ORGANE 8 GHS;0;;;;;;;Hospitalisation
+01/01/1980;PO9;PRELEVEMENT ORGANE 9 GHS ;0;;;;;;;Hospitalisation
+01/01/1980;POA;PRELEVEMENT D'ORGANE A GHS;0;;;;;;;Hospitalisation
+01/01/1980;POC;PROTHESE OCULAIRE ET FACIALE ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;POD;Acte de pédicure-podologue;27;;;;;;;Soins courants
+01/01/1980;PPH;PLAN PERSONNALISE DE SANTE PHARMACIE;0;;;;;;;Pharmacie
+01/01/1980;PPI;PREPARATION PHARMACEUTIQUE INDIVIDUALISEE (allergènes);0;;;;;;;Pharmacie
+01/01/1980;PPP;PRESTATION PARTICULIERE ET PANDEMIE;0;;;;;;;
+01/01/1980;PPS;PLAN PERSONNALISE DE SANTE;0;;;;;;;
+01/01/1980;PRO;prothèse;2,15;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PSC;PRESCRIPTION ETABLIE HORS PARCOURS DE SOINS;0;;;;;;;Soins courants
+01/01/1980;PY0;FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 1 INTERVENANT ;0;;;;;;;Soins courants
+01/01/1980;PY1;FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE ;0;;;;;;;Soins courants
+01/01/1980;PY2;FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 2 INTERVENANTS;0;;;;;;;Soins courants
+01/01/1980;PY3;FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 2 INTERVENANTS;0;;;;;;;Soins courants
+01/01/1980;PY4;FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 1 INTERVENANT;0;;;;;;;Soins courants
+01/01/1980;PY5;FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 1 INTERVENANT;0;;;;;;;Soins courants
+01/01/1980;PY6;FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 2 INTERVENANTS;0;;;;;;;Soins courants
+01/01/1980;PY7;FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 2 INTERVENANTS;0;;;;;;;Soins courants
+01/01/1980;PY8;FORFAIT PSYCHIATRIE DE SECURITE SANS HEBERGEMENT;0;;;;;;;Soins courants
+01/01/1980;PY9;FORFAIT PSYCHIATRIE D'ACCUEIL ET DE SUIVI DE NUIT ;0;;;;;;;Soins courants
+01/01/1980;RAP;SUPPLEMENT RADIOTHERAPIE PEDIATRIQUE ;0;;;;;;;Soins courants
+01/01/1980;REA;SUPPLEMENT REANIMATION ;0;;;;;;;
+01/01/1980;REP;REANIMATION PEDIATRIQUE ;0;;;;;;;
+01/01/1980;RPN;RÉPARATION SUR PROTHÈSE;0;;;;;;;
+01/01/1980;SC;SOINS CONSERVATEURS PAR DENTISTE;2,41;;;;;;;Soins courants
+01/01/1980;RMT;rémunération spécifique annuelle du médecin traitant pour un patient en ALD;40;;;;;;;
+01/01/1980;SCM;soins conservateurs médecins;2,41;;;;;;;
+01/01/1980;SD;SEANCES DE DIAGNOSTIC;0;;;;;;;
+01/01/1980;SE1;FORFAIT ENVIRONNEMENT HOSPITALIER 1 ;0;;;;;;;Hospitalisation
+01/01/1980;SE2;FORFAIT ENVIRONNEMENT HOSPITALIER 2 ;0;;;;;;;Hospitalisation
+01/01/1980;SE3;FORFAIT ENVIRONNEMENT HOSPITALIER 3;0;;;;;;;Hospitalisation
+01/01/1980;SE4;FORFAIT ENVIRONNEMENT HOSPITALIER;0;;;;;;;Hospitalisation
+01/01/1980;SES;SUITE EXAMEN DE SANTE;0;;;;;;;Hospitalisation
+01/01/1980;SF;Actes de sage-femme;2,8;;;;;;;Soins courants
+01/01/1980;SFI;soins infirmiers par sage-femme;2,18;;;;;;;Soins courants
+01/01/1980;SHO;SUPPLEMENT CHAMBRE PARTICULIERE POUR RAISON THERAPEUTIQUE;0;;;;;;;Hospitalisation
+01/01/1980;SMU;SMUR;0;;;;;;;Hospitalisation
+01/01/1980;SNG;SANG PLASMA ET DERIVES;0;;;;;;;
+01/01/1980;SNS;FRAIS DE SEANCE DE SOINS;0;;;;;;;
+01/01/1980;SP;suivi postnatal;18,55;;;;;;;
+01/01/1980;SPR;ACTES DE PROTHESE DENTAIRE PAR CHIRURGIEN DENTISTE ;2,15;;;;;;;Dentaire
+01/01/1980;SRC;SUPPLEMENT SURVEILLANCE CONTINUE ;0;;;;;;;
+01/01/1980;SSM;SUPPLEMENT POUR SURVEILLANCE MALADE ;0;;;;;;;
+01/01/1980;STF;FORFAIT SOINS INTENSIFS;0;;;;;;;
+01/01/1980;STH;forfait de surveillance médicale des cures thermales;90;;;;;;;Prestations élargies
+01/01/1980;TB;PRELEVEMENT SANGUIN PAR TECHNICIEN DE LABORATOIRE;2,52;;;;;;;Soins courants
+01/01/1980;TDR;TEST DE DIAGNOSTIC RAPIDE (acte gratuit)|0;;;;;;;;
+01/01/1980;TD3;PARODONTOLOGIE;0;;;;;;;
+01/01/1980;TH1;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TH2;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TH3;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TH4;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TH5;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;THR;Forfait cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TJC;TARIF JOURNALIER COMPLEMENTAIRE;0;;;;;;;
+01/01/1980;TNS;TRAITEMENT NICOTINIQUE DE SUBSTITUTION;0;;;;;;;
+01/01/1980;TO;Traitements d'orthopédie dento-faciale par chirurgien dentiste;2,15;;;;;;;Dentaire
+01/01/1980;TSG;FRAIS TRANSPORT PRODUITS SANGUINS;0;;;;;;;
+01/01/1980;TTH;Forfait transport cure thermale;0;;;;;;;Prestations élargies
+01/01/1980;TXA;TAXI TARIF A;0;;;;;;;Hospitalisation
+01/01/1980;TXB;TAXI TARIF B ;0;;;;;;;Hospitalisation
+01/01/1980;TXC;TAXI TARIF C;0;;;;;;;Hospitalisation
+01/01/1980;TXD;TAXI TARIF D ;0;;;;;;;Hospitalisation
+01/01/1980;TXF;TAXI TARIF F;0;;;;;;;Hospitalisation
+01/01/1980;TXI;TRANSPORT PAR TAXI ;0;;;;;;;Hospitalisation
+01/01/1980;UPH;URGENCE PHARMACIE;0;;;;;;;Pharmacie
+01/01/1980;V;visite;23;;;0,61;;;;Soins courants
+01/01/1980;VL;Visite longue maladies neuro-dégénératives;46;;;;;;;Soins courants
+01/01/1980;VDC;VIDEOCAPSULE en cabinet de ville;0;;;;;;;
+01/01/1980;VDE; VIDEOCAPSULE en établissement;0;;;;;;;
+01/01/1980;VEH;VEHICULE POUR HANDICAPES PHYSIQUES ;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;VER;VERRES OPTIQUES;0;;;;;;;Optique
+01/01/1980;VNP;VISITE NEUROPSYCHIATRE;37;;;;;;;Soins courants
+01/01/1980;VRD;MAJORATION VISITE REGULEE FERIE ET DIMANCHE;30;;;;;;;
+01/01/1980;VRM;MAJORATION VISITE REGULEE MILIEU DE NUIT;59,5;;;;;;;
+01/01/1980;VRN;MAJORATION VISITE REGULEE NUIT;46;;;;;;;
+01/01/1980;VRS;MAJORATION VISITE REGULEE DU SAMEDI APRES-MIDI;30;;;;;;;
+01/01/1980;VS;visite spécialiste;23;;;1,22;;;;Soins courants
+01/01/1980;VSL;Véhicules sanitaire léger;0;;;;;;;Hospitalisation
+01/01/1980;Z;Actes de radiologie;1,33;;;;;;;Soins courants
+01/01/1980;NR;Acte non remboursable;0;;;;;;;
+01/01/1980;F;Majoration dimanche et jour férié;0;;;;;;;
+01/01/1980;U;Majoration d'urgence;0;;;;;;;
+01/01/1980;N;Majoration de nuit;0;;;;;;;
+01/01/1980;ATM;Actes techniques médicaux;0;;;;;;;
+01/01/1980;ACO;Actes d'obstétrique;0;;;;;;;
+01/01/1980;ADA;Actes d'anesthésie;0;;;;;;;Hospitalisation
+01/01/1980;ADC;Actes de chirurgie;0;;;;;;;Hospitalisation
+01/01/1980;ADE;Actes d'échographie;0;;;;;;;Soins courants
+01/01/1980;ADI;Actes d'imagerie;0;;;;;;;Soins courants
+01/01/1980;END;Endodontie;0;;;;;;;
+01/01/1980;PDT;Prothèses dentaires provisoires;0;;;;;;;Dentaire
+01/01/1980;ICO;Inlay-core;0;;;;;;;Dentaire
+01/01/1980;IMP;Pose d'implants ou de matériel pour implantologie;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PFM;Prothèses Fixes Métalliques;107,5;;;;;;;Dentaire
+01/01/1980;PFC;Prothèses Fixes Céramiques;0;;;;;;;Dentaire
+01/01/1980;PAR;Prothèses amovibles définitives résine;0;;;;;;;Dentaire
+01/01/1980;PAM;Prothèses amovibles définitives métallique;0;;;;;;;Dentaire
+01/01/1980;RPN;Réparations sur prothèse;0;;;;;;;Dentaire
+01/01/1980;DEN;Acte dentaire;0;;;;;;;Dentaire
+01/01/1980;TDS;Parodontologie;0;;;;;;;Dentaire
+01/01/1980;AXI;Actes de Prophylaxie et Prévention;0;;;;;;;Dentaire
+01/01/1980;INO;Actes Inlay-Onlay;0;;;;;;;Dentaire
+01/01/1980;MAC;Matériels et appareils de contention;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;MAD;Matériels et appareils de traitements divers;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PAU;Prothèse auditive;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;SDE;Soins dentaires;0;;;;;;;Dentaire
+01/01/1980;AM;Maternité;0;;;;;;;
+01/01/1980;GA;Grand appareillage;0;;;;;;;Appareillage&Audio-prothèse
+01/01/1980;PA;Petit appareillage;0;;;;;;;Appareillage&Audio-prothèse
+01/04/2016;FUB;Forfait Ultérieur Biologie IVG ville;0;;;;;;;Soins courants
+01/01/2016;FUS;Forfait d'urgence sur appel du SAMU;0;;;;;;;Soins courants
+01/01/2016;FTU;Forfait Transport d'urgence;0;;;;;;;Soins courants
+01/04/2016;IPE;Echo pré IVG;0;;;;;;;Soins courants
+01/12/2016;PHX;Pharmacie sous ATU séjour;0;;;;;;;Soins courants
+01/05/2017;G;Consultation Médecine générale;25;;;0,61;;;;Soins courants
+01/05/2017;SG;Consultation Spécialiste Médecine Générale;25;;;0,61;;;;Soins courants
+01/05/2017;VG;Visite Médecine Générale;25;;;0,61;;;;Soins courants
+01/05/2017;VGS;Visite Spécialiste Médecine Générale;25;;;0,61;;;;Soins courants
+01/05/2017;MEP; Majoration enfant Pédiatre;4;;;;;;;Soins courants 
+01/05/2017;MGE; Majoration Enfant Généraliste;5;;;;;;;Soins courants 
+01/05/2017;MMG; Majoration pour le médecin généraliste;2;;;;;;;Soins courants
+01/05/2017;NFP; Nouveau Forfait Pédiatrique;5;;;;;;;Soins courants 
+01/05/2017;NFE; Nouveau Forfait Enfant;5;;;;;;;Soins courants 
+01/06/2017;MCX; Majoration consultation complexe;16;;;;;;;Soins courants 
+01/06/2017;MTX; Majoration consultation très complexe;30;;;;;;;Soins courants 
+01/07/2017;MCS;MAJORATION COORDINATION SPECIALISTE;5;;;;;;;Soins courants
+01/07/2017;MCG;MAJORATION COORDINATION GENERALISTE;5;;;;;;;Soins courants
+01/07/2017;CNPSY;CONSULTATION NEURO-PSYCHIATRE;39;;;;;;;Soins courants
+01/07/2017;CNP;CONSULTATION NEURO-PSYCHIATRE;39;;;;;;;Soins courants
+01/07/2017;VNPSY;VISITE NEURO-PSYCHIATRE A DOMICILE;39;;;;;;;Soins courants
+01/07/2017;VNP;VISITE NEURO-PSYCHIATRE;39;;;;;;;Soins courants
+01/07/2017;CSC;Consultation cardiologue;47,5;;;;;;;Soins courants
+01/11/2017;COE;Consultation obligatoire de l’enfant;46;;;;;;;Soins courants
+01/11/2017;CSM;Consultation sortie de maternité;46;;;;;;;Soins courants
+01/11/2017;MPF;MAJORATION PREMIERE CONSULTATION FAMILLE;20;;;;;;;Soins courants
+01/11/2017;MAF;MAJORATION ANNUELLE FAMILLE;20;;;;;;;Soins courants
+01/11/2017;MCE;MAJORATION CONSULTATION ENDOCRINO;16;;;;;;;Soins courants
+01/01/2018;U03;Consultations correspondant au niveau CCMU 3 du médecin urgentiste;30;;;;;;;Soins courants
+01/01/2018;U45;Consultations correspondant au niveau CCMU 4 et 5 du médecin urgentiste;46;;;;;;;Soins courants
+01/01/2018;MUT;Majoration d’urgence;5;;;;;;;Soins courants
+01/01/2018;MRT;Majoration MT;15;;;;;;;Soins courants
+01/01/2018;MCU;Majoration de coordination d’urgence;16;;;;;;;Soins courants
+01/11/2017;MBB; majoration pour l'examen médical obligatoire du nourrisson dans les 8 jours suivant la naissance pour le pédiatre;0;;;;;;;Soins courants
+01/05/2017;MGE; majoration pour les enfants de 2 à 6 ans;0;;;;;;;Soins courants
+01/05/2017;MNO; majoration pour les enfants de 0 à 2 ans;0;;;;;;;Soins courants
+01/05/2017;MNP; majoration pour le pédiatre pour les consultations d'enfants de 0 à 25 mois;0;;;;;;;Soins courants
+01/07/2017;MPJ; majoration forfaitaire transitoire applicable à la consultation par le pédiatre pour les enfants de 2 à 16 ans;0;;;;;;;Soins courants
+01/11/2017;MPP; pour le pédiatre : majoration de suivi par le pédiatre des enfants nés grands prématurés ou atteints d'une pathologie congénitale grave;0;;;;;;;Soins courants
+
+
+
+
+
+
+
+

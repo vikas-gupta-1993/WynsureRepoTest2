@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFFieldDesc_Percent><DefaultValuePercent Id="1"><![CDATA[20.00%]]></DefaultValuePercent><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Yes]]></UseDefaultValue><Code Id="23"><![CDATA[C024]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Yes]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Yes]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><Name Id="3"><![CDATA[BENEFITPERCENT]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771456]]></NSId><Id Id="2"><![CDATA[10]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Percent></EntityExport>

@@ -1,0 +1,24 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"{{contractBUID}}"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_GetCompensationContractInfo_Out",
+		"buid":"318845021_1",
+		"contractNumber":"0000000039",
+		"effectiveDate":"2018-08-30",
+		"terminationDate":null,
+		"status":"Active",
+		"productName":"broker commi",
+		"issuingCompany":"W Insurance Company"
+	},
+	"eval":null,
+	"className":"aSLI_Consult_CommissionContract",
+	"methodName":"GetCommissionContract",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

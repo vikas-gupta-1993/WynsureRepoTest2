@@ -1,0 +1,27 @@
+{
+	"description":"",
+	"request":{
+		"applicationLogin":{
+			"$ref":"#",
+			"className":"aSPF_UpdateApplicationLogin_In",
+			"applicationLoginBuid":"318840180_72",
+			"isDisabled":false,
+			"profiles":[
+				{
+					"$ref":"#",
+					"className":"aSPF_GetAuthorizationProfileInfo",
+					"buid":"318833061_46",
+					"paramEntity":null
+				}
+			]
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSCB_Manage_Login",
+	"methodName":"UpdateApplicationLoginProfiles",
+	"version":"5.8.2.0",
+	"date":"2018-08-17",
+	"errors":[
+	]
+}

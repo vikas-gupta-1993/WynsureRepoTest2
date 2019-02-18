@@ -1,0 +1,1 @@
+/run:aWFApplicationlauncher.Run /Service:#WSMWynsureServiceName# /HtmlErrorPage:#ClickOnceWebSitePath#\#ClickOnceErrorPageName#

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine Guid="cbaf10f5-07de-49cd-a60e-626bcd0321fe"><ImpactedObjectsRuleDesc><aWFRuleDesc Guid="fd513dcf-37a7-4e1f-b22d-8eccce3b9c82"><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine)
+
+uses aListOfInstances, aWFLegalEntityClassification, aEDA_Activity
+
+
+; Rule
+; Classification
+function LegalEntity_Classification return aWFLegalEntityClassification
+   if self.Master <> Nil
+      return aWFLegalEntityClassification(self.Master.OnObject)
+   else
+      return aWFLegalEntityClassification(self.OnObject)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : aListOfInstances)
+   if self.LegalEntity_Classification <> Nil
+      Result = self.LegalEntity_Classification.GetListOfLegalEntitytoModify(self.Activity.Date)
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef Guid="cbae0d1b-4753-4217-ad71-00ccecf37ee7"><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218191472]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWFLegalEntityClassification]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActionLogCreationActivityDescBasedOnRuleEngine]]></RuleEngineUsingKindContext><ReturnType><aClassDef Guid="5e181bee-6d3d-47f3-9be7-c28ee13abce5"><Name Id="2"><![CDATA[aListOfInstances]]></Name><NSId Id="1"><![CDATA[2]]></NSId><Id Id="2"><![CDATA[5]]></Id></aClassDef></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[6]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></UsedRules><MyOwner><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[6]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></MyOwner><Name Id="3"><![CDATA[Rule]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835509]]></NSId><Id Id="2"><![CDATA[3195]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></ImpactedObjectsRuleDesc><ImpactedBusinessDomains Id="15"><![CDATA[Undefined]]></ImpactedBusinessDomains><Reason Id="13"><![CDATA[New classification Added]]></Reason><EventDesc><aEDA_ActionLogEventDesc Guid="fad0702f-94c7-4403-96be-1ca23408d604"><ActionLogTitle Id="2"><![CDATA[New Legal Entity Classification Added]]></ActionLogTitle><visibility Id="2"><![CDATA[0]]></visibility><resource><aWFX_ResourceRepresentation><Name>Legal Entity_C</Name><NSId>318834655</NSId><Id>43</Id></aWFX_ResourceRepresentation></resource><Name Id="3"><![CDATA[New Legal Entity Classification Added __ Legal Entity_C]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318854685]]></NSId><Id Id="2"><![CDATA[285]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActionLogEventDesc></EventDesc><Code Id="35"><![CDATA[GALEM]]></Code><IsTechnical Id="72"><![CDATA[No]]></IsTechnical><Resource><aWFX_ResourceRepresentation Guid="6cd89dbd-e9f1-4432-92c5-31fab1280cbe"><RepresentingClassDef><aClassDef><Name>aWFLegalEntityClassification</Name><NSId>218103810</NSId><Id>218173042</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><UseStringExtract Id="33"><![CDATA[No]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><StandAlone Id="46"><![CDATA[Yes]]></StandAlone><OnlyExtractSelectedVars Id="56"><![CDATA[No]]></OnlyExtractSelectedVars><UseBuid Id="61"><![CDATA[No]]></UseBuid><Name Id="3"><![CDATA[Legal Entity_Classification]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834655]]></NSId><Id Id="2"><![CDATA[42]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Yes]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><LethalErrorText Id="66"><![CDATA[]]></LethalErrorText><Description Id="73"><![CDATA[]]></Description><Name Id="3"><![CDATA[Get All Legal Entities to Modify]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></EntityExport>

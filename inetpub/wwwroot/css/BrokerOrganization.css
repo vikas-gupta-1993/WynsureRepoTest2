@@ -1,0 +1,8 @@
+table.CustomizedTablePresenter th{
+	display:none;
+}
+
+table.treeTablePresenter.CustomizedTablePresenter, table.treeTablePresenter.CustomizedTablePresenter td{
+	border:none;
+} 
+

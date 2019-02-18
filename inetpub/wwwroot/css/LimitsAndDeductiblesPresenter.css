@@ -1,0 +1,85 @@
+#PageContent .policyLimitsAndDeductibles label,
+.limitsDeducsTitle{
+	margin-right: 2%;
+	float: left;
+	text-align: right;
+	padding-top:0px;
+	padding-top:5px;
+}
+
+.limitsDeducsTitle,
+.limitsDeducs div label{
+	width: 50%;
+}
+
+.limitsDeducsScope div label{
+	width: 55%;
+}
+
+.limitsDeducsCovered div label,
+.limitsDeducsScopeCovered div label{
+	width: 60%;
+	font-style: italic;
+}
+
+table.modification .limitsDeducsTitle{
+	height: 25px;
+}
+#PageContent .policyLimitsAndDeductibles  .controls{
+	float: left;
+	margin-left: 0px;
+}
+
+#PageContent .policyLimitsAndDeductibles .input-prepend .add-on{
+	width: 15px;
+}
+
+#PageContent .policyLimitsAndDeductibles .input-prepend input,
+#PageContent .policyLimitsAndDeductibles .input-prepend select{
+	width: 100px;
+}
+#PageContent .policyLimitsAndDeductibles input,
+#PageContent .policyLimitsAndDeductibles select{
+	width: 128px;
+}
+.limitsDeducsTitle,
+.coverageItemlimitOrDeductibleField,
+#PageContent .limitsDeducs .control-group,
+#PageContent .limitsDeducsScope .control-group{
+	margin-bottom: 5px;
+}
+
+.limitsDeducsTitle,
+.limitsDeducs>div>div>label{
+	font-weight: bold;
+}
+.limitsDeducs{
+	margin-top: 8px;
+}
+.policyLimitsAndDeductibles i.icon-remove{
+	color: #bd362f;
+}
+
+#PageContent .coverageItemlimitOrDeductibleField .control-group{
+	margin-bottom: 0px;
+}
+
+#PageContent .itemLimitsDeductiblesWrapper{
+	margin-bottom: 5px;
+}
+
+.iconToExpandLimitsOrDeductible{
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+	font-size: 20px;
+}
+.policyLimitsAndDeductibles  .controls {
+	color: rgb(13, 95, 150);
+}
+
+.policyLimitsAndDeductibles  .Consultation .controls,
+.policyLimitsAndDeductibles  .Consultation .controls {
+	padding-top: 5px;
+}
+

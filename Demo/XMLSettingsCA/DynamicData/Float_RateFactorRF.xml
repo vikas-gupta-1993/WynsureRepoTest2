@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999,999,999,999,999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[RF]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><Name Id="3"><![CDATA[Rate Factor]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770887]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Float></EntityExport>

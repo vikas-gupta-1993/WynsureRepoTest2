@@ -1,0 +1,115 @@
+#Options {	
+	float: left;
+}
+#Options td.content, #Options td.title{
+  border: 1px solid #999999;
+}
+
+#Options td.content{
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+}
+
+#Options td.title{
+  width: 150px;
+}
+
+#Options tr {
+  height: 40px;
+}
+
+#Options td.title{
+  background-color: white;
+  padding: 5px;
+}
+
+#Options tbody tr td.title{
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.checkboxWrapper dt {
+  text-align: right;
+}
+
+.profileOption table tr.even:hover td{
+  background-color: #FFFFFF;
+}
+
+.profileOption table tr.odd:hover td{
+  background-color: #EFF2FC;
+}
+
+table.TablePresenter tbody td,
+table.TablePresenter tbody th,
+table.CustomizedTablePresenter tbody td,
+table.CustomizedTablePresenter tbody th,
+.HTMLGeneratorContentWrapper table tbody td{
+    padding:2px;
+    height:19px;
+}
+.NumberOfMembersColumn,
+.CoverageAmountColumn,
+.EarningsAmountColumn,
+.TAColumn,
+.TBColumn,
+.TCColumn,
+.TDColumn,
+.NumberOfMembersColumn div div input,
+.CoverageAmountColumn div div input,
+.EarningsAmountColumn div div input,
+.TAColumn div div input,
+.TBColumn div div input,
+.TCColumn div div input,
+.TDColumn div div input{
+  width:110px;
+}
+
+.EarningsFrequencyColumn,
+.EarningsFrequencyColumn div div input{
+  width:75px; 
+}
+
+.EarningsColumn,
+.EarningsColumn div div input{
+  width:180px;
+}
+div.ui-accordion div.ui-accordion-content{
+    padding: 0;
+    border: none 0;
+}
+
+.clickToEdit div input{
+  
+  border:1px solid #575757;
+  border-radius:5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.clickToEdit div input:focus{
+  border:1px solid #03607F;
+}
+
+.clickToEdit div input:hover{
+  border:1px solid #047EA7;
+}
+
+.profileOption table.TablePresenter, .profileOption table.CustomizedTablePresenter, .HTMLGeneratorContentWrapper .profileOption table {
+  border: none 0;
+  margin-bottom:1px;
+}
+
+.propagate-link{
+	margin-bottom: 16px;
+}
+
+.amount-col input,
+.NumberOfMembersColumn input{
+  text-align: right;
+}
+
+.clickToEdit .control-group {
+	margin-bottom: 1px;
+}

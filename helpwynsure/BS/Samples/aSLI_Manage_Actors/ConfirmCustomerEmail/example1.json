@@ -1,0 +1,15 @@
+{
+	"description":"",
+	"request":{
+		"actorBuid":"{{personBUID}}",
+		"atDate":"{{currentDate}}"
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"ConfirmCustomerEmail",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

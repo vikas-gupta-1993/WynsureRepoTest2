@@ -1,0 +1,124 @@
+{
+	"description":"",
+	"request":{
+		
+		"applicationLoginBuid":"{{applicationLoginBUID}}"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_GetApplicationLogin_Out",
+		"buid":"318840180_110",
+		"paramEntity":{
+			"className":"aSPCB_ApplicationLogin",
+			"name":"_stehouwer.floortje@free.com",
+			"password":"",
+			"forbatch":false,
+			"isDisabled":false,
+			"jobLabel":"",
+			"preferedLanguageCode":"",
+			"email":"_stehouwer.floortje@free.com"
+		},
+		"hasExtendedProfile":false,
+		"profiles":[
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_46",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Administrateur collectif",
+					"code":"WAC",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_48",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Client",
+					"code":"WC",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			}
+		],
+		"candidates":[
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_40",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"Super gestionnaire",
+					"code":"SM",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_45",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Wynsure",
+					"code":"WAA",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_46",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Administrateur collectif",
+					"code":"WAC",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_47",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal apporteur d'affaires",
+					"code":"WA",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_48",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Client",
+					"code":"WC",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			},
+			{
+				"className":"aSPF_GetAuthorizationProfileInfo",
+				"buid":"318833061_49",
+				"paramEntity":{
+					"className":"aSPF_AuthorizationProfile",
+					"name":"wPortal Client Personne Morale",
+					"code":"WLEC",
+					"isDisabled":false,
+					"isForExternalActor":true
+				}
+			}
+		]
+	},
+	"eval":{
+		"[0]/buid":"applicationLoginBUID"
+	},
+	"className":"aSCB_Manage_Login",
+	"methodName":"GetApplicationLoginDetails",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

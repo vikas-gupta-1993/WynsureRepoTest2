@@ -1,0 +1,339 @@
+{
+	"data":{
+		"className":"aSPLI_FR_PersonData",
+		"bUID":"##60",
+		"dataHistory":[
+		],
+		"thirdPartyId":"AVIV",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1959-01-15",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"8090",
+						"city":"KELIBIA (NABEUL)"
+					},
+					"country":"TUNISIE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"12, AV. DE CARTHAGE",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"72 29 62 96",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"72 29 62 96",
+				"fax":"72 29 62 96",
+				"eMail":"omar.boughanmi@free.com",
+				"mediaType":"Courrier",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"BNP",
+				"effectiveDate":"2000-01-01",
+				"endDate":null,
+				"holderName":"BOUGHANMI",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75002",
+						"city":"PARIS"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"23 BD DES ITALIENS",
+					"line2":""
+				},
+				"bankCode":"14645",
+				"officeCode":"66892",
+				"accountNumber":"99251931776",
+				"rIBKey":"19",
+				"iBAN":"FR7614645668929925193177619",
+				"bIC":"CEPAFRPP118"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Administrateur collectif",
+							"code":"WAC"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Aviva (Distributeur) (Distribution directe) (Réseau de distribution)",
+						"unitCode":"AVIV"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"omar.boughanmi@free.com",
+						"name":"omar.boughanmi@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"omar.boughanmi@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##60",
+						"description":"Omar BOUGHANMI 12, AV. DE CARTHAGE, KELIBIA (NABEUL), 8090, TUNISIE"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"omar.boughanmi@free.com",
+					"name":"omar.boughanmi@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Omar BOUGHANMI 12, AV. DE CARTHAGE, KELIBIA (NABEUL), 8090, TUNISIE",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000063WEX",
+							"thirdPartyID":"AVIV"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":{
+			"className":"aSPH_FR_PersonExtensionData",
+			"bUID":"",
+			"dataHistory":[
+			],
+			"actorDataExtension":{
+				"className":"aSPH_FR_PersonExtension",
+				"birthRank":1,
+				"thirdPartyPayerActivated":false
+			},
+			"actor":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Omar BOUGHANMI 12, AV. DE CARTHAGE, KELIBIA (NABEUL), 8090, TUNISIE",
+				"internalClientId":"0000000061",
+				"externalClientId":{
+					"externalClientId":"0000000063WEX",
+					"thirdPartyID":"AVIV"
+				}
+			},
+			"personDataVersions":[
+				{
+					"className":"aSPH_FR_PersonExtensionVersionData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"personDataVersion":{
+						"className":"aSPH_FR_PersonExtensionVersion",
+						"effectiveDate":"1800-01-01",
+						"code":"01801000",
+						"socialSchemeCode":"01",
+						"registeredDeskCode":"801",
+						"centerCode":"000",
+						"cTICode":"011",
+						"addressee":"801",
+						"state":"80",
+						"attachedToPerson":false,
+						"alsaceMoselle":false,
+						"noemieActivated":false
+					},
+					"attachedToPersonDataExtensions":[
+					],
+					"preferredAttachedToPersonDataExtension":null
+				}
+			]
+		},
+		"externalClientId":"0000000063WEX",
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"E",
+						"fieldValue":"Assurance de prêt",
+						"nameDescription":"Assurance de prêt"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"TI",
+						"fieldValue":"Assurance voyage",
+						"nameDescription":"Assurance voyage"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"CV",
+						"fieldValue":"Epargne",
+						"nameDescription":"Epargne"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"PC",
+						"fieldValue":"IARD",
+						"nameDescription":"IARD"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"D",
+						"fieldValue":"Prévoyance",
+						"nameDescription":"Prévoyance"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"S",
+						"fieldValue":"Santé",
+						"nameDescription":"Santé"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"L",
+						"fieldValue":"Vie",
+						"nameDescription":"Vie"
+					}
+				],
+				"channelType":"aWF_SEPACreditTransfer_DisbursementChannel",
+				"actorPaymentMethodName":"BNP"
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"actor":{
+			"className":"aSPLI_Fr_Person",
+			"name":"BOUGHANMI",
+			"shortName":"Omar",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1959-01-15",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"KELIBIA (NABEUL)",
+			"birthPlaceZipCode":"8090",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Employé interne",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"N'est pas employé interne",
+					"nameDescription":"N'est pas employé interne"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"N'est pas VIP",
+					"fieldValue":"N'est pas VIP",
+					"nameDescription":"N'est pas VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false,
+			"sSN":"159011543617403",
+			"maritalStatus":"cDivorced",
+			"regime":"01",
+			"caisse":"801"
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Omar BOUGHANMI 12, AV. DE CARTHAGE, KELIBIA (NABEUL), 8090, TUNISIE",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000063WEX",
+			"thirdPartyID":"AVIV"
+		}
+	}
+}

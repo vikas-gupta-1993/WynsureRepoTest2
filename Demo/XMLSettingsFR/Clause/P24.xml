@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P24]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red34\green31\blue31;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-333\slmult0\cf1\f0\fs16 L'adh\'e9sion prend effet \'e0 la date indiqu\'e9e sur le certificat d'adh\'e9sion. Elle est souscrite \'e0 l'origine pour la p\'e9riode comprise entre la date
+ d'effet et le 31 d\'e9cembre de l'ann\'e9e. Elle se renouvelle ensuite annuellement par tacite reconduction le 1\super\up2\fs8 er\nosupersub\up0\fs16 janvier de chaque ann\'e9e civile, sauf stipulation contraire pr\'e9vue au certificat d'adh\'e9sion.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Date d'effet, durée et renouvellement de l'adhésion]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG date effet]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[27]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

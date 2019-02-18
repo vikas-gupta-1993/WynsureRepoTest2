@@ -1,0 +1,245 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21",
+		"withPremium":true
+	},
+	"response":{
+		"className":"aSPLI_GetIndividualPolicyDetails_Out",
+		"hasOpenClaims":true,
+		"nextDueDate":"2017-10-28",
+		"lastDueAmout":{
+			"amount":100000,
+			"currency":"cUSDollar"
+		},
+		"paidToDate":"2017-07-23",
+		"lapsingTerminationDate":null,
+		"lapsingHoldDate":null,
+		"lapsingReinstatementDate":null,
+		"billingFrequency":"f13thly",
+		"billPayer":"Elaine Austin",
+		"paymentMethodName":"Generic retail LockBox",
+		"isDirectPayment":false,
+		"dateOfDirectPayment":0,
+		"paymentMethod":{
+			"className":"aSPCB_US_BankAccount",
+			"accountNumber":"000140867135560",
+			"routingNumber":"091000019",
+			"preNoteCompleted":true,
+			"preNoteProcessCompletionDate":"2014-01-01",
+			"currency":"cUSDollar",
+			"accountType":"catChecking",
+			"branchName":"Branch",
+			"depositType":"dpNA",
+			"bankName":"Chase Manhattan Bank",
+			"address":{
+				"className":"aSPCB_PostalAddressWithState",
+				"state":"NY",
+				"line1":"2742 Lexington Avenue",
+				"line2":"",
+				"zipCodeAndCity":{
+					"zipCode":"10015",
+					"city":"NEW YORK"
+				},
+				"country":"USA"
+			},
+			"name":"Chase Manhattan Bank",
+			"effectiveDate":"2013-06-17",
+			"endDate":null,
+			"holderName":"Austin"
+		},
+		"broker":"",
+		"hasBlockingNotes":false,
+		"termOrRenewalDate":null,
+		"coverages":[
+			{
+				"className":"aSPLI_GetPolicyCoverage_Out",
+				"name":"Immediate Annuity",
+				"paidToDate":"2017-07-23",
+				"paidStatus":"Current",
+				"contestabilityEndDate":null,
+				"isEstimatedPaidToDate":false,
+				"paramEntity":{
+					"className":"aSPCV_IndividualCoverage",
+					"grandFathered":false,
+					"additionalDatas":[
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"S",
+							"fieldValue":"Single",
+							"nameDescription":"Single",
+							"fieldCode":"AT",
+							"fieldName":"Annuity Type",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_AdditionalDataValue_Integer",
+							"fieldValue":10,
+							"fieldCode":"GP",
+							"fieldName":"Guaranteed period in year",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_AdditionalDataValue_Percent",
+							"fieldValue":0.7,
+							"fieldCode":"LRB",
+							"fieldName":"When jointly, Life reduced by %",
+							"codeForPopulationClass":""
+						}
+					],
+					"creationDate":null,
+					"packageName":"",
+					"optionCode":"IA",
+					"optionName":"Immediate Annuity",
+					"effectiveDate":"2017-07-24",
+					"subscriptionDate":"2017-07-24",
+					"terminationDate":null,
+					"terminationReason":"",
+					"terminationNumber":0,
+					"billingServiceName":"",
+					"status":"cActive"
+				},
+				"additionalDatas":[
+					{
+						"className":"aSPCB_AdditionalDataValue_Integer",
+						"fieldValue":10,
+						"fieldCode":"GP",
+						"fieldName":"Guaranteed period in year",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_AdditionalDataValue_Percent",
+						"fieldValue":0.7,
+						"fieldCode":"LRB",
+						"fieldName":"When jointly, Life reduced by %",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"S",
+						"fieldValue":"Single",
+						"nameDescription":"Single",
+						"fieldCode":"AT",
+						"fieldName":"Annuity Type",
+						"codeForPopulationClass":""
+					}
+				],
+				"lineOfBusiness":"Other",
+				"premium":{
+					"amount":100000,
+					"currency":"cUSDollar"
+				},
+				"premiumHt":{
+					"amount":100000,
+					"currency":"cUSDollar"
+				},
+				"frequency":"f13thly",
+				"underwritingNeeded":false,
+				"changes":[
+				],
+				"buid":""
+			}
+		],
+		"additionalDatas":[
+		],
+		"stateCode":{
+			"stateLabel":"Signature State",
+			"stateName":"KY",
+			"stateCode":"KY"
+		},
+		"changes":[
+		],
+		"illustrations":[
+		],
+		"illustrationCanBeDisplayed":false,
+		"subscribers":[
+			"Elaine Austin"
+		],
+		"primaryPolicyOwners":[
+			"Elaine Austin"
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_Contact_Data",
+				"contactInformation":{
+					"className":"aSPCB_Contact",
+					"name":"Elaine Austin",
+					"contactName":"Elaine Austin",
+					"beginDate":null,
+					"endDate":null,
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"1950-12-15",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"KY",
+							"line1":"3911 Mewswood Ln",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"42211",
+								"city":"Cadiz"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(270) 522-9957",
+						"privatePhoneExtension":"",
+						"officePhone":"",
+						"officePhoneExtension":"",
+						"cellPhone":"(270) 522-9958",
+						"fax":"",
+						"eMail":"elaine.austin@free.com",
+						"mediaType":"Mail"
+					},
+					"role":[
+						"Subscriber",
+						"Insured",
+						"Payor"
+					]
+				},
+				"contactActorIdentifier":{
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					},
+					"buid":""
+				},
+				"contactActor":null,
+				"availableCorrespondences":[
+				]
+			}
+		],
+		"preferredPolicyContacts":[
+		],
+		"contract":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"4800000529",
+				"issuingCompanyCode":"WIC"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"4800000529WEX",
+				"thirdPartyID":"AA"
+			},
+			"buid":"318851264_21"
+		},
+		"effectiveDate":"2017-07-24",
+		"signatureDate":"2017-07-24",
+		"terminationDate":null,
+		"terminationReason":"",
+		"reinstatementDate":null,
+		"status":"cActive",
+		"complementaryStatus":"",
+		"productName":"Immediate Annuity",
+		"issuingCompany":"W Insurance Company",
+		"distributionUnit":"Internal Agents",
+		"ownerLastName":"",
+		"ownerFirstName":"",
+		"ownerBuid":""
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetPolicyDetails",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

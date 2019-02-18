@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"processIdentifier":{
+			"className":"aSPF_Identifier",
+			"bUID":"318844006_23",
+			"description":""
+		},
+		"targetHandler":"cnhkDefaultTeam",
+		"handlersID":[
+		]
+	},
+	"response":{
+		"className":"aSPF_ProcessData",
+		"processEntity":null,
+		"bUID":"318844006_23",
+		"dataHistory":[
+		]
+	},
+	"className":"asf_manageProcesses",
+	"methodName":"ForwardTask",
+	"version":"5.7.3.0",
+	"date":"2017-12-15",
+	"errors":[
+	]
+}

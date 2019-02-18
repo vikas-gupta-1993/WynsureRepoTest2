@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_x68hohWlEeeio-VrOvxbwA" comment="connectionComment" label="connectionLabel" dataPackage="_x68hoxWlEeeio-VrOvxbwA"/>
+  <TalendMetadata:GenericPackage xmi:id="_x68hoxWlEeeio-VrOvxbwA" dataManager="_x68hohWlEeeio-VrOvxbwA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_x68hpBWlEeeio-VrOvxbwA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hpRWlEeeio-VrOvxbwA" name="rubrique" id="1315" label="rubrique" length="3" talendType="id_Integer">
+        <initialValue xmi:id="_x68hphWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hpxWlEeeio-VrOvxbwA" name="value" id="1316" label="value" talendType="id_String">
+        <initialValue xmi:id="_x68hqBWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hqRWlEeeio-VrOvxbwA" name="compagnyID" id="1317" label="compagnyID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_x68hqhWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hqxWlEeeio-VrOvxbwA" name="establishmentID" id="1318" label="establishmentID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_x68hrBWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hrRWlEeeio-VrOvxbwA" name="personID" id="1319" label="personID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_x68hrhWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x68hrxWlEeeio-VrOvxbwA" name="contractID" id="1320" label="contractID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_x68hsBWlEeeio-VrOvxbwA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

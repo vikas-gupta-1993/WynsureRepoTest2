@@ -1,0 +1,76 @@
+{
+	"description":"",
+	"request":{
+		"accountBuid":"318848971_155"
+	},
+	"response":{
+		"className":"aSPLI_GetClientAccountDetails_Out",
+		"accountOperations":[
+			{
+				"className":"aSPCB_GetAccountOperation_Out",
+				"creationDate":"2017-12-26",
+				"transactionDate":"2017-12-26",
+				"transactionName":"Disbursement - Check",
+				"debit":{
+					"amount":1000,
+					"currency":"cUSDollar"
+				},
+				"credit":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"balance":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"suspenseBalance":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"buid":""
+			},
+			{
+				"className":"aSPCB_GetAccountOperation_Out",
+				"creationDate":"2017-12-26",
+				"transactionDate":"2017-12-26",
+				"transactionName":"Indemnification claim #00000007",
+				"debit":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"credit":{
+					"amount":1000,
+					"currency":"cUSDollar"
+				},
+				"balance":{
+					"amount":-1000,
+					"currency":"cUSDollar"
+				},
+				"suspenseBalance":{
+					"amount":-1000,
+					"currency":"cUSDollar"
+				},
+				"buid":""
+			}
+		],
+		"accountNumber":"C155",
+		"thirdParty":"Naik AMitkumar",
+		"kind":"Claim Account",
+		"balance":{
+			"amount":0,
+			"currency":"cUSDollar"
+		},
+		"suspended":{
+			"amount":0,
+			"currency":"cUSDollar"
+		},
+		"description":"Claim Account for Naik AMitkumar \/ W Insurance Company",
+		"buid":"318848971_155"
+	},
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetClientAccountDetails",
+	"version":"5.8.1.0",
+	"date":"2018-01-03",
+	"errors":[
+	]
+}

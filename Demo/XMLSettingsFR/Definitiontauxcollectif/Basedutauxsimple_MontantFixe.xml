@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLIOfferedGroupRateBasisBroker><RateBasisType Id="1"><![CDATA[1]]></RateBasisType><RateFactorForBusinessData Id="3"><![CDATA[0]]></RateFactorForBusinessData><AmountVolume Id="4"><![CDATA[0]]></AmountVolume><RateBasisRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLIFR_RuleEngine) (Def Version:2) (Implem Version:1)
+
+uses WFTypes
+
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   Result = 1
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIFR_RuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218122767]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedLifeOrDisabilityCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLIGenericOfferedGroupRateBasisBroker]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936752437639774843</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIOfferedGroupRateBasisBroker><NSId Id="1"><![CDATA[318793164]]></NSId><Id Id="2"><![CDATA[5]]></Id></aWLIOfferedGroupRateBasisBroker></MyOwner><Name Id="3"><![CDATA[Montant = 1]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[457]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></RateBasisRule><Code Id="9"><![CDATA[FIXE]]></Code><Name Id="3"><![CDATA[Montant Fixe]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318793164]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIOfferedGroupRateBasisBroker></EntityExport>

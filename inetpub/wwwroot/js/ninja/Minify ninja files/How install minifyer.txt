@@ -1,0 +1,20 @@
+1) Download nodejs : http://nodejs.org/dist/v0.8.4/node-v0.8.4-x86.msi
+
+2) Install nodejs
+
+3) Rebbot computer ( to update PATH)
+
+4) Launch Batch InstallMinifier.bat
+
+5) Go to C:\Users\{username}\AppData\Roaming\npm\ and replace code with this 6 lines:
+
+:: Created by npm, please don't edit manually.
+@IF EXIST "%~dp0"\"node.exe" (
+  "%~dp0"\"node.exe"  "%~dp0\.\node_modules\uglify-js\bin\uglifyjs" %*
+) ELSE (
+  node  "%~dp0\.\node_modules\uglify-js\bin\uglifyjs" %*
+)
+
+6) How minify : 
+cd c:\place\where\files\are\
+uglifyjs -o myFile.build.js myFile.js

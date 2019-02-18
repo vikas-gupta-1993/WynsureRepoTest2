@@ -1,0 +1,618 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##13",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"10029 GARDEN LAKE CT",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"45505",
+						"city":"Springfield"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"OH",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(702) 456-4913",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(702) 456-4913",
+				"fax":"(702) 456-4913",
+				"eMail":"empiremilkdistributor@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-05-24",
+				"endDate":null,
+				"holderName":"Empire Milk Distributor",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"846 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867184253",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Secretary",
+				"contactName":"John Smith",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Director",
+				"contactName":"William Doe",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Sales man",
+				"contactName":"Kent Johns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Financial director",
+				"contactName":"Ruth Browns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Project manager",
+				"contactName":"Steve Powell",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Chief executive officer",
+				"contactName":"Roberta Jackson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Advisor",
+				"contactName":"Elizabeth White",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Staff manager",
+				"contactName":"Sandy Robinson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Accountant",
+				"contactName":"Heather Clarck",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Technical director",
+				"contactName":"Maria Walker",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"10029 GARDEN LAKE CT",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(702) 456-4913",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(702) 456-4913",
+					"fax":"(702) 456-4913",
+					"eMail":"empiremilkdistributor@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			}
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Group Admin",
+							"code":"WGA"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Legal Entity Client",
+							"code":"WLEC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"empiremilkdistributor@free.com",
+						"name":"empiremilkdistributor@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"empiremilkdistributor@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##13",
+						"description":"Empire Milk Distributor (EMP)"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"empiremilkdistributor@free.com",
+					"name":"empiremilkdistributor@free.com",
+					"actorReference":{
+						"className":"aSPLI_LegalEntityIdentifier",
+						"bUID":"",
+						"description":"Empire Milk Distributor (EMP)",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000077WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000077WEX",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"EMP",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"Empire Milk Distributor",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"NY",
+			"industrialClassification":{
+				"classificationSystem":"SIC US",
+				"code":"1793"
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+				"MN",
+				"NY"
+			],
+			"taxId":"14"
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"Empire Milk Distributor (EMP)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000077WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

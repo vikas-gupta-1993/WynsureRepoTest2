@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLIFR_DSN_RegimeVieillesse><DSNCode Id="1"><![CDATA[300]]></DSNCode><Code Id="1"><![CDATA[300]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[régime agricole (MSA)]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[319422553]]></NSId><Id Id="2"><![CDATA[20]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIFR_DSN_RegimeVieillesse></EntityExport>

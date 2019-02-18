@@ -1,0 +1,32 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318853961_3"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_FactorPremiums_Out",
+		"lines":[
+			{
+				"billingModeName":"Monthly",
+				"billingModeFrequency":"fMonthly",
+				"amount":{
+					"amount":100000,
+					"currency":"cUSDollar"
+				},
+				"factoredAmount":{
+					"amount":0
+				},
+				"factor":1
+			}
+		],
+		"baseBillingService":null
+	},
+	"eval":null,
+	"className":"asli_consult_policy",
+	"methodName":"GetFactoredPremiumsDetails",
+	"version":"5.8.2.0",
+	"date":"2018-08-28",
+	"errors":[
+	]
+}

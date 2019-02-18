@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>ABCD</ThirdPartyID>
+   <ClientId>
+      <Buid>318774976_12</Buid>
+      <InternalClientId>0000000012</InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000012EX</ExternalClientId>
+         <ThirdPartyID>ABCD</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-08-06</UpdateDate>
+   <PersonIdentity xsi:type="ns:aSPLI_US_Person">
+      <Name>Pajuro</Name>
+      <ShortName>Viny</ShortName>
+      <CreationDate>2013-08-06</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <BirthDate>1956-07-05</BirthDate>
+      <PersonTitleEnum>0</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>CAN</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>CAN</BirthCountry>
+      <BirthPlaceCity>Lethbridge</BirthPlaceCity>
+      <BirthPlaceZipCode>T1H 3S8</BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId>
+      <Occupation></Occupation>
+      <AdditionalDatas></AdditionalDatas>
+      <SSN>147764153</SSN>
+      <MaritalStatus>cMarried</MaritalStatus>
+   </PersonIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>2013-08-06</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns:aSPCB_PostalAddressWithState">
+            <Line1>815 23 St N</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>T1H 3S8</ZipCode>
+               <City>Lethbridge</City>
+            </ZipCodeAndCity>
+            <Country>CAN</Country>
+            <State>AB</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(403) 327-3142&#160;&#160;&#160;&#160;&#160;&#160;</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail>viny.pajuro@free.com</eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns:aSPCB_CA_BankAccount">
+         <Name>Chase Manhattan Bank</Name>
+         <EffectiveDate>2013-08-06</EffectiveDate>
+         <HolderName>Pajuro</HolderName>
+         <Currency>cCanadianDollar</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>Branch</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>Chase Manhattan Bank</BankName>
+         <Address xsi:type="ns:aSPCB_PostalAddressWithState">
+            <Line1>5087 Lexington Avenue</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>10015</ZipCode>
+               <City>Toronto</City>
+            </ZipCodeAndCity>
+            <Country>CAN</Country>
+            <State>AB</State>
+         </Address>
+         <AccountNumber>000140867132557</AccountNumber>
+         <PreNoteProcessCompletionDate>2013-08-06</PreNoteProcessCompletionDate>
+         <Institution>910</Institution>
+         <Branch>00019</Branch>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid>318773581_33</Buid>
+               <ParamEntity>
+                  <Name>viny.pajuro@free.com</Name>
+                  <Password>Vi086201ro</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>viny.pajuro@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid>318767145_44</Buid>
+                  <ParamEntity>
+                     <Name>Web Individual Client</Name>
+                     <Code>WC</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid>318767145_40</Buid>
+                  <ParamEntity>
+                     <Name>Web Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+</_Result>

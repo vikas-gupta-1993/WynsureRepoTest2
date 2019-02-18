@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_kYqdsBHxEeaPy8bJyYiSzw" comment="connectionComment" label="connectionLabel" dataPackage="_kYqdsRHxEeaPy8bJyYiSzw"/>
+  <TalendMetadata:GenericPackage xmi:id="_kYqdsRHxEeaPy8bJyYiSzw" dataManager="_kYqdsBHxEeaPy8bJyYiSzw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kYqdshHxEeaPy8bJyYiSzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kYqdsxHxEeaPy8bJyYiSzw" name="Idntfr" id="54436" label="Idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_kYqdtBHxEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kYqdtRHxEeaPy8bJyYiSzw" name="Entity" id="54437" label="Entity" length="3" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kYqdthHxEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kYqdtxHxEeaPy8bJyYiSzw" name="Level" id="54438" label="Level" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kYqduBHxEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kYqduRHxEeaPy8bJyYiSzw" name="FAC_NUM" id="54439" label="FAC_NUM" length="9" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_kYqduhHxEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kYqduxHxEeaPy8bJyYiSzw" name="Idntfr_045" id="54440" label="Idntfr_045" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_kYqdvBHxEeaPy8bJyYiSzw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

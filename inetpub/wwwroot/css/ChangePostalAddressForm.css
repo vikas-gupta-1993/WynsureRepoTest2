@@ -1,0 +1,32 @@
+.fields dl {
+	height: 50px;
+
+}
+
+.action {
+	clear: both;
+}
+
+.action input {
+	width: 100px;
+}
+
+#EffectiveDateWrapper {
+	float: none;
+}
+
+#Line1Wrapper input, #Line2Wrapper input {
+	width: 100%;
+}
+
+#Line1Wrapper, #Line2Wrapper {
+	margin: 0;
+}
+#ZipCodeWrapper, #CityWrapper, #StateWrapper, #CountryWrapper {
+	float: left;
+	width: 25em;
+}
+#ZipCodeWrapper input, #CityWrapper input, #StateWrapper input, #CountryWrapper input {
+	 float:left;
+   width: 24.5em;
+}

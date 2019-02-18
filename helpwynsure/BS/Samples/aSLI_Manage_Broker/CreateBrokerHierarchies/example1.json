@@ -1,0 +1,32 @@
+{
+	"description":"",
+	"request":{
+		
+		"input":{
+			"className":"aSPLI_CreateOrUpdateBrokerHierarchies_In",
+			"brokerId":{
+				"buid":"",
+				"brokerID":"10000173"
+			},
+			"brokerHierarchies":[
+				{
+					"className":"aSPLI_CreateOrUpdateBrokerHierarchy_In",
+					"hierarchyInformation":{
+						"className":"aSPCB_BrokerHierarchy",
+						"name":"Broker1",
+						"shortName":"b1"
+					},
+					"brokerUnits":[
+					]
+				}
+			]
+		}
+	},
+	"response":null,
+	"className":"asli_manage_Broker",
+	"methodName":"CreateBrokerHierarchies",
+	"version":"5.8.1.0",
+	"date":"2018-03-09",
+	"errors":[
+	]
+}

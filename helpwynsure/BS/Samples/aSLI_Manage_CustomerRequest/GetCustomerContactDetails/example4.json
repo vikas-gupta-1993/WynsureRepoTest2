@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"contactBUID":"318843493_65"
+	},
+	"response":{
+		"className":"aSPLI_GetCustomerCorrespondenceDetails_Out",
+		"documents":[
+		],
+		"comment":"",
+		"response":"",
+		"name":"Phone Call for Information on our Products",
+		"user":"Admin",
+		"media":"mPhone",
+		"dateOfContact":"2016-09-24",
+		"timeOfContact":"10:17:44Z",
+		"contactKind":"ckIncoming",
+		"contactName":"",
+		"correspondence":"",
+		"buid":"318843493_65"
+	},
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"GetCustomerContactDetails",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

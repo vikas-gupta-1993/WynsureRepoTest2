@@ -1,0 +1,17 @@
+.TitleWrapper .IconWrapper{
+	background: url(../images/Reports/Report24.png) left no-repeat;	
+}
+
+div.TitleWrapper .Title div{
+	width:100%;
+	float:none;
+}
+
+#PageContent .ui-button{
+	width:140px;
+	height:30px;
+}
+
+#PageContent  .ui-button-text{
+	padding: 0.25em 1em 0.4em 2.1em;
+}

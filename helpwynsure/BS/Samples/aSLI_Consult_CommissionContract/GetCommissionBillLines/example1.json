@@ -1,0 +1,46 @@
+{
+	"description":"",
+	"request":{
+		"billBuid":"318836968_60"
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetBillLineInfo_Out",
+			"buid":"",
+			"whoIsBilled":"Broker1",
+			"amount":{
+				"amount":27.28,
+				"currency":"cUSDollar"
+			},
+			"amountHT":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"billedEntityName":"Master Product Standard",
+			"fromDate":"2018-08-30",
+			"toDate":"2019-08-29",
+			"lineKind":"cPeriodic",
+			"comment":"Calculated rate 10% of $272.80 = $27.28\r\n\r\n",
+			"shortComment":"Calculated rate 10% of $272.80 = $27.28",
+			"adjustment":false,
+			"waivedAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"waivedAmountHT":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"dayPrice":0,
+			"dayPriceHT":0,
+			"status":"cFullyReconciled"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Consult_CommissionContract",
+	"methodName":"GetCommissionBillLines",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

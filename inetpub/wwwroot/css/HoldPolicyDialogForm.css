@@ -1,0 +1,8 @@
+#aPLI_HoldPolicyDialogFormDialog{
+	background-color: #FFFFFF;
+}
+
+.aPLI_HoldPolicyDialogFormContent textarea{
+	width: 515px;
+	height: 100px;
+}

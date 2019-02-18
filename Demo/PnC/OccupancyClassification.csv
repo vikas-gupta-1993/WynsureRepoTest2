@@ -1,0 +1,261 @@
+occupancy_code;name;rating_group
+10;Inspection Contracts;A1
+20;Farms, NOC;D
+21;Greenhouses;D
+22;Agricultural/Agrochemical Distribution Centers;D
+23;Hatcheries & Poultry Farms;D
+24;Irrigation/Agriculture;D
+30;Breweries/Wineries/Distilleries;D
+41;Glass Product Mfg.;J
+42;Terra Cotta, Pottery, Ceramic Tile Mfg.;H
+58;Synthetic Rubber Plants;G
+63;Research & Development Laboratories;A2
+70;Clay, Concrete, Brick, Plaster Products;J
+81;Private Cold Storage, Food;D
+82;Private Cold Storage, Not Food;D
+83;Public Cold Storage, All;D
+89;Ice Plants;D
+90;Broadcasting, Radio & Television;A1
+100;Computer Services, NOC;A1
+101;Data Processing Operations;A1
+102;Computer Software Developers;A2
+131;Milk Products & Dairies;D
+132;Packing Houses, Meat;D
+134;Beverage and Bottling Plants;D
+135;Frozen Food Processing;D
+138;Food Processing/Storage w/Refrigeration;D
+139;Candy Mfg.;D
+140;Food Processing/Storage w/o Refrigeration;D
+141;Cereal Processing;D
+142;Bakeries;D
+143;Rendering Plants;D
+148;Coffee Processing;D
+149;Food Canning & Packaging, NOC;D
+160;Auto & Farm Implements Mfg.;J
+161;Aircraft/Aerospace Mfg.;J
+162;Ship Building;J
+163;Boiler & Pressure Vessel Mfg.;J
+164;Electrical Machinery Mfg.;J
+171;Photofinishing;A1
+172;Electroplating;J
+173;Machine Shops;E
+174;Electronic/Electrical Equipment Mfg.;E
+175;Jewelry, Enamelware & Flatware Mfg.;E
+176;Hardware Mfg.;E
+177;Metal Can & Container Mfg.;E
+178;General Light Mfg., Metals, NOC;E
+179;General Light Mfg., Non-Metal;H
+180;Appliance Mfg., Household/Commercial/Industrial;E
+181;Furniture Manufacturing;H
+182;Linoleum Works;G
+183;Plastic Product Mfg. (Incl. Molding/Extrusion);G
+184;Natural Abrasives;H
+185;Boots, Shoe & Leather Goods Mfg.;H
+186;Tobacco Products Mfg. (Cigarette & Cigar Mfg.);H
+187;Solid Waste Recycling;I
+188;Liquid Waste Recycling;I
+189;Brass, Copper, Bronze Products Mfg.;J
+190;Grain Elevator;D
+191;Grinding & Milling Plant (Food, Grain, Flour);D
+200;Hospitals;C2
+201;Radiological & Diagnostic Services;C2
+202;Nursing/Convalescent Home;C1
+203;Clinics;C1
+204;Dentists;C1
+205;Doctors;C1
+206;Health Services NOC;C1
+207;Shelters, Men's/Women's;A1
+210;Laundries & Dry Cleaning;A1
+211;Laundromats, Self Service;A1
+220;Logging and Lumber, NOC;J
+221;Sawing/Planing/Finishing';J
+229;Wood Trating/Creosoting Plants;J
+230;Rolling Mill, Metal;J
+231;Wire Mills Mfg.;J
+240;Steel Mills-No Sintering;J
+241;Sintering Plants-Separate;J
+242;Forge Shops;J
+243;Scrap Metal Plants;J
+244;Foundries;J
+245;Smelting Plants, No Aluminum;J
+246;Aluminum Smelting Plants;J
+247;Aluminum Products Mfg.;J
+249;Steel and Iron, NOC;J
+251;Cement Mill;J
+252;Lime/Sand/Gravel Works/Pit;J
+253;Mining NOC;J
+254;Gold Mining;J
+255;Ore Refining;J
+256;Gypsum Mill;J
+257;Coal Mining;J
+260;Industrial Building Owners;A1
+261;Office Buildings (Owners);A1
+262;Strip Shopping Centers;A1
+263;Banks;A1
+264;Mall Shopping Centers;A1
+265;Car Washes;A1
+266;Garages & Service Stations;A1
+267;Stores w/Refrigerated Food;A2
+268;Warehouses (Not Refrigerated);A1
+269;Stores, Retail & Wholesale (Not Food);A1
+270;Auto, Truck, Vehicle Sales;A1
+281;Resorts & Amusements, NOC;A1
+282;Apartments Bldg. / Condominium Assoc.;A1
+283;Universities & Colleges;A2
+284;Primary & Secondary Schools (No College);A1
+285;Hotels/Motels;A2
+286;Restaurants;A1
+287;Churches;A1
+288;Funeral Homes;A1
+289;Places of Public Assembly;A1
+290;Mobil Home Parks;A2
+300;Printing & Publishing, NOC;B
+301;Book Publishing;B
+302;Commercial Printing;B
+303;Photocopying/Quick Printing;A2
+304;Newspaper Printing;B
+310;Pulp Mill Only;J
+311;Paper Mill Only;J
+312;Paper Container Plants;J
+313;Box & Corrugating Plants;J
+314;Integrated Plant/Pulp & Paper;J
+320;Asphalt Mix Plants, Floor/Roof Products;J
+330;Tire Repair, Retreading;H
+331;Rubber, Rubber Products Mfg.;G
+332;Tire Factories;G
+340;Semiconductor Mfg., Incl. Wafer Slider Mfg.;J
+341;Silicon/Gallium Arsenate Ingot Mfg., Incl. Epitaxial Deposition;J
+342;Silicon/Gallium Arsenide Wafer Proc., Excl.. Epitaxial Deposition, Wafer Recl.;J
+343;Epitaxial Deposition/Metallization/Sputtering;J
+344;Elec. Test & Assem., Pkg, Chip/Multi Chip Modul.;J
+345;Flat Panel Display Mfg.;J
+346;Mask/Reticule Mfg.;E
+347;Printed Circuit Board Mfg./Assem.;E
+348;Computer Stge. Device Mfg.;E
+349;Comp/Semicond Equip Fabication/Assem.;E
+351;Municipalities (Policy Level Only);I
+352;Sewage Disposal Plant;I
+356;Water Pumping Stations;I
+360;Central Steam Plant;I
+362;Central Air Conditioning;I
+363;Desalinization Plant;I
+370;Beet/Cane Sugar Mills/Refineries;D
+380;Telecommunications - Regional;A1
+381;Telecommunications - Local;A2
+382;Telecommunications - Cellular;A1
+390;Thread & Yarn Mills;F
+391;Cotton/Fiber Mills;F
+392;Leather Goods Mfg.;F
+393;Clothing/Apparel Mfg.;F
+394;Asbestos Fiber Mill;F
+399;Textile Mill NOC;F
+401;Bridge/Road/General Construction;A1
+402;Bus Lines;A1
+404;Airlines;A1
+405;Tugboat Operations;A1
+406;Dredge Operations;J
+407;Railroad Terminals;A1
+409;Transportation/ Navigation, NOC;A1
+552;Synthetic Abrasives (Carborundum);H
+564;Accounting Services;A1
+565;Real Estate/Insurance Agent;A2
+566;Legal Services;A1
+567;Offices (Tenants, Not Owners);A1
+568;Consultants;A1
+569;Contractor,  Building;A1
+580;Amusement Parks;A2
+581;Bowling Alleys;A1
+582;Country Clubs;A2
+583;Ice Rinks;D
+584;Art Galleries & Museums;A1
+585;Race Tracks;A1
+586;Ski Resort/Operations;A2
+587;Stadiums;A1
+588;Swimming Pools/Clubs;A1
+589;Theaters;A2
+590;Casinos;A1
+600;Oil & Gas NOC;J
+601;Pipelines;J
+602;Lean Oil Absorb/Gas/Gasoline;J
+603;Cryogenic Gas Plants;J
+604;Distillation Refinery;J
+605;Terminals & Distribution;J
+606;LNG & LPG/Peak Shave/Gas;J
+607;SNG (Coal Gasification);J
+608;Cracking Refinery;J
+609;Well Drilling & Pumping;J
+611;Desulfurization & Dehydration;J
+620;Chemical Manufacturing, NOC;J
+621;Caustic/Chlorine Bleach;J
+622;Soda Ash/Potash-Phosphate;J
+623;Sulfuric Acid;J
+624;Phosphoric Acid;J
+625;Hazardous Waste Treatment;I
+626;Agrichemicals-Includes Insect;J
+627;Batch Chemical with Reaction;J
+628;Batch Mixing & Blending w/o Reaction;J
+629;Air Separation;J
+630;Acid, NOC;J
+631;Cellulose Products;J
+632;Catalyst Mfg. & Reclaiming;J
+633;Fatty Acids-Incl. Tall Oil;J
+634;Organic Peroxides;J
+635;Industrial Gas Bottle/Distribution;J
+636;Coke Calcining;J
+640;Petrochemical, NOC;J
+641;Olefins;J
+642;Ethylene & Propylene Polymers;J
+643;Ethylene/Propylene & Propylene Derivatives;J
+644;EDC, VCM, PVC;J
+645;Styrene;J
+646;Polystyrene;J
+647;Cumene & Phenols-Acetone;J
+648;Butylene & Derivatives;J
+649;Methyl Tertiary Butyl Ether (MTBE);J
+651;Aromatics & Derivatives;J
+652;Carbon Black;J
+653;Ammonia & Derivatives;J
+654;Nitric Acid/Ammonia Nitrate;J
+655;Acetylene & Derivatives;J
+656;Methanol & Derivatives;J
+657;Acrylic Monomers & Derivatives;J
+658;Cyclohexane & Derivatives;J
+659;Cyanides;J
+661;Butanes & Derivatives;J
+662;Hydrogen Plants;J
+670;Synthetic Adhesives;J
+671;Paint, Lacquers, Varnish, Dyes;J
+672;Perfumes, Cosmetics, Toiletries;H
+673;Chemical Labs;J
+674;Cotton Seed Oil;J
+675;Wood Chemical/Turpentine;J
+676;Drugs & Pharmaceuticals;H
+677;Soaps;H
+678;Explosives/Fireworks;J
+679;Chemical Mfg.-Ethanol;J
+700;Utility, Steam/Fossil Fuel;J
+701;IPP, Steam/Fossil Fuel;J
+702;Utility, Steam/Refuse Mass;J
+703;IPP, Steam/Refuse Mass;J
+704;Utility, Steam/Refuse Derived;J
+705;IPP, Steam//Refuse Derived;J
+710;Utility, Combustion Turbine Combined Cycle;J
+711;IPP, Combustion Turbine Combined Cycle;J
+712;Utility, Combustion Turbine Simple Cycle;J
+713;IPP, Combustion Turbine Simple Cycle;J
+715;Utility, Hydro;J
+716;IPP, Hydro;J
+717;Utility, Hyrdo, Pumped Storage;J
+718;IPP, Hydro, Pumped Storage;J
+720;Utility, Diesel;J
+721;IPP, Diesel;J
+725;Utility, Substations, & Distribution;J
+726;IPP, Substations, & Distribution;J
+727;Utility, Generation, NOC;J
+728;IPP, Generation, NOC;J
+729;Utility, Wind;J
+730;IPP, Wind;J
+731;Utility, Solar;J
+732;IPP, Solar;J
+733;Nuclear Power Plant;J
+999;Occupancy Unknown;A2

@@ -1,0 +1,51 @@
+{
+	"description":"",
+	"request":{
+		
+		"disbursementID":{
+			"disbursementFunctionalIdentifier":"6",
+			"buid":""
+		},
+		"reissueInfo":{
+			"byManualProcess":false,
+			"sentDate":"1900-01-01",
+			"disbursementNumber":""
+		}
+	},
+	"response":{
+		"className":"aSPLI_GetDisbursement_Out",
+		"paramEntity":{
+			"className":"aSPCB_Disbursement",
+			"sentDate":"2017-11-24",
+			"statementEffectiveDate":null,
+			"cashedDate":null,
+			"operation":"53",
+			"amount":{
+				"amount":135,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":"2017-11-24"
+		},
+		"statement":"Statement #: 0000000009   Disbursed Amount: $135.00   Effective Date: 11\/24\/2017   (Due Date: 11\/24\/2017)",
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"6"
+			},
+			"buid":"318837071_6"
+		},
+		"actorAsAccountOwner":"Finacus (Finacus)",
+		"actorAsBeneficiary":"Finacus (Finacus)",
+		"channel":"Manual Check",
+		"buid":"318837071_6"
+	},
+	"className":"aSLI_manage_accounting",
+	"methodName":"ReIssueDisbursement",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+	]
+}

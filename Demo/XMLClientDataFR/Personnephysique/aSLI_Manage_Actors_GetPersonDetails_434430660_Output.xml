@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1970-05-17</EffectiveDate>
+         <AddressUsage>3</AddressUsage>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone></PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+         <MediaType></MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+      <Name>DURANT</Name>
+      <ShortName>Alain</ShortName>
+      <CreationDate>2015-01-01</CreationDate>
+      <PreferredLanguageCode></PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1970-05-17</BirthDate>
+      <PersonTitleEnum>0</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>FRA</Nationality>
+      <BirthRank>0</BirthRank>
+      <BirthCountry>FRA</BirthCountry>
+      <BirthPlaceCity></BirthPlaceCity>
+      <BirthPlaceZipCode></BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Employ&#233; interne</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+            <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>N&apos;est pas VIP</ValueCode>
+            <FieldValue>N&apos;est pas VIP</FieldValue>
+            <NameDescription>N&apos;est pas VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <EnrollmentOrganism></EnrollmentOrganism>
+      <SSN></SSN>
+      <MaritalStatus>cOtherMaritalStatus</MaritalStatus>
+   </PersonIdentity>
+</_Result>

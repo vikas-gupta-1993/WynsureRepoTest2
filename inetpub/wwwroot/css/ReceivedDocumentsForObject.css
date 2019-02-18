@@ -1,0 +1,37 @@
+.picker .result{
+   border: 0;
+   box-shadow: none;
+}
+
+.result .CustomizedTablePresenter thead{
+	display : none;
+}
+
+.result .CustomizedTablePresenter{
+   border : 0;
+}
+
+#ActionList .flyout .result a {
+  padding-left: 20px;
+  background: url(./images/ContactHistory/download_16.png) no-repeat;
+}
+
+.flyout .result table.CustomizedTablePresenter td:hover {
+  max-height: none;
+  white-space: normal;
+}
+
+#ActionList .flyout .result a:active, #ActionList .flyout .result a:visited, #ActionList .flyout .result a:link {
+  color: #0B559B;
+  text-align: left;
+  font-size : 1.0em;
+}
+
+.flyout .result table.CustomizedTablePresenter td{
+  border-right: 0;
+  max-width: 170px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  white-space : nowrap;
+  -o-text-overflow: ellipsis; /* Opera 9 */
+}

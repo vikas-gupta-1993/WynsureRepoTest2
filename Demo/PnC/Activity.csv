@@ -1,0 +1,36 @@
+TPM;Transport Public de Marchandises;100;MARCHANDISES GENERALES
+TPM;Transport Public de Marchandises;110;MESSAGERIE
+TPM;Transport Public de Marchandises;120;CITERNES (ALIMENTAIRES ET PULVERULENTS)
+TPM;Transport Public de Marchandises;130;CITERNES ( MATIERES DANGEREUSES)
+TPM;Transport Public de Marchandises;140;TEMPERATURE DIRIGEE
+TPM;Transport Public de Marchandises;150;DEMENAGEMENTS
+TPM;Transport Public de Marchandises;160;BENNE
+TPM;Transport Public de Marchandises;170;PLATEAUX ET CONTAINERS
+TPM;Transport Public de Marchandises;180;MASSE INDISIBLE
+TPM;Transport Public de Marchandises;190;ANIMAUX VIVANTS
+TPPC;Transport Public de Marchandises;200;MARCHANDISES GENERALES
+TPPC;Transport Public de Marchandises;210;MESSAGERIE
+TPPC;Transport Public de Marchandises;220;CITERNES (ALIMENTAIRES ET PULVERULENTS)
+TPPC;Transport Public de Marchandises;230;CITERNES ( MATIERES DANGEREUSES)
+TPPC;Transport Public de Marchandises;240;TEMPERATURE DIRIGEE
+TPPC;Transport Public de Marchandises;250;DEMENAGEMENTS
+TPPC;Transport Public de Marchandises;260;BENNE
+TPPC;Transport Public de Marchandises;270;PLATEAUX ET CONTAINERS
+TPPC;Transport Public de Marchandises;280;MASSE INDISIBLE
+TPPC;Transport Public de Marchandises;290;ANIMAUX VIVANTS
+TPV;Transport Public de Voyageurs;300;COMMISSIONNAIRE
+LCD;Location Courte Durée;400;SCOLAIRE
+LCD;Location Courte Durée;410;LIGNES URBAINES
+LCD;Location Courte Durée;420;LIGNES NATIONALES
+LCD;Location Courte Durée;430;LIGNES INTERNATIONALES
+LCD;Location Courte Durée;440;TOURISME
+LCD;Location Courte Durée;450;SANITAIRE
+LCD;Location Courte Durée;460;TAXI
+LCD;Location Courte Durée;470;GRANDE REMISE
+LLD;Location Longue Durée;500;LOCATION COURTE DUREE AVEC CHAUFFEUR
+LLD;Location Longue Durée;510;LOCATION COURTE DUREE SANS CHAUFFEUR
+LLD;Location Longue Durée;520;LOCATION LONGUE DUREE AVEC CHAUFFEUR
+LLD;Location Longue Durée;530;LOCATION LONGUE DUREE SANS CHAUFFEUR
+AGR;Agricole;600;INDSUTRIE
+AGR;Agricole;610;COMMERCES
+AGR;Agricole;620;SERVICES

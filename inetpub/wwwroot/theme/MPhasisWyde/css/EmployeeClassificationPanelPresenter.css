@@ -1,0 +1,28 @@
+@import url("TableManagerPresenter.css");
+.EmployeeClassificationPanelWrapper .NameColumn, .EmployeeClassificationPanelWrapper .CodeColumn {
+	padding: 3px;
+}
+
+.EmployeeClassificationPanelWrapper.Consultation .NameColumn{
+	width: 80%;
+}
+
+.EmployeeClassificationPanelWrapper.Modification .NameColumn{
+	width: 70%;
+}
+
+.EmployeeClassificationPanelWrapper .CodeColumn {
+	width: 20%;
+}
+
+.subStepForm .step-content{
+	padding: 0px;
+}
+
+.subStepForm .step-content .TablePresenter{
+	float : none;
+}
+
+.subStepForm .ExecuteInsertLineAt{
+	margin: 4px;
+}

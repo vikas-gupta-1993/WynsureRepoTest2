@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0,00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[COUV]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318836758]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Montant]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837466]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DDR]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318836758]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Debut Revalo]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837419]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DFR]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318836758]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Date Fin Revalo]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837419]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+class aWF_RT_Formule (aWFStandAloneRuleEngine)
+
+uses WFTypes, aWFDateType, aIntType
+
+; Rule
+Montant : Num8
+DebutRevalo : tWFDate
+DateFinRevalo : tWFDate
+
+
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFNum8)
+   var annee : Int4
+   var nombreDeJoursDeP : Num8
+   var nombreDeJoursDansLAnnee : Num8
+   var nombreDeJoursDePDansLAnnee : Num8
+   var calculDateDebutAnnee : tWFDate
+   var calculDateFinAnnee : tWFDate
+   var anneeDebut : Int4
+   var anneeFin : Int4
+   var anneeCourante : Int4
+   var tauxInteret : Num8
+   var calculPuissance : Num8
+   
+   ;if Risky.OpenDebug <> Nil
+   ;endIf
+   ;
+   Result = 0
+   ;
+   anneeDebut = self.Annee_De_La_Date(self.DebutRevalo)
+   ;
+   ; La période de revalorisation est limitée à 10 ans
+   if self.Nombre_D_Annees_Entre_Deux_Dates(self.DebutRevalo, self.DateFinRevalo) >= 
+      10
+      self.Fixe_Le_Mois(self.Mois_De_La_Date(self.DebutRevalo), self.DateFinRevalo)
+      self.Fixe_Le_Jour(self.Jour_De_La_Date(self.DebutRevalo), self.DateFinRevalo)
+      self.Fixe_L_Annee(self.Annee_De_La_Date(self.DebutRevalo), self.DateFinRevalo)
+      self.Incrementer_En_Annee_Une_Date(10, self.DateFinRevalo)
+   endIf
+   ;
+   anneeFin = self.Annee_De_La_Date(self.DateFinRevalo)
+   ;
+   if anneeDebut = anneeFin
+      ; Si la période P est incluse dans une seule année civile A 
+      nombreDeJoursDeP = self.DateFinRevalo - self.DebutRevalo
+      if calculDateDebutAnnee.type.ConvertFromCString('01/01/' + anneeDebut.type.AsCString(@anneeDebut), 
+         @calculDateDebutAnnee)
+      endIf
+      ;
+      if calculDateFinAnnee.type.ConvertFromCString('31/12/' + anneeDebut.type.AsCString(@anneeDebut), 
+         @calculDateFinAnnee)
+      endIf
+      nombreDeJoursDansLAnnee = calculDateFinAnnee - calculDateDebutAnnee + 1
+      ;
+      Result = self.Montant * (self.Puissance(1 + self.Indice('Taux de revalorisation Loi Eckert', 
+         calculDateDebutAnnee), nombreDeJoursDeP / nombreDeJoursDansLAnnee) - 1)
+   else
+      tauxInteret = 1
+      ; Si la période P est à cheval sur N années civiles A à A+N-1  
+      for anneeCourante = anneeDebut to anneeFin
+         if calculDateDebutAnnee.type.ConvertFromCString('01/01/' + anneeCourante.type.AsCString(@anneeCourante), 
+            @calculDateDebutAnnee)
+         endIf
+         ;
+         if calculDateFinAnnee.type.ConvertFromCString('31/12/' + anneeCourante.type.AsCString(@anneeCourante), 
+            @calculDateFinAnnee)
+         endIf
+         nombreDeJoursDansLAnnee = calculDateFinAnnee - calculDateDebutAnnee + 1
+         ;
+         ;
+         if anneeCourante = anneeDebut
+            nombreDeJoursDePDansLAnnee = calculDateFinAnnee - self.DebutRevalo + 
+               1
+         elseif anneeCourante = anneeFin
+            nombreDeJoursDePDansLAnnee = self.DateFinRevalo - calculDateDebutAnnee
+         else
+            nombreDeJoursDePDansLAnnee = nombreDeJoursDansLAnnee
+         endIf
+         ;
+         calculPuissance = nombreDeJoursDePDansLAnnee / nombreDeJoursDansLAnnee
+         ;
+         tauxInteret = tauxInteret * self.Puissance(1 + self.Indice('Taux de revalorisation Loi Eckert', 
+            calculDateDebutAnnee), calculPuissance)
+      endFor
+      Result = self.Montant * (tauxInteret - 1)
+   endIf
+   ;
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218173465]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033324205965947</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLIIndexForLifeInsurance><KindOfIndex Id="1"><![CDATA[Revalorisation]]></KindOfIndex><TypeOfValue Id="5"><![CDATA[1]]></TypeOfValue><Versions><aWFindexForPeriod><Name></Name><NSId>318836472</NSId><Id>74</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836472</NSId><Id>75</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836472</NSId><Id>76</Id></aWFindexForPeriod></Versions><LastVersion><aWFindexForPeriod><Name></Name><NSId>318836472</NSId><Id>76</Id></aWFindexForPeriod></LastVersion><Name Id="3"><![CDATA[Taux de revalorisation Loi Eckert]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318847966]]></NSId><Id Id="2"><![CDATA[11]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndexForLifeInsurance></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318836758]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[InteretsRevalorisationEckert]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834988]]></NSId><Id Id="2"><![CDATA[15]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Interets Revalorisation Bruts de Fiscalite \par
+}
+]]></Comment><Name Id="3"><![CDATA[InteretsRevalorisationEckert]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318836758]]></NSId><Id Id="2"><![CDATA[15]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

@@ -1,0 +1,51 @@
+#InsuredTable .RelationshipColumn {
+	Width: 15%;	
+}
+
+.AddInsured  .AddRelationship {
+	Width: 100%;
+}
+
+.AddInsured  .AddLastName, .AddInsured  .AddFirstName, .AddInsured  .AddBirthDate {
+/*	Width: 98%;*/
+}
+
+#InsuredTable .LastNameColumn, #InsuredTable .FirstNameColumn {
+	Width: 35%;	
+}
+
+#InsuredTable .BirthDateColumn {
+	Width: 10%;	
+}
+
+#InsuredTable .ActionColumn {
+	Width: 5%;	
+	padding-top: 14px;
+}
+
+.DeleteInsuredButton {
+	Height : 16px;
+	Width: 16px;
+	background-image: url(./images/LifeSubscriptions/delete16.png);
+        background-repeat:no-repeat;
+	Cursor : Pointer;
+	Float : Left;
+}
+
+.AddInsured .AddAction {
+    Height : 16px;
+	Width: 16px;
+	background-image: url(./images/LifeSubscriptions/add16.png);
+        background-repeat:no-repeat;
+	Float : Left;
+	Cursor : Pointer;
+}
+
+.AddInsured .CloseAction {
+    Height : 16px;
+	Width: 16px;
+	background-image: url(./images/LifeSubscriptions/close16.png);
+        background-repeat:no-repeat;
+	Float : Left;
+	Cursor : Pointer;
+}

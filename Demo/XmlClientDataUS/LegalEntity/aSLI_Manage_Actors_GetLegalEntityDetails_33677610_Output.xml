@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>3</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_PostalAddressWithState">
+            <Line1>21st main</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>92677</ZipCode>
+               <City>laguna niguel</City>
+            </ZipCodeAndCity>
+            <Country>USA</Country>
+            <State>CA</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>+1 2056645884</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+         <MediaType></MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <LegalEntityIdentity xsi:type="ns_1:aSPLI_US_LegalEntity">
+      <Name>Beta Trading Company</Name>
+      <ShortName>Beta Trading Company</ShortName>
+      <CreationDate>2017-05-03</CreationDate>
+      <PreferredLanguageCode>En</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <MasterLegalEntity>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>USA</Country>
+      <State>CA</State>
+      <IndustrialClassification>
+         <ClassificationSystem></ClassificationSystem>
+         <Code></Code>
+      </IndustrialClassification>
+      <AdditionalDatas></AdditionalDatas>
+      <TotalNumberOfEmployees>100</TotalNumberOfEmployees>
+      <WorksiteStates></WorksiteStates>
+      <TaxId></TaxId>
+   </LegalEntityIdentity>
+   <EmployeeInformations></EmployeeInformations>
+   <AffiliateLegalEntity></AffiliateLegalEntity>
+</_Result>

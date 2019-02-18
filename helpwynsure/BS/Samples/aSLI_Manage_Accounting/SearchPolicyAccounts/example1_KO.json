@@ -1,0 +1,42 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318844991_1"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L67",
+			"thirdParty":"Chougule Nilesh",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":24.99,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000511 ",
+			"buid":"318842552_67"
+		}
+	],
+	"className":"asli_manage_accounting",
+	"methodName":"SearchPolicyAccounts",
+	"version":"5.8.1.0",
+	"date":"2018-01-03",
+	"errors":[
+		{
+			"code":"786B_BS_00002",
+			"message":"Business Object is not a descendant of aWFContract",
+			"kind":"Info",
+			"kindNumber":4
+		},
+		{
+			"code":"031D_BS_00009",
+			"message":"Can not find bill descriptor",
+			"kind":"Bad Value",
+			"kindNumber":0
+		}
+	]
+}

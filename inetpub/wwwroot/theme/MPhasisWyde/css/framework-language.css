@@ -1,0 +1,12 @@
+.language i.icon-custom-flag {
+  width: 18px;
+  height: 14px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.language .flag-En,
+.dropdown-menu > li > a:hover > .flag-En { background-image:url(../Wyde/flag_En.png);}
+.language .flag-Fr,
+.dropdown-menu > li > a:hover > .flag-Fr { background-image:url(../Wyde/flag_Fr.png);}

@@ -1,0 +1,398 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"bUID":"",
+			"documentDescName":"",
+			"documentDescType":""
+		},
+		"maxSize":100
+	},
+	"response":[
+		{
+			"reqType":"cDocument",
+			"documentDescType":"1",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_15",
+			"name":"ACH Authorization Form",
+			"code":"DOC_004"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_1",
+			"name":"Assignment Form",
+			"code":"ATT002"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_2",
+			"name":"Attendance Record",
+			"code":"5"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_3",
+			"name":"Bill of Sale",
+			"code":"BOS"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_4",
+			"name":"Change in Beneficiary Form",
+			"code":"ATT005"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_5",
+			"name":"Change in Contract Form",
+			"code":"ATT006"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_7",
+			"name":"Death Claim Form",
+			"code":"F0003"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_12",
+			"name":"Death certificate",
+			"code":"DOC_001"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_6",
+			"name":"Death certificate",
+			"code":"3"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_17",
+			"name":"Driver Authorization Form",
+			"code":"DAF"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_8",
+			"name":"Driver License",
+			"code":"DL"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"1",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_18",
+			"name":"EFT Authorization Form",
+			"code":"EFTA"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"1",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_19",
+			"name":"Expense Receipts",
+			"code":"ER"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_20",
+			"name":"Fine Arts Appraisal",
+			"code":"FAP"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_21",
+			"name":"Height & Weight Check",
+			"code":"MD015"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_22",
+			"name":"Home Office Specimen",
+			"code":"HOS"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_14",
+			"name":"Irrevocable Beneficiary Validation",
+			"code":"DOC_003"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_23",
+			"name":"Jewelry Appraisal",
+			"code":"JA"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_24",
+			"name":"LTD Claim form",
+			"code":"F0001"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_25",
+			"name":"LTD Physician's Statement Form",
+			"code":"MD016"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_26",
+			"name":"Non-Medical Health Statement",
+			"code":"Non MHS"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_16",
+			"name":"Proof of Disability",
+			"code":"DOC_005"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_27",
+			"name":"Proof of Loss",
+			"code":"4"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_28",
+			"name":"Questionnaire: Asthma",
+			"code":"Q0001"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_29",
+			"name":"Questionnaire: Back-neck Pain",
+			"code":"Q0006"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_30",
+			"name":"Questionnaire: Chest  Pain ",
+			"code":"Q0007"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_31",
+			"name":"Questionnaire: Diabetes ",
+			"code":"Q0002"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_33",
+			"name":"Questionnaire: Medical History ",
+			"code":"Q0004"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_34",
+			"name":"Questionnaire: Smoking ",
+			"code":"Q0005"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"0",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_32",
+			"name":"Questionnaire: height, weight & blood pressure",
+			"code":"Q0003"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_35",
+			"name":"Request for Change in Policy ",
+			"code":"RCP"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_37",
+			"name":"STD Claim Form",
+			"code":"F0002"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration",
+				"Claims"
+			],
+			"bUID":"318838323_36",
+			"name":"Salary attestation",
+			"code":"1"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"3",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_9",
+			"name":"Signed Application",
+			"code":"SA"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_13",
+			"name":"Terminal illness confirmation",
+			"code":"DOC_002"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Policy Administration"
+			],
+			"bUID":"318838323_10",
+			"name":"Vehicle Registration",
+			"code":"VRC"
+		},
+		{
+			"reqType":"cDocument",
+			"documentDescType":"2",
+			"documentDescDomain":[
+				"Claims"
+			],
+			"bUID":"318838323_11",
+			"name":"Wearing approved seat belt",
+			"code":"WASB"
+		}
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchRequirementDescriptors",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

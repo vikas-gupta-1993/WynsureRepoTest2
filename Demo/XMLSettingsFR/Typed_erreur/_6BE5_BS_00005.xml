@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWF_ErrorDesc><ErrorCode Id="1"><![CDATA[6BE5_BS_00005]]></ErrorCode><CodeDescription Id="2"><![CDATA[Impossible de modifier le mot de passe, aucun utilisateur ne correspond à l'identifiant et au mot de passe]]></CodeDescription><ErrorKind Id="3"><![CDATA[0]]></ErrorKind><Name Id="3"><![CDATA[6BE5_BS_00005]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835660]]></NSId><Id Id="2"><![CDATA[9]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_ErrorDesc></EntityExport>

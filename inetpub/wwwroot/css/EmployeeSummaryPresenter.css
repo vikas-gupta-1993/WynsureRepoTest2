@@ -1,0 +1,19 @@
+#DisplayEmployeeDataDetailWrapper dl {
+float : left;
+Width : 50%;
+}
+
+#DisplayEmployeeDataCreationFormWrapper dl{
+width : 50%;
+float: left;
+}
+
+#CanBeEnrolledWrapper .checkboxItem{
+width : 90%;
+float: left;
+line-height: 1.3;
+}
+
+#DisplayEmployeeDataCreationFormWrapper  dd {
+line-height : 2%;
+}

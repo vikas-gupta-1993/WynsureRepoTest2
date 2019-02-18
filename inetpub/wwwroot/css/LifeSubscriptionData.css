@@ -1,0 +1,24 @@
+.subStepTable .coverage-insured-header h5{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #047EA7;
+    border-bottom: 1px solid #5E97A8;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.subStepTable .coverage-insured-content dt{
+    margin-left: 15px;
+    width: 200px;
+}
+.productChoices .buttonComponent .btn{
+	color: #08c;
+	margin-bottom:5px;
+	
+}
+.productChoices .labelComponent{
+	font-size:17.5px;
+}
+.productChoices .cancelLink{
+	margin-bottom:5px;
+}

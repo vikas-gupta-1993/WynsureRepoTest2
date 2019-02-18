@@ -1,0 +1,148 @@
+{
+	"description":"",
+	"request":{
+		"criteria":"",
+		"maxSize":50
+	},
+	"response":[
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"ACH",
+			"nsId":318837549
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"ACH",
+			"nsId":318837549
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"ACH",
+			"nsId":318837549
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"Credit Card",
+			"nsId":318837553
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Credit Card",
+			"nsId":318837553
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Credit Card",
+			"nsId":318837553
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Generic Wholesale LockBox",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Generic retail LockBox",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Manual Check",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Generic Wholesale LockBox",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Generic retail LockBox",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Manual Check",
+			"nsId":318836087
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"EFT",
+			"nsId":318837092
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"Manual EFT",
+			"nsId":318837092
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"EFT",
+			"nsId":318837092
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"EFT",
+			"nsId":318837092
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Manual Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"Manual Check",
+			"nsId":318837998
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"EFT",
+			"nsId":318838033
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"EFT",
+			"nsId":318838033
+		},
+		{
+			"issuingCompany":"W Insurance Company",
+			"name":"EFT",
+			"nsId":318838033
+		},
+		{
+			"issuingCompany":"W Insurance Company Multi Currency",
+			"name":"EFT",
+			"nsId":318838033
+		},
+		{
+			"issuingCompany":"W Insurance Company CA",
+			"name":"Credit Card",
+			"nsId":318838216
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"SearchChannels",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

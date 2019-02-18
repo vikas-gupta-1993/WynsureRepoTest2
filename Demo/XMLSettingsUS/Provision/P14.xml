@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[P14]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+{\info{\horzdoc}{\*\lchars ([\'7b\'a1\'a4\'a1\'ae\'a1\'b0\'a1\'b4\'a1\'b6\'a1\'b8\'a1\'ba\'a1\'be\'a1\'b2\'a1\'bc\'a3\'a8\'a3\'ae\'a3\'db\'a3\'fb\'a1\'ea\'a3\'a4}{\*\fchars !),.:\'3b?]\'7d\'a1\'a7\'a1\'a4\'a1\'a6\'a1\'a5\'a8\'44\'a1\'ac\'a1\'af\'a1\'b1\'a
+1\'ad\'a1\'c3\'a1\'a2\'a1\'a3\'a1\'a8\'a1\'a9\'a1\'b5\'a1\'b7\'a1\'b9\'a1\'bb\'a1\'bf\'a1\'b3\'a1\'bd\'a3\'a1\'a3\'a2\'a3\'a7\'a3\'a9\'a3\'ac\'a3\'ae\'a3\'ba\'a3\'bb\'a3\'bf\'a3\'dd\'a3\'e0\'a3\'fc\'a3\'fd\'a1\'ab\'a1\'e9}}
+\viewkind4\uc1\pard\li15\cf1\lang1033\expndtw2\f0\fs16 We will not cover any loss that begins in the first two years after the date of issue from a preexisting condition.\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0 
+\par A   preexisting condition means a physical or mental condition:\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0\bullet  \cf1 which was misrepresented or not disclosed in your application; and\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0\bullet  \cf1 for which you received a physician's advi ce or treatment within two years before the date of issue; or\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0\bullet  \cf1 which caused symptoms wi thin one year before the date of issue for which a prudent person would usually seek medical advice or treatment.\cf0\expndtw0\kerning2\f1\fs17 
+\par \lang1036\kerning0\f2\fs20 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Preexisting Condition Limitation]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Preexisting Condition Limitation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[30]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

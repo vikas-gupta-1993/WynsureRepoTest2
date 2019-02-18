@@ -1,0 +1,87 @@
+{
+	"description":"When identifier is null,service throwing error as 'Identifier is nil or invalid'",
+	"request":{
+		
+		"requirementRequestReference":{
+			"data":{
+				"className":"aSPCB_GenericRequirementRequestData",
+				"bUID":"",
+				"dataHistory":[
+				],
+				"requirementRequest":{
+					"className":"aSPCB_GenericRequirementRequest",
+					"name":"",
+					"documentDescType":"wdtOther",
+					"otherDocumentDesc":false,
+					"isForUnderwriting":false,
+					"notifyToServicing":false,
+					"requestTreated":true,
+					"treatingDate":"2018-03-16",
+					"expectedCompletionDate":null,
+					"completionDate":"2018-03-16",
+					"actionStatus":"cRSCompleted",
+					"blockingType":"cBlockActivity",
+					"periodicCheckingType":"cNoChecking",
+					"periodicCheckingLeadTime":0,
+					"periodicCheckingDuration":{
+						"quantity":0,
+						"unit":"wfDay"
+					},
+					"periodicCheckingAnnuallyAtDate":null,
+					"requestID":"",
+					"requestDate":"2018-03-16",
+					"nameUseForPrinting":""
+				},
+				"receivedDocuments":[
+					{
+						"data":null,
+						"identifier":{
+							"className":"aSPCB_GenericRequirementExchangeIdentifier",
+							"bUID":"318838846_1",
+							"description":"Change in Contract Form (Change in Contract Form)",
+							"documentReference":""
+						}
+					}
+				],
+				"requestedFor":{
+					"className":"aSPCB_RequestedForData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"requestedFor":{
+						"data":null,
+						"identifier":{
+							"className":"aSPF_Identifier",
+							"bUID":"318842996_15",
+							"description":""
+						}
+					}
+				},
+				"documentDescIdentifier":{
+					"className":"aSPCB_GenericRequirementDescIdentifier",
+					"bUID":"",
+					"description":"",
+					"code":"ATT006",
+					"name":"",
+					"documentDescType":"wdtOther"
+				}
+			},
+			"identifier":null
+		}
+	},
+	"response":{
+		"_Result":null
+	},
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"UpdateRequirementRequest",
+	"version":"5.8.1.0",
+	"date":"2018-03-20",
+	"errors":[
+		{
+			"code":"3DFD_BS_00018",
+			"message":"The identifier is nil or invalid.",
+			"kind":"Bad Value",
+			"kindNumber":0
+		}
+	]
+}

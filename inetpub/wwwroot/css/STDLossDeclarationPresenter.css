@@ -1,0 +1,19 @@
+#DateLastWorkedWrapper{
+	float: left;
+	width: 48%;
+}
+
+#DisabilityEndDateWrapper {
+	float: left;
+	width: 50%;
+}
+
+#LabourDateWrapper, #LabourScheduledDateWrapper {
+	float: left;
+	width: 50%;
+}
+
+#PregnancyWrapper {
+	float: left;
+	width: 100%;
+}

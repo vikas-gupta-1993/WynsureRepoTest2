@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Deliver All">
+   <aWFxIntegDeliverDesc name="Deliver All Prepared Bundles">
+      <Name>Deliver</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <EntitiesInScope/>
+   </aWFxIntegDeliverDesc>
+   <aWFxIntegDeliverDesc name="Deliver Containers">
+		<EntitiesInScope>
+		    <aWAMContainer Name="All WF5800-3"/>
+            <aWAMContainer Name="All Public WF5800-3"/>
+			<aWAMContainer Name="eWAMEx"/>
+			<aWAMContainer Name="WAMAdvanced"/>
+			<aWAMContainer Name="webServices"/>
+			<!--aWAMContainer Name="WynsureRESTApi"/>-->
+			<aWAMContainer Name="WxWAMAdvancedComponents"/>
+		</EntitiesInScope>
+	</aWFxIntegDeliverDesc>
+</aWEXIntegrationPlanDesc>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_PaFDwLDKEeaPceLRQvz63Q" name="repository.metadataGenericSchema" dataPackage="_PaFDwbDKEeaPceLRQvz63Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_PaFDwbDKEeaPceLRQvz63Q" name="repository.metadataGenericSchema" dataManager="_PaFDwLDKEeaPceLRQvz63Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PaFDwrDKEeaPceLRQvz63Q" id="_F2U1kLDKEeaPceLRQvz63Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PaFDw7DKEeaPceLRQvz63Q" name="idntfr" label="idntfr" length="-1" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PaFDxLDKEeaPceLRQvz63Q" name="Type" label="Type" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PaFDxbDKEeaPceLRQvz63Q" name="Provider" label="Provider" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_ZlgLDKEeaPceLRQvz63Q" name="FILLER" label="FILLER" length="11" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cQf8kLDKEeaPceLRQvz63Q" name="NIR" label="NIR" length="13" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cSYy8LDKEeaPceLRQvz63Q" name="NIR_key" label="NIR_key" length="2" talendType="id_String">
+        <initialValue xmi:id="_sTyIELDMEeaPceLRQvz63Q" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cUMJwLDKEeaPceLRQvz63Q" name="Num_dem_remb" label="Num_dem_remb" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__5t3wLDKEeaPceLRQvz63Q" name="Type_comp" label="Type_comp" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__7tb0LDKEeaPceLRQvz63Q" name="Sequence" label="Sequence" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__90UoLDKEeaPceLRQvz63Q" name="Chiffre" label="Chiffre" length="4" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="___fvoLDKEeaPceLRQvz63Q" name="Acte_detail" label="Acte_detail" length="13" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RWuhMLDLEeaPceLRQvz63Q" name="Extension" label="Extension" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rf0y0LDLEeaPceLRQvz63Q" name="Activite" label="Activite" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RiAkILDLEeaPceLRQvz63Q" name="Phase" label="Phase" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkYisLDLEeaPceLRQvz63Q" name="ModifRO_1" label="ModifRO_1" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RuUh0LDLEeaPceLRQvz63Q" name="ModifRO_2" label="ModifRO_2" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RwH4oLDLEeaPceLRQvz63Q" name="ModifRO_3" label="ModifRO_3" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rx7PcLDLEeaPceLRQvz63Q" name="ModifRO_4" label="ModifRO_4" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Rz0s4LDLEeaPceLRQvz63Q" name="Association" label="Association" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R1uKULDLEeaPceLRQvz63Q" name="Remb_cond" label="Remb_cond" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R3tHULDLEeaPceLRQvz63Q" name="Date_phase" label="Date_phase" length="6" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R5mkwLDLEeaPceLRQvz63Q" name="Dent_1" label="Dent_1" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R7Z7kLDLEeaPceLRQvz63Q" name="Dent_2" label="Dent_2" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R9ZfoLDLEeaPceLRQvz63Q" name="Dent_3" label="Dent_3" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_R_S9ELDLEeaPceLRQvz63Q" name="Dent_4" label="Dent_4" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3GR2wLDLEeaPceLRQvz63Q" name="Dent_5" label="Dent_5" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3MVbcLDLEeaPceLRQvz63Q" name="Dent_6" label="Dent_6" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3Q_R8LDLEeaPceLRQvz63Q" name="Dent_7" label="Dent_7" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3VWNgLDLEeaPceLRQvz63Q" name="Dent_8" label="Dent_8" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3Z5WULDLEeaPceLRQvz63Q" name="Dent_9" label="Dent_9" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3d-lELDLEeaPceLRQvz63Q" name="Dent_10" label="Dent_10" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3hqyQLDLEeaPceLRQvz63Q" name="Dent_11" label="Dent_11" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3lXmgLDLEeaPceLRQvz63Q" name="Dent_12" label="Dent_12" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3pWHkLDLEeaPceLRQvz63Q" name="Dent_13" label="Dent_13" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3tzJwLDLEeaPceLRQvz63Q" name="Dent_14" label="Dent_14" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3xyR4LDLEeaPceLRQvz63Q" name="Dent_15" label="Dent_15" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_32JNcLDLEeaPceLRQvz63Q" name="Dent_16" label="Dent_16" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_338kQLDLEeaPceLRQvz63Q" name="Charge_supp" label="Charge_supp" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_35v7ELDLEeaPceLRQvz63Q" name="ModifRC_1" label="ModifRC_1" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37oxcLDLEeaPceLRQvz63Q" name="ModifRC_2" label="ModifRC_2" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_39cIQLDLEeaPceLRQvz63Q" name="ModifRC_3" label="ModifRC_3" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3_PfELDLEeaPceLRQvz63Q" name="ModifRC_4" label="ModifRC_4" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4BI8gLDLEeaPceLRQvz63Q" name="FILLER2" label="FILLER2" length="21" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4KDA4LDLEeaPceLRQvz63Q" name="idntfrParent" label="idntfrParent" length="8" talendType="id_Long" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

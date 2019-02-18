@@ -1,0 +1,12 @@
+#affiliateWrapper dt{
+	display: none;
+}
+
+/* Employee Data*/
+#CanBeEnrolledWrapper{
+	display: none;
+}
+
+#aPCB_CorrespondenceListPresenter_HD .CustomizedTablePresenter th, #aPCB_BankAccountListPresenter_HD .CustomizedTablePresenter th{
+	display:none;
+}

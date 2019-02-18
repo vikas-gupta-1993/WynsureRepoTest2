@@ -1,0 +1,23 @@
+{
+	"description":"",
+	"request":{
+		"payorBuid":"",
+		"contactBuid":"{{contractBUID}}"
+	},
+	"response":{
+		"_Result":null
+	},
+	"eval":null,
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetHouseholdSettings",
+	"version":"5.8.2.0",
+	"date":"2018-07-19",
+	"errors":[
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Introuvable",
+			"kindNumber":8
+		}
+	]
+}

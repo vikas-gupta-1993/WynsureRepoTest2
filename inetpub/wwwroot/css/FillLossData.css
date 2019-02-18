@@ -1,0 +1,42 @@
+#UploadedDocumentsContent{
+	background-color : white;
+	width: 100%;
+	clear: both;
+}
+
+#UploadedDocumentDescWrapper{
+	float : left;
+}
+
+#UploadedDocumentWrapper{
+	float : left;
+	margin-left: 5px;
+}
+
+#UploadedDocumentWrapper dd{
+	margin: -2px;
+}
+
+#ButtonUpload {
+	margin-top: 19px;
+	float: right;
+	height: 20px;
+}
+#ButtonUpload span.ui-button-text {
+  padding-top: 2px;
+}
+.LossFields, .DocumentUpload {
+  border: 1px solid #999999;
+  margin-bottom: 20px;
+  clear: both;
+  background-color: white;
+  padding: 10px;
+}
+.LossFields h5, .DocumentUpload h5 {
+  margin-top: 0;
+  border: 0;
+  color: #ED1C24;
+}
+.DocumentUpload {
+  height: 120px;
+}

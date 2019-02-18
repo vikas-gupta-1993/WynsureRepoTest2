@@ -1,0 +1,28 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318844991_1"
+	},
+	"response":{
+		"className":"aSPCB_GetMoneyChannel_Out",
+		"channelName":"",
+		"paymentChannelCode":{
+			"moneyChannelIdentifier":{
+				"issuingCompanyCode":"",
+				"channelCode":""
+			},
+			"buid":""
+		},
+		"paymentMethodKind":"tpm_check",
+		"availableCurrencies":[
+		],
+		"selectedCurrency":"cUSDollar",
+		"buid":""
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetCurrentRefundChannel",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

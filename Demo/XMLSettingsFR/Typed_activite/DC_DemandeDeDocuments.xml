@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aEDA_ActivityDesc_ManualTask><RecipientKind Id="37"><![CDATA[1]]></RecipientKind><TaskTitle Id="12"><![CDATA[Demande de documents - Loi Eckert]]></TaskTitle><TaskMessageBaseOnRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) 
+
+uses WFTypes, aWLISimpleBeneficiaryForClaim, aWFDateType, aEDA_Activity
+
+
+; Rule
+; Classification
+function Beneficiairesimple return aWLISimpleBeneficiaryForClaim
+   if self.Master <> Nil
+      return aWLISimpleBeneficiaryForClaim(self.Master.OnObject)
+   else
+      return aWLISimpleBeneficiaryForClaim(self.OnObject)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWF_RTF_Text)
+   uses aWLI_Claim, aWF_RTF_TextType, aWFApplicationUserWithAuthorization
+   
+   var claim : aWLI_Claim
+   var Text : CString
+   var date : tWFDate
+   
+   claim = self.Beneficiairesimple.GetClaim
+   date = claim.GetEventDate
+   Text = date.type.AsCString(@date)
+   Result.type.WriteLn('Sinistre n° ' && claim.Name && ' du ' && Text, @Result)
+   Text = 'Beneficiary Modified By ' && self.Activity.LastUser.GetName
+   Result.type.WriteLn(Text, @Result)
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218193148]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLISimpleBeneficiaryForClaim]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDesc_ManualTask]]></RuleEngineUsingKindContext><ReturnType><aWF_RTF_TextType><Name>tWF_RTF_Text</Name><NSId>218103824</NSId><Id>937033281256292573</Id><ClassName>WFTypes</ClassName></aWF_RTF_TextType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></UsedRules><MyOwner><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></MyOwner><Name Id="3"><![CDATA[Message]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835305]]></NSId><Id Id="2"><![CDATA[677]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></TaskMessageBaseOnRule><TaskMessageStatic Id="11"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Demande de documents - Loi Eckert\f1\par
+}
+]]></TaskMessageStatic><Priority Id="19"><![CDATA[0]]></Priority><ChosenFunctionalDomain Id="59"><![CDATA[306]]></ChosenFunctionalDomain><EffectiveDateDefinitionType Id="44"><![CDATA[0]]></EffectiveDateDefinitionType><EffectiveDate_Duration Id="45"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></EffectiveDate_Duration><DueDateDefinitionType Id="46"><![CDATA[2]]></DueDateDefinitionType><DueDate_Duration Id="48"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></DueDate_Duration><DueDate_Rule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) 
+
+uses WFTypes, aWLISimpleBeneficiaryForClaim
+
+
+; Rule
+; Classification
+function Beneficiairesimple return aWLISimpleBeneficiaryForClaim
+   if self.Master <> Nil
+      return aWLISimpleBeneficiaryForClaim(self.Master.OnObject)
+   else
+      return aWLISimpleBeneficiaryForClaim(self.OnObject)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFDate)
+   Result = self.Beneficiairesimple.BeneficiaryIdentificationDate + 15
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218193148]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLISimpleBeneficiaryForClaim]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDesc_ManualTask]]></RuleEngineUsingKindContext><ReturnType><aWFDateType><Name>tWFDate</Name><NSId>218103824</NSId><Id>937033281256292354</Id><ClassName>WFTypes</ClassName></aWFDateType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></UsedRules><MyOwner><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></MyOwner><Name Id="3"><![CDATA[Date identification + 15 jours calendaires]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835305]]></NSId><Id Id="2"><![CDATA[675]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></DueDate_Rule><OnActor_Rule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) 
+
+uses aWFActor, aWLISimpleBeneficiaryForClaim
+
+
+; Rule
+; Classification
+function Beneficiairesimple return aWLISimpleBeneficiaryForClaim
+   if self.Master <> Nil
+      return aWLISimpleBeneficiaryForClaim(self.Master.OnObject)
+   else
+      return aWLISimpleBeneficiaryForClaim(self.OnObject)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : aWFActor)
+   Result = self.Beneficiairesimple.Beneficiary
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218193148]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLISimpleBeneficiaryForClaim]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDesc_ManualTask]]></RuleEngineUsingKindContext><ReturnType><aClassDef><Name Id="2"><![CDATA[aWFActor]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218172452]]></Id></aClassDef></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></UsedRules><MyOwner><aEDA_ActivityDesc_ManualTask><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id></aEDA_ActivityDesc_ManualTask></MyOwner><Name Id="3"><![CDATA[benificiary]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835305]]></NSId><Id Id="2"><![CDATA[676]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></OnActor_Rule><Code Id="35"><![CDATA[DC]]></Code><IsTechnical Id="72"><![CDATA[Faux]]></IsTechnical><Resource><aWFX_ResourceRepresentation><RepresentingClassDef><aClassDef><Name>aWLISimpleBeneficiaryForClaim</Name><NSId>218103810</NSId><Id>218184239</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><SelectedVars><aInstanceVarDesc><Name>Beneficiary</Name><NSId>218103824</NSId><Id>937094171007647755</Id><ClassName>aWLISimpleBeneficiaryForClaim</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>BeneficiaryIdentificationDate</Name><NSId>218103824</NSId><Id>937094171007648168</Id><ClassName>aWLISimpleBeneficiaryForClaim</ClassName></aInstanceVarDesc></SelectedVars><SelectedFunctions><aMethodDesc><Name>GetClaim</Name><NSId>218103824</NSId><Id>937094171007648116</Id><ClassName>aWLISimpleBeneficiaryForClaim</ClassName></aMethodDesc></SelectedFunctions><SelectedFunctions><aMethodDesc><Name>GetDeliveredService</Name><NSId>218103824</NSId><Id>937094153827778576</Id><ClassName>aWLIBeneficiaryForClaim</ClassName></aMethodDesc></SelectedFunctions><UseStringExtract Id="33"><![CDATA[Faux]]></UseStringExtract><ExtractMode Id="34"><![CDATA[2]]></ExtractMode><StandAlone Id="46"><![CDATA[Vrai]]></StandAlone><OnlyExtractSelectedVars Id="56"><![CDATA[Faux]]></OnlyExtractSelectedVars><UseBuid Id="61"><![CDATA[Faux]]></UseBuid><Name Id="3"><![CDATA[Bénéficiaire simple]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834768]]></NSId><Id Id="2"><![CDATA[40]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Vrai]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><LethalErrorText Id="66"><![CDATA[]]></LethalErrorText><Description Id="73"><![CDATA[]]></Description><Name Id="3"><![CDATA[Demande de documents]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856371]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActivityDesc_ManualTask></EntityExport>

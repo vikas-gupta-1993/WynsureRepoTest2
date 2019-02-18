@@ -1,0 +1,19 @@
+.NoTitle .control-label{
+	height: 20px;
+}
+
+form .usZipCode{
+	width: 89px;
+}
+
+form .frZipCode{
+	width: 89px;
+}
+
+form .cityAndZipCode .zipCodeSection{
+	width: calc(100% - 94px);
+}
+
+form  .zipCodeSection>div{
+	width: 100%
+}

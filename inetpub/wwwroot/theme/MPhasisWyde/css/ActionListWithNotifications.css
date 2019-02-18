@@ -1,0 +1,53 @@
+#NotificationsSection {
+  min-width: 186px;
+  margin-bottom: 5px;
+}
+#NotificationsSection ul {
+  list-style: none;
+  padding: 0;
+}
+#NotificationsSection ul li {
+  margin: 0;
+  margin-bottom: 3px;
+}
+#NotificationsSection span.ui-icon {
+  float: left;
+}
+#NotificationsSection a, #ActionList button {
+  min-width: 130px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#NotificationsSection a:active,
+#NotificationsSection a:visited,
+#NotificationsSection a:link {
+  color: blue;
+}
+#NotificationsSection li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+#NotificationsSection  #NotificationsTitle{
+	font-size: 1.17em;
+	font-weight: bold;
+	color : Red;	
+	margin-bottom : 1px;	
+	-webkit-animation-name: blinker;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 4s;
+}
+
+#ActionsSection p{
+	font-size: 1.17em;
+	font-weight: bold;
+	color : #1B285D;	
+	margin-bottom : 1px;
+}

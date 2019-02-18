@@ -1,0 +1,16 @@
+{
+	"description":"",
+	"request":{
+		"objectBuid":"318842189_26"
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchPossibleContacts",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

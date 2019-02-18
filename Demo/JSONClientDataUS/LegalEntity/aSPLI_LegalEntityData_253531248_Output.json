@@ -1,0 +1,98 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##24",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"3",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"200 MAIN",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"34000",
+						"city":"Jefferson city"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"MO",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"+1 2056645884",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"",
+				"fax":"",
+				"eMail":"",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+		],
+		"contacts":[
+		],
+		"logins":[
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000100",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"ABC Timber Lmt",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"ABC Timber Lmt",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"MO",
+			"industrialClassification":{
+				"classificationSystem":"",
+				"code":""
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+			],
+			"taxId":""
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"ABC Timber Lmt (ABC Timber Lmt)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000100",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

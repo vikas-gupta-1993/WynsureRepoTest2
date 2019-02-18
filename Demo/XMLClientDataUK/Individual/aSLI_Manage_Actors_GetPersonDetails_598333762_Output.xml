@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <ClientId>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-06-26</UpdateDate>
+   <PersonIdentity xsi:type="ns:aSPLI_US_Person">
+      <Name>Smith</Name>
+      <ShortName>Joe</ShortName>
+      <CreationDate>2012-06-19</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <BirthDate>1973-02-02</BirthDate>
+      <PersonTitleEnum></PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>GBR</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>GBR</BirthCountry>
+      <BirthPlaceCity></BirthPlaceCity>
+      <BirthPlaceZipCode></BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId>
+      <Occupation></Occupation>
+      <AdditionalDatas></AdditionalDatas>
+      <SSN>344232857</SSN>
+      <MaritalStatus>meUndefined</MaritalStatus>
+   </PersonIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns:aSPCB_PostalAddressWithState">
+            <Line1>113 Pennslyvania Ave.</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>55108</ZipCode>
+               <City>St. Paul</City>
+            </ZipCodeAndCity>
+            <Country>USA</Country>
+            <State>MN</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone></PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations></ContactInformations>
+</_Result>

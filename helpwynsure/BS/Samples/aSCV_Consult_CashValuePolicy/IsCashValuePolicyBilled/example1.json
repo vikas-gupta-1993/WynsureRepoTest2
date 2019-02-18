@@ -1,0 +1,11 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21"
+	},
+	"response":true,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"IsCashValuePolicyBilled",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

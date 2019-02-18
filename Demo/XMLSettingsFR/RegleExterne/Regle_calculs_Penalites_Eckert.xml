@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0,00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[CAP]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Capital]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837987]]></NSId><Id Id="2"><![CDATA[16]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DIB]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DateIdentificationBeneficiaire]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837940]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DDP]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DateDemandePieces]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837940]]></NSId><Id Id="2"><![CDATA[18]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DRD]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DateReceptionDocuments]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837940]]></NSId><Id Id="2"><![CDATA[19]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[Faux]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[DP]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DatePaiement]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837940]]></NSId><Id Id="2"><![CDATA[20]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Boolean><DefaultValueBoolean Id="1"><![CDATA[Faux]]></DefaultValueBoolean><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[BPP]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[BeneficiairePersonnePhysique]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837971]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Boolean></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:9) (Implem Version:1)
+
+class aWF_RT_Formule (aWFStandAloneRuleEngine)
+
+uses WFTypes, aWFDateType, aIntType
+
+; Rule
+Capital : Num8
+DateIdentificationBeneficiaire : tWFDate
+DateDemandePieces : tWFDate
+DateReceptionDocuments : tWFDate
+DatePaiement : tWFDate
+BeneficiairePersonnePhysique : Boolean
+
+
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFNum8)
+   uses aWFDefaultAmountType, aWFPercentType
+   
+   const mlLaTache_demandeDeDocuments_N_aPasEteValidee = 'La tâche ''demande de documents'' n''a pas été validée ; Les pénalités ne seront calculées qu''une fois la tâche validée' multiLang
+   
+   var DateCourante : tWFDate
+   var DateDebutPeriodeTauxTriple : tWFDate
+   var taux : tWFPercent
+   var NombreJoursAnnee : Int4
+   var interets : tWFAmount
+   var interetsCumules : tWFAmount
+   var nombreDeJoursDeLaPeriode : int(4)
+   var dateFinAnnee : tWFDate
+   var dateFinPremierSemestre : tWFDate
+   var AnneeEnCours : Int4
+   var DateDebutPeriodeAffichee : tWFDate
+   var DateFinPeriodeAffichee : tWFDate
+   var CalculAFaire : Boolean
+   var DateDebutAnnee : tWFDate
+   var NombreDeJoursDansLAnnee : Num8
+   var NombreDeJoursDeRetard : Int4
+   var DateDebutPenalites : tWFDate
+   var CapitalCumule : tWFAmount
+   
+   ;if Risky.OpenDebug <> Nil
+   ;endIf
+   ;
+   if self.Date_est_nulle(self.DateDemandePieces)
+      self.AjouterCommentaire(mlLaTache_demandeDeDocuments_N_aPasEteValidee)
+   else
+      interetsCumules = 0
+      CapitalCumule = self.Capital
+      DateDebutPeriodeTauxTriple = self.DateReceptionDocuments
+      self.Incrementer_En_Mois_Une_Date(3, DateDebutPeriodeTauxTriple)
+      ;
+      NombreDeJoursDeRetard = self.DateDemandePieces - (self.DateIdentificationBeneficiaire + 
+         15)
+      if NombreDeJoursDeRetard < 0
+         NombreDeJoursDeRetard = 0
+      endIf
+      DateDebutPenalites = self.DateReceptionDocuments
+      self.Incrementer_En_Mois_Une_Date(1, DateDebutPenalites)
+      DateDebutPenalites -= NombreDeJoursDeRetard
+      ;
+      AnneeEnCours = self.Annee_De_La_Date(DateDebutPenalites)
+      if dateFinAnnee.type.ConvertFromCString('31/12/' + AnneeEnCours.type.AsCString(@AnneeEnCours), 
+         @dateFinAnnee)
+      endIf
+      ;
+      if dateFinPremierSemestre.type.ConvertFromCString('30/06/' + AnneeEnCours.type.AsCString(@AnneeEnCours), 
+         @dateFinPremierSemestre)
+      endIf
+      ;
+      if DateDebutAnnee.type.ConvertFromCString('01/01/' + AnneeEnCours.type.AsCString(@AnneeEnCours), 
+         @DateDebutAnnee)
+      endIf
+      NombreDeJoursDansLAnnee = dateFinAnnee - DateDebutAnnee + 1
+      ;
+      DateDebutPeriodeAffichee = DateDebutPenalites
+      nombreDeJoursDeLaPeriode = 0
+      CalculAFaire = False
+      ;
+      self.AjouterCommentaire('Détail des pénalités')
+      for DateCourante = DateDebutPenalites to self.DatePaiement
+         nombreDeJoursDeLaPeriode++
+         ;
+         if DateCourante = DateDebutPeriodeTauxTriple - 1
+            CalculAFaire = True
+         endIf
+         ;
+         if DateCourante = dateFinAnnee
+            CalculAFaire = True
+            self.Incrementer_En_Annee_Une_Date(1, dateFinAnnee)
+            self.Incrementer_En_Annee_Une_Date(1, dateFinPremierSemestre)
+            self.Incrementer_En_Annee_Une_Date(1, DateDebutAnnee)
+         endIf
+         ;
+         if DateCourante = dateFinPremierSemestre
+            CalculAFaire = True
+         endIf
+         ;
+         if DateCourante = self.DatePaiement
+            ; On exclue le jour du paiement des pénalités
+            CalculAFaire = True
+            nombreDeJoursDeLaPeriode--
+         endIf
+         ;
+         if CalculAFaire
+            if self.BeneficiairePersonnePhysique
+               taux = self.Indice('Taux interet legal personnes physiques', DateCourante - 
+                  1)
+            else
+               taux = self.Indice('Taux interet legal personnes morales', DateCourante - 
+                  1)
+            endIf
+            ;
+            if DateCourante < DateDebutPeriodeTauxTriple
+               taux = taux * 2
+            else
+               taux = taux * 3
+            endIf
+            ;
+            interets = (self.Puissance(1 + taux, nombreDeJoursDeLaPeriode / NombreDeJoursDansLAnnee) - 
+               1) * CapitalCumule
+            interetsCumules += interets
+            CapitalCumule += interets
+            ;
+            self.AjouterCommentaire('Du ' + DateDebutPeriodeAffichee.type.AsCString(@DateDebutPeriodeAffichee) + 
+               ' au ' + DateCourante.type.AsCString(@DateCourante) + ' : ' + interets.type.AsCString(@interets) + 
+               ' au taux de ' + taux.type.AsCString(@taux))
+            ;
+            DateDebutPeriodeAffichee = DateCourante + 1
+            nombreDeJoursDeLaPeriode = 0
+            CalculAFaire = False
+            NombreDeJoursDansLAnnee = dateFinAnnee - DateDebutAnnee + 1
+         endIf
+         ;
+      endFor
+      ;
+   endIf
+   Result = interetsCumules
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218173986]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033324205965947</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLIIndexForLifeInsurance><KindOfIndex Id="1"><![CDATA[]]></KindOfIndex><TypeOfValue Id="5"><![CDATA[1]]></TypeOfValue><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>65</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>66</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>67</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>68</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>69</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>70</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>71</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>72</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>73</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>74</Id></aWFindexForPeriod></Versions><LastVersion><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>74</Id></aWFindexForPeriod></LastVersion><Name Id="3"><![CDATA[Taux interet legal personnes morales]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318848833]]></NSId><Id Id="2"><![CDATA[10]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndexForLifeInsurance></UsedRules><UsedRules><aWLIIndexForLifeInsurance><KindOfIndex Id="1"><![CDATA[]]></KindOfIndex><TypeOfValue Id="5"><![CDATA[1]]></TypeOfValue><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>75</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>76</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>77</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>78</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>79</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>80</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>81</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>82</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>83</Id></aWFindexForPeriod></Versions><Versions><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>84</Id></aWFindexForPeriod></Versions><LastVersion><aWFindexForPeriod><Name></Name><NSId>318836993</NSId><Id>84</Id></aWFindexForPeriod></LastVersion><Name Id="3"><![CDATA[Taux interet legal personnes physiques]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318848833]]></NSId><Id Id="2"><![CDATA[11]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndexForLifeInsurance></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[CalculPenalitesEckert]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835509]]></NSId><Id Id="2"><![CDATA[686]]></Id><Version Id="3"><![CDATA[9]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[CalculPenalitesEckert]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837279]]></NSId><Id Id="2"><![CDATA[24]]></Id><Version Id="3"><![CDATA[10]]></Version></aWFStandAloneRule></EntityExport>

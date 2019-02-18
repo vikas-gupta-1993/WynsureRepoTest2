@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P27]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red34\green31\blue31;\red0\green0\blue0;\red128\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-320\slmult0\cf1\f0\fs16 L'entreprise adh\'e9rente s'oblige :\par
+\pard\nowidctlpar\sl-213\slmult0\cf2\par
+\par
+\pard\nowidctlpar\sl-160\slmult0\cf3\b\'c0 l'adh\'e9sion :\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf1\bullet  \'e0 fournir \'e0 l'Institution la liste de tous les membres du personnel b\'e9n\'e9ficiaires du contrat,\par
+\bullet  \'e0 transmettre les demandes individuelles d'affiliation de toutes ces personnes,\par
+\bullet  \'e0 fournir la liste des personnes en incapacit\'e9 de travail totale ou partielle ou en invalidit\'e9,\par
+\bullet  \'e0 verser la provision d\'e9termin\'e9e par l'Institution,\par
+\bullet  \'e0 remettre \'e0 chaque membre du personnel une notice d'information. La preuve de la remise de celle-ci incombe \'e0 l'entreprise adh\'e9rente.\par
+\pard\nowidctlpar\sl-213\slmult0\cf2\par
+\pard\nowidctlpar\sl-333\slmult0\cf3\b En cours d'adh\'e9sion :\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf1\bullet  \'e0 affilier tous les membres de la cat\'e9gorie de personnel b\'e9n\'e9ficiaires de l'adh\'e9sion,\par
+\pard\nowidctlpar\li253\sl-226\slmult0\bullet  \'e0 transmettre les demandes individuelles d'affiliation des nouveaux membres du groupe, dans les 30 jours suivant leur date d'entr\'e9e dans le groupe,\par
+\bullet  \'e0 remettre \'e0 chaque nouveau membre du groupe une notice d'information. La preuve de la remise de celle-ci incombe \'e0 l'entreprise adh\'e9rente,\par
+\pard\nowidctlpar\li253\sl-306\slmult0\bullet  \'e0 informer imm\'e9diatement l'Institution des membres sortant du groupe, en pr\'e9cisant leur date de sortie,\par
+\pard\nowidctlpar\li253\sl-293\slmult0\bullet  \'e0 payer \'e0 l'Institution les cotisations dues aux \'e9poques convenues,\par
+\bullet  \'e0 fournir chaque ann\'e9e, au plus tard dans les deux mois qui suivent la fin de l'exercice, un \'e9tat r\'e9capitulatif des affili\'e9s (DADS) avec pour chacun d'eux, indication de la situation de famille, du salaire d\'e9clar\'e9 \'e0 l'admi
+nistration fiscale et de la cat\'e9gorie b\'e9n\'e9ficiaire \'e0 laquelle il appartient,\par
+\pard\nowidctlpar\li253\sl-306\slmult0\bullet  \'e0 informer l'Institution, au plus tard \'e0 chaque \'e9ch\'e9ance de cotisation, de tout \'e9l\'e9ment susceptible de modifier l'importance des garanties ainsi que de tout changement d'adresse, de raison s
+ociale ou de mise en redressement judiciaire.\par
+\pard\cf0\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Obligations de l'entreprise adhérente]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Obligations entreprise]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[30]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

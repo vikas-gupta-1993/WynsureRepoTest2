@@ -1,0 +1,71 @@
+{
+	"description":"",
+	"request":{
+		"contractId":{
+			"buid":"{{contractBUID}}",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_GetQuoteDetails_Out",
+		"quote":{
+			"buid":"318842830_1",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"4800000501",
+				"issuingCompanyCode":"WIC"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"4800000501",
+				"thirdPartyID":"AA"
+			}
+		},
+		"validFromDate":"2019-03-11",
+		"toDate":null,
+		"status":"cActive",
+		"quoteStatus":"cInProgress",
+		"productName":"Group Whole Life Plan",
+		"issuingCompany":"W Insurance Company",
+		"distributionUnit":"Internal Agents",
+		"subscriber":"",
+		"billFrequency":"fMonthly",
+		"premium":{
+			"amount":0,
+			"currency":"cUSDollar"
+		},
+		"factoredPremiums":null,
+		"premiumDetails":"{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 MS Sans Serif;}}\r\n{\\colortbl ;\\red0\\green0\\blue0;}\r\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs16\\par\r\n}\r\n\\page ",
+		"coverages":[
+		],
+		"generalProvisions":[
+		],
+		"policyBenefits":[
+		],
+		"illustrations":[
+		],
+		"stateCode":{
+			"stateName":"",
+			"stateCode":"",
+			"stateLabel":"Owner Residence State"
+		},
+		"subscribers":[
+			"Jill Brown"
+		],
+		"preferredPolicyContacts":[
+		]
+	},
+	"eval":null,
+	"className":"aSPnC_Consult_PnCPolicy",
+	"methodName":"GetPnCQuoteDetails",
+	"version":"5.8.2.0",
+	"date":"2018-08-10",
+	"errors":[
+	]
+}

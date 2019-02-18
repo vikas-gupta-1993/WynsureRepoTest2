@@ -1,0 +1,349 @@
+.panel > .modal-header  { padding: 5px; }
+.panel > .modal-header  > h4 , h5{ margin: 2px; }
+.form-control {
+    height: 28px;
+}
+
+.checkbox.inline {
+  padding-top : 18px
+}
+
+.btn {
+	padding: 3px 15px;
+}
+
+.panel > .modal-body { overflow-y: visible; padding: 7px 10px; }
+.modal-footer {
+  clear:both;
+  padding: 8px 8px 8px;
+}
+
+.control-group-inline .control-group {
+  display: inline-block;
+}
+.control-group-inline .control-group + .control-group {
+  margin-left: 5px;
+}
+.clear {
+  clear:both;
+}
+ {
+  cursor: pointer;
+}
+.nav>li>a {
+    padding: 5px 15px;
+}
+
+.actioner,
+.pagination > li > a, 
+.nav-tabs > li,
+.breadcrumb > li,
+.inputBreadcrumb > .breadcrumb > li > a{
+  cursor: pointer;
+}
+.nav-tabs > li.active,
+.breadcrumb >li.active  {
+  cursor: auto;
+}
+.fields .inputTab {
+  margin-bottom: 10px;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition-duration: 3s;
+  transition-property: height;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+form.form-inline div.fields, form.form-inline div.action {
+  display: inline-block;
+}
+form.form-inline .control-group, form.form-inline .btn, form.form-inline label, form.form-inline div.controls {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+form.form-inline label {
+  margin-right: 5px;
+}
+form.form-inline {
+  margin-bottom: 0;
+}
+.navbar-inverse label {
+  color: white;
+}
+.navbar form.form-inline {
+  margin-top: 5px;
+}
+.fields-horizontal dl dt {
+  float: left;
+  /* width: 160px; */
+}
+.fields-horizontal dl margin-bottom {
+  margin-bottom: 20px;
+}
+.fields-horizontal dl dd {
+  margin-left: 180px;
+  display: block;
+}
+
+/*improve display for dropdown and niv pill Fields*/
+.dropdownField > ul{
+  display: block;
+  bottom: auto;
+  position: relative;
+  cursor: pointer;
+}
+.nav-pills .inputTab > ul{
+  left: 100%;
+}
+.nav-pills > li > ul.pull-right{
+  right: auto;
+}
+.nav-pills .dropdown > ul{
+  top: 0%;
+}
+.nav-pills .dropup > ul{
+  bottom: 0%;
+}
+.dropdownField .dropdown-menu{
+  float: none;
+}
+
+.checkbox-checked-disabled,
+.checkbox-unchecked-disabled{
+  cursor: not-allowed;
+}
+
+/*enable hiding*/
+div .hide, div .hidden{
+  display: none
+}
+
+.clear{
+	clear:both;
+}
+
+/* inline div block in form-inline*/
+.form-inline>div,
+.form-inline>div>div{
+  display: inline-block;
+}
+
+.form-inline>div.field-wrapper,
+.form-inline>div.field-wrapper label{
+  margin-right: 5px;
+}
+
+.form-horizontal .control-group .readOnly{
+  /*Because bootstrap sets a padding for label => the corresponding readonly value displayed for this label must used the same padding*/
+  padding-top: 5px;
+}
+
+
+/*
+  Bootstrap-select css extention
+  extend css for http://silviomoreto.github.io/bootstrap-select/
+*/
+body div.input-mini:not([class*="input-block-level"]),
+body .input-mini.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not([class*="input-block-level"]) {
+  width: 70px;
+}
+
+body div.input-small:not([class*="input-block-level"]),
+body .input-small.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not([class*="input-block-level"]) {
+  width: 100px;
+}
+
+body div.input-medium:not([class*="input-block-level"]),
+body .input-medium.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not([class*="input-block-level"]) {
+  width: 160px;
+}
+
+body div.input-large:not([class*="input-block-level"]),
+body .input-large.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not([class*="input-block-level"]) {
+  width: 220px;
+}
+
+body div.input-xlarge:not([class*="input-block-level"]),
+body .input-xlarge.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not([class*="input-block-level"]) {
+  width: 280px;
+}
+
+body div.input-xxlarge:not([class*="input-block-level"]),
+body .input-xxlarge.bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"])) {
+  width: 540px;
+}
+
+body form div.bootstrap-select.input-block-level {
+  width:100% !important;
+}
+ul.selectpicker > li > a {
+    min-height: 20px;
+}
+
+/*radio button inline*/
+.form-horizontal .radio{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+body .form-horizontal .hide {
+ display: none; 
+}
+
+.checkboxItem .checkbox {
+  padding-left: 0px; 
+  margin-top: 0px
+}
+
+.fields-horizontal dl.blockFieldHorizontal dd {
+  margin-left: 10px;
+  display: inherit;
+}
+
+.fields-horizontal dl.blockFieldHorizontal dt {
+  float: inherit;
+  width: inherit;
+}
+
+.btn-group > a{
+  font-size: 14px;
+}
+
+
+
+.input-block-level{
+  display: inline-block;
+}
+
+.form-horizontal input[type="radio"]{
+  min-height: 0px;
+}
+.input-append .add-on,
+.input-prepend .add-on{
+  width: 1%;  
+  display: table-cell;
+
+}
+.control-group-inline .input-append .add-on,
+.control-group-inline .input-prepend .add-on{
+  display: inline-block;
+
+}
+body table{
+  /*Collapsing must be separate because it propagate on preprend input in table*/
+  /*To override border-collapse on the prepend input level doesn't work as far as the table border-collapse style is existing ...*/
+  border-collapse:separate;
+}
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input{
+  display: table-cell;
+  width: 100%;
+  margin-left: -1px;
+}
+
+/*WPR1505017487*/
+.input-append .btn-file input,
+.input-prepend .btn-file input{
+  width:auto;
+}
+/*end of WPR1505017487*/
+
+body .input-date{
+  max-width: 94px;
+}
+
+/*Phone Extention Html CLass*/
+body .pExt{
+  width: 49px;
+}
+body .phoneWithExtention{
+  display: inline-flex;
+  width: 100%;
+  max-width: 80px;
+  padding-left: 0px;
+
+}
+
+body .phoneNumber{
+  min-width: calc(97% - 80px);
+  padding-right: 10px;
+}
+body .contactInfoColumn{
+  padding-left: 0px;
+}
+
+body .phoneWithExtention .controlWithAddOn{
+  width: 81px;
+  margin-bottom: 10px;
+  display: block;
+}
+body .phoneWithExtention .aPF_InputTextField{
+  /*100% - size of the phone extention (81 px)*/
+  width: -moz-calc(100% - 81px);
+  width: -webkit-calc(100% - 81px);
+  width: calc(100% - 81px);
+  margin-right: 0px;
+}
+
+body .phoneWithExtention .aPF_InputTextField div{
+  width: 100%;
+}
+
+
+.controlWithAddOn{
+  margin-bottom: 10px; /*10 from .control-group + 10 from input*/
+}
+
+td>.control-group>.controlWithAddOn, td .form-group{
+  margin-bottom: 0px;
+}
+
+.aPF_FancyFormPresenter .noResultMessage{
+  margin-top: 10px;
+}
+.aPF_BSPickerFormPresenter .noResultMessage{
+  margin-top: 0px;
+}
+
+.password-ok{
+  color: #468847;
+  font-size: 14px;
+  float: right;
+  margin-top: -21px;
+  z-index: 9999;
+  position: relative;
+  margin-right: 7px;
+}
+
+.BSPickerCriteria .modal-body{
+    max-height: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+body .input-prepend,
+body .form-inline .input-prepend,
+body .form-horizontal .input-prepend{
+  display: table;
+}
+body .control-group-inline .input-prepend,
+body .control-group-inline .form-inline .input-prepend,
+body .control-group-inline .form-horizontal .input-prepend{
+  display: inline-block;
+}
+
+form .fileupload .input-append  .uneditable-input{
+  width: 138px;
+}
+.form-inline .radio,
+.form-inline .checkbox {
+	margin-right: 10px;
+}

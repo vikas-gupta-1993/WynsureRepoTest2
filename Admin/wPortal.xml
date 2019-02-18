@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config filename="wPortal.xml" filepath="(WYDE-ROOT)\Admin\">
+   <ServerUrl></ServerUrl>
+   <SMTP>
+      <SMTPSendUsingMethod default="cdoSendUsingPort" alt="cdoSendUsingPort">cdoSendUsingPort</SMTPSendUsingMethod>
+      <SMTPAuthenticate default="cdoBasic" alt1="cdoNTLM" alt="cdoAnonymous">cdoBasic</SMTPAuthenticate>
+      <SMTPServer>smtp.gmail.com</SMTPServer>
+      <SMTPServerPort>465</SMTPServerPort>
+      <SMTPConnectionTimeout>2</SMTPConnectionTimeout>
+      <SMTPSendUserName>wportal54@gmail.com</SMTPSendUserName>
+      <SMTPSendPassword>wydecorp</SMTPSendPassword>
+      <SMTPSendEmailAddress>wportal54@gmail.com</SMTPSendEmailAddress>
+      <SMTPUseSSL default="false" alt="true">true</SMTPUseSSL>
+      <TokenExpirationDays>1</TokenExpirationDays>
+   </SMTP>
+   <UrlMapping></UrlMapping>
+   <DebugToolActivate>0</DebugToolActivate>
+   <DebugToolOptions>
+      <DebugField>0</DebugField>
+      <ShowSiteMap>1</ShowSiteMap>
+      <WebGL>1</WebGL>
+      <AutoConnect>1</AutoConnect>
+      <AutoConnectOptions>
+         <AutoConnectLogin>Super manager</AutoConnectLogin>
+         <AutoConnectPassword></AutoConnectPassword>
+      </AutoConnectOptions>
+      <PresenterSwitch>
+         <SwitchActivation>0</SwitchActivation>
+         <CoveredChoiceRootPresenterDesc></CoveredChoiceRootPresenterDesc>
+      </PresenterSwitch>
+   </DebugToolOptions>
+</config>

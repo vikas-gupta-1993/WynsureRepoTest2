@@ -1,0 +1,41 @@
+{
+	"description":"",
+	"request":{
+		"requestID":{
+			"className":"aSPCB_GenericRequirementRequestIdentifier",
+			"requestId":"",
+			"bUID":"318839383_37",
+			"description":""
+		},
+		"exchangeName":"sss"
+	},
+	"response":{
+		"error":{
+			"code":"CONFLICT",
+			"message":"",
+			"innererror":{
+				"className":"aSF_Exception",
+				"detailsFromException":{
+					"error":{
+						"errorCode":"SWF-C0007",
+						"errorKind":"bsErrCannotModify",
+						"errorMessage":"Either the requirement request is deleted or invalid: RequestID"
+					}
+				}
+			}
+		}
+	},
+	"eval":null,
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"CreateDocumentExchange",
+	"version":"5.8.2.0",
+	"date":"2018-08-16",
+	"errors":[
+		{
+			"code":"SWF-C0007",
+			"message":"Either the requirement request is deleted or invalid: RequestID",
+			"kind":"Cannot Modify",
+			"kindNumber":9
+		}
+	]
+}

@@ -1,0 +1,129 @@
+Coverage; Population description; Volume of coverage amount; Volume of salary; Members number
+Group Life;Age:Less than 30, EE Only;;59000;2
+Group Life;Age:Less than 30, EE + S;;0;0
+Group Life;Age:Less than 30, EE + C;;65000;2
+Group Life;Age:Less than 30, EE + S + C;;0;0
+Group Life;Age:31 to 35, EE Only;;1748750;60
+Group Life;Age:31 to 35, EE + S;;4217543;123
+Group Life;Age:31 to 35, EE + C;;3752220;103
+Group Life;Age:31 to 35, EE + S + C;;4176046;121
+Group Life;Age:36 to 39, EE Only;;700850;22
+Group Life;Age:36 to 39, EE + S;;1367539;41
+Group Life;Age:36 to 39, EE + C;;1089310;34
+Group Life;Age:36 to 39, EE + S + C;;1345436;40
+Group Life;Age:40 to 44, EE Only;;2468150;81
+Group Life;Age:40 to 44, EE + S;;5286651;161
+Group Life;Age:40 to 44, EE + C;;4384990;136
+Group Life;Age:40 to 44, EE + S + C;;5346836;159
+Group Life;Age:45 to 50, EE Only;;1227000;41
+Group Life;Age:45 to 50, EE + S;;2555789;79
+Group Life;Age:45 to 50, EE + C;;2084060;65
+Group Life;Age:45 to 50, EE + S + C;;2816805;82
+Group Life;Age:51 to 59, EE Only;;1160500;40
+Group Life;Age:51 to 59, EE + S;;2790494;85
+Group Life;Age:51 to 59, EE + C;;2025120;63
+Group Life;Age:51 to 59, EE + S + C;;2747653;80
+Group Life;Age:60 to 64, EE Only;;0;0
+Group Life;Age:60 to 64, EE + S;;0;0
+Group Life;Age:60 to 64, EE + C;;0;0
+Group Life;Age:60 to 64, EE + S + C;;0;0
+Group Life;Age:65 and more, EE Only;;1819000;61
+Group Life;Age:65 and more, EE + S;;4532391;128
+Group Life;Age:65 and more, EE + C;;3114560;97
+Group Life;Age:65 and more, EE + S + C;;3939130;116
+Additional Group Life;Age:Less than 30, EE Only;;0;0
+Additional Group Life;Age:Less than 30, EE + S;;0;0
+Additional Group Life;Age:Less than 30, EE + C;;0;0
+Additional Group Life;Age:Less than 30, EE + S + C;;0;0
+Additional Group Life;Age:31 to 35, EE Only;;0;0
+Additional Group Life;Age:31 to 35, EE + S;;0;0
+Additional Group Life;Age:31 to 35, EE + C;;35500;1
+Additional Group Life;Age:31 to 35, EE + S + C;;0;0
+Additional Group Life;Age:36 to 39, EE Only;;0;0
+Additional Group Life;Age:36 to 39, EE + S;;35500;1
+Additional Group Life;Age:36 to 39, EE + C;;0;0
+Additional Group Life;Age:36 to 39, EE + S + C;;0;0
+Additional Group Life;Age:40 to 44, EE Only;;29500;1
+Additional Group Life;Age:40 to 44, EE + S;;0;0
+Additional Group Life;Age:40 to 44, EE + C;;94500;3
+Additional Group Life;Age:40 to 44, EE + S + C;;0;0
+Additional Group Life;Age:45 to 50, EE Only;;29500;1
+Additional Group Life;Age:45 to 50, EE + S;;0;0
+Additional Group Life;Age:45 to 50, EE + C;;0;0
+Additional Group Life;Age:45 to 50, EE + S + C;;0;0
+Additional Group Life;Age:51 to 59, EE Only;;0;0
+Additional Group Life;Age:51 to 59, EE + S;;35500;1
+Additional Group Life;Age:51 to 59, EE + C;;0;0
+Additional Group Life;Age:51 to 59, EE + S + C;;0;0
+Additional Group Life;Age:60 to 64, EE Only;;0;0
+Additional Group Life;Age:60 to 64, EE + S;;0;0
+Additional Group Life;Age:60 to 64, EE + C;;0;0
+Additional Group Life;Age:60 to 64, EE + S + C;;0;0
+Additional Group Life;Age:65 and more, EE Only;;0;0
+Additional Group Life;Age:65 and more, EE + S;;35500;1
+Additional Group Life;Age:65 and more, EE + C;;65000;2
+Additional Group Life;Age:65 and more, EE + S + C;;0;0
+Group AD&D;Age:Less than 30, EE Only;;0;0
+Group AD&D;Age:Less than 30, EE + S;;0;0
+Group AD&D;Age:Less than 30, EE + C;;0;0
+Group AD&D;Age:Less than 30, EE + S + C;;0;0
+Group AD&D;Age:31 to 35, EE Only;;0;0
+Group AD&D;Age:31 to 35, EE + S;;0;0
+Group AD&D;Age:31 to 35, EE + C;;0;0
+Group AD&D;Age:31 to 35, EE + S + C;;0;0
+Group AD&D;Age:36 to 39, EE Only;;0;0
+Group AD&D;Age:36 to 39, EE + S;;35500;1
+Group AD&D;Age:36 to 39, EE + C;;0;0
+Group AD&D;Age:36 to 39, EE + S + C;;0;0
+Group AD&D;Age:40 to 44, EE Only;;0;0
+Group AD&D;Age:40 to 44, EE + S;;0;0
+Group AD&D;Age:40 to 44, EE + C;;0;0
+Group AD&D;Age:40 to 44, EE + S + C;;0;0
+Group AD&D;Age:45 to 50, EE Only;;0;0
+Group AD&D;Age:45 to 50, EE + S;;0;0
+Group AD&D;Age:45 to 50, EE + C;;35500;1
+Group AD&D;Age:45 to 50, EE + S + C;;0;0
+Group AD&D;Age:51 to 59, EE Only;;0;0
+Group AD&D;Age:51 to 59, EE + S;;35500;1
+Group AD&D;Age:51 to 59, EE + C;;0;0
+Group AD&D;Age:51 to 59, EE + S + C;;0;0
+Group AD&D;Age:60 to 64, EE Only;;0;0
+Group AD&D;Age:60 to 64, EE + S;;0;0
+Group AD&D;Age:60 to 64, EE + C;;0;0
+Group AD&D;Age:60 to 64, EE + S + C;;0;0
+Group AD&D;Age:65 and more, EE Only;;0;0
+Group AD&D;Age:65 and more, EE + S;;35500;1
+Group AD&D;Age:65 and more, EE + C;;0;0
+Group AD&D;Age:65 and more, EE + S + C;;0;0
+Long Term Disability;Age:Less than 30, EE Only;;59000;2
+Long Term Disability;Age:Less than 30, EE + S;;0;0
+Long Term Disability;Age:Less than 30, EE + C;;65000;2
+Long Term Disability;Age:Less than 30, EE + S + C;;0;0
+Long Term Disability;Age:31 to 35, EE Only;;1748750;60
+Long Term Disability;Age:31 to 35, EE + S;;4253043;124
+Long Term Disability;Age:31 to 35, EE + C;;3787720;104
+Long Term Disability;Age:31 to 35, EE + S + C;;4105046;119
+Long Term Disability;Age:36 to 39, EE Only;;700850;22
+Long Term Disability;Age:36 to 39, EE + S;;1367539;41
+Long Term Disability;Age:36 to 39, EE + C;;1089310;34
+Long Term Disability;Age:36 to 39, EE + S + C;;1345436;40
+Long Term Disability;Age:40 to 44, EE Only;;2503650;82
+Long Term Disability;Age:40 to 44, EE + S;;5336651;162
+Long Term Disability;Age:40 to 44, EE + C;;3304680;134
+Long Term Disability;Age:40 to 44, EE + S + C;;5346836;159
+Long Term Disability;Age:45 to 50, EE Only;;1182000;40
+Long Term Disability;Age:45 to 50, EE + S;;2591289;80
+Long Term Disability;Age:45 to 50, EE + C;;2113560;66
+Long Term Disability;Age:45 to 50, EE + S + C;;2796805;81
+Long Term Disability;Age:51 to 59, EE Only;;1267000;43
+Long Term Disability;Age:51 to 59, EE + S;;2773244;84
+Long Term Disability;Age:51 to 59, EE + C;;1989620;62
+Long Term Disability;Age:51 to 59, EE + S + C;;2693903;79
+Long Term Disability;Age:60 to 64, EE Only;;0;0
+Long Term Disability;Age:60 to 64, EE + S;;0;0
+Long Term Disability;Age:60 to 64, EE + C;;0;0
+Long Term Disability;Age:60 to 64, EE + S + C;;0;0
+Long Term Disability;Age:65 and more, EE Only;;1783500;60
+Long Term Disability;Age:65 and more, EE + S;;4496891;127
+Long Term Disability;Age:65 and more, EE + C;;3150060;98
+Long Term Disability;Age:65 and more, EE + S + C;;3974630;117

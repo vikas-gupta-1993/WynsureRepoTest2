@@ -1,0 +1,45 @@
+{
+	"description":"",
+	"request":{
+		"customerBuid":"318842869_37",
+		"newCorrespondence":{
+			"className":"aSPCB_Correspondence",
+			"effectiveDate":"2018-08-31",
+			"addressUsage":"0",
+			"address":{
+				"className":"aSPCB_US_PostalAddress",
+				"line1":"PONA",
+				"line2":"EON IT PARK",
+				"zipCodeAndCity":{
+					"zipCode":"01060",
+					"city":"Northampton"
+				},
+				"country":"UNITED STATES",
+				"district":"",
+				"state":"MA",
+				"county":"",
+				"fIPSCode":0
+			},
+			"isDefaultCorrespondance":true,
+			"privatePhone":"+1 4135849244",
+			"privatePhoneExtension":"",
+			"officePhone":"",
+			"officePhoneExtension":"",
+			"cellPhone":"+912345678",
+			"fax":"",
+			"eMail":"edwards.aaron@free.com",
+			"mediaType":"",
+			"isInvalid":false,
+			"reasonForInvalidAddress":""
+		},
+		"atDate":"{{currentDate}}"
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"UpdateCustomerCorrespondenceWithEmailConfirmation",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

@@ -1,0 +1,48 @@
+/*dialog form to create new item CSS*/
+
+.NewObjectContent{
+	height: 80% !important;
+	width: 800px !important;
+	margin-left:-400px !important;
+}
+
+.NewObjectContent .modal-body{
+	overflow-y: auto;
+	max-height: 100% !important;
+}
+
+.NewObjectContent .fields{
+	max-height: 100%;
+	overflow-y: auto;
+}
+
+.GetClientShortNameColumn {
+Width: 25%;
+}
+
+.GetClientNameColumn {
+Width: 25%;
+}
+
+.GetClientBirthDateColumn {
+Width: 15%;
+}
+
+.GetClientSSNColumn {
+Width: 25%;
+}
+
+.DisplayActionOnClientColumn{
+Width: 10%;
+}
+
+.NewObjectRoot table{
+    margin-bottom: 0px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.AddLinks{
+    margin-bottom: 20px;
+}

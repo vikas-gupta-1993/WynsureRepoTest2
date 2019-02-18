@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"legalEntityBuid":"{{legalEntityId}}",
+		"maxSize":20
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Group",
+	"methodName":"SearchGBPForLegalEntity",
+	"version":"5.8.1.0",
+	"date":"2018-02-14",
+	"errors":[
+		{
+			"code":"786B_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Cannot Find",
+			"kindNumber":8
+		}
+	]
+}

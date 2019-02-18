@@ -1,0 +1,38 @@
+.LossFieldsTemporaryLossDeclaration {
+  height: 150px;
+}
+.LossFieldsPregnancy {
+  height: 120px;
+}
+#DisabilityStartDateWrapper {
+	float: left;
+	width: 30%;
+}
+
+#DisabilityEndDateWrapper {
+	float: left;
+	width: 30%;
+}
+
+#DateLastWorkedWrapper {
+	float: left;
+	width: 40%;
+}
+
+#DateLastWorked {
+	width: 80px;
+}
+
+#LabourScheduledDateWrapper {
+	float: left;
+	width: 30%;
+}
+
+#LabourDateWrapper {
+	float: left;
+	width: 30%;
+}
+
+#DisabilityKind {
+	width : 150px;
+}

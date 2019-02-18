@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="CopyReference">
+   <aWFxCopyRefBaseDesc name="RefBase Copy">
+      <Name>RefBase Copy</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <TargetPath>(wf-root)\RefTgv</TargetPath>
+   </aWFxCopyRefBaseDesc>
+</aWEXIntegrationPlanDesc>

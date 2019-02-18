@@ -1,0 +1,34 @@
+.AddBeneficiary input{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#BeneficiaryDescriptionTypeWrapper dt {
+	width: 120px;
+}
+
+#OverriddenClauseTextWrapper dt {
+	width: 120px;
+}
+
+#OverriddenClauseText{
+	height: 200px;
+	width: 530px;
+}
+
+.AddBeneficiary .AddAction,
+.DeleteBeneficiaryButton,
+.AddBeneficiary .CloseAction{
+	cursor: pointer;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.AddBeneficiary .AddAction {
+    color: rgb(57, 177, 57);
+}
+
+.DeleteBeneficiaryButton,
+.AddBeneficiary .CloseAction {
+    color: rgb(253, 146, 63);
+}

@@ -1,0 +1,11 @@
+[
+	{
+		"fileName":"(WF-Help)\\BS\\samples\\aSLI_Manage_Actors\\GetActorDetails\\example1.json",
+		"testClass":"aSF_BusinessServiceVS_WithRPC"
+	},
+{
+		"fileName":"(WF-Help)\\BS\\samples\\aSLI_Manage_Actors\\GetActorContacts\\example1.json",
+		"testClass":"aSF_BusinessServiceVS_WithRPC"
+	}
+
+]

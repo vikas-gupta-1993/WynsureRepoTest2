@@ -1,0 +1,37 @@
+h4 {
+	font-size: 1.2em;
+	margin: 1em 0 1em 0;
+	border-bottom: 1px dotted black;
+}
+#PageContent .ui-tabs .ui-tabs-nav li span {
+  margin-left: 5px;
+}
+h4#BankCorrespondence {
+	clear: both;
+}
+dl {
+	margin: 0;
+	height: 36px; 
+}
+#Currency {
+  width: 3em;
+}
+#HolderNameWrapper, #CurrencyWrapper, #DepositTypeWrapper, #AccountTypeWrapper {
+	float: left;
+	width: 18em;
+}
+
+#PageContent div.content {
+	padding-left: 2em;
+}
+
+#BankNameWrapper, #BranchNameWrapper {
+	float: left;
+	width: 25em;
+}
+#Name {
+	width: 45em;
+}
+#BankName, #BranchName {
+	width: 20em;
+}

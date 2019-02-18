@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P20]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-320\slmult0\cf1\f0\fs16 Pour chaque participant, les garanties cessent :\par
+\pard\nowidctlpar\sl-280\slmult0\bullet  au terme fix\'e9 par l'article les concernant,\par
+\bullet  si la cotisation concernant le participant n'est pas r\'e9gl\'e9e, sauf en cas d'exon\'e9ration telle qu'elle est d\'e9finie \'e0 l'article 33,\par
+\bullet  \'e0 la date \'e0 laquelle il cesse d'appartenir \'e0 la cat\'e9gorie de personnel b\'e9n\'e9ficiaire de l'adh\'e9sion,\par
+\bullet  \'e0 la date de liquidation de la pension vieillesse de la S\'e9curit\'e9 sociale,\par
+\bullet  \'e0 la date de rupture de son contrat de travail, quel que soit le motif,\par
+\bullet  \'e0 la date de r\'e9siliation de l'adh\'e9sion, sous r\'e9serve des dispositions de l'article 34.\par
+\pard\nowidctlpar\li253\sl-280\slmult0\ul a) Cong\'e9 sans solde\ulnone\par
+En cas de cong\'e9 sans solde du participant, les garanties peuvent \'eatre maintenues sur demande de l'entreprise adh\'e9rente, \'e0 l'exclusion des garanties incapacit\'e9 temporaire totale de travail et invalidit\'e9 permanente.\par
+L'entreprise adh\'e9rente devra fournir une liste du personnel concern\'e9 et acquitter les cotisations correspondantes au taux de cotisation du personnel actif.\par
+\pard\nowidctlpar\li253\sl-213\slmult0\cf2\par
+\pard\nowidctlpar\li253\sl-240\slmult0\cf1 b) Maintien \'e0 titre individuel\par
+\pard\nowidctlpar\li253\sl-280\slmult0 En cas de r\'e9siliation de l'adh\'e9sion pour quelque cause que ce soit, l'Institution peut maintenir \'e0 titre individuel, moyennant le paiement d'une cotisation, une couverture de pr\'e9voyance, sans condition de
+ p\'e9riode probatoire ni d'examen ou de questionnaire m\'e9dicaux, au profit des participants qui en font la demande dans un d\'e9lai de trois mois suivant la date d'effet de la r\'e9siliation. Les garanties maintenues sont au plus \'e9gales \'e0 celles 
+dont le participant b\'e9n\'e9ficiait \'e0 la date de r\'e9siliation.\par
+La cotisation est alors d\'e9termin\'e9e d'apr\'e8s l'\'e2ge atteint par le participant et les garanties demand\'e9es.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Cessation de l'affiliation]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Cessation de l'affiliation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[23]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

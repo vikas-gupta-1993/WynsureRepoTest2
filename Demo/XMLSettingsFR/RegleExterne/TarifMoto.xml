@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Responsabilité civile Moto</Name><NSId>318784564</NSId><Id>47</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Recours Moto</Name><NSId>318784564</NSId><Id>48</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Protection juridique Moto</Name><NSId>318784564</NSId><Id>49</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Bris d&apos;optique Moto</Name><NSId>318784564</NSId><Id>50</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Vol tentative de vol Moto</Name><NSId>318784564</NSId><Id>51</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Incendie Moto</Name><NSId>318784564</NSId><Id>52</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Dommages collision Moto</Name><NSId>318784564</NSId><Id>53</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Dommages tous accidents Moto</Name><NSId>318784564</NSId><Id>54</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Cat nat Moto</Name><NSId>318784564</NSId><Id>55</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Cat tec Moto</Name><NSId>318784564</NSId><Id>56</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Assistance Moto</Name><NSId>318784564</NSId><Id>57</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Protection du conducteur Moto</Name><NSId>318784564</NSId><Id>58</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Aménagements et accessoires Moto</Name><NSId>318784564</NSId><Id>59</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Casques et Equipements Moto</Name><NSId>318784564</NSId><Id>60</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Actions des Forces de la Nature Moto</Name><NSId>318784564</NSId><Id>61</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[MotoNG]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Moto_NomGarantie]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318784563]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Nom de la garantie Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771970]]></NSId><Id Id="2"><![CDATA[78]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[GM]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Groupe Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771840]]></NSId><Id Id="2"><![CDATA[65]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[CM]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Classe Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771801]]></NSId><Id Id="2"><![CDATA[35]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[UM]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Usage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771801]]></NSId><Id Id="2"><![CDATA[36]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[ZM]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Zone]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771801]]></NSId><Id Id="2"><![CDATA[37]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Pas d&apos;antécédents permis</Name><NSId>318784564</NSId><Id>19</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Sup 1 Inf 2 ans d&apos;assurances permis</Name><NSId>318784564</NSId><Id>20</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Sup 2 ans d&apos;assurances permis</Name><NSId>318784564</NSId><Id>21</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[AP]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Antécédents Permis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318784563]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Antécédents Permis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771970]]></NSId><Id Id="2"><![CDATA[79]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Sans Emploi</Name><NSId>318784564</NSId><Id>25</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Salarié</Name><NSId>318784564</NSId><Id>26</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Fonctionnaire</Name><NSId>318784564</NSId><Id>27</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Agriculteur</Name><NSId>318784564</NSId><Id>28</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Etudiant</Name><NSId>318784564</NSId><Id>29</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Retraité</Name><NSId>318784564</NSId><Id>30</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[CSP]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Cat. Socio Pro]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318784563]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Cat. Socio Pro]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771970]]></NSId><Id Id="2"><![CDATA[80]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[A]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771840]]></NSId><Id Id="2"><![CDATA[66]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Homme</Name><NSId>318776895</NSId><Id>21</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Femme</Name><NSId>318776895</NSId><Id>22</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[bbb]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Sexe]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318776651]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Sexe]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771970]]></NSId><Id Id="2"><![CDATA[81]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[Sta]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Stationnement]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771801]]></NSId><Id Id="2"><![CDATA[38]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[AA]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Antécédents d'assurance]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771840]]></NSId><Id Id="2"><![CDATA[67]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+uses WFTypes, aWFRuleDesc, aWFStandAloneRule
+
+type tWF_Generated_Moto_NomGarantie_318784563_7 : (ResponsabilitecivileMoto, RecoursMoto, 
+   ProtectionjuridiqueMoto, Brisd_optiqueMoto, VoltentativedevolMoto, IncendieMoto, 
+   DommagescollisionMoto, DommagestousaccidentsMoto, CatnatMoto, CattecMoto, AssistanceMoto, 
+   ProtectionduconducteurMoto, AmenagementsetaccessoiresMoto, CasquesetEquipementsMoto, 
+   ActionsdesForcesdelaNatureMoto)
+type tWF_Generated_AntecedentsPermis_318784563_3 : (Pasd_antecedentspermis, Sup1Inf2ansd_assurancespermis, 
+   Sup2ansd_assurancespermis)
+type tWF_Generated_Cat_SocioPro_318784563_5 : (SansEmploi, Salarie, Fonctionnaire, 
+   Agriculteur, Etudiant, Retraite)
+type tWF_Generated_Sexe_318776651_7 : (Homme, Femme)
+
+NomdelagarantieMoto : tWF_Generated_Moto_NomGarantie_318784563_7
+GroupeMoto : Int4
+ClasseMoto : CString
+Usage : CString
+Zone : CString
+AntecedentsPermis : tWF_Generated_AntecedentsPermis_318784563_3
+Cat_SocioPro : tWF_Generated_Cat_SocioPro_318784563_5
+Age : Int4
+Sexe : tWF_Generated_Sexe_318776651_7
+Stationnement : CString
+Antecedentsd_assurance : Int4
+
+
+function Moto_Tarifdebase(Nomdelagarantie : tWF_Generated_Moto_NomGarantie_318784563_7) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Nomdelagarantie, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_GroupeSRA(GroupeSRA : Num8) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(1, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(GroupeSRA, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_ClasseSRA(ClasseSRA : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(2, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(ClasseSRA, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Usage(Usage : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(3, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Usage, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Zonier(ZonierMoto : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(4, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(ZonierMoto, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Antecedentsd_Assurances(Antecedentsd_assurance : Int4) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(5, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Antecedentsd_assurance, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_AntecedentsdePermis(AntecedentsPermis : tWF_Generated_AntecedentsPermis_318784563_3) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(6, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(AntecedentsPermis, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_CSP(CSP : tWF_Generated_Cat_SocioPro_318784563_5) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(7, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(CSP, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Age(Age : Int4) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(8, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Age, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Sexe(Sexe : tWF_Generated_Sexe_318776651_7) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(9, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Sexe, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function Moto_Stationnement(Stationnement : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(10, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Stationnement, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   Result = self.Moto_Tarifdebase(self.NomdelagarantieMoto)
+   self.AjouterCommentaire(Concat('Groupe:', self.GroupeMoto))
+   Result = Result * self.Moto_GroupeSRA(self.GroupeMoto)
+   self.AjouterCommentaire(Concat('Classe:', self.ClasseMoto))
+   Result = Result * self.Moto_ClasseSRA(self.ClasseMoto)
+   self.AjouterCommentaire(Concat('Usage:', self.Usage))
+   Result = Result * self.Moto_Usage(self.Usage)
+   self.AjouterCommentaire(Concat('Zone:', self.Zone))
+   Result = Result * self.Moto_Zonier(self.Zone)
+   self.AjouterCommentaire(Concat('Antécédents assurance :', self.Antecedentsd_assurance))
+   Result = Result * self.Moto_Antecedentsd_Assurances(self.Antecedentsd_assurance)
+   self.AjouterCommentaire(Concat('Antécédents permis :', self.AntecedentsPermis))
+   Result = Result * self.Moto_AntecedentsdePermis(self.AntecedentsPermis)
+   self.AjouterCommentaire(Concat('CSP :', self.Cat_SocioPro))
+   Result = Result * self.Moto_CSP(self.Cat_SocioPro)
+   self.AjouterCommentaire(Concat('Age :', self.Age))
+   Result = Result * self.Moto_Age(self.Age)
+   self.AjouterCommentaire(Concat('Sexe :', self.Sexe))
+   Result = Result * self.Moto_Sexe(self.Sexe)
+   self.AjouterCommentaire(Concat('Stationnement :', self.Stationnement))
+   Result = Result * self.Moto_Stationnement(self.Stationnement)
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107849]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936752437639774843</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_Tarif de base</Name><NSId>318769389</NSId><Id>45</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Nom de la garantie</Name><NSId>318771970</NSId><Id>12</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Tarif de base]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[43]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_Groupe SRA</Name><NSId>318769389</NSId><Id>42</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Float><Name>Groupe SRA</Name><NSId>318771844</NSId><Id>4</Id></aWFFieldDesc_Float></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\froman\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\keepn\sb100\sa100\b\f0\fs24 Les \'e9l\'e9ments de calcul du tarif d'assurance moto\par
+\fs16 L\fs24 'automobile : groupe et classe, \par
+\pard\sb100\sa100\b0\fs20 Les assureurs estiment le risque que repr\'e9sente une moto \'e0 partir de \b 4 \'e9l\'e9ments principaux\b0  dont le Groupe et la Classe du v\'e9hicule:\par
+\pard\b Le groupe\b0 , de 0 \'e0 19, repr\'e9sente la puissance de l'auto : plus le groupe est \'e9lev\'e9 plus les risques sont importants et, en g\'e9n\'e9ral, plus la prime sera \'e9lev\'e9e.\cf1\f1\fs12\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Groupe SRA]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[40]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_Classe SRA</Name><NSId>318769389</NSId><Id>40</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Classe SRA</Name><NSId>318771801</NSId><Id>18</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\froman\fcharset0 Times New Roman;}}
+\viewkind4\uc1\pard\keepn\sb100\sa100\b\f0\fs24 Les \'e9l\'e9ments de calcul du tarif d'assurance moto\fs28\par
+\fs20 La Moto\fs24  : groupe et classe\par
+\pard\sb100\sa100\b0\fs20 Les assureurs estiment le risque que repr\'e9sente une moto \'e0 partir de \b 4 \'e9l\'e9ments principaux\b0  dont la Classe du V\'e9hicule :\par
+\b La classe\b0 , entre A et Z, repr\'e9sente la valeur de l'auto. Elle est d\'e9termin\'e9e par la marque, mais \'e9galement par sa valeur \'e0 neuf.\fs28\par
+\fs32\par
+\b\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Classe SRA]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[38]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Auto_Usage</Name><NSId>318769389</NSId><Id>46</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Usage</Name><NSId>318771801</NSId><Id>20</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Usage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[44]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_Zonier</Name><NSId>318769389</NSId><Id>47</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Zonier Moto</Name><NSId>318771801</NSId><Id>21</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Zonier]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[45]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Auto_Antécédents d&apos;Assurances_supp</Name><NSId>318769389</NSId><Id>38</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Integer><Name>Antécédents d&apos;assurance</Name><NSId>318771840</NSId><Id>29</Id></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Antécédents d'Assurances]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[36]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_Antécèdents de Permis</Name><NSId>318769389</NSId><Id>39</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Antécédents Permis</Name><NSId>318771970</NSId><Id>9</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Antécèdents de Permis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[37]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Moto_CSP</Name><NSId>318769389</NSId><Id>41</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>CSP</Name><NSId>318771970</NSId><Id>10</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_CSP]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[39]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Auto_Age</Name><NSId>318769389</NSId><Id>37</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Integer><Name>Age</Name><NSId>318771840</NSId><Id>28</Id></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[35]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name></Name><NSId>318769389</NSId><Id>43</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Sexe</Name><NSId>318771970</NSId><Id>11</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Sexe]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[41]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Auto_Stationnement</Name><NSId>318769389</NSId><Id>44</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Stationnement</Name><NSId>318771801</NSId><Id>19</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Moto_Stationnement]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[42]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Tarif garantie Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[21]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Calcul du tarif en assurance \f1 moto\f0\par
+La tarification de l'assurance \f1 moto\f0  est particuli\f1\'e8rement complexe et se base sur des \'e9l\'e9ments fixes, impos\'e9s ou non par la l\'e9gislation, et sur des \'e9tudes statistiques r\'e9alis\'e9es par les soci\'e9t\'e9s d'assurance en fonction de leurs objectifs strat\'e9giques.\par
+Elle se calcule sur un tarif de base \'e0 partir duquel nous appliquons plusieurs majoration et/ou r\'e9duction en fonction du risque \'e0 garantir.\f0\par
+}
+]]></Comment><Name Id="3"><![CDATA[Tarif garantie Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771142]]></NSId><Id Id="2"><![CDATA[21]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

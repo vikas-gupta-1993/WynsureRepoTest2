@@ -1,0 +1,14 @@
+{
+	"description":"",
+	"request":{
+		
+		"policyData":null
+	},
+	"response":null,
+	"className":"aslo_Subscribe_loanpolicy",
+	"methodName":"SubmitLoanPolicyData",
+	"version":"5.8.1.0",
+	"date":"2018-02-20",
+	"errors":[
+	]
+}

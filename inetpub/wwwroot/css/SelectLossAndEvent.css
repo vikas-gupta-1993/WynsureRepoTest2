@@ -1,0 +1,35 @@
+#InsuredPerson {
+	width: 250px;
+}
+
+#LossDesc {
+	width: 49%;
+	float : left;
+	margin-right:8px;
+}
+
+#LossEvent {
+	width: 49%;
+	margin-left:4px;
+}
+
+.LossDescription {
+	width: 98%;
+	height: 200px;
+}
+
+.losses>div{
+	padding-top: 10px;
+}
+.buttonToAddInvolvedParties{
+	padding-bottom: 10px;
+	
+}
+
+.losses .panel .modal-header>div.pull-right{
+	margin-top: -30px;
+}
+
+.subLossForActor .removeLink{
+	margin-left: 5px;
+}

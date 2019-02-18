@@ -1,0 +1,43 @@
+.widget section {
+  min-height: 200px;
+
+}
+/* ClientActiveContractsWidget */
+.PolicyStatusCol {width: 45px}
+.PolicyProductNameCol {}
+.PolicyNumberCol {width: 90px}
+/* ClientPendingQuotesWidget */
+.QuoteNumberCol {width: 110px}
+.QuoteProductNameCol {}
+.QuoteExpDateCol {width: 80px}
+/* ClientOpenedClaimsWidget */
+.LossTypeCol {}
+.ClaimNumberCol {width: auto}
+.ClaimDateOfLossCol {width: 90px}
+/* ClientReceivedDocumentsWidget */
+.document {}
+/* ClientRecentCorrespondancesWidget */
+.CorrespondanceDescCol {}
+.CorrespondanceDateCol {width: 80px}
+/* EnrollmentsWidget */
+.EnrollmentPolicyProductNameCol {}
+.MemberNameCol {}
+.PolicyNumberCol {width: auto}
+/* GBPContractsWidget */
+.PolicyNumberCol {}
+.PolicyStatusCol {}
+.PolicyProductNameCol {}
+/* LastInvoicesWidget */
+.InvoiceIdCol {}
+.AmountCol {}
+.EffDateCol {width: 80px}
+.DueDateCol {width: 80px}
+/* CompensationContractsWidget */
+.CompensationContractNumberCol {width: 100px}
+.CompensationContractProductNameCol {width: 50%}
+.CompensationContractStatusCol {}
+/* CustomerRequestsWidget */
+.FromUserCol {}
+.ItemNameCol {}
+.ReceivedDateCol {width: 80px}
+.ReceivedTimeCol {width: 80px}

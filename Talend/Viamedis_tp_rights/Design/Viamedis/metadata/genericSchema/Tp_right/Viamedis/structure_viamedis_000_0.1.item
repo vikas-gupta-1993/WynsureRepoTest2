@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_LYf3kLVSEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataPackage="_LYf3kbVSEea63c4_XNFt3Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_LYf3kbVSEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataManager="_LYf3kLVSEea63c4_XNFt3Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LYf3krVSEea63c4_XNFt3Q" id="_p4XIwLVREea63c4_XNFt3Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3k7VSEea63c4_XNFt3Q" name="FETYLIGN" label="FETYLIGN" length="3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3lLVSEea63c4_XNFt3Q" name="FECODRA" label="FECODRA" length="3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3lbVSEea63c4_XNFt3Q" name="FENUMCLI" label="FENUMCLI" length="6" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3lrVSEea63c4_XNFt3Q" name="FENUMSEQ" label="FENUMSEQ" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3l7VSEea63c4_XNFt3Q" name="FETYPFUB" label="FETYPFUB" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3mLVSEea63c4_XNFt3Q" name="FENBLIGN" label="FENBLIGN" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3mbVSEea63c4_XNFt3Q" name="FENBCREA" label="FENBCREA" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3mrVSEea63c4_XNFt3Q" name="FENBANNU" label="FENBANNU" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3m7VSEea63c4_XNFt3Q" name="FENBMODIF" label="FENBMODIF" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3nLVSEea63c4_XNFt3Q" name="FENBCART" label="FENBCART" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3nbVSEea63c4_XNFt3Q" name="FENBENEF" label="FENBENEF" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3nrVSEea63c4_XNFt3Q" name="FEDACREA" label="FEDACREA" length="8" talendType="id_String">
+        <initialValue xmi:id="_LYf3n7VSEea63c4_XNFt3Q" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3oLVSEea63c4_XNFt3Q" name="FENBENR" label="FENBENR" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LYf3obVSEea63c4_XNFt3Q" name="FILLER" label="FILLER" length="3197" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

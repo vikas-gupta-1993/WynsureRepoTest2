@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_YY75oIQgEeijA5xog5AfaQ" name="PASRAU_persons" dataPackage="_YY75qIQgEeijA5xog5AfaQ" JSONFilePath="C:/Talend/PASRAU/newjson/newJoson.txt" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_YY75oYQgEeijA5xog5AfaQ" LimitBoucle="50" AbsoluteXPathQuery="$.getListWithPersonDeductions[*].person">
+      <schemaTargets xmi:id="_YY75ooQgEeijA5xog5AfaQ" RelativeXPathQuery="getSSNNumber" TagName="getSSNNumber_S21_G00_30_001"/>
+      <schemaTargets xmi:id="_YY75o4QgEeijA5xog5AfaQ" RelativeXPathQuery="name" TagName="name_S21.G00.30.002"/>
+      <schemaTargets xmi:id="_YY75pIQgEeijA5xog5AfaQ" RelativeXPathQuery="name" TagName="name_S21_G00_30_003"/>
+      <schemaTargets xmi:id="_YY75pYQgEeijA5xog5AfaQ" RelativeXPathQuery="birthDate" TagName="birthDate_S21_G00_30_006"/>
+      <schemaTargets xmi:id="_YY75poQgEeijA5xog5AfaQ" RelativeXPathQuery="birthPlace.zipCode" TagName="zipCode_S21_G00_30_014"/>
+      <schemaTargets xmi:id="_YY75p4QgEeijA5xog5AfaQ" RelativeXPathQuery="birthCountry" TagName="birthCountry_S21_G00_30_015"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_YY75qIQgEeijA5xog5AfaQ" name="default" dataManager="_YY75oIQgEeijA5xog5AfaQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_YY75qYQgEeijA5xog5AfaQ" id="_d9L-oIQbEeijA5xog5AfaQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75qoQgEeijA5xog5AfaQ" label="getSSNNumber_S21_G00_30_001" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75q4QgEeijA5xog5AfaQ" label="name_S21_G00_30_002" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75rIQgEeijA5xog5AfaQ" label="name_S21_G00_30_003" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75rYQgEeijA5xog5AfaQ" label="birthDate_S21_G00_30_006" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75roQgEeijA5xog5AfaQ" label="zipCode_S21_G00_30_014" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YY75r4QgEeijA5xog5AfaQ" label="birthCountry_S21_G00_30_015" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

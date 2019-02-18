@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AVIV</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>12110</ZipCode>
+               <City>CRANSAC</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>33380253624</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>33380253624</CellPhone>
+         <Fax>33380253624</Fax>
+         <eMail>hertzequipementfrance@free.com</eMail>
+         <MediaType>Courrier</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secr&#233;taire</Name>
+         <ContactName>Michel Petit</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur</Name>
+         <ContactName>Jacques Dupont</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Commercial</Name>
+         <ContactName>Laurent G&#233;rard</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur financier</Name>
+         <ContactName>Bernard Lef&#232;vre</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur de projet</Name>
+         <ContactName>Martin Mercier</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur g&#233;n&#233;ral</Name>
+         <ContactName>Roberta Fontaine</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Conseiller</Name>
+         <ContactName>Elizabeth Lambert</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>DRH</Name>
+         <ContactName>Fran&#231;ois Boyer</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Comptable</Name>
+         <ContactName>Jos&#233;phine Rousseau</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur technique</Name>
+         <ContactName>Garnier Legrand</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>4 BIS RUE DE LA MARTINIRRE</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>12110</ZipCode>
+                  <City>CRANSAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33380253624</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33380253624</CellPhone>
+            <Fax>33380253624</Fax>
+            <eMail>hertzequipementfrance@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+   </ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>hertzequipementfrance@free.com</Name>
+                  <Password></Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>hertzequipementfrance@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Client Personne Morale</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000103WEX</ExternalClientId>
+         <ThirdPartyID>AVIV</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <LegalEntityIdentity xsi:type="ns_1:aSPLI_Fr_LegalEntity">
+      <Name>HERTZ EQUIPEMENT France</Name>
+      <ShortName>HE</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferredLanguageCode>Fr</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>12</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <MasterLegalEntity>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>FRA</Country>
+      <State></State>
+      <IndustrialClassification>
+         <ClassificationSystem></ClassificationSystem>
+         <Code></Code>
+      </IndustrialClassification>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>CCN</FieldCode>
+            <FieldName>Convention Collective Nationale</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NA</ValueCode>
+            <FieldValue>Non d&#233;finie</FieldValue>
+            <NameDescription>Non d&#233;finie</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <TotalNumberOfEmployees>0</TotalNumberOfEmployees>
+      <SIRET>78967569100016</SIRET>
+   </LegalEntityIdentity>
+   <EmployeeInformations>
+      <Element>
+         <EmployeeId>
+            <Buid></Buid>
+            <EmployeeId></EmployeeId>
+            <PersonId>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId>0000000001WEX</ExternalClientId>
+                  <ThirdPartyID>AA</ThirdPartyID>
+               </ExternalClientIdentifier>
+            </PersonId>
+            <LegalEntityId>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId>0000000103WEX</ExternalClientId>
+                  <ThirdPartyID>AVIV</ThirdPartyID>
+               </ExternalClientIdentifier>
+            </LegalEntityId>
+         </EmployeeId>
+         <Employee>
+            <EffectiveDate>2015-12-16</EffectiveDate>
+            <TerminationReason></TerminationReason>
+            <HireDate>2015-12-16</HireDate>
+            <EmploymentStatus>esActive</EmploymentStatus>
+            <WorkingHours>40</WorkingHours>
+            <WorkingHoursDefinedForFrequency>fWeekly</WorkingHoursDefinedForFrequency>
+            <WorkingCategory>meUndefined</WorkingCategory>
+            <BaseSalaryAmount>0</BaseSalaryAmount>
+            <BaseSalaryFrequency>meUndefined</BaseSalaryFrequency>
+            <SalaryCommissionAmount>0</SalaryCommissionAmount>
+            <SalaryCommissionFrequency>meUndefined</SalaryCommissionFrequency>
+            <SalaryBonusAmount>0</SalaryBonusAmount>
+            <SalaryBonusFrequency>meUndefined</SalaryBonusFrequency>
+            <CanBeEnrolled>true</CanBeEnrolled>
+         </Employee>
+         <Person>
+            <SearchPerson>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId></ExternalClientId>
+                  <ThirdPartyID></ThirdPartyID>
+               </ExternalClientIdentifier>
+            </SearchPerson>
+            <CreateOrUpdatePerson>
+               <ThirdPartyID>AA</ThirdPartyID>
+               <Correspondences>
+                  <Element>
+                     <EffectiveDate>1972-04-25</EffectiveDate>
+                     <AddressUsage>0</AddressUsage>
+                     <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+                        <Line1>8 RUE L ARBRE SEC</Line1>
+                        <Line2></Line2>
+                        <ZipCodeAndCity>
+                           <ZipCode>30110</ZipCode>
+                           <City>LA GRAND COMBE</City>
+                        </ZipCodeAndCity>
+                        <Country>FRA</Country>
+                        <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+                        <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+                        <Recipient></Recipient>
+                     </Address>
+                     <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+                     <PrivatePhone>33346956363</PrivatePhone>
+                     <PrivatePhoneExtension></PrivatePhoneExtension>
+                     <OfficePhone></OfficePhone>
+                     <OfficePhoneExtension></OfficePhoneExtension>
+                     <CellPhone>33646956363</CellPhone>
+                     <Fax>33346956363</Fax>
+                     <eMail>anne.barret@free.com</eMail>
+                     <MediaType>Courrier</MediaType>
+                  </Element>
+               </Correspondences>
+               <PaymentMethods>
+                  <Element xsi:type="ns_1:aSPCB_Fr_BankAccount">
+                     <Name>BNP</Name>
+                     <EffectiveDate>2000-01-01</EffectiveDate>
+                     <HolderName>BARRET</HolderName>
+                     <Currency>cEuro</Currency>
+                     <AccountType>catChecking</AccountType>
+                     <BranchName>BNP Op&#233;ra</BranchName>
+                     <DepositType>dpNA</DepositType>
+                     <BankName>BNP</BankName>
+                     <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+                        <Line1>23 bd des Italiens</Line1>
+                        <Line2></Line2>
+                        <ZipCodeAndCity>
+                           <ZipCode>75002</ZipCode>
+                           <City>PARIS</City>
+                        </ZipCodeAndCity>
+                        <Country>FRA</Country>
+                        <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+                        <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+                        <Recipient></Recipient>
+                     </Address>
+                     <BankCode>75527</BankCode>
+                     <OfficeCode>80774</OfficeCode>
+                     <AccountNumber>27298725709</AccountNumber>
+                     <RIBKey>35</RIBKey>
+                     <IBAN>FR7675527807742729872570935</IBAN>
+                     <BIC>CEPAFRPP118</BIC>
+                  </Element>
+               </PaymentMethods>
+               <ContactInformations></ContactInformations>
+               <LoginInformation>
+                  <Logins>
+                     <Element>
+                        <ApplicationLogin>
+                           <Buid></Buid>
+                           <ParamEntity>
+                              <Name>anne.barret@free.com</Name>
+                              <Password></Password>
+                              <Forbatch>false</Forbatch>
+                              <IsDisabled>false</IsDisabled>
+                              <HasExtendedProfile>false</HasExtendedProfile>
+                              <JobLabel></JobLabel>
+                              <PreferedLanguageCode></PreferedLanguageCode>
+                              <Email>anne.barret@free.com</Email>
+                           </ParamEntity>
+                        </ApplicationLogin>
+                        <Profiles>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Administrateur collectif</Name>
+                                 <Code>WAC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                           <Element>
+                              <Buid></Buid>
+                              <ParamEntity>
+                                 <Name>wPortal Client</Name>
+                                 <Code>WC</Code>
+                                 <IsDisabled>false</IsDisabled>
+                                 <IsForExternalActor>true</IsForExternalActor>
+                              </ParamEntity>
+                           </Element>
+                        </Profiles>
+                     </Element>
+                  </Logins>
+               </LoginInformation>
+               <ClientId>
+                  <Buid></Buid>
+                  <InternalClientId></InternalClientId>
+                  <ExternalClientIdentifier>
+                     <ExternalClientId>0000000001WEX</ExternalClientId>
+                     <ThirdPartyID>AA</ThirdPartyID>
+                  </ExternalClientIdentifier>
+               </ClientId>
+               <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+                  <Name>BARRET</Name>
+                  <ShortName>Anne</ShortName>
+                  <CreationDate>2013-06-19</CreationDate>
+                  <PreferredLanguageCode></PreferredLanguageCode>
+                  <IsAnonymous>false</IsAnonymous>
+                  <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+                  <VisibilityCode>3</VisibilityCode>
+                  <Delinquent>false</Delinquent>
+                  <UnderSurveillance>false</UnderSurveillance>
+                  <BirthDate>1972-04-25</BirthDate>
+                  <PersonTitleEnum>2</PersonTitleEnum>
+                  <PriorName></PriorName>
+                  <MiddleName1></MiddleName1>
+                  <MiddleName2></MiddleName2>
+                  <NameSuffix></NameSuffix>
+                  <Gender>gFemale</Gender>
+                  <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+                  <Nationality>FRA</Nationality>
+                  <BirthRank>1</BirthRank>
+                  <BirthCountry>FRA</BirthCountry>
+                  <BirthPlaceCity>LA GRAND COMBE</BirthPlaceCity>
+                  <BirthPlaceZipCode>30110</BirthPlaceZipCode>
+                  <BirthPlaceState></BirthPlaceState>
+                  <LegalRepresentativeId_Deprecated5200>
+                     <Buid></Buid>
+                     <InternalClientId></InternalClientId>
+                     <ExternalClientIdentifier>
+                        <ExternalClientId></ExternalClientId>
+                        <ThirdPartyID></ThirdPartyID>
+                     </ExternalClientIdentifier>
+                  </LegalRepresentativeId_Deprecated5200>
+                  <Occupation></Occupation>
+                  <AdditionalDatas>
+                     <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                        <FieldCode>1</FieldCode>
+                        <FieldName>Employ&#233; interne</FieldName>
+                        <CodeForPopulationClass></CodeForPopulationClass>
+                        <ValueCode>NIE</ValueCode>
+                        <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+                        <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+                     </Element>
+                     <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                        <FieldCode>2</FieldCode>
+                        <FieldName>VIP</FieldName>
+                        <CodeForPopulationClass></CodeForPopulationClass>
+                        <ValueCode>N&apos;est pas VIP</ValueCode>
+                        <FieldValue>N&apos;est pas VIP</FieldValue>
+                        <NameDescription>N&apos;est pas VIP</NameDescription>
+                     </Element>
+                  </AdditionalDatas>
+                  <EnrollmentOrganism></EnrollmentOrganism>
+                  <SSN>272047127158464</SSN>
+                  <MaritalStatus>cWidowed</MaritalStatus>
+               </PersonIdentity>
+            </CreateOrUpdatePerson>
+         </Person>
+      </Element>
+   </EmployeeInformations>
+   <AffiliateLegalEntity></AffiliateLegalEntity>
+</_Result>

@@ -1,0 +1,191 @@
+31645;Bronchoscopy, clear airways;4.51;4.51
+31646;Bronchoscopy, reclear airway;3.93;3.93
+31656;Bronchoscopy, inj for x-ray;3.20;3.20
+31700;Insertion of airway catheter;3.75;2.10
+31708;Instill airway contrast dye;2.07;2.07
+31710;Insertion of airway catheter;2.07;2.07
+31715;Injection for bronchus x-ray;1.78;1.78
+31717;Bronchial brush biopsy;5.61;3.09
+31720;Clearance of airways;2.98;1.45
+31725;Clearance of airways;2.66;2.66
+31730;Intro, windpipe wire/tube;5.42;4.10
+31750;Repair of windpipe;30.04;30.04
+31755;Repair of windpipe;36.19;36.19
+31760;Repair of windpipe;36.17;36.17
+31766;Reconstruction of windpipe;49.70;49.70
+31770;Repair/graft of bronchus;39.03;39.03
+31775;Reconstruct bronchus;41.80;41.80
+31780;Reconstruct windpipe;32.12;32.12
+31781;Reconstruct windpipe;40.31;40.31
+31785;Remove windpipe lesion;31.27;31.27
+31786;Remove windpipe lesion;41.80;41.80
+31800;Repair of windpipe injury;14.89;14.89
+31805;Repair of windpipe injury;25.29;25.29
+31820;Closure of windpipe lesion;12.92;12.80
+31825;Repair of windpipe defect;18.47;18.47
+31830;Revise windpipe scar;12.83;12.83
+31899;Airways surgical procedure;0.00;0.00
+32000;Drainage of chest;4.72;2.11
+32002;Treatment of collapsed lung;3.15;3.15
+32005;Treat lung lining chemically;3.23;3.23
+32020;Insertion of chest tube;5.78;5.78
+32035;Exploration of chest;17.66;17.66
+32036;Exploration of chest;19.57;19.57
+32095;Biopsy through chest wall;17.48;17.48
+32100;Exploration/biopsy of chest;27.08;27.08
+32110;Explore/repair chest;37.52;37.52
+32120;Re-exploration of chest;22.45;22.45
+32124;Explore chest free adhesions;23.65;23.65
+32140;Removal of lung lesion(s);25.58;25.58
+32141;Remove/treat lung lesions;25.59;25.59
+32150;Removal of lung lesion(s);25.59;25.59
+32151;Remove lung foreign body;26.20;26.20
+32160;Open chest heart massage;16.62;16.62
+32200;Drain, open, lung lesion;26.79;26.79
+32201;Drain, percut, lung lesion;9.72;9.72
+32215;Treat chest lining;22.11;22.11
+32220;Release of lung;39.84;39.84
+32225;Partial release of lung;25.77;25.77
+32310;Removal of chest lining;24.84;24.84
+32320;Free/remove chest lining;39.68;39.68
+32400;Needle biopsy chest lining;3.69;2.40
+32402;Open biopsy chest lining;16.53;16.53
+32405;Biopsy, lung or mediastinum;4.40;2.67
+32420;Puncture/clear lung;3.14;3.14
+32440;Removal of lung;39.99;39.99
+32442;Sleeve pneumonectomy;43.40;43.40
+32445;Removal of lung;41.68;41.68
+32480;Partial removal of lung;38.46;38.46
+32482;Bilobectomy;39.85;39.85
+32484;Segmentectomy;34.16;34.16
+32486;Sleeve lobectomy;39.55;39.55
+32488;Completion pneumonectomy;42.09;42.09
+32491;Lung volume reduction;35.88;35.88
+32500;Partial removal of lung;35.56;35.56
+32501;Repair bronchus add-on;6.79;6.79
+32520;Remove lung & revise chest;35.26;35.26
+32522;Remove lung & revise chest;38.75;38.75
+32525;Remove lung & revise chest;42.17;42.17
+32540;Removal of lung lesion;25.60;25.60
+32601;Thoracoscopy, diagnostic;9.70;9.70
+32602;Thoracoscopy, diagnostic;10.42;10.42
+32603;Thoracoscopy, diagnostic;12.76;12.76
+32604;Thoracoscopy, diagnostic;14.49;14.49
+32605;Thoracoscopy, diagnostic;12.05;12.05
+32606;Thoracoscopy, diagnostic;13.96;13.96
+32650;Thoracoscopy, surgical;18.50;18.50
+32651;Thoracoscopy, surgical;21.46;21.46
+32652;Thoracoscopy, surgical;30.70;30.70
+32653;Thoracoscopy, surgical;21.20;21.20
+32654;Thoracoscopy, surgical;21.15;21.15
+32655;Thoracoscopy, surgical;21.70;21.70
+32656;Thoracoscopy, surgical;22.05;22.05
+32657;Thoracoscopy, surgical;22.71;22.71
+32658;Thoracoscopy, surgical;20.11;20.11
+32659;Thoracoscopy, surgical;20.10;20.10
+32660;Thoracoscopy, surgical;28.57;28.57
+32661;Thoracoscopy, surgical;22.38;22.38
+32662;Thoracoscopy, surgical;26.96;26.96
+32663;Thoracoscopy, surgical;30.97;30.97
+32664;Thoracoscopy, surgical;23.38;23.38
+32665;Thoracoscopy, surgical;25.35;25.35
+32800;Repair lung hernia;25.02;25.02
+32810;Close chest after drainage;24.68;24.68
+32815;Close bronchial fistula;39.55;39.55
+32820;Reconstruct injured chest;37.77;37.77
+32850;Donor pneumonectomy;0.00;0.00
+32851;Lung transplant, single;63.72;63.72
+32852;Lung transplant with bypass;68.67;68.67
+32853;Lung transplant, double;77.54;77.54
+32854;Lung transplant with bypass;81.64;81.64
+32900;Removal of rib(s);34.89;34.89
+32905;Revise & repair chest wall;35.86;35.86
+32906;Revise & repair chest wall;44.68;44.68
+32940;Revision of lung;33.75;33.75
+32960;Therapeutic pneumothorax;4.11;2.53
+32997;Total lung lavage;8.48;8.48
+32999;Chest surgery procedure;0.00;0.00
+33010;Drainage of heart sac;3.35;3.35
+33011;Repeat drainage of heart sac;3.39;3.39
+33015;Incision of heart sac;11.96;11.96
+33020;Incision of heart sac;22.12;22.12
+33025;Incision of heart sac;21.47;21.47
+33030;Partial removal of heart sac;33.41;33.41
+33031;Partial removal of heart sac;38.14;38.14
+33050;Removal of heart sac lesion;26.40;26.40
+33120;Removal of heart lesion;43.67;43.67
+33130;Removal of heart lesion;36.64;36.64
+33140;Heart revascularize (tmr);32.94;32.94
+33141;Heart tmr w/other procedure;6.96;6.96
+33200;Insertion of heart pacemaker;23.37;23.37
+33201;Insertion of heart pacemaker;21.10;21.10
+33206;Insertion of heart pacemaker;12.86;12.86
+33207;Insertion of heart pacemaker;14.84;14.84
+33208;Insertion of heart pacemaker;15.10;15.10
+33210;Insertion of heart electrode;4.75;4.75
+33211;Insertion of heart electrode;4.91;4.91
+33212;Insertion of pulse generator;10.58;10.58
+33213;Insertion of pulse generator;11.89;11.89
+33214;Upgrade of pacemaker system;14.46;14.46
+33215;Reposition pacing-defib lead;8.27;8.27
+33216;Insert lead pace-defib, one;11.46;11.46
+33217;Insert lead pace-defib, dual;11.69;11.69
+33218;Repair lead pace-defib, one;10.52;10.52
+33220;Repair lead pace-defib, dual;10.60;10.60
+33222;Revise pocket, pacemaker;9.43;9.43
+33223;Revise pocket, pacing-defib;12.31;12.31
+33224;Insert pacing lead & connect;13.33;13.33
+33225;L ventric pacing lead add-on;11.81;11.81
+33226;Reposition l ventric lead;12.84;12.84
+33233;Removal of pacemaker system;7.63;7.63
+33234;Removal of pacemaker system;14.04;14.04
+33235;Removal pacemaker electrode;16.58;16.58
+33236;Remove electrode/thoracotomy;23.47;23.47
+33237;Remove electrode/thoracotomy;25.06;25.06
+33238;Remove electrode/thoracotomy;26.05;26.05
+33240;Insert pulse generator;13.90;13.90
+33241;Remove pulse generator;7.16;7.16
+33243;Remove eltrd/thoracotomy;36.07;36.07
+33244;Remove eltrd, transven;23.24;23.24
+33245;Insert epic eltrd pace-defib;26.60;26.60
+33246;Insert epic eltrd/generator;37.29;37.29
+33249;Eltrd/insert pace-defib;24.30;24.30
+33250;Ablate heart dysrhythm focus;37.28;37.28
+33251;Ablate heart dysrhythm focus;41.82;41.82
+33253;Reconstruct atria;51.53;51.53
+33261;Ablate heart dysrhythm focus;42.49;42.49
+33282;Implant pat-active ht record;9.47;9.47
+33284;Remove pat-active ht record;7.12;7.12
+33300;Repair of heart wound;31.91;31.91
+33305;Repair of heart wound;37.65;37.65
+33310;Exploratory heart surgery;33.20;33.20
+33315;Exploratory heart surgery;39.01;39.01
+33320;Repair major blood vessel(s);29.89;29.89
+33321;Repair major vessel;35.62;35.62
+33322;Repair major blood vessel(s);36.45;36.45
+33330;Insert major vessel graft;36.85;36.85
+33332;Insert major vessel graft;39.59;39.59
+33335;Insert major vessel graft;50.03;50.03
+33400;Repair of aortic valve;46.59;46.59
+33401;Valvuloplasty, open;39.95;39.95
+33403;Valvuloplasty, w/cp bypass;41.08;41.08
+33404;Prepare heart-aorta conduit;45.79;45.79
+33405;Replacement of aortic valve;56.38;56.38
+33406;Replacement of aortic valve;59.88;59.88
+33410;Replacement of aortic valve;52.57;52.57
+33411;Replacement of aortic valve;58.38;58.38
+33412;Replacement of aortic valve;66.43;66.43
+33413;Replacement of aortic valve;67.86;67.86
+33414;Repair of aortic valve;52.12;52.12
+33415;Revision, subvalvular tissue;46.45;46.45
+33416;Revise ventricle muscle;50.61;50.61
+33417;Repair of aortic valve;49.62;49.62
+33420;Revision of mitral valve;34.30;34.30
+33422;Revision of mitral valve;42.27;42.27
+33425;Repair of mitral valve;42.58;42.58
+33426;Repair of mitral valve;53.29;53.29
+33427;Repair of mitral valve;62.89;62.89
+33430;Replacement of mitral valve;53.99;53.99
+33460;Revision of tricuspid valve;40.75;40.75
+33463;Valvuloplasty, tricuspid;43.66;43.66
+33464;Valvuloplasty, tricuspid;46.27;46.27

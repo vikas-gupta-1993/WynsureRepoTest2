@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P13]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1036\f0\fs16        \cf2\b\f1 Date d'effet des garanties  
+\par      \cf1\b0\f0 Les garanties prennent effet, sous r\f1\'e9serve de satisfaire aux conditions d'admission et de l'encaissement effectif 
+\par        de la  1\'e8re  cotisation par l'Assureur, soit \'e0 la date de signature de la demande de souscription, soit \'e0 l'expiration 
+\par        d'un d\'e9lai de 30 jours calendaires r\'e9volus.  
+\par        Ce d\'e9lai court \'e0 compter de la date de signature de la demande de souscription. 
+\par        Vous manifestez votre choix lors de la signature de la demande de souscription.  
+\par        \cf2\b\'c9ch\'e9ance du contrat
+\par      \cf1\b0 Le contrat est conclu pour une dur\'e9e de 5 ans. Il se renouvelle ensuite annuellement par tacite reconduction. 
+\par        L'Assureur s'engage \'e0 ne pas r\'e9silier votre contrat durant les 5 premi\'e8res ann\'e9es sauf dans les cas mentionn\'e9s 
+\par        et selon les conditions pr\'e9vues \'e0 l'article 4 "Cessation des garanties et du contrat" et ce, quelle que soit l'\'e9volution 
+\par        de votre \'e9tat de sant\'e9.    \cf2\b   \cf1\b0\f0   
+\par \f1        
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Date d'effet des garanties et durée du contrat]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Garantie Accident CG Date d'effet des garanties et durée du con]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[14]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

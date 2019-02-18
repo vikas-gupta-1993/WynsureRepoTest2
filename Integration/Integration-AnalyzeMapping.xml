@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Integration-AnalyzeMapping">
+   <aWFxIntegAnalyzeMappingDesc name="Analyzing Mapping">
+      <Name>Analyzing Mapping</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <theDBDef>
+         <aOracleOCI9DBDef name="Wynsure56_Oracle"></aOracleOCI9DBDef>
+      </theDBDef>
+   </aWFxIntegAnalyzeMappingDesc>
+      <aWFxIntegAnalyzeMappingDesc name="Analyzing Mapping">
+      <Name>Analyzing Mapping</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <theDBDef>
+         <aSQLServerDBDef name="Wynsure56_SQLServer"></aSQLServerDBDef>
+      </theDBDef>
+   </aWFxIntegAnalyzeMappingDesc>
+</aWEXIntegrationPlanDesc>

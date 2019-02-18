@@ -1,0 +1,20 @@
+#Premium .section-content{
+	padding: 20px 0 20px 0;
+}
+
+.CoverageAmount h6 {
+	text-rendering: auto;
+}
+#Premium p,
+td.premiumColumn{
+	color: green;
+}
+
+#Premium p{	
+    font: 15px "Trebuchet MS", sans-serif;
+	text-align : center;
+}
+
+body .premiumsTable tbody tr:first-child{
+	
+}

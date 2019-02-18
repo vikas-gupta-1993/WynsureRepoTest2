@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"picker":"awlicontractpicker",
+			"params":[
+				{
+					"name":"myContractNumber",
+					"value":"4800000501"
+				}
+			]
+		}
+	},
+	"response":[
+		{
+			"className":"aWLIFR_GroupBenefitPlanContract",
+			"summary":{
+				"contractNumber":"4800000501",
+				"subscriberName":"ADLC COORDINATION SECURITE ET PROTECTION SANTE (ADL)",
+				"status":"Actif",
+				"effectiveDate":"2018-12-23",
+				"terminationDate":null,
+				"terminationReason":"",
+				"productName":"Offre Collective Standard Prévoyance",
+				"issuingCompany":"W Assurance SA",
+				"distributionUnit":"Gestion interne"
+			}
+		}
+	],
+	"eval":null,
+	"className":"asf_managepicker",
+	"methodName":"ExecutePicker",
+	"version":"5.8.2.0",
+	"date":"2018-07-11",
+	"errors":[
+	]
+}

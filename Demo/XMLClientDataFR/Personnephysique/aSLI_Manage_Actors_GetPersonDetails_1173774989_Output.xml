@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1998-08-09</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>NGUYEN AN NINH</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>72000</ZipCode>
+               <City>Binh Duong</City>
+            </ZipCodeAndCity>
+            <Country>VNM</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(84-64) 3594887</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>(84-64) 3594887</CellPhone>
+         <Fax>(84-64) 3594887</Fax>
+         <eMail>tkeat.choeung@free.com</eMail>
+         <MediaType>Courrier</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns_1:aSPCB_Fr_BankAccount">
+         <Name>BNP</Name>
+         <EffectiveDate>2000-01-01</EffectiveDate>
+         <HolderName>CHOEUNG</HolderName>
+         <Currency>cEuro</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>BNP Op&#233;ra</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>BNP</BankName>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>23 bd des Italiens</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>75002</ZipCode>
+               <City>PARIS</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <BankCode>08588</BankCode>
+         <OfficeCode>49387</OfficeCode>
+         <AccountNumber>05169117168</AccountNumber>
+         <RIBKey>96</RIBKey>
+         <IBAN>FR7608588493870516911716896</IBAN>
+         <BIC>CEPAFRPP118</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>tkeat.choeung@free.com</Name>
+                  <Password>Tk747252NG</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>tkeat.choeung@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Client</Name>
+                     <Code>WC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000074WEX</ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+      <Name>CHOEUNG</Name>
+      <ShortName>Tkeat</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferredLanguageCode></PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1998-08-09</BirthDate>
+      <PersonTitleEnum>1</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gFemale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>FRA</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>FRA</BirthCountry>
+      <BirthPlaceCity>Binh Duong</BirthPlaceCity>
+      <BirthPlaceZipCode>72000</BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Employ&#233; interne</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+            <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>N&apos;est pas VIP</ValueCode>
+            <FieldValue>N&apos;est pas VIP</FieldValue>
+            <NameDescription>N&apos;est pas VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <EnrollmentOrganism></EnrollmentOrganism>
+      <SSN>298083777128311</SSN>
+      <MaritalStatus>cSingle</MaritalStatus>
+   </PersonIdentity>
+</_Result>

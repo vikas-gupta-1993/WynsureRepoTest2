@@ -1,0 +1,36 @@
+{
+	"description":"Example for create loss and automatic is true",
+	"request":{
+		"input":{
+			"accountID":{
+				"buid":"318837807_301",
+				"accountId":"",
+				"clientId":{
+					"buid":"",
+					"internalClientId":"0000000037",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				}
+			},
+			"automatic":true,
+			"accountLineID":null,
+			"amount":{
+				"amount":200
+			},
+			"transactionDate":"{{currentDate}}",
+			"profitOrLoss":"cpolLoss"
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"CreateProfitOrLoss",
+	"version":"5.8.2.0",
+	"date":"2018-08-17",
+	"errors":[
+	]
+}

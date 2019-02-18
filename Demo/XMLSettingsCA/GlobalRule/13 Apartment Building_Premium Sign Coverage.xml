@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[BA]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[10]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Building Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[94]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[L]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[10]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Limit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771184]]></NSId><Id Id="2"><![CDATA[26]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+uses aWFRuleDesc, aWFStandAloneRule
+
+BuildingAge : Int4
+Limit : Num8
+
+
+function ApartmentBuilding_BuildingAgeCredit(BuildingAge : Int4, GivenPremium : Num8) return Num8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(BuildingAge, 0, tmpRule)
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(GivenPremium, 1, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : Num8)
+   Result = 2 * self.Limit / 100
+   Result = self.ApartmentBuilding_BuildingAgeCredit(self.BuildingAge, Result)
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><Name>Building Age</Name><NSId>318771174</NSId><Id>97</Id></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><Name>Given Premium</Name><NSId>318771184</NSId><Id>31</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><Name>Apartment Building-Building Age Credit</Name><NSId>318768706</NSId><Id>13</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Building Age Credit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[13]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[10]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Apartment Building-Premium Sign Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[10]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Premium Sign Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[10]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

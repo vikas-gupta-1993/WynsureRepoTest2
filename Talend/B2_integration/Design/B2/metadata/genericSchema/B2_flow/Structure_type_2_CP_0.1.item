@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Rx22cCfxEeaDh8k0rzOGLw" name="Structure_type_2_CP" label="Structure_type_2_CP" dataPackage="_V_f_4he8EeaJcYNBvudP9Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_V_f_4he8EeaJcYNBvudP9Q" name="repository.metadataGenericSchema" dataManager="_Rx22cCfxEeaDh8k0rzOGLw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_V_f_4xe8EeaJcYNBvudP9Q" id="_Ujm4YBe2EeaJcYNBvudP9Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_5Be8EeaJcYNBvudP9Q" name="Idntfr" label="Idntfr" length="8" precision="-1" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_5Re8EeaJcYNBvudP9Q" name="Type" label="Type" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_5he8EeaJcYNBvudP9Q" name="Provider" label="Provider" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_5xe8EeaJcYNBvudP9Q" name="Filler" label="Filler" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_6Be8EeaJcYNBvudP9Q" name="NIR" label="NIR" length="13" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_6Re8EeaJcYNBvudP9Q" name="NIR_key" label="NIR_key" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W6yfICfxEeaDh8k0rzOGLw" name="Rank_benef" label="Rank_benef" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_6he8EeaJcYNBvudP9Q" name="Bill" label="Bill" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_7he8EeaJcYNBvudP9Q" name="Operation" label="Operation" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_7xe8EeaJcYNBvudP9Q" name="NumberIn" label="NumberIn" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_8xe8EeaJcYNBvudP9Q" name="Scheme" label="Scheme" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_9Be8EeaJcYNBvudP9Q" name="Desk" label="Desk" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_9Re8EeaJcYNBvudP9Q" name="Center" label="Center" length="4" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_9he8EeaJcYNBvudP9Q" name="KindInfo" label="KindInfo" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_56otMCfxEeaDh8k0rzOGLw" name="DatePreAuthorization" label="DatePreAuthorization" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6MLwMCfxEeaDh8k0rzOGLw" name="DateVitale" label="DateVitale" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6OVsUCfxEeaDh8k0rzOGLw" name="OrganismVitale" label="OrganismVitale" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_-Re8EeaJcYNBvudP9Q" name="HealthCareScheme" label="HealthCareScheme" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_-he8EeaJcYNBvudP9Q" name="NatureInsurance" label="NatureInsurance" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f_-xe8EeaJcYNBvudP9Q" name="ExoTM" label="ExoTM" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f__Be8EeaJcYNBvudP9Q" name="HospitalizationDate" label="HospitalizationDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f__Re8EeaJcYNBvudP9Q" name="IdAccident" label="IdAccident" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7-ARECPpEeaHCYR3YQxvWA" name="Filler_2" label="Filler_2" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8AMpcCPpEeaHCYR3YQxvWA" name="BirthDate" label="BirthDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8Ctx8CPpEeaHCYR3YQxvWA" name="BenefRank" label="BenefRank" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IqBQsCPqEeaHCYR3YQxvWA" name="StartDate" label="StartDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_64WdMCfyEeaDh8k0rzOGLw" name="EndDate" label="EndDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8hVNMCfyEeaDh8k0rzOGLw" name="HourEnd" label="HourEnd" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_975twCfyEeaDh8k0rzOGLw" name="ContractType" label="ContractType" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-N41oCfyEeaDh8k0rzOGLw" name="IdOC" label="IdOC" length="10" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_V_f__he8EeaJcYNBvudP9Q" name="IdntfrParent" label="IdntfrParent" length="8" precision="-1" talendType="id_Long" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

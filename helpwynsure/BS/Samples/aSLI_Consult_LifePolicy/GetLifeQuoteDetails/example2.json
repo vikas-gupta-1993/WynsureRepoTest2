@@ -1,0 +1,190 @@
+{
+	"description":"",
+	"request":{
+		
+		"contractId":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			},
+			"buid":"318842957_9"
+		}
+	},
+	"response":{
+		"className":"aSPLI_GetQuoteDetails_Out",
+		"subscriber":"",
+		"billFrequency":"fMonthly",
+		"premium":{
+			"amount":0,
+			"currency":"cUSDollar"
+		},
+		"factoredPremiums":{
+			"className":"aSPLI_FactorPremiums_Out",
+			"lines":[
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"List Bill All Frequencies - Advanced",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"List Bill All Frequencies - Arrears",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"Payroll Deduction - Arrears",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"Summary BIll All Frequencies - Arrears",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"SA BIll All Frequencies - Advanced",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"Payroll Deduction - Advanced",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"Summary BIll All Frequencies - Advanced",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				},
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"SA BIll All Frequencies - Arrears",
+					"billingModeFrequency":"meUndefined",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				}
+			],
+			"baseBillingService":null
+		},
+		"premiumDetails":"{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 MS Sans Serif;}}\r\n{\\colortbl ;\\red0\\green0\\blue0;}\r\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs16\\par\r\n}\r\n\\page ",
+		"coverages":[
+			{
+				"className":"aSPLI_GetQuoteLifeCoverage_Out",
+				"insuredPersons":[
+					"Pranay Patil (Owner)"
+				],
+				"coverageAmount":{
+					"amount":5000,
+					"currency":"cUSDollar"
+				},
+				"beneficiaries":[
+				],
+				"name":"Critical Illness Employee - CI_E#0",
+				"benefitDescription":"",
+				"premium":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"premiumDetails":"",
+				"buid":""
+			}
+		],
+		"generalProvisions":[
+		],
+		"policyBenefits":[
+		],
+		"illustrations":[
+		],
+		"stateCode":{
+			"stateLabel":"Owner Residence State",
+			"stateName":"AK",
+			"stateCode":"AK"
+		},
+		"subscribers":[
+			"Pranay Patil"
+		],
+		"preferredPolicyContacts":[
+		],
+		"quote":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"4800000519",
+				"issuingCompanyCode":"WIC"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":"AA"
+			},
+			"buid":"318842957_9"
+		},
+		"validFromDate":"2017-11-24",
+		"toDate":null,
+		"status":"cActive",
+		"productName":"Master Product Standard",
+		"issuingCompany":"W Insurance Company",
+		"distributionUnit":"Internal Agents"
+	},
+	"className":"aSLI_Consult_LifePolicy",
+	"methodName":"GetLifeQuoteDetails",
+	"version":"5.7.3.0",
+	"date":"2017-12-11",
+	"errors":[
+	]
+}

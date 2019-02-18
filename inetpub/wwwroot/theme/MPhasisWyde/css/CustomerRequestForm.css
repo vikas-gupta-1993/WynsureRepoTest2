@@ -1,0 +1,16 @@
+.AttachFileLink {
+  line-height: 30px;
+}
+
+.field-wrapper textarea {
+	width: 500px;
+	height: 300px;
+}
+
+.fields .control-group .control-group {
+  margin-bottom: 10px;
+}
+
+#AttachedFilesTable {
+  margin-top: 5px;
+}

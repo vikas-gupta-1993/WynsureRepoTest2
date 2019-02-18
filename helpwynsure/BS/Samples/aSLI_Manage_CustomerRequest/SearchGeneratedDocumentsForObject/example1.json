@@ -1,0 +1,41 @@
+{
+	"description":"",
+	"request":{
+		
+		"criteria":{
+			"clientID":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"fromDate":"2018-01-01",
+			"toDate":"2019-01-01",
+			"objectBUID":""
+		},
+		"maxSize":0
+	},
+	"response":[
+	],
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchGeneratedDocumentsForObject",
+	"version":"5.8.2.0",
+	"date":"2018-07-18",
+	"errors":[
+		{
+			"code":"4D72_BS_00026",
+			"message":"L'identifiant du client n'est pas consistant",
+			"kind":"Information",
+			"kindNumber":4
+		},
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Introuvable",
+			"kindNumber":8
+		}
+	]
+}

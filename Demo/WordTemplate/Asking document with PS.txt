@@ -1,0 +1,2 @@
+Claim	Asking Date	PersonAddressee_PersonName	PersonAddressee_FirstName	PersonAddressee_PersonTitleEnum	PersonAddressee_Gender	PersonAddressee_MainAddress_Line1	PersonAddressee_MainAddress_Line2	PersonAddressee_MainAddress_City	PersonAddressee_MainAddress_Country	PersonAddressee_ActorAsCustomer_ClientId	AskingDocuments_1_DocumentName	Post scriptum	
+Warning asking document	08/18/2006	Esberto	Laurence	MRS	Female	8541 Lexington Avenue		NEW YORK	USA	1546541	Salary attestation	Nothing to say	

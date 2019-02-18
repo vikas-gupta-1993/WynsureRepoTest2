@@ -1,0 +1,29 @@
+echo Creating launchers
+IF "%GSP_ALIAS%"=="" SET GSP_ALIAS=GSP
+SET WPORTALROOTPATH=%ENV-ROOT%\bin\%PRODUCTNAME%
+
+:FR
+SET FRSITEROOTPATH=%WPORTALROOTPATH%\FR
+IF NOT EXIST "%FRSITEROOTPATH%\%SITENAME%" mkdir "%FRSITEROOTPATH%\%SITENAME%" >> %LOG% 2>&1
+for %%P in (%VIRTUAL_DIR_LIST%) do call %BATCH%\create_launcher.bat "%FRSITEROOTPATH%\%SITENAME%\%%P.bat" %%P
+copy /Y "%BATCH%\WySeMan.bat" "%FRSITEROOTPATH%" >> %LOG% 2>&1
+xcopy "%CONFIGWSMFRSOURCE%\*" "%FRSITEROOTPATH%" /E /R /C /I /Y /H /G >> %LOG% 2>&1
+call %BATCH%\repl_in_file.bat "%FRSITEROOTPATH%\WySeMan.bat" {SERVER_PORT} %SERVER_PORT%
+call %BATCH%\repl_in_file.bat "%FRSITEROOTPATH%\WNETCONF.ini" {WYDE_ROOT} %WYDE-ROOT%
+call %BATCH%\repl_in_file.bat "%FRSITEROOTPATH%\WNETCONF.ini" {GSP_ALIAS} %GSP_ALIAS%
+call %BATCH%\repl_in_file.bat "%FRSITEROOTPATH%\WNETCONF.ini" {GSP_CONFIG_FILE} %GSP_CONFIG_FILE%
+
+:ML-EN
+SET ENSITEROOTPATH=%WPORTALROOTPATH%\ML-EN
+IF NOT EXIST "%ENSITEROOTPATH%\%SITENAME%" mkdir "%ENSITEROOTPATH%\%SITENAME%" >> %LOG% 2>&1
+for %%P in (%VIRTUAL_DIR_LIST%) do call %BATCH%\create_launcher.bat "%ENSITEROOTPATH%\%SITENAME%\%%P.bat" %%P
+copy /Y "%BATCH%\WySeMan.bat" "%ENSITEROOTPATH%" >> %LOG% 2>&1
+xcopy "%CONFIGWSMENSOURCE%\*" "%ENSITEROOTPATH%" /E /R /C /I /Y /H /G >> %LOG% 2>&1
+call %BATCH%\repl_in_file.bat "%ENSITEROOTPATH%\WySeMan.bat" {SERVER_PORT} %SERVER_PORT%
+call %BATCH%\repl_in_file.bat "%ENSITEROOTPATH%\WNETCONF.ini" {WYDE_ROOT} %WYDE-ROOT%
+call %BATCH%\repl_in_file.bat "%ENSITEROOTPATH%\WNETCONF.ini" {GSP_ALIAS} %GSP_ALIAS%
+call %BATCH%\repl_in_file.bat "%ENSITEROOTPATH%\WNETCONF.ini" {GSP_CONFIG_FILE} %GSP_CONFIG_FILE%
+
+echo to launch easily wPortal, execute any batch in one of the following folder :
+echo %ENSITEROOTPATH%\%SITENAME%\
+echo %FRSITEROOTPATH%\%SITENAME%\

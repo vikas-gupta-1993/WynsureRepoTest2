@@ -1,0 +1,17 @@
+{
+	"description":"",
+	"request":{
+		"conversionSystemCode":"WSB",
+		"conversionDate":"{{currentDate}}"
+	},
+	"response":{
+		"_Result":1
+	},
+	"eval":null,
+	"className":"aSCB_Manage_ConversionSystems",
+	"methodName":"GetConversionRateForSystem",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

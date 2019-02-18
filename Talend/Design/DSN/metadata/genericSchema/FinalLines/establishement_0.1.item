@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_U_e0oBZlEeeah92pizZ-QQ" dataPackage="_U_e0oRZlEeeah92pizZ-QQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_U_e0oRZlEeeah92pizZ-QQ" dataManager="_U_e0oBZlEeeah92pizZ-QQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_U_e0ohZlEeeah92pizZ-QQ" id="_U_ajMBZlEeeah92pizZ-QQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U_e0oxZlEeeah92pizZ-QQ" name="ID" label="ID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_U_e0pBZlEeeah92pizZ-QQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2HeIBZlEeeah92pizZ-QQ" name="compagnyID" label="compagnyID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U_e0pRZlEeeah92pizZ-QQ" name="Siren" label="Siren" length="9" talendType="id_String">
+        <initialValue xmi:id="_U_e0phZlEeeah92pizZ-QQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a8EH0BZlEeeah92pizZ-QQ" name="Nic" label="Nic" length="5" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

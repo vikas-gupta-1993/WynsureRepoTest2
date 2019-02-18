@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLIMemberContractTerminationReasonEnum><AllowReinstatement Id="1"><![CDATA[No]]></AllowReinstatement><Code Id="1"><![CDATA[RC]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[Requested by Client]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773433]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIMemberContractTerminationReasonEnum></EntityExport>

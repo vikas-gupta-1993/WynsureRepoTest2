@@ -1,0 +1,618 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##3",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"407 SARAH DR",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"07921",
+						"city":"Bedminster"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NJ",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(270) 522-9957",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"(270) 522-9957",
+				"fax":"(270) 522-9957",
+				"eMail":"cookappliancereparservice@free.com",
+				"mediaType":"Mail",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2013-05-24",
+				"endDate":null,
+				"holderName":"Cook's Appliance Repar Service",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"4788 LEXINGTON AVENUE",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867116046",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2014-01-01"
+			}
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Secretary",
+				"contactName":"John Smith",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Director",
+				"contactName":"William Doe",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Sales man",
+				"contactName":"Kent Johns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Financial director",
+				"contactName":"Ruth Browns",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Project manager",
+				"contactName":"Steve Powell",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Chief executive officer",
+				"contactName":"Roberta Jackson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Advisor",
+				"contactName":"Elizabeth White",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Staff manager",
+				"contactName":"Sandy Robinson",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Accountant",
+				"contactName":"Heather Clarck",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Technical director",
+				"contactName":"Maria Walker",
+				"beginDate":null,
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1800-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"407 SARAH DR",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"07921",
+							"city":"Bedminster"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"NJ",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(270) 522-9957",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(270) 522-9957",
+					"fax":"(270) 522-9957",
+					"eMail":"cookappliancereparservice@free.com",
+					"mediaType":"Mail",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"Mail",
+				"isDeaultContact":false
+			}
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Broker",
+							"code":"WB"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Group Admin",
+							"code":"WGA"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Legal Entity Client",
+							"code":"WLEC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Internal Agents (Distributor) (Direct Distribution)",
+						"unitCode":"AA"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"cookappliance reparservice@free.com",
+						"name":"cookappliance reparservice@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"cookappliancereparservice@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##3",
+						"description":"Cook's Appliance Repar Service (COO)"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"cookappliance reparservice@free.com",
+					"name":"cookappliance reparservice@free.com",
+					"actorReference":{
+						"className":"aSPLI_LegalEntityIdentifier",
+						"bUID":"",
+						"description":"Cook's Appliance Repar Service (COO)",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000066WEX",
+							"thirdPartyID":"DistRoot"
+						}
+					}
+				}
+			}
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000066WEX",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"COO",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"Cook's Appliance Repar Service",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"NY",
+			"industrialClassification":{
+				"classificationSystem":"SIC US",
+				"code":"3341"
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+				"MN",
+				"NY"
+			],
+			"taxId":"3"
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"Cook's Appliance Repar Service (COO)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000066WEX",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

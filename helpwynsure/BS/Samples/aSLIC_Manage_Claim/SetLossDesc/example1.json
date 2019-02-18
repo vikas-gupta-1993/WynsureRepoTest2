@@ -1,0 +1,47 @@
+{
+	"description":"",
+	"request":{
+		"claimDeclarationProcessIdentifier":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318848904_8",
+			"description":""
+		},
+		"lossIdentifier":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318848622_21",
+			"description":""
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLIC_STDLoss",
+		"lossName":"Short Term Disability",
+		"eventDate":null,
+		"eventTime":"0:00:00Z",
+		"declarationDate":null,
+		"declarationChannel":"mMail",
+		"status":"msOpen",
+		"lossDescription":"",
+		"lossType":[
+		],
+		"damagedPropertyKind":"dpPersonalEstate",
+		"injuryKind":"ikInjury",
+		"additionalData":[
+		],
+		"lossCode":"STD",
+		"disabilityEndDate":null,
+		"dateLastWorked":null,
+		"pregnancy":false,
+		"labourScheduledDate":null,
+		"labourDate":null
+	},
+	"eval":null,
+	"className":"aSLIC_manage_claim",
+	"methodName":"SetLossDesc",
+	"version":"5.8.2.0",
+	"date":"2018-08-17",
+	"errors":[
+	]
+}

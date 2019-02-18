@@ -1,0 +1,36 @@
+form div.action {
+	padding: 3px 0 5px 5px;	
+	display: inline-block;	
+	min-width: 200px;
+}
+
+.RightActionBar .action, .LeftActionBar .action {
+	width: 135px;
+	display: block;
+	min-height: 10em;
+}
+.RightActionBar .fields {
+	width: 590px;
+	float: left;
+}
+.RightActionBar .action {
+	margin-left: 605px;
+}
+.LeftActionBar .fields {
+	width: 590px;
+	margin-left: 160px;
+}
+.LeftActionBar .action {
+	float: left;
+}
+
+.action .button {
+	margin-bottom: 5px;
+	min-width: 80px;
+	max-width: 125px;
+	text-align: left;
+}
+
+#PortalWrapper .defaultButton {
+  color: darkblue;
+}

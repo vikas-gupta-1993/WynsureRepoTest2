@@ -1,0 +1,60 @@
+#DisplayGeneralInformationWrapper .ui-accordion-content, #DisplayDatesInformationWrapper .ui-accordion-content {
+	/* border define to 0 to remove the previous border from the accordeon*/
+	border: 0px;
+}
+
+#ProjectGeneralInformation{
+	width : 100%;
+	margin-bottom:9px;
+}
+
+#BillingInformation{
+	margin-top:9px;
+}
+
+#DisplayGeneralInformationWrapper{
+	width : 50%;
+}
+
+#DisplayDatesInformationWrapper{
+	width : 49%;
+}
+#ContenerToSeparateCell{
+	display:table-cell;
+	width : 1%;
+}
+#Coverages,#BillingInformation{
+	display : inline-block;
+	width:100%;
+}
+
+#ProjectGeneralInformation .accordion{
+	/* use accordion content style in the accordion => the background can go to the bottom of the cell*/
+	display:table-cell;
+	background: url("../theme/MPhasisWyde/images/bkg_box.png") scroll 0 0 #ECEDED;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: #DEDEDE;
+}
+
+#DatesInformation{
+	display : inline-block;
+	padding-left : 1%;
+	width : 49%;
+}
+
+#EditBillingWrapper{
+	position:absolute;
+	right: 10px;
+}
+
+#BillGeneralInformation{
+	width:50%;
+	float:left;
+}
+
+#BillLinesInformation{
+	display : inline-block;
+	width:100%;
+}

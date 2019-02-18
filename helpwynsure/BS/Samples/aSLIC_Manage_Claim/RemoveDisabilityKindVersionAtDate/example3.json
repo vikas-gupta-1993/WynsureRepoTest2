@@ -1,0 +1,51 @@
+{
+	"description":"",
+	"request":{
+		"lossIdentifier":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318847937_18",
+			"description":""
+		},
+		"disabilityKindVersion":{
+			"disabilityKind":"meUndefined",
+			"date":"{{currentDate}}"
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLIC_STDLoss",
+		"lossName":"Short Term Disability",
+		"eventDate":"2018-03-27",
+		"eventTime":null,
+		"declarationDate":"2018-03-27",
+		"declarationChannel":"mMail",
+		"status":"msOpen",
+		"lossDescription":"",
+		"lossType":[
+		],
+		"damagedPropertyKind":"dpPersonalEstate",
+		"injuryKind":"ikInjury",
+		"additionalData":[
+		],
+		"lossCode":"STD",
+		"disabilityEndDate":null,
+		"dateLastWorked":null,
+		"pregnancy":false,
+		"labourScheduledDate":null,
+		"labourDate":null
+	},
+	"eval":null,
+	"className":"aSLIC_manage_claim",
+	"methodName":"RemoveDisabilityKindVersionAtDate",
+	"version":"5.8.3.0",
+	"date":"2018-09-27",
+	"errors":[
+		{
+			"code":"SWF-F0005",
+			"message":"LossIdentifier",
+			"kind":"Cannot Find",
+			"kindNumber":8
+		}
+	]
+}

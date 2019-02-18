@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_USStates><DefaultValueEnumerate Id="1"><![CDATA[0]]></DefaultValueEnumerate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[001]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770575]]></NSId><Id Id="2"><![CDATA[29]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[ApplicationSignedStates]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771405]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_USStates></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses WFTypes, WFCountryTypes
+
+ApplicationSignedStates : tWFUSState
+
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   ;Suicide Exclusion period:2 years    
+   Result = 2
+   ;Suicide Exclusion period:1 year for CO and ND    
+   if (self.ApplicationSignedStates = cCO) or (self.ApplicationSignedStates = cND)
+      Result = 1
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107282]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936750423300113019</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[01/01/2000]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770575]]></NSId><Id Id="2"><![CDATA[29]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[SuicideExclusionPeriod]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768805]]></NSId><Id Id="2"><![CDATA[29]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Suicide_Exclusion_Period]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770575]]></NSId><Id Id="2"><![CDATA[29]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P19]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red128\green0\blue0;\red146\green148\blue152;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-346\slmult0\cf1\b\f0\fs16 Base des cotisations\cf2\b0\par
+\pard\nowidctlpar\li253\sl-293\slmult0\cf3 Le salaire servant de base au calcul des cotisations est la r\'e9mun\'e9ration brute de chaque participant pour la p\'e9riode de couverture \'e0 laquelle se rapportent les cotisations.\par
+\pard\nowidctlpar\li253\sl-280\slmult0 La r\'e9mun\'e9ration peut \'eatre limit\'e9e au choix de l'entreprise adh\'e9rente soit \'e0 la tranche A, soit \'e0 la somme de la tranche A et de la tranche B. Le choix est pr\'e9cis\'e9 sur le certificat d'adh\'e
+9sion.\par
+\pard\nowidctlpar\li253\sl-360\slmult0\b Tranche A :\b0  fraction de la r\'e9mun\'e9ration limit\'e9e au plafond annuel de la S\'e9curit\'e9 sociale.\par
+\pard\nowidctlpar\li253\sl-346\slmult0\b Tranche B :\b0  fraction de la r\'e9mun\'e9ration comprise entre une fois et quatre fois le plafond annuel de la S\'e9curit\'e9 sociale. Le montant du salaire plafond de la S\'e9curit\'e9 sociale consid\'e9r\'e9 es
+t celui en vigueur lors de l'\'e9ch\'e9ance de la cotisation.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\par
+\pard\nowidctlpar\sl-160\slmult0\cf1\b Base des prestations\cf2\b0\par
+\pard\nowidctlpar\li253\sl-293\slmult0\cf3 Le salaire servant de base au calcul des prestations est la r\'e9mun\'e9ration brute du participant pour les quatre trimestres civils pr\'e9c\'e9dant celui au cours duquel est survenu l'\'e9v\'e9nement donnant li
+eu \'e0 prestation. Si la r\'e9mun\'e9ration est forfaitaire, les prestations sont calcul\'e9es sur le forfait. Le montant du salaire plafond de la S\'e9curit\'e9 sociale consid\'e9r\'e9 est le dernier en vigueur lors des quatre trimestres civils de r\'e9
+f\'e9rence. En cas d'arr\'eat de travail, le salaire de base tient compte du maintien ou non du contrat de travail du participant par l'entreprise adh\'e9rente et de la reconnaissance ou non de son \'e9tat d'invalidit\'e9 :\par
+\pard\nowidctlpar\li253\sl-306\slmult0\bullet  tant que le contrat de travail est maintenu et que le participant n'est pas reconnu par l'Institution en \'e9tat d'invalidit\'e9 de 2\'e8me ou 3\'e8me cat\'e9gorie au sens de la S\'e9curit\'e9 sociale, les pr
+estations sont calcul\'e9es en fonction de la r\'e9mun\'e9ration brute telle qu'elle est d\'e9finie au 1\super\up2 er\nosupersub\up0 paragraphe du pr\'e9sent article ;\par
+\pard\nowidctlpar\li253\sl-320\slmult0\bullet  d\'e8s que l'une de ces conditions cesse d'exister, le calcul des prestations est effectu\'e9 en fonction de la r\'e9mun\'e9ration nette.\par
+\pard\nowidctlpar\li386\sl-280\slmult0 La r\'e9mun\'e9ration nette est \'e9gale \'e0 la r\'e9mun\'e9ration brute, d\'e9duction faite des cotisations sociales \'e0 la charge du participant (y compris CSG et CRDS) pendant les 4 trimestres civils pr\'e9c\'e9
+dant l'\'e9v\'e9nement.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\par
+\pard\nowidctlpar\sl-160\slmult0\cf1\b Cas particulier de l'affili\'e9 ayant moins d'un an d'activit\'e9\cf2\b0\par
+\pard\nowidctlpar\li253\sl-320\slmult0\cf3 Si le participant a une anciennet\'e9 insuffisante pour que son salaire de base soit \'e9valu\'e9 sur quatre trimestres civils, le salaire de base est r\'e9ajust\'e9 prorata temporis sur une base annuelle en fonc
+tion de la r\'e9mun\'e9ration brute de l'int\'e9ress\'e9 depuis son entr\'e9e au service de l'entreprise adh\'e9rente.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\par
+\pard\nowidctlpar\sl-160\slmult0\cf1\b Cas particulier du cong\'e9 sans solde\cf2\b0\par
+\pard\nowidctlpar\li253\sl-320\slmult0\cf3 Pour un participant b\'e9n\'e9ficiant du maintien de garantie pendant un cong\'e9 sans solde, le salaire servant de base au calcul des cotisations et des prestations est constitu\'e9 de la r\'e9mun\'e9ration brut
+e per\'e7ue au cours des quatre trimestres civils pr\'e9c\'e9dant le d\'e9part en cong\'e9 sans solde, \'e0 l'exclusion de toute indemnit\'e9 li\'e9e au d\'e9part.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Assiette des cotisations et des prestations]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Assiette des cotisations]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

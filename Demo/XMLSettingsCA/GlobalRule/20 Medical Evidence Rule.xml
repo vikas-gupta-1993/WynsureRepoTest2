@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[99]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[age]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[5]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[88]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[AMT]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[5]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Amount]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771184]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[True/False value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:3) (Implem Version:1)
+
+Age : Int4
+Amount : Num8
+
+
+procedure WFCalculate(inOut Result : Boolean)
+   ;
+   if (self.Age >= 18) and (self.Age <= 40)
+      ;
+      if self.Amount = 150000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Oral Test:Oral Fluid Test')
+         Result = True
+         ;
+      elseif (self.Amount > 150000) and (self.Amount <= 250000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Non-Medical Health Statement')
+         self.AppendComment('Oral Test:Oral Fluid Test')
+         Result = True
+         ;
+      elseif (self.Amount > 250000) and (self.Amount <= 1000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Non-Medical Health Statement')
+         self.AppendComment('Vitals')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 1000000) and (self.Amount <= 3000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 3000000) and (self.Amount <= 5000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+         ;
+      endIf
+   elseif (self.Age > 40) and (self.Age <= 50)
+      ;
+      if self.Amount <= 150000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Non-Medical Health Statement')
+         self.AppendComment('Oral Test:Oral Fluid Test')
+         Result = True
+         ;
+      elseif (self.Amount > 150000) and (self.Amount <= 500000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Non-Medical Health Statement')
+         self.AppendComment('Vitals')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 500000) and (self.Amount <= 1000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 1000000) and (self.Amount <= 5000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+         ;
+      endIf
+      ;
+   elseif (self.Age > 50) and (self.Age <= 55)
+      ;
+      if self.Amount <= 150000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Non-Medical Health Statement')
+         self.AppendComment('Oral Test:Oral Fluid Test')
+         Result = True
+         ;
+      elseif (self.Amount > 150000) and (self.Amount <= 500000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 500000) and (self.Amount <= 3000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif (self.Amount > 3000000) and (self.Amount <= 5000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+         ;
+      endIf
+      ;
+   elseif (self.Age > 55) and (self.Age <= 65)
+      ;
+      if self.Amount <= 250000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 250000) and (self.Amount <= 3000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif (self.Amount > 3000000) and (self.Amount <= 5000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+         ;
+      endIf
+      ;
+   elseif (self.Age > 65) and (self.Age <= 70)
+      ;
+      if self.Amount <= 150000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         Result = True
+         ;
+      elseif (self.Amount > 150000) and (self.Amount <= 1000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Paramedical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif (self.Amount > 1000000) and (self.Amount <= 5000000)
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+         ;
+      endIf
+   elseif self.Age > 70
+      ;
+      if self.Amount <= 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('ECG:Electrocardiogram')
+         Result = True
+         ;
+      elseif self.Amount > 5000000
+         self.AppendComment('Documents Requested')
+         self.AppendComment('Medical')
+         self.AppendComment('BCP:Blood Chemistry Profile')
+         self.AppendComment('Urine')
+         self.AppendComment('Stress ECG:Stress Electrocardiogram')
+         Result = True
+      endIf
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[01/01/2006]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[5]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Medical Evidence Rule]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Medical Evidence Rule]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

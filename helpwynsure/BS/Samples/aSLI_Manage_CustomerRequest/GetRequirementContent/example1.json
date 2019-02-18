@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		"docBUID":"318838325_6"
+	},
+	"response":{
+		"bUID":"318838325_6",
+		"docRef":"",
+		"fileName":"",
+		"content":"",
+		"fileExtension":"",
+		"documentDesc":{
+			"bUID":"",
+			"name":"",
+			"code":""
+		}
+	},
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"GetRequirementContent",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-11-06",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

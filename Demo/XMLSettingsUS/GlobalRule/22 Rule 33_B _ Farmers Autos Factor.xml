@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Is Farm Vehicle</Name><NSId>318779066</NSId><Id>8</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Is Not Farm Vehicle</Name><NSId>318779066</NSId><Id>9</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Is Not Farm Vehicle]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Yes]]></IsBooleanClassification><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[FVA]]></Code><Name Id="3"><![CDATA[Farm Vehicle]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318779065]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[FarmVehicle]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771304]]></NSId><Id Id="2"><![CDATA[71]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+type tWF_Generated_FarmVehicle_318778299_19 : (IsFarmVehicle, IsNotFarmVehicle)
+
+FarmVehicle : tWF_Generated_FarmVehicle_318778299_19
+
+
+procedure WFCalculate(inOut Result : Num8)
+   if self.FarmVehicle = IsFarmVehicle
+      Result = 0.75
+   else
+      Result = 1
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Rule 33.B - Farmers Autos Factor]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[]]></Comment><Name Id="3"><![CDATA[Rule 33.B - Farmers Autos Factor]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

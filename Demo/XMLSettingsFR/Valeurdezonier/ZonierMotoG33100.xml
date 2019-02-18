@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWF_FR_TerritoryValue><Territory><aWF_FR_Territory><Code Id="3"><![CDATA[ZMO]]></Code><UseStreet Id="23"><![CDATA[Faux]]></UseStreet><UseNumber Id="24"><![CDATA[Faux]]></UseNumber><Description Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Description><Name Id="3"><![CDATA[Zonier Moto]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318772626]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_FR_Territory></Territory><Country Id="82"><![CDATA[FRA]]></Country><ZipCode Id="76"><![CDATA[33100]]></ZipCode><StreetName Id="77"><![CDATA[]]></StreetName><StreetType Id="78"><![CDATA[]]></StreetType><LowNumber Id="80"><![CDATA[0]]></LowNumber><HighNumber Id="81"><![CDATA[0]]></HighNumber><NumberKind Id="83"><![CDATA[Impair]]></NumberKind><IsInactive Id="90"><![CDATA[Faux]]></IsInactive><Code Id="13"><![CDATA[G]]></Code><Name Id="3"><![CDATA[G]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318772630]]></NSId><Id Id="2"><![CDATA[173]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_FR_TerritoryValue></EntityExport>

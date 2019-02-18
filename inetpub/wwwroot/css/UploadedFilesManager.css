@@ -1,0 +1,83 @@
+#FileNameWrapper, #CreationToDateWrapper, #CreationFromDateWrapper, #TreatmentToDateWrapper, #TreatmentFromDateWrapper{
+	float:left;
+}
+
+#FileNameWrapper{
+	width: 40%;
+}
+
+#FileNameWrapper dd input{
+	width: 200px;
+}
+
+#CreationToDateWrapper, #CreationFromDateWrapper{
+	width: 30%;
+}
+
+
+#aPXLI_UploadedFilesBSPickerForm .FileNameCol{
+	max-width: 150px;
+	width: 150px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	white-space : nowrap;
+	word-wrap: break-word;
+	-o-text-overflow: ellipsis; /* Opera 9 */
+}
+
+#aPXLI_UploadedFilesBSPickerForm .FileNameCol:hover{
+  max-height: none;
+  white-space: normal;
+}
+
+
+#aPXLI_UploadedFilesBSPickerForm .BatchNameCol{
+	max-width: 150px;
+	width: 150px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	white-space : nowrap;
+	word-wrap: break-word;
+	-o-text-overflow: ellipsis; /* Opera 9 */
+}
+
+#aPXLI_UploadedFilesBSPickerForm .BatchNameCol:hover{
+  max-height: none;
+  white-space: normal;
+}
+
+
+#aPXLI_UploadedFilesBSPickerForm .CreationDateCol, #aPXLI_UploadedFilesBSPickerForm .CreationTimeCol{
+  width: 100px;
+  text-align: center;
+}
+
+#aPXLI_UploadedFilesBSPickerForm .FileStatusCol {
+  width: 50px;
+  text-align: center;
+}
+
+#aPXLI_UploadedFilesBSPickerForm .FileStatusCol span{
+  width: 100%;
+}
+
+#aPXLI_UploadedFilesBSPickerForm .ObjectCol {
+  width: 100px;
+  text-align: center;
+}
+ 
+.TreatedOKBackGround, .TreatedKOBackGround, .CanceledBackGround, .ToBeTreatBackGround, .download_button {
+	background-repeat:no-repeat;
+	background-position:center;
+	height : 16px;
+} 
+
+#CancelFilesTreatmentButton{
+	margin-top: 8px;
+}
+
+.TreatedOKBackGround{background-image:url(./images/UploadedFilesManager/TreatedOK16.png);}
+.TreatedKOBackGround{background-image:url(./images/UploadedFilesManager/TreatedKO16.png);}
+.CanceledBackGround	{background-image:url(./images/UploadedFilesManager/Canceled16.png);}
+.ToBeTreatBackGround{background-image:url(./images/UploadedFilesManager/ToBeTreat16.png);}
+.download_button	{background-image:url(./images/UploadedFilesManager/download_16.png);}

@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"buid":"{{personBUID}}",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		},
+		"maxSize":5
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"GetCustomerCashValueContracts",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

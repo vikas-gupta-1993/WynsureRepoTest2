@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<gui version="2.0" display="Mon Lanceur">
+ <intro height="50" href="toto.html">Test</intro>
+ <program id="Types">
+   <intro height="50">Test<b>bold</b></intro>
+  <command>
+   <workingpath></workingpath>
+   <commandpath></commandpath>
+   <commandline>REM {testtoto} {tdate} {type} {text} --test {check:quoted} {check2}</commandline>
+   <!-- S'il existe, appelé avant de lancer la commande -->
+   <validator>`
+       if "{dir}"=="": 
+           return 0; 
+        else:
+           return 1;
+   `</validator>
+  </command>
+  <command display="Test" redirect-to-id="out">REM Test {out}</command>
+  <command display="Cat">cat</command>
+  <arg id="type" display="Type" type="combo" default="2">Combo
+   <value display="Remarque">remark</value>
+   <value display="Alerte">alert</value>
+  </arg>
+  <arg id="tdate" params="onload">{:date}</arg>
+  <arg id="path">F:\test avec un espace\point.com</arg>
+  <arg id="testtoto">{path:urlencode}</arg>
+  <arg id="hidden" type="hidden">Blagreuh<toto>tout ça</toto></arg>
+  <arg id="text" type="text" params="number,maxlen=10">Test</arg>
+  <arg id="in" type="file" params="quoted" mask="Fichiers XML (*.xml)|*.xml">test.xml</arg>
+  <arg id="out" type="file" params="unquoted">{in,'add':append}</arg>
+  <arg id="dir" type="dir">{out:dir}</arg>
+  <arg id="check" display="Check This !" type="check" default="checked">Extra argment here</arg>
+  <arg id="check2" display="Check This Again !" type="check">
+    <checked>Checked</checked>
+    <unchecked>Unchecked</unchecked> 
+  </arg>
+  <out id="result" open-with="notepad">{out}</out>
+  <help display="Au Secours !">Inline Help</help>
+  <help href="toto.html" />
+  <settings>
+   <parameter id="display-input">yes</parameter>
+  </settings>
+ </program>
+ <tab display="Tests">
+  <program name="Addition">  
+   <command display="Nothing">dir</command>
+   <arg id="in" />
+   <arg id="n1">5</arg>
+   <arg id="n2">5</arg>
+   <arg id="n1_n2">{n1,n2:add}</arg>
+   <arg id="n1_n2_no" params="nointerpret">{n1,n2:add}</arg>
+  </program>
+ </tab>
+ <tab display="Propagation">
+  <program display="First">
+    <command display="Go !">REM {bfore:quoted} {after:quoted} {out:quoted}</command>
+    <arg id="bfore" />
+    <arg id="after" />
+    <arg id="out">{after,'-test':append}</arg>
+  </program>
+  <program display="Second">
+    <command display="Go !">REM {bfore:quoted} {after:quoted} {out:quoted}</command>
+    <arg id="bfore" />
+    <arg id="after" />
+    <arg id="out">{after,'-test':append}</arg>
+  </program>
+ </tab>
+ <tab display="About">
+   <intro height="100000">Copyright...</intro>
+ </tab>
+ <!-- Egalement présent dans un fichier settings.gui dans le même répertoire que le binaire, et chargé en premier s'il existe -->
+ <settings>
+   <parameter id="width">500</parameter>
+   <parameter id="height">500</parameter>
+   <parameter id="display-output">yes</parameter>
+   <parameter id="display-input">no</parameter>
+   <parameter id="display-out">yes</parameter>
+   <parameter id="buttons-align">horizontal</parameter>
+   <parameter id="popup-on-error">yes</parameter>
+   <string id="Process">Lance le traitement</string>
+   <string id="Help">Aide</string>
+   <string id="Arguments">Arguments</string>
+   <string id="Outputs">Résultats</string>
+   <string id="st_Ready">Pret.</string>
+   <string id="st_Done">Terminé.</string>
+   <string id="st_ChooseFile">Choix du fichier</string>
+   <string id="st_ChooseDir">Choix du répertoire</string>
+   <string id="st_Process">Traitement en cours...</string>
+   <string id="Command">Commande</string>
+   <string id="Input">Entrée utilisateur</string>
+   <string id="Send">Envoi</string>
+   <string id="CloseStream">Terminer</string>
+   <func id="dir" lang="python">os.path.dirname('{1}')</func>
+   <func id="file" lang="python">os.path.splitext(os.path.basename('{1}'))[0]</func>
+   <func id="ext" lang="python">os.path.splitext('{1}')[1]</func>
+   <func id="join" lang="python">os.path.join('{1}','{2}')</func>
+   <func id="add" lang="python">{1} + {2}</func>
+   <func id="quoted">"{1}"</func>
+   <func id="append">{'{'{1}':dir}','{'{'{1}':file}','{2}','{'{1}':ext}'}':join}</func>
+   <func id="toto">dototo</func>
+   <func id="urlencode" lang="python">urllib.pathname2url('{1}')</func>
+   <func id="date" lang="python">time.strftime("%Y%m%d")</func>
+</settings>
+</gui>

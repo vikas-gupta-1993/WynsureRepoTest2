@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+		"interventionID":{
+			"bUID":"318849319_1"
+		}
+	},
+	"response":[
+		{
+			"name":"example",
+			"content":"ew0KCSJkZXNjcmlwdGlvbiI6IiIsDQoJInJlcXVlc3QiOnsNCgkJInBvbGljeUlkIjp7DQoJCQkiY2xhc3NOYW1lIjoiYVNQQ0JfQ29udHJhY3RJZGVudGlmaWVyIiwNCgkJCSJiVUlEIjoiMzE4ODU1OTc5XzQiLA0KCQkJImRlc2NyaXB0aW9uIjoiIiwNCgkJCSJpbnRlcm5hbENvbnRyYWN0SUQiOiIiLA0KCQkJImV4dGVybmFsQ29udHJhY3RJRCI6IiINCgkJfSwNCgkJImxvYW5EYXRhIjp7DQoJCQkiY2xhc3NOYW1lIjoiYVNQTE9fTG9hbkRhdGEiLA0KCQkJImxvYW5JZGVudGlmaWVyIjp7DQoJCQkJImJ1aWQiOiIiLA0KCQkJCSJuYW1lIjoiU2ltcGxlIExlYXNpbmcgTG9hbiAgIzIiDQoJCQl9LA0KCQkJImxlbmRlciI6ew0KCQkJCSJjbGFzc05hbWUiOiJhU1BMT19HZXRMZW5kZXIiLA0KCQkJCSJzZWFyY2hMZW5kZXIiOnsNCgkJCQkJImJ1aWQiOiIzMTg4NTQzMjdfMTAiLA0KCQkJCQkibmFtZSI6IiIsDQoJCQkJCSJhZ2VuY3kiOiIiLA0KCQkJCQkiY2l0eSI6IiINCgkJCQl9DQoJCQl9DQoJCX0NCgl9LA0KCSJyZXNwb25zZSI6ew0KCQkicHJvY2Vzc0lEIjp7DQoJCQkiY2xhc3NOYW1lIjoiYVNQRl9JZGVudGlmaWVyIiwNCgkJCSJiVUlEIjoiMzE4ODQ0NTY0XzMiLA0KCQkJImRlc2NyaXB0aW9uIjoiIg0KCQl9LA0KCQkiY29udHJhY3RJRCI6ew0KCQkJImJ1aWQiOiIzMTg4NTU5NzlfNCIsDQoJCQkiaW50ZXJuYWxQb2xpY3lJZGVudGlmaWVyIjp7DQoJCQkJImludGVybmFsUG9saWN5SWQiOiI0ODAwMDAwNTEwIiwNCgkJCQkiaXNzdWluZ0NvbXBhbnlDb2RlIjoiV0FTIg0KCQkJfSwNCgkJCSJleHRlcm5hbFBvbGljeUlkZW50aWZpZXIiOnsNCgkJCQkiZXh0ZXJuYWxQb2xpY3lJZCI6IiIsDQoJCQkJInRoaXJkUGFydHlJRCI6IkNFVCINCgkJCX0NCgkJfSwNCgkJImNvbnRyYWN0RW5kb3JzZW1lbnRPclN1YnNjcmlwdGlvblN0YXR1cyI6ImVzSW5Qcm9ncmVzcyINCgl9LA0KCSJjbGFzc05hbWUiOiJhc2xvX2VuZG9yc2VfbG9hbnBvbGljeSIsDQoJIm1ldGhvZE5hbWUiOiJMb2FuUGFyYW1ldGVyQ2hhbmdlRW5kb3JzZW1lbnQiLA0KCSJ2ZXJzaW9uIjoiNS44LjEuMCIsDQoJImRhdGUiOiIyMDE4LTA0LTA0IiwNCgkiZXJyb3JzIjpbDQoJXQ0KfQ==",
+			"contentAsText":"{\r\n\t\"description\":\"\",\r\n\t\"request\":{\r\n\t\t\"policyId\":{\r\n\t\t\t\"className\":\"aSPCB_ContractIdentifier\",\r\n\t\t\t\"bUID\":\"318855979_4\",\r\n\t\t\t\"description\":\"\",\r\n\t\t\t\"internalContractID\":\"\",\r\n\t\t\t\"externalContractID\":\"\"\r\n\t\t},\r\n\t\t\"loanData\":{\r\n\t\t\t\"className\":\"aSPLO_LoanData\",\r\n\t\t\t\"loanIdentifier\":{\r\n\t\t\t\t\"buid\":\"\",\r\n\t\t\t\t\"name\":\"Simple Leasing Loan  #2\"\r\n\t\t\t},\r\n\t\t\t\"lender\":{\r\n\t\t\t\t\"className\":\"aSPLO_GetLender\",\r\n\t\t\t\t\"searchLender\":{\r\n\t\t\t\t\t\"buid\":\"318854327_10\",\r\n\t\t\t\t\t\"name\":\"\",\r\n\t\t\t\t\t\"agency\":\"\",\r\n\t\t\t\t\t\"city\":\"\"\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t},\r\n\t\"response\":{\r\n\t\t\"processID\":{\r\n\t\t\t\"className\":\"aSPF_Identifier\",\r\n\t\t\t\"bUID\":\"318844564_3\",\r\n\t\t\t\"description\":\"\"\r\n\t\t},\r\n\t\t\"contractID\":{\r\n\t\t\t\"buid\":\"318855979_4\",\r\n\t\t\t\"internalPolicyIdentifier\":{\r\n\t\t\t\t\"internalPolicyId\":\"4800000510\",\r\n\t\t\t\t\"issuingCompanyCode\":\"WAS\"\r\n\t\t\t},\r\n\t\t\t\"externalPolicyIdentifier\":{\r\n\t\t\t\t\"externalPolicyId\":\"\",\r\n\t\t\t\t\"thirdPartyID\":\"CET\"\r\n\t\t\t}\r\n\t\t},\r\n\t\t\"contractEndorsementOrSubscriptionStatus\":\"esInProgress\"\r\n\t},\r\n\t\"className\":\"aslo_endorse_loanpolicy\",\r\n\t\"methodName\":\"LoanParameterChangeEndorsement\",\r\n\t\"version\":\"5.8.1.0\",\r\n\t\"date\":\"2018-04-04\",\r\n\t\"errors\":[\r\n\t]\r\n}",
+			"extension":".json"
+		}
+	],
+	"className":"aSLIC_Manage_Claim",
+	"methodName":"GetReceivedDocumentsForIntervention",
+	"version":"5.8.1.0",
+	"date":"2018-04-10",
+	"errors":[
+	]
+}

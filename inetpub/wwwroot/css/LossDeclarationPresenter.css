@@ -1,0 +1,11 @@
+#DeclarationDateWrapper, #EventDateWrapper{
+	float: left;
+	width: 48%;
+}
+
+#LossDescription{
+	float: left;
+	width: 100%;
+	height: 200px;
+}
+

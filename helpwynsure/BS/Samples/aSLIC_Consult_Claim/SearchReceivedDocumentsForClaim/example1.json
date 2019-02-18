@@ -1,0 +1,29 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"clientID":{
+				"internalClientId":"0000000037",
+				"externalClientIdentifier":{
+					"externalClientId":"0000000037WEX",
+					"thirdPartyID":"DistRoot"
+				},
+				"buid":"318842236_37"
+			},
+			"fromDate":null,
+			"toDate":null,
+			"objectBUID":"318847796_99"
+		},
+		"maxSize":100
+	},
+	"response":[
+	],
+	"className":"aSLIC_Consult_Claim",
+	"methodName":"SearchReceivedDocumentsForClaim",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

@@ -1,0 +1,195 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_ProductsForNormalQuote_In",
+			"subscriber":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842273_25"
+			},
+			"distributionUnitCode":"AA",
+			"subscriptionDate":"2017-10-11",
+			"productAvailabilities":[
+			]
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"GD_GBP"
+					},
+					"buid":"318842087_2"
+				},
+				"product":{
+					"className":"aSPLI_GroupBenefitPlanProduct",
+					"onlyPredefinedMemberProduct":true,
+					"customizationPossible":false,
+					"stateDefinition":"cSitusState",
+					"individualCompensation":false,
+					"automaticallyUpdateFromGBPModelChanges":true,
+					"employeeClassCustomizationAtSubscription":true,
+					"subscribedBy":"cWFSubscribedByLegalEntity",
+					"productIsForGroup":true,
+					"productFamily":"Life",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Group Disability GBP",
+					"entityDescription":"Within a GBP contract, only coverage from one GBP Model can be chosen, and it is not possible to customize rules."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"STDgd",
+						"name":"Short Term Disability",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"LTDgd",
+						"name":"Long Term Disability",
+						"entityDescription":""
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Group"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"GLADD_GBP"
+					},
+					"buid":"318842087_3"
+				},
+				"product":{
+					"className":"aSPLI_GroupBenefitPlanProduct",
+					"onlyPredefinedMemberProduct":true,
+					"customizationPossible":false,
+					"stateDefinition":"cSitusState",
+					"individualCompensation":false,
+					"automaticallyUpdateFromGBPModelChanges":true,
+					"employeeClassCustomizationAtSubscription":true,
+					"subscribedBy":"cWFSubscribedByLegalEntity",
+					"productIsForGroup":true,
+					"productFamily":"Life",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Group Life GBP",
+					"entityDescription":"Within a GBP contract, only coverage from one GBP Model can be chosen, and it is not possible to customize rules."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"EGTL",
+						"name":"Employee Term Life",
+						"entityDescription":"Basic Group Term Life coverage provides a basic level of life insurance, often paid for by the employer. "
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"SGTL",
+						"name":"Spouse Term Life",
+						"entityDescription":"Basic Group Term Life coverage provides a basic level of life insurance, often paid for by the employer. "
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"CTL",
+						"name":"Child Term Life",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"EADD",
+						"name":"Employee Accidental Death & Dismemberment",
+						"entityDescription":"Accidental Death and Dismemberment (AD&D) provides funds in the event of a fatal accident for an accident that results in the loss of a limb or eyesight.\r\n\r\nThis benefit is paid out as an annuity. A lump sum amount can also be paid out to cover Funeral cost."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"SADD",
+						"name":"Spouse Accidental Death & Dismemberment",
+						"entityDescription":"Accidental Death and Dismemberment (AD&D) provides funds in the event of a fatal accident for an accident that results in the loss of a limb or eyesight.\r\n\r\nThis benefit is paid out as an annuity. A lump sum amount can also be paid out to cover Funeral cost."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"GUNSHOT",
+						"name":"Gunshot Wound Benefit",
+						"entityDescription":""
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Group"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"MPS"
+					},
+					"buid":"318842087_4"
+				},
+				"product":{
+					"className":"aSPLI_GroupBenefitPlanProduct",
+					"onlyPredefinedMemberProduct":true,
+					"customizationPossible":false,
+					"stateDefinition":"cSitusState",
+					"individualCompensation":false,
+					"automaticallyUpdateFromGBPModelChanges":true,
+					"employeeClassCustomizationAtSubscription":true,
+					"subscribedBy":"cWFSubscribedByLegalEntity",
+					"productIsForGroup":true,
+					"productFamily":"Life",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Master Product Standard",
+					"entityDescription":"Within a GBP contract, only coverage from one GBP Model can be chosen, and it is not possible to customize rules."
+				},
+				"isMultiInsured":false,
+				"options":[
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Group"
+		}
+	],
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetAvailableProductsForGroupQuote",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

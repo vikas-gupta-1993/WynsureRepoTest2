@@ -1,0 +1,99 @@
+{
+	"description":"",
+	"request":{
+		"self":null,
+		"objectBUID":"318848035_21",
+		"maxSize":0
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_GetRequestedRequirements_Out",
+		"buid":"318848035_21",
+		"name":"Claim - 00000026",
+		"requirementDescs":[
+			{
+				"bUID":"318839006_4",
+				"name":"Change in Beneficiary Form",
+				"code":"ATT005",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_7",
+				"name":"Death Claim Form",
+				"code":"F0003",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_2",
+				"name":"Attendance Record",
+				"code":"5",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_2",
+				"name":"Attendance Record",
+				"code":"5",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_2",
+				"name":"Attendance Record",
+				"code":"5",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_2",
+				"name":"Attendance Record",
+				"code":"5",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			},
+			{
+				"bUID":"318839006_2",
+				"name":"Attendance Record",
+				"code":"5",
+				"reqType":"cDocument",
+				"documentDescType":"wdtOther",
+				"documentDescDomain":[
+					"Policy Administration",
+					"Claims"
+				]
+			}
+		]
+	},
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchRequestedRequirementsForObject",
+	"version":"5.8.2.0",
+	"date":"2018-08-07",
+	"errors":[
+	]
+}

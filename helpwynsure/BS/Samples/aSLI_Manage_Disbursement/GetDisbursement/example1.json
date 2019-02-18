@@ -1,0 +1,23 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"buid":"",
+			"disbursementFunctionalIdentifier":"51"
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Disbursement",
+	"methodName":"GetDisbursement",
+	"version":"5.8.2.0",
+	"date":"2018-07-24",
+	"errors":[
+		{
+			"code":"2052_BS_00001",
+			"message":"Aucun remboursement avec l'identifiant de transfert:51",
+			"kind":"Valeur incorrecte",
+			"kindNumber":0
+		}
+	]
+}

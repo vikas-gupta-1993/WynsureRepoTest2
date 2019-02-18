@@ -1,0 +1,96 @@
+{
+	"description":"",
+	"request":{
+		"inCustomer":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":"1900-01-01",
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842236_124"
+			},
+			"brokerBUID":"",
+			"sSN":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"personTitleEnum":"0",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gFemale",
+				"attachedToAnOtherSSN":false,
+				"nationality":"USA",
+				"birthRank":0,
+				"birthCountry":"",
+				"birthPlaceCity":"",
+				"birthPlaceZipCode":"",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					},
+					"buid":""
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":""
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"birthDate":"1982-10-11",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"name":"Despres",
+				"shortName":"Nicolas",
+				"creationDate":null,
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000145",
+			"buid":"318842236_124"
+		}
+	],
+	"className":"aSLI_Consult_LifePolicy",
+	"methodName":"SearchInsuredPersons",
+	"version":"5.7.3.0",
+	"date":"2017-12-11",
+	"errors":[
+	]
+}

@@ -1,0 +1,36 @@
+/*
+.NoTitle .control-label{
+	height: 20px;
+}
+
+form .usZipCode{
+	width: 89px;
+}
+
+form .frZipCode{
+	width: 89px;
+}
+
+form .cityAndZipCode .zipCodeSection{
+	width: calc(100% - 94px);
+}
+
+form  .zipCodeSection>div{
+	width: 100%
+}*/
+
+.Extension {
+  max-width: 80px;
+}
+
+.Phone {
+  min-width: calc(97% - 80px);
+}
+
+.ZipCodeSection {
+  max-width: 80px;
+}
+
+.CitySection {
+  min-width: calc(97% - 80px);
+}

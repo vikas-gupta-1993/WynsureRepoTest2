@@ -1,0 +1,45 @@
+{
+	"description":"",
+	"request":{
+		"contractIdentifier":{
+			"buid":"318844864_20",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"bUID":"318839006_9",
+			"name":"Signed Application",
+			"code":"SA",
+			"reqType":"cDocument",
+			"documentDescType":"wdtOther",
+			"documentDescDomain":[
+				"Policy Administration"
+			]
+		},
+		{
+			"bUID":"318841135_1",
+			"name":"First Payment",
+			"code":"FP",
+			"reqType":"cPayment",
+			"documentDescType":"wdtFinancial",
+			"documentDescDomain":[
+				"Policy Administration"
+			]
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetRequestDocumentDescriptors",
+	"version":"5.8.2.0",
+	"date":"2018-08-07",
+	"errors":[
+	]
+}

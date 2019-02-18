@@ -1,0 +1,610 @@
+{
+	"description":"",
+	"request":{
+		
+		"input":{
+			"buid":"",
+			"brokerID":"10000156"
+		}
+	},
+	"response":{
+		"className":"aSPLI_CreateOrUpdateBrokerWithLicense_In",
+		"brokerID":{
+			"buid":"318843820_4",
+			"brokerID":"10000156"
+		},
+		"updateDate":null,
+		"brokerIdentity":{
+			"className":"aSPLI_LicensedBroker",
+			"name":"Act One Agency",
+			"shortName":"AOA",
+			"creationDate":"2011-01-06",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"preferredCurrency":"cUSDollar",
+			"brokerStatus":"1",
+			"doNotSubscribeCompensationContract":false,
+			"doNotPayCommission":false,
+			"doNotPayCommissionFromDate":null,
+			"doNotSubscribeInsurancePolicy":false,
+			"doNotSubscribeInsurancePolicyFromDate":null,
+			"isDistributor":false,
+			"distributionType":"meUndefined",
+			"brokerNotes":"",
+			"isBrokerUS":false
+		},
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"2011-01-06",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"28381 Rancho de Linda ",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"45505",
+						"city":"Springfield"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"OH",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"1 (937) 322 8520",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"1 (937) 322 8520",
+				"fax":"1 (937) 322 8520",
+				"eMail":"contact@aibbni.com",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"name":"Chase Manhattan Bank",
+				"effectiveDate":"2011-01-06",
+				"endDate":null,
+				"holderName":"Abco Insurance Brokers Bruce E Nownes Insurance",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"",
+				"depositType":"dpNA",
+				"bankName":"",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"4865 Lexington Avenue",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"10015",
+						"city":"NEW YORK"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"NY",
+					"county":"",
+					"fIPSCode":0
+				},
+				"accountNumber":"000140867153433",
+				"routingNumber":"091000019",
+				"preNoteCompleted":true,
+				"preNoteProcessCompletionDate":"2011-01-06"
+			}
+		],
+		"contactInformations":[
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Customer Services ",
+				"contactName":"Act One Agency",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Secretary",
+				"contactName":"John Smith",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Director",
+				"contactName":"William Doe",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Sales man",
+				"contactName":"Kent Johns",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Financial director",
+				"contactName":"Ruth Browns",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Project manager",
+				"contactName":"Steve Powell",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Chief executive officer",
+				"contactName":"Roberta Jackson",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Advisor",
+				"contactName":"Elizabeth White",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Staff manager",
+				"contactName":"Sandy Robinson",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Accountant",
+				"contactName":"Heather Clarck",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			},
+			{
+				"className":"aSPCB_ActorContact",
+				"name":"Technical director",
+				"contactName":"Maria Walker",
+				"beginDate":"2011-01-06",
+				"endDate":null,
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2011-01-06",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_US_PostalAddress",
+						"line1":"28381 Rancho de Linda ",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"45505",
+							"city":"Springfield"
+						},
+						"country":"UNITED STATES",
+						"district":"",
+						"state":"OH",
+						"county":"",
+						"fIPSCode":0
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"1 (937) 322 8520",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"1 (937) 322 8520",
+					"fax":"1 (937) 322 8520",
+					"eMail":"contact@aibbni.com",
+					"mediaType":"",
+					"isInvalid":false,
+					"reasonForInvalidAddress":""
+				},
+				"role":[
+				],
+				"correspondenceChoice":"predefined",
+				"mediaType":"",
+				"isDeaultContact":false
+			}
+		],
+		"brokerHierarchies":[
+			{
+				"className":"aSPLI_CreateOrUpdateBrokerHierarchy_In",
+				"hierarchyInformation":{
+					"className":"aSPCB_BrokerHierarchy",
+					"name":"Broker1",
+					"shortName":"B1"
+				},
+				"brokerUnits":[
+				]
+			}
+		],
+		"commissionPlanInformations":[
+			{
+				"className":"aSPLI_CreateOrUpdateCommissionPlanInformation_In",
+				"issuingCompanyShortName":"WIC",
+				"commissionedProductInformations":[
+					{
+						"className":"aSPLI_CommissionedProductInformation",
+						"commissionedProductCode":"UL",
+						"startDate":null,
+						"expirationDate":null,
+						"usedDefaultCommissionPercentageValue":false,
+						"percentage":0.075
+					},
+					{
+						"className":"aSPLI_CommissionedProductInformation",
+						"commissionedProductCode":"DI",
+						"startDate":null,
+						"expirationDate":null,
+						"usedDefaultCommissionPercentageValue":false,
+						"percentage":0.075
+					}
+				]
+			}
+		],
+		"licenses":[
+		]
+	},
+	"className":"asli_manage_Broker",
+	"methodName":"GetBrokerInformation",
+	"version":"5.8.1.0",
+	"date":"2018-03-09",
+	"errors":[
+	]
+}

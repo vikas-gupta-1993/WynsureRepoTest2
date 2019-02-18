@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[PIF]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 The company will pay on behalf of the insured all sums which the insured shall be legally obligated to pay as damages because of injury sustained by any person or organization and arising our of one or more of the following offenses:\par
+   False arrest, detention\par
+   Wrongful entry into, or eviction of a person from a room, or premises that the person occupies\par
+\par
+\b Exclusions\b0\par
+this insurance doesn't apply:\par
+   To liability assumed by the insured under any contract or agreement\par
+   To personal injury arising out of a known or criminal violation of any statute, ordinance.\par
+\f1\par
+\par
+}
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Apartment Building-Personal Injury Liability Form]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Apartment Building-Personal Injury Liability Form]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

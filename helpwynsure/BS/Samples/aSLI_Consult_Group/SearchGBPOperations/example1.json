@@ -1,0 +1,31 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_GetOperations_In",
+			"actionTitle":"",
+			"onObjectBuid":"",
+			"businessDomains":[
+			],
+			"notAllowedBusinessDomains":[
+			],
+			"fromDate":"1900-01-01",
+			"toDate":"1900-01-01",
+			"actorBuid":""
+		},
+		"maxSize":0
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Group",
+	"methodName":"SearchGBPOperations",
+	"version":"5.7.3.0",
+	"duration":1060,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"aSLI_Consult_Operations\/_SearchOperations":true
+	}
+}

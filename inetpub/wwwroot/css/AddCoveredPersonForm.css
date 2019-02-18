@@ -1,0 +1,28 @@
+#CoveredDependenceWrapper {
+  clear: both;
+}
+#NameWrapper, #ShortNameWrapper, #BirthDateWrapper, #GenderWrapper {
+  float: left;
+  width: 22em;
+}
+#MaritalStatusWrapper {
+  clear: both;
+}
+dl {
+  margin: 5px;
+  padding: 5px 0 5px 0;
+}
+#Line1, #Line2 {
+  width: 40em;
+}
+#ZipCodeWrapper, #CityWrapper, #CountryCodeWrapper {
+  float: left;
+  width: 14em;
+  display: block;
+}
+#ZipCode, #City, #CountryCode {
+  width: 12em;
+}
+.action {
+  clear: both;
+}

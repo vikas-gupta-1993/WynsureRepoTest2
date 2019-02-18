@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P14]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1036\f0\fs16       Cotisations mensuelles payables d'avance le 5 de chaque mois\f1       
+\par       \cf2\b Relance/Impay\'e9s\cf1 
+\par    \b0   A d\'e9faut de paiement d'une cotisation ou d'une fraction de cotisation dans les 10 jours qui suivent son \'e9ch\'e9ance, 
+\par       une lettre recommand\'e9e vous est adress\'e9e, vous invitant \'e0 vous acquitter du montant d\'fb. 
+\par       Cette lettre indiquera que, si 30 jours apr\'e8s son envoi, la ou les cotisation(s) ou fraction de cotisation due(s) n'est 
+\par       (ne sont) toujours pas pay\'e9e(s), les garanties sont suspendues et 10 jours plutard le contrat sera r\'e9sili\'e9 (Article 113-3 
+\par       du code des assurances)      
+\par       \cf2\b Maintient des cotisations\cf1\b0 
+\par       L'assureur s'engage \'e0 maintenir fixes vos cotisations pendant 5 ans, sauf : 
+\par       - si vous demandez une modification de vos garanties, sous r\'e9serve de l'acceptation par l'Assureur, 
+\par       - \'e0 la procha\'eene \'e9ch\'e9ance de cotisation, si les Pouvoirs Publics changent le taux de la taxe incluse dans le bar\'e8me des cotisations. 
+\par 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Paiement des cotisations]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Garantie Accident CG Paiement des cotisations]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[15]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

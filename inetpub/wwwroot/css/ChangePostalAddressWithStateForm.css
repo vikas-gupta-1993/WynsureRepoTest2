@@ -1,0 +1,25 @@
+.action {
+	clear: both;
+}
+.action input {
+	width: 100px;
+}
+#EffectiveDateWrapper {
+	float: none;
+}
+#Line1Wrapper input, #Line2Wrapper input {
+	width: 100%;
+}
+
+#Line1Wrapper, #Line2Wrapper {
+	margin: 0;
+	height: 40px;
+}
+#ZipCodeWrapper, #CityWrapper, #StateWrapper, #CountryWrapper {
+	float: left;
+	width: 50%;
+}
+#ZipCodeWrapper input, #CityWrapper input, #StateWrapper input, #CountryWrapper input {
+	width: 80%;
+}
+

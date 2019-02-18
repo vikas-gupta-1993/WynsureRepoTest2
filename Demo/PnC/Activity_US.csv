@@ -1,0 +1,36 @@
+TPM; Public Transport of Goods, 100, GENERAL GOODS
+TPM; Public Transport of Goods, 110; MESSAGING
+TPM; Public Transport of Goods, 120; TANKS (FOOD AND POWDER)
+TPM; Public Transport of Goods, 130; TANKS (HAZARDOUS MATERIALS)
+TPM; Public Transport of Goods, 140; DIRECTED TEMPERATURE
+TPM; Public Transport of Goods, 150; REMOVALS
+TPM; Public Transport of Goods, 160; DUMP
+TPM; Public Transport of Goods, 170; TRAYS AND CONTAINERS
+TPM; Public Transport of Goods, 180; MASS INDISIBLE
+TPM; Public Transport of Goods, 190; LIVE ANIMALS
+CPPG; Public Transport of Goods, 200, GENERAL GOODS
+CPPG; Public Transport of Goods, 210; MESSAGING
+CPPG; Public Transport of Goods, 220; TANKS (FOOD AND POWDER)
+CPPG; Public Transport of Goods, 230; TANKS (HAZARDOUS MATERIALS)
+CPPG; Public Transport of Goods, 240; DIRECTED TEMPERATURE
+CPPG; Public Transport of Goods, 250; REMOVALS
+CPPG; Public Transport of Goods, 260; TIPPER
+CPPG; Public Transport of Goods, 270; TRAYS AND CONTAINERS
+CPPG; Public Transport of Goods, 280; MASS INDISIBLE
+CPPG; Public Transport of Goods, 290; LIVE ANIMALS
+TPV; Public Transport of Passengers, 300; COMMISSIONNAIRE
+LCD; Short Rentals, 400; SCHOOL
+LCD; Short Rentals, 410; URBAN LINES
+LCD; Short Rentals, 420; LINES NATIONAL
+LCD; Short Rentals, 430; LINES INTERNATIONAL
+LCD; Short Rentals, 440; TOURISM
+LCD; Short Rentals, 450; HEALTH
+LCD; Short Rentals, 460; TAXI
+LCD; Short Rentals, 470; BIG DISCOUNT
+LLD; Long Term Rental, 500; SHORT TERM RENTAL WITH DRIVER
+LLD; Long Term Rental, 510; SHORT TERM RENTAL WITHOUT DRIVER
+LLD; Long Term Rental, 520; LONG TERM RENTAL WITH DRIVER
+LLD; Long Term Rental, 530; LONG TERM RENTAL WITHOUT DRIVER
+AGR; Agriculture; 600; Indsutries
+AGR; Agriculture; 610; SHOPS
+AGR; Agriculture; 620; SERVICES 

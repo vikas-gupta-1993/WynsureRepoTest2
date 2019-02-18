@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Boolean><DefaultValueBoolean Id="1"><![CDATA[No]]></DefaultValueBoolean><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[F]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Is FireHydrant Within 1,000 Feet?]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771168]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Boolean></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[L]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Limit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771184]]></NSId><Id Id="2"><![CDATA[19]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[D]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Deductible]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771184]]></NSId><Id Id="2"><![CDATA[20]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Percent><DefaultValuePercent Id="1"><![CDATA[0.00%]]></DefaultValuePercent><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[C]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[CoInsurance]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771146]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Percent></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[A]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Building Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[90]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:3) (Implem Version:1)
+
+uses aWFRuleDesc, aWFStandAloneRule
+
+IsFireHydrantWithin1_000Feet_ : Boolean
+Limit : Num8
+Deductible : Num8
+CoInsurance : Num8
+BuildingAge : Int4
+
+
+function ApartmentBuilding_CoinsuranceFactors(Coinsurance : Num8) return Num8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Coinsurance, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+function ApartmentBuilding_DeductibleFactors(Deductible : Num8) return Num8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(1, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Deductible, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+function ApartmentBuilding_BuildingAgeCredit(BuildingAge : Int4, GivenPremium : Num8) return Num8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(2, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(BuildingAge, 0, tmpRule)
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(GivenPremium, 1, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : Num8)
+   var coInsurancefactor : Num8
+   var deductiblefactor : Num8
+   
+   Result = 0.289
+   self.AppendComment('Base Rate:' && Concat(Result))
+   Result = Result * self.Limit / 100
+   coInsurancefactor = self.ApartmentBuilding_CoinsuranceFactors(self.CoInsurance)
+   deductiblefactor = self.ApartmentBuilding_DeductibleFactors(self.Deductible)
+   Result = Result * coInsurancefactor * deductiblefactor
+   ; Building Age Debit and Credit
+   Result = self.ApartmentBuilding_BuildingAgeCredit(self.BuildingAge, Result)
+   self.AppendComment('Limit:' && Concat(self.Limit))
+   self.AppendComment('Coinsurance Factor:' && Concat(coInsurancefactor))
+   self.AppendComment('Coinsurance Deductible:' && Concat(deductiblefactor))
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Apartment Building - Coinsurance Factors  </Name><NSId>318768723</NSId><Id>5</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Percent><Name>Coinsurance </Name><NSId>318771146</NSId><Id>2</Id></aWFFieldDesc_Percent></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building - Coinsurance Factors  ]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Commercial Building - Deductible Factors </Name><NSId>318768723</NSId><Id>6</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Amount><Name>Deductible</Name><NSId>318771184</NSId><Id>4</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building - Deductible Factors ]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><Name>Building Age</Name><NSId>318771174</NSId><Id>97</Id></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><Name>Given Premium</Name><NSId>318771184</NSId><Id>31</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><Name>Apartment Building-Building Age Credit</Name><NSId>318768706</NSId><Id>13</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Building Age Credit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[13]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Apartment Building-Premium Personal Property Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 The premium is calculated as follow:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}Premium base flat amount\f1\par
+\f0{\pntext\f2\'B7\tab}function of limit, coinsurance and deductible\f1\par
+\f0{\pntext\f2\'B7\tab}function of building age\f1\par
+}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Premium Personal Property Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

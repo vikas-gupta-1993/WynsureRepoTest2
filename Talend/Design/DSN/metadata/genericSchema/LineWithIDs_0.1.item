@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_oo298BVzEeebouk0-KXsaQ" dataPackage="_oo298RVzEeebouk0-KXsaQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_oo298RVzEeebouk0-KXsaQ" dataManager="_oo298BVzEeebouk0-KXsaQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_oo298hVzEeebouk0-KXsaQ" id="_oo2W4BVzEeebouk0-KXsaQ" label="LineWithIDs">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oo298xVzEeebouk0-KXsaQ" name="structure" label="structure" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_oo299BVzEeebouk0-KXsaQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oo299RVzEeebouk0-KXsaQ" name="bloc" label="bloc" length="2" talendType="id_Integer">
+        <initialValue xmi:id="_oo299hVzEeebouk0-KXsaQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oo299xVzEeebouk0-KXsaQ" name="rubrique" label="rubrique" length="3" talendType="id_Integer">
+        <initialValue xmi:id="_oo29-BVzEeebouk0-KXsaQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oo29-RVzEeebouk0-KXsaQ" name="value" label="value" talendType="id_String">
+        <initialValue xmi:id="_oo29-hVzEeebouk0-KXsaQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_oo29-xVzEeebouk0-KXsaQ" name="numLine" label="numLine" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_oo29_BVzEeebouk0-KXsaQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xG9ysBVzEeebouk0-KXsaQ" name="compagnyID" label="compagnyID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xD0YEBVzEeebouk0-KXsaQ" name="establishmentID" label="establishmentID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p_Wy0BWfEeeio-VrOvxbwA" name="gbpID" label="gbpID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xImxcBVzEeebouk0-KXsaQ" name="personID" label="personID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xKLewBVzEeebouk0-KXsaQ" name="contractID" label="contractID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_swT3gBWfEeeio-VrOvxbwA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Z_TigBWSEeebouk0-KXsaQ" name="enrolmentID" label="enrolmentID" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

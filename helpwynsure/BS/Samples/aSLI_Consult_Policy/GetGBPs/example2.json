@@ -1,0 +1,251 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Consult_Policy"
+		},
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"0000000041",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":""
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000530",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_12"
+			},
+			"effectiveDate":"2017-11-30",
+			"signatureDate":"2017-11-30",
+			"terminationDate":"2017-11-30",
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cDeclined",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000586",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_59"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000588",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_60"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000626",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_80"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000584",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_58"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000519",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_8"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000548",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_26"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000550",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842846_27"
+			},
+			"effectiveDate":"2017-11-24",
+			"signatureDate":"2017-11-24",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"In Preparation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Finacus",
+			"ownerFirstName":"Finacus",
+			"ownerBuid":""
+		}
+	],
+	"className":"asli_consult_policy",
+	"methodName":"GetGBPs",
+	"version":"5.8.1.0",
+	"date":"2018-01-02",
+	"errors":[
+	]
+}

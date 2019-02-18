@@ -1,0 +1,51 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_CustomerRequest"
+		},
+		"inRequest":{
+			"className":"aSPLI_CRMRequest_In",
+			"clientIdentifier":{
+				"buid":"",
+				"internalClientId":"0000000010",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"media":"mPhone",
+			"title":"Questionnaire Santé",
+			"comment":"Que des non",
+			"receivedDocuments":[
+				{
+					"docRef":"",
+					"fileName":"Missing Document",
+					"content":"",
+					"fileExtension":".pdf",
+					"documentDesc":{
+						"name":"",
+						"code":"ATT005"
+					}
+				}
+			],
+			"dueDate":"1900-01-01",
+			"creatorTaskType":"",
+			"urgency":"ctuNormal",
+			"workFlowDuty":{
+				"className":"aSPF_Basket",
+				"name":"",
+				"functionalDomain":0
+			},
+			"requestId":"318839221_4_1",
+			"completeRequest":false
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"CreateIncomingCustomerRequest",
+	"version":"5.8.1.0",
+	"date":"2018-03-30",
+	"errors":[
+	]
+}

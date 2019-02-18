@@ -1,0 +1,38 @@
+#aWLICW_AppendBankAccountFRForm h4#RIB {
+	clear: both;
+}
+
+#aWLICW_AppendBankAccountFRForm #BankCodeWrapper,
+#aWLICW_AppendBankAccountFRForm #OfficeCodeWrapper,
+#aWLICW_AppendBankAccountFRForm #AccountNumberWrapper,
+#aWLICW_AppendBankAccountFRForm #RIBKeyWrapper {
+	float: left;
+	margin-right: 1em;
+}
+
+#aWLICW_AppendBankAccountFRForm #BankCodeWrapper dd,
+#aWLICW_AppendBankAccountFRForm #OfficeCodeWrapper dd,
+#aWLICW_AppendBankAccountFRForm #AccountNumberWrapper dd,
+#aWLICW_AppendBankAccountFRForm #RIBKeyWrapper dd {
+	margin: 0;
+}
+
+#aWLICW_AppendBankAccountFRForm #BankCode,
+#aWLICW_AppendBankAccountFRForm #BankCodeWrapper {
+	width: 9em;
+}
+
+#aWLICW_AppendBankAccountFRForm #OfficeCode,
+#aWLICW_AppendBankAccountFRForm #OfficeCodeWrapper {
+	width: 9em;
+}
+
+#aWLICW_AppendBankAccountFRForm #AccountNumber,
+#aWLICW_AppendBankAccountFRForm #AccountNumberWrapper {
+	width: 10em;
+}
+
+#aWLICW_AppendBankAccountFRForm #RIBKey,
+#aWLICW_AppendBankAccountFRForm #RIBKeyWrapper {
+	width: 6em;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneTable><Rules><aWFTableDesc><Dimensions><aWFFieldDesc_Float><NSId Id="1"><![CDATA[318771178]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFFieldDesc_Float></Dimensions><DimensionsContext Id="73"><![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]></DimensionsContext><TableContentSize Id="35"><![CDATA[48]]></TableContentSize><TableIndexSize Id="36"><![CDATA[49]]></TableIndexSize><RuleText Id="20"><![CDATA[05000000000000000058AB4000000000000094B14000000000000070B74000000000000088D3400000000000006AE84000000000000000444000000000008056400000000000805B4000000000004065400000000000E06F400000000000007940]]></RuleText><RuleDescription Id="64"><![CDATA[Standard Premium = 
+  $ 40 if NAR < 3,500
+  $ 90 if NAR c ]3,500, 4,500]
+  $ 110 if NAR c ]4,500, 6,000]
+  $ 170 if NAR c ]6,000, 20,000]
+  $ 255 if NAR c ]20,000, 50,000]
+  $ 400 if NAR > 50,000
+]]></RuleDescription><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneTable><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[93]]></Id></aWFStandAloneTable></MyOwner><Name Id="3"><![CDATA[Calcul Prime]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768723]]></NSId><Id Id="2"><![CDATA[93]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999 999 999 999 999]]></MaxFloat><Description Id="1"><![CDATA[Net Amount of Risk]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><MyOwner><aWFStandAloneTable><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[93]]></Id></aWFStandAloneTable></MyOwner><Name Id="3"><![CDATA[NAR]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771178]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Float></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs16 Standard Premium = \par
+  $ 40 if NAR < 3,500\par
+  $ 90 if NAR C ]3,500, 4,500]\par
+  $ 110 if NAR C ]4,500, 6,000]\par
+  $ 170 if NAR C ]6,000, 20,000]\par
+  $ 255 if NAR C ]20,000, 50,000]\par
+  $ 400 if NAR > 50,000\par
+\par
+}
+]]></Comment><Name Id="3"><![CDATA[Standard_Premium_Calculation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[93]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></EntityExport>

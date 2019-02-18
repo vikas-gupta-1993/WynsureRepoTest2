@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0,00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[RFM]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><Name Id="3"><![CDATA[Revenu Familial Mensuel]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837987]]></NSId><Id Id="2"><![CDATA[16]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></EntityExport>

@@ -1,0 +1,194 @@
+dl.PaymentMethodWrapper{
+	float : left
+}
+
+
+#aPCB_CustomerCreationPresenter_PH, #aPCB_CustomerCreationPresenter_AH , #aPLI_CustomerCreationFormForm{
+  padding-bottom: 10px;
+}
+
+.fields dl {
+  	padding : 0;
+}
+
+.TitleWrapper .IconWrapper{
+	background: url(./images/CustomerCreation/CustomerCreation24.png) left no-repeat;	
+}
+
+/* LegalEntity Header */
+.LeftLE, .RightLE{
+	float:Left;
+}
+
+.RightLE{
+	width:50%;
+}
+
+.LeftLE{
+	width:50%;
+}
+
+.LeftLE #NameWrapper input, .RightLE #ShortNameWrapper input, .LeftLE #CountryWrapper input, .RightLE #StateWrapper input{
+	width:24.5em;
+}
+
+.LeftLE #CountryWrapper select{
+	width:25em;
+}
+
+/*Person Header*/
+.Left, .Right, .Center{
+	float:left;
+}
+
+.Right, .Center{
+	width:41%;
+}
+
+.Left{
+	width:18%;
+}
+
+.Right #NameWrapper input, .Center #ShortNameWrapper input, .Right #Nationality {
+	width:20em;
+}
+
+.Center #MaritalStatusWrapper select{
+	width:20.5em;
+}
+
+#PersonTitleWrapper select{
+	width:7.5em;
+}
+
+.CustomizedTablePresenter dl{
+	height:auto;
+}
+
+/*Buttons */
+.AddButton, .CloseButton{
+	Float:left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.CloseButton{
+	margin-left:5px;
+}
+
+.DefaultCorrespondence, .NotDefaultCorrespondence{
+	float:Left;
+}
+
+.RemoveImage{
+	float:right;
+}
+
+.RemoveImage, .DefaultCorrespondence, .NotDefaultCorrespondence{
+	width:16px;
+	height:16px;	
+  	background-repeat:no-repeat;
+  	background-position:left;
+}
+
+.DefaultCorrespondence{
+	background-image: url(./images/CustomerCreation/default16.png);
+}
+
+.NotDefaultCorrespondence{
+	background-image: url(./images/CustomerCreation/empty16.png);
+}
+
+.RemoveImage{
+	background-image: url(./images/CustomerCreation/remove16.png);
+}
+
+.DefaultButton{	
+	background-image: url(./images/CustomerCreation/SetDefault16.png);
+}
+
+.ActionColumn, .DefaultColumn{
+	width:18px;
+}
+
+table.CustomizedTablePresenter  td.DefaultColumn, table.CustomizedTablePresenter  td.AdressColumn{
+	border-right:none;
+}
+
+/* Banks Accounts Tabs Improvements*/
+#BankAccount .ui-corner-all{
+ 	border-bottom-right-radius: 0px;
+ 	border-bottom-left-radius: 0px;
+}
+
+#aPCB_CorrespondenceListPresenter_HD .CustomizedTablePresenter td.AdressColumn{
+	min-width : 180px;
+}
+
+#aPCB_CorrespondenceListPresenter_HD .CustomizedTablePresenter th, #aPCB_BankAccountListPresenter_HD .CustomizedTablePresenter th{
+	display:none;
+}
+
+#aPCB_CorrespondenceListPresenter_HD table.CustomizedTablePresenter, #PersonBankAccount table.CustomizedTablePresenter{
+	border-left:none;
+}
+
+#aPCB_CorrespondenceListPresenter_HD table.CustomizedTablePresenter td, #PersonBankAccount table.CustomizedTablePresenter td{
+	border-right:none;
+}
+
+#BankAccount .ui-widget-header{
+  	border-left:none;
+  	border-top:none;
+  	border-right:none;
+  	background : none;			
+}
+
+#BankAccount .tabs{
+ 	border : none;
+}
+
+#BankAccount li.ui-state-active{
+ 	margin-top:-6px;
+}
+
+.ButtonAddBank, .ButtonAddCorrespondence {
+  	margin-top:5px;
+  	float : left;
+}
+
+#PersonBankAccount, #aPCB_CustomerCreationCorrespondenceForm_CH {
+ 	float : left;
+	width : 100%;
+}
+
+.buttonset .ui-state-active{
+  	box-shadow: 1px 4px 4px #aaa inset;
+}
+
+.KindBackground{
+  	background-repeat:no-repeat;
+  	height : 16px;
+}
+
+.KindBackground  div.CenterCellText{
+	float:left;
+}
+
+span.TextName{
+    padding-left:20px;
+   	padding-top:5px;
+}    
+
+.BankAccountFR{
+  	background-image: url(./images/CustomerCreation/fr16.png);
+}
+
+.BankAccountUS{
+  	background-image: url(./images/CustomerCreation/us16.png);
+}
+
+.BankAccountIBAN{
+  	background-image: url(./images/CustomerCreation/world16.png); 
+}
+

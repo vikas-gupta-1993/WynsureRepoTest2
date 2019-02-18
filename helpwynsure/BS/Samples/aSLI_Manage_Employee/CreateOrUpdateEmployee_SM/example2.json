@@ -1,0 +1,232 @@
+{
+	"description": "This exapmle creates employee with new person data",
+	"request": {
+		"self": {
+			"className": "aSLI_Manage_Employee"
+		},
+		"data": {
+			"className": "aSPLI_EmployeeData",
+			"employee": {
+				"className": "aSPLI_Employee",
+				"effectiveDate": "{{CurrentDate}}",
+				"hireDate": "{{HireDate}}",
+				"salaryDefinedAtDate": null,
+				"employmentStatus": "esActive",
+				"workingHours": 40,
+				"workingHoursDefinedForFrequency": "fWeekly",
+				"workingCategory": "cFullTime",
+				"baseSalaryAmount": {
+					"amount": "{{EmployeeSalary}}",
+					"currency": "USD"
+				},
+				"baseSalaryFrequency": "wfHourly",
+				"salaryCommissionAmount": {
+					"amount": 0,
+					"currency": "USD"
+				},
+				"salaryCommissionFrequency": "meUndefined",
+				"salaryBonusAmount": {
+					"amount": 0,
+					"currency": "USD"
+				},
+				"salaryBonusFrequency": "meUndefined",
+				"canBeEnrolled": false,
+				"additionalDynamicDatas": [
+				]
+			},
+			"person": {
+				"data": {
+					"className": "aSPLI_PersonData",
+					"actor": {
+						"className": "aSPLI_Person",
+						"sSN": "",
+						"maritalStatus": "cSingle",
+						"personTitleEnum": "ptMr",
+						"priorName": "Pratik",
+						"middleName1": "nil",
+						"middleName2": "",
+						"nameSuffix": "wqe",
+						"gender": "gMale",
+						"attachedToAnOtherSSN": false,
+						"nationality": "USA",
+						"birthRank": 1,
+						"birthCountry": "USA",
+						"birthPlaceCity": "Northampton",
+						"birthPlaceZipCode": "1060",
+						"birthPlaceState": "AL",
+						"occupation": "Doctor",
+						"additionalDatas": [
+						],
+						"oldSSN": "",
+						"oldLastName": "",
+						"oldFirstname": "",
+						"oldDOB": null,
+						"birthDate": "1984-11-20",
+						"delinquent": false,
+						"underSurveillance": false,
+						"isAnonymous": false,
+						"name": "Suyog",
+						"shortName": "Deshpande",
+						"creationDate": "{{CurrentDate}}",
+						"preferredLanguageCode": "En",
+						"terminationDate": null,
+						"preferredContactChoice": "pcDefaultCorrespondence"
+					},
+					"claimDisbursementChannel": [
+					],
+					"legalRepresentative": {
+						"data": null,
+						"identifier": null
+					},
+					"thirdPartyId": "DistRoot",
+					"correspondences": [
+						{
+							"className": "aSPCB_Correspondence",
+							"effectiveDate": "{{CurrentDate}}",
+							"addressUsage": "0",
+							"address": {
+								"className": "aSPCB_PostalAddressWithState",
+								"state": "NY",
+								"line1": "407 sarah doc",
+								"line2": "Apt 3",
+								"zipCodeAndCity": {
+									"zipCode": "10173",
+									"city": "New York"
+								},
+								"country": "USA",
+								"district": ""
+							},
+							"isDefaultCorrespondance": true,
+							"privatePhone": "(913) 721-3708",
+							"privatePhoneExtension": "3300",
+							"officePhone": "(319) 832-4819",
+							"officePhoneExtension": "4411",
+							"cellPhone": "(913) 721-3709",
+							"fax": "(913) 721-3710",
+							"eMail": "ann.barret@free.com",
+							"mediaType": "",
+							"isInvalid": false,
+							"reasonForInvalidAddress": ""
+						}
+					],
+					"paymentMethods": [
+						{
+							"className": "aSPCB_US_BankAccount",
+							"accountNumber": "000140867194644",
+							"routingNumber": "091000019",
+							"preNoteCompleted": false,
+							"preNoteProcessCompletionDate": null,
+							"accountType": "catChecking",
+							"branchName": "Branch",
+							"depositType": "dpNA",
+							"bankName": "bank of india",
+							"address": {
+								"className": "aSPCB_PostalAddressWithState",
+								"state": "NY",
+								"line1": "5163 Lexington Avenue",
+								"line2": "Appt 3",
+								"zipCodeAndCity": {
+									"zipCode": "10173",
+									"city": "New York"
+								},
+								"country": "USA",
+								"district": ""
+							},
+							"name": "",
+							"effectiveDate": "{{CurrentDate}}",
+							"endDate": null,
+							"holderName": "6000 Lexington Avenue"
+						}
+					],
+					"contacts": [
+					],
+					"logins": [
+					],
+					"bUID": "",
+					"dataHistory": [
+					]
+				}
+			},
+			"legalEntity": {
+				"identifier": {
+					"className": "aSPLI_LegalEntityIdentifier",
+					"bUID": "{{LegalEntityBUID}}"
+				}
+			},
+			"bUID": "",
+			"dataHistory": [
+			]
+		}
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_EmployeeData",
+		"bUID": "318842822_55",
+		"dataHistory": [
+		],
+		"employee": {
+			"className": "aSPLI_US_Employee",
+			"effectiveDate": "2018-12-01",
+			"terminationReason": "",
+			"terminationDate": null,
+			"hireDate": "2018-12-01",
+			"salaryDefinedAtDate": null,
+			"employmentStatus": "esActive",
+			"workingHours": 40,
+			"workingHoursDefinedForFrequency": "fWeekly",
+			"workingCategory": "cFullTime",
+			"baseSalaryAmount": {
+				"amount": 40000.00,
+				"currency": "USD"
+			},
+			"baseSalaryFrequency": "wfHourly",
+			"salaryCommissionAmount": {
+				"amount": 0.00,
+				"currency": "USD"
+			},
+			"salaryCommissionFrequency": "meUndefined",
+			"salaryBonusAmount": {
+				"amount": 0.00,
+				"currency": "USD"
+			},
+			"salaryBonusFrequency": "meUndefined",
+			"canBeEnrolled": true,
+			"additionalDynamicDatas": [
+			],
+			"worksiteState": "meUndefined"
+		},
+		"person": {
+			"data": null,
+			"identifier": {
+				"className": "aSPLI_PersonIdentifier",
+				"bUID": "318842869_78",
+				"description": "Deshpande Suyog 407 SARAH DOC APT 3, New York, NY 10173",
+				"internalClientId": "0000000129",
+				"externalClientId": {
+					"externalClientId": "",
+					"thirdPartyID": "DistRoot"
+				}
+			}
+		},
+		"legalEntity": {
+			"data": null,
+			"identifier": {
+				"className": "aSPLI_LegalEntityIdentifier",
+				"bUID": "318842906_18",
+				"description": "Angie's Shoes Inc. (ANG)",
+				"internalClientId": "0000000093",
+				"externalClientId": {
+					"externalClientId": "0000000081WEX",
+					"thirdPartyID": "DistRoot"
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "asli_manage_employee",
+	"methodName": "CreateOrUpdateEmployee_SM",
+	"version": "5.8.2.2",
+	"date": "2018-12-11",
+	"errors": [
+	]
+}

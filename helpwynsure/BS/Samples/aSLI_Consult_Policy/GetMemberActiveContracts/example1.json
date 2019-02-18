@@ -1,0 +1,58 @@
+{
+	"description":"",
+	"request":{
+		"memberCriteria":{
+			"buid":"318842869_5",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		},
+		"legalEntityIdentifer":{
+			"buid":"318842906_25",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		},
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"buid":"318842830_12",
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000645",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				}
+			},
+			"effectiveDate":"2018-08-28",
+			"signatureDate":"2018-08-28",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cProject",
+			"complementaryStatus":"Waiting for Activation",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"Alison",
+			"ownerFirstName":"James",
+			"ownerBuid":""
+		}
+	],
+	"eval":null,
+	"className":"asli_consult_policy",
+	"methodName":"GetMemberActiveContracts",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

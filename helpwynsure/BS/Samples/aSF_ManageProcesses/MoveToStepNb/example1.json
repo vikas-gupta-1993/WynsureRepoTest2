@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"processData":null,
+		"stepNb":3
+	},
+	"response":null,
+	"className":"aSF_ManageProcesses",
+	"methodName":"MoveToStepNb",
+	"version":"5.7.3.0",
+	"date":"2017-10-10",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"1577_BS_00001",
+			"message":"",
+			"kind":"errInfo",
+			"kindNumber":4
+		}
+	]
+}

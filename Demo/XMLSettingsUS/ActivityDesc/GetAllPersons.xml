@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine Guid="db9e2c50-0c84-49a6-895b-39c28008dd16"><ImpactedObjectsRuleDesc><aWFRuleDesc Guid="bd428a9c-e6a4-431b-9258-781d61d8cd61"><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_GenericActivityDescRuleEngine)
+
+uses aListOfInstances, aWFPersonClassification, aEDA_Activity
+
+
+; Rule
+; Classification
+function Person_Classification return aWFPersonClassification
+   if self.Master <> Nil
+      return aWFPersonClassification(self.Master.OnObject)
+   else
+      return aWFPersonClassification(self.OnObject)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : aListOfInstances)
+   if self.Person_Classification <> Nil
+      Result = self.Person_Classification.GetListOfPersonsToBeModified(self.Activity.Date)
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef Guid="cbae0d1b-4753-4217-ad71-00ccecf37ee7"><Name Id="2"><![CDATA[aEDA_GenericActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218191472]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWFPersonClassification]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActionLogCreationActivityDescBasedOnRuleEngine]]></RuleEngineUsingKindContext><ReturnType><aClassDef Guid="5e181bee-6d3d-47f3-9be7-c28ee13abce5"><Name Id="2"><![CDATA[aListOfInstances]]></Name><NSId Id="1"><![CDATA[2]]></NSId><Id Id="2"><![CDATA[5]]></Id></aClassDef></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[5]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></UsedRules><MyOwner><aEDA_ActionLogCreationActivityDescBasedOnRuleEngine><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[5]]></Id></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></MyOwner><Name Id="3"><![CDATA[Get all individual Rule]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835509]]></NSId><Id Id="2"><![CDATA[3194]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></ImpactedObjectsRuleDesc><ImpactedBusinessDomains Id="15"><![CDATA[Undefined]]></ImpactedBusinessDomains><Reason Id="13"><![CDATA[New Clasification Added]]></Reason><EventDesc><aEDA_ActionLogEventDesc Guid="85d12b87-eb81-47c6-951e-c32b5c6db44c"><ActionLogTitle Id="2"><![CDATA[New Individual Classification Added]]></ActionLogTitle><visibility Id="2"><![CDATA[0]]></visibility><resource><aWFX_ResourceRepresentation><Name>Person_C</Name><NSId>318834655</NSId><Id>41</Id></aWFX_ResourceRepresentation></resource><Name Id="3"><![CDATA[New Individual Classification Added __ Person_C]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318854685]]></NSId><Id Id="2"><![CDATA[282]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActionLogEventDesc></EventDesc><Code Id="35"><![CDATA[GAP]]></Code><IsTechnical Id="72"><![CDATA[No]]></IsTechnical><Resource><aWFX_ResourceRepresentation Guid="aced98a9-1719-4fbf-a5f7-19a4071e86f6"><RepresentingClassDef><aClassDef><Name>aWFPersonClassification</Name><NSId>218103810</NSId><Id>218173076</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><UseStringExtract Id="33"><![CDATA[No]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><StandAlone Id="46"><![CDATA[Yes]]></StandAlone><OnlyExtractSelectedVars Id="56"><![CDATA[No]]></OnlyExtractSelectedVars><UseBuid Id="61"><![CDATA[No]]></UseBuid><Name Id="3"><![CDATA[Person_Classification]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834655]]></NSId><Id Id="2"><![CDATA[40]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Yes]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><LethalErrorText Id="66"><![CDATA[]]></LethalErrorText><Description Id="73"><![CDATA[]]></Description><Name Id="3"><![CDATA[Get All Persons]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318854773]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aEDA_ActionLogCreationActivityDescBasedOnRuleEngine></EntityExport>

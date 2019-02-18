@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[102]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[InterestRate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[103]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses aWFRuleDesc, aWFStandAloneRule
+
+Age : Int4
+InterestRate : Int4
+
+
+function MortalityTable(Age : Int4) return Num8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Age, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : Num8)
+   var i : Int4
+   
+   if self.Age < 120
+      for i = 1 to 120 - self.Age
+         Result += self.MortalityTable(self.Age + i) * 1 / self.Power(1 + self.InterestRate, 
+            i)
+      endFor
+      Result = Result / self.MortalityTable(self.Age)
+      Result = 1 / Result
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>MortalityTable</Name><NSId>318768723</NSId><Id>80</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Integer><Name>Age</Name><NSId>318771174</NSId><Id>73</Id></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs20 This a french mortality table. It has been build based on female mortality born in 1950.\par
+This table has two dimensions. The column x is the person age. The column Lx gives the number of survivors at age x for a total of 10000 people. \par
+\par
+}
+]]></Comment><Name Id="3"><![CDATA[MortalityTable]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770480]]></NSId><Id Id="2"><![CDATA[80]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Indefinite Annuity]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs20 The indefinite annuity rate gives the annual rate conversion of the beneficiary capital. For example for an insured of 65 years old in 2006, the rate is 4,375%. That means that for a capital of $100.000, this insured will have an annual annuity of $4.375.\par
+}
+]]></Comment><Name Id="3"><![CDATA[IndefiniteAnnuityRate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

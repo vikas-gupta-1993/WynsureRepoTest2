@@ -1,0 +1,26 @@
+#PageContent .subStepTable {
+  width: 100%;
+  /*margin-top: -20px;*/
+}
+
+#PageContent .subStepTable > tbody > tr > th{
+  text-align : center;
+  vertical-align: middle;
+  padding: 5px;
+  background-color: #F3F3F3;
+}
+
+ #PageContent .subStepTable > tbody > tr > td {
+  padding: 5px;
+}
+
+
+#PageContent .subStepTable > tbody > tr > th{
+  width: 150px;
+}
+
+#PageContent .subStepTable > tbody > tr dt {
+  margin-left: 5px;
+  float: left;
+  width: 215px;
+}

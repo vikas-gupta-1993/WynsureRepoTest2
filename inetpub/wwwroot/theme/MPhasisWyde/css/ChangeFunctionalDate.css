@@ -1,0 +1,19 @@
+.aPF_ChangeFunctionalDateFormFormWrapper .isDate{
+	background: none repeat scroll 0 0 #2D2D2D;
+    /*border: 1px solid white;*/
+    width: 5.5em;
+    height: 0.8em;
+    border-radius: 4px;
+}
+
+#functionalDateNavBar{
+	margin-top: 6px;
+}
+
+.aPF_ChangeFunctionalDateFormFormWrapper .add-on{
+	display: none;
+}
+
+.navbar .aPF_ChangeFunctionalDateFormFormWrapper form.form-inline {
+	margin-top: 0px;
+}

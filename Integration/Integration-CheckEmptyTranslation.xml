@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Integration-Check Empty Translation">
+	<aWFxIntegTranslationCheckDesc name="Empty Translation">
+		<EntitiesInScope/>
+		<EntitiesToIgnore/>
+		<bEmpty>true</bEmpty>
+		<bInconsistent>false</bInconsistent>
+		<bMissing>false</bMissing>
+        <TranslationCategory/>
+	</aWFxIntegTranslationCheckDesc>
+	<aWFxIntegTranslationCheckDesc name="Missing Translation">
+		<EntitiesInScope/>
+		<EntitiesToIgnore/>
+		<bEmpty>false</bEmpty>
+		<bInconsistent>false</bInconsistent>
+		<bMissing>true</bMissing>
+        <TranslationCategory/>
+	</aWFxIntegTranslationCheckDesc>
+</aWEXIntegrationPlanDesc>

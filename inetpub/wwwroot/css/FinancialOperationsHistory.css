@@ -1,0 +1,11 @@
+.DateColumn,
+.TypeColumn,
+.TypeStatus,
+.TransactionColumn,
+.AmountColumn{
+	width : 15%;
+}
+
+.ChannelColumn{
+	width : 25%;
+}

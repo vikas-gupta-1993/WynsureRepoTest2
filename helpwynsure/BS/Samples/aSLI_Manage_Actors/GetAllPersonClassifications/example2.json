@@ -1,0 +1,123 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":[
+		{
+			"className":"aSPCB_AdditionalData_ValueDescription",
+			"value":{
+				"className":"aSPCB_ClassificationValue",
+				"valueCode":"NIE",
+				"fieldValue":"Is Not Internal Employee",
+				"nameDescription":"",
+				"fieldCode":"1",
+				"fieldName":"Internal Employee",
+				"codeForPopulationClass":""
+			},
+			"description":{
+				"className":"aSPCB_Classification",
+				"possibleValues":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"IE",
+						"fieldValue":"Is Internal Employee",
+						"nameDescription":"Is Internal Employee",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":""
+					}
+				],
+				"defaultValue":{
+					"className":"aSPCB_ClassificationValue",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":""
+				},
+				"useDefaultValue":true,
+				"isCalculated":false,
+				"fieldCode":"1",
+				"fieldName":"Internal Employee",
+				"codeForPopulationClass":""
+			},
+			"visibility":"cVis_Quote",
+			"mandatoryLevel":"cVis_Quote",
+			"positionOrderX":0,
+			"positionOrderY":0,
+			"visibilityRule":""
+		},
+		{
+			"className":"aSPCB_AdditionalData_ValueDescription",
+			"value":{
+				"className":"aSPCB_ClassificationValue",
+				"valueCode":"Is not VIP",
+				"fieldValue":"Is not VIP",
+				"nameDescription":"",
+				"fieldCode":"2",
+				"fieldName":"VIP",
+				"codeForPopulationClass":""
+			},
+			"description":{
+				"className":"aSPCB_Classification",
+				"possibleValues":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"Is VIP",
+						"fieldValue":"Is VIP",
+						"nameDescription":"Is VIP",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":""
+					}
+				],
+				"defaultValue":{
+					"className":"aSPCB_ClassificationValue",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":""
+				},
+				"useDefaultValue":true,
+				"isCalculated":false,
+				"fieldCode":"2",
+				"fieldName":"VIP",
+				"codeForPopulationClass":""
+			},
+			"visibility":"cVis_Quote",
+			"mandatoryLevel":"cVis_Quote",
+			"positionOrderX":0,
+			"positionOrderY":0,
+			"visibilityRule":""
+		}
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetAllPersonClassifications",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-12",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

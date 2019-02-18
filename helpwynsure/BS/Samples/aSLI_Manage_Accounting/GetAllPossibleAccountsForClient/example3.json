@@ -1,0 +1,38 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"buid":"",
+			"internalClientId":"0000000031",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_291",
+			"accountNumber":"D291",
+			"thirdParty":"Carmichael Ronald",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Carmichael Ronald / W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"GetAllPossibleAccountsForClient",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

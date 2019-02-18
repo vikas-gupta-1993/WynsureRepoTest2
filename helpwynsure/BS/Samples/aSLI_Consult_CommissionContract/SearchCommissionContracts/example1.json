@@ -1,0 +1,30 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"boNSId":0,
+			"boId":0,
+			"brokerBUID":"318843693_3"
+		},
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetCompensationContractInfo_Out",
+			"buid":"318843473_4",
+			"contractNumber":"000000000534",
+			"effectiveDate":"2018-02-27",
+			"terminationDate":null,
+			"status":"Active",
+			"productName":"Default Individual Compensation Plan for Brokers",
+			"issuingCompany":"W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Consult_CommissionContract",
+	"methodName":"SearchCommissionContracts",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

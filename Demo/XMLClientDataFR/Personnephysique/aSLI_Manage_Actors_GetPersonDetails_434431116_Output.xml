@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1945-01-01</EffectiveDate>
+         <AddressUsage>3</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>RUE ANATOLE FRANCE</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>75005</ZipCode>
+               <City>PARIS 5EME ARRONDISSEMENT</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone></PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+         <MediaType></MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns_1:aSPCB_Fr_BankAccount">
+         <Name>Relev&#233; d&apos;Identit&#233; Bancaire</Name>
+         <EffectiveDate>2017-03-28</EffectiveDate>
+         <HolderName>Etienne MARTIN</HolderName>
+         <Currency>cEuro</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName></BranchName>
+         <DepositType>dpRetail</DepositType>
+         <BankName></BankName>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>RUE DU PARADIS</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>75006</ZipCode>
+               <City>PARIS 6EME ARRONDISSEMENT</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <BankCode>30001</BankCode>
+         <OfficeCode>00794</OfficeCode>
+         <AccountNumber>12345678901</AccountNumber>
+         <RIBKey>85</RIBKey>
+         <IBAN>FR7630001007941234567890185</IBAN>
+         <BIC>BDFEFR2L</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_Fr_Person">
+      <Name>MARTIN</Name>
+      <ShortName>Etienne</ShortName>
+      <CreationDate>2017-03-28</CreationDate>
+      <PreferredLanguageCode></PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1945-01-01</BirthDate>
+      <PersonTitleEnum>2</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gFemale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>FRA</Nationality>
+      <BirthRank>0</BirthRank>
+      <BirthCountry>FRA</BirthCountry>
+      <BirthPlaceCity></BirthPlaceCity>
+      <BirthPlaceZipCode></BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Employ&#233; interne</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>N&apos;est pas employ&#233; interne</FieldValue>
+            <NameDescription>N&apos;est pas employ&#233; interne</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>N&apos;est pas VIP</ValueCode>
+            <FieldValue>N&apos;est pas VIP</FieldValue>
+            <NameDescription>N&apos;est pas VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <EnrollmentOrganism></EnrollmentOrganism>
+      <SSN>145017522555571</SSN>
+      <MaritalStatus>cOtherMaritalStatus</MaritalStatus>
+   </PersonIdentity>
+</_Result>

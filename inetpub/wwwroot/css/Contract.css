@@ -1,0 +1,34 @@
+#IndicatorBoardWrapper{
+	z-index: 1;
+	position: absolute;
+	margin-top: -25px;
+	width: 385px;
+	margin-left: 300px;
+	color: #CD0A0A;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#IndicatorBoardWrapper a{
+	color: #CD0A0A;
+	text-decoration: none;
+	cursor: auto;
+}
+
+#aPLIC_FindClaimsListAlertWrapper{
+	margin-right : 5px;
+	float: right;
+}
+
+#aPLIC_FindClaimsListAlertWrapper span{
+	float: left;
+}
+
+#aPLI_FindNotesListInfoWrapper{
+	margin-right : 5px;
+	float: right;
+}
+
+#aPLI_FindNotesListInfoWrapper span{
+	float: left;
+}

@@ -1,0 +1,61 @@
+{
+	"description": "",
+	"request": {
+		"legalEntityId": {
+			"buid": "318842807_10",
+			"internalClientId": "",
+			"externalClientIdentifier": {
+				"externalClientId": "",
+				"thirdPartyID": ""
+			}
+		},
+		"affiliateInformation": {
+			"$ref": "#",
+			"className": "aSPLI_CreateOrUpdateLegalEntityDivision_In",
+			"headQuarter": {
+				"$ref": "#",
+				"className": "aSPLI_GetLegalEntity",
+				"searchLegalEntity": {
+					"buid": "318842807_21",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": ""
+					}
+				},
+				"createOrUpdateLegalEntity": null
+			},
+			"startDate": "2015-01-07",
+			"endDate": null
+		}
+	},
+	"response": {
+		"error": {
+			"code": "CONFLICT",
+			"message": "",
+			"innererror": {
+				"className": "aSF_Exception",
+				"detailsFromException": {
+					"error": {
+						"errorCode": "WF_00001",
+						"errorKind": "bsErrMandatory",
+						"errorMessage": "Alpha Trading Company (Alpha Trading Company) is already defined as headquarter from: 01/07/2015 to: --/--/----"
+					}
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "asli_manage_Actors",
+	"methodName": "CreateAffiliateLegalEntityEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-11",
+	"errors": [
+		{
+			"code": "WF_00001",
+			"message": "Alpha Trading Company (Alpha Trading Company) is already defined as headquarter from: 01/07/2015 to: --/--/----",
+			"kind": "Mandatory",
+			"kindNumber": 1
+		}
+	]
+}

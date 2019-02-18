@@ -1,0 +1,32 @@
+{
+	"description":"",
+	"request":{
+		"claimFullId":{
+			"buid":"",
+			"internalClaimId":"00000021",
+			"externalClaimId":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetIndemnificationInfo_Out",
+			"buid":"318847972_20",
+			"contractNumber":"4800000567",
+			"coverage":"Short Term Disability[4800000567]",
+			"offeredBenefit":"Total Disability Benefit",
+			"beneficiary":"Edwards Aaron 197 KINNEY STREET, Northampton, MA 01060",
+			"benefit":{
+				"amount":115.38,
+				"currency":"cUSDollar"
+			},
+			"paymentStatus":"Paid"
+		}
+	],
+	"eval":null,
+	"className":"aslic_consult_claim",
+	"methodName":"GetClaimIndemnifications",
+	"version":"5.8.2.0",
+	"date":"2018-08-10",
+	"errors":[
+	]
+}

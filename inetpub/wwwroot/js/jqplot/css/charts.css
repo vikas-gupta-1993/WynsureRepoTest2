@@ -1,0 +1,104 @@
+table.jqplot-table-legend {
+    color: #555555;
+    font-size: 1em;
+	max-width: 800px;
+}
+
+.jqplot-table-legend-swatch-outline{
+
+}
+.jqplot-target {
+    color: #555555;
+	margin-bottom:10px;
+}
+
+div.jqplot-axis {
+	font-size: 8pt;
+}
+
+.ChartContener{
+	width:100%;
+	Height:100%;
+	padding-top:10px;
+}
+.CenterChart{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.NoneCheckbox {
+	float:left;
+	margin-right: 4px;
+}
+
+.ChartUi{
+	height:0px; /*usefull !! used by javascript to dynamicaly change height ( see jqplot.ninja.js) */
+}
+
+.ChartColumnUi{
+	float:left;
+	width:160px;
+}
+
+.ChartColumnUiBody{
+	margin-left: 14px;
+}
+
+.ChartColumnUiTitle{
+	font-size: 10pt;
+	font-weight: bold;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+.UIRadioButtons {
+	margin-top: 0px;
+}
+/*Slider */
+.ChartSlider { padding-bottom: 8px;}
+.ChartSlider .ui-slider { position: relative; text-align: left; }
+.ChartSlider .ui-slider .ui-slider-handle { position: absolute; z-index: 2; height: 0.55em; cursor: default;}
+.ChartSlider .ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+.ChartSlider .ui-widget-content { 
+border: 1px solid #666666; 
+background: url(images/ui-bg_gloss-wave_45_ffffff_500x100.png);
+background-size: 100% 0.7em; 
+}
+/* Cursor*/
+.ChartSlider .ui-state-default,
+ .ChartSlider .ui-widget-content .ui-state-default,
+ .ChartSlider .ui-widget-header .ui-state-default { 
+ border: 1px solid #026890; 
+ background: #d9eeff url(images/ui-bg_diagonals.png); 
+ background-size: 30% 0.55em;
+ }
+ 
+.ChartSlider .ui-state-hover,
+ .ChartSlider .ui-widget-content .ui-state-hover,
+ .ChartSlider .ui-widget-header .ui-state-hover,
+ .ChartSlider .ui-state-focus,
+ .ChartSlider .ui-widget-content .ui-state-focus,
+ .ChartSlider .ui-widget-header .ui-state-focus { 
+ border: 1px solid #666666; 
+ background: #fffef2 url(images/ui-bg_diagonals_Hover.png);
+ background-size: 30% 0.55em;
+ }
+ 
+.ChartSlider .ui-state-active,
+ .ChartSlider .ui-widget-content .ui-state-active,
+ .ChartSlider .ui-widget-header .ui-state-active { 
+ border: 1px solid #999999; 
+ background: #ede0d3 url(images/ui-bg_diagonals_Clicked.png);
+ background-size: 30% 0.55em;
+ }
+ 
+.ChartSlider .ui-slider-horizontal { height: 1.0em;}
+.ChartSlider .ui-slider-horizontal .ui-slider-handle { top: .05em;}
+.ChartSlider .ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ChartSlider .ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ChartSlider .ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+
+.chartWrapper>form{
+	margin: 0px;
+}

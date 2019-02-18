@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"outgoingContactID":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318838882_3",
+			"description":""
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"eval":null,
+	"className":"asli_subscribe_policy",
+	"methodName":"RePrint",
+	"version":"5.8.2.0",
+	"date":"2018-08-17",
+	"errors":[
+	]
+}

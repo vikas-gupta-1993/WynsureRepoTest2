@@ -1,0 +1,101 @@
+.stepcontainer .section-content{
+	padding:15px;
+	max-height: none;
+}
+
+.stepcontainer .step-header .step-buttons .step-button{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.stepcontainer .step-content,
+.stepcontainer .section-footer {
+	border-radius: 0px 0px 6px 6px;
+}
+
+#PageContent .stepcontainer .step-header,
+.stepcontainer .step-content,
+.stepcontainer .section-footer{
+	border-width:0px;
+}
+
+ .stepcontainer .section-footer{
+	border-color:#E3E3E3;
+	border-style:solid;
+	border-top-width:1px;
+	text-align: right;
+	background-color: #f5f5f5;
+	padding: 0px;
+}
+
+.stepcontainer .section-footer .action{
+	padding: 8px;
+}
+
+#PageContent .stepcontainer .step-header{
+	outline: medium none;
+	padding: 1px 0 0 0;
+	width: 100%;
+	margin-bottom: 0px;
+	background-clip: padding-box;
+	background-color: #f1f6fc;
+	border-bottom-width:1px;
+	border-radius: 6px 6px 0px 0px;
+	
+}
+.stepcontainer .step-edited .page-header{
+	background: #f1f6fc;	
+}
+#PageContent .stepcontainer .step-title{
+	color: #999999;
+	margin: 10px; /*used to center title verticaly*/
+}
+.stepcontainer .step-edited .step-title{
+	color: #3a87ad;
+}
+.stepcontainer .step-buttons{
+	float: right;
+}
+.step-title i.icon-refresh{
+	opacity: 0.5
+}
+.step-title i.icon-refresh:hover{
+	opacity: 1
+}
+
+.stepcontainer .step-edited .step-content{
+	background-clip: padding-box;
+	border-bottom-width:0px;
+	border-radius: 0px;
+}
+
+.stepcontainer .section{
+	display: block;
+	width: 100%;
+	border: #E3E3E3 solid 1px;
+	border-radius: 6px 6px 6px 6px;
+}
+.stepcontainer .step-edited .section{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	outline: medium none;
+}
+
+ .stepcontainer .section .table{
+	margin-bottom: 0px;
+}
+
+.stepcontainer .section .step-buttons{
+	height: 40px;
+}
+
+.stepcontainer .section .step-buttons a{
+	opacity: 0.4;
+}
+
+.stepcontainer .section:hover .step-buttons a{
+	display: block;
+	opacity: 1.0;
+}

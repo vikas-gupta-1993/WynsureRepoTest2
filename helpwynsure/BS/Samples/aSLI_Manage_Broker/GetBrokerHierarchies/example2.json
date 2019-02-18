@@ -1,0 +1,25 @@
+{
+	"description":"When broker hierarchy is not present",
+	"request":{
+		
+		"input":{
+			"buid":"",
+			"brokerID":"10000173"
+		}
+	},
+	"response":{
+		"className":"aSPLI_CreateOrUpdateBrokerHierarchies_In",
+		"brokerId":{
+			"buid":"",
+			"brokerID":"10000173"
+		},
+		"brokerHierarchies":[
+		]
+	},
+	"className":"asli_manage_Broker",
+	"methodName":"GetBrokerHierarchies",
+	"version":"5.8.1.0",
+	"date":"2018-03-09",
+	"errors":[
+	]
+}

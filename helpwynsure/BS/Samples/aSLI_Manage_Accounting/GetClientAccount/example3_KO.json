@@ -1,0 +1,38 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"accountId":"L310",
+			"clientId":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":""
+			},
+			"buid":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetClientAccount",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"75D9_BS_00011",
+			"message":"Client Account Id is not consistent",
+			"kind":"errBadValue",
+			"kindNumber":0
+		},
+		{
+			"code":"031D_BS_00031",
+			"message":"Cannot Find Account",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

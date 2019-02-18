@@ -1,0 +1,42 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"picker":"awliproductpicker",
+			"params":[
+				{
+					"name":"code",
+					"value":"AVV"
+				}
+			]
+		}
+	},
+	"response":[
+		{
+			"$ref":"318859806_1",
+			"summary":{
+				"code":"AVV",
+				"name":"Assurance - Vie Variable",
+				"productFamily":"Epargne",
+				"issuingCompanyName":"W Assurance SA",
+				"isActive":"Actif",
+				"fetchedName":"Assurance - Vie Variable",
+				"fetchedCode":"AVV",
+				"fetchedVersionName":"Assurance - Vie Variable ",
+				"fetchedVersionNumber":"AVV",
+				"fetchedIssuingCompany":"W Assurance SA",
+				"fetchedProductFamily":"Epargne",
+				"isVersionInPicker":false
+			}
+		}
+	],
+	"eval":{
+		"[0]/$ref":"cashValueProductBUID"
+	},
+	"className":"asf_managepicker",
+	"methodName":"ExecutePicker",
+	"version":"5.8.2.0",
+	"date":"2018-07-11",
+	"errors":[
+	]
+}

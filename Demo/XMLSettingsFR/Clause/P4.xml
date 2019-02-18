@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P4]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1036\f0\fs16      \cf2\b\f1  Lieu de r\'e9sidence de l'Assur\'e9, personne physique
+\par \cf1\b0       "Est admissible au pr\'e9sent contrat et sera d\'e9sign\'e9 sous le terme d'Assur\'e9, toute personne physique : 
+\par       - r\'e9sidante de l'Espace Economique Europ\'e9en, qui en outre n'est ni un citoyen (y compris personne ayant la double   
+\par       nationnalit\'e9 ou n\'e9e sur le sol am\'e9ricain) ni d\'e9tenteur de la carte verte.
+\par       \cf2\b Organisme affili\'e9 \'e0 l'Assur\'e9 \'e0 exclure
+\par      \cf1\b0 membre de l'UFEP
+\par       \cf2\b\'e2ge minimum \'e0 l'adh\'e9sion
+\par      \cf1\b0 Age \'e0 la date de signature de la Demande d'adh\'e9sion de plus de 18 ans.
+\par \cf2\b      \'e2ge maximum (exclu) \'e0 l'adh\'e9sion
+\par     \cf1\b0   - moins de 85 ans pour la garantie d\'e9c\'e8s
+\par        - moins de 60 ans pour les garanties PTIA, IPT, IPP et ITT
+\par        - moins de 55 ans pour la garantie IP
+\par \cf2\b      Lieu de la r\'e9sidence fiscale pour souscrire au produit
+\par \cf1\b0       France
+\par       Suisse
+\par       UE\cf2\b 
+\par      Nationalit\'e9 autoris\'e9e pour souscrire au produit
+\par \cf1\b0       Suisse
+\par       UE\cf2\b 
+\par      Autres personnes physiques pouvant \'eatre admissible au pr\'e9sent contrat
+\par      \cf1\b0 "Emprunteur principal, coemprunteur, dirigeant ou caution personne morale"
+\par \cf2\b      Seuil du questionnaire financier
+\par      \cf1\b0 1.000.000 Euros\cf2\b 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Conditions d'admission]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[CG Emprunteur Conditions d'admission]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

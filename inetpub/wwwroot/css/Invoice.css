@@ -1,0 +1,18 @@
+.Left{
+	float: Left;
+	width:50%;
+}
+
+.Right{
+	float: Right;
+	width:50%;
+}
+
+#DisplayAmountsWrapper{
+	padding-top:40px;
+}
+
+.Red{
+	color:red;
+	
+}

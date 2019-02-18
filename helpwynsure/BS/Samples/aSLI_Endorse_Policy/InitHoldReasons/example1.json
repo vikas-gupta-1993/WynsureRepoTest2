@@ -1,0 +1,24 @@
+{
+	"description":"",
+	"request":{
+		"policy":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			},
+			"buid":"{{individualPolicyBuid}}"
+		}
+	},
+	"response":[
+	],
+	"className":"aSLI_Endorse_Policy",
+	"methodName":"InitHoldReasons",
+	"version":"5.8.1.0",
+	"date":"2018-02-15",
+	"errors":[
+	]
+}

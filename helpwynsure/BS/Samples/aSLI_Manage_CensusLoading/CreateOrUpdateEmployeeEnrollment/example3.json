@@ -1,0 +1,139 @@
+{
+	"description": "GBP member enrollment for single product with default mandatory coverages with default plan design.",
+	"request": {
+		"input": {
+			"$ref": "#",
+			"className": "aSPLI_CensusLoading_In",
+			"employee": {
+				"$ref": "#",
+				"className": "aSPLI_CreateOrUpdateEmployee_In",
+				"employeeId": {
+					"employeeId": "{{employeeID}}"
+				},
+				"employee": {
+					"className": "aSPLI_US_Employee",
+					"effectiveDate": "{{CurrentDate}}",
+					"terminationReason": "",
+					"terminationDate": null,
+					"hireDate": "{{CurrentDate}}",
+					"salaryDefinedAtDate": null,
+					"employmentStatus": "esActive",
+					"workingHours": 40,
+					"workingHoursDefinedForFrequency": "fWeekly",
+					"workingCategory": "cFullTime",
+					"baseSalaryAmount": {
+						"amount": "{{employeeSalary}}",
+						"currency": "USD"
+					},
+					"baseSalaryFrequency": "fAnnually",
+					"salaryCommissionAmount": {
+						"amount": 0.00,
+						"currency": "USD"
+					},
+					"salaryCommissionFrequency": "meUndefined",
+					"salaryBonusAmount": {
+						"amount": 0.00,
+						"currency": "USD"
+					},
+					"salaryBonusFrequency": "meUndefined",
+					"canBeEnrolled": true,
+					"additionalDynamicDatas": [
+					],
+					"worksiteState": "cMN"
+				},
+				"person": {
+					"$ref": "#",
+					"className": "aSPLI_CreateOrUpdatePerson_Data",
+					"thirdPartyID": "DistRoot",
+					"clientId": {
+						"buid": "{{personBUID}}",
+						"internalClientId": "",
+						"externalClientIdentifier": {
+							"externalClientId": "",
+							"thirdPartyID": "DistRoot"
+						}
+					}
+				},
+				"legalEntityId": {
+					"buid": "{{legalEntityBUID}}",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": "DistRoot"
+					}
+				}
+			},
+			"enrollment": {
+				"$ref": "#",
+				"className": "aSPLI_CreateOrUpdateEnrollment_In",
+				"enrollmentInformation": {
+					"$ref": "#",
+					"className": "aSPLI_MemberContract",
+					"creationDate": "{{CurrentDate}}",
+					"effectiveDate": "{{CurrentDate}}",
+					"subscriptionDate": "{{CurrentDate}}",
+					"signatureDate": "{{CurrentDate}}",
+					"termOrRenewalDate": null,
+					"lastRenewalDate": null,
+					"reinstatementDate": null,
+					"terminationDate": null,
+					"terminationReason": "",
+					"terminationNumber": 0,
+					"billingMode": "cNextPeriod",
+					"endorsementKind": "",
+					"status": "cActive",
+					"externalManagement": false,
+					"claimExternalManagement": false,
+					"residenceStateCode": {
+						"stateName": "AL",
+						"stateCode": "AL",
+						"stateLabel": "Owner Residence State"
+					},
+					"additionalDatas": [
+						{
+							"className": "aSPCB_ClassificationValue",
+							"fieldCode": "JC",
+							"fieldName": "Job Classification",
+							"codeForPopulationClass": "",
+							"valueCode": "MS",
+							"fieldValue": "Monthly Salaried",
+							"nameDescription": "Monthly Salaried"
+						},
+						{
+							"className": "aSPCB_ClassificationValue",
+							"fieldCode": "MC",
+							"fieldName": "Member Class",
+							"codeForPopulationClass": "",
+							"valueCode": "EX",
+							"fieldValue": "Executive",
+							"nameDescription": "Executive"
+						}
+					],
+					"gBPNumber": {
+						"buid": "{{single_GBP_BUID}}",
+						"internalPolicyIdentifier": {
+							"internalPolicyId": "",
+							"issuingCompanyCode": ""
+						},
+						"externalPolicyIdentifier": {
+							"externalPolicyId": "",
+							"thirdPartyID": "AA"
+						}
+					},
+					"memberClassCode": ""
+				},
+				"updateDate": "{{CurrentDate}}",
+				"subscribedEntities": [
+				]
+			}
+		}
+	},
+	"response": null,
+	"eval": null,
+	"className": "aSLI_Manage_CensusLoading",
+	"methodName": "CreateOrUpdateEmployeeEnrollment",
+	"version": "5.8.3.0",
+	"date": "2018-12-04",
+	"errors": [
+	]
+}

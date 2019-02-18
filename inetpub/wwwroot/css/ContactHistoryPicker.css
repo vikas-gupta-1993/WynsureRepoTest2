@@ -1,0 +1,46 @@
+#ContactKindWrapper, #FromDateWrapper, #ToDateWrapper {
+	float: left;
+	width: 33%;
+}
+
+.outgoing{
+	padding-left: 15px;
+	background-repeat:no-repeat;	
+	background-image: url(./images/ContactHistory/out_16.png);
+}
+
+.incoming{
+	padding-left: 15px;
+	background-repeat:no-repeat;
+	background-image: url(./images/ContactHistory/in_16.png);	
+}
+
+.description{
+	background-repeat:no-repeat;
+	background-position:left; 
+	padding-left: 26px;	
+}
+
+.mail{
+    background-image: url(./images/ContactHistory/mail_16.png);
+}
+
+.email{
+    background-image: url(./images/ContactHistory/email_16.png);    
+}
+
+.sms{
+    background-image: url(./images/ContactHistory/sms_16.png);    
+}
+
+.phone{
+    background-image: url(./images/ContactHistory/phone_16.png);    
+}
+
+.fax{
+    background-image: url(./images/ContactHistory/fax_16.png);    
+}
+
+.other{
+    background-image: url(./images/ContactHistory/other_16.png);    
+}

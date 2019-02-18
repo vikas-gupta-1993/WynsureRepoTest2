@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWFxUnusedLocalsCAR name="Unused Locals" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<UnusedLocals>True</UnusedLocals>
+	<UnusedConsts>True</UnusedConsts>
+	<UnusedTypes>False</UnusedTypes>
+	<SkipInterfaceClasses>True</SkipInterfaceClasses>
+</aWFxUnusedLocalsCAR>
+<aWFxSearchForMissingMultilang name="MM errors" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<CheckInconsistentTranslation>False</CheckInconsistentTranslation>
+	<CheckMissingNewTranslation>False</CheckMissingNewTranslation>
+	<CheckStaticType>True</CheckStaticType>
+	<CheckLineFormat>True</CheckLineFormat>
+	<CheckStatictextInScen>True</CheckStaticTextInScen>
+	<CheckExplantionInScen>True</CheckExplantionInScen>
+	<CheckVarUsedInDeclareMandatory>True</CheckVarUsedInDeclareMandatory>
+	<CheckFolderView>True</CheckFolderView>
+	<CheckStringConstantInCode>True</CheckStringConstantInCode>
+	<CheckConstInMethod>True</CheckConstInMethod>
+</aWFxSearchForMissingMultilang>
+<aWFxSearchForMultiCurrencyCAR name="Multi-Currency" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<CheckClassDefs>True</CheckClassDefs>
+	<CheckScenariis>True</CheckScenariis>
+</aWFxSearchForMultiCurrencyCAR>
+<aWFxSearchForScenariiErrors name="Scenarii Errors" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<CheckFolders>False</CheckFolders>
+	<CheckListCtrlLineFormats>True</CheckListCtrlLineFormats>
+	<CheckScreenSize>True</CheckScreenSize>
+	<ScreenSizeMaxWidth>1024</ScreenSizeMaxWidth>
+	<ScreenSizeMaxHeight>740</ScreenSizeMaxHeight>
+	<CheckNoSpaceBetweenSeparators>True</CheckNoSpaceBetweenSeparators>
+	<SeparatorsToCheck>:;!?'</SeparatorsToCheck>
+	<CheckInverseMyOwner>True</CheckInverseMyOwner>
+</aWFxSearchForScenariiErrors>
+<aWFxSearchOQLCAR name="OQL errors" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<SearchBoolean>True</SearchBoolean>
+	<SearchMemory>True</SearchMemory>
+</aWFxSearchOQLCAR>
+<aWFxReftoListOfActionsCAR name="Listofs/Reftos Errors" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<AdvancedCheck>False</AdvancedCheck>
+	<CheckCompatibleInverseVarDesc>True</CheckCompatibleInverseVarDesc>
+	<CheckDefaultPickerForSearch>False</CheckDefaultPickerForSearch>
+	<CheckDisposeReftos>True</CheckDisposeReftos>
+	<CheckInverseMyOwnerForOwner>False</CheckInverseMyOwnerForOwner>
+	<CheckNoCreateOrModifyForPA>False</CheckNoCreateOrModifyForPA>
+	<CheckNoInverseMyOwnerForPA>False</CheckNoInverseMyOwnerForPA>
+	<CheckNoSearchForOwner>False</CheckNoSearchForOwner>
+	<CheckNoVariablesInRole>True</CheckNoVariablesInRole>
+	<CheckOnlyConsultForBackRefMyOwner>True</CheckOnlyConsultForBackRefMyOwner>
+	<CheckWFRoleType>False</CheckWFRoleType>
+	<CheckAccessToListOfList>True</CheckAccessToListOfList>
+</aWFxReftoListOfActionsCAR>
+<aWFxBundleClosureRule name = "Bundle Closure" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<BlockForUnflaggedClass>False</BlockForUnflaggedClass>
+</aWFxBundleClosureRule>
+<aWFxNumberComparisonRule name="Number Comparison" create="True">
+	<MustAnalyze>True</MustAnalyze>
+</aWFxNumberComparisonRule>
+<aWFxCheckVariableModificationRule name="Variable Modification" create="True">
+	<MustAnalyze>True</MustAnalyze>
+</aWFxCheckVariableModificationRule>
+<aWEXEventsInUIAgentCAR name="Check Events in Scenarii" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<CheckErrorIncompatibleMethodType>Skip tagged code</CheckErrorIncompatibleMethodType>
+	<CheckWarningEventNotDefinedInScenario>Skip tagged code</CheckWarningEventNotDefinedInScenario>
+	<CheckWarningUIAgentVarOrQVPNotFound>Skip tagged code</CheckWarningUIAgentVarOrQVPNotFound>
+</aWEXEventsInUIAgentCAR>
+<aWEXPerformanceOQLCAR name="OQL Performance Rule" create="True">
+	<MustAnalyze>True</MustAnalyze>
+	<MustApplyRule_MissingCursor>Enable</MustApplyRule_MissingCursor>
+	<MustApplyRule_MissingPlusPlus>Skip tagged code</MustApplyRule_MissingPlusPlus>
+	<MustApplyRule_AnalyzeJoins>Enable</MustApplyRule_AnalyzeJoins>
+	<MustApplyRule_LeftOuterJoin>Disable</MustApplyRule_LeftOuterJoin>
+	<MustApplyRule_JoinInOr>Enable</MustApplyRule_JoinInOr>
+	<MustApplyRule_HasDistinct>Disable</MustApplyRule_HasDistinct>
+	<MustApplyRule_DuplicatesInSelect>Disable</MustApplyRule_DuplicatesInSelect>
+	<MustApplyRule_TopCursor>Disable</MustApplyRule_TopCursor>
+</aWEXPerformanceOQLCAR>

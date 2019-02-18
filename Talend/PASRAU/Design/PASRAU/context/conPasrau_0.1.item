@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_-YtdELy2Eeiqc_FXKdrqBg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_-YtdEby2Eeiqc_FXKdrqBg" comment="" name="varTotalRow" prompt="varTotalRow?" promptNeeded="false" type="id_Integer" value="8"/>
+  <contextParameter xmi:id="_-YtdEry2Eeiqc_FXKdrqBg" comment="" name="varFirstDate" prompt="varFirstDate?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_-YtdE7y2Eeiqc_FXKdrqBg" comment="" name="varGlobalAmount" prompt="varGlobalAmount?" promptNeeded="false" type="id_BigDecimal" value=""/>
+  <contextParameter xmi:id="_-YtdFLy2Eeiqc_FXKdrqBg" comment="" name="varFilePath" prompt="varFilePath?" promptNeeded="false" type="id_String" value="C:\Talend\PASRAU\changedJJson\3443759_v3.json"/>
+  <contextParameter xmi:id="_-YtdFby2Eeiqc_FXKdrqBg" comment="" name="varFolderPath" prompt="varFolderPath?" promptNeeded="false" type="id_String" value="C:\Talend\PASRAU\changedJJson"/>
+  <contextParameter xmi:id="_-YtdFry2Eeiqc_FXKdrqBg" comment="" name="varOutputFile" prompt="varOutputFile?" promptNeeded="false" type="id_String" value="C:/Talend/output/3443759_v3.csv"/>
+  <contextParameter xmi:id="_-YtdF7y2Eeiqc_FXKdrqBg" comment="" name="varCountry" prompt="varCountry?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_-YtdGLy2Eeiqc_FXKdrqBg" comment="" name="varIsOverridenRate" prompt="varIsOverridenRate?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

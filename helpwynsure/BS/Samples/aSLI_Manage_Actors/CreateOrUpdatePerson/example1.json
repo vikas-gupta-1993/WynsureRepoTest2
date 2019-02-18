@@ -1,0 +1,337 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"className":"aSPLI_CreateOrUpdatePerson_Data",
+			"personIdentity":{
+				"className":"aSPLI_Person",
+				"sSN":"",
+				"maritalStatus":"meUndefined",
+				"personTitleEnum":"2",
+				"priorName":"Roberts",
+				"middleName1":"Jenifer",
+				"middleName2":"Courtney",
+				"nameSuffix":"De",
+				"gender":"meUndefined",
+				"attachedToAnOtherSSN":false,
+				"nationality":"USA",
+				"birthRank":1,
+				"birthCountry":"USA",
+				"birthPlaceCity":"Northampton",
+				"birthPlaceZipCode":"1060",
+				"birthPlaceState":"AL",
+				"legalRepresentativeId_Deprecated5200":{
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					},
+					"buid":""
+				},
+				"occupation":"Doctor",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"",
+						"fieldCode":"1",
+						"fieldName":"",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"",
+						"fieldCode":"2",
+						"fieldName":"",
+						"codeForPopulationClass":""
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"birthDate":"1984-11-20",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"name":"NewmanCCFIDE",
+				"shortName":"Chuck",
+				"creationDate":"2012-01-01",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"legalRepresentative":null,
+			"claimDisbursementChannel":[
+			],
+			"clientId":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"336925",
+					"thirdPartyID":"DistRoot"
+				},
+				"buid":""
+			},
+			"thirdPartyID":"DistRoot",
+			"updateDate":"2012-03-03",
+			"correspondences":[
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2012-01-01",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"407 Sarah Dr",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(913) 721-3708",
+					"privatePhoneExtension":"3300",
+					"officePhone":"(319) 832-4819",
+					"officePhoneExtension":"4411",
+					"cellPhone":"(913) 721-3709",
+					"fax":"(913) 721-3710",
+					"eMail":"ann.barret@free.com",
+					"mediaType":""
+				},
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2012-03-01",
+					"addressUsage":"1",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"2373 Brockton Way",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":false,
+					"privatePhone":"(913) 721-3708",
+					"privatePhoneExtension":"3300",
+					"officePhone":"(319) 832-4819",
+					"officePhoneExtension":"4411",
+					"cellPhone":"(913) 721-3709",
+					"fax":"(913) 721-3710",
+					"eMail":"ann.barret@free.com",
+					"mediaType":""
+				}
+			],
+			"paymentMethods":[
+				{
+					"className":"aSPCB_US_BankAccount",
+					"accountNumber":"000140867194644",
+					"routingNumber":"091000019",
+					"preNoteCompleted":false,
+					"preNoteProcessCompletionDate":null,
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"6000 Lexington Avenue"
+				},
+				{
+					"className":"aSPCB_CA_BankAccount",
+					"accountNumber":"000140867129536",
+					"preNoteProcessCompletionDate":null,
+					"institution":"910",
+					"branch":"00019",
+					"currency":"cCanadianDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"7051 Lexiton Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-03-01",
+					"endDate":null,
+					"holderName":"6000 Lexington Avenue"
+				},
+				{
+					"className":"aSPCB_IBAN_BankAccount",
+					"iBAN":"GB87 BARC 2065 8244 9716 55",
+					"bIC":"BARCGB22",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_Fr_BankAccount",
+					"bankCode":"24145",
+					"officeCode":"74317",
+					"accountNumber":"50261598443",
+					"rIBKey":"92",
+					"iBAN":"FR7624145743175026159844392",
+					"bIC":"CEPAFRPP118",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				}
+			],
+			"contactInformations":[
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"John Smith",
+					"contactName":"John Smith",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2012-02-02",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"10029 Garden Lake Ct",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				},
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"William Doe",
+					"contactName":"William Doe",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2012-03-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"9820 Russett Wood Cir",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				}
+			],
+			"loginInformation":null
+		}
+	},
+	"response":{
+		"internalClientId":"0000000172",
+		"externalClientIdentifier":{
+			"externalClientId":"336925",
+			"thirdPartyID":"DistRoot"
+		},
+		"buid":"318842236_167"
+	},
+	"className":"aSLI_Manage_Actors",
+	"methodName":"CreateOrUpdatePerson",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

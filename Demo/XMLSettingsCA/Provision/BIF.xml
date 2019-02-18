@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[BIF]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial,Bold;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}
+\viewkind4\uc1\pard\lang1033\fs20 Business Income means the:\par
+\b\f1 a. \b0\f0 Net Income (Net Profit or Loss before income taxes) that would have been earned or incurred; and\par
+\b\f1 b. \b0\f0 Continuing normal operating expenses incurred, including payroll.\par
+For manufacturing risks, Net Income includes the net sales value of production.\par
+Coverage is provided as described and limited below for one or more of the following options for which a Limit of Insurance is shown in the Declarations.\par
+\par
+We will pay for the actual loss of Business Income you sustain due to the necessary "suspension" of your "operations" during the "period of restoration".\par
+The "suspension" must be caused by direct physical loss of or damage to property at premises which are described in the Declarations and for which a Business Income Limit of Insurance is shown in the Declarations. The loss or damage\par
+must be caused by or result from a Covered Cause of Loss. With respect to loss of or damage to personal property in the open or personal property in a vehicle, the described premises include the area within 100 feet of the site at which the described\par
+premises are located.\par
+\f2\fs22\par
+\b\f1\fs20 Covered Causes Of Loss, Exclusions And Limitations\par
+\b0\f0 See applicable Causes of Loss Form as shown in the Declarations.\par
+\par
+\b\f1 Additional Limitation . Interruption Of Computer Operations\par
+\b0\f0 Coverage for Business Income does not apply when a "suspension" of "operations" is caused by destruction or corruption of electronic data, or any loss or damage to electronic data, except as provided under the Additional Coverage . Interruption Of Computer Operations.\f2\fs22\par
+}
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Apartment Building-Business Income Form]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Apartment Building-Business Income Form]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

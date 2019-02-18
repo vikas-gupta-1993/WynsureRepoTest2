@@ -1,0 +1,723 @@
+{
+	"description":"Search All individuals",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_Individual",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":""
+			},
+			"brokerBUID":"318836818_48",
+			"sSN":""
+		},
+		"maxSize":10
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_37",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Aaron",
+				"shortName":"Edwards",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1972-11-20",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"433327242",
+				"maritalStatus":"cWidowed",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Northampton",
+				"birthPlaceZipCode":"01060",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000037"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_55",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Abdo",
+				"shortName":"Joseph",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1957-06-07",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"761418262",
+				"maritalStatus":"cWidowed",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Lubbock",
+				"birthPlaceZipCode":"79401",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000055"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_5",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Alison",
+				"shortName":"James",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1956-04-25",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"833768241",
+				"maritalStatus":"cMarried",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Hampton",
+				"birthPlaceZipCode":"23669",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000005"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_38",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Almaraz",
+				"shortName":"Mark",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1987-04-05",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"474422565",
+				"maritalStatus":"cDomesticPartner",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"La Crosse",
+				"birthPlaceZipCode":"54601",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000038"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_6",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Asley",
+				"shortName":"Tony",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1978-12-15",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"167567853",
+				"maritalStatus":"cMarried",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Roswell",
+				"birthPlaceZipCode":"88203",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000006"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_7",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Austin",
+				"shortName":"Elaine",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1950-12-15",
+				"personTitleEnum":"ptMrs",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gFemale",
+				"sSN":"415616875",
+				"maritalStatus":"cMarried",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Cadiz",
+				"birthPlaceZipCode":"42211",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000007"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_34",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Baran",
+				"shortName":"Steve",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1963-09-16",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"734147846",
+				"maritalStatus":"cWidowed",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Hartford",
+				"birthPlaceZipCode":"06103",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000034"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_8",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Barret",
+				"shortName":"Ann",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1968-12-08",
+				"personTitleEnum":"ptMrs",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gFemale",
+				"sSN":"475762246",
+				"maritalStatus":"cDivorced",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"New York",
+				"birthPlaceZipCode":"10173",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000008"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_42",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Bennett",
+				"shortName":"Cheryl",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1967-06-15",
+				"personTitleEnum":"ptMrs",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gFemale",
+				"sSN":"476262165",
+				"maritalStatus":"cMarried",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Providence",
+				"birthPlaceZipCode":"02908",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000042"
+		},
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_30",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Blake",
+				"shortName":"Robert",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1960-06-21",
+				"personTitleEnum":"ptMr",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"sSN":"177616882",
+				"maritalStatus":"cMarried",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Orlando",
+				"birthPlaceZipCode":"32810",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000030"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"SearchCustomers",
+	"version":"5.8.2.1",
+	"date":"2018-09-20",
+	"errors":[
+	]
+}

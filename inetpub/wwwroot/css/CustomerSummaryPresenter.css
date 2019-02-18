@@ -1,0 +1,42 @@
+#GeneralInformation{
+	float : left;
+	width : 49%;
+}
+
+#GeneralInformation .ui-accordion div.ui-accordion-content{
+	height:130px;
+}
+
+
+#Correspondence{
+	display : inline-block;
+	padding-left : 11px;
+	width : 49%;
+}
+
+#Correspondence .ui-accordion div.ui-accordion-content{
+	height:130px;
+}
+
+
+dl dd.DefaultAddressWrapper{
+	padding-left: 150px;
+	overflow: visible;
+}
+
+dl.floatleft dt{
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 

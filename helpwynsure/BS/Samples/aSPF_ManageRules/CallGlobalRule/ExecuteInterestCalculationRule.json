@@ -1,0 +1,40 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSCB_ManageRules"
+		},
+		"ruleIdentifier":{
+			"className":"aSPCB_GlobalRuleIdentifier",
+			"bUID":"",
+			"description":"",
+			"name":"Interest calculation"
+		},
+		"parameters":[
+			{
+				"name":"Amount",
+				"value":50000
+			},
+			{
+				"name":"Annuityduration",
+				"value":22
+			},
+			{
+				"name":"Interestrate",
+				"value":3.00
+			}
+		],
+		"atDate":"2018-08-14"
+	},
+	"response":{
+		"result":"{\"_Result\":95805.1704430391}",
+		"comment":""
+	},
+	"eval":null,
+	"className":"aSCB_ManageRules",
+	"methodName":"CallGlobalRule",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

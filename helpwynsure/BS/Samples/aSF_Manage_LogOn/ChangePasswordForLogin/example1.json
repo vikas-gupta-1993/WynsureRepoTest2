@@ -1,0 +1,16 @@
+{
+	"description":"",
+	"request":{
+		"login":"contact@afn.com",
+		"oldPassword":"4321",
+		"newPassword":"765"
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSF_Manage_LogOn",
+	"methodName":"ChangePasswordForLogin",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

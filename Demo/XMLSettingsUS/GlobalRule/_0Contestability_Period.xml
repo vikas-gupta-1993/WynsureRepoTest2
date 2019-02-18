@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[No]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[CED]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770842]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[ContractEffectiveDate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771503]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[No]]></CreationDate><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[LED]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770842]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[LossEventDate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771503]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><ReturnType Id="2"><![CDATA[True/False value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+uses WFTypes
+
+ContractEffectiveDate : tWFDate
+LossEventDate : tWFDate
+
+
+procedure WFCalculate(inOut Result : Boolean)
+   var PolicyAnniversaryDate : tWFDate
+   
+   Result = True
+   PolicyAnniversaryDate = self.ContractEffectiveDate
+   self.IncYears(2, PolicyAnniversaryDate)
+   ;
+   if self.LossEventDate <= PolicyAnniversaryDate
+      self.AppendInfoMessage('The Contract is in the contestability period.')
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107549]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[01/01/2000]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770842]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Contestability_Period]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769072]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Contestability_Period]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770842]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneRule></EntityExport>

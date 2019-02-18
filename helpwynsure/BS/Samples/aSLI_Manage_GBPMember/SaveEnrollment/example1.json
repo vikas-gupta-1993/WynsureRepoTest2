@@ -1,0 +1,192 @@
+{
+	"description": "This examples saves member enrollment data for GBP with single product",
+	"request": {
+		"enrollment": {
+			"$ref": "#",
+			"className": "aSPLI_SaveMemberEnrollment_Data",
+			"buid": "",
+			"enrollmentData": {
+				"className": "aSPLI_MemberEnrollment_Data",
+				"subscriberBuid": "{{PersonBUID}}",
+				"employee": {
+					"$ref": "#",
+					"className": "aSPLI_GetEmployee",
+					"searchEmployee": {
+						"buid": "{{employeeBUID}}",
+						"employeeId": "",
+						"personId": {
+							"buid": "",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": ""
+							}
+						},
+						"legalEntityId": {
+							"buid": "",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": ""
+							}
+						}
+					},
+					"createOrUpdateEmployee": null
+				},
+				"gBPId": {
+					"buid": "{{GBP_BUID}}"
+				},
+				"distributionUnitCode": "AA",
+				"subscriptionDate": "{{CurrentDate}}",
+				"signatureDate": "{{CurrentDate}}",
+				"choices": [
+					{
+						"className": "aSPLI_LifeInsuredChoices",
+						"options": [
+							{
+								"className": "aSPCB_SubscriptionChoiceOption",
+								"option": {
+									"className": "aSPCB_OfferedOption",
+									"name": "{{CoverageName}}",
+									"entityDescription": "",
+									"code": "{{CoverageCode}}"
+								},
+								"isChecked": true,
+								"isMandatory": true,
+								"effectiveDate": null,
+								"parentOptionCode": ""
+							}
+						],
+						"insured": {
+							"className": "aSPLI_InsuredWithRelation",
+							"clientId": {
+								"buid": "{{personBUID}}",
+								"internalClientId": "",
+								"externalClientIdentifier": {
+									"externalClientId": "",
+									"thirdPartyID": "DistRoot"
+								}
+							}
+						}
+					}
+				],
+				"useState": true,
+				"stateCode": {
+					"stateLabel": "",
+					"stateName": "AK",
+					"stateCode": "AK"
+				},
+				"stateCandidates": [
+				],
+				"additionalData": [
+					{
+						"className": "aSPCB_AdditionalData_ValueDescription",
+						"value": {
+							"className": "aSPCB_ClassificationValue",
+							"valueCode": "EX",
+							"fieldValue": "Executive",
+							"nameDescription": "Executive",
+							"fieldCode": "MC",
+							"fieldName": "Member Class",
+							"codeForPopulationClass": ""
+						}
+					},
+					{
+						"className": "aSPCB_AdditionalData_ValueDescription",
+						"value": {
+							"className": "aSPCB_ClassificationValue",
+							"fieldCode": "JC",
+							"fieldName": "Job Classification",
+							"codeForPopulationClass": "",
+							"valueCode": "MS",
+							"fieldValue": "Monthly Salaried",
+							"nameDescription": "Monthly Salaried"
+						}
+					}
+				],
+				"insured": [
+					{
+						"className": "aSPLI_Insured_Data",
+						"insuredInformation": {
+							"className": "aSPLI_InsuredWithRelation",
+							"dependence_Deprecated5200": "cCoveredSubscriber",
+							"clientId": {
+								"internalClientId": "",
+								"externalClientIdentifier": {
+									"externalClientId": "",
+									"thirdPartyID": "DistRoot"
+								},
+								"buid": "{{PersonBUID}}"
+							}
+						},
+						"additionalData": [
+						],
+						"insured": {
+							"className": "aSPLI_GetPerson",
+							"searchPerson": {
+								"internalClientId": "",
+								"externalClientIdentifier": {
+									"externalClientId": "",
+									"thirdPartyID": "DistRoot"
+								},
+								"buid": "{{PersonBUID}}"
+							}
+						}
+					}
+				],
+				"coverages": [
+				],
+				"possibleInsured_Deprecated5200": [
+				],
+				"possibleRelationshipsToInsured": [
+				],
+				"productChoices": [
+				],
+				"products": [
+				],
+				"buid": ""
+			},
+			"beneficiaries": null,
+			"billingService": null,
+			"billingMode": null,
+			"billingContact": null,
+			"invoiceChannel": null,
+			"invoicePaymentMethod": null,
+			"dateOfDirectPayment": 0,
+			"uploadedDocuments": [
+			],
+			"autoValidate": true
+		}
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_SavedMemberEnrollment_Data",
+		"buid": "318842731_22",
+		"status": {
+			"processID": {
+				"className": "aSPF_Identifier",
+				"bUID": "318843780_3",
+				"description": ""
+			},
+			"contractID": {
+				"buid": "318842731_22",
+				"internalPolicyIdentifier": {
+					"internalPolicyId": "2018/4800000578",
+					"issuingCompanyCode": "WIC"
+				},
+				"externalPolicyIdentifier": {
+					"externalPolicyId": "",
+					"thirdPartyID": "AA"
+				}
+			},
+			"contractEndorsementOrSubscriptionStatus": "esInProgress"
+		}
+	},
+	"eval": null,
+	"className": "aSLI_Manage_GBPMember",
+	"methodName": "SaveEnrollment",
+	"version": "5.8.3.0",
+	"date": "2018-12-07",
+	"errors": [
+	]
+}

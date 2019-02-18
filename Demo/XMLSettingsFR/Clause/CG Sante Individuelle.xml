@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[SGSI]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\froman\fcharset0 Times New Roman;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\sb100\sa100\qc\b\f0\fs24 Titre I : Conditions d'adh\'e9sion\b0\par
+Pour adh\'e9rer a l'offre Sant\'e9 Individuelle, vous devez :\par
+\pard\sb100\sa100\u9658? \'catre assujetti \'e0 un r\'e9gime de s\'e9curit\'e9 sociale fran\'e7ais.\par
+\u9658? Avoir entre 16 et 69 ans au jour de votre adh\'e9sion.\par
+\pard\sb100\sa100\qc\b Titre II : Prise d\rquote effet des garanties\b0  \par
+\pard\sb100\sa100 Sous r\'e9serve des d\'e9lais de stage ci-dessous, toute souscription accept\'e9e par l'assureur prend effet le lendemain z\'e9ro heure du jour de sa r\'e9ception, le cachet de la poste faisant foi.\par
+\u9658? Vous aviez un pr\'e9c\'e9dent contrat de sant\'e9 individuel ou collectif\par
+Pas de stage sauf si le d\'e9lai \'e9coul\'e9 entre votre adh\'e9sion et la date de fin des prestations de votre ancien contrat sant\'e9 est sup\'e9rieure \'e0 deux mois (dans ce cas, voir ci-dessous)\par
+\u9658? Vous n\rquote\'e9tiez pas, pr\'e9c\'e9demment, adh\'e9rent \'e0 un contrat sant\'e9\par
+Dans ce cas, vos garanties ne prendront effet qu\rquote apr\'e8s les d\'e9lais de stage suivants :\par
+- Accident : pas de stage, vous \'eates pris en charge par le contrat sant\'e9 d\'e8s votre adh\'e9sion.\par
+- Prestations : 3 mois.\par
+\u9658? Cas particulier (maternit\'e9)\par
+Dans tous les cas le versement de la participation relative \'e0 la naissance est effectu\'e9e apr\'e8s un d\'e9lai de stage de 12 mois.\par
+\pard\sb100\sa100\qc\b Titre III : Soins rembours\'e9s\b0\par
+\pard\sb100\sa100\u9658? Les garanties prennent en charge :\par
+- Les actes m\'e9dicaux et prescriptions m\'e9dicales ou chirurgicales rembours\'e9s par la s\'e9curit\'e9 sociale \'e0 hauteur, au minimum, du ticket mod\'e9rateur.\par
+-  Dans tous les cas, le montant de remboursement est diff\'e9rent selon les garanties et fonction de la formule choisie par le souscripteur.\cf1\fs18\par
+\pard\sb100\sa100\qc\cf0\b\fs24 Titre IV : Cotisation et d\'e9faut de paiement\b0\par
+\pard\sb100\sa100 - La cotisation est annuelle. Le paiement de celle-ci peut, \'e0 la demande de l'assur\'e9, \'eatre fractionn\'e9 (mensuel, trimestiel ou semestriel). La cotisation sera alors major\'e9e d'un pourcentage selon le fractionnement choisi.\par
+- Les frais entra\'een\'e9s par un rejet de pr\'e9l\'e8vement d\'fb \'e0 un d\'e9faut de provision sont imputables au souscripteur.\par
+- Le d\'e9faut de paiement entra\'eene la suspension des garanties du contrat sans pour autant lib\'e9r\'e9rer le souscripteur des cotisations dues.\par
+\pard\sb100\sa100\qc\b Titre V : Forclusion\b0\par
+\pard\sb100\sa100 Les dossiers ouvrant droit aux prestations doivent, sous peine de forclusion, \'eatre pr\'e9sent\'e9s \'e0 l'assureur dans le d\'e9lai d'un an suivant la date d'\'e9tablissement des volets de d\'e9compte par la s\'e9curit\'e9 sociale.\cf1\fs18\par
+\pard\sb100\sa100\qc\cf0\b\fs24 Titre VI : Renouvellement et changement de garantie\b0\par
+\pard\sb100\sa100 - Sauf demande de radiation par le souscripteur effectu\'e9e au plus tard avant le 1er novembre de l'ann\'e9e civile en cours, l'adh\'e9sion au contrat est renouvel\'e9e par tacite reconduction et sans aucune formalit\'e9.\par
+- Toute demande de changement de garantie doit \'eatre formul\'e9e aupr\'e8s de l'assureur avant le 1er novembre de l'ann\'e9e civile en cours.\par
+- Si le changement de garantie est accept\'e9e par l'assureur, il prend effet \'e0 compter du 1er janvier de l'ann\'e9e civile suivante.\cf1\fs18\par
+\pard\f1\fs16\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[CG Santé Individuelle]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[GC Santé Individuelle]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774232]]></NSId><Id Id="2"><![CDATA[43]]></Id><Version Id="3"><![CDATA[2]]></Version></aWLI_Provision></EntityExport>

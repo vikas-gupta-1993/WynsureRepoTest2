@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		"actorBuid":"{{personBUID}}",
+		"atDate":"1900-01-01"
+	},
+	"response":[
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetActorBankAccounts",
+	"version":"5.7.3.0",
+	"duration":9,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

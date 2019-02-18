@@ -1,0 +1,53 @@
+/********************
+*   Action Group    *
+********************/
+
+
+#TitlesWrapper {
+    float: left;
+    padding-top: 3px;
+}
+
+#SelectedTitleWrapper {
+    display: inline-block;
+}
+
+/********************
+*  CustomizedTablePresenter   *
+********************/
+.CustomizedTablePresenter{
+	width : 100%;
+}
+
+table.CustomizedTablePresenter th.ActionsTable,  table.CustomizedTablePresenter th.ActionsTable select {
+    width: 190px;
+}
+
+ table.CustomizedTablePresenter th.PaginationTable {
+    height: 35px;
+}
+
+ table.CustomizedTablePresenter th.ApplyTable {
+    width: 80px;
+}
+
+ table.CustomizedTablePresenter th.CheckBoxColumn,  table.CustomizedTablePresenter td.CheckBoxColumn {
+    width: 18px;
+}
+
+ .CustomizedTablePresenter a.checkbox,  .CustomizedTablePresenter a.checkbox:active,  .CustomizedTablePresenter a.checkbox:visited,  .CustomizedTablePresenter a.checkbox:link {
+    display: block;
+    height: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18px;
+}
+
+ table.CustomizedTablePresenter a,  table.CustomizedTablePresenter a:active,  table.CustomizedTablePresenter a:visited,  table.CustomizedTablePresenter a:link {
+	color: #0B559B;
+	text-decoration: underline;
+}
+
+.result{
+    margin-top: 0px;
+}

@@ -1,0 +1,146 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":[
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_3",
+			"description":"Réseau interne (Réseau de distribution)",
+			"unitCode":"AA"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_7",
+			"description":"A.D.H. (Assurances Descamps d'Haussy) (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"ADHADH"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_8",
+			"description":"Epargne Actuelle (Délégué AFER) (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"EAAFER"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_9",
+			"description":"Groupe GESCO Assurances (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"GESCO"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_10",
+			"description":"Courtier Général De France  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"CGDF"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_11",
+			"description":"Aviva (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"AVIV"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_12",
+			"description":"Prevencia (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"PREVIA"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_13",
+			"description":"Cetelem (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"CET"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_14",
+			"description":"Assurtis (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"ASIS"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_15",
+			"description":"Assurances du Beffroi  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"ASSBEF"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_16",
+			"description":"Frcourtage (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"FRCOU"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_17",
+			"description":"Courtage Assurances  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"CASS"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_18",
+			"description":"Mugnier et Motte Assurances  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"MUGMO"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_19",
+			"description":"Assurances Conseil Du Pays  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"ACDP"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_20",
+			"description":"SOFICAS (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"SOFC"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_21",
+			"description":"Groupe Eurossur  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"GERU"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_22",
+			"description":"AFER Epargne-Actuelle Délégué (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"AFER"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_23",
+			"description":"Assu 2000  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"ASS2000"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_24",
+			"description":"UCR (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"UCR"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_25",
+			"description":"Verspieren  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"VESASS"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_26",
+			"description":"D.B.L Assurances et Finances  (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"DBLAF"
+		},
+		{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_27",
+			"description":"APRIL Santé (Distributeur) (Distribution directe) (Réseau de distribution)",
+			"unitCode":"APRS"
+		}
+	],
+	"eval":null,
+	"className":"aSCB_Manage_Login",
+	"methodName":"GetAvailableDistributionUnitsForLoggedUser",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

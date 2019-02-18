@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"name":"",
+		"maxSize":-1
+	},
+	"response":[
+		{
+			"className":"aSPLI_OrganizationUnit",
+			"isForDirectDistribution":false,
+			"directDistributionChannel":"ddcIndividual",
+			"name":"Internal Agents",
+			"actorName":"",
+			"actorID":"",
+			"parentName":"",
+			"parentUnitCode":"",
+			"isADistributor":true,
+			"isADistributionNetwork":false,
+			"unitCode":"AA",
+			"externalOrgUnit":false,
+			"mainActivity":"Front Office",
+			"backOfficeActivity":0,
+			"backOfficeActivityDescription":"",
+			"externalBackOffice":false,
+			"creationDate":null,
+			"productDistributionRoleName":""
+		}
+	],
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetAvailableDistributionUnitsForQuote",
+	"version":"5.7.3.0",
+	"duration":92,
+	"date":"2017-10-17",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

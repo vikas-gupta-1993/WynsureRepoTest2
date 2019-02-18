@@ -1,0 +1,15 @@
+.portal-wrapper {
+  margin-top: 45px;
+
+}
+p.copyright {
+	clear: left;
+	color: #AAAAAA;
+	white-space: nowrap;
+	line-height: 1.5em;
+	margin: 0.2em 0;
+}
+#PortalBottomWrapper {
+  margin-top: 50px;
+  text-align: center;
+}

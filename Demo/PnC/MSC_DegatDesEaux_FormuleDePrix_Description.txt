@@ -1,0 +1,13 @@
+IMMOBILIER
+ Prix / m² = 0.11
+ Cat Nat = 0.016
+ Taxe = 0.09
+ Prix TTC Vitraux = 1.28
+
+MOBILIER
+ Prix Unitaire = 0.886 / 1000
+ Prix Orgues = 0.74 / 1000
+ Prix Meubles et Objets Precieux = 0.93 / 1000
+ Total = Unitaire + Orgues + Meubles et Objets Precieux 
+
+TOTAL = IMMOBILIER + MOBILIER  

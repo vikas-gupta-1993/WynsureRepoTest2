@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWF_ErrorDesc><ErrorCode Id="1"><![CDATA[75D9_BS_00011]]></ErrorCode><CodeDescription Id="2"><![CDATA[Client Account Id is not consistent]]></CodeDescription><ErrorKind Id="3"><![CDATA[0]]></ErrorKind><Name Id="3"><![CDATA[75D9_BS_00011]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835660]]></NSId><Id Id="2"><![CDATA[50]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_ErrorDesc></EntityExport>

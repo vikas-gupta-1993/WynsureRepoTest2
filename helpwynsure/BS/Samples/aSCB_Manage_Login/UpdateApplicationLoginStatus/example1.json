@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"applicationLogin":{
+			"$ref":"#",
+			"className":"aSPF_UpdateApplicationLogin_In",
+			"applicationLoginBuid":"318840180_72",
+			"isDisabled":false,
+			"profiles":[
+			]
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSCB_Manage_Login",
+	"methodName":"UpdateApplicationLoginStatus",
+	"version":"5.8.2.0",
+	"date":"2018-08-17",
+	"errors":[
+	]
+}

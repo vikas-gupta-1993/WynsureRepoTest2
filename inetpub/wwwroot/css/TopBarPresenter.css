@@ -1,0 +1,151 @@
+
+.top-bar-presenter .navbar-inverse .nav > li > li,
+.top-bar-presenter .navbar-inverse .dropdown-menu label{
+  color: black;
+}
+
+body .top-bar-presenter .enabledMethod a{
+	color: rgb(0, 117, 0);
+}
+
+body .top-bar-presenter .disabledMethod a{
+	color:rgb(255, 123, 144);
+}
+
+
+#PrimaryNavigationWrapper .nav-tabs>li>.closeIconTab{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.closeIconTab{
+	cursor: pointer;
+	position: absolute;
+	right: 1px;
+	display: none;
+}
+
+#PrimaryNavigation .nav-tabs > li>.closeIconTab{
+	margin-top: -31px;
+	margin-right: 1.5px;
+
+}     
+#PrimaryNavigation .dropdown-menu li>.closeIconTab{
+	margin-top: -23px;
+	margin-right: 6px;
+}
+
+#PrimaryNavigation .dropdown-menu li>.closeIconTab{
+	color: #fff;
+}
+
+#PrimaryNavigation .nav-tabs > li>.closeIconTab:hover,
+#PrimaryNavigation .dropdown-menu li>.closeIconTab:hover{
+	color: #bd362f;	
+}
+
+#PrimaryNavigation .nav-tabs  li:hover>.closeIconTab{
+	display: inherit;
+}
+
+#PrimaryNavigation .nav-tabs > li,       
+#PrimaryNavigation .dropdown-menu li{
+  	cursor: default;
+  	position: relative;
+}
+
+#PrimaryNavigation .nav-tabs > li > a{
+	padding-right: 13px;
+	padding-left: 7px;
+}
+
+#PrimaryNavigation .nav-tabs > li > a:hover,
+#PrimaryNavigation .nav-tabs > li > a:focus{
+	cursor: pointer;
+}
+
+#PrimaryNavigation .dropdown-menu>.active>a,
+#PrimaryNavigation .dropdown-menu>.active:hover>a,
+#PrimaryNavigation .dropdown-menu>.active:focus>a,
+#PrimaryNavigation .dropdown-menu>li:hover>a,
+#PrimaryNavigation .dropdown-menu>li:focus>a{
+	color:#fff;
+	background-image: none;
+	background-color: transparent;
+}
+
+#PrimaryNavigation .dropdown-menu>.active,
+#PrimaryNavigation .dropdown-menu>.active:hover,
+#PrimaryNavigation .dropdown-menu>.active:focus,
+#PrimaryNavigation .dropdown-menu>li:hover,
+#PrimaryNavigation .dropdown-menu>li:focus{
+	background-color:#0077b3;
+	background-image: linear-gradient(to bottom,#08c,#0077b3);
+	background-repeat: repeat-x;
+}
+
+#PrimaryNavigation .nav-tabs > li > a,
+#PrimaryNavigation .nav-tabs > li > a:hover,
+#PrimaryNavigation .nav-tabs > li > a:focus {
+  background-color: transparent;
+  border: 0px ;
+}
+
+#PrimaryNavigation .nav-tabs > li{
+	border-radius: 4px 4px 0 0;         
+  	color: white;       
+	border: 1px solid transparent;
+  	background-color: transparent;
+}
+
+#PrimaryNavigationWrapper .nav li.active,
+#PrimaryNavigationWrapper .nav li.active:hover,
+#PrimaryNavigationWrapper .nav li.active:focus
+{
+	cursor: default;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+
+
+#PrimaryNavigation .nav-tabs > li:hover,
+#PrimaryNavigation .nav-tabs > li:focus {
+  	cursor: default;
+  	background-color: #eee;
+	border: 1px solid transparent;
+  	border-bottom-color: #ddd;
+}
+
+#PrimaryNavigation .nav-tabs > .active,
+#PrimaryNavigation .nav-tabs > li.active:hover,
+#PrimaryNavigation .nav-tabs > li.active:focus {
+  	cursor: default;
+  	background-color: #ffffff;
+	border: 1px solid #ddd;
+  	border-bottom-color: transparent;
+}
+
+#PrimaryNavigation .nav-tabs > li:hover a,
+#PrimaryNavigation .nav-tabs > li:focus a, 
+#PrimaryNavigation .nav-tabs > li:hover,
+#PrimaryNavigation .nav-tabs > li:focus {
+	color: #005580;       
+ }  
+#PrimaryNavigation .nav-tabs > li.active > a{
+	cursor: default;
+}
+
+#functionalDateNavBar input{
+	margin-bottom: 0px;
+}
+
+#functionalDateNavBar form .input-prepend,
+#functionalDateNavBar form .form-inline .input-prepend{
+  display: auto;
+}
+
+#functionalDateNavBar .input-append .add-on,
+#functionalDateNavBar .input-prepend .add-on{
+  width: auto;
+}

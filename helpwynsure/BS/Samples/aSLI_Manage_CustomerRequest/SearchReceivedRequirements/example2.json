@@ -1,0 +1,19 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"actorBUID":"318842236_17",
+			"clientID":"",
+			"fromDate":null,
+			"toDate":null,
+			"contactKind":"ckOutgoing"
+		},
+		"maxSize":10
+	},
+	"response":[
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchReceivedRequirements",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

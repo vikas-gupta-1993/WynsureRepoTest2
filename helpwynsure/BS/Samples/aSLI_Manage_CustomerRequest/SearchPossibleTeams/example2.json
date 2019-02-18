@@ -1,0 +1,116 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_CustomerRequest"
+		}
+	},
+	"response":[
+		{
+			"className":"aSPF_Basket",
+			"name":"Customer Service",
+			"functionalDomain":3001
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Group",
+			"functionalDomain":5999
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Group Enrollment",
+			"functionalDomain":204
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Group - Underwriting",
+			"functionalDomain":6027
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Group - Quality Review",
+			"functionalDomain":6030
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Individual Policy Enrollment",
+			"functionalDomain":5998
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Individual Policy Maintenance",
+			"functionalDomain":6015
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Legal Entity Policy",
+			"functionalDomain":224
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Legal Entity Policy Maintenance",
+			"functionalDomain":6228
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Risk Underwriting",
+			"functionalDomain":38
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Risk Underwriting - Medical Director",
+			"functionalDomain":6227
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Billing",
+			"functionalDomain":15
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Accounting",
+			"functionalDomain":3002
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Document Imaging",
+			"functionalDomain":6003
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Reinsurance",
+			"functionalDomain":1000
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Commission",
+			"functionalDomain":99
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Coinsurance",
+			"functionalDomain":5499
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Policy Issuance",
+			"functionalDomain":6016
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Claim",
+			"functionalDomain":306
+		},
+		{
+			"className":"aSPF_Basket",
+			"name":"Risk Validation - Insurable Interest Validation",
+			"functionalDomain":6323
+		}
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchPossibleTeams",
+	"version":"5.8.1.0",
+	"date":"2017-12-22",
+	"errors":[
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"contractBuid":"318844991_1"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L67",
+			"thirdParty":"Chougule Nilesh",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":24.99,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000511 ",
+			"buid":"318842552_67"
+		}
+	],
+	"className":"asli_manage_accounting",
+	"methodName":"SearchPolicyAccounts",
+	"version":"5.7.3.0",
+	"date":"2017-11-22",
+	"errors":[
+	]
+}

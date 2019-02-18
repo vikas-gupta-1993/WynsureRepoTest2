@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"allowRollback":true
+	},
+	"response":0,
+	"className":"aSF_Manage_Transactions",
+	"methodName":"StartNewTransaction",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"5C10_BS_00004",
+			"message":"Rollback mode not supported",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

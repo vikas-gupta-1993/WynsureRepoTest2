@@ -1,0 +1,308 @@
+{
+	"description":"",
+	"request":{
+		"theChoice":"Document Requirement"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DOC_004",
+			"name":"ACH Authorization Form",
+			"documentDescType":"1",
+			"bUID":"318838323_15",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"ATT002",
+			"name":"Assignment Form",
+			"documentDescType":"2",
+			"bUID":"318838323_1",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"5",
+			"name":"Attendance Record",
+			"documentDescType":"2",
+			"bUID":"318838323_2",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"BOS",
+			"name":"Bill of Sale",
+			"documentDescType":"2",
+			"bUID":"318838323_3",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"ATT005",
+			"name":"Change in Beneficiary Form",
+			"documentDescType":"2",
+			"bUID":"318838323_4",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"ATT006",
+			"name":"Change in Contract Form",
+			"documentDescType":"2",
+			"bUID":"318838323_5",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"F0003",
+			"name":"Death Claim Form",
+			"documentDescType":"2",
+			"bUID":"318838323_7",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"3",
+			"name":"Death certificate",
+			"documentDescType":"2",
+			"bUID":"318838323_6",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DOC_001",
+			"name":"Death certificate",
+			"documentDescType":"2",
+			"bUID":"318838323_12",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DAF",
+			"name":"Driver Authorization Form",
+			"documentDescType":"2",
+			"bUID":"318838323_17",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DL",
+			"name":"Driver License",
+			"documentDescType":"2",
+			"bUID":"318838323_8",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"EFTA",
+			"name":"EFT Authorization Form",
+			"documentDescType":"1",
+			"bUID":"318838323_18",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"ER",
+			"name":"Expense Receipts",
+			"documentDescType":"1",
+			"bUID":"318838323_19",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"FAP",
+			"name":"Fine Arts Appraisal",
+			"documentDescType":"2",
+			"bUID":"318838323_20",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"MD015",
+			"name":"Height & Weight Check",
+			"documentDescType":"0",
+			"bUID":"318838323_21",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"HOS",
+			"name":"Home Office Specimen",
+			"documentDescType":"2",
+			"bUID":"318838323_22",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DOC_003",
+			"name":"Irrevocable Beneficiary Validation",
+			"documentDescType":"2",
+			"bUID":"318838323_14",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"JA",
+			"name":"Jewelry Appraisal",
+			"documentDescType":"2",
+			"bUID":"318838323_23",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"F0001",
+			"name":"LTD Claim form",
+			"documentDescType":"2",
+			"bUID":"318838323_24",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"MD016",
+			"name":"LTD Physician's Statement Form",
+			"documentDescType":"0",
+			"bUID":"318838323_25",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Non MHS",
+			"name":"Non-Medical Health Statement",
+			"documentDescType":"2",
+			"bUID":"318838323_26",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DOC_005",
+			"name":"Proof of Disability",
+			"documentDescType":"0",
+			"bUID":"318838323_16",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"4",
+			"name":"Proof of Loss",
+			"documentDescType":"2",
+			"bUID":"318838323_27",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0001",
+			"name":"Questionnaire: Asthma",
+			"documentDescType":"0",
+			"bUID":"318838323_28",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0006",
+			"name":"Questionnaire: Back-neck Pain",
+			"documentDescType":"0",
+			"bUID":"318838323_29",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0007",
+			"name":"Questionnaire: Chest  Pain ",
+			"documentDescType":"0",
+			"bUID":"318838323_30",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0002",
+			"name":"Questionnaire: Diabetes ",
+			"documentDescType":"0",
+			"bUID":"318838323_31",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0004",
+			"name":"Questionnaire: Medical History ",
+			"documentDescType":"0",
+			"bUID":"318838323_33",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0005",
+			"name":"Questionnaire: Smoking ",
+			"documentDescType":"0",
+			"bUID":"318838323_34",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"Q0003",
+			"name":"Questionnaire: height, weight & blood pressure",
+			"documentDescType":"0",
+			"bUID":"318838323_32",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"RCP",
+			"name":"Request for Change in Policy ",
+			"documentDescType":"2",
+			"bUID":"318838323_35",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"F0002",
+			"name":"STD Claim Form",
+			"documentDescType":"2",
+			"bUID":"318838323_37",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"1",
+			"name":"Salary attestation",
+			"documentDescType":"2",
+			"bUID":"318838323_36",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"SA",
+			"name":"Signed Application",
+			"documentDescType":"3",
+			"bUID":"318838323_9",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"DOC_002",
+			"name":"Terminal illness confirmation",
+			"documentDescType":"2",
+			"bUID":"318838323_13",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"VRC",
+			"name":"Vehicle Registration",
+			"documentDescType":"2",
+			"bUID":"318838323_10",
+			"description":""
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"WASB",
+			"name":"Wearing approved seat belt",
+			"documentDescType":"2",
+			"bUID":"318838323_11",
+			"description":""
+		}
+	],
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"GetPossibleRequirementDescs",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

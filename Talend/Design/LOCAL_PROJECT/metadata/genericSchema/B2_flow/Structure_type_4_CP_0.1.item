@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_GEGUYCNHEeaHCYR3YQxvWA" name="repository.metadataGenericSchema" dataPackage="_GEGUYSNHEeaHCYR3YQxvWA"/>
+  <TalendMetadata:GenericPackage xmi:id="_GEGUYSNHEeaHCYR3YQxvWA" name="repository.metadataGenericSchema" dataManager="_GEGUYCNHEeaHCYR3YQxvWA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GEGUYiNHEeaHCYR3YQxvWA" id="__Srq8CNGEeaHCYR3YQxvWA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUYyNHEeaHCYR3YQxvWA" name="idntfr" label="idntfr" length="8" precision="-1" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUZCNHEeaHCYR3YQxvWA" name="Type" label="Type" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUZSNHEeaHCYR3YQxvWA" name="Provider" label="Provider" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUZiNHEeaHCYR3YQxvWA" name="FILLER" label="FILLER" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUZyNHEeaHCYR3YQxvWA" name="NIR" label="NIR" length="13" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEGUaCNHEeaHCYR3YQxvWA" name="NIR_key" label="NIR_key" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xv20ACfzEeaDh8k0rzOGLw" name="BenefRank" label="BenefRank" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8K0v4CNLEeaHCYR3YQxvWA" name="Bill" label="Bill" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8QO0UCNLEeaHCYR3YQxvWA" name="MDT" label="MDT" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8axQYCNLEeaHCYR3YQxvWA" name="DMT" label="DMT" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8cg80CNLEeaHCYR3YQxvWA" name="Prescriber" label="Prescriber" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8eX-ACNLEeaHCYR3YQxvWA" name="ClaimOrigin" label="ClaimOrigin" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0STfACNMEeaHCYR3YQxvWA" name="Exo_justify" label="Exo_justify" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pZUlECfzEeaDh8k0rzOGLw" name="PrescriberSpeciality" label="PrescriberSpeciality" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0UEZkCNMEeaHCYR3YQxvWA" name="Practitioner" label="Practitioner" length="9" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0V93ACNMEeaHCYR3YQxvWA" name="Tarif_area" label="Tarif_area" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0X8M8CNMEeaHCYR3YQxvWA" name="Speciality" label="Speciality" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mWLF4CNNEeaHCYR3YQxvWA" name="Treatment_date" label="Treatment_date" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mYCHECNNEeaHCYR3YQxvWA" name="Procedure" label="Procedure" length="5" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mZ7kgCNNEeaHCYR3YQxvWA" name="Quantity" label="Quantity" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mb6hgCNNEeaHCYR3YQxvWA" name="Coef" label="Coef" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0Zr5YCNMEeaHCYR3YQxvWA" name="Number" label="Number" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1vEigCNNEeaHCYR3YQxvWA" name="Unitary_price" label="Unitary_price" length="7" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1zTiQCNNEeaHCYR3YQxvWA" name="BasisAmount" label="BasisAmount" length="7" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_11MYoCNNEeaHCYR3YQxvWA" name="Rate" label="Rate" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_13F2ECNNEeaHCYR3YQxvWA" name="Amount_RO" label="Amount_RO" length="7" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JQ_qACNOEeaHCYR3YQxvWA" name="Charge" label="Charge" length="7" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Jrhp4CNOEeaHCYR3YQxvWA" name="Quality" label="Quality" length="1" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qr-04CNOEeaHCYR3YQxvWA" name="Amount_RC" label="Amount_RC" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qt45YCNOEeaHCYR3YQxvWA" name="IdntfrParent" label="IdntfrParent" length="8" precision="-1" talendType="id_Long" key="true"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

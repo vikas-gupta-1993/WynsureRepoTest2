@@ -1,0 +1,19 @@
+{
+	"description":"",
+	"request":{
+		"statementID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318838530_2",
+			"description":""
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"className":"asli_manage_Accounting",
+	"methodName":"CancelDisbursementStatement",
+	"version":"5.7.3.0",
+	"date":"2017-11-27",
+	"errors":[
+	]
+}

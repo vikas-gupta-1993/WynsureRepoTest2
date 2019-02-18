@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Incendie Explosion Fumées</Name><NSId>318777575</NSId><Id>35</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Responsabilité Civile Vie Privée</Name><NSId>318777575</NSId><Id>36</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Electricite et Foudre</Name><NSId>318777575</NSId><Id>39</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Dégats des Eaux</Name><NSId>318777575</NSId><Id>40</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Vol et vandalisme</Name><NSId>318777575</NSId><Id>41</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Bris des Glaces</Name><NSId>318777575</NSId><Id>42</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Evènements Climatiques</Name><NSId>318777575</NSId><Id>43</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Catastrophes Naturelles </Name><NSId>318777575</NSId><Id>44</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Catastrophes Technologiques</Name><NSId>318777575</NSId><Id>45</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Attentats Actes de Terrorismes</Name><NSId>318777575</NSId><Id>103</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Defense Recours</Name><NSId>318777575</NSId><Id>104</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Protection Juridique</Name><NSId>318777575</NSId><Id>105</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Assistance</Name><NSId>318777575</NSId><Id>37</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Objets de loisirs</Name><NSId>318777575</NSId><Id>38</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[MNG]]></Code><Name Id="3"><![CDATA[Mrh_Nom de Garantie]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318777574]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[12]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Nom de la Garantie]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771013]]></NSId><Id Id="2"><![CDATA[97]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[Zone]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Zone Mrh]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770844]]></NSId><Id Id="2"><![CDATA[47]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[NP]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Nb de pièces]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770883]]></NSId><Id Id="2"><![CDATA[129]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Moins de 5 ans</Name><NSId>318777575</NSId><Id>55</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Plus de 5 ans</Name><NSId>318777575</NSId><Id>56</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Plus de 10 ans </Name><NSId>318777575</NSId><Id>57</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[Construction]]></Code><Name Id="3"><![CDATA[Mrh_AnnéeConstruction]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318777574]]></NSId><Id Id="2"><![CDATA[9]]></Id><Version Id="3"><![CDATA[1]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Année de construction]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771013]]></NSId><Id Id="2"><![CDATA[99]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0,00?]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[C]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Capital]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770893]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[Q]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Qualité]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770844]]></NSId><Id Id="2"><![CDATA[48]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[R]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Résidence]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770844]]></NSId><Id Id="2"><![CDATA[49]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_CString><SizeMax Id="1"><![CDATA[256]]></SizeMax><DefaultValueCString Id="2"><![CDATA[]]></DefaultValueCString><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[H]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Habitation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770844]]></NSId><Id Id="2"><![CDATA[50]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_Classification><Classification><aWPnC_ItemClassification><ClassificationValues><aWPnC_ItemClassificationValue><Name>Double Entrée de Clé</Name><NSId>318777575</NSId><Id>79</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Porte Blindée 3 points de Sécurité</Name><NSId>318777575</NSId><Id>80</Id></aWPnC_ItemClassificationValue></ClassificationValues><ClassificationValues><aWPnC_ItemClassificationValue><Name>Alarme Volumétrique</Name><NSId>318777575</NSId><Id>81</Id></aWPnC_ItemClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[PreMrh]]></Code><Name Id="3"><![CDATA[Mrh_Système Prev]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318777574]]></NSId><Id Id="2"><![CDATA[14]]></Id><Version Id="3"><![CDATA[6]]></Version></aWPnC_ItemClassification></Classification><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Système de prévention]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771013]]></NSId><Id Id="2"><![CDATA[98]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses WFTypes, aWFRuleDesc, aWFStandAloneRule
+
+type tWF_Generated_Mrh_NomdeGarantie_318777574_7 : (Incendie_Explosion_Fumees, ResponsabiliteCivileViePrivee, 
+   ResponsabiliteCivileLocative, ResponsabiliteCivilieTiersetVoisin, Actionsdel_ElectriciteetdelaFoudre, 
+   DegatsdesEaux, Voletvandalisme, BrisdesGlaces, EvenementsClimatiques, CatastrophesNaturelles, 
+   CatastrophesTechnologiques, ObjetsdeValeur)
+type tWF_Generated_Mrh_AnneeConstruction_318777574_9 : (Moinsde5ans, Plusde5ans, 
+   Plusde10ans)
+type tWF_Generated_Mrh_SystemePrev_318777574_14 : (DoubleEntreedeCle, PorteBlindee3pointsdeSecurite, 
+   AlarmeVolumetrique)
+
+NomdelaGarantie : tWF_Generated_Mrh_NomdeGarantie_318777574_7
+ZoneMrh : CString
+Nbdepieces : Int4
+Anneedeconstruction : tWF_Generated_Mrh_AnneeConstruction_318777574_9
+Capital : Num8
+Qualite : CString
+Residence : CString
+Habitation : CString
+Systemedeprevention : tWF_Generated_Mrh_SystemePrev_318777574_14
+
+
+function AMrh_Tarifdebase(Tarif : tWF_Generated_Mrh_NomdeGarantie_318777574_7) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Tarif, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_NbredePieces(NbrePieces : Int4) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(1, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(NbrePieces, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_Qualitedel_Assure(Qualite : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(2, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Qualite, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_Typederesidence(Residence : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(3, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Residence, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_Typedhabitation(Habitation : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(4, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Habitation, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function A_MrhZonier(ZonierMrh : CString) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(5, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(ZonierMrh, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_SystemedePrevention(Systemedeprevention : tWF_Generated_Mrh_SystemePrev_318777574_14) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(6, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Systemedeprevention, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function A_MrhCapital(CapitalMobilier : Num8) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(7, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(CapitalMobilier, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+function AMrh_AnneedeConstruction(Anneedeconstruction : tWF_Generated_Mrh_AnneeConstruction_318777574_9) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(8, self.Date_Du_Calcul)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Anneedeconstruction, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AjouterCommentaire('Aucune version de règle définie à cette date')
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : tWFNum8)
+   Result = self.AMrh_Tarifdebase(self.NomdelaGarantie)
+   self.AjouterCommentaire(Concat('Tarif de base:', Result))
+   ;
+   Result = Result * self.AMrh_NbredePieces(self.Nbdepieces)
+   self.AjouterCommentaire(Concat('Nb de pièces:', self.Nbdepieces))
+   ;
+   Result = Result * self.AMrh_Qualitedel_Assure(self.Qualite)
+   self.AjouterCommentaire(Concat('Qualité:', self.Qualite))
+   ;
+   Result = Result * self.AMrh_Typederesidence(self.Residence)
+   self.AjouterCommentaire(Concat('Residence:', self.Residence))
+   ;
+   Result = Result * self.AMrh_Typedhabitation(self.Habitation)
+   self.AjouterCommentaire(Concat('Habitation:', self.Habitation))
+   ;
+   Result = Result * self.A_MrhZonier(self.ZoneMrh)
+   self.AjouterCommentaire(Concat('Zonier:', self.ZoneMrh))
+   ;
+   Result = Result * self.AMrh_SystemedePrevention(self.Systemedeprevention)
+   self.AjouterCommentaire(Concat('Prevention:', self.Systemedeprevention))
+   ;
+   Result = Result * self.A_MrhCapital(self.Capital)
+   self.AjouterCommentaire(Concat('Capital:', self.Capital))
+   ;
+   ;
+   Result = Result * self.AMrh_AnneedeConstruction(self.Anneedeconstruction)
+   self.AjouterCommentaire(Concat('Ann Construction:', self.Anneedeconstruction))
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218106892]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>936750148422206075</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_Tarifdebase</Name><NSId>318768432</NSId><Id>184</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Tarif</Name><NSId>318771013</NSId><Id>70</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_Tarifdebase]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[109]]></Id><Version Id="3"><![CDATA[6]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_NbredePièces</Name><NSId>318768432</NSId><Id>188</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Integer><Name>Nbre Pièces</Name><NSId>318770883</NSId><Id>114</Id></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_NbredePièces]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[110]]></Id><Version Id="3"><![CDATA[7]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_Qualitédel&apos;Assuré</Name><NSId>318768432</NSId><Id>200</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Qualité</Name><NSId>318770844</NSId><Id>36</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_Qualitédel'Assuré]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[124]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_Typederesidence</Name><NSId>318768432</NSId><Id>196</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Residence</Name><NSId>318770844</NSId><Id>30</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_Typederesidence]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[119]]></Id><Version Id="3"><![CDATA[6]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_Typedhabitation</Name><NSId>318768432</NSId><Id>199</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Habitation</Name><NSId>318770844</NSId><Id>35</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_Typedhabitation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[123]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>A_MrhZonier</Name><NSId>318768432</NSId><Id>190</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_CString><Name>Zonier Mrh</Name><NSId>318770844</NSId><Id>23</Id></aWFFieldDesc_CString></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[A_MrhZonier]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[114]]></Id><Version Id="3"><![CDATA[5]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_SystemedePrevention</Name><NSId>318768432</NSId><Id>201</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Système de prévention</Name><NSId>318771013</NSId><Id>93</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_SystemedePrevention]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[125]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>A_MrhCapital</Name><NSId>318768432</NSId><Id>194</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Amount><Name>Capital Mobilier</Name><NSId>318770893</NSId><Id>4</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[A_MrhCapital]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[117]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>AMrh_AnnéedeConstruction</Name><NSId>318768432</NSId><Id>202</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Classification><Name>Année de construction</Name><NSId>318771013</NSId><Id>96</Id></aWFFieldDesc_Classification></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[AMrh_AnnéedeConstruction]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770189]]></NSId><Id Id="2"><![CDATA[126]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneTable></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Mrh_Tarifdebase_old5]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768415]]></NSId><Id Id="2"><![CDATA[247]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Mrh_Tarifdebase]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770185]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneRule></EntityExport>

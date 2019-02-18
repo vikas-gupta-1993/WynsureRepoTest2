@@ -1,0 +1,87 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318855173_1"
+	},
+	"response":{
+		"className":"aSPLI_GetQuoteDetails_Out",
+		"subscriber":"",
+		"billFrequency":"fAnnually",
+		"premium":{
+			"amount":0,
+			"currency":"cUSDollar"
+		},
+		"factoredPremiums":{
+			"className":"aSPLI_FactorPremiums_Out",
+			"lines":[
+				{
+					"factoredAmount":{
+						"amount":0
+					},
+					"factor":1,
+					"billingModeName":"Annually",
+					"billingModeFrequency":"fAnnually",
+					"amount":{
+						"amount":0,
+						"currency":"cUSDollar"
+					}
+				}
+			],
+			"baseBillingService":null
+		},
+		"premiumDetails":"{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 MS Sans Serif;}{\\f1\\fnil\\fcharset0 Ms Sans Serif;}}\r\n{\\colortbl ;\\red0\\green0\\blue0;\\red4\\green122\\blue162;\\red81\\green161\\blue209;}\r\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs16\\par\r\n\\pard\\li300\\cf2\\b\\fs18 Annual Premium Summary\\par\r\n\\pard\\li400\\cf1\\b0\\fs16 Variable Life\\par\r\n\\par\r\n\\pard\\fs18\\par\r\n\\pard\\li500\\cf3\\b\\fs16 Policy Premium: $0.00\\par\r\n\\pard\\li600\\cf1\\b0\\par\r\n\\pard\\par\r\n\\pard\\li500\\cf3\\b Total Premium Due: $0.00\\par\r\n\\pard\\li600\\cf1\\b0\\par\r\n\\pard\\par\r\n\\pard\\li500\\cf3\\b Billing Mode Selected: Annually\\par\r\n\\pard\\li600\\cf1\\b0\\par\r\n\\pard\\par\r\n\\pard\\li500\\cf3\\b Payment Options\\par\r\n\\trowd\\trgaph50\\trleft600\\trbrdrt\\brdrs\\brdrw10 \\trbrdrl\\brdrs\\brdrw10 \\trbrdrb\\brdrs\\brdrw10 \\trbrdrr\\brdrs\\brdrw10 \\clbrdrt\\brdrw15\\brdrs\\clbrdrl\\brdrw15\\brdrs\\clbrdrb\\brdrw15\\brdrs\\clbrdrr\\brdrw15\\brdrs \\cellx2106\\clbrdrt\\brdrw15\\brdrs\\clbrdrl\\brdrw15\\brdrs\\clbrdrb\\brdrw15\\brdrs\\clbrdrr\\brdrw15\\brdrs \\cellx3900\\pard\\intbl\\cf1\\lang1036\\f1 Billing Mode \\b0\\cell\\b Modal Premium \\b0\\cell\\row\r\n\\b\\trowd\\trgaph50\\trleft600\\trbrdrt\\brdrs\\brdrw10 \\trbrdrl\\brdrs\\brdrw10 \\trbrdrb\\brdrs\\brdrw10 \\trbrdrr\\brdrs\\brdrw10 \\clbrdrt\\brdrw15\\brdrs\\clbrdrl\\brdrw15\\brdrs\\clbrdrb\\brdrw15\\brdrs\\clbrdrr\\brdrw15\\brdrs \\cellx2106\\clbrdrt\\brdrw15\\brdrs\\clbrdrl\\brdrw15\\brdrs\\clbrdrb\\brdrw15\\brdrs\\clbrdrr\\brdrw15\\brdrs \\cellx3900\\intbl Annually\\b0\\cell $0.00\\cell\\row\r\n\\pard  \\lang1033\\f0\\par\r\n}\r\n\\page ",
+		"coverages":[
+			{
+				"className":"aSPLI_GetQuoteCoverage_Out",
+				"name":"Variable Life",
+				"benefitDescription":"{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Microsoft Sans Serif;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}}\r\n{\\colortbl ;\\red128\\green0\\blue0;}\r\n\\viewkind4\\uc1\\pard\\lang2057\\f0\\fs16 This type of policy offers you more flexibility than \\cf1\\b whole life\\b0  \\cf0 insurance. You may be able to increase the death benefit, if you pass a medical examination. The amount deposit may be invested on investment funds. The rest not invested may be used to cover the costs. This can be a useful feature depending on the market. However, you would need to keep in mind that if you don't leave enough money not invested on the account the policy might lapse and your life insurance coverage will end. You should check with your agent before deciding not to make order for buying Units because you might not have enough cash value to pay the monthly charges to prevent a policy lapse.\\f1\\fs20\\par\r\n}\r\n",
+				"premium":{
+					"amount":0,
+					"currency":"cUSDollar"
+				},
+				"premiumDetails":"",
+				"buid":""
+			}
+		],
+		"generalProvisions":[
+		],
+		"policyBenefits":[
+		],
+		"illustrations":[
+		],
+		"stateCode":{
+			"stateLabel":"Signature State",
+			"stateName":"AK",
+			"stateCode":"AK"
+		},
+		"subscribers":[
+			"Nilesh Chougule"
+		],
+		"preferredPolicyContacts":[
+		],
+		"quote":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"QU0000000524",
+				"issuingCompanyCode":"WIC"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":"AA"
+			},
+			"buid":"318855173_1"
+		},
+		"validFromDate":"2017-12-12",
+		"toDate":null,
+		"status":"cQuote",
+		"quoteStatus":"cCompleted",
+		"productName":"Variable Life",
+		"issuingCompany":"W Insurance Company",
+		"distributionUnit":"Internal Agents"
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetQuoteDetails",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"description":"",
+	"request":{
+		"listOfDocumentDescIdentifiers":[
+			{
+				"className":"aSPCB_GenericRequirementDescIdentifier",
+				"code":"DOC_004",
+				"name":"ACH Authorization Form",
+				"documentDescType":"1",
+				"bUID":"318838323_15",
+				"description":""
+			}
+		],
+		"containerID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318848488_8",
+			"description":""
+		},
+		"requestedForID":{
+			"className":"aSPF_Identifier",
+			"bUID":"",
+			"description":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_DocumentRequestData",
+			"requirementRequest":{
+				"className":"aSPCB_DocumentRequest",
+				"name":"ACH Authorization Form",
+				"documentDescType":"1",
+				"otherDocumentDesc":false,
+				"isForUnderwriting":false,
+				"notifyToServicing":false,
+				"requestTreated":false,
+				"treatingDate":null,
+				"expectedCompletionDate":null,
+				"completionDate":null,
+				"actionStatus":"cRSWaiting",
+				"blockingType":"cBlockActivity",
+				"periodicCheckingType":"cNoChecking",
+				"periodicCheckingLeadTime":0,
+				"periodicCheckingDuration":{
+					"quantity":0,
+					"unit":"wfDay"
+				},
+				"periodicCheckingAnnuallyAtDate":null,
+				"requestID":"318838700_17_1",
+				"requestDate":"2017-10-09",
+				"nameUseForPrinting":"ACH Authorization Form"
+			},
+			"receivedDocuments":[
+			],
+			"requestedFor":{
+				"className":"aSPCB_RequestedForActorData",
+				"requestedFor":{
+					"data":null,
+					"identifier":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"318842236_7",
+						"description":"Elaine Austin 3911 Mewswood Ln, Cadiz, KY 42211"
+					}
+				},
+				"bUID":"318842236_7",
+				"dataHistory":[
+				]
+			},
+			"documentDescIdentifier":{
+				"className":"aSPCB_GenericRequirementDescIdentifier",
+				"code":"",
+				"name":"",
+				"documentDescType":"",
+				"bUID":"318838323_15",
+				"description":"ACH Authorization Form, Code: DOC_004"
+			},
+			"bUID":"318838700_17",
+			"dataHistory":[
+			]
+		}
+	],
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"CreateRequirementRequests",
+	"date":"1900-01-01",
+	"user":"Nicolas"
+}

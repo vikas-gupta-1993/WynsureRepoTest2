@@ -1,0 +1,24 @@
+{
+	"description":"",
+	"request":{
+		"processID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318846180_18",
+			"description":""
+		},
+		"abortReason":""
+	},
+	"response":{
+		"className":"aSPF_ProcessData",
+		"processEntity":null,
+		"bUID":"318846180_18",
+		"dataHistory":[
+		]
+	},
+	"className":"asf_manageprocesses",
+	"methodName":"AbortTask",
+	"version":"5.7.3.0",
+	"date":"2017-12-14",
+	"errors":[
+	]
+}

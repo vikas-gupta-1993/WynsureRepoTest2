@@ -1,0 +1,401 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_ProductsForNormalQuote_In",
+			"subscriber":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842236_7"
+			},
+			"distributionUnitCode":"AA",
+			"subscriptionDate":"2017-10-09",
+			"productAvailabilities":[
+				"Available on wPortal"
+			]
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"DI"
+					},
+					"buid":"318842979_1"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Disability",
+					"productAvailabilities":[
+						"Available on wPortal",
+						"Available on Tablet"
+					],
+					"isMultiOwner":false,
+					"name":"Disability Insurance",
+					"entityDescription":"  This products is designed to keep you financially stable during difficult times by paying an income, directly to you, when you are sick or hurt and unable to work."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"STD",
+						"name":"Short Term Disability",
+						"entityDescription":"  Short Term Disability insurance coverage helps you replace a portion of your income when you're initially disabled-usually three to six months. "
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"LTD",
+						"name":"Long Term Disability",
+						"entityDescription":"  LTD coverage usually begins where the short term insurance policy leaves off, \r\nreplacing a portion of your salary if you become disabled. \r\nIt is paid as an annuity."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"FDHC",
+						"name":"First Day Hospital Confined Rider",
+						"entityDescription":"Provides payment for total disability during the elimination period if you are confined to a hospital due to your total disability."
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"HOI"
+					},
+					"buid":"318853772_1"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Home",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Homeowners",
+					"entityDescription":"It is an insurance policy that combines various personal insurance protections, which can include losses occurring to one's home, its contents, loss of its use (additional living expenses), or loss of other personal possessions of the homeowner, as well as liability insurance for accidents that may happen at the home or at the hands of the homeowner within the policy territory.\r\n\r\nIt is a multiple-line insurance, meaning that it includes both property and liability coverage, with an indivisible premium, meaning that a single premium is paid for all risks.\r\n\r\nThe cost of homeowner's insurance often depends on what it would cost to replace the house and which additional riders-additional items to be insured-are attached to the policy. The insurance policy itself is a lengthy contract, and names what will and what will not be paid in the case of various events. Typically, claims due to floods or war (whose definition typically includes a nuclear explosion from any source), amongst other standard exclusions (like termites), are excluded. Special insurance can be purchased for these possibilities, including flood insurance.\r\n\r\nA basic policy form that provides coverage on a home against 11 listed perils; contents are generally included in this type of coverage, but must be explicitly enumerated. The perils include fire or lightning, windstorm or hail, vandalism or malicious mischief, theft, damage from vehicles and aircraft, explosion riot or civil commotion, glass breakage, smoke, volcanic eruption, and personal liability. Exceptions include floods, earthquakes."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov A",
+						"name":"Home\/Dwelling",
+						"entityDescription":"Coverage A only covers the physical structure of the dwelling and not any other structures such as guest house, fences, detatched garage etc. It does however cover an attached garage, meaning the structure is physically tied to the home and by wall and roof. A build in type garage is also covered, but it differs because the garage is bordered to the top by living area of the home.\r\n\r\nFor information: limit and deductible are per occurence\r\nIn this example:\r\n�\tDwelling coverage $10,000\r\n�\tDeductible $500\r\n�\tClaim\r\no\tRoof damage = $5,000\r\no\tExterior walls damage = $7,000\r\no\tTotal claim $12,000\r\no\tPayment:\r\n�\t$12,000 minus $500 deductible = $11,500  (The deductible doesn�t apply per benefit, but only one under the coverage: Each occurrence for dwelling coverage)\r\n�\tBut insured only has a $10,000 limit\r\n�\tCompany pays $10,000\r\n"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov B",
+						"name":"Other Structures",
+						"entityDescription":"Other Structures or Coverage B applies to the other structures that are on your property yet not attached to the primary dwelling. Other Structures may be any of the following: Detatched Garage, Barn, Fences, Guest House, Pool House, Shed, etc."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov C",
+						"name":"Personal Property (Contents)",
+						"entityDescription":"Coverage C, Personal Property Coverage is the limit that the insurance company will pay out in the event of a covered loss involving your personal property. This property is anything that isnt attached to the home (covered under Coverage A) and is not covered under an Auto type insurance policy. Personal Property can also be located off premesis as noted in policy documentation. Examples of such could be secondary residence or luggage while you are on vacation as well as personal property in a vehicle."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov D",
+						"name":"Additional Living Expense\/Loss of Use",
+						"entityDescription":"It covers the additional expenses for having to live somewhere else as your are not able to occupy your home because of a covered loss. (For example:  need to live in a hotel and you need to go out to eat every day because you can�t even cook your meals).  \r\n"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov E",
+						"name":"Personal  Liability",
+						"entityDescription":"Covers Bodily Injury or Property Damage which you are legally responsible for.\r\n\r\nExamples of Personal Liability Payouts\r\nIf you have a pool and some neighborhood kids were over swiming and one of them drowns, the childs parents might sue you for negligence. You might have a dog that bites someone on or off of your property. Someone visiting falls down some stairs or trips and falls on the property. Personal Liability will help to cover related costs of these damages."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Cov. F",
+						"name":"Medical Expense",
+						"entityDescription":"Medical expense for someone who was injured at your premises (of your home)\r\n"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"WSBUP",
+						"name":"Water Sewer Backup",
+						"entityDescription":"Covers damage to your personal property, etc. , because the sewer or drain backed-up"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"SPP  - Jewelry",
+						"name":"Special Personal Property Jewelry",
+						"entityDescription":"Scheduling your jewelry on your homeowner insurance will remove specific dollar limits and expand loss coverage for your valuable jewels. Scheduled jewelry doesn't count toward the personal property (coverage C) dollar limit on your homeowners policy and eliminates the deductible on the scheduled items.\r\nWhen your jewelry is scheduled on your homeowner insurance policy, you're typically protected against loss, theft, mysterious disappearance and damage and have worldwide coverage. You need to provide a professional appraisal for each piece you want to insure."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"SPP - Fine Arts",
+						"name":"Special Personal Property Fine Arts",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"GRplC",
+						"name":"Guaranteed Replacement Cost",
+						"entityDescription":"Guaranteed replacement cost applies to your covered home (dwelling) basically stating that the policy will cover to replace your home, even if your limits are not adequate (ex. Increased cost of construction).\r\n"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"ID Theft",
+						"name":"Identity Theft Expense",
+						"entityDescription":"Identity theft occurs when someone's personal data -- name, drivers license, social security number, bank account information, etc. -- is unlawfully obtained and used by crooks. Thieves use this information to acquire credit cards, access to bank accounts, apply for loans and\/or housing, gain employment and more."
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"CA"
+					},
+					"buid":"318854682_1"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Vehicle",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Personal Auto",
+					"entityDescription":"The main purpose of car insurance is to protect you in the event of an accident, whether or not you're responsible."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"CovAutoLiab",
+						"name":"Liability",
+						"entityDescription":"Covers in case of:\r\nBodily injury: pays for injuries caused to other individuals in the event of a motor vehicle accident\r\nThird party vehicle damage\r\nThird party property damage"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"PhyDmgAuto",
+						"name":"Physical Damage",
+						"entityDescription":"Physical Damage includes Collision insurance, and Comprehensive insurance.\r\nCollision insurance provides protection for your vehicle if it is damaged in an accident. Collision insurance pays to repair or replace your vehicle if it:\r\nComprehensive insurance provides protection for your vehicle if it is damaged by something other than a collision with a vehicle or object, or if your vehicle is stolen."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"Rental",
+						"name":"Rental Reimbursement",
+						"entityDescription":"Rental Reimbursement coverage pays the cost of the rental car if your own car is stolen or becomes disabled due to a covered cause of loss. This coverage thus reimburses you for transportation expenses up to the specified limits fixed in your policy"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"UninsMotorist",
+						"name":"Un\/Underinsured Motorist",
+						"entityDescription":"An automobile policy option which covers one for property damage and bodily injury caused by another motorist whose coverage is insufficient to cover the damages one has suffered. This policy compensates the injured party for the difference between the injury suffered and the liability covered by the insurance of the driver at fault.\r\n\r\nRead more: http:\/\/www.investorwords.com\/5123\/underinsured_motorist_coverage.html#ixzz1LTePhB3f"
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"SI10TLM"
+					},
+					"buid":"318842979_4"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Life",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":true,
+					"name":"Simplified Issue 10 Year Renewable Term Life",
+					"entityDescription":"Renewable Level Term & Simplified Underwriting. 10 Year Level Premium Period.\r\nAfter the 10 Year Term Period, coverage may be continued at annually increasing premium rates to age 85.\r\nConvertible up to the earlier of age 65 or the end of the Base Term Period (10 year) without evidence of insurability. The conversion policy will be a whole life policy."
+				},
+				"isMultiInsured":true,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"10YTL",
+						"name":"Term Life",
+						"entityDescription":"Base Policy Coverage"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"ADB",
+						"name":"Accidental Death Benefit Rider",
+						"entityDescription":"Additional benefit payable for accidental death of the primary insured only.\r\n\r\nThis rider automatically doubles the death benefit of your life insurance policy if the insurer die due to an accident."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"ABR",
+						"name":"Accelerated Benefit Rider",
+						"entityDescription":"This rider provides a full payout of 50% of the basic death benefit under the Base Policy only for the primary insured, if the insured is certified as terminally ill with no more than 12 months remaining to live. An accelerated benefit payment is subject to an administrative fee: $200. The amount of any benefit payable under this Rider will be paid in a single sum. \r\n\r\nThe payment of an accelerated death benefit under this Rider will reduce the death benefit payable thereafter under the Base Policy. The accelerated death benefits payable under this Rider may be taxable under State or Federal law. You should contact your tax advisor for specific advice"
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WCA",
+						"productCode":"TTC"
+					},
+					"buid":"318853772_3"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Travel Insurance",
+					"productAvailabilities":[
+						"Available on wPortal"
+					],
+					"isMultiOwner":false,
+					"name":"Travel",
+					"entityDescription":"Travel insurance is insurance that is intended to cover medical expenses, financial default of travel suppliers, and other losses incurred while traveling, either within one's own country, or internationally."
+				},
+				"isMultiInsured":false,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"EMT",
+						"name":"Emergency Medical",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"TIC",
+						"name":"Trip Interruption Coverage",
+						"entityDescription":"Trip Interruption Insurance is an optional plan that provides\r\ncoverage for an individual trip whether you have purchased\r\nthe single-trip plan or the multi-trip plan. If your trip is\r\ninterrupted due to a covered event that occurs after the day\r\nyou leave home, under this insurance, we will pay up to a\r\nmaximum of $1,500 for single coverage, or $5,000 for family\r\ncoverage for:\r\n\r\n1. a) the prepaid portion of your trip that is non-refundable\r\nand non-transferable to another travel date, except\r\nprepaid unused transportation home ; or\r\nb) your additional and unplanned hotel and meal\r\nexpenses, your essential phone calls and taxi fares\r\nto a maximum of up to $300 per day for up to\r\n2 days when no earlier transportation arrangements\r\nare available; and\/or\r\nc) your one-way economy class airfare via the most\r\ncost-effective itinerary to return you home.\r\n\r\n2. Events covered after you arrive in Canada from\r\nhome include:\r\na) your or your travel companion's medical condition or\r\ndeath;\r\nb) your or your travel companion's immediate family\r\nmember's medical condition, or death;\r\nc) emergency hospitalization or death of the person\r\nwhose guest you are during your trip.\r\n\r\n"
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"TAC",
+						"name":"Travel Accident Coverage",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"BL",
+						"name":"Baggage Coverage",
+						"entityDescription":""
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		},
+		{
+			"className":"aSPLI_ProductAndAuthorization",
+			"productWithOptions":{
+				"className":"aSPCB_ProductWithOptions_Out",
+				"productCode":{
+					"productIdentifier":{
+						"issuingCompanyCode":"WIC",
+						"productCode":"UL"
+					},
+					"buid":"318851181_2"
+				},
+				"product":{
+					"className":"aSPLI_Product",
+					"subscribedBy":"cWFSubscribedByIndividual",
+					"productIsForGroup":false,
+					"productFamily":"Cash Value",
+					"productAvailabilities":[
+						"Available on wPortal",
+						"Available on Tablet"
+					],
+					"isMultiOwner":false,
+					"name":"Universal Life",
+					"entityDescription":"Universal life insurance (often shortened to UL) is a type of permanent life insurance based on a cash value. That is, the policy is established with the insurer where premium payments above the cost of insurance are credited to the cash value of the policy. The cash value is credited each month with interest, and the policy is debited each month by a cost of insurance (COI) charge, as well as any other policy charges and fees which are drawn from the cash value if no premium payment is made that month. The interest credited to the account is determined by the insurer; sometimes it is pegged to a financial index such as a bond or other interest rate index."
+				},
+				"isMultiInsured":true,
+				"options":[
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"UL",
+						"name":"Universal Life",
+						"entityDescription":"This type of policy offers you more flexibility than whole life insurance. You may be able to increase the death benefit, if you pass a medical examination. The savings vehicle (called a cash value account) generally earns a money market rate of interest. After money has accumulated in your account, you will also have the option of altering your premium payments - providing there is enough money in your account to cover the costs. This can be a useful feature if your economic situation has suddenly changed. However, you would need to keep in mind that if you stop or reduce your premiums and the saving accumulation gets used up, the policy might lapse and your life insurance coverage will end. You should check with your agent before deciding not to make premium payments for extended periods because you might not have enough cash value to pay the monthly charges to prevent a policy lapse."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"CTR",
+						"name":"Child Rider ",
+						"entityDescription":"As an alternative to purchasing an individual Universal Life certificate for a dependent child, an insured contractor or his or her spouse can elect to provide up to $10,000 of Term Life coverage for each child.  He or she does this by attaching a Term Rider to the insured contractor's or spouse's Universal Life certificate.  This is an affordable way to protect a child during a contractor?s working years."
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"WOPCOI",
+						"name":"Waiver of Cost of Insurance ",
+						"entityDescription":""
+					},
+					{
+						"className":"aSPCB_OfferedOption",
+						"code":"NOLAPSE",
+						"name":"No Lapse Rider",
+						"entityDescription":""
+					}
+				],
+				"buid":""
+			},
+			"loggedUserIsAuthorizedToCreateQuote":true,
+			"loggedUserIsAuthorizedToCreatePolicy":true,
+			"isEligible":true,
+			"subscriberType":"tpli_Individual"
+		}
+	],
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetAvailableProductsForQuote",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

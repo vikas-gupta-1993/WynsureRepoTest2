@@ -1,0 +1,102 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"buid":"{{personBUID}}",
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			}
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_117",
+			"accountNumber":"L117",
+			"thirdParty":"James Alison",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000519 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_120",
+			"accountNumber":"L120",
+			"thirdParty":"James Alison",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000520 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_121",
+			"accountNumber":"L121",
+			"thirdParty":"James Alison",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000521 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318842425_122",
+			"accountNumber":"L122",
+			"thirdParty":"James Alison",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000522 "
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"buid":"318837807_118",
+			"accountNumber":"D118",
+			"thirdParty":"Alison James",
+			"kind":"Suspense Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Suspense Account for Alison James / W Insurance Company"
+		}
+	],
+	"eval":null,
+	"className":"asli_manage_accounting",
+	"methodName":"GetAllPossibleAccountsForClient",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

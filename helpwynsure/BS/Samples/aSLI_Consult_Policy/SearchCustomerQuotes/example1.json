@@ -1,0 +1,30 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842236_7"
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":100
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchCustomerQuotes",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

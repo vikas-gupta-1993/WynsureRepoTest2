@@ -1,0 +1,44 @@
+{
+	"description":"",
+	"request":{
+		
+		"inQuote":{
+			"className":"aSPLI_CreateQuoteWithInsured",
+			"productCode":{
+				"productIdentifier":{
+					"issuingCompanyCode":"",
+					"productCode":""
+				},
+				"buid":""
+			},
+			"distributionUnitCode":"",
+			"subscriptionDate":"2017-01-01",
+			"insured":[
+			],
+			"subscribers":[
+			],
+			"buid":""
+		}
+	},
+	"response":{
+		"_Result":null
+	},
+	"className":"aSLI_Subscribe_LifePolicy",
+	"methodName":"GetSubscriptionChoicesForLifeQuote",
+	"version":"5.7.3.0",
+	"date":"2017-11-06",
+	"errors":[
+		{
+			"code":"1F65_BS_00001",
+			"message":"More than one Distribution Unit Found",
+			"kind":"errInfo",
+			"kindNumber":4
+		},
+		{
+			"code":"1F65_BS_00004",
+			"message":"Invalid Product Code",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

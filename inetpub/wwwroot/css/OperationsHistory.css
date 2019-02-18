@@ -1,0 +1,45 @@
+.FieldWrapper dt{
+	width:40%;
+}
+
+dl.FieldWrapper ,
+.FieldWrapper dt, 
+.FieldWrapper dd{
+	float:left;
+}
+
+.FieldWrapper dt{
+	margin-top:2px;
+}
+
+
+#criteriaDates{
+	width:35%;
+	float:left;
+}
+
+#criteriaCheckBoxes{
+	width:65%;
+	float:left;
+}
+
+#criteriaDates .aPF_InputTextFieldWithDatePicker{
+	width:100%;
+	float:left;
+}
+
+#criteriaCheckBoxes .aPF_InputCheckBoxField {
+	padding: 5px 0 0px 0;
+	width:50%;
+	float:left;
+}
+
+.DateColumn {
+	width:16%; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fields .checkBoxInPicker .control-group{
+	margin-bottom: 0px;
+}

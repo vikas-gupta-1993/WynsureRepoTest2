@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_sfd4sBOREeaPy8bJyYiSzw" name="Structure_000" comment="connectionComment" label="Structure_000" dataPackage="_tO8fwROPEeaPy8bJyYiSzw"/>
+  <TalendMetadata:GenericPackage xmi:id="_tO8fwROPEeaPy8bJyYiSzw" dataManager="_sfd4sBOREeaPy8bJyYiSzw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tO8fwhOPEeaPy8bJyYiSzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fwxOPEeaPy8bJyYiSzw" name="Idntfr" id="222559" label="Idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_tO8fxBOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fxROPEeaPy8bJyYiSzw" name="Entity" id="222560" label="Entity" length="3" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fxhOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fxxOPEeaPy8bJyYiSzw" name="NOE_TYE" id="222561" label="NOE_TYE" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fyBOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fyROPEeaPy8bJyYiSzw" name="NOE_NUE" id="222562" label="NOE_NUE" length="14" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fyhOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fyxOPEeaPy8bJyYiSzw" name="NOE_PGE" id="222563" label="NOE_PGE" length="6" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fzBOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fzROPEeaPy8bJyYiSzw" name="NOE_TYD" id="222564" label="NOE_TYD" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8fzhOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8fzxOPEeaPy8bJyYiSzw" name="NOE_NUD" id="222565" label="NOE_NUD" length="14" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f0BOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f0ROPEeaPy8bJyYiSzw" name="NOE_PGD" id="222566" label="NOE_PGD" length="6" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f0hOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f0xOPEeaPy8bJyYiSzw" name="NOE_APP" id="222567" label="NOE_APP" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f1BOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f1ROPEeaPy8bJyYiSzw" name="NOE_FIC" id="222568" label="NOE_FIC" length="6" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f1hOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f1xOPEeaPy8bJyYiSzw" name="NOE_DRI" id="222569" label="NOE_DRI" length="6" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f2BOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f2ROPEeaPy8bJyYiSzw" name="NOE_NRM" id="222570" label="NOE_NRM" length="4" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f2hOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f2xOPEeaPy8bJyYiSzw" name="NOE_VRS" id="222571" label="NOE_VRS" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f3BOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f3ROPEeaPy8bJyYiSzw" name="NOE_CPG" id="222572" label="NOE_CPG" length="1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f3hOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f3xOPEeaPy8bJyYiSzw" name="NOE_CRY" id="222573" label="NOE_CRY" length="1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f4BOPEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tO8f4ROPEeaPy8bJyYiSzw" name="MON_TYP" id="222574" label="MON_TYP" length="1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_tO8f4hOPEeaPy8bJyYiSzw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

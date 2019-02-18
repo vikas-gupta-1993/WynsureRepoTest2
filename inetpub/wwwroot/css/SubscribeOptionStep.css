@@ -1,0 +1,55 @@
+
+#OptionsWithCovered td.content, #OptionsWithCovered td.title {
+  border: 1px solid #999999;
+}
+#OptionsWithCovered td.content {
+  text-align: center;
+}
+#OptionsWithCovered th.content, #OptionsWithCovered td.content {
+  padding: 0;
+}
+#OptionsWithCovered th.title, #OptionsWithCovered td.title {
+  width: 150px;
+}
+#OptionsWithCovered tr {
+  height: 40px;
+}
+#OptionsWithCovered td.title, #OptionsWithCovered td.content, #ParamValues th, #ParamValues td {
+  background-color: white;
+  padding: 5px;
+}
+#ParamValues th.empty {
+  background-color: transparent;
+}
+#OptionsWithCovered tr.next {
+  
+}
+
+#OptionsWithCovered tbody tr td.title {
+  border-radius: 10px 0 0 10px;
+}
+#ParamValues {
+  width: 100%;
+  margin-top: 2em;
+}
+#ParamValues th, #ParamValues td {
+  border: 1px solid #999999;
+}
+#ParamValues th.empty {
+  border: none;
+}
+#ParamValues th {
+  width: 150px;
+}
+
+#ParamValues dt {
+  float: left;
+  width: 200px;
+}
+#ParamValues .hoverClass td, #ParamValues .hoverClass th {
+  background-color: lightgrey;
+}
+
+.checkboxWrapper dt {
+  text-align: right;
+}

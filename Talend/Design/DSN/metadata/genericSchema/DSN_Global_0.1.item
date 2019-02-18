@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_qOl1MBU9Eeebouk0-KXsaQ" name="repository.metadataGenericSchema" dataPackage="_qOl1MRU9Eeebouk0-KXsaQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_qOl1MRU9Eeebouk0-KXsaQ" name="repository.metadataGenericSchema" dataManager="_qOl1MBU9Eeebouk0-KXsaQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qOmcQBU9Eeebouk0-KXsaQ" id="_67r6EBU8Eeebouk0-KXsaQ" label="DSN_Line">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qOmcQRU9Eeebouk0-KXsaQ" name="structure" label="structure" length="2" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qOmcQhU9Eeebouk0-KXsaQ" name="bloc" label="bloc" length="2" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qOmcQxU9Eeebouk0-KXsaQ" name="rubrique" label="rubrique" length="3" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qOmcRBU9Eeebouk0-KXsaQ" name="value" label="value" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DofiEBVREeebouk0-KXsaQ" name="numLine" label="numLine" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

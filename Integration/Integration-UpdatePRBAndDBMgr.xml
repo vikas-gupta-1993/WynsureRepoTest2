@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="UpdatePRBAndDBMgr">
+   <aWEXIntegPRBUpdateDesc name="Update ORAPRB for Oracle">
+      <Name>Update ORAPRB for Oracle</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aOracleOCI9PRBProject name="OraclePRBProject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+  <aWEXIntegPRBUpdateDesc name="Update SQLPRB for SQL Server">
+      <Name>Update SQLPRB for SQL Server</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aSQLSrvPRBProject name="SQLServerPRBproject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+   <aWEXIntegPRBUpdateDesc name="Update PGPRB For Postgresql">
+      <Name>Update PGPRB For Postgresql</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aPostgresPRBProject name="PostgreSQLPRBproject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+   <aWEXIntegPRBUpdateDesc name="Update DBMgr">
+      <Name>Update DBMgr for Oracle</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aOracleOCI9PRBProject name="OraclePRBDBMgrproject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+  <aWEXIntegPRBUpdateDesc name="Update DBMgr">
+      <Name>Update DBMgr for SQL Server</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aSQLSrvPRBProject name="SQLServerPRBDBMgrproject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+   <aWEXIntegPRBUpdateDesc name="Update DBMgr For Postgresql">
+      <Name>Update DBMgr For Postgresql</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <thePRBProject>
+         <aPostgresPRBProject name="PostgreSQLPRBDBMgrproject"/>
+      </thePRBProject>
+	  <ForceAllClassInPRB>True</ForceAllClassInPRB>
+   </aWEXIntegPRBUpdateDesc>
+</aWEXIntegrationPlanDesc>

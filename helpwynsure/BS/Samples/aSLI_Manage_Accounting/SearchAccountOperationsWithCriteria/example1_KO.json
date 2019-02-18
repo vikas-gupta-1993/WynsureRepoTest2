@@ -1,0 +1,45 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"clientAccountID":{
+			"accountId":"",
+			"clientId":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":""
+			},
+			"buid":""
+		},
+		"criteria":{
+			"fromDate":"1900-01-01",
+			"toDate":"1900-01-01",
+			"operationKind":"cATKPayment",
+			"showSecondaryOperations":false
+		}
+	},
+	"response":null,
+	"className":"aSLI_manage_accounting",
+	"methodName":"SearchAccountOperationsWithCriteria",
+	"version":"5.7.3.0",
+	"date":"2017-11-27",
+	"errors":[
+		{
+			"code":"75D9_BS_00011",
+			"message":"Client Account Id is not consistent",
+			"kind":"errBadValue",
+			"kindNumber":0
+		},
+		{
+			"code":"031D_BS_00031",
+			"message":"Cannot Find Account",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

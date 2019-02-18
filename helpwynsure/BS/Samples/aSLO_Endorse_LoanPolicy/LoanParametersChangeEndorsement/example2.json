@@ -1,0 +1,53 @@
+{
+	"description":"",
+	"request":{
+		
+		"policyId":{
+			"className":"aSPCB_ContractIdentifier",
+			"bUID":"318857925_22"
+		},
+		"effectiveDate":"2018-05-28",
+		"endorsementReason":"cTechnicalReason",
+		"loanIdentifier":{
+			"name":"Fixed Rate Mortgage  #1"
+		},
+		"loanModifications":[
+			{
+				"className":"aSPLO_AnnualRateModification",
+				"effectiveDate":"2018-05-28",
+				"bankAdministrativeFees":{
+					"amount":0
+				},
+				"newAnnualRate":0.15,
+				"variableParameter":"lvPeriodicPayment"
+			}
+		],
+		"autoValidate":true
+	},
+	"response":{
+		"processID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318844437_29",
+			"description":""
+		},
+		"contractID":{
+			"buid":"318857925_22",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"4800000605",
+				"issuingCompanyCode":"WAS"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":"CET"
+			}
+		},
+		"contractEndorsementOrSubscriptionStatus":"esAccepted"
+	},
+	"eval":null,
+	"className":"aslo_endorse_loanpolicy",
+	"methodName":"LoanParametersChangeEndorsement",
+	"version":"5.8.2.0",
+	"date":"2018-05-28",
+	"errors":[
+	]
+}

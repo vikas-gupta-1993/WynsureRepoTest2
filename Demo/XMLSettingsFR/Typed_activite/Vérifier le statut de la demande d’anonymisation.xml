@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aEDA_ActivityDescService><Rule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_ServiceActivityDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_ServiceActivityDescRuleEngine)
+
+uses aWF_PersonAnonymizationRequest, aSF_Manage_LogOn, aSF_ManageObject, aSF_ManagePicker, 
+   aEDA_Raise_ExternalEvent, aSCB_Manage_Login, aSCB_Consult_TodoList, aSCB_Manage_ConversionSystems, 
+   aSF_Manage_RequirementRequest, aSF_ManageProcesses, aSCB_ManageRules, aSLI_Manage_Actors, 
+   aCnT_Manage_Actor_ForErrorManagement, aSLI_Manage_Employee, aSLI_Manage_CensusLoading, 
+   aSLI_Consult_Policy, aSLI_Subscribe_LifePolicy, aSLI_Subscribe_Policy, aSLI_Consult_Product, 
+   aSLI_Manage_CustomerRequest, aSLI_Consult_LifePolicy, aSLI_Consult_Group, aSLI_Consult_Operations, 
+   aSLI_Manage_Broker, aSLI_Manage_Accounting, aSLI_Manage_Payment, aSLI_Consult_CommissionContract, 
+   aSLI_Subscribe_GBPContract, aSLI_Manage_Report, aSLI_Manage_GBPMember, aSLI_Endorse_Policy, 
+   aSLI_Manage_GBPQuote, aSLI_Endorse_LifePolicy, aSLI_Subscribe_CommissionContract, 
+   aSLI_Manage_MedicalUW, aSLI_Manage_LabExams, aSLI_Manage_ACORDTXLife, aSLI_Manage_TC, 
+   aSLI_Manage_MVR, aSLI_Manage_Disbursement, aSLI_Manage_GenericCensusLoad, aSLI_Manage_Note, 
+   aSLI_Manage_ServiceProvider, aSLI_Manage_PortabilityRequest, aSLIC_Consult_LifeClaim, 
+   aSLIC_Manage_Claim, aSLIC_Consult_Claim, aSLIC_Manage_LifeClaim, aSLI_FR_Manage_DSN, 
+   aSLI_FR_Manage_DSN_TO_BE_DELETED, aSLI_FR_ManageBill_DSN, aSLIFR_Manage_SetPersonOverriddenTaxRate, 
+   aSPnC_Endorse_PnCPolicy, aSPnC_Subscribe_PnCPolicy, aSPnC_Consult_PnCPolicy, aSPnC_Consult_Claim, 
+   aSPnC_Manage_Claim, aSH_ManageClaim, aSLO_Subscribe_LoanPolicy, aSLO_Consult_LoanPolicy, 
+   aSLO_Endorse_LoanPolicy, aSHFR_ManageClaim, aSHFR_ManageNoemieRetour, aSHFR_Consult_Claim, 
+   aSHFR_UpdateThirdPartyOperation, aSCV_Consult_CashValuePolicy, aSCV_Subscribe_CashValuePolicy, 
+   aSCV_Endorse_Policy, aSCB_Manage_BankMobility, aSF_Manage_Transactions, aCnT_BSTest, 
+   _todelete_aRSLI_Manage_Config, aWF_DataRequestRoot
+
+
+; Rule
+; Classification
+function Demanded_Anonymisation return aWF_PersonAnonymizationRequest
+   if self.Master <> Nil
+      return aWF_PersonAnonymizationRequest(self.Master.OnObject)
+   else
+      return aWF_PersonAnonymizationRequest(self.OnObject)
+   endIf
+endFunc 
+
+function aSF_Manage_LogOn return aSF_Manage_LogOn
+   _Result = self.GetBSForClassDef(218178616)
+endFunc 
+
+function aSF_ManageObject return aSF_ManageObject
+   _Result = self.GetBSForClassDef(218178795)
+endFunc 
+
+function aSF_ManagePicker return aSF_ManagePicker
+   _Result = self.GetBSForClassDef(218178812)
+endFunc 
+
+function aEDA_Raise_ExternalEvent return aEDA_Raise_ExternalEvent
+   _Result = self.GetBSForClassDef(218178868)
+endFunc 
+
+function aSCB_Manage_Login return aSCB_Manage_Login
+   _Result = self.GetBSForClassDef(218186973)
+endFunc 
+
+function aSCB_Consult_TodoList return aSCB_Consult_TodoList
+   _Result = self.GetBSForClassDef(218187087)
+endFunc 
+
+function aSCB_Manage_ConversionSystems return aSCB_Manage_ConversionSystems
+   _Result = self.GetBSForClassDef(218187123)
+endFunc 
+
+function aSF_Manage_RequirementRequest return aSF_Manage_RequirementRequest
+   _Result = self.GetBSForClassDef(218187233)
+endFunc 
+
+function aSF_ManageProcesses return aSF_ManageProcesses
+   _Result = self.GetBSForClassDef(218187240)
+endFunc 
+
+function aSCB_ManageRules return aSCB_ManageRules
+   _Result = self.GetBSForClassDef(218187280)
+endFunc 
+
+function aSLI_Manage_Actors return aSLI_Manage_Actors
+   _Result = self.GetBSForClassDef(218187503)
+endFunc 
+
+function aCnT_Manage_Actor_ForErrorManagement return aCnT_Manage_Actor_ForErrorManagement
+   _Result = self.GetBSForClassDef(218196958)
+endFunc 
+
+function aSLI_Manage_Employee return aSLI_Manage_Employee
+   _Result = self.GetBSForClassDef(218187572)
+endFunc 
+
+function aSLI_Manage_CensusLoading return aSLI_Manage_CensusLoading
+   _Result = self.GetBSForClassDef(218187638)
+endFunc 
+
+function aSLI_Consult_Policy return aSLI_Consult_Policy
+   _Result = self.GetBSForClassDef(218187512)
+endFunc 
+
+function aSLI_Subscribe_LifePolicy return aSLI_Subscribe_LifePolicy
+   _Result = self.GetBSForClassDef(218187647)
+endFunc 
+
+function aSLI_Subscribe_Policy return aSLI_Subscribe_Policy
+   _Result = self.GetBSForClassDef(218187508)
+endFunc 
+
+function aSLI_Consult_Product return aSLI_Consult_Product
+   _Result = self.GetBSForClassDef(218187513)
+endFunc 
+
+function aSLI_Manage_CustomerRequest return aSLI_Manage_CustomerRequest
+   _Result = self.GetBSForClassDef(218187507)
+endFunc 
+
+function aSLI_Consult_LifePolicy return aSLI_Consult_LifePolicy
+   _Result = self.GetBSForClassDef(218187510)
+endFunc 
+
+function aSLI_Consult_Group return aSLI_Consult_Group
+   _Result = self.GetBSForClassDef(218187700)
+endFunc 
+
+function aSLI_Consult_Operations return aSLI_Consult_Operations
+   _Result = self.GetBSForClassDef(218187705)
+endFunc 
+
+function aSLI_Manage_Broker return aSLI_Manage_Broker
+   _Result = self.GetBSForClassDef(218187505)
+endFunc 
+
+function aSLI_Manage_Accounting return aSLI_Manage_Accounting
+   _Result = self.GetBSForClassDef(218187509)
+endFunc 
+
+function aSLI_Manage_Payment return aSLI_Manage_Payment
+   _Result = self.GetBSForClassDef(218187511)
+endFunc 
+
+function aSLI_Consult_CommissionContract return aSLI_Consult_CommissionContract
+   _Result = self.GetBSForClassDef(218187571)
+endFunc 
+
+function aSLI_Subscribe_GBPContract return aSLI_Subscribe_GBPContract
+   _Result = self.GetBSForClassDef(218187574)
+endFunc 
+
+function aSLI_Manage_Report return aSLI_Manage_Report
+   _Result = self.GetBSForClassDef(218187577)
+endFunc 
+
+function aSLI_Manage_GBPMember return aSLI_Manage_GBPMember
+   _Result = self.GetBSForClassDef(218187621)
+endFunc 
+
+function aSLI_Endorse_Policy return aSLI_Endorse_Policy
+   _Result = self.GetBSForClassDef(218187697)
+endFunc 
+
+function aSLI_Manage_GBPQuote return aSLI_Manage_GBPQuote
+   _Result = self.GetBSForClassDef(218187663)
+endFunc 
+
+function aSLI_Endorse_LifePolicy return aSLI_Endorse_LifePolicy
+   _Result = self.GetBSForClassDef(218187696)
+endFunc 
+
+function aSLI_Subscribe_CommissionContract return aSLI_Subscribe_CommissionContract
+   _Result = self.GetBSForClassDef(218187713)
+endFunc 
+
+function aSLI_Manage_MedicalUW return aSLI_Manage_MedicalUW
+   _Result = self.GetBSForClassDef(218187738)
+endFunc 
+
+function aSLI_Manage_LabExams return aSLI_Manage_LabExams
+   _Result = self.GetBSForClassDef(218187759)
+endFunc 
+
+function aSLI_Manage_ACORDTXLife return aSLI_Manage_ACORDTXLife
+   _Result = self.GetBSForClassDef(218187927)
+endFunc 
+
+function aSLI_Manage_TC return aSLI_Manage_TC
+   _Result = self.GetBSForClassDef(218187848)
+endFunc 
+
+function aSLI_Manage_MVR return aSLI_Manage_MVR
+   _Result = self.GetBSForClassDef(218187930)
+endFunc 
+
+function aSLI_Manage_Disbursement return aSLI_Manage_Disbursement
+   _Result = self.GetBSForClassDef(218187969)
+endFunc 
+
+function aSLI_Manage_GenericCensusLoad return aSLI_Manage_GenericCensusLoad
+   _Result = self.GetBSForClassDef(218188018)
+endFunc 
+
+function aSLI_Manage_Note return aSLI_Manage_Note
+   _Result = self.GetBSForClassDef(218188030)
+endFunc 
+
+function aSLI_Manage_ServiceProvider return aSLI_Manage_ServiceProvider
+   _Result = self.GetBSForClassDef(218188031)
+endFunc 
+
+function aSLI_Manage_PortabilityRequest return aSLI_Manage_PortabilityRequest
+   _Result = self.GetBSForClassDef(218188055)
+endFunc 
+
+function aSLIC_Consult_LifeClaim return aSLIC_Consult_LifeClaim
+   _Result = self.GetBSForClassDef(218188199)
+endFunc 
+
+function aSLIC_Manage_Claim return aSLIC_Manage_Claim
+   _Result = self.GetBSForClassDef(218188250)
+endFunc 
+
+function aSLIC_Consult_Claim return aSLIC_Consult_Claim
+   _Result = self.GetBSForClassDef(218188251)
+endFunc 
+
+function aSLIC_Manage_LifeClaim return aSLIC_Manage_LifeClaim
+   _Result = self.GetBSForClassDef(218188204)
+endFunc 
+
+function aSLI_FR_Manage_DSN return aSLI_FR_Manage_DSN
+   _Result = self.GetBSForClassDef(218189356)
+endFunc 
+
+function aSLI_FR_Manage_DSN_TO_BE_DELETED return aSLI_FR_Manage_DSN_TO_BE_DELETED
+   _Result = self.GetBSForClassDef(218189359)
+endFunc 
+
+function aSLI_FR_ManageBill_DSN return aSLI_FR_ManageBill_DSN
+   _Result = self.GetBSForClassDef(218189381)
+endFunc 
+
+function aSLIFR_Manage_SetPersonOverriddenTaxRate return aSLIFR_Manage_SetPersonOverriddenTaxRate
+   _Result = self.GetBSForClassDef(218189404)
+endFunc 
+
+function aSPnC_Endorse_PnCPolicy return aSPnC_Endorse_PnCPolicy
+   _Result = self.GetBSForClassDef(218192277)
+endFunc 
+
+function aSPnC_Subscribe_PnCPolicy return aSPnC_Subscribe_PnCPolicy
+   _Result = self.GetBSForClassDef(218192279)
+endFunc 
+
+function aSPnC_Consult_PnCPolicy return aSPnC_Consult_PnCPolicy
+   _Result = self.GetBSForClassDef(218192319)
+endFunc 
+
+function aSPnC_Consult_Claim return aSPnC_Consult_Claim
+   _Result = self.GetBSForClassDef(218192373)
+endFunc 
+
+function aSPnC_Manage_Claim return aSPnC_Manage_Claim
+   _Result = self.GetBSForClassDef(218192388)
+endFunc 
+
+function aSH_ManageClaim return aSH_ManageClaim
+   _Result = self.GetBSForClassDef(218192658)
+endFunc 
+
+function aSLO_Subscribe_LoanPolicy return aSLO_Subscribe_LoanPolicy
+   _Result = self.GetBSForClassDef(218193451)
+endFunc 
+
+function aSLO_Consult_LoanPolicy return aSLO_Consult_LoanPolicy
+   _Result = self.GetBSForClassDef(218193452)
+endFunc 
+
+function aSLO_Endorse_LoanPolicy return aSLO_Endorse_LoanPolicy
+   _Result = self.GetBSForClassDef(218193489)
+endFunc 
+
+function aSHFR_ManageClaim return aSHFR_ManageClaim
+   _Result = self.GetBSForClassDef(218193494)
+endFunc 
+
+function aSHFR_ManageNoemieRetour return aSHFR_ManageNoemieRetour
+   _Result = self.GetBSForClassDef(218193498)
+endFunc 
+
+function aSHFR_Consult_Claim return aSHFR_Consult_Claim
+   _Result = self.GetBSForClassDef(218193500)
+endFunc 
+
+function aSHFR_UpdateThirdPartyOperation return aSHFR_UpdateThirdPartyOperation
+   _Result = self.GetBSForClassDef(218193501)
+endFunc 
+
+function aSCV_Consult_CashValuePolicy return aSCV_Consult_CashValuePolicy
+   _Result = self.GetBSForClassDef(218194348)
+endFunc 
+
+function aSCV_Subscribe_CashValuePolicy return aSCV_Subscribe_CashValuePolicy
+   _Result = self.GetBSForClassDef(218194375)
+endFunc 
+
+function aSCV_Endorse_Policy return aSCV_Endorse_Policy
+   _Result = self.GetBSForClassDef(218194406)
+endFunc 
+
+function aSCB_Manage_BankMobility return aSCB_Manage_BankMobility
+   _Result = self.GetBSForClassDef(218195129)
+endFunc 
+
+function aSF_Manage_Transactions return aSF_Manage_Transactions
+   _Result = self.GetBSForClassDef(218195140)
+endFunc 
+
+function aCnT_BSTest return aCnT_BSTest
+   _Result = self.GetBSForClassDef(218196956)
+endFunc 
+
+function _todelete_aRSLI_Manage_Config return _todelete_aRSLI_Manage_Config
+   _Result = self.GetBSForClassDef(218197101)
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : Int4)
+   if (self.Demanded_Anonymisation.Status = psDataReceived) or (self.Demanded_Anonymisation.Status = 
+      psCancelled)
+      Result = 0
+   else
+      Result = 1
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_ServiceActivityDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218178862]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWF_PersonAnonymizationRequest]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActivityDescService]]></RuleEngineUsingKindContext><ReturnType><aIntType><Name Id="2"><![CDATA[Int4]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1024]]></Id></aIntType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActivityDescService><NSId Id="1"><![CDATA[318842150]]></NSId><Id Id="2"><![CDATA[8]]></Id></aEDA_ActivityDescService></UsedRules><MyOwner><aEDA_ActivityDescService><NSId Id="1"><![CDATA[318842150]]></NSId><Id Id="2"><![CDATA[8]]></Id></aEDA_ActivityDescService></MyOwner><Name Id="3"><![CDATA[État de la demande]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835511]]></NSId><Id Id="2"><![CDATA[783]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rule><Code Id="35"><![CDATA[VLSDA]]></Code><IsTechnical Id="72"><![CDATA[Faux]]></IsTechnical><Resource><aWFX_ResourceRepresentation><RepresentingClassDef><aClassDef><Name>aWF_PersonAnonymizationRequest</Name><NSId>218103810</NSId><Id>218178550</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><SelectedVars><aInstanceVarDesc><Name>CreationDate</Name><NSId>218103824</NSId><Id>937069620974583826</Id><ClassName>aWF_DataRequestRoot</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>Email</Name><NSId>218103824</NSId><Id>937069736938700848</Id><ClassName>aWF_PersonAnonymizationRequest</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>FirstName</Name><NSId>218103824</NSId><Id>937069736938700816</Id><ClassName>aWF_PersonAnonymizationRequest</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>LastName</Name><NSId>218103824</NSId><Id>937069736938700817</Id><ClassName>aWF_PersonAnonymizationRequest</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>LastUpdate</Name><NSId>218103824</NSId><Id>937069620974583869</Id><ClassName>aWF_DataRequestRoot</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>NotificationMedia</Name><NSId>218103824</NSId><Id>937069736938700846</Id><ClassName>aWF_PersonAnonymizationRequest</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>Status</Name><NSId>218103824</NSId><Id>937069620974583810</Id><ClassName>aWF_DataRequestRoot</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>TreatmentID</Name><NSId>218103824</NSId><Id>937069620974583809</Id><ClassName>aWF_DataRequestRoot</ClassName></aInstanceVarDesc></SelectedVars><UseStringExtract Id="33"><![CDATA[Faux]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><StandAlone Id="46"><![CDATA[Vrai]]></StandAlone><OnlyExtractSelectedVars Id="56"><![CDATA[Faux]]></OnlyExtractSelectedVars><UseBuid Id="61"><![CDATA[Faux]]></UseBuid><Name Id="3"><![CDATA[Demande d'Anonymisation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834655]]></NSId><Id Id="2"><![CDATA[19]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></Resource><ProcessActivities Id="42"><![CDATA[Vrai]]></ProcessActivities><visibility Id="47"><![CDATA[0]]></visibility><LethalErrorText Id="66"><![CDATA[]]></LethalErrorText><Description Id="73"><![CDATA[]]></Description><Name Id="3"><![CDATA[Vérifier le statut de la demande d'anonymisation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318842150]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[2]]></Version></aEDA_ActivityDescService></EntityExport>

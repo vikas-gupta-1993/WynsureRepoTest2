@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <ClientId>
+      <InternalClientId>0000000028</InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000028EX</ExternalClientId>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-06-26</UpdateDate>
+   <PersonIdentity xsi:type="ns:aSPLI_US_Person">
+      <Name>HUNT</Name>
+      <ShortName>Danielle</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <BirthDate>1972-12-18</BirthDate>
+      <PersonTitleEnum>0</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gMale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>GBR</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>GBR</BirthCountry>
+      <BirthPlaceCity>Ramsgate</BirthPlaceCity>
+      <BirthPlaceZipCode>CT11 7SB</BirthPlaceZipCode>
+      <BirthPlaceState>ENG</BirthPlaceState>
+      <LegalRepresentativeId>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Internal Employee</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>Is Not Internal Employee</FieldValue>
+         </Element>
+         <Element xsi:type="ns:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>Is not VIP</ValueCode>
+            <FieldValue>Is not VIP</FieldValue>
+         </Element>
+      </AdditionalDatas>
+      <SSN>AB709051C</SSN>
+      <MaritalStatus>cMarried</MaritalStatus>
+   </PersonIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address>
+            <Line1></Line1>
+            <Line2>Central Road</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>CT11 7SB</ZipCode>
+               <City>Ramsgate</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(01843) 597 402</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>(01843) 597 403</CellPhone>
+         <Fax>(01843) 597 402</Fax>
+         <eMail>danielle.hunt@free.com</eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns:aSPCB_IBAN_BankAccount">
+         <Name>Citibank</Name>
+         <EffectiveDate>2000-01-01</EffectiveDate>
+         <HolderName>Hunt</HolderName>
+         <Currency>cBritishPound</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>City of London</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>Citibank</BankName>
+         <Address>
+            <Line1></Line1>
+            <Line2>Canada Square</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>E145HQ</ZipCode>
+               <City>London</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IBAN>GB62CITI15167428523462</IBAN>
+         <BIC>CITIGB88</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+</_Result>

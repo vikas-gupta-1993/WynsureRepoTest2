@@ -1,0 +1,32 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"{{contractBUID}}"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetMoneyChannel_Out",
+			"buid":"318852120_1",
+			"channelName":"SEPA",
+			"paymentChannelCode":{
+				"buid":"318852120_1",
+				"moneyChannelIdentifier":{
+					"issuingCompanyCode":"WAS",
+					"channelCode":"SEPA"
+				}
+			},
+			"paymentMethodKind":"tpm_account",
+			"availableCurrencies":[
+				"EUR"
+			],
+			"selectedCurrency":"cEuro"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetPossibleInvoiceChannels",
+	"version":"5.8.2.0",
+	"date":"2018-07-19",
+	"errors":[
+	]
+}

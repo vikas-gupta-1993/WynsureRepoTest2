@@ -1,0 +1,92 @@
+name:Prix Incendie;engineclassdef:aMSC_BuildingRuleEngine;returntype:SystemModDef.Num8;objectcontext:218108747;kindcontext:218108734
+; aWF_RT_Formule (aMSC_BuildingRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses aMSC_Building
+
+
+procedure WFCalculate(inOut Result : Num8)
+   var PrixAuM2 : Num8
+   var CatNat : Num8
+   var TotalHT_Immobilier : Num8
+   var TotalHT_CatNat_Immobilier : Num8
+   var Taxe_Immobilier : Num8
+   var Total_Immobilier : Num8
+   var Total_Vitraux : Num8
+   var Total_Mobilier : Num8
+   var Orgues_Mobilier : Num8
+   var ObjetsPrecieux_Mobilier : Num8
+   var CoeficientIndexation : Num8
+   
+   ; ------------------------------
+   ; calcul du prix de l'immobilier
+   ; ------------------------------
+   ;
+   ;Total_Immobilier = (TotalHT_Immobilier + TotalCatNat_Immobilier) + Taxes (7%)
+   ;
+   ;TotalHT_Immobilier = Immobilier__SurfaceM2 * PrixAuM2 * CoeficientIndexation
+   ;
+   ;TotalHT_CatNat_Immobilier = Immobilier__SurfaceM2 * CatNat * CoeficientIndexation
+   ;
+   PrixAuM2 = 0.17
+   CatNat = 0.02
+   ;
+   CoeficientIndexation = 1
+   if self.Immobilier__ProprietaireRenonciationEnversLocataire
+      CoeficientIndexation = CoeficientIndexation * 1.5
+   endIf
+   ;
+   if self.Immobilier__ProprietaireRenonciationEnversRestaurant
+      CoeficientIndexation = CoeficientIndexation * 1.5
+   endIf
+   ;
+   if self.Immobilier__LocataireAssurePourProprietaire
+      CoeficientIndexation = CoeficientIndexation * 1.2
+   endIf
+   ;
+   if self.Immobilier__LocataireRenonciationRecoursProprietaire
+      CoeficientIndexation = CoeficientIndexation * 0.2
+   endIf
+   ;
+   if self.Immobilier__LocataireProprietaireAssureMSC
+      CoeficientIndexation = CoeficientIndexation * 0.8
+   endIf
+   ;
+   if self.Immobilier__Couverture <> cMSCCouvertureDur
+      CoeficientIndexation = CoeficientIndexation * 1.5
+   endIf
+   ;
+   if self.Immobilier__PrimaireSeul
+      CoeficientIndexation = CoeficientIndexation * 0.9
+   endif      
+   ;
+   if self.Immobilier__Valeur = cMSCValeurVRN
+      CoeficientIndexation = CoeficientIndexation * 0.8      
+   else
+      if self.Immobilier__Valeur = cMSCValeurVUI
+         TotalHT_Immobilier = TotalHT_Immobilier * 0.65
+      endIf
+   endIf
+   ;
+   TotalHT_Immobilier = self.Immobilier__SurfaceM2 * PrixAuM2 * CoeficientIndexation
+   TotalHT_CatNat_Immobilier = self.Immobilier__SurfaceM2 * CatNat * CoeficientIndexation
+   ;
+   Taxe_Immobilier = 0.07
+   ;
+   Total_Immobilier = (TotalHT_Immobilier + TotalHT_CatNat_Immobilier) * (1 + Taxe_Immobilier)
+   ; --------------------------
+   ; Calcul du prix des vitraux
+   ; --------------------------
+   Total_Vitraux = self.Immobilier__VitrauxCapital * 1.42
+   ; ------------------------------------------------------------------------
+   ; Calcul du prix du mobilier : limite souscrite + orgues + objets precieux
+   ; ------------------------------------------------------------------------
+   Total_Mobilier = self.Limit * 1.252 / 1000
+   Orgues_Mobilier = self.Mobilier__OrguesCapital * 1.42 / 1000
+   ObjetsPrecieux_Mobilier = self.Mobilier__MeublesOVCapital * 1.66 / 1000
+   ; --------------------------------------
+   ; Resultat final = Immobilier (M2 + Vitraux) + mobilier (Limite + orgues + objets precieux)
+   ; --------------------------------------
+   Result = Total_Immobilier + Total_Vitraux + Total_Mobilier + Orgues_Mobilier + 
+      ObjetsPrecieux_Mobilier
+endProc 
+

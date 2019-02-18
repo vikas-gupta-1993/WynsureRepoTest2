@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P31]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red128\green0\blue0;\red146\green148\blue152;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-333\slmult0\cf1\b\f0\fs16\'c0 l'\'e9ch\'e9ance\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 L'adh\'e9sion au contrat est r\'e9siliable par l'une ou l'autre des parties par l'envoi d'une lettre recommand\'e9e avant le 31 octobre de chaque ann\'e9e civile. Dans le cas o\'f9 cette r\'e9siliation est formul
+\'e9e \'e0 \'ab titre conservatoire \'bb, celle-ci est consid\'e9r\'e9e comme d\'e9finitive si les parties n'ont pas formalis\'e9 leur accord pour le renouvellement au plus tard 10 jours avant l'\'e9ch\'e9ance.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Hors \'e9ch\'e9ance\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 L'adh\'e9sion au contrat peut \'eatre r\'e9sili\'e9e par l'Institution avant la date de renouvellement dans les cas suivants :\par
+\bullet  cessation d'activit\'e9 ou dissolution de l'entreprise adh\'e9rente,\par
+\bullet  redressement judiciaire ou liquidation de l'entreprise adh\'e9rente, dans les conditions pr\'e9vues par la loi,\par
+\bullet  si l'entreprise adh\'e9rente n'emploie plus de personnel ou si celui-ci ne per\'e7oit aucune r\'e9mun\'e9ration,\par
+\bullet  refus par l'entreprise adh\'e9rente de la proposition de modification de l'adh\'e9sion dans les conditions pr\'e9vues au point 2 de l'article 6,\par
+\bullet  non-respect par l'entreprise adh\'e9rente des obligations pr\'e9vues \'e0 l'article 7,\par
+\bullet  omission ou inexactitude des d\'e9clarations de l'entreprise adh\'e9rente lors de l'adh\'e9sion,\par
+\bullet  d\'e9faut de paiement des cotisations.\par
+La notification de la r\'e9siliation sera adress\'e9e par lettre recommand\'e9e avec accus\'e9 de r\'e9ception et comportera toutes les pr\'e9cisions de nature \'e0 \'e9tablir que la r\'e9siliation est en relation avec l'un de ces \'e9v\'e9nements.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Résiliation]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance CG Resiliation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[34]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

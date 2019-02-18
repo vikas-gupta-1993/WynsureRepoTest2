@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"invoiceID":{
+			"className":"aSPF_Identifier",
+			"bUID":"",
+			"description":""
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"CancelInvoice",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+	]
+}

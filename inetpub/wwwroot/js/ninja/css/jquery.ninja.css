@@ -1,0 +1,36 @@
+/*!
+ * WYde Ninja css
+ * version 4.5.0.0
+ *
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ */
+
+
+a.ninjaCheckbox {
+  background-image: url("../images/checkbox.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  min-height: 16px;
+  padding-left: 0;
+  margin-right: 5px;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+a.ninjaCheckbox.unchecked
+  {background-position: 0px 0px;}
+a.ninjaCheckbox.checked
+  {background-position: -18px 0px;}
+a.ninjaCheckbox.unchecked:hover
+{background-position: 0px -16px;}
+a.ninjaCheckbox.checked:hover
+  {background-position: -18px -16px;}
+a.ninjaCheckbox.unchecked.disabled
+  {background-position: 0px -32px; cursor: not-allowed; opacity: 0.4;}
+a.ninjaCheckbox.checked.disabled
+  {background-position: -18px -32px; cursor: not-allowed; /*opacity: 0.4; disable to be able to easely see checked checkbox*/}

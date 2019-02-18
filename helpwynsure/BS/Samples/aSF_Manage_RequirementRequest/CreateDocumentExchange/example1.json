@@ -1,0 +1,53 @@
+{
+	"description":"",
+	"request":{
+		"requestID":{
+			"className":"aSPCB_GenericRequirementRequestIdentifier",
+			"requestId":"",
+			"bUID":"318838700_17",
+			"description":""
+		},
+		"exchangeName":"sss"
+	},
+	"response":{
+		"className":"aSPCB_DocumentExchangeData",
+		"genericRequirementExchange":{
+			"className":"aSPCB_DocumentExchange",
+			"sentOrReceivedDate":"2017-10-09",
+			"sentOrReceivedTime":"17:44:38Z",
+			"validFromDate":null,
+			"validToDate":null,
+			"noKnownRequest":false,
+			"insuredName":"",
+			"insuredShortName":"",
+			"insuredDateOfBirth":null,
+			"insuredSSN":"",
+			"documentReference":"",
+			"forUnderwriting":false,
+			"name":"sss"
+		},
+		"documentDescIdentifier":{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"code":"",
+			"name":"",
+			"documentDescType":"",
+			"bUID":"318838323_15",
+			"description":"ACH Authorization Form, Code: DOC_004"
+		},
+		"actor":{
+			"data":null,
+			"identifier":{
+				"className":"aSPCB_ActorIdentifier",
+				"bUID":"318842236_7",
+				"description":"Elaine Austin 3911 Mewswood Ln, Cadiz, KY 42211"
+			}
+		},
+		"bUID":"318838325_20",
+		"dataHistory":[
+		]
+	},
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"CreateDocumentExchange",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLIC_Consult_Claim"
+		},
+		"criteria":{
+			"claimantBuid":"{{personBUID}}",
+			"lossDescBuid":"{{lossDescBuid}}",
+			"lossDate":""
+		},
+		"maxSize":4
+	},
+	"response":[
+	],
+	"className":"aSLIC_Consult_claim",
+	"methodName":"SearchClaimDocumentDescriptors",
+	"version":"5.8.1.0",
+	"date":"2018-02-14",
+	"errors":[
+	]
+}

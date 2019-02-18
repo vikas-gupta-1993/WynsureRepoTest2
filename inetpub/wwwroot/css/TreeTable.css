@@ -1,0 +1,22 @@
+tr.collapsed .TreeIcon, tr.expanded .TreeIcon, tr.NoChildren .TreeIcon{
+	Height:16px;
+	Width:16px;
+	float:left;
+}
+
+tr.collapsed .TreeIcon, tr.expanded .TreeIcon{
+	Cursor:pointer;
+}
+
+tr.collapsed.NoChildren .TreeIcon, tr.expanded.NoChildren .TreeIcon{
+	background: url("./images/TreeTable/NoChildren.png");
+	Cursor:auto;
+}
+
+tr.collapsed .TreeIcon{
+	background: url("./images/TreeTable/collapse.png");
+}
+
+tr.expanded .TreeIcon{
+	background: url("./images/TreeTable/expand.png");
+}

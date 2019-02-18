@@ -1,0 +1,46 @@
+.CheckBoxColumn{
+	width: 30px;
+}
+
+.Status{
+	width: 50px;
+}
+span.TextName{
+    padding-left:16px;
+    padding-top:5px;
+}
+
+.Right .ErrorFixer, .Left .ErrorFixer{
+	width:96%;
+}
+
+.Left{
+	width:49%;
+	float:left;
+}
+
+.Right{
+	width:49%;
+	float:right;
+}
+
+.OwnedProfileBackGround{
+	color: #468847;
+}
+.NotOwnedProfileBackGround{
+	color: #b94a48;
+}
+
+.IsOwned{
+		width: 50px;
+}
+
+.EnabledLogin{
+	color: #468847;
+}
+.DisabledLogin{
+	color: #b94a48;
+}
+.SelectedLogin{
+	color: rgb(132, 132, 132);
+}

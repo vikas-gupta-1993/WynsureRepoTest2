@@ -1,0 +1,405 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":[
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_15",
+			"description":"ACH Authorization Form, Code: DOC_004",
+			"code":"DOC_004",
+			"name":"ACH Authorization Form",
+			"documentDescType":"wdtFinancial"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_1",
+			"description":"APS001, Code: APS001",
+			"code":"APS001",
+			"name":"APS001",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_2",
+			"description":"APS002, Code: APS002",
+			"code":"APS002",
+			"name":"APS002",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_1",
+			"description":"Assignment Form, Code: ATT002",
+			"code":"ATT002",
+			"name":"Assignment Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_2",
+			"description":"Attendance Record, Code: 5",
+			"code":"5",
+			"name":"Attendance Record",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_3",
+			"description":"Attending Physician Statement, Code: ATT003",
+			"code":"ATT003",
+			"name":"Attending Physician Statement",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846661_1",
+			"description":"Back Premium, Code: BP",
+			"code":"BP",
+			"name":"Back Premium",
+			"documentDescType":"wdtFinancial"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_3",
+			"description":"Bill of Sale, Code: BOS",
+			"code":"BOS",
+			"name":"Bill of Sale",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_4",
+			"description":"Change in Beneficiary Form, Code: ATT005",
+			"code":"ATT005",
+			"name":"Change in Beneficiary Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_5",
+			"description":"Change in Contract Form, Code: ATT006",
+			"code":"ATT006",
+			"name":"Change in Contract Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_7",
+			"description":"Death Claim Form, Code: F0003",
+			"code":"F0003",
+			"name":"Death Claim Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_6",
+			"description":"Death certificate, Code: 3",
+			"code":"3",
+			"name":"Death certificate",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_12",
+			"description":"Death certificate, Code: DOC_001",
+			"code":"DOC_001",
+			"name":"Death certificate",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_4",
+			"description":"Declaration of Continued Good Health, Code: MD002",
+			"code":"MD002",
+			"name":"Declaration of Continued Good Health",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_5",
+			"description":"Doctor's Confirmation of Sickness Form, Code: MD003",
+			"code":"MD003",
+			"name":"Doctor's Confirmation of Sickness Form",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_6",
+			"description":"Doctor's confirmation of Terminal Illness, Code: MD001",
+			"code":"MD001",
+			"name":"Doctor's confirmation of Terminal Illness",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_17",
+			"description":"Driver Authorization Form, Code: DAF",
+			"code":"DAF",
+			"name":"Driver Authorization Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_8",
+			"description":"Driver License, Code: DL",
+			"code":"DL",
+			"name":"Driver License",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_18",
+			"description":"EFT Authorization Form, Code: EFTA",
+			"code":"EFTA",
+			"name":"EFT Authorization Form",
+			"documentDescType":"wdtFinancial"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_19",
+			"description":"Expense Receipts, Code: ER",
+			"code":"ER",
+			"name":"Expense Receipts",
+			"documentDescType":"wdtFinancial"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_20",
+			"description":"Fine Arts Appraisal, Code: FAP",
+			"code":"FAP",
+			"name":"Fine Arts Appraisal",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318841135_1",
+			"description":"First Payment, Code: FP",
+			"code":"FP",
+			"name":"First Payment",
+			"documentDescType":"wdtFinancial"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_7",
+			"description":"Health Statement & APS, Code: MD008",
+			"code":"MD008",
+			"name":"Health Statement & APS",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_21",
+			"description":"Height & Weight Check, Code: MD015",
+			"code":"MD015",
+			"name":"Height & Weight Check",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_22",
+			"description":"Home Office Specimen, Code: HOS",
+			"code":"HOS",
+			"name":"Home Office Specimen",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_14",
+			"description":"Irrevocable Beneficiary Validation, Code: DOC_003",
+			"code":"DOC_003",
+			"name":"Irrevocable Beneficiary Validation",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_23",
+			"description":"Jewelry Appraisal, Code: JA",
+			"code":"JA",
+			"name":"Jewelry Appraisal",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_24",
+			"description":"LTD Claim form, Code: F0001",
+			"code":"F0001",
+			"name":"LTD Claim form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_25",
+			"description":"LTD Physician's Statement Form, Code: MD016",
+			"code":"MD016",
+			"name":"LTD Physician's Statement Form",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_8",
+			"description":"Life Attending Physician's Statement, Code: MD017",
+			"code":"MD017",
+			"name":"Life Attending Physician's Statement",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_10",
+			"description":"Medical Record, Code: MR",
+			"code":"MR",
+			"name":"Medical Record",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318846570_9",
+			"description":"Medical certificate, Code: 0",
+			"code":"0",
+			"name":"Medical certificate",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_26",
+			"description":"Non-Medical Health Statement, Code: Non MHS",
+			"code":"Non MHS",
+			"name":"Non-Medical Health Statement",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_16",
+			"description":"Proof of Disability, Code: DOC_005",
+			"code":"DOC_005",
+			"name":"Proof of Disability",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_27",
+			"description":"Proof of Loss, Code: 4",
+			"code":"4",
+			"name":"Proof of Loss",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_28",
+			"description":"Questionnaire: Asthma, Code: Q0001",
+			"code":"Q0001",
+			"name":"Questionnaire: Asthma",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_29",
+			"description":"Questionnaire: Back-neck Pain, Code: Q0006",
+			"code":"Q0006",
+			"name":"Questionnaire: Back-neck Pain",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_30",
+			"description":"Questionnaire: Chest  Pain , Code: Q0007",
+			"code":"Q0007",
+			"name":"Questionnaire: Chest  Pain ",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_31",
+			"description":"Questionnaire: Diabetes , Code: Q0002",
+			"code":"Q0002",
+			"name":"Questionnaire: Diabetes ",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_33",
+			"description":"Questionnaire: Medical History , Code: Q0004",
+			"code":"Q0004",
+			"name":"Questionnaire: Medical History ",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_34",
+			"description":"Questionnaire: Smoking , Code: Q0005",
+			"code":"Q0005",
+			"name":"Questionnaire: Smoking ",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_32",
+			"description":"Questionnaire: height, weight & blood pressure, Code: Q0003",
+			"code":"Q0003",
+			"name":"Questionnaire: height, weight & blood pressure",
+			"documentDescType":"wdtMedical"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_35",
+			"description":"Request for Change in Policy , Code: RCP",
+			"code":"RCP",
+			"name":"Request for Change in Policy ",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_37",
+			"description":"STD Claim Form, Code: F0002",
+			"code":"F0002",
+			"name":"STD Claim Form",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_36",
+			"description":"Salary attestation, Code: 1",
+			"code":"1",
+			"name":"Salary attestation",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_9",
+			"description":"Signed Application, Code: SA",
+			"code":"SA",
+			"name":"Signed Application",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_13",
+			"description":"Terminal illness confirmation, Code: DOC_002",
+			"code":"DOC_002",
+			"name":"Terminal illness confirmation",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_10",
+			"description":"Vehicle Registration, Code: VRC",
+			"code":"VRC",
+			"name":"Vehicle Registration",
+			"documentDescType":"wdtOther"
+		},
+		{
+			"className":"aSPCB_GenericRequirementDescIdentifier",
+			"bUID":"318839006_11",
+			"description":"Wearing approved seat belt, Code: WASB",
+			"code":"WASB",
+			"name":"Wearing approved seat belt",
+			"documentDescType":"wdtOther"
+		}
+	],
+	"className":"asf_manage_requirementrequest",
+	"methodName":"GetSequenceOfAllDocumentDescs",
+	"version":"5.8.2.0",
+	"date":"2018-04-10",
+	"errors":[
+	]
+}

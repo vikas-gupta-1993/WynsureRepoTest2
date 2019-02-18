@@ -1,0 +1,21 @@
+/*******************
+*  Loss Comment    *
+*******************/
+.LossComment textarea{
+	width: 100%;	
+	height: 200px;
+	
+}
+
+#LossDescriptionWrapper label{
+	font-weight: bold;
+}
+
+.thirdPartySubLoss{
+	padding-left: 6px;
+}
+
+.padSubComponent{
+	padding-left: 30px;
+
+}

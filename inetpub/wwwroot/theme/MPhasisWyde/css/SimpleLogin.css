@@ -1,0 +1,44 @@
+#PageContent {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;/*IE6*/
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+
+.fields .language .controls {
+  margin-bottom: 15px;
+}
+
+div#DisplayFormWrapper select {
+	width: 30em;
+}
+
+#PageContent.WaitingForResponse * {
+	display: none;
+}
+
+#PageContent.WaitingForResponse {
+  margin-top: 10em;
+	background-image:url(../images/loader.gif);
+  background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+  margin-top: 100px;
+  margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 100px;
+}
+
+div.language {
+  margin-bottom: 5px;
+}
+
+#DisplayFormWrapper a.LostPassword {
+  color: #555;
+  text-decoration: none;
+  float: right;
+  margin-top: 20px;
+}
+

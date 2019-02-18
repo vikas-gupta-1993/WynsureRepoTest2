@@ -1,0 +1,44 @@
+{
+	"description":"",
+	"request":{
+		"buid":"318843693_5",
+		"newParamBankAccount":{
+			"className":"aSPCB_US_BankAccount",
+			"name":"Chase Manhattan Bank Test",
+			"effectiveDate":"{{currentDate}}",
+			"endDate":null,
+			"holderName":"Dld Insurance Brokers",
+			"currency":"cUSDollar",
+			"accountType":"catChecking",
+			"branchName":"",
+			"depositType":"dpNA",
+			"bankName":"",
+			"address":{
+				"className":"aSPCB_US_PostalAddress",
+				"line1":"6507 Lexington Avenue",
+				"line2":"Pune",
+				"zipCodeAndCity":{
+					"zipCode":"10015",
+					"city":"NEW YORK"
+				},
+				"country":"UNITED STATES",
+				"district":"",
+				"state":"NY",
+				"county":"",
+				"fIPSCode":0
+			},
+			"accountNumber":"000140867127786",
+			"routingNumber":"091000019",
+			"preNoteCompleted":true,
+			"preNoteProcessCompletionDate":"2011-01-06"
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_Broker",
+	"methodName":"AddBrokerBankAccount",
+	"version":"5.8.2.0",
+	"date":"2018-08-31",
+	"errors":[
+	]
+}

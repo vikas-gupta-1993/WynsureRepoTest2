@@ -1,0 +1,35 @@
+{
+	"description":"When no loan contract found",
+	"request":{
+		
+		"contractID":{
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			},
+			"buid":"318844864_1"
+		},
+		"atDate":"1900-01-01",
+		"withPremium":false
+	},
+	"response":{
+		"_Result":null
+	},
+	"eval":null,
+	"className":"aslo_consult_loanpolicy",
+	"methodName":"GetLoanPolicyDetails",
+	"version":"5.8.2.0",
+	"date":"2018-04-20",
+	"errors":[
+		{
+			"code":"1101_BS_00002",
+			"message":"Given contract ID is not associated to Loan contract",
+			"kind":"Bad Value",
+			"kindNumber":0
+		}
+	]
+}

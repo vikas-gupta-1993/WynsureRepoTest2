@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWHFR_RatePlan><RatePlanType Id="2"><![CDATA[1]]></RatePlanType><AlsaceMoselle Id="3"><![CDATA[Vrai]]></AlsaceMoselle><Code Id="31"><![CDATA[TAM]]></Code><Currency Id="3"><![CDATA[8]]></Currency><Context Id="27"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Context><ApplicableToAllStates Id="42"><![CDATA[Vrai]]></ApplicableToAllStates><EffectiveDate Id="1"><![CDATA[24/11/2015]]></EffectiveDate><EndDate Id="2"><![CDATA[--/--/----]]></EndDate><CreationDate Id="1"><![CDATA[24/11/2015]]></CreationDate><CreationTime Id="3"><![CDATA[17:17:04]]></CreationTime><Name Id="3"><![CDATA[Taux Alsace Moselle]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[319291458]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_RatePlan></EntityExport>

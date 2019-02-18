@@ -1,0 +1,126 @@
+{
+	"description": "Creation of US legal entity",
+	"request": {
+		"self": {
+			"className": "aSLI_Manage_Actors"
+		},
+		"input": {
+			"className": "aSPLI_CreateOrUpdateLegalEntity_Data",
+			"legalEntityIdentity": {
+				"className": "aSPLI_US_LegalEntity",
+				"shortName": "CW",
+				"creationDate": "2013-05-24",
+				"preferredLanguageCode": "En",
+				"terminationDate": null,
+				"preferredContactChoice": "pcDefaultCorrespondence",
+				"delinquent": false,
+				"underSurveillance": false,
+				"isAnonymous": false,
+				"name": "Cookies & Water",
+				"masterLegalEntity": {
+					"buid": "",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": ""
+					}
+				},
+				"activity": "",
+				"inBankrupcy": false,
+				"country": "USA",
+				"state": "NY",
+				"industrialClassification": {
+					"classificationSystem": "SIC US",
+					"code": "4222"
+				},
+				"totalNumberOfEmployees": 100,
+				"additionalDatas": [
+				],
+				"companyType": "",
+				"worksiteStates": [
+					"MN",
+					"NY"
+				],
+				"taxId": "20"
+			},
+			"employeeInformations": [
+			],
+			"legalEntityDivision": [
+			],
+			"clientId": {
+				"internalClientId": "",
+				"externalClientIdentifier": {
+					"externalClientId": "",
+					"thirdPartyID": ""
+				},
+				"buid": ""
+			},
+			"thirdPartyID": "DistRoot",
+			"updateDate": "2018-11-14",
+			"correspondences": [
+				{
+					"className": "aSPCB_Correspondence",
+					"effectiveDate": "1800-01-01",
+					"addressUsage": "0",
+					"address": {
+						"className": "aSPCB_US_PostalAddress",
+						"line1": "2373 BROCKTON WAY",
+						"line2": "",
+						"zipCodeAndCity": {
+							"zipCode": "35007",
+							"city": "Alabaster"
+						},
+						"country": "USA",
+						"district": "",
+						"state": "AL",
+						"county": "",
+						"fIPSCode": 0
+					},
+					"isDefaultCorrespondance": true,
+					"privatePhone": "(908) 903-1332",
+					"privatePhoneExtension": "",
+					"officePhone": "",
+					"officePhoneExtension": "",
+					"cellPhone": "(908) 903-1332",
+					"fax": "(908) 903-1332",
+					"eMail": "cookiesmilk@free.com",
+					"mediaType": "Mail",
+					"isInvalid": false,
+					"reasonForInvalidAddress": ""
+				}
+			],
+			"paymentMethods": [
+			],
+			"contactInformations": [
+			],
+			"loginInformation": null
+		}
+	},
+	"response": {
+		"buid": "318842906_31",
+		"internalClientId": "0000000124",
+		"externalClientIdentifier": {
+			"externalClientId": "",
+			"thirdPartyID": "DistRoot"
+		}
+	},
+	"eval": null,
+	"className": "aSLI_manage_Actors",
+	"methodName": "CreateOrUpdateLegalEntity",
+	"version": "5.8.2.2",
+	"date": "2018-11-14",
+	"errors": [
+		{
+			"code": "BS_00005",
+			"message": "Error during Validation of Legal Entity",
+			"kind": "Info",
+			"kindNumber": 4
+		},
+		{
+			"code": "WF-I0003",
+			"message": "This object is similar to other objects",
+			"kind": "Info",
+			"kindNumber": 4
+		}
+	]
+}

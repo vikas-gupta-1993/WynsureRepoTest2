@@ -1,0 +1,35 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":[
+		{
+			"className":"aSPLI_OrganizationUnit",
+			"isForDirectDistribution":false,
+			"directDistributionChannel":"ddcIndividual",
+			"name":"Front Office",
+			"actorName":"",
+			"actorID":"",
+			"parentName":"",
+			"parentUnitCode":"",
+			"isADistributor":false,
+			"isADistributionNetwork":true,
+			"unitCode":"DistRoot",
+			"externalOrgUnit":false,
+			"mainActivity":"Front Office",
+			"backOfficeActivity":0,
+			"backOfficeActivityDescription":"",
+			"externalBackOffice":false,
+			"creationDate":null,
+			"productDistributionRoleName":""
+		}
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetAvailableDistributionUnitsForClient",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

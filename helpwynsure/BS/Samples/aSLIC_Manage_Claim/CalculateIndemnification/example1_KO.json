@@ -1,0 +1,51 @@
+{
+	"description":"",
+	"request":{
+		"claimTreatmentProcessIdentifier":{
+			"className":"aSPF_Identifier",
+			"bUID":"318847876_46",
+			"description":""
+		},
+		"indemnificationId":{
+			"className":"aSPLIC_ClaimIndemnificationIdentifier",
+			"forBenefit":{
+				"className":"aSPCB_BenefitIdentifier",
+				"code":"",
+				"coverage":null,
+				"bUID":"318847423_1",
+				"description":""
+			},
+			"fromDate":"2019-06-21",
+			"forClaim":{
+				"className":"aSPLIC_ClaimIdentifier",
+				"internalClaimId":"",
+				"externalClaimId":"",
+				"bUID":"318846984_44",
+				"description":""
+			},
+			"bUID":"",
+			"description":""
+		}
+	},
+	"response":null,
+	"className":"aSLIC_Manage_Claim",
+	"methodName":"CalculateIndemnification",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"786B_BS_00001",
+			"message":"Invalid Business Identifier",
+			"kind":"errInfo",
+			"kindNumber":4
+		},
+		{
+			"code":"1C09_BS_00008",
+			"message":"Cannot find the claim treatment process: unNamed aSPF_Identifier",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

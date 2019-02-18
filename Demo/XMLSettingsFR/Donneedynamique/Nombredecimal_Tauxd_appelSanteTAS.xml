@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999 999 999 999 999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Le taux d'appel sant\'e9 est calcul\'e9 via la table externe "Taux d'appel sant\'e9 collectif"\f1\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[TAS]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Vrai]]></CalculatedValue><Name Id="3"><![CDATA[Taux d'appel Santé]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771188]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Float></EntityExport>

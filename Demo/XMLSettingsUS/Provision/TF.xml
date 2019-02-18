@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[TF]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 The company will pay for loss of Covered Property, resulting directly from the covered causes of loss, as defined in this endorsement.\par
+\par
+\par
+A; Inside the premises\par
+   Covered Property: Money and securities inside the premises or a banking premises\par
+   Covered causes of loss:\par
+      Theft\par
+      Disappearance\par
+      Destruction\par
+B. Outside of the premises\par
+   Covered Property: money and securities outside the rpemises in the care and custody of a messanger\par
+   Covered causes of loss:\par
+      Theft\par
+      Disappearance\par
+      Destruction\par
+\f1\par
+\b\f0 Limit of Insurance\par
+\b0 The most the company will pay for loss in any one occurrence is the applicable limit of insurance shown in the declarations.\f1\par
+}
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Apartment Building-Theft, Disappearance, and Destruction Form]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Apartment Building-Theft, Disappearance, and Destruction Form]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[12]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

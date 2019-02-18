@@ -1,0 +1,23 @@
+{
+	"description":"",
+	"request":{
+		
+		"illustration":{
+			"className":"aSPCB_EntityIllustrations_Out",
+			"entityName":"",
+			"entityIdentifier":{
+				"buid":"{{cashValueOptionBUID}}"
+			},
+			"illustrations":[
+			]
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"AreEntityIllustrationsAvailableDuringEndorsement",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

@@ -1,0 +1,125 @@
+{
+	"description":"",
+	"request":{
+		"paramIn":{
+			"className":"aSPLI_GetOperations_In",
+			"actionTitle":"",
+			"onObjectBuid":"",
+			"businessDomains":[
+			],
+			"notAllowedBusinessDomains":[
+			],
+			"fromDate":null,
+			"toDate":null,
+			"actorBuid":"318842236_17"
+		},
+		"maxSize":20
+	},
+	"response":[
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"New Contact Information (Endorsement)",
+			"actionDescription":"",
+			"date":"2017-10-09",
+			"time":"17:56:05Z",
+			"businessDomains":[
+				"Client",
+				"Endorsement"
+			],
+			"actionUser":"Super manager",
+			"buid":"318852492_733"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Address Change (Endorsement)",
+			"actionDescription":"Previous Address:  9820 Russett Wood Cir, Milwaukee, WI 53204.\r\nNew Address:  9820 Russett Wood Cir, Milwaukee, WI 53204.\r\n",
+			"date":"2017-10-09",
+			"time":"17:56:05Z",
+			"businessDomains":[
+				"Client",
+				"Endorsement"
+			],
+			"actionUser":"Super manager",
+			"buid":"318852492_732"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Decision Addon Modification",
+			"actionDescription":"Decision Addon Modification [Declined] : Waiver of Premium (STD)\r\n",
+			"date":"2017-08-24",
+			"time":"10:18:09Z",
+			"businessDomains":[
+				"Hold"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_148"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Individual Creation",
+			"actionDescription":"",
+			"date":"2017-08-24",
+			"time":"10:14:31Z",
+			"businessDomains":[
+				"Client"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_17"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Invoice Creation",
+			"actionDescription":"Invoice #: 0000000017, Due Date:  07\/28\/2017, Due Amount:  $100,000.00. \r\nContracts:  4800000565. ",
+			"date":"2017-07-24",
+			"time":"10:18:31Z",
+			"businessDomains":[
+				"Billing"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_214"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Contract Billed",
+			"actionDescription":"Cash Value Life Insurance Policy:  #4800000565. \r\n",
+			"date":"2017-07-24",
+			"time":"10:18:15Z",
+			"businessDomains":[
+				"Contract",
+				"Billing"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_197"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Contract Billed",
+			"actionDescription":"Cash Value Life Insurance Policy:  #4800000564. \r\n",
+			"date":"2017-07-24",
+			"time":"10:18:15Z",
+			"businessDomains":[
+				"Contract",
+				"Billing"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_196"
+		},
+		{
+			"className":"aSPCB_Operation_Out",
+			"actionTitle":"Contract Billed",
+			"actionDescription":"Cash Value Life Insurance Policy:  #4800000563. \r\n",
+			"date":"2017-07-24",
+			"time":"10:18:15Z",
+			"businessDomains":[
+				"Contract",
+				"Billing"
+			],
+			"actionUser":"Admin",
+			"buid":"318852492_195"
+		}
+	],
+	"className":"aSLI_Consult_Operations",
+	"methodName":"SearchOperations",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

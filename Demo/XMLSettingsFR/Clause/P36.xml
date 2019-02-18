@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P36]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}{\f1\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red128\green0\blue0;\red146\green148\blue152;\red34\green31\blue31;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sl-333\slmult0\cf1\b\f0\fs16 D\'e9finition de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 Si le conjoint du participant, non s\'e9par\'e9 de corps judiciairement, d\'e9c\'e8de avant l'\'e2ge de 60 ans, que son d\'e9c\'e8s se produise simultan\'e9ment (dans un d\'e9lai de 24 heures au plus) ou post\'e9
+rieurement \'e0 celui du participant, l'Institution verse un capital au profit du ou des enfants restant \'e0 charge au moment du d\'e9c\'e8s du conjoint. Ce capital est \'e9gal \'e0 celui pr\'e9vu en cas de d\'e9c\'e8s du participant.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Cessation de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 La garantie double effet cesse \'e0 la date de r\'e9siliation de l'adh\'e9sion, en cas de remariage du conjoint et au plus tard au 60 \'e8me anniversaire du conjoint.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-226\slmult0\cf1\b Cas d'exclusion de la garantie\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3\b Les cas d'exclusion pour la garantie double effet sont ceux de \ul la garantie d\'e9c\'e8s indiqu\'e9s au point 3 de l'article 19.\ulnone\b0\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b B\'e9n\'e9ficiaires\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 Le capital est vers\'e9 aux enfants restant \'e0 charge au moment du d\'e9c\'e8s du conjoint.\par
+\pard\nowidctlpar\sl-213\slmult0\cf4\par
+\pard\nowidctlpar\sl-346\slmult0\cf1\b Modalit\'e9s de paiement du capital garanti\cf2\b0\par
+\pard\nowidctlpar\li253\sl-280\slmult0\cf3 Les modalit\'e9s de paiement du capital de la garantie double effet sont les m\'eames que pour la garantie d\'e9c\'e8s.\par
+\pard\cf0\f1\fs20\par
+}
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Garantie double effet]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Prevoyance Double effet]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[39]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

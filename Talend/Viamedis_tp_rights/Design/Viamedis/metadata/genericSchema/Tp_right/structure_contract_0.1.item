@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_qkjbQbcQEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataPackage="_qkjbQrcQEea63c4_XNFt3Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_qkjbQrcQEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataManager="_qkjbQbcQEea63c4_XNFt3Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qkjbQ7cQEea63c4_XNFt3Q" id="_nIuqELcPEea63c4_XNFt3Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbRLcQEea63c4_XNFt3Q" name="id" label="id" length="15" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbRbcQEea63c4_XNFt3Q" name="name" label="name" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbRrcQEea63c4_XNFt3Q" name="date_effect" label="date_effect" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbR7cQEea63c4_XNFt3Q" name="status" label="status" length="20" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbSLcQEea63c4_XNFt3Q" name="termination_date" label="termination_date" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbSbcQEea63c4_XNFt3Q" name="id_product" label="id_product" length="15" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qkjbSrcQEea63c4_XNFt3Q" name="class_name" label="class_name" length="50" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

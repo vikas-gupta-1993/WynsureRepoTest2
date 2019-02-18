@@ -1,0 +1,27 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318844991_1",
+		"maxSize":10
+	},
+	"response":[
+		{
+			"className":"aSPLI_Endorsement_Out",
+			"endorsementNumber":"1",
+			"dateOfChange":"2017-12-12",
+			"endorsmentType":"Policy Endorsement",
+			"acceptedBy":"Super manager",
+			"status":"Active",
+			"premiumChange":"2017-12-12",
+			"creationDate":"2017-12-12",
+			"descriptionOfChange":"Policy Endorsement\r\nLast User Who Modified The Endorsement: \tSuper manager The 12\/12\/2017\r\n\r\nNilesh Chougule\r\n\r\nFamily Health Plus Base Plan, Contract\/Policy 4800000511\r\nInvolved Coverage(s): \tDental care     (Pending - Valid) (Nilesh Chougule)\r\n\r\n\r\nBefore Endorsement\r\nCoverage Summary\r\nCoverage\tEffective Date\tDescription\t\r\nAccident and Sickness\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\nTravel\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\nExtended prescription drug\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\n Chosen Package\r\n1. Nilesh Chougule\\Accident and Sickness\r\n1. Nilesh Chougule\\Travel\r\n1. Nilesh Chougule\\Extended prescription drug\r\n\r\n\r\nAdditional Information\r\nSignature State: \tAK\r\nProvinces: \tAlberta\r\n \r\n\r\n\r\nAfter Endorsement\r\nCoverage Summary\r\nCoverage\tEffective Date\tDescription\t\r\nAccident and Sickness\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\nTravel\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\nExtended prescription drug\t11\/21\/2017\tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\t\r\nDental care\t12\/12\/2017\tNilesh Chougule (Owner) (From 12\/12\/2017 To...)\t\r\n Chosen Package\r\n1. Nilesh Chougule\\Accident and Sickness\r\n1. Nilesh Chougule\\Travel\r\n1. Nilesh Chougule\\Extended prescription drug\r\n1. Nilesh Chougule\\Dental care\r\n\r\n\r\nAdditional Information\r\nSignature State: \tAK\r\nProvinces: \tAlberta\r\n \r\n\r\nChanges due to the endorsement\r\n\r\n\r\nModifications Made: \tCoverage Subscription\r\n\r\n\r\nAdded Coverages\r\n\r\n\r\n1- Dental care\r\nInsured: \tNilesh Chougule (Owner) (From 12\/12\/2017 To...)\r\n\r\n\r\nKept Coverages\r\n\r\n\r\n1- Accident and Sickness\r\nInsured: \tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\r\n\r\n\r\n2- Travel\r\nInsured: \tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\r\n\r\n\r\n3- Extended prescription drug\r\nInsured: \tNilesh Chougule (Owner) (From 11\/21\/2017 To...)\r\nPolicy Level Changes: \r\nInvoicing day changed From 11\/21\/2017 to 01\/12\/2018\r\n\r\nInsured Level Changes: \r\n\r\n\r\n\r\n\r\nNilesh Chougule\r\nAdded Dental care\r\n\r\n",
+			"buid":"318844149_3"
+		}
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetContractEndorsements",
+	"version":"5.7.3.0",
+	"date":"2017-12-12",
+	"errors":[
+	]
+}

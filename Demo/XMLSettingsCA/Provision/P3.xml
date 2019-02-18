@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[P3]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036\deflangfe2052{\fonttbl{\f0\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\info{\horzdoc}{\*\lchars ([\'7b\'a1\'a4\'a1\'ae\'a1\'b0\'a1\'b4\'a1\'b6\'a1\'b8\'a1\'ba\'a1\'be\'a1\'b2\'a1\'bc\'a3\'a8\'a3\'ae\'a3\'db\'a3\'fb\'a1\'ea\'a3\'a4}{\*\fchars !),.:\'3b?]\'7d\'a1\'a7\'a1\'a4\'a1\'a6\'a1\'a5\'a8\'44\'a1\'ac\'a1\'af\'a1\'b1\'a
+1\'ad\'a1\'c3\'a1\'a2\'a1\'a3\'a1\'a8\'a1\'a9\'a1\'b5\'a1\'b7\'a1\'b9\'a1\'bb\'a1\'bf\'a1\'b3\'a1\'bd\'a3\'a1\'a3\'a2\'a3\'a7\'a3\'a9\'a3\'ac\'a3\'ae\'a3\'ba\'a3\'bb\'a3\'bf\'a3\'dd\'a3\'e0\'a3\'fc\'a3\'fd\'a1\'ab\'a1\'e9}}
+\viewkind4\uc1\pard\li15\qj\cf1\lang1033\expndtw2\f0\fs16 At the end of each 12 months in a continuous claim before age 65, \b benefits will be adjusted \b0 at a compounded rate to reflect annual changes in the Consumer Price Index. Each adjustment cannot
+ be more than we would have paid if the CPI-U had increased exactly by the maximum increase percent, which you selected at 3%. Before you are age 65, there is no total limit on the amount of adjusted indemnity you can recei ve.    \cf0\expndtw0\kerning2 
+\par par\cf1\expndtw2\kerning0 
+\par When you recover, whatever increase has been put into effect under the rider will remain as a permanent increase, at no extra premium cost to age 65. The cost of living adjustment rider applies to the Residual disability and the Social Insurance Subs
+titute riders, if selected.    \cf0\expndtw0\kerning2 
+\par 
+\par \cf1\expndtw1\kerning0\i Monthly Buying Power = Without 3% COLA Rider, assuming constant 3% increase in CPI-U each year\cf0\expndtw0\kerning2 
+\par \cf1\expndtw1\kerning0 Monthly Indemnity with 3% COLA Rider = Assumes constant 3% increase in CPI-U each year\cf0\expndtw0\kerning2 
+\par \cf1\expndtw1\kerning0 Cumulative Annual = Monthly Indemnity With 3% COLA Rider, assuming 3% increase in CPI-U each year    \cf0\expndtw0\kerning2\i0 
+\par \expndtw1\kerning0 
+\par \cf1 Year     Monthly  \tab Monthly \tab Monthly with 3%       Cumulative 
+\par \tab without 3%\tab Buying Power   \tab COLA Rider\tab        Annual\tab 
+\par \tab COLA Rider
+\par     \cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0   1  \tab $1,000   \tab $1,000  \tab\tab $1,000  \tab\tab        \tab $9,000\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0   2  \tab $1,000   \tab $971  \tab\tab $1,030  \tab\tab\tab $21,360\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0   3  \tab $1,000   \tab $943  \tab\tab $1,061  \tab\tab\tab $34,091\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0   4  \tab $1,000   \tab $915  \tab\tab $1,093  \tab\tab\tab $47,204\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0   5  \tab $1,000   \tab $888  \tab\tab $1,126  \tab\tab\tab $60,710\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0 
+\par \cf1  6  \tab $1,000   \tab $863  \tab\tab $1,159  \tab\tab\tab $74,621\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  7  \tab $1,000   \tab $837  \tab\tab $1,194  \tab\tab\tab $88,950\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  8  \tab $1,000   \tab $813  \tab\tab $1,230  \tab\tab\tab $103,708\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  9  \tab $1,000   \tab $789  \tab\tab $1,267  \tab\tab\tab $118,909\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  10  \tab $1,000   \tab $766  \tab\tab $1,305  \tab\tab\tab $134,567\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0 
+\par \cf1  11  \tab $1,000   \tab $744  \tab\tab $1,344  \tab\tab\tab $150,694\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  12  \tab $1,000   \tab $722  \tab\tab $1,384  \tab\tab\tab $167,304\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  13  \tab $1,000   \tab $701  \tab\tab $1,426  \tab\tab\tab $184,413\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  14  \tab $1,000   \tab $681  \tab\tab $1,469  \tab\tab\tab $202,036\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  15  \tab $1,000   \tab $661  \tab\tab $1,513  \tab\tab\tab $220,187\cf0\expndtw0\kerning2 
+\par \expndtw2\kerning0 
+\par \cf1  16  \tab $1,000   \tab $642  \tab\tab $1,558  \tab\tab\tab $238,883\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  17  \tab $1,000   \tab $623 \tab\tab $1,605  \tab\tab\tab $258,139\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  18  \tab $1,000   \tab $605  \tab\tab $1,653  \tab\tab\tab $277,973\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  19  \tab $1,000  \tab  $587  \tab\tab $1,702  \tab\tab\tab $298,402\cf0\expndtw0\kerning2 
+\par \cf1\expndtw2\kerning0  20  \tab $1,000   \tab $570  \tab\tab $1,754  \tab\tab\tab $319,444\cf0\expndtw0\kerning2 
+\par \pard\lang1036\kerning0 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Cost of Living Adjustment Rider]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Cost of Living Adjustment Rider]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

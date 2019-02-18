@@ -1,0 +1,79 @@
+2016-12-22 15:13:45,234 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4cbe5a: startup date [Thu Dec 22 15:13:45 CET 2016]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2016-12-22 15:13:47,562 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-22 15:13:49,140 | INFO  | PListStore:[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2016-12-22 15:13:49,406 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-49848-1482416029234-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-22 15:13:49,499 | INFO  | Listening for connections at: tcp://POCAPP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-22 15:13:49,499 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-22 15:13:49,515 | INFO  | Listening for connections at: amqp://POCAPP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-22 15:13:49,515 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-22 15:13:49,546 | INFO  | Listening for connections at: stomp://POCAPP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-22 15:13:49,546 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-22 15:13:49,546 | INFO  | Listening for connections at: mqtt://POCAPP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2016-12-22 15:13:49,562 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-22 15:13:49,843 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@12c83f2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2016-12-22 15:13:50,078 | INFO  | Listening for connections at ws://POCAPP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2016-12-22 15:13:50,078 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2016-12-22 15:13:50,093 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-49848-1482416029234-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-22 15:13:50,093 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-22 15:13:50,124 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb only has 97785 mb of usable space. - resetting to maximum available disk space: 97785 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2016-12-22 15:13:51,453 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | WrapperSimpleAppMain
+2016-12-22 15:13:51,750 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2016-12-22 15:13:51,765 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2016-12-22 15:13:51,937 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2016-12-22 15:13:52,687 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | WrapperSimpleAppMain
+2016-12-22 15:13:52,953 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | WrapperSimpleAppMain
+2017-01-09 11:19:05,726 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1897fca: startup date [Mon Jan 09 11:19:05 CET 2017]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2017-01-09 11:19:10,742 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-09 11:19:12,164 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-09 11:19:12,195 | INFO  | Recovering from the journal @1:503 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-09 11:19:15,633 | INFO  | Recovery replayed 29489 operations from the journal in 3.469 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-09 11:19:15,679 | INFO  | PListStore:[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2017-01-09 11:19:15,883 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-51160-1483957155726-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-09 11:19:15,946 | INFO  | Listening for connections at: tcp://POCAPP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-09 11:19:15,946 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-09 11:19:15,946 | INFO  | Listening for connections at: amqp://POCAPP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-09 11:19:15,946 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-09 11:19:15,976 | INFO  | Listening for connections at: stomp://POCAPP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-09 11:19:15,976 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-09 11:19:15,992 | INFO  | Listening for connections at: mqtt://POCAPP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-09 11:19:15,992 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-09 11:19:16,320 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@a9cb5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2017-01-09 11:19:16,836 | INFO  | Listening for connections at ws://POCAPP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2017-01-09 11:19:16,836 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-09 11:19:16,836 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-51160-1483957155726-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-09 11:19:16,883 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-09 11:19:16,883 | WARN  | Store limit is 102400 mb (current store usage is 3 mb). The data directory: D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb only has 72715 mb of usable space. - resetting to maximum available disk space: 72715 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-09 11:19:18,742 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | WrapperSimpleAppMain
+2017-01-09 11:19:19,133 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2017-01-09 11:19:19,133 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2017-01-09 11:19:19,289 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2017-01-09 11:19:21,086 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | WrapperSimpleAppMain
+2017-01-09 11:19:21,461 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | WrapperSimpleAppMain
+2017-01-16 10:56:09,461 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1bee87e: startup date [Mon Jan 16 10:56:09 CET 2017]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2017-01-16 10:56:12,805 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:20,196 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-16 10:56:20,290 | INFO  | Recovering from the journal @1:3510169 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-16 10:56:22,759 | INFO  | Recovery replayed 2290 operations from the journal in 2.532 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2017-01-16 10:56:22,805 | INFO  | PListStore:[D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2017-01-16 10:56:23,165 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-62476-1484560582915-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:23,274 | INFO  | Listening for connections at: tcp://POCAPP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-16 10:56:23,274 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-16 10:56:23,290 | INFO  | Listening for connections at: amqp://POCAPP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-16 10:56:23,305 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-16 10:56:23,337 | INFO  | Listening for connections at: stomp://POCAPP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-16 10:56:23,352 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-16 10:56:23,368 | INFO  | Listening for connections at: mqtt://POCAPP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2017-01-16 10:56:23,384 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-16 10:56:23,821 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1bf2eb4{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2017-01-16 10:56:24,446 | INFO  | Listening for connections at ws://POCAPP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2017-01-16 10:56:24,462 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2017-01-16 10:56:24,462 | INFO  | Apache ActiveMQ 5.14.2 (localhost, ID:POCAPP-62476-1484560582915-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:24,477 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:24,493 | WARN  | Store limit is 102400 mb (current store usage is 3 mb). The data directory: D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data\kahadb only has 48443 mb of usable space. - resetting to maximum available disk space: 48443 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:24,509 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: D:\Acceptance\Wynsure57\WynsureResources\ActiveMQ\bin\win32\..\..\data only has 48440 mb of usable space. - resetting to maximum available disk space: 48440 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2017-01-16 10:56:26,462 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | WrapperSimpleAppMain
+2017-01-16 10:56:26,946 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2017-01-16 10:56:26,962 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2017-01-16 10:56:27,165 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
+2017-01-16 10:56:28,446 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | WrapperSimpleAppMain
+2017-01-16 10:56:28,774 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | WrapperSimpleAppMain

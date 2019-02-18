@@ -1,0 +1,148 @@
+{
+	"description":"This example have been captured by the interperter hook (aSF_OperationExecutionInterpreterHookAsJSON).",
+	"request":{
+		"self":null,
+		"policyId":{
+			"buid":"318842830_5",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			}
+		},
+		"atDate":"{{currentDate}}"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_PolicyBeneficiariesDescription",
+		"policy":{
+			"buid":"318842830_5",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"4800000501",
+				"issuingCompanyCode":"WIC"
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"4800000501",
+				"thirdPartyID":"AA"
+			}
+		},
+		"beneficiaries":[
+		],
+		"beneficiariesDescriptor":[
+			{
+				"className":"aSPLI_OptionBeneficiariesDescriptor",
+				"option":{
+					"className":"aSPCB_OfferedOption",
+					"name":"Whole Life Employee Coverage",
+					"entityDescription":"",
+					"code":"WL"
+				},
+				"beneficiaryDescriptor":{
+					"className":"aSPLI_BeneficiaryDescriptor",
+					"allowedBeneficiariesOptions":[
+						"Will or Estate",
+						"Identified Beneficiaries"
+					],
+					"allowedForDebtAssignment":[
+					]
+				},
+				"basedOn":{
+					"code":"",
+					"coverageName":""
+				},
+				"possibleProvisions":[
+				],
+				"personBeneficiaryParameterType":"aSPLI_US_PersonBeneficiary",
+				"legalEntityBeneficiaryParameterType":"aSPLI_US_LegalEntityBeneficiary"
+			},
+			{
+				"className":"aSPLI_OptionBeneficiariesDescriptor",
+				"option":{
+					"className":"aSPCB_OfferedOption",
+					"name":"Whole Life Spouse Coverage",
+					"entityDescription":"",
+					"code":"WLS"
+				},
+				"beneficiaryDescriptor":{
+					"className":"aSPLI_BeneficiaryDescriptor",
+					"allowedBeneficiariesOptions":[
+						"Will or Estate",
+						"Identified Beneficiaries"
+					],
+					"allowedForDebtAssignment":[
+					]
+				},
+				"basedOn":{
+					"code":"",
+					"coverageName":""
+				},
+				"possibleProvisions":[
+				],
+				"personBeneficiaryParameterType":"aSPLI_US_PersonBeneficiary",
+				"legalEntityBeneficiaryParameterType":"aSPLI_US_LegalEntityBeneficiary"
+			},
+			{
+				"className":"aSPLI_OptionBeneficiariesDescriptor",
+				"option":{
+					"className":"aSPCB_OfferedOption",
+					"name":"Accidental Death Rider",
+					"entityDescription":"",
+					"code":"ACD"
+				},
+				"beneficiaryDescriptor":{
+					"className":"aSPLI_BeneficiaryDescriptor",
+					"allowedBeneficiariesOptions":[
+						"Will or Estate",
+						"Identified Beneficiaries"
+					],
+					"allowedForDebtAssignment":[
+					]
+				},
+				"basedOn":{
+					"code":"",
+					"coverageName":""
+				},
+				"possibleProvisions":[
+				],
+				"personBeneficiaryParameterType":"aSPLI_US_PersonBeneficiary",
+				"legalEntityBeneficiaryParameterType":"aSPLI_US_LegalEntityBeneficiary"
+			},
+			{
+				"className":"aSPLI_OptionBeneficiariesDescriptor",
+				"option":{
+					"className":"aSPCB_OfferedOption",
+					"name":"Term Life Child Rider",
+					"entityDescription":"",
+					"code":"CR"
+				},
+				"beneficiaryDescriptor":{
+					"className":"aSPLI_BeneficiaryDescriptor",
+					"allowedBeneficiariesOptions":[
+						"Will or Estate",
+						"Identified Beneficiaries"
+					],
+					"allowedForDebtAssignment":[
+					]
+				},
+				"basedOn":{
+					"code":"",
+					"coverageName":""
+				},
+				"possibleProvisions":[
+				],
+				"personBeneficiaryParameterType":"aSPLI_US_PersonBeneficiary",
+				"legalEntityBeneficiaryParameterType":"aSPLI_US_LegalEntityBeneficiary"
+			}
+		]
+	},
+	"eval":null,
+	"className":"aSLI_Subscribe_LifePolicy",
+	"methodName":"GetBeneficiariesDescription",
+	"version":"5.8.2.0",
+	"date":"2018-08-07",
+	"errors":[
+	]
+}

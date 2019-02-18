@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>AA</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+            <Line1>27 AVENUE MOZART</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>24800</ZipCode>
+               <City>VAUNAC</City>
+            </ZipCodeAndCity>
+            <Country>FRA</Country>
+            <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+            <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+            <Recipient></Recipient>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>33331458547</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>33331458547</CellPhone>
+         <Fax>33331458547</Fax>
+         <eMail>rathsaschaudieres@free.com</eMail>
+         <MediaType>Courrier</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secr&#233;taire</Name>
+         <ContactName>Michel Petit</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur</Name>
+         <ContactName>Jacques Dupont</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Commercial</Name>
+         <ContactName>Laurent G&#233;rard</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur financier</Name>
+         <ContactName>Bernard Lef&#232;vre</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur de projet</Name>
+         <ContactName>Martin Mercier</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur g&#233;n&#233;ral</Name>
+         <ContactName>Roberta Fontaine</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Conseiller</Name>
+         <ContactName>Elizabeth Lambert</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>DRH</Name>
+         <ContactName>Fran&#231;ois Boyer</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Comptable</Name>
+         <ContactName>Jos&#233;phine Rousseau</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+      <Element>
+         <Name>Directeur technique</Name>
+         <ContactName>Garnier Legrand</ContactName>
+         <Correspondence>
+            <EffectiveDate>1800-01-01</EffectiveDate>
+            <AddressUsage>0</AddressUsage>
+            <Address xsi:type="ns_1:aSPCB_Fr_AfnorPostalAddress">
+               <Line1>27 AVENUE MOZART</Line1>
+               <Line2></Line2>
+               <ZipCodeAndCity>
+                  <ZipCode>24800</ZipCode>
+                  <City>VAUNAC</City>
+               </ZipCodeAndCity>
+               <Country>FRA</Country>
+               <DoorOrLetterbox_Floor_Staircase></DoorOrLetterbox_Floor_Staircase>
+               <SpecialMention_GeographicalCity></SpecialMention_GeographicalCity>
+               <Recipient></Recipient>
+            </Address>
+            <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+            <PrivatePhone>33331458547</PrivatePhone>
+            <PrivatePhoneExtension></PrivatePhoneExtension>
+            <OfficePhone></OfficePhone>
+            <OfficePhoneExtension></OfficePhoneExtension>
+            <CellPhone>33331458547</CellPhone>
+            <Fax>33331458547</Fax>
+            <eMail>rathsaschaudieres@free.com</eMail>
+            <MediaType>Courrier</MediaType>
+         </Correspondence>
+         <Role></Role>
+         <CorrespondenceChoice>predefined</CorrespondenceChoice>
+         <MediaType>Courrier</MediaType>
+         <IsDeaultContact>false</IsDeaultContact>
+      </Element>
+   </ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>rathsaschaudieres@free.com</Name>
+                  <Password></Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>rathsaschaudieres@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Administrateur collectif</Name>
+                     <Code>WAC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Client Personne Morale</Name>
+                     <Code>WLEC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000113WEX</ExternalClientId>
+         <ThirdPartyID>AA</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <LegalEntityIdentity xsi:type="ns_1:aSPLI_Fr_LegalEntity">
+      <Name>RATH SAS CHAUDIERES</Name>
+      <ShortName>RAT</ShortName>
+      <CreationDate>2013-06-19</CreationDate>
+      <PreferredLanguageCode>Fr</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>3</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <MasterLegalEntity>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>FRA</Country>
+      <State></State>
+      <IndustrialClassification>
+         <ClassificationSystem></ClassificationSystem>
+         <Code></Code>
+      </IndustrialClassification>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>CCN</FieldCode>
+            <FieldName>Convention Collective Nationale</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NA</ValueCode>
+            <FieldValue>Non d&#233;finie</FieldValue>
+            <NameDescription>Non d&#233;finie</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <TotalNumberOfEmployees>0</TotalNumberOfEmployees>
+      <SIRET>78912456700015</SIRET>
+   </LegalEntityIdentity>
+   <EmployeeInformations></EmployeeInformations>
+   <AffiliateLegalEntity></AffiliateLegalEntity>
+</_Result>

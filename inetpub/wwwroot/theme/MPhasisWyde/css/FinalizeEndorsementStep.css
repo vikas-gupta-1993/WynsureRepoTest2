@@ -1,0 +1,100 @@
+
+#Changes{	
+	color: #0B559B;
+}
+
+#Changes li {	
+	list-style-type: none;
+}
+#Changes li dl{	
+	margin-bottom: 4px;
+	margin-top: 0px;
+}
+
+#Changes ul{	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+#Changes li.changed:before {	    
+    content:url(../images/PolicyEndorsement/modified.png);	
+	margin-right : 3px;
+	margin-top : 1px;
+	float: left;
+}
+
+#Changes li.added:before {	    
+    content:url(../images/PolicyEndorsement/added.png);	
+	margin-right : 3px;
+	float: left;
+}
+
+#Changes li.deleted:before {	    
+    content:url(../images/PolicyEndorsement/deleted.png);	
+	margin-right : 3px;
+	float: left;
+}
+#Changes .before-change{
+	color : green;	
+}
+
+#Changes .after-change{
+	color : green;
+}
+
+#Changes dt.var-change{
+	float : left;
+	margin-right : 10px;
+}
+
+#DisplayPremiumBeforeWrapper{
+
+	margin-bottom: 0px;
+}
+
+#DisplayPremiumBeforeWrapper .modal-body{
+	background: #FFEBCD;
+}
+
+#DisplayPremiumAfterWrapper .modal-body{
+	background: #E5EECC;
+}
+
+#Premium p{
+	color: green;	
+    font: 17px "Trebuchet MS", sans-serif;
+	text-align : center;
+	margin-top: 12px;	
+}
+#Premium h4{
+	text-align : center;	
+}
+#DisplayDocumentsWrapper{
+	float : left;
+}
+
+.arrowBeforeAfter {
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+#Premium .panel{
+	border: 1px solid #E3E3E3;
+}
+
+#Premium .panel .modal-body{
+	padding: 10px 0px 14px 0px;
+	overflow: hidden;
+	height: 70px;
+}
+
+#Premium .panel .modal-header h4{
+	font-size: 1.1em;
+}
+
+#illustration{
+	margin-top: 20px;
+}
+
+.premiumAfter{
+	margin-bottom: 10px;
+}

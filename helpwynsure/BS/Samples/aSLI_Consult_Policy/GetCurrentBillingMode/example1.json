@@ -1,0 +1,25 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"{{contractBUID}}"
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_GetBillingMode_Out",
+		"buid":"318838509_14",
+		"name":"Mensuel (SEPA)",
+		"frequency":"fMonthly"
+	},
+	"eval":{
+		"buid":true,
+		"frequency":{
+			"matchRegex":"fMonthly"
+		}
+	},
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetCurrentBillingMode",
+	"version":"5.8.2.0",
+	"date":"2018-08-01",
+	"errors":[
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21",
+		"maxSize":10
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetContractEndorsements",
+	"version":"5.7.3.0",
+	"duration":24,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

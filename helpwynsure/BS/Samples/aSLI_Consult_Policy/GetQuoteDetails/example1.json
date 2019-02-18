@@ -1,0 +1,18 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318851264_21"
+	},
+	"response":null,
+	"className":"aSLI_Consult_Policy",
+	"methodName":"GetQuoteDetails",
+	"version":"5.7.3.0",
+	"duration":5,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

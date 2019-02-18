@@ -1,0 +1,51 @@
+{
+	"description":"",
+	"request":{
+		
+		"disbursementID":{
+			"disbursementFunctionalIdentifier":"2",
+			"buid":""
+		},
+		"reissueInfo":{
+			"byManualProcess":false,
+			"sentDate":"1900-01-01",
+			"disbursementNumber":""
+		}
+	},
+	"response":{
+		"className":"aSPLI_GetDisbursement_Out",
+		"paramEntity":{
+			"className":"aSPCB_Disbursement",
+			"sentDate":"2017-10-27",
+			"statementEffectiveDate":null,
+			"cashedDate":null,
+			"operation":"323",
+			"amount":{
+				"amount":500,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":"2017-10-27"
+		},
+		"statement":"Statement #: 0000000020   Disbursed Amount: $500.00   Effective Date: 10\/27\/2017   (Due Date: 10\/27\/2017)",
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"2"
+			},
+			"buid":"318836550_2"
+		},
+		"actorAsAccountOwner":"Steve Baran 3723 Copperhead Road, Hartford, CT 06103",
+		"actorAsBeneficiary":"Steve Baran 3723 Copperhead Road, Hartford, CT 06103",
+		"channel":"Manual Check",
+		"buid":"318836550_2"
+	},
+	"className":"aSLI_manage_accounting",
+	"methodName":"ReIssueDisbursement",
+	"version":"5.7.3.0",
+	"date":"2017-10-27",
+	"errors":[
+	]
+}

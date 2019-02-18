@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ub5A0hWlEeeio-VrOvxbwA" comment="connectionComment" label="connectionLabel" dataPackage="_ub5A0xWlEeeio-VrOvxbwA"/>
+  <TalendMetadata:GenericPackage xmi:id="_ub5A0xWlEeeio-VrOvxbwA" dataManager="_ub5A0hWlEeeio-VrOvxbwA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ub5A1BWlEeeio-VrOvxbwA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ub5A1RWlEeeio-VrOvxbwA" name="rubrique" id="1305" label="rubrique" length="3" talendType="id_Integer">
+        <initialValue xmi:id="_ub5A1hWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ub5A1xWlEeeio-VrOvxbwA" name="value" id="1306" label="value" talendType="id_String">
+        <initialValue xmi:id="_ub5A2BWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ub5A2RWlEeeio-VrOvxbwA" name="compagnyID" id="1307" label="compagnyID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_ub5A2hWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ub5A2xWlEeeio-VrOvxbwA" name="establishmentID" id="1308" label="establishmentID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_ub5A3BWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ub5A3RWlEeeio-VrOvxbwA" name="gbpID" id="1309" label="gbpID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_ub5A3hWlEeeio-VrOvxbwA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

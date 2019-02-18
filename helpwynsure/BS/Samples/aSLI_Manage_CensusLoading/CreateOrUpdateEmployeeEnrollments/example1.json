@@ -1,0 +1,241 @@
+{
+	"description": "",
+	"request": {
+		"input": {
+			"$ref": "#",
+			"className": "aSPLI_CreateOrUpdateEnrollment_In",
+			"enrollmentNumber": {
+				"buid": "",
+				"internalPolicyIdentifier": {
+					"internalPolicyId": "",
+					"issuingCompanyCode": ""
+				},
+				"externalPolicyIdentifier": {
+					"externalPolicyId": "",
+					"thirdPartyID": ""
+				}
+			},
+			"enrollmentInformation": {
+				"$ref": "#",
+				"className": "aSPLI_MemberContract",
+				"creationDate": "{{CurrentDate}}",
+				"effectiveDate": "{{CurrentDate}}",
+				"subscriptionDate": "{{CurrentDate}}",
+				"signatureDate": "{{CurrentDate}}",
+				"termOrRenewalDate": null,
+				"lastRenewalDate": null,
+				"reinstatementDate": null,
+				"terminationDate": null,
+				"terminationReason": "",
+				"terminationNumber": 0,
+				"billingMode": "cNextPeriod",
+				"endorsementKind": "",
+				"status": "cActive",
+				"externalManagement": false,
+				"claimExternalManagement": false,
+				"residenceStateCode": {
+					"stateName": "AL",
+					"stateCode": "AL",
+					"stateLabel": "Owner Residence State"
+				},
+				"additionalDatas": [
+					{
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "MC",
+						"fieldName": "Member Class",
+						"codeForPopulationClass": "",
+						"valueCode": "EX",
+						"fieldValue": "Executive",
+						"nameDescription": "Executive"
+					}
+				],
+				"gBPNumber": {
+					"buid": "{{mps_GBP_BUID}}",
+					"internalPolicyIdentifier": {
+						"internalPolicyId": "",
+						"issuingCompanyCode": ""
+					},
+					"externalPolicyIdentifier": {
+						"externalPolicyId": "",
+						"thirdPartyID": "AA"
+					}
+				},
+				"memberClassCode": ""
+			},
+			"updateDate": "{{CurrentDate}}",
+			"subscribedEntities": [
+				{
+					"$ref": "#",
+					"className": "aSPLI_CreateOrUpdateSubscribedProduct_In",
+					"productCode": {
+						"buid": "",
+						"productIdentifier": {
+							"issuingCompanyCode": "WIC",
+							"productCode": "{{productCode}}"
+						}
+					},
+					"productInfo": {
+						"$ref": "#",
+						"className": "aSPLI_SubscribedProduct",
+						"creationDate": "{{CurrentDate}}",
+						"effectiveDate": "{{CurrentDate}}",
+						"subscriptionDate": "{{CurrentDate}}",
+						"signatureDate": "{{CurrentDate}}",
+						"termOrRenewalDate": null,
+						"lastRenewalDate": null,
+						"reinstatementDate": null,
+						"terminationDate": null,
+						"terminationReason": "",
+						"terminationNumber": 0,
+						"billingMode": "cNextPeriod",
+						"endorsementKind": "",
+						"status": "cActive",
+						"productCode": {
+							"buid": "",
+							"productIdentifier": {
+								"issuingCompanyCode": "WIC",
+								"productCode": "{{productCode}}"
+							}
+						},
+						"additionalDatas": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "JC",
+								"fieldName": "Job Classification",
+								"codeForPopulationClass": "",
+								"valueCode": "MS",
+								"fieldValue": "Monthly Salaried",
+								"nameDescription": "Monthly Salaried"
+							}
+						]
+					},
+					"coverages": [
+						{
+							"$ref": "#",
+							"className": "aSPLI_CreateOrUpdateIndividualLifeCoverage_In",
+							"coverageGeneralInformation": {
+								"$ref": "#",
+								"className": "aSPLI_IndividualLifeCoverage",
+								"creationDate": "{{CurrentDate}}",
+								"subscribedPackage": "",
+								"optionCode": "{{v_coverageCode}}",
+								"optionName": "{{v_coverageName}}",
+								"effectiveDate": "{{cov_InitialEffectiveDate}}",
+								"subscriptionDate": "{{CurrentDate}}",
+								"terminationDate": null,
+								"terminationReason": "",
+								"terminationNumber": 0,
+								"billingServiceName": "",
+								"status": "cActive",
+								"additionalDatas": [
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "PlanDesign",
+										"fieldName": "Plan Design",
+										"codeForPopulationClass": "",
+										"valueCode": "P1",
+										"fieldValue": "Plan 1",
+										"nameDescription": "Plan 1"
+									}
+								],
+								"grandFathered": false
+							},
+							"insuredPersons": [
+								{
+									"className": "aSPLI_CreateOrUpdateCoveredPerson_In",
+									"coveredPerson": {
+										"className": "aSPLI_GetPerson",
+										"searchPerson": {
+											"internalClientId": "",
+											"externalClientIdentifier": {
+												"externalClientId": "",
+												"thirdPartyID": ""
+											},
+											"buid": "{{personBUID}}"
+										}
+									},
+									"details": {
+										"className": "aSPLI_CoveredPerson",
+										"relationship_Deprecated": "cCoveredSubscriber",
+										"effectiveDate": "{{cov_InitialEffectiveDate}}",
+										"additionalDatas": [
+										]
+									},
+									"relationToOwners": [
+									]
+								}
+							],
+							"beneficiaries": [
+							],
+							"coverageAmount": {
+								"className": "aSPLI_CoverageAmountVersion",
+								"effectiveDate": "{{cov_InitialEffectiveDate}}",
+								"amount": {
+									"amount": "{{coverageAmount}}",
+									"currency": "USD"
+								}
+							},
+							"underwrittingData": [
+							]
+						}
+					]
+				}
+			],
+			"employeeIdentifier": {
+				"buid": "{{employeeBUID}}",
+				"employeeId": "",
+				"personId": {
+					"buid": "{{PersonBUID}}",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": ""
+					}
+				},
+				"legalEntityId": {
+					"buid": "{{LegalEntityBUID}}",
+					"internalClientId": "",
+					"externalClientIdentifier": {
+						"externalClientId": "",
+						"thirdPartyID": ""
+					}
+				}
+			}
+		}
+	},
+	"response": {
+		"error": {
+			"code": "CONFLICT",
+			"message": "",
+			"innererror": {
+				"className": "aSF_Exception",
+				"detailsFromException": {
+					"error": {
+						"errorCode": "SWF-F0005",
+						"errorKind": "bsErrCannotFind",
+						"errorMessage": "Unrecognized Value for Classification: "
+					}
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "aSLI_Manage_CensusLoading",
+	"methodName": "CreateOrUpdateEmployeeEnrollments",
+	"version": "5.8.2.2",
+	"date": "2018-12-21",
+	"errors": [
+		{
+			"code": "401E_BS_00001",
+			"message": "Given coverage amount cannot be used",
+			"kind": "Info",
+			"kindNumber": 4
+		},
+		{
+			"code": "59DA_BS_00015",
+			"message": "Error during the enrollment activation",
+			"kind": "Bad Value",
+			"kindNumber": 0
+		}
+	]
+}

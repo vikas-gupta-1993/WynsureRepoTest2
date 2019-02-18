@@ -1,0 +1,155 @@
+.Thread_ItemSelected  .breadcrumb {
+	margin-bottom: 0px;
+	background-color: transparent;
+	border: 1px solid #cccccc;
+}
+
+.Thread_ItemSelected  .breadcrumb {
+	text-shadow:none;
+}
+
+#PageContent .itemContent{
+	margin-left: 0px;
+	padding: 15px;
+	border-left: 1px solid #dddddd;
+	padding: 10px;
+}
+
+.dropdownField > ul,
+.dropdownField > ul > li,
+.itemsBar .nav {
+	width: 100%;
+} 
+
+.itemsBar>div.inputTab{
+	margin-bottom:0px;
+}
+ 
+.itemsLeftBarNewItemButtons .btn-success,
+.itemsLeftBarNewItemButtons .btn-danger{
+	width: 14px;
+	margin-right: 3px;
+}
+
+.itemsLeftBarItemButtons .btn-danger{
+	float:right;
+}
+
+.itemsLeftBarNewItemButtonsInner{
+	width: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.itemsBar .active a{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.itemsHeader .breadcrumb .active a{
+	font-weight: bold;
+	font-size: 20px;
+}
+.itemsHeader .breadcrumb .active a,
+.itemsBar .active a{
+	color: #004A70;
+}
+
+.itemsHeader .breadcrumb{
+	margin: 0 0 1px;
+	background-color: transparent;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px;
+}
+.itemsHeader .breadcrumb a{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+.itemsLeftBarOfferedItems .nav{
+	border-right: 1px solid #ddd;
+	margin-bottom: 0px;
+}
+
+.itemsBar .tabs-left > .nav-tabs {
+	left: 0px;
+	/*disabled because the button Add is hidden when there is 11 item add on the same level DL*/
+	/*max-height: 400px;*/
+}
+
+.itemHelper{
+	text-align: center;
+}
+
+.deleteBtn{
+	position: absolute;
+	right: 1px;
+	margin-top: 8px;
+	margin-right: 8px; 
+	display: none;
+	cursor: pointer;
+}
+
+body .itemContent .itemWillBeDeleted{
+	/*display must be none to avoid dismisson error on hidden fields*/
+	display: none;
+}
+#itemsDisplay .nav-tabs .itemIsToDelete>a,
+.deleteBtn i.icon-remove{
+	color: #bd362f;	
+}
+
+#itemsDisplay .nav-tabs .itemIsToDelete>a{
+	pointer-events: none;
+}
+.nav-tabs > li.itemIsToDelete{
+	background-color : rgba(228, 145, 81, 0.09);
+	text-decoration: line-through;
+	cursor: not-allowed;
+}
+.deleteBtn i.icon-plus{
+	color: #468847;
+}
+
+.itemsBar ul li:hover .deleteBtn{
+	display: inherit;
+}
+
+.tabItemField{
+	/*when item without name given,the field must use a min height, otherwise, the empty field will be too small*/
+	min-height: 38px
+}
+
+.itemContent .alert-block {
+	padding: 8px 35px 8px 14px;
+}
+
+#itemsDisplay .inputTab{
+	margin-bottom: 0px;
+}
+
+#itemsDisplay .icon-folder-open-alt{
+	float: left;
+	margin-top: 3px;
+	margin-left: 22px;
+	color: #0088cc;
+	padding-right: 6px;
+}
+.itemHeader {
+	color: #0088cc;
+	vertical-align: middle;
+}
+#itemsDisplay .icon-plus{
+	margin-right: 4px;
+}
+
+#itemsDisplay .row-fluid .control-group {
+	margin-bottom: 0px;
+}
+
+#itemsDisplay .row-fluid .control-group label{
+	margin-bottom: 0px;
+}
+.itemsHeader .breadcrumb{
+	min-height: 24px;
+}

@@ -1,0 +1,26 @@
+.aPCB_FolderBankAccountFrPresenter label, .aPCB_FolderBankAccountUsPresenter label, .ItemTitle{
+	font-weight : bold;
+}
+
+.aPCB_FolderBankAccountFrPresenter  .ItemTitle, .aPCB_FolderBankAccountUsPresenter  .ItemTitle{
+	float : none;
+}
+
+dd{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	white-space : nowrap;
+}
+
+#PersonBankAccount .details{
+	padding-left : 26px;
+}
+
+
+
+
+
+
+
+
+ 

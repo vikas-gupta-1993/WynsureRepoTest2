@@ -1,0 +1,15 @@
+{
+	"description":"",
+	"request":{
+		"allowRollback":true
+	},
+	"response":982797404,
+	"className":"aSF_Manage_Transactions",
+	"methodName":"StartNewTransaction",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

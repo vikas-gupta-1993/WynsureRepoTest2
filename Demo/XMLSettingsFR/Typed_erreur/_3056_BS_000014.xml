@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWF_ErrorDesc><ErrorCode Id="1"><![CDATA[3056_BS_000014]]></ErrorCode><CodeDescription Id="2"><![CDATA[Ne peut pas trouver le contact sortant à partir de l'identificateur: ý:]]></CodeDescription><ErrorKind Id="3"><![CDATA[4]]></ErrorKind><Name Id="3"><![CDATA[3056_BS_000014]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835660]]></NSId><Id Id="2"><![CDATA[33]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_ErrorDesc></EntityExport>

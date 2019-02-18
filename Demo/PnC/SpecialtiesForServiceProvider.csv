@@ -1,0 +1,17 @@
+TYPE;CODE;NAME
+aWPnC_ExpertSpecialty;EXP01;Carrosserie
+aWPnC_ExpertSpecialty;EXP02;Moteur
+aWPnC_ExpertSpecialty;EXP03;Climatisation
+aWPnC_ExpertSpecialty;EXP04;Electro-mecanique
+aWPnC_ExpertSpecialty;EXP05;Degat des eaux
+aWPnC_ExpertSpecialty;EXP06;Serrure
+aWPnC_ExpertSpecialty;EXP07;Electricité
+aWPnC_ExpertSpecialty;EXP08;Fenetre
+aWPnC_GarageSpecialty;GAR01;Carrosserie
+aWPnC_GarageSpecialty;GAR02;Moteur
+aWPnC_GarageSpecialty;GAR03;Climatisation
+aWPnC_GarageSpecialty;GAR04;Electro-mecanique
+aWPnC_GarageSpecialty;GAR05;Remorquage
+aWPnC_GarageSpecialty;GAR06;Contrôle technique
+aWPnC_GarageSpecialty;GAR07;Pneumatique
+aWPnC_GarageSpecialty;GAR08;Lavage

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFBankHolidayContext><NonWorkingDays Id="1"><![CDATA[Sunday,Saturday]]></NonWorkingDays><FirstWorkingTime Id="15"><![CDATA[8:00:00]]></FirstWorkingTime><LastWorkingTime Id="16"><![CDATA[17:00:00]]></LastWorkingTime><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768607]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFBankHolidayContext></EntityExport>

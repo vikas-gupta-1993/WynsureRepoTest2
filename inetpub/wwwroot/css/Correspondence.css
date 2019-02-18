@@ -1,0 +1,57 @@
+/* Correspondence Display*/
+#NewAdress dl {
+  height : 38px;
+}
+
+#IsDefaultCorrespondenceWrapper{
+  float: left;	
+  width:100%;	
+}
+
+#aPCB_ListCorrespondenceManagerPresenter_HD .AddButton{
+  margin-top:-5px;	
+}
+
+#eMailWrapper {
+  float: left;
+  width: 48%;
+}
+
+#eMailWrapper input {
+  float: left;
+  width: 25em;
+}
+
+#eMailWrapper .error-wrapper, #StateWrapper{
+ 	float : left;
+}
+
+#NewAdress #PrivatePhoneExtensionWrapper {
+  width: 10em; 
+}
+
+#PrivatePhoneWrapper {
+	float: left;
+	width: 14em;
+}
+
+#PrivatePhoneExtensionWrapper {
+	float: left;
+	width: 20em;
+}
+#PrivatePhoneExtension{
+	width: 3em;
+}
+
+#PrivatePhoneExtensionWrapper dd {
+	margin: 0;
+	padding: 0;
+}
+
+.action {
+	clear: both;
+}
+
+.FirstColumn{
+	width: 200px;
+}

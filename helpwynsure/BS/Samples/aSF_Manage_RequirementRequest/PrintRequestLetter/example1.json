@@ -1,0 +1,34 @@
+{
+	"description":"",
+	"request":{
+		"requirementRequestIDs":[
+			{
+				"className":"aSPCB_GenericRequirementRequestIdentifier",
+				"requestId":"",
+				"bUID":"318845938_8",
+				"description":""
+			}
+		],
+		"containerID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318848488_8",
+			"description":""
+		},
+		"mustBeReceivedWithIn":{
+			"quantity":0,
+			"unit":"wfDay"
+		},
+		"trackingComment":"",
+		"mainRecipientForModification":{
+			"data":null,
+			"identifier":null
+		},
+		"copyRecipients":[
+		]
+	},
+	"response":true,
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"PrintRequestLetter",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

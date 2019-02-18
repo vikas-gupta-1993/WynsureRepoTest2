@@ -1,0 +1,102 @@
+{
+	"description":"Search by internal Client Id",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"{{personInternalClientID}}",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":""
+			},
+			"brokerBUID":"318836818_48",
+			"sSN":""
+		},
+		"maxSize":100
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetActorInfo_Out",
+			"buid":"318842869_1",
+			"paramEntity":{
+				"className":"aSPLI_Person",
+				"name":"Keane ",
+				"shortName":"Tina",
+				"creationDate":"2018-09-19",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"birthDate":"1976-01-13",
+				"personTitleEnum":"ptMrs",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gFemale",
+				"sSN":"718755744",
+				"maritalStatus":"cSingle",
+				"attachedToAnOtherSSN":false,
+				"nationality":"",
+				"birthRank":1,
+				"birthCountry":"",
+				"birthPlaceCity":"Baltimore",
+				"birthPlaceZipCode":"21212",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"buid":"",
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					}
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":"",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":"",
+						"valueCode":"Is VIP",
+						"fieldValue":"Is VIP",
+						"nameDescription":"Is VIP"
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"isIncapableAdult":false,
+				"isEmancipatedMinor":false
+			},
+			"distributionNetwork":"Front Office",
+			"actorId":"0000000001"
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Manage_Actors",
+	"methodName":"SearchCustomers",
+	"version":"5.8.2.1",
+	"date":"2018-09-20",
+	"errors":[
+	]
+}

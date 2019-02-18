@@ -1,0 +1,78 @@
+ .topbarnotif-item-header .ui-icon-message{
+ 	float:left;
+ 	display: block;
+    overflow: hidden;
+    margin-left:0em;
+    margin-right:1em;
+    width: 16px;
+	height: 16px;
+	margin-top: -0.1em;
+	opacity:0.6;
+	background-image: url(../theme/MPhasisWyde/images/ui-icons_000000_256x240.png);
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.topbarnotif .topbarnotif-aPF_TopbarMessagesTasksForm1 a.default-topbarnotif-icon {
+	background-image: url('./images/Topbar/Notification.png');
+}
+
+.opened-topbarnotif #aPF_TopbarMessagesTasksFormForm a.default-topbarnotif-icon{
+	background-image: url('./images/Topbar/NotificationRed.png');
+}
+
+.topbarnotif-aPF_TopbarMessagesTasksForm1{
+	margin-top : -2px;
+}
+
+.topbarnotif-aPF_TopbarMessagesTasksForm1-panel .topbarnotif-body .topbarnotif-item-header .topbarnotif-item-body,
+ .topbarnotif-aPF_TopbarMessagesTasksForm1-panel .topbarnotif-body .topbarnotif-item-header .topbarnotif-item-body-lastElement{
+ 	border-top: solid 1px #827D7B;
+ }
+.topbarnotif-item-header .ui-message-error{
+ 	background-color: #FFDBDF;
+ 	color:#633737;
+ }
+ .topbarnotif-item-header .ui-message-error:hover{
+ 	background-color: #ffbac2;
+ 	color:#633737;
+ }
+
+ .topbarnotif-item-header .ui-message-success{
+ 	background-color: #E2EACC;
+ 	color:#4d572e;
+ }
+ .topbarnotif-item-header .ui-message-success:hover{
+ 	background-color: #ddedaf;
+ 	color:#4d572e;
+ }
+
+ .topbarnotif-item-header .ui-message-information{
+ 	background-color: #E1EEF4;
+ 	color:#31718f;
+ }
+ .topbarnotif-item-header .ui-message-information:hover{
+ 	background-color: #D0E8F2;
+ 	color:#31718f;
+ }
+
+ .topbarnotif-item-header .ui-message-warning{
+ 	background-color: #F9EED9;
+ 	color:#6e4d22;
+ }
+ .topbarnotif-item-header .ui-message-warning:hover{
+ 	background-color: #F9D693;
+ 	color:#6e4d22;
+ } 
+
+ .topbarnotif-item-header .ui-message-tip{
+ 	background-color: #F7F2EA;
+ 	color:#573f18;
+ }
+ .topbarnotif-item-header .ui-message-tip:hover{
+ 	background-color: #F9E1BB;
+ 	color:#573f18;
+ }
+
+ .topbarnotif p{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}

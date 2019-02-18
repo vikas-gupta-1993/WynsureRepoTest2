@@ -1,0 +1,339 @@
+{
+	"data":{
+		"className":"aSPLI_FR_PersonData",
+		"bUID":"##72",
+		"dataHistory":[
+		],
+		"thirdPartyId":"CET",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1938-12-15",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"71000",
+						"city":"Dong Nai"
+					},
+					"country":"VIET NAM",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"LE QUYD DON",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"84-61) 3952478",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"84-61) 3952478",
+				"fax":"84-61) 3952478",
+				"eMail":"kwong.chong_@free.com",
+				"mediaType":"Courrier",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"BNP",
+				"effectiveDate":"2000-01-01",
+				"endDate":null,
+				"holderName":"CHONG ",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75002",
+						"city":"PARIS"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"23 BD DES ITALIENS",
+					"line2":""
+				},
+				"bankCode":"94338",
+				"officeCode":"26631",
+				"accountNumber":"33673369693",
+				"rIBKey":"74",
+				"iBAN":"FR7694338266313367336969374",
+				"bIC":"CEPAFRPP118"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Administrateur collectif",
+							"code":"WAC"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Cetelem (Distributeur) (Distribution directe) (Réseau de distribution)",
+						"unitCode":"CET"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"kwong.chong_@free.com",
+						"name":"kwong.chong_@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"kwong.chong_@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##72",
+						"description":"Kwong CHONG  LE QUYD DON, Dong Nai, 71000, VIET NAM"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"kwong.chong_@free.com",
+					"name":"kwong.chong_@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Kwong CHONG  LE QUYD DON, Dong Nai, 71000, VIET NAM",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000075WEX",
+							"thirdPartyID":"CET"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":{
+			"className":"aSPH_FR_PersonExtensionData",
+			"bUID":"",
+			"dataHistory":[
+			],
+			"actorDataExtension":{
+				"className":"aSPH_FR_PersonExtension",
+				"birthRank":1,
+				"thirdPartyPayerActivated":false
+			},
+			"actor":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Kwong CHONG  LE QUYD DON, Dong Nai, 71000, VIET NAM",
+				"internalClientId":"0000000073",
+				"externalClientId":{
+					"externalClientId":"0000000075WEX",
+					"thirdPartyID":"CET"
+				}
+			},
+			"personDataVersions":[
+				{
+					"className":"aSPH_FR_PersonExtensionVersionData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"personDataVersion":{
+						"className":"aSPH_FR_PersonExtensionVersion",
+						"effectiveDate":"1800-01-01",
+						"code":"01711000",
+						"socialSchemeCode":"01",
+						"registeredDeskCode":"711",
+						"centerCode":"000",
+						"cTICode":"010",
+						"addressee":"711",
+						"state":"71",
+						"attachedToPerson":false,
+						"alsaceMoselle":false,
+						"noemieActivated":false
+					},
+					"attachedToPersonDataExtensions":[
+					],
+					"preferredAttachedToPersonDataExtension":null
+				}
+			]
+		},
+		"externalClientId":"0000000075WEX",
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"E",
+						"fieldValue":"Assurance de prêt",
+						"nameDescription":"Assurance de prêt"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"TI",
+						"fieldValue":"Assurance voyage",
+						"nameDescription":"Assurance voyage"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"CV",
+						"fieldValue":"Epargne",
+						"nameDescription":"Epargne"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"PC",
+						"fieldValue":"IARD",
+						"nameDescription":"IARD"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"D",
+						"fieldValue":"Prévoyance",
+						"nameDescription":"Prévoyance"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"S",
+						"fieldValue":"Santé",
+						"nameDescription":"Santé"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"L",
+						"fieldValue":"Vie",
+						"nameDescription":"Vie"
+					}
+				],
+				"channelType":"aWF_SEPACreditTransfer_DisbursementChannel",
+				"actorPaymentMethodName":"BNP"
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"actor":{
+			"className":"aSPLI_Fr_Person",
+			"name":"CHONG ",
+			"shortName":"Kwong",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1938-12-15",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"Dong Nai",
+			"birthPlaceZipCode":"71000",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Employé interne",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"N'est pas employé interne",
+					"nameDescription":"N'est pas employé interne"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"N'est pas VIP",
+					"fieldValue":"N'est pas VIP",
+					"nameDescription":"N'est pas VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false,
+			"sSN":"138128525382880",
+			"maritalStatus":"cMarried",
+			"regime":"01",
+			"caisse":"711"
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Kwong CHONG  LE QUYD DON, Dong Nai, 71000, VIET NAM",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000075WEX",
+			"thirdPartyID":"CET"
+		}
+	}
+}

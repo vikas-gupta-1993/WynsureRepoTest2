@@ -1,0 +1,36 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"{{contractBUID}}",
+		"effectiveDate":"{{currentDate}}"
+	},
+	"response":[
+		{
+			"bUID":"318841135_1",
+			"name":"First Payment",
+			"code":"FP",
+			"reqType":"cPayment",
+			"documentDescType":"wdtFinancial",
+			"documentDescDomain":[
+				"Policy Administration"
+			]
+		},
+		{
+			"bUID":"318839006_9",
+			"name":"Signed Application",
+			"code":"SA",
+			"reqType":"cDocument",
+			"documentDescType":"wdtOther",
+			"documentDescDomain":[
+				"Policy Administration"
+			]
+		}
+	],
+	"eval":null,
+	"className":"aSLI_Endorse_Policy",
+	"methodName":"GetRequestDocumentsForBillingEndorsement",
+	"version":"5.8.2.0",
+	"date":"2018-08-10",
+	"errors":[
+	]
+}

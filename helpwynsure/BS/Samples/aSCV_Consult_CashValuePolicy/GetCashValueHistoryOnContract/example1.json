@@ -1,0 +1,26 @@
+{
+	"description":"",
+	"request":{
+		
+		"contractId":{
+			"buid":"{{cashValueContractBUID}}",
+			"internalPolicyIdentifier":{
+				"internalPolicyId":"",
+				"issuingCompanyCode":""
+			},
+			"externalPolicyIdentifier":{
+				"externalPolicyId":"",
+				"thirdPartyID":""
+			}
+		},
+		"atDate":"{{currentDate}}"
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSCV_Consult_CashValuePolicy",
+	"methodName":"GetCashValueHistoryOnContract",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

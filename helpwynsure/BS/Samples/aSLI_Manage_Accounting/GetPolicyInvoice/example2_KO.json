@@ -1,0 +1,34 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"input":{
+			"statementIdentifier":{
+				"issuingCompanyCode":"",
+				"name":""
+			},
+			"buid":"318838395_3"
+		}
+	},
+	"response":null,
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetPolicyInvoice",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+		{
+			"code":"786B_BS_00002",
+			"message":"Business Object is not a descendant of aWFStatement",
+			"kind":"errInfo",
+			"kindNumber":4
+		},
+		{
+			"code":"75D9_BS_00003",
+			"message":"BS_00003",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

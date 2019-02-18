@@ -1,0 +1,61 @@
+{
+	"description":"",
+	"request":{
+		"contractBuid":"318842086_1"
+	},
+	"response":[
+		{
+			"description":"Consolidated Billing",
+			"nextDueDateOrACH":"2017-11-13",
+			"lastPaymentDate":null,
+			"lastBillPaymentStatus":"",
+			"paidToDate":"01\/09\/2017",
+			"payorId":{
+				"internalClientId":"0000000100",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":"DistRoot"
+				},
+				"buid":"318842273_25"
+			},
+			"payorName":"ABC Timber Lmt",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"frequency":"Monthly",
+			"billingMode":"Payroll Deduction",
+			"billedOfferedOptions":[
+				"Whole Life Employee Coverage",
+				"Whole Life Spouse Coverage",
+				"Accidental Death Rider",
+				"Term Life Child Rider",
+				"Disability Waiver of Premium Rider",
+				"Whole Life Employee Coverage",
+				"Whole Life Spouse Coverage",
+				"Accidental Death Rider",
+				"Term Life Child Rider",
+				"Disability Waiver of Premium Rider"
+			],
+			"coveredDivisions":[
+				"ABC Timber Lmt",
+				"As Good as Grass"
+			],
+			"coveredMemberClassifications":[
+				"Executive",
+				"Non executive"
+			]
+		}
+	],
+	"className":"aSLI_Consult_Group",
+	"methodName":"GetContractAccountingDetails",
+	"version":"5.7.3.0",
+	"duration":1397,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

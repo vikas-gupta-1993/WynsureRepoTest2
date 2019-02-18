@@ -1,0 +1,26 @@
+div#NavigationPathWrapper {
+  float: left;
+  margin-top: 50px;
+  width: 834px;
+  height: 40px;
+  font-size: 1.2em;
+}
+
+/**********************************/
+/**** Navigation ******************/
+/**********************************/
+div#NavigationPath,
+div#NavigationPath a:active,
+div#NavigationPath a:visited,
+div#NavigationPath a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+div#NavigationPath a {
+  cursor: pointer;
+}
+div#NavigationPath a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+	cursor: pointer;
+}

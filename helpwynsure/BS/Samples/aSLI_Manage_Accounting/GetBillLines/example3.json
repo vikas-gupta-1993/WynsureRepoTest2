@@ -1,0 +1,43 @@
+{
+	"description":"",
+	"request":{
+		"billBuid":"318843379_22"
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetBillLineInfo_Out",
+			"whoIsBilled":"Elaine Austin",
+			"amount":{
+				"amount":100000,
+				"currency":"cUSDollar"
+			},
+			"amountHT":{
+				"amount":100000,
+				"currency":"cUSDollar"
+			},
+			"billedEntityName":"Immediate Annuity",
+			"fromDate":"2017-07-24",
+			"toDate":"2017-07-24",
+			"lineKind":"cFee",
+			"comment":"\r\n",
+			"shortComment":"",
+			"adjustment":false,
+			"waivedAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"waivedAmountHT":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"dayPrice":100000,
+			"dayPriceHT":100000,
+			"status":"cFullyReconciled",
+			"buid":""
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"GetBillLines",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

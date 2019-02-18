@@ -1,0 +1,14 @@
+MemberId;GBPId;OptionId;CoverageAmount;Classifications;EffectiveDate;BillingInfo;CoveredPerson1_Name;CoveredPerson1_SSN;CoveredPerson1_BirthDate;CoveredPerson1_Classification;CoveredPerson1_EffectiveDate;CoveredPerson1_EndDate;CoveredPerson2_Name;CoveredPerson2_SSN;CoveredPerson2_BirthDate;CoveredPerson2_Classification;CoveredPerson2_EffectiveDate;CoveredPerson2_EndDate;CoveredPerson3_Name;CoveredPerson3_SSN;CoveredPerson3_BirthDate;CoveredPerson3_Classification;CoveredPerson3_EffectiveDate;CoveredPerson3_EndDate;CoveredPerson4_Name;CoveredPerson4_SSN;CoveredPerson4_BirthDate;CoveredPerson4_Classification;CoveredPerson4_EffectiveDate;CoveredPerson4_EndDate;CoveredPerson5_Name;CoveredPerson5_SSN;CoveredPerson5_BirthDate;CoveredPerson5_Classification;CoveredPerson5_EffectiveDate;CoveredPerson5_EndDate;CoveredPerson6_Name;CoveredPerson6_SSN;CoveredPerson6_BirthDate;CoveredPerson6_Classification;CoveredPerson6_EffectiveDate;CoveredPerson6_EndDate;CoveredPerson7_Name;CoveredPerson7_SSN;CoveredPerson7_BirthDate;CoveredPerson7_Classification;CoveredPerson7_EffectiveDate;CoveredPerson7_EndDate;CoveredPerson8_Name;CoveredPerson8_SSN;CoveredPerson8_BirthDate;CoveredPerson8_Classification;CoveredPerson8_EffectiveDate;CoveredPerson8_EndDate;CoveredPerson9_Name;CoveredPerson9_SSN;CoveredPerson9_BirthDate;CoveredPerson9_Classification;CoveredPerson9_EffectiveDate;CoveredPerson9_EndDate;CoveredPerson10_Name;CoveredPerson10_SSN;CoveredPerson10_BirthDate;CoveredPerson10_Classification;CoveredPerson10_EffectiveDate;CoveredPerson10_EndDate
+7736F7;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+7736F7;0000000005;Short term disability Group;200000;;06292007;info billing;;;;;
+7736F7;0000000005;Waiver of premium;200000;;06292007;info billing;;;;;
+8825K1;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+8825K1;0000000005;Short term disability Group;200000;;06292007;info billing;;;;;
+098JJ7;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+098JJ7;0000000005;Short term disability Group;200000;;06292007;info billing;;;;;
+09DD82;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+09DD82;0000000005;Short term disability Group;200000;;06292007;info billing;;;;;
+3126621;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+3126621;0000000005;Waiver of premium;200000;;06292007;info billing;;;;;
+JJ88D2;0000000005;Long term disability Group;200000;;06292007;info billing;;;;;
+JJ88D2;0000000005;Short term disability Group;200000;;06292007;info billing;;;;;

@@ -1,0 +1,19 @@
+{
+	"description":"",
+	"request":{
+		"invoiceID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318838395_3",
+			"description":"0000000008"
+		}
+	},
+	"response":{
+		"_Result":true
+	},
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"CancelInvoice",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+	]
+}

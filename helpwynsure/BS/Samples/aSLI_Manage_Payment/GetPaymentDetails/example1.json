@@ -1,0 +1,53 @@
+{
+	"description":"",
+	"request":{
+		"paymentBuid":"318835563_16"
+	},
+	"response":{
+		"className":"aSPLI_GetPayment_Out",
+		"paramEntity":{
+			"className":"aSPCB_Payment",
+			"receivedDate":"2017-07-28",
+			"bankInformation":{
+				"receivedDate":"2017-07-28",
+				"canceledDate":null,
+				"canceledReason":""
+			},
+			"paymentStatus":"cpsAssigned",
+			"operation":"By batch",
+			"amount":{
+				"amount":100000,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":null
+		},
+		"targets":[
+			{
+				"className":"aSPCB_PaymentTarget",
+				"amount":{
+					"amount":100000,
+					"currency":"cUSDollar"
+				},
+				"target":"Invoice #: 0000000017   Amount: $100,000.00   Effective Date: 07\/24\/2017   (Due Date: 07\/28\/2017)"
+			}
+		],
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"16"
+			},
+			"buid":"318835563_16"
+		},
+		"actorAsAccountOwner":"Stephen Palmer 9820 Russett Wood Cir, Milwaukee, WI 53204",
+		"actorAsBeneficiary":"",
+		"channel":"Generic Wholesale LockBox",
+		"buid":"318835563_16"
+	},
+	"className":"aSLI_Manage_Payment",
+	"methodName":"GetPaymentDetails",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

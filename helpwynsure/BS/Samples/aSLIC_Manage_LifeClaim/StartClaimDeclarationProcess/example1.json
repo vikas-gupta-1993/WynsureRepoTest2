@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":{
+		"className":"aSPLIC_IndividualClaimDeclarationProcessData",
+		"processEntity":{
+			"className":"aSPLIC_IndividualClaimDeclarationProcess",
+			"circumstances":"",
+			"declarationChannel":"mMail",
+			"declarationDate":null,
+			"eventDate":null,
+			"startedFromCustomer":false,
+			"currentStepNb":0
+		},
+		"declaredLoss":null,
+		"lossEvent":null,
+		"lossReason":null,
+		"existingClaim":{
+			"data":null,
+			"identifier":null
+		},
+		"bUID":"318848665_6",
+		"dataHistory":[
+		]
+	},
+	"className":"aSLIC_Manage_LifeClaim",
+	"methodName":"StartClaimDeclarationProcess",
+	"version":"5.7.3.0",
+	"duration":2839,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+	}
+}

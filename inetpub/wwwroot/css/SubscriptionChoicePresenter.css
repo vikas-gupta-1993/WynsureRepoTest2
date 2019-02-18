@@ -1,0 +1,14 @@
+.choiceDateLabel{
+	margin-left: 20px;
+	display: block;
+}
+.policyChoice .field-wrapper{
+	width: 20px;
+	display: inline-block;
+	margin-bottom: 0px;
+}
+body .policyChoice .checkbox{
+	padding-left: 0px;
+	padding-top: 0px;
+
+}

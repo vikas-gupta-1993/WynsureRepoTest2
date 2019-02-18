@@ -1,0 +1,45 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"disbursementBuid":"318837071_2"
+	},
+	"response":{
+		"className":"aSPLI_GetDisbursement_Out",
+		"paramEntity":{
+			"className":"aSPCB_Disbursement",
+			"sentDate":"2017-11-23",
+			"statementEffectiveDate":null,
+			"cashedDate":null,
+			"operation":"(wf-tmp)\\W Insurance Company_Check 11_23_2017 11h_28mn_08s\/1",
+			"amount":{
+				"amount":89.77,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":null
+		},
+		"statement":"Statement #: 0000000003   Disbursed Amount: $89.77   Effective Date: 11\/23\/2017   (Due Date: 11\/23\/2017)",
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"2"
+			},
+			"buid":"318837071_2"
+		},
+		"actorAsAccountOwner":"nilesh (nilesh)",
+		"actorAsBeneficiary":"nilesh (nilesh)",
+		"channel":"Check",
+		"buid":"318837071_2"
+	},
+	"className":"asli_manage_accounting",
+	"methodName":"GetDisbursementDetails",
+	"version":"5.7.3.0",
+	"date":"2017-11-23",
+	"errors":[
+	]
+}

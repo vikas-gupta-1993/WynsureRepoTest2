@@ -1,0 +1,33 @@
+{
+	"description":"",
+	"request":{
+		
+		"criteria":{
+			"className":"aSPCB_SerchProfiles_In",
+			"name":"Profile 1",
+			"code":"PRF1376064511",
+			"isDisabled":false,
+			"isForExternal":false
+		},
+		"maxsize":0
+	},
+	"response":[
+		{
+			"className":"aSPF_GetAuthorizationProfileInfo",
+			"paramEntity":{
+				"className":"aSPF_AuthorizationProfile",
+				"name":"Profile 1",
+				"code":"PRF1376064511",
+				"isDisabled":false,
+				"isForExternalActor":false
+			},
+			"buid":"318833061_52"
+		}
+	],
+	"className":"aSCB_Manage_Login",
+	"methodName":"SearchProfiles",
+	"version":"5.7.3.0",
+	"date":"2018-01-02",
+	"errors":[
+	]
+}

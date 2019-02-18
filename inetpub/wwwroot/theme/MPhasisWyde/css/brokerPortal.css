@@ -1,0 +1,159 @@
+body .broker-portal{
+	font-size: 12px;
+	line-height: 14px;
+}
+.broker-portal .nav-tabs>li>a{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.broker-portal .nav-tabs>li>a,
+.broker-portal .nav-pills>li>a{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+.broker-portal #PrimaryNavigation .nav{
+	margin-top: 61px;
+}
+
+.broker-portal label,
+.broker-portal input,
+.broker-portal button,
+.broker-portal select,
+.broker-portal textarea{	
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+.broker-portal textarea,
+.broker-portal input[type="text"],
+.broker-portal input[type="password"],
+.broker-portal input[type="datetime"],
+.broker-portal input[type="datetime-local"],
+.broker-portal input[type="date"],
+.broker-portal input[type="month"],
+.broker-portal input[type="time"],
+.broker-portal input[type="week"],
+.broker-portal input[type="number"],
+.broker-portal input[type="email"],
+.broker-portal input[type="url"],
+.broker-portal input[type="search"],
+.broker-portal input[type="tel"],
+.broker-portal input[type="color"],
+.broker-portal .uneditable-input,
+.broker-portal select,
+.broker-portal .input-append .add-on, 
+.broker-portal .input-prepend .add-on{
+	line-height: 14px;
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding: 3px 0px 2px 9px;
+}
+
+.broker-portal .input-append .add-on, 
+.broker-portal .input-prepend .add-on{
+	padding: 5px 3px 0px 3px;
+}
+
+.broker-portal .table th,
+.broker-portal .table td{
+	padding: 2px 4px 2px 4px;
+}
+
+.broker-portal #PageTitlePresenter{
+	padding: 4px 10px;
+	margin: 0 0 10px;
+}
+
+.broker-portal #PageTitlePresenter h3{
+	margin-top: 0px;
+}
+.broker-portal .phoneWithExtention .control-group,
+.broker-portal .phoneWithExtention .form-horizontal .control-group {
+	margin-bottom: 5px;
+}
+
+.broker-portal .modal-body,
+.broker-portal .modal-footer{
+	margin-bottom: 0px;
+	padding: 5px 5px 5px;
+}
+
+.broker-portal #PortalBottomWrapper{
+	margin-top: 20px;
+}
+
+.broker-portal .section .page-header{
+	margin-bottom: 5px;
+}
+.broker-portal .section .page-header .pull-right{
+	margin-top: 3px;
+	margin-right: 3px;
+}
+
+.broker-portal .input-block-level{
+	min-height: 27px;
+	height: 27px;
+}
+
+.broker-portal input[type="radio"],
+.broker-portal input[type="checkbox"]{
+	margin: -3px 0 0;
+}
+
+.broker-portal  form .input-date{
+  max-width: 81px;
+}
+
+/*Phone Extention Html CLass*/
+.broker-portal form .pExt{
+  width: 47px;
+}
+
+.broker-portal #CenterPanelWrapper{
+	margin-top: 5px
+}
+.broker-portal .tabItemField{
+	min-height: 0px;
+}
+.broker-portal .deleteBtn{
+	margin-top: 4px;
+}
+
+.broker-portal .help-inline,
+.broker-portal .form-horizontal .help-inline{
+	margin-top: -5px;
+}
+
+.broker-portal .input-append input,
+.broker-portal .input-prepend input,
+.broker-portal .input-append select,
+.broker-portal .input-prepend select,
+.broker-portal .input-append .uneditable-input,
+.broker-portal .input-prepend .uneditable-input{
+	margin-bottom: 0;	
+}
+.broker-portal .btn-toolbar{
+	margin-top: 0px;
+}
+.broker-portal .questionDiv{
+	margin-bottom: 7px;
+}
+
+.broker-portal #InsuredTable .NewObjectRoot{
+	margin-bottom: 20px;
+}
+
+.broker-portal .NewObjectRoot .control-group,
+.broker-portal .NewObjectRoot .bootstrap-select.btn-group,
+.broker-portal .AddLinks .control-group,
+.broker-portal .AddLinks .bootstrap-select.btn-group,
+.broker-portal .NewObjectRoot input,
+.broker-portal .NewObjectRoot select{
+	margin-bottom: 0px;
+}
+
+body .widget section {
+  min-height: 300px;
+}

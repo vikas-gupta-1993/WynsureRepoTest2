@@ -1,0 +1,72 @@
+name:Prix Action Vent;engineclassdef:aMSC_BuildingRuleEngine;returntype:SystemModDef.Num8;objectcontext:218108747;kindcontext:218108734
+; aWF_RT_Formule (aMSC_BuildingRuleEngine) (Def Version:1) (Implem Version:1)
+
+uses aMSC_Building
+
+
+procedure WFCalculate(inOut Result : Num8)
+   var vPrixParM2 : Num8
+   var vCatNat : Num8
+   var vc1 : Num8
+   var vc2 : Num8
+   var vc3 : Num8
+   var vc4 : Num8
+   var vc5 : Num8
+   var vc6 : Num8
+   var vc7 : Num8
+   var vc8 : Num8
+   var vc9 : Num8
+   var vc10 : Num8
+   var vTotalHT_Immobilier : Num8
+   var vTotalCatNat_Immobilier : Num8
+   var vTaxe_Immobilier : Num8
+   var vTotal_Immobilier : Num8
+   var vTotal_Vitraux : Num8
+   var vTotalFinal_Immobilier : Num8
+   var coeffGroupement : Num8
+   var vTotal_Mobilier : Num8
+   var vOrgues_Mobilier : Num8
+   var vObjetsPrecieux_Mobilier : Num8
+   var vTotalFinal_Mobilier : Num8
+   
+   ; 1. PRIX IMMOBILIER
+   vPrixParM2 = 0.05
+   vCatNat = 0.006
+   vTaxe_Immobilier = 0.09
+   vc1 = self.IfAThenV1ElseV2(self.Immobilier__ProprietaireRenonciationEnversLocataire, 
+      1.5, 1)
+   vc2 = self.IfAThenV1ElseV2(self.Immobilier__ProprietaireRenonciationEnversRestaurant, 
+      1.5, 1)
+   vc3 = self.IfAThenV1ElseV2(self.Immobilier__Preaux, 5, 1)
+   vc4 = self.IfAThenV1ElseV2(self.Immobilier__LocataireAssurePourProprietaire, 1.2, 
+      1)
+   vc5 = 1
+   vc6 = self.IfAThenV1ElseV2(self.Immobilier__LocataireRenonciationRecoursProprietaire, 
+      0.2, 1)
+   vc7 = self.IfAThenV1ElseV2(self.Immobilier__LocataireProprietaireAssureMSC, 0.8, 
+      1)
+   vc8 = self.IfAThenV1ElseV2(self.Immobilier__Couverture = cMSCCouvertureDur, 1, 
+      1.5)
+   vc9 = self.IfAThenV1ElseV2(self.Immobilier__PrimaireSeul, 0.9, 1)
+   vc10 = self.IfAThenV1ElseV2(self.Immobilier__Valeur = cMSCValeurVRN, 0.8, 1)
+   if vc10 = 1
+      vc10 = self.IfAThenV1ElseV2(self.Immobilier__Valeur = cMSCValeurVUI, 0.5, 1)
+   endIf
+   vTotalHT_Immobilier = vPrixParM2 * vc1 * vc2 * vc3 * vc4 * vc5 * vc6 * vc7 * vc8 * 
+      vc9 * vc10 * self.Immobilier__SurfaceM2
+   vTotalCatNat_Immobilier = vCatNat * vc1 * vc2 * vc3 * vc4 * vc5 * vc6 * vc7 * 
+      vc8 * vc9 * vc10 * self.Immobilier__SurfaceM2
+   vTotal_Immobilier = (vTotalHT_Immobilier + vTotalCatNat_Immobilier) * (1 + vTaxe_Immobilier)
+   vTotal_Vitraux = self.Immobilier__VitrauxCapital * 1.28
+   vTotalFinal_Immobilier = vTotal_Immobilier + vTotal_Vitraux
+   ;--
+   ; 2.PRIX MOBILIER
+   vTotal_Mobilier = self.Limit * 0.202 / 1000
+   vOrgues_Mobilier = self.Mobilier__OrguesCapital * 0.22 / 1000
+   vObjetsPrecieux_Mobilier = self.Mobilier__MeublesOVCapital * 0.23 / 1000
+   vTotalFinal_Mobilier = vTotal_Mobilier + vOrgues_Mobilier + vObjetsPrecieux_Mobilier
+   ;--
+   ; 3.RESULTAT
+   Result = vTotalFinal_Immobilier + vTotalFinal_Mobilier
+endProc 
+

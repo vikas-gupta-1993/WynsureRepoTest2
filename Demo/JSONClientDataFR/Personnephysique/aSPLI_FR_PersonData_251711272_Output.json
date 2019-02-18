@@ -1,0 +1,339 @@
+{
+	"data":{
+		"className":"aSPLI_FR_PersonData",
+		"bUID":"##28",
+		"dataHistory":[
+		],
+		"thirdPartyId":"CET",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1956-07-05",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"28021",
+						"city":"MADRID"
+					},
+					"country":"ESPAGNE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"CALLE SANTIAGO BERNABEU, 10 - ESC",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"903 568 965",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"903 568 965",
+				"fax":"903 568 965",
+				"eMail":"angela.lopez_ortiz@free.com",
+				"mediaType":"Courrier",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"BNP",
+				"effectiveDate":"2000-01-01",
+				"endDate":null,
+				"holderName":"LOPEZ ORTIZ",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75002",
+						"city":"PARIS"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"23 BD DES ITALIENS",
+					"line2":""
+				},
+				"bankCode":"99554",
+				"officeCode":"04426",
+				"accountNumber":"44713384730",
+				"rIBKey":"66",
+				"iBAN":"FR7699554044264471338473066",
+				"bIC":"CEPAFRPP118"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Administrateur collectif",
+							"code":"WAC"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Cetelem (Distributeur) (Distribution directe) (Réseau de distribution)",
+						"unitCode":"CET"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"angela.lopez_ortiz@free.com",
+						"name":"angela.lopez_ortiz@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"angela.lopez_ortiz@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##28",
+						"description":"Angela LOPEZ ORTIZ CALLE SANTIAGO BERNABEU, 10 - ESC, MADRID, 28021, ESPAGNE"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"angela.lopez_ortiz@free.com",
+					"name":"angela.lopez_ortiz@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Angela LOPEZ ORTIZ CALLE SANTIAGO BERNABEU, 10 - ESC, MADRID, 28021, ESPAGNE",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000030WEX",
+							"thirdPartyID":"CET"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":{
+			"className":"aSPH_FR_PersonExtensionData",
+			"bUID":"",
+			"dataHistory":[
+			],
+			"actorDataExtension":{
+				"className":"aSPH_FR_PersonExtension",
+				"birthRank":1,
+				"thirdPartyPayerActivated":false
+			},
+			"actor":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Angela LOPEZ ORTIZ CALLE SANTIAGO BERNABEU, 10 - ESC, MADRID, 28021, ESPAGNE",
+				"internalClientId":"0000000029",
+				"externalClientId":{
+					"externalClientId":"0000000030WEX",
+					"thirdPartyID":"CET"
+				}
+			},
+			"personDataVersions":[
+				{
+					"className":"aSPH_FR_PersonExtensionVersionData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"personDataVersion":{
+						"className":"aSPH_FR_PersonExtensionVersion",
+						"effectiveDate":"1800-01-01",
+						"code":"01281000",
+						"socialSchemeCode":"01",
+						"registeredDeskCode":"281",
+						"centerCode":"000",
+						"cTICode":"008",
+						"addressee":"281",
+						"state":"28",
+						"attachedToPerson":false,
+						"alsaceMoselle":false,
+						"noemieActivated":false
+					},
+					"attachedToPersonDataExtensions":[
+					],
+					"preferredAttachedToPersonDataExtension":null
+				}
+			]
+		},
+		"externalClientId":"0000000030WEX",
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"E",
+						"fieldValue":"Assurance de prêt",
+						"nameDescription":"Assurance de prêt"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"TI",
+						"fieldValue":"Assurance voyage",
+						"nameDescription":"Assurance voyage"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"CV",
+						"fieldValue":"Epargne",
+						"nameDescription":"Epargne"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"PC",
+						"fieldValue":"IARD",
+						"nameDescription":"IARD"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"D",
+						"fieldValue":"Prévoyance",
+						"nameDescription":"Prévoyance"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"S",
+						"fieldValue":"Santé",
+						"nameDescription":"Santé"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"L",
+						"fieldValue":"Vie",
+						"nameDescription":"Vie"
+					}
+				],
+				"channelType":"aWF_SEPACreditTransfer_DisbursementChannel",
+				"actorPaymentMethodName":"BNP"
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"actor":{
+			"className":"aSPLI_Fr_Person",
+			"name":"LOPEZ ORTIZ",
+			"shortName":"Angela",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1956-07-05",
+			"personTitleEnum":"ptMrs",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gFemale",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"MADRID",
+			"birthPlaceZipCode":"28021",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Employé interne",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"N'est pas employé interne",
+					"nameDescription":"N'est pas employé interne"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"N'est pas VIP",
+					"fieldValue":"N'est pas VIP",
+					"nameDescription":"N'est pas VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false,
+			"sSN":"256071148726244",
+			"maritalStatus":"cMarried",
+			"regime":"01",
+			"caisse":"281"
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Angela LOPEZ ORTIZ CALLE SANTIAGO BERNABEU, 10 - ESC, MADRID, 28021, ESPAGNE",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000030WEX",
+			"thirdPartyID":"CET"
+		}
+	}
+}

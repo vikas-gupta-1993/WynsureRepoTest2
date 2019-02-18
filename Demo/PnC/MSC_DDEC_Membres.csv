@@ -1,0 +1,39 @@
+DEPT;CODE_D;INTITULE;TITRE;NOM;PRENOM;ADRESSE1;ADRESSE2;CP;VILLE;TEL;FAX;MAIL
+80;6;;Monsieur;GROSSKOPF;Philippe;43 rue Laurendeau;;80000;AMIENS;03 22 33 51 00;03 22 33 51 09;p-grosskopf.ddec80@80.scolanet.org
+49;7;;Monsieur;BOURDIN;Emile;5 rue du Haut Pressoir;BP 028;49010;ANGERS CEDEX 01;02 41 79 51 51;02 41 68 09 10;e-bourdin@49.scolanet.org
+16;8;;Mademoiselle;BRILLET;Nicole;13 rue Taillefer;BP 230;16007;ANGOULEME;05 45 95 16 66;05 45 94 01 10;n-brillet@16.scolanet.org
+74;9;;Monsieur;BERTHET;Jean;4 avenue de la Visitation;BP 144;74004;ANNECY CEDEX;04 50 33 09 24;04 50 45 43 86;j-berthet.ddec74@74.scolanet.org
+62;10;;Monsieur;DEBOVE;Marcel;101 rue d'Amiens;BP 44;62001;ARRAS CEDEX;03 21 21 40 60;03 21 21 40 69;ch-larsen.ddec62@62.scolanet.org
+62;10;;Monsieur;COURBOIS;Jean-Bernard;102 rue d'Amiens;BP 45;62001;ARRAS CEDEX;;;
+84;13;;Monsieur;NOUGIER;Paul;5 rue du SacrÈ Coeur;BP 2001;84023;AVIGNON CEDEX 1;04 90 13 20 40;04 90 13 20 49;ddec84@wanadoo.fr
+14;14;;Monsieur;LAUNEY;Serge;33 place de la Reine Mathilde;;14000;CAEN;02 31 95 47 47;02 31 93 59 60;s-launey.ddec14@14.scolanet.org
+60;16;;Monsieur;BERNARD;Dominique;101 Rue de la Madeleine;BP 80778;60007;BEAUVAIS CEDEX;03 44 06 42 10;03 44 06 42 11;jc-libeer.ddec60@60.scolanet.org
+25;18;;Monsieur;MARCOUX;Dominique;9 rue de Pontarlier;;25041;BESANCON CEDEX;03 81 25 01 90;03 81 81 40 15;d-marcoux@25.scolanet.org
+41;19;;Monsieur;GODINEAU;GÈrard;1 rue de Berry;;41000;BLOIS;;;
+33;20;;Monsieur;DEMOY;Jean Pierre;Centre Cluny;54 Bd Godard;33300;BORDEAUX;;;
+44;51;;Monsieur;CHAILLOT;Jacques;15 rue Leglas Maurice;;44041;NANTES CEDEX 01;;;
+58;52;;Monsieur;DUCAROUGE;Paul;Maison du DiocËse;21 rue Gustave Mathieu;58000;NEVERS;;;
+6;53;;Monsieur;JAMAIN;Jean Jacques;23 avenue de SÈvignÈ;;6105;NICE CEDEX 2;04 92 07 80 10;04 92 07 80 11;jj-jamain.ddec06@06.scolanet.org
+30;54;;Monsieur;ALLART;Pierre;24 rue Briçonnet;BP 148;30011;NIMES CEDEX;04 66 04 94 24;04 66 04 00 98;
+45;55;;Monsieur;BERRUER;Claude;Maison St Vincent;51 Bd Aristide Briand;45000;ORLEANS;;;
+75;57;;Monsieur;GAUTIER;FrÈdÈric;76 Rue des Saint PËres;;75007;PARIS;;;
+24;58;;Madame;LE CORROLER ;Françoise ;Maison DiocÈsaine;38 av georges Pompidou;24000;PERIGUEUX;05 53 06 89 05;05 53 06 89 09;
+66;59;;Monsieur;BLANC;Jean Pierre;70 bis, avenue Victor Dalbiez;;66000;PERPIGNAN;04 68 54 71 17;04 68 56 47 54;jp-blanc.ddec66@66.scolanet.org
+86;60;;PËre;BOINOT;Pierre;1 place Sainte Croix;BP 416;86010;POITIERS CEDEX;;;
+43;61;;Monsieur;LAVAL;Jean-Paul;Maison de la Providence;4, bd Docteur Chantemesse;43000;LE PUY EN VELAY;04 71 09 27 61;04 71 02 03 98;ddec43@43.scolanet.org
+29;62;;Monsieur;BIDEAU;Jean Louis;2 rue CÈsar Franck;;29196;QUIMPER CEDEX;;;
+51;63;;Monsieur;OCTAU;Jean Louis;5 rue d'Anjou;;51723;REIMS CEDEX;;;
+35;64;;Monsieur;PANNETIER;François;45 rue de Brest;CS 34210;35042;RENNES CEDEX;02 99 54 62 05;02 99 59 63 51;
+17;65;;Monsieur;DEMENIER;Hubert;26 rue Daint Jean du PÈrot;;17000;LA ROCHELLE;;;
+12;66;;Monsieur;CHARRIER;Jean Louis;35 avenue Victor Hugo;;12000;RODEZ;;;
+76;67;;Monsieur;BULTEAU;EugËne;41 route de Neuchâtel;;76044;ROUEN;;;
+22;68;;Monsieur;SAVIDAN;Jean Yves;5 rue des Capucins;BP 222;22002;SAINT BRIEUC CEDEX 01;02 96 68 32 68;02 96 33 61 66;jy-savidan.ddec22@22.scolanet.org
+61;73;;Monsieur;MADELEINE ;;25 bis rue ContÈ;;61500;SEES;02 33 81 29 10;02 33 27 56 47;ph-schaeffer@61.scolanet.org
+67;76;;Monsieur;KOHLER;Jean Robert;2 rue des FrËres;;67081;STRASBOURG CEDEX;;;
+65;77;;Madame;CAYRE;Arlette;51 Rue de TraynËs;;65000;TARBES;;;
+31;79;;Monsieur;GAZEAU;Alain;28 rue de l'Aude;;31500;TOULOUSE;05 61 80 49 17;05 61 34 13 73;a-gazeaud@31.scolanet.org
+91;91;;Madame;HUGON;Nicole;20 rue de Rochebrune;;91220;BRETIGNY SUR ORGE;01.60.88.18.20;01.69.88.18.29;ddec91@91.scolanet.org
+92;92;;Monsieur;VANDERMEER;Jean-Marie;1 avenue charles de Gaulle;;92100;BOULOGNE;;;
+93;93;;Monsieur;BELLOIR;ERIC;7 rue Riant;;93200;SAINT DENIS;01.55.87.05.12;01.55.87.05.32;ddec93@93.scolanet.org
+94;94;;Monsieur;CROSSONNEAU;GÈrard;24 Rue de la PrÈvoyance;;94500;CHAMPIGNY SUR MARNE;01.45.17.23.60;01.48.98.38.01;ddec94@94.scolanet.org
+95;95;;Monsieur;GIRONA;Maurice;4 rue de Malleville;;95880;ENGHIEN LES BAINS;01 30 38 34 24;01 30 73 86 90;

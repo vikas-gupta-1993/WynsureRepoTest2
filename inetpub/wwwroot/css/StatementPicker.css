@@ -1,0 +1,27 @@
+#SelectionArgumentWrapper,
+#FromDateWrapper,
+#ToDateWrapper,
+#HideCanceledWrapper,
+#OnlyDueStatementsWrapper {
+	
+}
+
+#FromDateWrapper {
+	float: left;
+	width: 10em;
+}
+#FromDate, #ToDate {
+  width: 55px;
+}
+#ToDateWrapper {
+	float: left;
+	width: 10em;
+}
+#ToDateWrapper dd {
+	margin: 0;
+	padding: 0;
+}
+
+#HideCanceledWrapper {
+	clear: both;
+}

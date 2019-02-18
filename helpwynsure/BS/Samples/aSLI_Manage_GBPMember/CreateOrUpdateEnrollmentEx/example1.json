@@ -1,0 +1,14 @@
+{
+	"description": "Member enrollment",
+	"request": {
+		"input": null
+	},
+	"response": null,
+	"eval": null,
+	"className": "aSLI_Manage_GBPMember",
+	"methodName": "CreateOrUpdateEnrollmentEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-06",
+	"errors": [
+	]
+}

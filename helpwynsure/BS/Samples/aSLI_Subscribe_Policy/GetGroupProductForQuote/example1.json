@@ -1,0 +1,87 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"$ref":"#",
+			"className":"aSPLI_ProductsForNormalQuote_In",
+			"distributionUnitCode":"AA",
+			"subscriptionDate":"{{currentDate}}",
+			"productAvailabilities":[
+			],
+			"subscriber":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			}
+		},
+		"productCode":{
+			"buid":"",
+			"productIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"productCode":"MPS"
+			}
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_ProductAndAuthorization",
+		"productWithOptions":{
+			"className":"aSPCB_ProductWithOptions_Out",
+			"buid":"",
+			"productCode":{
+				"buid":"318842720_4",
+				"productIdentifier":{
+					"issuingCompanyCode":"WIC",
+					"productCode":"MPS"
+				}
+			},
+			"product":{
+				"className":"aSPLI_GroupBenefitPlanProduct",
+				"name":"Master Product Standard",
+				"entityDescription":"Within a GBP contract, only coverage from one GBP Model can be chosen, and it is not possible to customize rules.",
+				"productFamily":"Life",
+				"productAvailabilities":[
+					"Available on wPortal"
+				],
+				"isMultiOwner":false,
+				"subscribedBy":"cWFSubscribedByLegalEntity",
+				"productIsForGroup":true,
+				"onlyPredefinedMemberProduct":true,
+				"customizationPossible":false,
+				"stateDefinition":"cSitusState",
+				"individualCompensation":false,
+				"automaticallyUpdateFromGBPModelChanges":true,
+				"employeeClassCustomizationAtSubscription":true
+			},
+			"isMultiInsured":false,
+			"options":[
+			]
+		},
+		"loggedUserIsAuthorizedToCreateQuote":true,
+		"loggedUserIsAuthorizedToCreatePolicy":true,
+		"isEligible":false,
+		"subscriberType":"tpli_Group"
+	},
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetGroupProductForQuote",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+		{
+			"code":"4D72_BS_00026",
+			"message":"Client Full Id Is Not Consistent",
+			"kind":"Info",
+			"kindNumber":4
+		},
+		{
+			"code":"5668_BS_00026",
+			"message":"Client Full Id Is Not Consistent",
+			"kind":"Info",
+			"kindNumber":4
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"description":"",
+	"request":{
+		"contractID":{
+			"$ref":"#",
+			"className":"aSPCB_ContractIdentifier",
+			"bUID":"{{contractBUID}}",
+			"description":"",
+			"internalContractID":"",
+			"externalContractID":""
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_DocumentRequestsContainerForContractData",
+		"bUID":"318844653_5",
+		"dataHistory":[
+		],
+		"requirementRequests":[
+		],
+		"documentRequestsContainer":{
+			"className":"aSPCB_DocumentRequestsContainerForContract",
+			"name":""
+		},
+		"myContract":{
+			"className":"aSPCB_ContractIdentifier",
+			"bUID":"318842830_4",
+			"description":"GBP Enrollment # 4800000501 On Group Contract : Group Whole Life Plan",
+			"internalContractID":"",
+			"externalContractID":""
+		}
+	},
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetDocumentRequestsContainerForContract",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

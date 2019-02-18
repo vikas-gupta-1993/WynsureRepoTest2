@@ -1,0 +1,828 @@
+{
+	"description":"",
+	"request":{
+		"data":{
+			"className":"aSPLI_PersonData",
+			"actor":{
+				"className":"aSPLI_Person",
+				"sSN":"",
+				"maritalStatus":"meUndefined",
+				"personTitleEnum":"2",
+				"priorName":"Roberts",
+				"middleName1":"Jenifer",
+				"middleName2":"Courtney",
+				"nameSuffix":"De",
+				"gender":"meUndefined",
+				"attachedToAnOtherSSN":false,
+				"nationality":"USA",
+				"birthRank":1,
+				"birthCountry":"USA",
+				"birthPlaceCity":"Northampton",
+				"birthPlaceZipCode":"1060",
+				"birthPlaceState":"AL",
+				"legalRepresentativeId_Deprecated5200":{
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					},
+					"buid":""
+				},
+				"occupation":"Doctor",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"",
+						"fieldCode":"1",
+						"fieldName":"",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"",
+						"fieldCode":"2",
+						"fieldName":"",
+						"codeForPopulationClass":""
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"birthDate":"1984-11-20",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"name":"SmithBGDIIBCEI",
+				"shortName":"Chuck",
+				"creationDate":"2012-01-01",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"claimDisbursementChannel":[
+				{
+					"className":"aSPCB_PersonClaimPaymentMethod",
+					"productFamilies":[
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"CV",
+							"fieldValue":"Cash Value",
+							"nameDescription":"Cash Value",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"CI",
+							"fieldValue":"Critical Illness",
+							"nameDescription":"Critical Illness",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"D",
+							"fieldValue":"Disability",
+							"nameDescription":"Disability",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"H",
+							"fieldValue":"Health",
+							"nameDescription":"Health",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"HO",
+							"fieldValue":"Home",
+							"nameDescription":"Home",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"L",
+							"fieldValue":"Life",
+							"nameDescription":"Life",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"E",
+							"fieldValue":"Loan Insurance",
+							"nameDescription":"Loan Insurance",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"TI",
+							"fieldValue":"Travel Insurance",
+							"nameDescription":"Travel Insurance",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"valueCode":"V",
+							"fieldValue":"Vehicle",
+							"nameDescription":"Vehicle",
+							"fieldCode":"PF",
+							"fieldName":"Product Family",
+							"codeForPopulationClass":""
+						}
+					],
+					"channelType":"aWF_EFT_DisbursmentChannel",
+					"actorPaymentMethodName":""
+				}
+			],
+			"legalRepresentative":{
+				"data":null,
+				"identifier":null
+			},
+			"thirdPartyId":"DistRoot",
+			"correspondences":[
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2017-10-11",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"12 Main St",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(913) 721-3708",
+					"privatePhoneExtension":"3300",
+					"officePhone":"(319) 832-4819",
+					"officePhoneExtension":"4411",
+					"cellPhone":"(913) 721-3709",
+					"fax":"(913) 721-3710",
+					"eMail":"ann.barret@free.com",
+					"mediaType":""
+				}
+			],
+			"paymentMethods":[
+				{
+					"className":"aSPCB_US_BankAccount",
+					"accountNumber":"000140867194644",
+					"routingNumber":"091000019",
+					"preNoteCompleted":false,
+					"preNoteProcessCompletionDate":null,
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_CA_BankAccount",
+					"accountNumber":"000140867129536",
+					"preNoteProcessCompletionDate":null,
+					"institution":"910",
+					"branch":"00019",
+					"currency":"cCanadianDollar",
+					"accountType":"catChecking",
+					"branchName":"Branch",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"7051 Lexiton Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_IBAN_BankAccount",
+					"iBAN":"GB87 BARC 2065 8244 9716 55",
+					"bIC":"BARCGB22",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_Fr_BankAccount",
+					"bankCode":"24145",
+					"officeCode":"74317",
+					"accountNumber":"50261598443",
+					"rIBKey":"92",
+					"iBAN":"FR7624145743175026159844392",
+					"bIC":"CEPAFRPP118",
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"BNP Opéra",
+					"depositType":"dpNA",
+					"bankName":"BNP",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"5163 Lexington Avenue",
+						"line2":"Appt 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":null,
+					"holderName":"Cookies & Milk"
+				},
+				{
+					"className":"aSPCB_CreditCard",
+					"creditCardNumber":"6011443426934879",
+					"creditCardType":"cDiscover",
+					"validationCode":"441",
+					"name":"",
+					"effectiveDate":"2012-01-01",
+					"endDate":"2022-09-30",
+					"holderName":"Cookies & Milk"
+				}
+			],
+			"contacts":[
+				{
+					"className":"aSPCB_ActorContact",
+					"correspondenceChoice":"redefined",
+					"mediaType":"",
+					"isDeaultContact":false,
+					"name":"MAin",
+					"contactName":"MAin",
+					"beginDate":"1800-01-01",
+					"endDate":"2030-01-01",
+					"correspondence":{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"2017-10-11",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_PostalAddressWithState",
+							"state":"NY",
+							"line1":"12 Main St",
+							"line2":"Appt 3",
+							"zipCodeAndCity":{
+								"zipCode":"10173",
+								"city":"New York"
+							},
+							"country":"USA"
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(913) 721-3708",
+						"privatePhoneExtension":"3300",
+						"officePhone":"(319) 832-4819",
+						"officePhoneExtension":"4411",
+						"cellPhone":"(913) 721-3709",
+						"fax":"(913) 721-3710",
+						"eMail":"ann.barret@free.com",
+						"mediaType":""
+					},
+					"role":[
+					]
+				}
+			],
+			"logins":[
+				{
+					"data":{
+						"className":"aSPCB_ExternalApplicationUserData",
+						"loginEntity":{
+							"className":"aSPCB_ApplicationLogin",
+							"email":"SmithBGDIIBCEI_Chuck@wyde.com",
+							"jobLabel":"",
+							"preferedLanguageCode":"EN",
+							"name":"SmithBGDIIBCEI_Chuck",
+							"password":"",
+							"forbatch":false,
+							"isDisabled":false
+						},
+						"actor":{
+							"data":null,
+							"identifier":{
+								"className":"aSPLI_PersonIdentifier",
+								"internalClientId":"",
+								"externalClientId":{
+									"externalClientId":"",
+									"thirdPartyID":""
+								},
+								"bUID":"",
+								"description":""
+							}
+						},
+						"profiles":[
+						],
+						"extendedProfile":null,
+						"bUID":"",
+						"dataHistory":[
+						]
+					},
+					"identifier":null
+				}
+			],
+			"bUID":"",
+			"dataHistory":[
+			]
+		}
+	},
+	"response":{
+		"className":"aSPLI_PersonData",
+		"actor":{
+			"className":"aSPLI_Person",
+			"sSN":"",
+			"maritalStatus":"meUndefined",
+			"personTitleEnum":"2",
+			"priorName":"Roberts",
+			"middleName1":"Jenifer",
+			"middleName2":"Courtney",
+			"nameSuffix":"De",
+			"attachedToAnOtherSSN":false,
+			"nationality":"USA",
+			"birthRank":1,
+			"birthCountry":"USA",
+			"birthPlaceCity":"Northampton",
+			"birthPlaceZipCode":"1060",
+			"birthPlaceState":"AL",
+			"legalRepresentativeId_Deprecated5200":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":""
+			},
+			"occupation":"Doctor",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"valueCode":"NIE",
+					"fieldValue":"Is Not Internal Employee",
+					"nameDescription":"Is Not Internal Employee",
+					"fieldCode":"1",
+					"fieldName":"Internal Employee",
+					"codeForPopulationClass":""
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"valueCode":"Is not VIP",
+					"fieldValue":"Is not VIP",
+					"nameDescription":"Is not VIP",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":""
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"birthDate":"1984-11-20",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"SmithBGDIIBCEI",
+			"shortName":"Chuck",
+			"creationDate":"2012-01-01",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence"
+		},
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"CV",
+						"fieldValue":"Cash Value",
+						"nameDescription":"Cash Value",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"CI",
+						"fieldValue":"Critical Illness",
+						"nameDescription":"Critical Illness",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"D",
+						"fieldValue":"Disability",
+						"nameDescription":"Disability",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"H",
+						"fieldValue":"Health",
+						"nameDescription":"Health",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"HO",
+						"fieldValue":"Home",
+						"nameDescription":"Home",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"L",
+						"fieldValue":"Life",
+						"nameDescription":"Life",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"E",
+						"fieldValue":"Loan Insurance",
+						"nameDescription":"Loan Insurance",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"TI",
+						"fieldValue":"Travel Insurance",
+						"nameDescription":"Travel Insurance",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"V",
+						"fieldValue":"Vehicle",
+						"nameDescription":"Vehicle",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"CV",
+						"fieldValue":"Cash Value",
+						"nameDescription":"Cash Value",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"CI",
+						"fieldValue":"Critical Illness",
+						"nameDescription":"Critical Illness",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"D",
+						"fieldValue":"Disability",
+						"nameDescription":"Disability",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"H",
+						"fieldValue":"Health",
+						"nameDescription":"Health",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"HO",
+						"fieldValue":"Home",
+						"nameDescription":"Home",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"L",
+						"fieldValue":"Life",
+						"nameDescription":"Life",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"E",
+						"fieldValue":"Loan Insurance",
+						"nameDescription":"Loan Insurance",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"TI",
+						"fieldValue":"Travel Insurance",
+						"nameDescription":"Travel Insurance",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"V",
+						"fieldValue":"Vehicle",
+						"nameDescription":"Vehicle",
+						"fieldCode":"PF",
+						"fieldName":"Product Family",
+						"codeForPopulationClass":""
+					}
+				],
+				"channelType":"aWF_EFT_DisbursmentChannel",
+				"actorPaymentMethodName":""
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1984-11-20",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_PostalAddressWithState",
+					"state":"NY",
+					"line1":"12 MAIN ST",
+					"line2":"APPT 3",
+					"zipCodeAndCity":{
+						"zipCode":"10173",
+						"city":"New York"
+					},
+					"country":"USA"
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"(913) 721-3708",
+				"privatePhoneExtension":"3300",
+				"officePhone":"(319) 832-4819",
+				"officePhoneExtension":"4411",
+				"cellPhone":"(913) 721-3709",
+				"fax":"(913) 721-3710",
+				"eMail":"ann.barret@free.com",
+				"mediaType":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_US_BankAccount",
+				"accountNumber":"000140867194644",
+				"routingNumber":"091000019",
+				"preNoteCompleted":false,
+				"preNoteProcessCompletionDate":null,
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_PostalAddressWithState",
+					"state":"NY",
+					"line1":"5163 LEXINGTON AVENUE",
+					"line2":"APPT 3",
+					"zipCodeAndCity":{
+						"zipCode":"10173",
+						"city":"New York"
+					},
+					"country":"USA"
+				},
+				"name":"",
+				"effectiveDate":"2012-01-01",
+				"endDate":null,
+				"holderName":"Cookies & Milk"
+			},
+			{
+				"className":"aSPCB_CA_BankAccount",
+				"accountNumber":"000140867129536",
+				"preNoteProcessCompletionDate":null,
+				"institution":"910",
+				"branch":"00019",
+				"currency":"cCanadianDollar",
+				"accountType":"catChecking",
+				"branchName":"Branch",
+				"depositType":"dpNA",
+				"bankName":"Chase Manhattan Bank",
+				"address":{
+					"className":"aSPCB_PostalAddressWithState",
+					"state":"NY",
+					"line1":"7051 LEXITON AVENUE",
+					"line2":"APPT 3",
+					"zipCodeAndCity":{
+						"zipCode":"10173",
+						"city":"New York"
+					},
+					"country":"USA"
+				},
+				"name":"",
+				"effectiveDate":"2012-01-01",
+				"endDate":null,
+				"holderName":"Cookies & Milk"
+			},
+			{
+				"className":"aSPCB_IBAN_BankAccount",
+				"iBAN":"GB87 BARC 2065 8244 9716 55",
+				"bIC":"BARCGB22",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_PostalAddressWithState",
+					"state":"NY",
+					"line1":"5163 LEXINGTON AVENUE",
+					"line2":"APPT 3",
+					"zipCodeAndCity":{
+						"zipCode":"10173",
+						"city":"New York"
+					},
+					"country":"USA"
+				},
+				"name":"",
+				"effectiveDate":"2012-01-01",
+				"endDate":null,
+				"holderName":"Cookies & Milk"
+			},
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"bankCode":"24145",
+				"officeCode":"74317",
+				"accountNumber":"50261598443",
+				"rIBKey":"92",
+				"iBAN":"FR7624145743175026159844392",
+				"bIC":"CEPAFRPP118",
+				"currency":"cUSDollar",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_PostalAddressWithState",
+					"state":"NY",
+					"line1":"5163 LEXINGTON AVENUE",
+					"line2":"APPT 3",
+					"zipCodeAndCity":{
+						"zipCode":"10173",
+						"city":"New York"
+					},
+					"country":"USA"
+				},
+				"name":"",
+				"effectiveDate":"2012-01-01",
+				"endDate":null,
+				"holderName":"Cookies & Milk"
+			},
+			{
+				"className":"aSPCB_CreditCard",
+				"creditCardNumber":"6011443426934879",
+				"creditCardType":"cDiscover",
+				"validationCode":"441",
+				"name":"6011443426934879",
+				"effectiveDate":"2012-01-01",
+				"endDate":"2022-09-30",
+				"holderName":"Cookies & Milk"
+			}
+		],
+		"contacts":[
+			{
+				"className":"aSPCB_ActorContact",
+				"correspondenceChoice":"redefined",
+				"mediaType":"",
+				"isDeaultContact":false,
+				"name":"MAin",
+				"contactName":"MAin",
+				"beginDate":"1800-01-01",
+				"endDate":"2030-01-01",
+				"correspondence":{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1984-11-20",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"12 MAIN ST",
+						"line2":"APPT 3",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(913) 721-3708",
+					"privatePhoneExtension":"3300",
+					"officePhone":"(319) 832-4819",
+					"officePhoneExtension":"4411",
+					"cellPhone":"(913) 721-3709",
+					"fax":"(913) 721-3710",
+					"eMail":"ann.barret@free.com",
+					"mediaType":""
+				},
+				"role":[
+				]
+			}
+		],
+		"logins":[
+		],
+		"bUID":"318842236_173",
+		"dataHistory":[
+		]
+	},
+	"className":"aSLI_Manage_Actors",
+	"methodName":"CreatePerson",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

@@ -1,0 +1,52 @@
+th{
+}
+
+td.accumulatedValueAmount,
+td.coverageAmount{
+	background-color: #FFD2D9;
+}
+
+td.cashValueAmount,
+td.tabularCashValue{
+	background-color: #B5DCFF;
+}
+
+td.deathBenefitAmount,
+td.surrenderValue{
+	background-color: #FFD8B6;
+}
+
+td.notAccumulatedValueAmount{
+	background-color: #E5C5FF;
+}
+
+td.notCashValueAmount{
+	background-color: #C5FFD7;
+}
+
+td.notDeathBenefitAmount{
+	background-color: #FFFFC2;
+}
+
+body .illustrationTab{
+	padding: 0px;
+	overflow: inherit;
+}
+.illustrationTab table.illustrationAsTable{
+	padding: 0px;
+	margin:0px;
+}
+body table.illustrationAsTable th,
+body table.illustrationAsTable td{
+	vertical-align: middle;
+	text-align: center
+}
+
+body table.illustrationAsTable td:first-child{
+	width:50px;
+}
+
+body table.illustrationAsTable th{
+	/*table is too big because of table th font size*/
+	font-size: 12.3px;
+}

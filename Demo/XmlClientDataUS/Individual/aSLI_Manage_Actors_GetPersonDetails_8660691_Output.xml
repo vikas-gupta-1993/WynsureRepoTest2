@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>2005-02-01</EffectiveDate>
+         <AddressUsage>3</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_PostalAddressWithState">
+            <Line1>4889 Dovetail Drive</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>55000</ZipCode>
+               <City>Richmond</City>
+            </ZipCodeAndCity>
+            <Country>USA</Country>
+            <State>VA</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>+1 8473669435</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone></CellPhone>
+         <Fax></Fax>
+         <eMail></eMail>
+         <MediaType></MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods></PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_US_Person">
+      <Name>Dasson</Name>
+      <ShortName>June</ShortName>
+      <CreationDate>2017-05-03</CreationDate>
+      <PreferredLanguageCode>En</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>2005-02-01</BirthDate>
+      <PersonTitleEnum></PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gFemale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>USA</Nationality>
+      <BirthRank>0</BirthRank>
+      <BirthCountry>USA</BirthCountry>
+      <BirthPlaceCity></BirthPlaceCity>
+      <BirthPlaceZipCode></BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Internal Employee</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>Is Not Internal Employee</FieldValue>
+            <NameDescription>Is Not Internal Employee</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>Is not VIP</ValueCode>
+            <FieldValue>Is not VIP</FieldValue>
+            <NameDescription>Is not VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <SSN></SSN>
+      <MaritalStatus>meUndefined</MaritalStatus>
+   </PersonIdentity>
+   <LegalRepresentative>
+      <SearchPerson>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </SearchPerson>
+      <CreateOrUpdatePerson>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+         <UpdateDate>2017-05-11</UpdateDate>
+         <Correspondences>
+            <Element>
+               <EffectiveDate>1976-08-02</EffectiveDate>
+               <AddressUsage>3</AddressUsage>
+               <Address xsi:type="ns_1:aSPCB_PostalAddressWithState">
+                  <Line1>4889 Dovetail Drive</Line1>
+                  <Line2></Line2>
+                  <ZipCodeAndCity>
+                     <ZipCode>55000</ZipCode>
+                     <City>Richmond</City>
+                  </ZipCodeAndCity>
+                  <Country>USA</Country>
+                  <State>VA</State>
+               </Address>
+               <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+               <PrivatePhone>+1 8473669435</PrivatePhone>
+               <PrivatePhoneExtension></PrivatePhoneExtension>
+               <OfficePhone></OfficePhone>
+               <OfficePhoneExtension></OfficePhoneExtension>
+               <CellPhone></CellPhone>
+               <Fax></Fax>
+               <eMail></eMail>
+               <MediaType></MediaType>
+            </Element>
+         </Correspondences>
+         <PaymentMethods></PaymentMethods>
+         <ContactInformations></ContactInformations>
+         <ClientId>
+            <Buid></Buid>
+            <InternalClientId></InternalClientId>
+            <ExternalClientIdentifier>
+               <ExternalClientId></ExternalClientId>
+               <ThirdPartyID>DistRoot</ThirdPartyID>
+            </ExternalClientIdentifier>
+         </ClientId>
+         <PersonIdentity xsi:type="ns_1:aSPLI_US_Person">
+            <Name>Dasson</Name>
+            <ShortName>Anny</ShortName>
+            <CreationDate>2017-05-03</CreationDate>
+            <PreferredLanguageCode>En</PreferredLanguageCode>
+            <IsAnonymous>false</IsAnonymous>
+            <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+            <Delinquent>false</Delinquent>
+            <UnderSurveillance>false</UnderSurveillance>
+            <BirthDate>1976-08-02</BirthDate>
+            <PersonTitleEnum></PersonTitleEnum>
+            <PriorName></PriorName>
+            <MiddleName1></MiddleName1>
+            <MiddleName2></MiddleName2>
+            <NameSuffix></NameSuffix>
+            <Gender>gFemale</Gender>
+            <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+            <Nationality>USA</Nationality>
+            <BirthRank>0</BirthRank>
+            <BirthCountry>USA</BirthCountry>
+            <BirthPlaceCity></BirthPlaceCity>
+            <BirthPlaceZipCode></BirthPlaceZipCode>
+            <BirthPlaceState></BirthPlaceState>
+            <LegalRepresentativeId_Deprecated5200>
+               <Buid></Buid>
+               <InternalClientId></InternalClientId>
+               <ExternalClientIdentifier>
+                  <ExternalClientId></ExternalClientId>
+                  <ThirdPartyID></ThirdPartyID>
+               </ExternalClientIdentifier>
+            </LegalRepresentativeId_Deprecated5200>
+            <Occupation></Occupation>
+            <AdditionalDatas>
+               <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                  <FieldCode>1</FieldCode>
+                  <FieldName>Internal Employee</FieldName>
+                  <CodeForPopulationClass></CodeForPopulationClass>
+                  <ValueCode>NIE</ValueCode>
+                  <FieldValue>Is Not Internal Employee</FieldValue>
+                  <NameDescription>Is Not Internal Employee</NameDescription>
+               </Element>
+               <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+                  <FieldCode>2</FieldCode>
+                  <FieldName>VIP</FieldName>
+                  <CodeForPopulationClass></CodeForPopulationClass>
+                  <ValueCode>Is not VIP</ValueCode>
+                  <FieldValue>Is not VIP</FieldValue>
+                  <NameDescription>Is not VIP</NameDescription>
+               </Element>
+            </AdditionalDatas>
+            <SSN></SSN>
+            <MaritalStatus>cMarried</MaritalStatus>
+         </PersonIdentity>
+      </CreateOrUpdatePerson>
+   </LegalRepresentative>
+</_Result>

@@ -1,0 +1,277 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"internalClientId":"0000000041",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			},
+			"buid":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L79",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":5,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000519 List Billing",
+			"buid":"318842552_79"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L87",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000530 List Billing",
+			"buid":"318842552_87"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L115",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000548 List Billing",
+			"buid":"318842552_115"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L117",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000550 List Billing",
+			"buid":"318842552_117"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L119",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000584 List Billing",
+			"buid":"318842552_119"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L121",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000586 List Billing",
+			"buid":"318842552_121"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L123",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000588 List Billing",
+			"buid":"318842552_123"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L151",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000626 List Billing",
+			"buid":"318842552_151"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA80",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # Qu0000000506 Self Administered (",
+			"buid":"318843105_80"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA88",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # Qu0000000510 Self Administered (",
+			"buid":"318843105_88"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA116",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_116"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA118",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_118"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA120",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_120"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA122",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_122"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA124",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_124"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA152",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # QU0000000506 Self Administered (",
+			"buid":"318843105_152"
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"SearchClientInvoiceAccounts",
+	"version":"5.8.1.0",
+	"date":"2018-01-03",
+	"errors":[
+	]
+}

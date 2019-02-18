@@ -1,0 +1,33 @@
+.TableManagerWrapper .TablePresenter {
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.TableManagerWrapper th.ActionColumn.center {
+   text-align: center;
+}
+.TableManagerWrapper td.center {
+   text-align: center;
+}
+.TableManagerWrapper .center {
+   vertical-align: middle; 
+}
+.TableManagerWrapper .aPF_InputTextField{
+	width: 100%;
+	margin-bottom: 0px;
+}
+.TableManagerWrapper .aPF_InputTextField input{
+	margin-bottom: 0px;
+	width:100%;
+	padding: 3px 0px;
+}
+
+.TableManagerWrapper .ActionColumn {
+	width: 10%;
+}
+
+.TableManagerWrapper .center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}

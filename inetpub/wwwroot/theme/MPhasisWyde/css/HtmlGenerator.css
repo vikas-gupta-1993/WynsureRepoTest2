@@ -1,0 +1,86 @@
+/*Common title style*/
+.HTMLGeneratorContentWrapper [class*="TitleId"] { 
+	margin: 10px 0;
+	font-family: inherit;
+	font-weight: bold;
+	line-height: 20px;
+	color: inherit;
+	text-rendering: optimizelegibility;
+	width: 98%;
+}
+
+/*Main title TitleId0Lvl3*/
+.TitleId0Lvl3{
+	line-height: 40px;
+	font-size: 24.5px;	
+}
+
+.TitleId0Lvl3 div{
+	background-color: #F5F5F5;
+	border-radius: 4px 4px 4px 4px;
+	margin: 0 0 20px;
+	padding: 8px 15px;
+	border: 1px solid #E3E3E3;
+}
+
+/* margin magin top and bottom to avoif empty space between boxe */
+.HTMLGeneratorContentWrapper p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 20px;
+}
+
+/* no icon for sub title under main titles*/
+.HTMLGeneratorContentWrapper div div .IconWrapper{
+	display: none;
+}
+
+.HTMLGeneratorContentWrapper [class*="Element_"] { 
+	width: 100%;
+	clear: both;
+	margin: 0 0 20px 0;
+}
+
+
+/*Title level 1*/
+.HTMLGeneratorContentWrapper>[class*="Element_"]>[class*="TitleId"] { 
+	font-size: 17.5px;
+	display: inline-block;
+	margin: 0;
+	background-color: #F5F5F5;
+	border: 1px solid #E3E3E3;
+	border-radius: 4px 4px 4px 4px;
+	padding: 5px;
+	margin: 0 0 20px 0;
+	border-color: #DDDDDD;
+	border-bottom: 1px solid #eee;}
+
+/*Title level 2*/
+.HTMLGeneratorContentWrapper>[class*="Element_"]>[class*="Element_"]>[class*="TitleId"] {  
+	font-weight: bold;
+	margin-left: 5px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+/* .ui-accordion-content title lvl1*/
+.HTMLGeneratorContentWrapper>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="TitleId"] {  
+	margin-left: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+
+/* .ui-accordion-content title lvl2*/
+.HTMLGeneratorContentWrapper>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="TitleId"] {  
+	margin-left: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+/* .ui-accordion-content title lvl3*/
+.HTMLGeneratorContentWrapper>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="Element_"]>[class*="TitleId"] {  
+	margin-left: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+}

@@ -1,0 +1,924 @@
+{
+	"data":{
+		"className":"aSPLI_EmployeeData",
+		"bUID":"##72",
+		"dataHistory":[
+		],
+		"employee":{
+			"className":"aSPLI_US_Employee",
+			"effectiveDate":"1997-01-01",
+			"terminationReason":"",
+			"terminationDate":null,
+			"hireDate":"1997-01-01",
+			"salaryDefinedAtDate":null,
+			"employmentStatus":"esActive",
+			"workingHours":40,
+			"workingHoursDefinedForFrequency":"fWeekly",
+			"workingCategory":"cFullTime",
+			"baseSalaryAmount":{
+				"amount":37742,
+				"currency":"USD"
+			},
+			"baseSalaryFrequency":"fAnnually",
+			"salaryCommissionAmount":{
+				"amount":0,
+				"currency":"USD"
+			},
+			"salaryCommissionFrequency":"meUndefined",
+			"salaryBonusAmount":{
+				"amount":0,
+				"currency":"USD"
+			},
+			"salaryBonusFrequency":"meUndefined",
+			"canBeEnrolled":true,
+			"additionalDynamicDatas":[
+			],
+			"worksiteState":"meUndefined"
+		},
+		"person":{
+			"data":{
+				"className":"aSPLI_PersonData",
+				"bUID":"##74",
+				"dataHistory":[
+				],
+				"thirdPartyId":"DistRoot",
+				"correspondences":[
+					{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"1963-04-21",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"3324 RACCOON RUN",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"98109",
+								"city":"Seattle"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"WA",
+							"county":"",
+							"fIPSCode":0
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(206) 902-6090",
+						"privatePhoneExtension":"",
+						"officePhone":"",
+						"officePhoneExtension":"",
+						"cellPhone":"(206) 902-6090",
+						"fax":"",
+						"eMail":"raymond.charles@free.com",
+						"mediaType":"Mail",
+						"isInvalid":false,
+						"reasonForInvalidAddress":""
+					}
+				],
+				"paymentMethods":[
+					{
+						"className":"aSPCB_US_BankAccount",
+						"name":"Chase Manhattan Bank",
+						"effectiveDate":"2013-06-17",
+						"endDate":null,
+						"holderName":"Charles",
+						"currency":"cUSDollar",
+						"accountType":"catChecking",
+						"branchName":"Branch",
+						"depositType":"dpNA",
+						"bankName":"Chase Manhattan Bank",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"3878 LEXINGTON AVENUE",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"10015",
+								"city":"NEW YORK"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"NY",
+							"county":"",
+							"fIPSCode":0
+						},
+						"accountNumber":"000140867179885",
+						"routingNumber":"091000019",
+						"preNoteCompleted":true,
+						"preNoteProcessCompletionDate":"2014-01-01"
+					}
+				],
+				"contacts":[
+				],
+				"logins":[
+					{
+						"data":{
+							"className":"aSPCB_ExternalApplicationUserData",
+							"bUID":"",
+							"dataHistory":[
+							],
+							"profiles":[
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Broker",
+									"code":"WB"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Individual Client",
+									"code":"WC"
+								}
+							],
+							"extendedProfile":null,
+							"organizationUnit":null,
+							"hasVisibilityOnDistributionTree":{
+								"className":"aSPCB_OrganizationUnitIdentifier",
+								"bUID":"",
+								"description":"Internal Agents (Distributor) (Direct Distribution)",
+								"unitCode":"AA"
+							},
+							"loginEntity":{
+								"className":"aSPCB_ApplicationLogin",
+								"fullName":"raymond.charles@free.com",
+								"name":"raymond.charles@free.com",
+								"password":"",
+								"forbatch":false,
+								"isDisabled":false,
+								"jobLabel":"",
+								"preferedLanguageCode":"",
+								"email":"raymond.charles@free.com"
+							},
+							"actor":{
+								"className":"aSPCB_ActorIdentifier",
+								"bUID":"##74",
+								"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109"
+							}
+						},
+						"identifier":{
+							"className":"aSPCB_ExternalApplicationUserIdentifier",
+							"bUID":"",
+							"description":"raymond.charles@free.com",
+							"name":"raymond.charles@free.com",
+							"actorReference":{
+								"className":"aSPLI_PersonIdentifier",
+								"bUID":"",
+								"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109",
+								"internalClientId":"",
+								"externalClientId":{
+									"externalClientId":"0000000043WEX",
+									"thirdPartyID":"DistRoot"
+								}
+							}
+						}
+					}
+				],
+				"actorDataExtension":null,
+				"externalClientId":"0000000043WEX",
+				"actor":{
+					"className":"aSPLI_Person",
+					"name":"Charles",
+					"shortName":"Raymond",
+					"creationDate":"2018-07-10",
+					"preferredLanguageCode":"En",
+					"terminationDate":null,
+					"preferredContactChoice":"pcDefaultCorrespondence",
+					"delinquent":false,
+					"underSurveillance":false,
+					"isAnonymous":false,
+					"birthDate":"1963-04-21",
+					"personTitleEnum":"ptMr",
+					"priorName":"",
+					"middleName1":"",
+					"middleName2":"",
+					"nameSuffix":"",
+					"gender":"gMale",
+					"sSN":"758685214",
+					"maritalStatus":"cMarried",
+					"attachedToAnOtherSSN":false,
+					"nationality":"",
+					"birthRank":1,
+					"birthCountry":"",
+					"birthPlaceCity":"Seattle",
+					"birthPlaceZipCode":"98109",
+					"birthPlaceState":"",
+					"legalRepresentativeId_Deprecated5200":{
+						"buid":"",
+						"internalClientId":"",
+						"externalClientIdentifier":{
+							"externalClientId":"",
+							"thirdPartyID":""
+						}
+					},
+					"occupation":"",
+					"additionalDatas":[
+						{
+							"className":"aSPCB_ClassificationValue",
+							"fieldCode":"1",
+							"fieldName":"Internal Employee",
+							"codeForPopulationClass":"",
+							"valueCode":"NIE",
+							"fieldValue":"Is Not Internal Employee",
+							"nameDescription":"Is Not Internal Employee"
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"fieldCode":"2",
+							"fieldName":"VIP",
+							"codeForPopulationClass":"",
+							"valueCode":"Is not VIP",
+							"fieldValue":"Is not VIP",
+							"nameDescription":"Is not VIP"
+						}
+					],
+					"oldSSN":"",
+					"oldLastName":"",
+					"oldFirstname":"",
+					"oldDOB":null,
+					"isIncapableAdult":false,
+					"isEmancipatedMinor":false
+				},
+				"claimDisbursementChannel":[
+				],
+				"legalRepresentative":{
+					"data":null,
+					"identifier":null
+				}
+			},
+			"identifier":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109",
+				"internalClientId":"",
+				"externalClientId":{
+					"externalClientId":"0000000043WEX",
+					"thirdPartyID":"DistRoot"
+				}
+			}
+		},
+		"legalEntity":{
+			"data":{
+				"className":"aSPLI_LegalEntityData",
+				"bUID":"##73",
+				"dataHistory":[
+				],
+				"thirdPartyId":"DistRoot",
+				"correspondences":[
+					{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"1800-01-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"28381 RANCHO DE LINDA ",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"92677",
+								"city":"laguna niguel"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"CA",
+							"county":"",
+							"fIPSCode":0
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(732) 263-0151",
+						"privatePhoneExtension":"",
+						"officePhone":"",
+						"officePhoneExtension":"",
+						"cellPhone":"(732) 263-0151",
+						"fax":"(732) 263-0151",
+						"eMail":"asgoodasgrass@free.com",
+						"mediaType":"Mail",
+						"isInvalid":false,
+						"reasonForInvalidAddress":""
+					}
+				],
+				"paymentMethods":[
+					{
+						"className":"aSPCB_US_BankAccount",
+						"name":"Chase Manhattan Bank",
+						"effectiveDate":"2013-05-24",
+						"endDate":null,
+						"holderName":"As Good as Grass",
+						"currency":"cUSDollar",
+						"accountType":"catChecking",
+						"branchName":"Branch",
+						"depositType":"dpNA",
+						"bankName":"Chase Manhattan Bank",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"2353 LEXINGTON AVENUE",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"10015",
+								"city":"NEW YORK"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"NY",
+							"county":"",
+							"fIPSCode":0
+						},
+						"accountNumber":"000140867178776",
+						"routingNumber":"091000019",
+						"preNoteCompleted":true,
+						"preNoteProcessCompletionDate":"2014-01-01"
+					}
+				],
+				"contacts":[
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Secretary",
+						"contactName":"John Smith",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Director",
+						"contactName":"William Doe",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Sales man",
+						"contactName":"Kent Johns",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Financial director",
+						"contactName":"Ruth Browns",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Project manager",
+						"contactName":"Steve Powell",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Chief executive officer",
+						"contactName":"Roberta Jackson",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Advisor",
+						"contactName":"Elizabeth White",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Staff manager",
+						"contactName":"Sandy Robinson",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Accountant",
+						"contactName":"Heather Clarck",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Technical director",
+						"contactName":"Maria Walker",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"28381 RANCHO DE LINDA ",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"92677",
+									"city":"laguna niguel"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"CA",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(732) 263-0151",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(732) 263-0151",
+							"fax":"(732) 263-0151",
+							"eMail":"asgoodasgrass@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					}
+				],
+				"logins":[
+					{
+						"data":{
+							"className":"aSPCB_ExternalApplicationUserData",
+							"bUID":"",
+							"dataHistory":[
+							],
+							"profiles":[
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Broker",
+									"code":"WB"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Group Admin",
+									"code":"WGA"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Legal Entity Client",
+									"code":"WLEC"
+								}
+							],
+							"extendedProfile":null,
+							"organizationUnit":null,
+							"hasVisibilityOnDistributionTree":{
+								"className":"aSPCB_OrganizationUnitIdentifier",
+								"bUID":"",
+								"description":"Internal Agents (Distributor) (Direct Distribution)",
+								"unitCode":"AA"
+							},
+							"loginEntity":{
+								"className":"aSPCB_ApplicationLogin",
+								"fullName":"asgoodasgrass@free.com",
+								"name":"asgoodasgrass@free.com",
+								"password":"",
+								"forbatch":false,
+								"isDisabled":false,
+								"jobLabel":"",
+								"preferedLanguageCode":"",
+								"email":"asgoodasgrass@free.com"
+							},
+							"actor":{
+								"className":"aSPCB_ActorIdentifier",
+								"bUID":"##73",
+								"description":"As Good as Grass (ASG)"
+							}
+						},
+						"identifier":{
+							"className":"aSPCB_ExternalApplicationUserIdentifier",
+							"bUID":"",
+							"description":"asgoodasgrass@free.com",
+							"name":"asgoodasgrass@free.com",
+							"actorReference":{
+								"className":"aSPLI_LegalEntityIdentifier",
+								"bUID":"",
+								"description":"As Good as Grass (ASG)",
+								"internalClientId":"",
+								"externalClientId":{
+									"externalClientId":"0000000064WEX",
+									"thirdPartyID":"DistRoot"
+								}
+							}
+						}
+					}
+				],
+				"claimDisbursementChannel":[
+				],
+				"actorDataExtension":null,
+				"externalClientId":"0000000064WEX",
+				"actor":{
+					"className":"aSPLI_US_LegalEntity",
+					"shortName":"ASG",
+					"creationDate":"2018-07-10",
+					"preferredLanguageCode":"En",
+					"terminationDate":null,
+					"preferredContactChoice":"pcDefaultCorrespondence",
+					"delinquent":false,
+					"underSurveillance":false,
+					"isAnonymous":false,
+					"name":"As Good as Grass",
+					"masterLegalEntity":{
+						"buid":"",
+						"internalClientId":"",
+						"externalClientIdentifier":{
+							"externalClientId":"",
+							"thirdPartyID":""
+						}
+					},
+					"activity":"",
+					"inBankrupcy":false,
+					"country":"UNITED STATES",
+					"state":"NY",
+					"industrialClassification":{
+						"classificationSystem":"SIC US",
+						"code":"5451"
+					},
+					"totalNumberOfEmployees":100,
+					"additionalDatas":[
+					],
+					"companyType":"Private",
+					"worksiteStates":[
+						"MN",
+						"NY"
+					],
+					"taxId":"1"
+				},
+				"headquarters":[
+					{
+						"className":"aSPCB_ExternalRelationWithActorData",
+						"bUID":"",
+						"dataHistory":[
+						],
+						"externalRelationshipWithActor":{
+							"className":"aSPCB_ExternalRelationWithActor",
+							"startDate":"2015-07-01",
+							"endDate":null
+						},
+						"actor":{
+							"className":"aSPCB_ClientIdentifier",
+							"bUID":"",
+							"description":"ASH grove True Value Home Center (ASH)",
+							"internalClientId":"",
+							"externalClientId":{
+								"externalClientId":"0000000069WEX",
+								"thirdPartyID":"DistRoot"
+							}
+						}
+					}
+				]
+			},
+			"identifier":{
+				"className":"aSPLI_LegalEntityIdentifier",
+				"bUID":"",
+				"description":"As Good as Grass (ASG)",
+				"internalClientId":"",
+				"externalClientId":{
+					"externalClientId":"0000000064WEX",
+					"thirdPartyID":"DistRoot"
+				}
+			}
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_EmployeeIdentifier",
+		"bUID":"",
+		"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109 from As Good as Grass (ASG)",
+		"employeeId":"",
+		"personIdentifier":{
+			"className":"aSPLI_PersonIdentifier",
+			"bUID":"",
+			"description":"Raymond Charles 3324 RACCOON RUN, Seattle, WA 98109",
+			"internalClientId":"",
+			"externalClientId":{
+				"externalClientId":"0000000043WEX",
+				"thirdPartyID":"DistRoot"
+			}
+		},
+		"legalEntityIdentifier":{
+			"className":"aSPLI_LegalEntityIdentifier",
+			"bUID":"",
+			"description":"As Good as Grass (ASG)",
+			"internalClientId":"",
+			"externalClientId":{
+				"externalClientId":"0000000064WEX",
+				"thirdPartyID":"DistRoot"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999 999 999 999 999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[MontantDeVersement]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771178]]></NSId><Id Id="2"><![CDATA[19]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Float></Parameters><Parameters><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[0]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999 999 999 999 999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Taux]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771178]]></NSId><Id Id="2"><![CDATA[20]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Float></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[NombreDeVersement]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771174]]></NSId><Id Id="2"><![CDATA[97]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Valeur numérique]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+MontantDeVersement : Num8
+Taux : Num8
+NombreDeVersement : Int4
+
+
+procedure WFCalculate(inOut Result : Num8)
+   var C1 : Num8
+   var C2 : Num8
+   
+   C1 = self.Puissance(Num8(1) + self.Taux, self.NombreDeVersement + 1)
+   C2 = (C1 - 1) / self.Taux - 1
+   Result = C2 * self.MontantDeVersement
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107183]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[CalculDuPlacementVersementsReguliers]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768706]]></NSId><Id Id="2"><![CDATA[12]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs20 La probl\'e8matique\par
+Prenons un exemple. On veut calculer le capital obtenu par le placement de 100 ? chaque d\'e9but de mois pendant un an. Le taux du placement est de 5% annuel.\par
+Le taux p\'e9riodique mensuel est de 0,4074 %\par
+Premi\'e8re mode de calcul : D\'e9composition de chaque fin de mois pour ajouter le versement suivant et recalculer les int\'e9r\'eats.\par
+Deuxi\'e8me mode de calcul : D\'e9composition des int\'e9r\'eats g\'e9n\'e9r\'e9s par chaque versement.\par
+\par
+\par
+Une formule math\'e9matique permet d'obtenir directement ce r\'e9sultat. \par
+\par
+\par
+}
+]]></Comment><Name Id="3"><![CDATA[CalculDuPlacementVersementsReguliers]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[12]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></EntityExport>

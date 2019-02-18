@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"self":null,
+		"name":"",
+		"maxSize":0
+	},
+	"response":[
+		{
+			"className":"aSPLI_OrganizationUnit",
+			"name":"Internal Agents",
+			"actorName":"",
+			"actorID":"",
+			"parentName":"",
+			"parentUnitCode":"",
+			"isADistributor":true,
+			"isADistributionNetwork":false,
+			"unitCode":"AA",
+			"externalOrgUnit":false,
+			"mainActivity":"Front Office",
+			"backOfficeActivity":0,
+			"backOfficeActivityDescription":"",
+			"externalBackOffice":false,
+			"creationDate":null,
+			"productDistributionRoleName":"",
+			"isForDirectDistribution":false,
+			"directDistributionChannel":"ddcIndividual"
+		}
+	],
+	"eval":null,
+	"className":"asli_subscribe_policy",
+	"methodName":"GetAvailableDistributionUnitsForPolicy",
+	"version":"5.8.2.0",
+	"date":"2018-08-07",
+	"errors":[
+	]
+}

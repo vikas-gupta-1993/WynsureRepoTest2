@@ -1,0 +1,73 @@
+.flyout .flyout-body {
+  border-left: 1px solid #585858;
+  border-right: 1px solid #585858;
+  background-color: #FFFFFF;
+}
+
+.flyout .flyout-panel {
+  display: none;
+  float: left;
+  color: black; 
+  z-index: 2;  
+  width: 300px; 
+  margin-top: 32px;
+}
+
+.flyout .opened-flyout .flyout-panel {
+  display: block;
+}
+
+.flyout .flyout-header-decoration {
+  background-repeat: no-repeat;
+  background-image: url('../images/arrow-top.png');
+  position: relative;
+  width: 29px;
+  height: 16px;  
+  top: -21px;
+  left: 3px;
+  z-index: 100;
+  float: left;
+}
+
+.flyout .flyout-header {
+  border-left: 1px solid #585858;
+  border-right: 1px solid #585858;
+  border-top: 1px solid #585858;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.flyout .flyout-footer {
+  border-left: 1px solid #585858;
+  border-right: 1px solid #585858;
+  border-bottom: 1px solid #585858;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0;
+  min-height: 5px;
+  background-color: white;
+}
+
+.flyout-form {
+  height: 24px;  
+}
+
+.flyout-form .action {
+  display: none;
+}
+
+.flyout-form a{
+	color: #555;
+}
+
+.flyout {
+  height: 24px; 
+  display: block;
+}
+
+.popover-width + .popover{
+	 max-width: 100%; 
+}

@@ -1,0 +1,49 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"contractBuid":"318842846_8"
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L79",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":19.62,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":-5,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000519 List Billing",
+			"buid":"318842552_79"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"SA80",
+			"thirdParty":"Finacus Finacus",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # Qu0000000506 Self Administered (",
+			"buid":"318843105_80"
+		}
+	],
+	"className":"asli_manage_accounting",
+	"methodName":"SearchPolicyInvoiceAccounts",
+	"version":"5.8.1.0",
+	"date":"2018-01-03",
+	"errors":[
+	]
+}

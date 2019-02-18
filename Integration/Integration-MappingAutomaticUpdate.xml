@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Mapping Automatic Update">
+   <aWEXIntegDBMappingUpdateDesc name="DB Mapping Update WynsureOracle">
+      <Name>DB Mapping Update WynsureOracle</Name>
+      <myText/>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <theDBDef>
+         <aOracleOCI9DBDef name="WynsureOracle"/>
+      </theDBDef>
+      <OutputSqlFileName>(BRANCHROOTFOLDER)\Package\SQL_Update\Oracle\WynsureOracleDBUpdate.sql</OutputSqlFileName>
+	  <AddingAuthorized>True</AddingAuthorized>
+   </aWEXIntegDBMappingUpdateDesc>
+   <aWEXIntegDBMappingUpdateDesc name="DB Mapping Update WynsureSQLServer">
+      <Name>DB Mapping Update WynsureSQLServer</Name>
+      <myText/>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <theDBDef>
+         <aSQLServerDBDef name="WynsureSQLServer"/>
+      </theDBDef>
+      <OutputSqlFileName>(BRANCHROOTFOLDER)\Package\SQL_Update\SQLServer\WynsureSQLServerDBUpdate.sql</OutputSqlFileName>
+	  <AddingAuthorized>True</AddingAuthorized>
+   </aWEXIntegDBMappingUpdateDesc>
+   <aWEXIntegDBMappingUpdateDesc name="DB Mapping Update WynsurePostgresql">
+      <Name>DB Mapping Update WynsurePostgresql</Name>
+      <myText/>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <theDBDef>
+         <aPostgresDBDef name="WynsurePostgresql"/>
+      </theDBDef>
+      <OutputSqlFileName>(BRANCHROOTFOLDER)\Package\SQL_Update\PostgreSQL\WynsureSQLServerDBUpdate.sql</OutputSqlFileName>
+	  <AddingAuthorized>True</AddingAuthorized>
+   </aWEXIntegDBMappingUpdateDesc>
+</aWEXIntegrationPlanDesc>

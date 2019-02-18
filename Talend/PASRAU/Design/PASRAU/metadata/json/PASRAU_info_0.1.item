@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_mqkJMYRBEeijA5xog5AfaQ" name="PASRAU_info" dataPackage="_mqkJRIRBEeijA5xog5AfaQ _6xAqsKbKEeiHEOOHI6rPEg" JSONFilePath="C:/Talend/PASRAU/changedJJson/json_170818.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_mqkJMoRBEeijA5xog5AfaQ" LimitBoucle="50" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_mqkJM4RBEeijA5xog5AfaQ" RelativeXPathQuery="month" TagName="month"/>
+      <schemaTargets xmi:id="_mqkJNIRBEeijA5xog5AfaQ" RelativeXPathQuery="year" TagName="year"/>
+      <schemaTargets xmi:id="_mqkJNYRBEeijA5xog5AfaQ" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.sIRET" TagName="sIRET_S10_G00_01_001"/>
+      <schemaTargets xmi:id="_mqkJNoRBEeijA5xog5AfaQ" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.sIRET" TagName="sIRET_S10_G00_01_002"/>
+      <schemaTargets xmi:id="_g6p14Ka4Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.name" TagName="name_S10_G00_01_003"/>
+      <schemaTargets xmi:id="_GAdgUKa4Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.line1" TagName="line1_S10_G00_01_004"/>
+      <schemaTargets xmi:id="_w6SiYKa4Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.zipCode" TagName="zipCode_S10_G00_01_005"/>
+      <schemaTargets xmi:id="_61sbkKa4Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.city" TagName="city_S10_G00_01_006"/>
+      <schemaTargets xmi:id="_SeDM8Ka5Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.country" TagName="country_S10_G00_01_007"/>
+      <schemaTargets xmi:id="_BPhO8Ka6Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getContactName_PASRAUEmission" TagName="getContactName_PASRAUEmission_S10_G00_02_002"/>
+      <schemaTargets xmi:id="_gI8aMKa6Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getCustomerContact_PASRAUEmission.eMail" TagName="eMail_S10_G00_02_004"/>
+      <schemaTargets xmi:id="_1xJRsKa6Eei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getCustomerContact_PASRAUEmission.privateFixedPhone" TagName="privateFixedPhone_S10_G00_02_005"/>
+      <schemaTargets xmi:id="_sVCfcKbBEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getContactName_PASRAUDeclaration" TagName="getContactName_PASRAUDeclaration_S20_G00_07_001"/>
+      <schemaTargets xmi:id="_zGBOkKbCEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getCustomerContact_PASRAUDeclaration.privateFixedPhone" TagName="privateFixedPhone_S20_G00_07_002"/>
+      <schemaTargets xmi:id="_CdAmsKbDEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.getCustomerContact_PASRAUDeclaration.eMail" TagName="eMail_S20_G00_07_003"/>
+      <schemaTargets xmi:id="_mqkJPoRBEeijA5xog5AfaQ" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.sIRET" TagName="sIRET_S21_G00_06_001"/>
+      <schemaTargets xmi:id="_mqkJP4RBEeijA5xog5AfaQ" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.sIRET" TagName="sIRET_S21_G00_06_002"/>
+      <schemaTargets xmi:id="_3Fam4KbDEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getIndustrialClassificationCode" TagName="getIndustrialClassificationCode_S21_G00_06_003"/>
+      <schemaTargets xmi:id="_SVY_MKbEEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.line1" TagName="line1_S21_G00_06_004"/>
+      <schemaTargets xmi:id="_2YrnQKbEEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.zipCode" TagName="zipCode_S21_G00_06_005"/>
+      <schemaTargets xmi:id="_DnvpkKbFEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.city" TagName="city_S21_G00_06_006"/>
+      <schemaTargets xmi:id="_mqkJQIRBEeijA5xog5AfaQ" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.sIRET" TagName="sIRET_S21_G00_11_001"/>
+      <schemaTargets xmi:id="_noTtwKbFEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getIndustrialClassificationCode" TagName="getIndustrialClassificationCode_S21_G00_11_002"/>
+      <schemaTargets xmi:id="_AKfDEKbGEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.line1" TagName="line1_S21_G00_11_003"/>
+      <schemaTargets xmi:id="_QiEVgKbGEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.zipCode" TagName="zipCode_S21_G00_11_004"/>
+      <schemaTargets xmi:id="_e6KccKbGEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.legalEntity.getDefaultAddress.zipCode.city" TagName="city_S21_G00_11_005"/>
+      <schemaTargets xmi:id="_PvNfwKbHEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.bankAccount.bIC" TagName="bIC_S21_G00_20_003"/>
+      <schemaTargets xmi:id="_FWWOgKbHEei_x48y2wg25A" RelativeXPathQuery="getClaimTaxDeductionFlowConfig.bankAccount.iBAN" TagName="iBAN_S21_G00_20_004"/>
+      <schemaTargets xmi:id="_mqkJQ4RBEeijA5xog5AfaQ" RelativeXPathQuery="globalAmount.amount" TagName="amount_S21_G00_20_005"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mqkJRIRBEeijA5xog5AfaQ" name="default" dataManager="_mqkJMYRBEeijA5xog5AfaQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mqkJRYRBEeijA5xog5AfaQ" id="_A9cZYIQ9EeijA5xog5AfaQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJRoRBEeijA5xog5AfaQ" label="month" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJR4RBEeijA5xog5AfaQ" label="year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJSIRBEeijA5xog5AfaQ" label="sIRET_S10_G00_01_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJSYRBEeijA5xog5AfaQ" label="sIRET_S10_G00_01_002" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJSoRBEeijA5xog5AfaQ" label="name_S10_G00_01_003" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJUYRBEeijA5xog5AfaQ" label="sIRET_S21_G00_06_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJUoRBEeijA5xog5AfaQ" label="sIRET_S21_G00_06_002" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJU4RBEeijA5xog5AfaQ" label="sIRET_S21_G00_11_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJVIRBEeijA5xog5AfaQ" label="bIC_S21_G00_20_003" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJVYRBEeijA5xog5AfaQ" label="iBAN_S21_G00_20_004" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqkJVoRBEeijA5xog5AfaQ" label="amount_S21_G00_20_005" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_6xAqsKbKEeiHEOOHI6rPEg" name="default" dataManager="_mqkJMYRBEeijA5xog5AfaQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6xAqsabKEeiHEOOHI6rPEg" id="_2lXwsKbKEeiHEOOHI6rPEg" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqsqbKEeiHEOOHI6rPEg" label="month" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqs6bKEeiHEOOHI6rPEg" label="year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqtKbKEeiHEOOHI6rPEg" label="sIRET_S10_G00_01_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqtabKEeiHEOOHI6rPEg" label="sIRET_S10_G00_01_002" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqtqbKEeiHEOOHI6rPEg" label="name_S10_G00_01_003" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqt6bKEeiHEOOHI6rPEg" label="line1_S10_G00_01_004" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAquKbKEeiHEOOHI6rPEg" label="zipCode_S10_G00_01_005" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAquabKEeiHEOOHI6rPEg" label="city_S10_G00_01_006" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAquqbKEeiHEOOHI6rPEg" label="country_S10_G00_01_007" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqu6bKEeiHEOOHI6rPEg" label="getContactName_PASRAUEmission_S10_G00_02_002" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqvKbKEeiHEOOHI6rPEg" label="eMail_S10_G00_02_004" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqvabKEeiHEOOHI6rPEg" label="privateFixedPhone_S10_G00_02_005" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqvqbKEeiHEOOHI6rPEg" label="getContactName_PASRAUDeclaration_S20_G00_07_001" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqv6bKEeiHEOOHI6rPEg" label="privateFixedPhone_S20_G00_07_002" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqwKbKEeiHEOOHI6rPEg" label="eMail_S20_G00_07_003" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqwabKEeiHEOOHI6rPEg" label="sIRET_S21_G00_06_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqwqbKEeiHEOOHI6rPEg" label="sIRET_S21_G00_06_002" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqw6bKEeiHEOOHI6rPEg" label="getIndustrialClassificationCode_S21_G00_06_003" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqxKbKEeiHEOOHI6rPEg" label="line1_S21_G00_06_004" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqxabKEeiHEOOHI6rPEg" label="zipCode_S21_G00_06_005" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqxqbKEeiHEOOHI6rPEg" label="city_S21_G00_06_006" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqx6bKEeiHEOOHI6rPEg" label="sIRET_S21_G00_11_001" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqyKbKEeiHEOOHI6rPEg" label="getIndustrialClassificationCode_S21_G00_11_002" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqyabKEeiHEOOHI6rPEg" label="line1_S21_G00_11_003" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqyqbKEeiHEOOHI6rPEg" label="zipCode_S21_G00_11_004" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqy6bKEeiHEOOHI6rPEg" label="city_S21_G00_11_005" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqzKbKEeiHEOOHI6rPEg" label="bIC_S21_G00_20_003" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqzabKEeiHEOOHI6rPEg" label="iBAN_S21_G00_20_004" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6xAqzqbKEeiHEOOHI6rPEg" label="amount_S21_G00_20_005" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

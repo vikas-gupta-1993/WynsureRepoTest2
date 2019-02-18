@@ -1,0 +1,98 @@
+{
+	"data":{
+		"className":"aSPLI_LegalEntityData",
+		"bUID":"##21",
+		"dataHistory":[
+		],
+		"thirdPartyId":"DistRoot",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1800-01-01",
+				"addressUsage":"3",
+				"address":{
+					"className":"aSPCB_US_PostalAddress",
+					"line1":"21ST MAIN",
+					"line2":"",
+					"zipCodeAndCity":{
+						"zipCode":"92677",
+						"city":"laguna niguel"
+					},
+					"country":"UNITED STATES",
+					"district":"",
+					"state":"CA",
+					"county":"",
+					"fIPSCode":0
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"+1 2056645884",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"",
+				"fax":"",
+				"eMail":"",
+				"mediaType":"",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+		],
+		"contacts":[
+		],
+		"logins":[
+		],
+		"claimDisbursementChannel":[
+		],
+		"actorDataExtension":null,
+		"externalClientId":"0000000097",
+		"actor":{
+			"className":"aSPLI_US_LegalEntity",
+			"shortName":"Beta Trading Company",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"En",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"name":"Beta Trading Company",
+			"masterLegalEntity":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"activity":"",
+			"inBankrupcy":false,
+			"country":"UNITED STATES",
+			"state":"CA",
+			"industrialClassification":{
+				"classificationSystem":"",
+				"code":""
+			},
+			"totalNumberOfEmployees":100,
+			"additionalDatas":[
+			],
+			"companyType":"Private",
+			"worksiteStates":[
+			],
+			"taxId":""
+		},
+		"headquarters":[
+		]
+	},
+	"identifier":{
+		"className":"aSPLI_LegalEntityIdentifier",
+		"bUID":"",
+		"description":"Beta Trading Company (Beta Trading Company)",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000097",
+			"thirdPartyID":"DistRoot"
+		}
+	}
+}

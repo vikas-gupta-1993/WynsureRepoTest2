@@ -1,0 +1,16 @@
+{
+	"description": "forward task",
+	"request": {
+		"taskBuid": "{{taskbuid}}"
+	},
+	"response": {
+		"_Result": true
+	},
+	"eval": null,
+	"className": "aSLI_Manage_CustomerRequest",
+	"methodName": "ForwardCustomerRequestEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-06",
+	"errors": [
+	]
+}

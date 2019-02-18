@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+		
+		"objectBUID":""
+	},
+	"response":[
+	],
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchReceivedRequirementsForObject",
+	"version":"5.8.2.0",
+	"date":"2018-07-18",
+	"errors":[
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Introuvable",
+			"kindNumber":8
+		}
+	]
+}

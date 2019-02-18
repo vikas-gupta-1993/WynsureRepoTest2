@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_pcE_sFT7EeiKj6y9QmNOKQ" confirmationNeeded="false" name="Local">
+    <contextParameter xmi:id="_pcE_sVT7EeiKj6y9QmNOKQ" comment="" name="loginName" prompt="loginName?" promptNeeded="false" type="id_String" value="&quot;Super Gestionnaire&quot;"/>
+    <contextParameter xmi:id="_pcE_slT7EeiKj6y9QmNOKQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_pcE_s1T7EeiKj6y9QmNOKQ" comment="" name="keystore_path" prompt="keystore_path?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_pcE_tFT7EeiKj6y9QmNOKQ" comment="" name="endPoint" prompt="endPoint?" promptNeeded="false" type="id_String" value="&quot;http://localhost:8008/WebServices/aXi582Servlet.gold&quot;"/>
+    <contextParameter xmi:id="_pcE_tVT7EeiKj6y9QmNOKQ" comment="" name="auth_usr" prompt="auth_usr?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_pcE_tlT7EeiKj6y9QmNOKQ" comment="" name="auth_pw" prompt="auth_pw?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_pcE_t1T7EeiKj6y9QmNOKQ" comment="" name="keystore_pw" prompt="keystore_pw?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_pcE_uFT7EeiKj6y9QmNOKQ" confirmationNeeded="false" name="Acceptance">
+    <contextParameter xmi:id="_pcE_uVT7EeiKj6y9QmNOKQ" comment="" name="loginName" prompt="loginName?" promptNeeded="false" type="id_String" value="&quot;Super Gestionnaire&quot;"/>
+    <contextParameter xmi:id="_pcE_ulT7EeiKj6y9QmNOKQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="&quot;D:/talend/clientkeystore&quot;"/>
+    <contextParameter xmi:id="_pcE_u1T7EeiKj6y9QmNOKQ" comment="" name="keystore_path" prompt="keystore_path?" promptNeeded="false" type="id_String" value="&quot;&quot;"/>
+    <contextParameter xmi:id="_pcE_vFT7EeiKj6y9QmNOKQ" comment="" name="endPoint" prompt="endPoint?" promptNeeded="false" type="id_String" value="&quot;http://localhost:8008/WebServices/axih56Servlet.gold&quot;"/>
+    <contextParameter xmi:id="_pcE_vVT7EeiKj6y9QmNOKQ" comment="" name="auth_usr" prompt="auth_usr?" promptNeeded="false" type="id_String" value="&quot;acceptance&quot;"/>
+    <contextParameter xmi:id="_pcE_vlT7EeiKj6y9QmNOKQ" comment="" name="auth_pw" prompt="auth_pw?" promptNeeded="false" type="id_String" value="&quot;58uF7Prz&quot;"/>
+    <contextParameter xmi:id="_pcE_v1T7EeiKj6y9QmNOKQ" comment="" name="keystore_pw" prompt="keystore_pw?" promptNeeded="false" type="id_String" value="&quot;wynsure&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

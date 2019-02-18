@@ -1,0 +1,61 @@
+{
+	"description":"",
+	"request":{
+		"identifier":{
+			"className":"aSPF_Identifier",
+			"bUID":"{{applicationLoginBUID}}",
+			"description":""
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPCB_ExternalApplicationUserData",
+		"bUID":"318840180_110",
+		"dataHistory":[
+		],
+		"profiles":[
+			{
+				"className":"aSPCB_ProfileIdentifier",
+				"bUID":"318833061_46",
+				"description":"wPortal Administrateur collectif",
+				"code":"WAC"
+			},
+			{
+				"className":"aSPCB_ProfileIdentifier",
+				"bUID":"318833061_48",
+				"description":"wPortal Client",
+				"code":"WC"
+			}
+		],
+		"extendedProfile":null,
+		"organizationUnit":null,
+		"hasVisibilityOnDistributionTree":{
+			"className":"aSPCB_OrganizationUnitIdentifier",
+			"bUID":"318842881_4",
+			"description":"Gestion interne (Distributeur) (Distribution directe)",
+			"unitCode":"AI"
+		},
+		"loginEntity":{
+			"className":"aSPCB_ApplicationLogin",
+			"name":"_stehouwer.floortje@free.com",
+			"password":"",
+			"forbatch":false,
+			"isDisabled":false,
+			"jobLabel":"",
+			"preferedLanguageCode":"",
+			"email":"_stehouwer.floortje@free.com"
+		},
+		"actor":{
+			"className":"aSPCB_ActorIdentifier",
+			"bUID":"318851909_91",
+			"description":"Stehouwer FLOORTJE POLSTRAAT 89, Pijnacker, 2903AE, PAYS-BAS"
+		}
+	},
+	"eval":null,
+	"className":"aSCB_Manage_Login",
+	"methodName":"GetApplicationLogin",
+	"version":"5.8.2.0",
+	"date":"2018-07-16",
+	"errors":[
+	]
+}

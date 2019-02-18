@@ -1,0 +1,61 @@
+{
+	"description":"",
+	"request":{
+		"self":null,
+		"claimDeclarationProcessIdentifier":{
+			"$ref":"#",
+			"className":"aSPF_Identifier",
+			"bUID":"318848904_8",
+			"description":""
+		}
+	},
+	"response":[
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Accidentally",
+			"code":"ACCI"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Terminal Illness",
+			"code":"TILL"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Unknown Illness",
+			"code":"UILL"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Heart Attack",
+			"code":"HA"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Death due to injury",
+			"code":"DDI"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Natural Causes",
+			"code":"NC"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Unknown",
+			"code":"UNK"
+		},
+		{
+			"className":"aSPLIC_LossEvent",
+			"name":"Suicide",
+			"code":"SUIC"
+		}
+	],
+	"eval":null,
+	"className":"aslic_manage_claim",
+	"methodName":"GetPossibleLossEvents",
+	"version":"5.8.2.0",
+	"date":"2018-08-10",
+	"errors":[
+	]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWLI_SimpleLossDesc><Code Id="28"><![CDATA[LTD]]></Code><Disabled Id="18"><![CDATA[No]]></Disabled><LossClassDef><aClassDef><Name Id="2"><![CDATA[aWLI_PermanentDisabilityLoss]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218185349]]></Id></aClassDef></LossClassDef><LossFamily Id="29"><![CDATA[0]]></LossFamily><Events><aWLI_LossEvent><Code Id="2"><![CDATA[ACCI]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Accident]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[15]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[PACCI]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Public Accident]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[16]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[WACCI]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Accident at Work]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[ATT]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Attack]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[18]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[DIS]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Disease]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[19]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[PDIS]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Professionnal Disease]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[20]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[Mat]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Maternity]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[21]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[Pat]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Paternity]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><Events><aWLI_LossEvent><Code Id="2"><![CDATA[UKN]]></Code><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[Unknown]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849384]]></NSId><Id Id="2"><![CDATA[23]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_LossEvent></Events><DynamicDataDesc><aWFDynamicObjectDesc><UseValidationRule Id="14"><![CDATA[No]]></UseValidationRule><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838829]]></NSId><Id Id="2"><![CDATA[45]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFDynamicObjectDesc></DynamicDataDesc><CloseDateCalculationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLI_ClaimRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aWLI_ClaimRuleEngine)
+
+uses WFTypes, aWLI_Claim
+
+
+; Rule
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : tWFDate)
+   var dateDeCloture : tWFDate
+   
+   if (self.Claim__Status <> msClosed) and (self.Loss__Status <> msClosed) and (self.Loss__Delivered_Service_Modification_Date = 
+      self.Loss__DeclarationDate)
+      dateDeCloture = self.Loss__DeclarationDate
+      self.IncMonths(3, dateDeCloture)
+      if self.SetAutomaticCloseReason('1')
+      endIf
+   elseif (self.Claim__Status <> msClosed) and (self.Loss__Status <> msClosed) and 
+      (self.Loss__Delivered_Service_Modification_Date <> self.Loss__DeclarationDate) and 
+      (self.DeliveredService__LastIndemnificationFromDate <> self.Loss__DeclarationDate)
+      dateDeCloture = self.Loss__DeclarationDate
+      self.IncMonths(6, dateDeCloture)
+      if self.SetAutomaticCloseReason('1')
+      endIf
+   elseif (self.Claim__Status <> msClosed) and (self.Loss__Status = msClosed)
+      dateDeCloture = self.Loss__DeclarationDate
+      self.IncMonths(3, dateDeCloture)
+      if self.SetAutomaticCloseReason('5')
+      endIf
+   else
+      dateDeCloture = self.UndefinedDate
+   endIf
+   ;
+   Result = dateDeCloture
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLI_ClaimRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218186010]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLI_CapitalBenefitBroker]]></RuleEngineUsingKindContext><ReturnType><aWFDateType><Name>tWFDate</Name><NSId>218103824</NSId><Id>937033324205965314</Id><ClassName>WFTypes</ClassName></aWFDateType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLI_SimpleLossDesc><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id></aWLI_SimpleLossDesc></MyOwner><Name Id="3"><![CDATA[LTD closure rule]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835509]]></NSId><Id Id="2"><![CDATA[1560]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></CloseDateCalculationRule><DefaultAutomaticCloseReason Id="48"><![CDATA[1]]></DefaultAutomaticCloseReason><Name Id="3"><![CDATA[Long Term Disability]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318849250]]></NSId><Id Id="2"><![CDATA[17]]></Id><Version Id="3"><![CDATA[2]]></Version></aWLI_SimpleLossDesc></EntityExport>

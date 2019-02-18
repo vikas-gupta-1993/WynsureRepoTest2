@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xmltreenav>
+  <display name="Fichier de Conversion" type="local" file="\\srvdfs00\partages\51-100\m00072\Travail\PRJ (Projets)\POT ( Pôle offres tarifaires)\GPU (Gestion de projet - espace public)\Outils\ToolBox\ByTel\xtnVisualisation\xtn_ops_descript.xsl" />
+  <display name="PTE 06 07" type="local" file="\\srvdfs00\partages\51-100\m00072\Travail\PRJ (Projets)\POT ( Pôle offres tarifaires)\GPU (Gestion de projet - espace public)\Outils\ToolBox\ByTel\xtnVisualisation\xtn_pte0607_descript.xsl" />
+  <display name="Ligne Valorisée" type="html" file="\\srvdfs00\partages\51-100\m00072\Travail\PRJ (Projets)\POT ( Pôle offres tarifaires)\GPU (Gestion de projet - espace public)\Outils\ToolBox\ByTel\xtnVisualisation\lv.xsl" />
+  <search name="All Nodes" expr="*" />
+</xmltreenav>

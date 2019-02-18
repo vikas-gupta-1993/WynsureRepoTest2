@@ -1,0 +1,36 @@
+{
+	"description":"",
+	"request":{
+		"exchangeIdentifier":{
+			"className":"aSPCB_GenericRequirementExchangeIdentifier",
+			"documentReference":"",
+			"bUID":"318840236_2",
+			"description":""
+		}
+	},
+	"response":{
+		"name":"",
+		"content":"",
+		"contentAsText":"",
+		"extension":""
+	},
+	"className":"aSF_Manage_RequirementRequest",
+	"methodName":"GetDocument",
+	"version":"5.7.3.0",
+	"date":"2017-10-10",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"786B_BS_00001",
+			"message":"Invalid Business Identifier",
+			"kind":"errInfo",
+			"kindNumber":4
+		},
+		{
+			"code":"3DFD_BS_00002",
+			"message":"Cannot find the document exchange: unNamed aSPCB_GenericRequirementExchangeIdentifier",
+			"kind":"errInfo",
+			"kindNumber":4
+		}
+	]
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFQuestionnaireDesc><Title Id="9"><![CDATA[]]></Title><Content Id="2"><![CDATA[<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Questionnaire>
+   <Field Kind="Boolean">
+      <Id>ExC</Id>
+      <Title>
+         <Value>Is the Disability result of a intentional self inflicted injury?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>CriminalAct</Id>
+      <Title>
+         <Value>Is the Disability a result of the injury occured while committing a criminal act?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>DUI</Id>
+      <Title>
+         <Value>Is the Disability a result of the injury occurred while driving under the influence of alcohol or drugs?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>RegCare</Id>
+      <Title>
+         <Value>Are you not under the regular care of doctor?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>WorkRelated</Id>
+      <Title>
+         <Value>Is the Disability covered under workers compensation plan and/or is a result of work related illness or injury</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+</Questionnaire>
+]]></Content><Code Id="5"><![CDATA[Ex]]></Code><Name Id="3"><![CDATA[Ex]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775074]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFQuestionnaireDesc></EntityExport>

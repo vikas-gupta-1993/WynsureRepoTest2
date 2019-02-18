@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[FunCos]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MyriadPro-Regular;}{\f1\fnil MS Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs18 The company may pay, or reimburse the deceased covered person's next of kin or legal personal representative, funeran costs \b up to $12,500\b0 , for \b the following expenses\b0 .\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\li720 Transport cost for the deceased, if the funeral is to be a location other than where the member died.\par
+{\pntext\f2\'B7\tab}If the deceased has been cremated, removal of the ashes to a location nominated by the covered person's next of kin or legal personal representative.\par
+{\pntext\f2\'B7\tab}Collection and preparation of the remains.\par
+{\pntext\f2\'B7\tab}Supply and delivery of a casket or urn.\par
+{\pntext\f2\'B7\tab}Shroud (if needed).\par
+{\pntext\f2\'B7\tab}Undertaker, funeral director.\par
+{\pntext\f2\'B7\tab}Hearse and driver.\par
+{\pntext\f2\'B7\tab}Use of the undertaker's permises.\par
+{\pntext\f2\'B7\tab}Floral car.\par
+{\pntext\f2\'B7\tab}Transport of the deceased's family to and from the funeral service.\par
+{\pntext\f2\'B7\tab}Fees and transport of a clergyperson.\par
+{\pntext\f2\'B7\tab}Two press notices.\par
+{\pntext\f2\'B7\tab}Memorial book.\par
+{\pntext\f2\'B7\tab}Floral tributes.\par
+{\pntext\f2\'B7\tab}Burial or cremation fees.\par
+{\pntext\f2\'B7\tab}Headstone or memorial plaque.\par
+\pard\li720\par
+\pard\f1\fs16\par
+}
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[Funeral Costs]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Funeral Costs]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

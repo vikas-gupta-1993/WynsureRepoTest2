@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWLIIndividualContractEndorsementReasonEnum><IsQualifyingLifeEvent Id="1"><![CDATA[Yes]]></IsQualifyingLifeEvent><Code Id="1"><![CDATA[DIV]]></Code><StoredInt4 Id="7"><![CDATA[-1]]></StoredInt4><Name Id="3"><![CDATA[Divorce]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318843371]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndividualContractEndorsementReasonEnum></EntityExport>

@@ -1,0 +1,415 @@
+<html>
+	<head>
+      <link rel="stylesheet" type="text/css" href="WydeWebErrorStyle.css" />
+      <script Language="JavaScript" src="arghash.js"></script>
+      <script Language="JavaScript" src="jquery.js"></script>
+      <script Language="JavaScript">
+
+         /*********************************************/
+         /* Global parameters - use to enable or disable fetures */
+         var showErrorMessages = true; // User can view the error messages
+         var showTechnicalDetails = true; // User can view the technical report
+         var allowEmailToSupport = true; // User can send technical report to support
+         var supportTeamEmail = 'support@wyde.com'; // Email for support team
+         var allowLogToServer = false; // Automatically send technical information to a web page for logging
+         var logToServerURL = 'http://localhost/CollectServer/store.aspx'; // Web page for automatic logging
+         
+         /*********************************************/
+         /* Setting initialization - do not change */
+         jQuery.support.cors = true;
+         var sendToLogServer = false;
+         var sendEmailToSupport = false;
+         
+         /*********************************************/
+         function showHide(elementId) {
+            if (elementId == "")
+               return;
+               
+            var Obj = document.getElementById(elementId);
+            if (Obj != null) {
+               $('#'+elementId).toggle('slow');
+            }
+         }      
+      
+         /*********************************************/
+         function show(elementId) {
+            if (elementId == "")
+               return;
+               
+            var Obj = document.getElementById(elementId);
+            if (Obj != null)
+               Obj.style.display = 'block';
+         }
+
+         /*********************************************/
+         function hide(elementId) {
+            if (elementId == "")
+               return;
+               
+            var Obj = document.getElementById(elementId);
+            if (Obj != null)
+               Obj.style.display = "none";
+         }
+         
+         /*********************************************/
+         function appendToElement(elementId, content) {
+            if ((elementId == "") || (content == ""))
+               return;
+               
+            var Obj = document.getElementById(elementId);
+            if (Obj != null)
+               Obj.innerHTML += content+"\n";
+         }
+         
+         /*********************************************/
+         function getElementByTagAndId(elementTag, elementId, idField) {
+            if (idField == null)
+               idField = "id";
+               
+            if ((elementTag == "") || (elementId == ""))
+               return null;
+            
+            var elementsByTag = document.getElementsByTagName(elementTag);
+            
+            if (elementsByTag == null)
+               return null;
+               
+            for(var elemIndex = 0; elemIndex < elementsByTag.length; elemIndex++) {
+               var currentElement = elementsByTag[elemIndex];
+               var currentId = currentElement.getAttribute(idField);
+               if ((currentId == null) || (currentId == ""))
+                  continue;
+               if (currentId == elementId)
+                  return currentElement;
+            }
+         }
+
+         /*********************************************/
+         //errorType: CallError, ServerError, ApplicationError
+         function writeErrorFromErrorCode(errorType, errorCode) {
+            var currentError = getElementByTagAndId(errorType, errorCode, "Code");
+            if (currentError == null)
+               return;
+            
+            //Display error message
+            var errorShortMessage = currentError.getAttribute("ShortMessage", 0);
+            if  ((errorShortMessage != null) && (errorShortMessage != "")) {
+               appendToElement("ShortMessage", errorShortMessage + "<br/>\n");
+            }
+            
+            //Display error possible causes
+            var errorPossibleCause = currentError.getAttribute("PossibleCause", 0);
+            if  ((errorPossibleCause != null) && (errorPossibleCause != "")) {
+               show("PossibleCause");
+               appendToElement("PossibleCause", errorPossibleCause + "<br/>\n");
+            }
+            
+            //Display error suggestions
+            var suggestionCode1 = currentError.getAttribute("EndUserSuggestion1", 0);
+            if ((suggestionCode1 != null) && (suggestionCode1 != "")) {
+               var suggestion1 = document.getElementById(suggestionCode1);
+               if ((suggestion1 != null) && (suggestion1 != "")) {
+                  var suggestionText1 = suggestion1.getAttribute("Text", 0);
+                  if (document.getElementById("LI_" + suggestionCode1) == null)
+                     appendToElement("SuggestionsList", suggestionText1);
+                  show("Suggestions");
+               }
+            }
+               
+            var suggestionCode2 = currentError.getAttribute("EndUserSuggestion2", 0);
+            if ((suggestionCode2 != null) && (suggestionCode2 != "")) {
+               var suggestion2 = document.getElementById(suggestionCode2);
+               if ((suggestion2 != null) && (suggestion2 != "")) {
+                  var suggestionText2 = suggestion2.getAttribute("Text", 0);
+                  if (document.getElementById("LI_" + suggestionCode2) == null) {
+                     appendToElement("SuggestionsList", suggestionText2);
+                  }
+                  show("Suggestions");
+               }
+            }
+            
+            var suggestionCode3 = currentError.getAttribute("EndUserSuggestion3", 0);
+            if ((suggestionCode3 != null) && (suggestionCode3 != "")) {
+               var suggestion3 = document.getElementById(suggestionCode3);
+               if ((suggestion3 != null) && (suggestion3 != "")) {
+                  var suggestionText3 = suggestion3.getAttribute("Text", 0);
+                  if (document.getElementById("LI_" + suggestionCode3) == null)
+                     appendToElement("SuggestionsList", suggestionText3);
+                  show("Suggestions");
+               }
+            }
+            
+            //Triggers logging ?
+            var logToServer = currentError.getAttribute("LogToServer", 0);
+            if (logToServer.toLowerCase() == 'yes') {
+               sendToLogServer = true;
+            }
+            
+            //Check if the field "SendEmailToSupport" contains yes, replace with 'true'
+            var sendToSupport = currentError.getAttribute("SendEmailToSupport", 0);
+            if (sendToSupport.toLowerCase() == 'yes') {
+               sendEmailToSupport = true;
+            }
+            
+         }
+         
+         /*********************************************/
+         //Agregate technical information in a CVS format
+         function aggregateTechnicalData(equal, separator) {
+            var result = "";
+            
+            for (var item in arghash){
+               result += item + equal + arghash[item] + separator;
+            }
+            return result;
+         }
+         
+         /*********************************************/
+         //Agregate error information in a CVS format
+         function aggregateErrorData(errorType, errorCode, equal, separator) {
+            var result = "";
+            
+            var currentError = getElementByTagAndId(errorType, errorCode, "Code");
+            if (currentError == null)
+               return result;
+            
+            result += "ErrorLevel" + equal + errorType + separator;
+
+            var errorInfo = currentError.getAttribute("Code", 0);
+            if  ((errorInfo != null) && (errorInfo != "")) {
+               result += "Code" + equal + errorInfo + separator;
+            }
+            
+            errorInfo = currentError.getAttribute("Name", 0);
+            if  ((errorInfo != null) && (errorInfo != "")) {
+               result += "Name" + equal + errorInfo + separator;
+            }
+            
+            errorInfo = currentError.getAttribute("ShortMessage", 0);
+            if  ((errorInfo != null) && (errorInfo != "")) {
+               result += "ShortMessage" + equal + errorInfo + separator;
+            }
+            
+            errorInfo = currentError.getAttribute("PossibleCause", 0);
+            if  ((errorInfo != null) && (errorInfo != "")) {
+               result += "PossibleCause" + equal + errorInfo + separator;
+            }
+            
+            errorInfo = currentError.getAttribute("TechnicalSuggestion", 0);
+            if  ((errorInfo != null) && (errorInfo != "")) {
+               result += "TechnicalSuggestion" + equal + errorInfo + separator;
+            }
+            
+            return result;
+         }
+         
+         /*********************************************/
+         //Send data to server
+         function logDataToServer (logUrl, logData) {
+            /*
+            $.ajax({
+               url: logUrl,
+               type: 'POST',
+               data: logData,
+               dataType: 'html',
+               error:   function (jqXHR, textStatus, errorThrown) {
+                           alert(textStatus + " (" + jqXHR.statusText + ":" + 
+                                 jqXHR.responseText + ") : " + errorThrown);
+                        }
+            });
+            */
+            
+            jQuery.post( logUrl, logData, function (data, textStatus, jqXHR) {return;}, 'html');
+         }
+         
+      </script>
+	</head>
+	<body>
+   
+	<!-- BEGIN SECTION ERROR MESSAGES -->													
+		<!-- TPCALL ERROR : -->												
+		<CallError	Name="TPCALL_ERROR_NO_ERROR"	Code="0"	ShortMessage=""	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport='yes'	></CallError>
+		<CallError	Name="TPCALL_ERROR_SERVICE_NOT_FOUND"	Code="1"	ShortMessage="Le service demandé n'existe pas sur ce serveur."	LongMessage=""	PossibleCause="Ce problème est généralement dû à une mauvaise configuration du client WydeWeb."	TechnicalSuggestion="Vérifier le nom du service dans wNetConf.ini côté client et côté serveur. Le nom de ce service est sensible à la casse."	EndUserSuggestion1="ENDUSER_ASK_TECHNICAL_SUPPORT"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer="yes"	SendEmailToSupport='yes'	></CallError>
+		<CallError	Name="TPCALL_ERROR_CANNOT_FIND_MONITOR"	Code="2"	ShortMessage="Serveur inaccessible."	LongMessage=""	PossibleCause="Ce problème est généralement dû à l'indisponibilité du serveur WydeWeb, à une mauvaise configuration du client WydeWeb ou à un problème réseau."	TechnicalSuggestion="Vérifier que le serveur Wyseman est en marche. Vérifier que le port réseau est identique côté client et côté serveur."	EndUserSuggestion1="ENDUSER_CHECK_NETWORK"	EndUserSuggestion2="ENDUSER_RECONNECT"	EndUserSuggestion3="ENDUSER_ASK_TECHNICAL_SUPPORT"	LogToServer=""	SendEmailToSupport='yes'	></CallError>
+		<CallError	Name="TPCALL_ERROR_CONNEXION_CLOSED"	Code="3"	ShortMessage="La connexion au serveur a été fermée."	LongMessage=""	PossibleCause="Ce problème est généralement dû à un problème réseau."	TechnicalSuggestion="La connexion réseau entre client et serveur a peut-être été fermée. Vérifier la connexion réseau."	EndUserSuggestion1="ENDUSER_CHECK_NETWORK"	EndUserSuggestion2="ENDUSER_RECONNECT"	EndUserSuggestion3="ENDUSER_RECONNECT_LATER"	LogToServer=""	SendEmailToSupport='yes'	></CallError>
+														
+		<!-- Server Error : -->												
+		<ServerError	Name="ERROR_NO_ERROR"	Code="0"	ShortMessage=""	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_REFUSED_BY_APPLICATION"	Code="1"	ShortMessage="Requête refusée par l'application."	LongMessage=""	PossibleCause=""	TechnicalSuggestion="Le serveur applicatif (e.g. WedRPCServer.exe) a renvoyé une erreur au serveur Wyseman à l'éxecution d'une requête. Le ApplicationErrorCode vous donnera plus d'informations."	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_PROCESS_NOT_FOUND"	Code="2"	ShortMessage="Le processus demandé n'existe pas."	LongMessage=""	PossibleCause="Ce problème est généralement une simple déconnexion dûe à une longue période d'inactivité. Si cela arrive trop souvent, contactez votre administrateur pour augmenter le délai d'inactivité."	TechnicalSuggestion="Si ce problème arrive trop souvent, il est peut être nécessaire de modifier le paramètre ACTIVITYTIMEOUT dans la configuration du serveur Wyseman."	EndUserSuggestion1="ENDUSER_RECONNECT"	EndUserSuggestion2="ENDUSER_CHECK_NETWORK"	EndUserSuggestion3="ENDUSER_ASK_TECHNICAL_SUPPORT"	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_SERVER_KILLED"	Code="3"	ShortMessage="Le serveur a été fermé."	LongMessage=""	PossibleCause="Ce problème est dû à l'arrêt (généralement dû à un plantage) du processus WydeWeb sur lequel est rattaché la session utilisateur."	TechnicalSuggestion="Le serveur applicatif (e.g. WedRPCServer.exe) a probablement planté, ou a été tué par un administrateur. Noter l'heure exacte de l'erreur et vérifier les logs sur le serveurs (WydeLog dans le journal des événements Windows, ErrorTrace.txt dans le répertoire du serveur)."	EndUserSuggestion1="ENDUSER_CHECK_NETWORK"	EndUserSuggestion2="ENDUSER_CHECK_NETWORK"	EndUserSuggestion3="ENDUSER_ASK_TECHNICAL_SUPPORT"	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_MONITOR_KILLED"	Code="4"	ShortMessage="Le gestionnaire de service a été arrêté."	LongMessage=""	PossibleCause="Ce problème est généralement dû à l'arrêt du serveur WydeWeb."	TechnicalSuggestion="Le serveur Wyseman a été arrêté manuellement. Vérifier qu'il est en marche."	EndUserSuggestion1="ENDUSER_RECONNECT_LATER"	EndUserSuggestion2="ENDUSER_ASK_TECHNICAL_SUPPORT"	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_MONITOR_NOT_FOUND"	Code="5"	ShortMessage="Le gestionnaire de service n'a pas pu être trouvé."	LongMessage=""	PossibleCause="Ce problème est généralement dû à un problème réseau."	TechnicalSuggestion="Le serveur Wyseman est inaccessible. Vérifier qu'il est en marche. Vérifier la connexion réseau de ce poste client."	EndUserSuggestion1="ENDUSER_CHECK_NETWORK"	EndUserSuggestion2="ENDUSER_RECONNECT"	EndUserSuggestion3="ENDUSER_ASK_TECHNICAL_SUPPORT"	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_MONITORFAILEDTORECEIVEDATAFROMNEXTMONITOR"	Code="6"	ShortMessage="Inutilisé"	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_BUFFER_CORRUPTED"	Code="7"	ShortMessage="Le buffer reçu est corrompu."	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_BAD_BUFFER_FORMAT"	Code="8"	ShortMessage="Le buffer reçu n'a pas le bon format."	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_PRIVACY_REQUIRED"	Code="9"	ShortMessage="La transmission nécessite d'être sécurisée."	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_AUTHENTICATION_REQUIRED"	Code="10"	ShortMessage="La transmission nécessite une authentification."	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_SERVICE_NOT_PRESENT"	Code="11"	ShortMessage="Le service demandé n'a pas pu être trouvé."	LongMessage=""	PossibleCause=""	TechnicalSuggestion=""	EndUserSuggestion1=""	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+		<ServerError	Name="ERROR_SERVICE_TEMPORARILY_STOPPED"	Code="12"	ShortMessage="Le service demandé est temporairement indisponible."	LongMessage=""	PossibleCause="Ce problème signifie généralement que le serveur est en maintenance."	TechnicalSuggestion="Le serveur est en maintenance. Vérifier qu'il est relancé après l'opération de maintenance."	EndUserSuggestion1="ENDUSER_RECONNECT_LATER"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ServerError>
+														
+		<!-- Application (WydeWebServer) Error : -->												
+		<ApplicationError	Name="WYDEWEBERROR_UNKNOWNOPERATION"	Code="4"	ShortMessage="Opération inconnue demandée."	LongMessage=""	PossibleCause="Ce problème est dû au fait que votre logiciel client n'est pas à jour."	TechnicalSuggestion="Vérifier que le client a la même version produit que le serveur."	EndUserSuggestion1="ENDUSER_WW_UPDATE"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_CANNOTFINDSESSION"	Code="5"	ShortMessage="La session demandée n'a pas pu être trouvée."	LongMessage=""	PossibleCause="Ce problème est généralement une simple déconnexion dûe à une longue période d'inactivité. Si cela arrive trop souvent, contactez votre administrateur pour augmenter le délai d'inactivité."	TechnicalSuggestion="Si ce problème arrive trop souvent, il est peut être nécessaire de modifier le paramètre ACTIVITYTIMEOUT dans la configuration du serveur Wyseman."	EndUserSuggestion1="ENDUSER_RECONNECT"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_WRONGBUFFERVERSION"	Code="6"	ShortMessage="La version de votre client n'est pas la même que celle du serveur."	LongMessage=""	PossibleCause="Ce problème est dû au fait que votre logiciel client n'est pas à jour."	TechnicalSuggestion="Vérifier que le client a la même version produit que le serveur."	EndUserSuggestion1="ENDUSER_WW_UPDATE"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_CANNOTFINDTHREAD"	Code="7"	ShortMessage="Le thread demandé n'a pas pu être trouvé."	LongMessage=""	PossibleCause="Ce problème est généralement une simple déconnexion dûe à une longue période d'inactivité. Si cela arrive trop souvent, contactez votre administrateur pour augmenter le délai d'inactivité."	TechnicalSuggestion="Si ce problème arrive trop souvent, il est peut être nécessaire de modifier le paramètre ACTIVITYTIMEOUT dans la configuration du serveur Wyseman."	EndUserSuggestion1="ENDUSER_RECONNECT"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer=""	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_CANNOTFINDBITMAP"	Code="22"	ShortMessage="L'image demandée n'a pas pu être trouvée."	LongMessage=""	PossibleCause="Ce problème est généralement dû à une mauvaise configuration du serveur, peut-être liée a un problème de permission ou à fichier manquant sur le serveur."	TechnicalSuggestion="Vérifier que l'utisateur du processus serveur applicatif (e.g. WedRPCServer.exe) a les droits sur le répertoire "tmp" du server applicatif. Vérifier que toutes les ressources images sont présentes avec le serveur applicatif."	EndUserSuggestion1="ENDUSER_ASK_TECHNICAL_SUPPORT"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer="yes"	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_TOOMUCHSESSIONS"	Code="23"	ShortMessage="Trop de sessions ont été créées."	LongMessage=""	PossibleCause="Ce problème est généralement causé par un trop grand nombre d'utilisateurs connectés simultanément."	TechnicalSuggestion="Il peut être nécessaire d'augmenter le nombre de processus créés par Wyseman, la mémoire maximum allouée à un processus, et le nombre d'utilisateurs par processus."	EndUserSuggestion1="ENDUSER_RECONNECT_LATER"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer="yes"	SendEmailToSupport="yes"	></ApplicationError>
+		<ApplicationError	Name="WYDEWEBERROR_NODBCONNECTIONAVAILABLE"	Code="24"	ShortMessage="Aucune connexion à la base de donnée n'a été trouvée."	LongMessage=""	PossibleCause="Ce problème est généralement dû à une mauvaise configuration du serveur applicatif."	TechnicalSuggestion="Vérifier la connexion à la base de données dans le serveur applicatif."	EndUserSuggestion1="ENDUSER_ASK_TECHNICAL_SUPPORT"	EndUserSuggestion2=""	EndUserSuggestion3=""	LogToServer="yes"	SendEmailToSupport="yes"	></ApplicationError>
+														
+		<!-- End User Suggestions -->												
+		<EndUserSuggestion	id="ENDUSER_ASK_TECHNICAL_SUPPORT"	Text="<li id=LI_ENDUSER_ASK_TECHNICAL_SUPPORT>Merci de contacter le support technique.</li>"	style="display:none;" ></EndUserSuggestion>									
+		<EndUserSuggestion	id="ENDUSER_CHECK_NETWORK"	Text="<li id=LI_ENDUSER_CHECK_NETWORK>Vérifier votre connexion réseau.</li>"	style="display:none;" ></EndUserSuggestion>									
+		<EndUserSuggestion	id="ENDUSER_RECONNECT"	Text="<li id=LI_ENDUSER_RECONNECT>Essayer de vous reconnecter.</li>"	style="display:none;" ></EndUserSuggestion>									
+		<EndUserSuggestion	id="ENDUSER_RECONNECT_LATER"	Text="<li id=LI_ENDUSER_RECONNECT_LATER>Attendre quelques minutes puis essayer de vous reconnecter.</li>"	style="display:none;" ></EndUserSuggestion>									
+		<EndUserSuggestion	id="ENDUSER_WW_UPDATE"	Text="<li id=LI_ENDUSER_WW_UPDATE>Mettre à jour votre client WydeWeb.</li>"	style="display:none;" ></EndUserSuggestion>									
+		<EndUserSuggestion	id="ENDUSER_WORKING_ON_IT"	Text="<li id=LI_ENDUSER_WORKING_ON_IT>Malheureusement vous ne pouvez pas résoudre le problème par vous-même. Une alerte a été envoyée au support. Contacter le support technique.</li>"	style="display:none;" ></EndUserSuggestion>									
+	<!-- END SECTION ERROR MESSAGES -->													
+   
+      <div class="logo">
+         <h6 style="color:#3475C9;">
+            <img src="WydeWeb.png" /><br/><br/>
+            Wyde Solutions - Erreur Wyde Web
+         </h6>
+      </div>
+      
+      Vous venez de rencontrer un problème. Nous sommes désolé pour le désagrément.<br/>
+      
+      <!-- Error messages -->
+      <div id="ShortMessage" style="display:none;" >
+         <h5>Description de l'erreur :</h5>
+      </div>
+      
+      <!-- Explanation -->
+      <div id="PossibleCause" style="display:none;" >
+         <h5>Cause possible :</h5>
+      </div>
+      
+      <!-- Suggestions -->
+      <div id="Suggestions" style="display:none;">										
+         <h5>Suggestions :</h5>	
+         <ol id="SuggestionsList"></ol>
+      </div>
+      
+      <hr style="border:0px; background-color:grey; height:1px;" /><br/>
+      
+      <div id="helpSection" style="display:none;">
+         <br/>Si vous ne parvenez pas à résoudre le problème, cliquez sur le bouton "Aide" 
+            ci-dessous.<br/><br/>
+         <div style="text-align:center;">
+         <input type="button" id="buttonDetails" value="Aide"
+            onclick="javascript:$('#TechnicalSection').show('slow');
+               $('#helpSection').hide();"
+            style="border:solid 1px; background:white;" /><br/><br/>
+         </div>
+      </div>
+      
+      <!-- Technical section -->
+      <div id="TechnicalSection" style="display:none; text-align:center;">
+      
+         <!-- Technical details -->
+         <div id="TechnicalDetails" style="display:none; text-align:center;">
+         Voici les informations à faire parvenir au support :<br/><br/>
+            <!-- <textarea id="TechnicalDetailsContent" readonly="readonly" disabled="disabled" 
+               cols="42" rows="10" wrap="soft"></textarea><br/><br/> -->
+            <div id="TechnicalDetailsContent" style="padding:5px; border:solid 1px;
+               background:LightGray; color:black; text-align:left;"></div><br/>
+         </div>
+         
+         <!-- Send email -->
+         <div id="SendTechnicalDetails" style="display:none;">
+            Cliquez sur le bouton ci-dessous pour envoyer le rapport technique au support :<br/>
+            <br/>
+               
+            <input id="technicalEmailButton" type="button" value="Envoyer le rapport technique" 
+               style="border:solid 1px; background:white;" />
+         </div>
+      </div>
+      
+      <!-- Support has been alerted -->
+      <div id="supportInformed" style="display:none; text-align:center; font-weight:bold;">
+         <br/>L'équipe support a été alertée et travaille sur le problème. Veuillez nous excuser 
+         pour la gêne occasionnée.
+      </div>
+
+      <script Language="JavaScript">
+         /* Fill error message, possible cause, and suggestion sections for each error level*/
+         writeErrorFromErrorCode('CallError', arghash['CallErrorCode']);
+         writeErrorFromErrorCode('ServerError', arghash['ServerErrorCode']);
+         writeErrorFromErrorCode('ApplicationError', arghash['ApplicationErrorCode']);
+         
+         /* Display error messages short description */
+         if (showErrorMessages) {
+            $('#ShortMessage').show();
+         }
+         
+         /* For now the whole help section (i.e. technical details + email-to-support button) is 
+            hidden. Show it only if we have to show the technical details or send an email to
+            support. */
+         if (showTechnicalDetails || (allowEmailToSupport && sendEmailToSupport)) {
+            $('#helpSection').show();
+         }
+         
+         
+         /* If feature is activated, fill and show technical details section */
+         if (showTechnicalDetails) {
+            /* Prepare the technical data for html display */
+            var technicalDataForHTML = aggregateTechnicalData(": ", "<br/> ");
+            technicalDataForHTML += "<hr/>";
+            technicalDataForHTML += aggregateErrorData(
+               'CallError', arghash['CallErrorCode'], ": ", "<br/>") + "<hr/>";
+            technicalDataForHTML += aggregateErrorData(
+               'ServerError', arghash['ServerErrorCode'], ": ", "<br/>") + "<hr/>";
+            technicalDataForHTML += aggregateErrorData(
+               'ApplicationError', arghash['ApplicationErrorCode'], ": ", "<br/>");
+            
+            /* Fill the technical details section */
+            var techDetailsContent = document.getElementById('TechnicalDetailsContent');
+            techDetailsContent.innerHTML = "";
+            techDetailsContent.innerHTML += technicalDataForHTML;
+            $('#TechnicalDetails').show();
+         }
+         
+         
+         /* If feature is activated, fill and show send-to-support section */
+         if (allowEmailToSupport && sendEmailToSupport) {
+            /* Prepare the technical data for email */
+            var technicalDataForEmail = aggregateTechnicalData(": ", "%0D%0A");
+            technicalDataForEmail += "%0D%0A";
+            technicalDataForEmail += aggregateErrorData(
+               'CallError', arghash['CallErrorCode'], ": ", "%0D%0A") + "%0D%0A";
+            technicalDataForEmail += aggregateErrorData(
+               'ServerError', arghash['ServerErrorCode'], ": ", "%0D%0A") + "%0D%0A";
+            technicalDataForEmail += aggregateErrorData(
+               'ApplicationError', arghash['ApplicationErrorCode'], ": ", "%0D%0A");
+            
+            /* Setup the click event to open email with technical content */
+            var technicalEmailButton = document.getElementById('technicalEmailButton');
+            technicalEmailButton.onclick = function () {
+               window.open('mailto:'+ supportTeamEmail + '&subject=Rapport%20d%27Erreur&' + 
+                  'body=Hello support,%0D%0A%0D%0AJ%27ai rencontré une erreur. Voici les détails ' + 
+                  'techniques : %0D%0A%0D%0A' + technicalDataForEmail, '');
+            };
+            
+            
+            /* Show the button to send email to support */
+            $('#SendTechnicalDetails').show();
+         }
+         
+         
+         /* If feature is activated, send report to log server */
+         if (allowLogToServer && sendToLogServer) {
+            var technicalDataForLog = aggregateTechnicalData("=", "&");
+            technicalDataForLog += aggregateErrorData(
+               'CallError', arghash['CallErrorCode'], "=", "&");
+            technicalDataForLog += aggregateErrorData(
+               'ServerError', arghash['ServerErrorCode'], "=", "&");
+            technicalDataForLog += aggregateErrorData(
+               'ApplicationError', arghash['ApplicationErrorCode'], "=", "&");
+            logDataToServer(logToServerURL , technicalDataForLog);
+            $('#supportInformed').show('slow');
+         }
+      </script>
+      
+   </body>
+</html>

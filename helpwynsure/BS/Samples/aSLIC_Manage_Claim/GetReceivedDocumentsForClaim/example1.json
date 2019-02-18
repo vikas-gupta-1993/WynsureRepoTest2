@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"claimID":{
+			"className":"aSPLIC_ClaimIdentifier",
+			"internalClaimId":"",
+			"externalClaimId":"",
+			"bUID":"318847796_5",
+			"description":""
+		}
+	},
+	"response":[
+	],
+	"className":"aSLIC_Manage_Claim",
+	"methodName":"GetReceivedDocumentsForClaim",
+	"version":"5.7.3.0",
+	"date":"2017-10-10",
+	"user":"Nicolas",
+	"errors":[
+	]
+}

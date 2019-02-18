@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Date><DefaultValueDate Id="3"><![CDATA[--/--/----]]></DefaultValueDate><CreationDate Id="2"><![CDATA[No]]></CreationDate><Description Id="1"><![CDATA[Death Date]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[DD]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770715]]></NSId><Id Id="2"><![CDATA[30]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[DeathDate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771376]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Date></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[Net Benefit Amount]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[NBA]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770715]]></NSId><Id Id="2"><![CDATA[30]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[NetBenefitAmount]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771423]]></NSId><Id Id="2"><![CDATA[56]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[String Value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+
+uses WFTypes, WF
+
+DeathDate : tWFDate
+NetBenefitAmount : Num8
+
+
+procedure WFCalculate(inOut Result : CString)
+   var thecurrentDate : tWFDate
+   var deathDate : tWFDate
+   var daysBetween : Num8
+   var daysBetweenOnAYearBasis : Num8
+   var interestValue : Num8
+   
+   thecurrentDate = WF.GetFunctionalDate
+   interestValue = self.Index('BenefitDisbDelayInterest', deathDate)
+   daysBetween = thecurrentDate - deathDate
+   Result = 'The Post Mortem Interest calculation was calculated using the interest rate of '
+   Result = Concat(Result, interestValue)
+   Result = Concat(Result, ' over a period of ')
+   Result = Concat(Result, daysBetween)
+   Result = Concat(Result, ' day(s).')
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218107422]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aCStringType><Name Id="2"><![CDATA[CString]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1030]]></Id></aCStringType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLIIndexForLifeInsurance><KindOfIndex Id="1"><![CDATA[Others]]></KindOfIndex><TypeOfValue Id="5"><![CDATA[Percentage]]></TypeOfValue><Versions><aWFindexForPeriod><Name></Name><NSId>318770429</NSId><Id>1</Id></aWFindexForPeriod></Versions><LastVersion><aWFindexForPeriod><Name></Name><NSId>318770429</NSId><Id>1</Id></aWFindexForPeriod></LastVersion><Name Id="3"><![CDATA[BenefitDisbDelayInterest]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318778409]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIIndexForLifeInsurance></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770715]]></NSId><Id Id="2"><![CDATA[30]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Post Mortem Interest Value Message]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768945]]></NSId><Id Id="2"><![CDATA[683]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><Name Id="3"><![CDATA[Post Mortem Interest Value Message]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770715]]></NSId><Id Id="2"><![CDATA[30]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFStandAloneRule></EntityExport>

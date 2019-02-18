@@ -1,0 +1,29 @@
+#FromDateWrapper, #ToDateWrapper  {
+  width : 120px;
+}
+
+.fields dl {
+	float: left;
+	height: 40px;
+	width: 20em;
+	clear: none;
+}
+
+.Canceled, .NotCanceled{
+	width:16px;
+	height: 16px;
+	margin-left: auto; 
+	margin-right : auto;	
+}
+
+.Status{
+	width:20px;
+}
+
+.Canceled{
+	background: url(./images/Invoices/Disabled16.png) left no-repeat;	
+}
+
+.NotCanceled{
+	background: url(./images/Invoices/Enabled16.png) left no-repeat;	
+}

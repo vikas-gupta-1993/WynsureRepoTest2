@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_RzcZ8SDiEeaqHuJYyR6TqA" name="structure_120" label="structure_120" dataPackage="_lX4kgQ4LEeaQf9ZzNCOKvA"/>
+  <TalendMetadata:GenericPackage xmi:id="_lX4kgQ4LEeaQf9ZzNCOKvA" dataManager="_RzcZ8SDiEeaqHuJYyR6TqA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lX4kgg4LEeaQf9ZzNCOKvA" id="_lERsAQ4LEeaQf9ZzNCOKvA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVoA4REeaQf9ZzNCOKvA" name="Idntfr" label="Idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true" originalLength="8">
+        <initialValue xmi:id="_MdUVoQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVog4REeaQf9ZzNCOKvA" name="Entity" label="Entity" length="3" precision="-1" sourceType="" talendType="id_String" originalLength="3">
+        <initialValue xmi:id="_MdUVow4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVpA4REeaQf9ZzNCOKvA" name="Level" label="Level" length="2" precision="-1" sourceType="" talendType="id_String" originalLength="2">
+        <initialValue xmi:id="_MdUVpQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVpg4REeaQf9ZzNCOKvA" name="NAI_DRI" label="NAI_DRI" length="6" precision="-1" sourceType="" talendType="id_String" originalLength="100">
+        <initialValue xmi:id="_MdUVpw4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVqA4REeaQf9ZzNCOKvA" name="BEN_RNG" label="BEN_RNG" length="1" precision="-1" sourceType="" talendType="id_String" originalLength="1">
+        <initialValue xmi:id="_MdUVqQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVrA4REeaQf9ZzNCOKvA" name="NOM_BEN" label="NOM_BEN" length="25" precision="-1" sourceType="" talendType="id_String" originalLength="25">
+        <initialValue xmi:id="_MdUVrQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVrg4REeaQf9ZzNCOKvA" name="PRM_BEN" label="PRM_BEN" length="15" precision="-1" sourceType="" talendType="id_String" originalLength="15">
+        <initialValue xmi:id="_MdUVrw4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVsA4REeaQf9ZzNCOKvA" name="RTT_UGE" label="RTT_UGE" length="4" precision="-1" sourceType="" talendType="id_String" originalLength="4">
+        <initialValue xmi:id="_MdUVsQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MdUVtA4REeaQf9ZzNCOKvA" name="Idntfr_110" label="Idntfr_110" length="8" precision="-1" sourceType="" talendType="id_Long" key="true" originalLength="100">
+        <initialValue xmi:id="_MdUVtQ4REeaQf9ZzNCOKvA" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

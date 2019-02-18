@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P12]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fswiss\fprq2\fcharset0 Microsoft Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;\red128\green0\blue0;\red34\green31\blue31;}
+\viewkind4\uc1\pard\nowidctlpar\li253\sl-280\slmult0\cf1\f0\fs16 Vous-m\'eame , si vous \'eates r\'e9sidant d'un \'e9tat membre de l'espace Economique Europ\'e9en, et n'\'eates , en outre, 
+\par ni citoyen am\'e9ricain (y compris personne ayant la double nationalit\'e9 ou n\'e9e sur le sol am\'e9ricain), ni d\'e9tenteur d'une carte verte.
+\par \cf2\b Limites d'age
+\par \cf3\ul\b0 1er et 2\'e8me Assur\'e9 \ulnone : 
+\par Plus de 18 ans et moins de 65 ans
+\par \ul Enfants : \ulnone 
+\par Plus de 31 jours et moins de 18 ans
+\par \cf2\b Nombre d'assur\'e9 maximum autoris\'e9 sur ce produit\cf3\b0 
+\par 1 ou 2 et n enfants
+\par \cf2\b Nbre de souscription autoris\'e9 par Assur\'e9\cf3\b0 
+\par Une seule souscription par Assur\'e9 est autoris\'e9e, l'Assur\'e9 ne pouvant cumuler sur sa seule personne les capitaux garantis 
+\par de plusieurs contrats GARANTIE ACCIDENT.
+\par \cf2\b Dur\'e9e du contrat\cf3\b0 
+\par 5 ans renouvelable ensuite tacitement d'ann\'e9e en ann\'e9e.
+\par \pard\cf0\f1 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Conditions d'admission]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[Garantie Accident CG Conditions d'admission]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[13]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

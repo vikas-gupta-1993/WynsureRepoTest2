@@ -1,0 +1,29 @@
+.fields dl {
+	float: left;
+	height: 40px;
+	width: 19em;
+	clear: none;
+}
+
+.fields dl#FromDateWrapper, .fields dl#ToDateWrapper{
+	width: 12em;
+}
+
+.download_button a{
+	float : right;
+	background: url(./images/UploadedFilesManager/download_16.png) no-repeat;
+	width:16px;
+	height:16px;
+}
+
+#aPLI_ReportBSPicker_result .NameColumn {
+	width: 70%;
+}
+
+#aPLI_ReportBSPicker_result .DateColumn {
+	width: 20%;
+}
+
+#aPLI_ReportBSPicker_result .DownloadColumn {
+	width: 10%;
+}

@@ -1,0 +1,541 @@
+ALFA ROMEO     , ALFA 147 , 1.6 TS DISTINCTIVE ,07, 937BXA1A05    , BE5,nr15545,   ,INJ ,105,Yes
+ALFA ROMEO     , ALFA 147 , 1.6 TS DISTINCTIVE ,08, 937BXB1A06    , BE5,nr15546,   ,INJ ,120,Yes
+ALFA ROMEO     , ALFA 147 , 1.6 TS PROGRESSION ,07, 937BXA1A05    , BE5,nr15547,   ,INJ ,105,Yes
+ALFA ROMEO     , ALFA 147 , 1.6 TS PROGRESSION ,08, 937BXB1A06    , BE5,nr15548,   ,INJ ,120,Yes
+ALFA ROMEO     , ALFA 147 , 1.9 JTD DISTINCTIVE,07, 937AXD1A04    , BE3,nr15549,   ,DITU,115,Yes
+ALFA ROMEO     , ALFA 147 , 1.9 JTD DISTINCTIVE,07, 937BXD1A08    , BE5,nr15550,   ,DITU,115,Yes
+ALFA ROMEO     , ALFA 147 , 1.9 JTD PROGRESSION,07, 937AXD1A04    , BE3,nr15551,   ,DITU,115,Yes
+ALFA ROMEO     , ALFA 147 , 1.9 JTD PROGRESSION,07, 937BXD1A08    , BE5,nr15552,   ,DITU,115,Yes
+ALFA ROMEO     , ALFA 147 , 2.0 SELESPEED      ,10, 937BXC1107    , BE5,nr15553,   ,INJ ,150,Yes
+ALFA ROMEO     , ALFA 147 , 2.0 TS DISTINCTIVE ,10, 937BXC1A09    , BE5,nr15554,   ,INJ ,150,Yes
+ALFA ROMEO     , ALFA 156 , 1.8 TS             ,09, 932A310030    , BE4,nr15555,P7 ,INJ ,140,Yes
+ALFA ROMEO     , ALFA 156 , 1.8 TS PACK        ,09, 932A310030    , BE4,nr15556,P7 ,INJ ,140,Yes
+ALFA ROMEO     , ALFA 156 , 1.9 110 JTD        ,07, 932A2B0041    , BE4,nr15557,S7 ,DITU,110,Yes
+ALFA ROMEO     , ALFA 156 , 1.9 110 JTD PACK   ,07, 932A2B0041    , BE4,nr15558,S7 ,DITU,110,Yes
+ALFA ROMEO     , SPORTWAGO,N1.8 TS             ,09, 932B31003     , BK5,nr15559,P7 ,INJ ,140,Yes
+ALFA ROMEO     , SPORTWAGO,N1.8 TS PACK        ,09, 932B31003     , BK5,nr15560,P7 ,INJ ,140,Yes
+ALFA ROMEO     , SPORTWAGO,N1.9 110 JTD        ,07, 932B2B004     , BK5,nr15561,S7 ,DITU,110,Yes
+ALFA ROMEO     , SPORTWAGO,N1.9 110 JTD PACK   ,07, 932B2B004     , BK5,nr15562,S7 ,DITU,110,Yes
+AUDI           , A4       , 1.8T PACK          ,09,               , BE4,nr15563,S7 ,INTU,150,Yes
+AUDI           , A4       , 1.8T PACK PLUS     ,09,               , BE4,nr15564,S7 ,INTU,150,Yes
+AUDI           , A4       , 1.8T PACK PLUS QUAT,09,T              , BE4,nr15565,S7 ,INTU,150,Yes
+AUDI           , A4       , 1.8T PACK QUATTRO  ,09,               , BE4,nr15566,S7 ,INTU,150,Yes
+AUDI           , A4       , 1.8T REFERENCE     ,09,               , BE4,nr15567,S7 ,INTU,150,Yes
+AUDI           , A4       , 1.9 TDI 130 PACK   ,07,               , BE4,nr15568,   ,DITU,130,Yes
+AUDI           , A4       , 1.9TDI 130 PACK PLU,07,S              , BE4,nr15569,   ,DITU,130,Yes
+AUDI           , A4       , 1.9TDI 130 REFERENC,07,E              , BE4,nr15570,   ,DITU,130,Yes
+AUDI           , A4       , 2.0 PACK           ,08,               , BE4,nr15571,S7 ,INJ ,130,Yes
+AUDI           , A4       , 2.0 PACK MULTITRONI,09,C              , BE4,nr15572,S7 ,INJ ,130,Yes
+AUDI           , A4       , 2.0 REFERENCE      ,08,               , BE4,nr15573,S7 ,INJ ,130,Yes
+AUDI           , A4       , 2.0 REFERENCE MULTI,09,T              , BE4,nr15574,S7 ,INJ ,130,Yes
+AUDI           , A4       , 2.5 TDI 180 PK QUAT,11,T              , BE4,nr15575,S7 ,DITU,180,Yes
+AUDI           , A4       , 2.5TDI 180 REFER QU,11,A              , BE4,nr15576,S7 ,DITU,180,Yes
+AUDI           , A4       , 3.0 V6  PACK       ,14,               , BE4,nr15577,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PACK MULTIT,14,R              , BE4,nr15578,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PACK PLUS  ,14,               , BE4,nr15579,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PACK QUATTR,14,O              , BE4,nr15580,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PK PL QUAT ,14,T              , BE4,nr15581,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PK PLUS MUL,14,T              , BE4,nr15582,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PK PLUS QUA,14,T              , BE4,nr15583,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  PK QUAT TIP,14,T              , BE4,nr15584,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6  REFERENCE  ,14,               , BE4,nr15585,S7 ,INJ ,220,Yes
+AUDI           , A4       , 3.0 V6 REFERENCE MU,14,L              , BE4,nr15586,S7 ,INJ ,220,Yes
+AUDI           , A4       , TDI 180 PK PLUS QUA,11,T              , BE4,nr15587,S7 ,DITU,180,Yes
+BMW            , 320      , I                  ,11, AV11          , BE4,nr15588,   ,INJ ,170,Yes
+BMW            , 320      , I PACK             ,11, AV10          , BE4,nr15589,   ,INJ ,170,Yes
+BMW            , 320      , I PACK LUXE        ,11, AV18          , BE4,nr15590,   ,INJ ,170,Yes
+BMW            , 325      , CI                 ,12, BN31          , CPE,nr15591,S7 ,INJ ,192,Yes
+BMW            , 325      , CI                 ,12, BS31          , CAB,nr15592,S7 ,INJ ,192,Yes
+BMW            , 325      , I                  ,12, AV31          , BE4,nr15593,   ,INJ ,192,Yes
+BMW            , 325      , I PACK             ,12, AV30          , BE4,nr15594,   ,INJ ,192,Yes
+BMW            , 325      , I PACK LUXE        ,12, ZV38          , BE4,nr15595,   ,INJ ,192,Yes
+BMW            , 325      , XI                 ,13, AV31          , BE4,nr15596,   ,INJ ,192,Yes
+BMW            , 325      , XI PACK            ,13, AV30          , BE4,nr15597,   ,INJ ,192,Yes
+BMW            , 325      , XI PACK LUXE       ,13, ZV38          , BE4,nr15598,   ,INJ ,192,Yes
+BMW            , M3       , 3.2                ,25, BL91          , CPE,nr15599,S7 ,INJ ,343,Yes
+CITROEN        , C5       , 2.0 16V EXCLUSIVE B,09,ADCRFNE        , BE5,nr15600,S7 ,INJ ,137,Yes
+CITROEN        , C5       , 2.0 16V SX         ,09, DCRFNB        , BE5,nr15601,S7 ,INJ ,137,Yes
+CITROEN        , C5       , 2.0 16V SX BVA     ,09, DCRFNE        , BE5,nr15602,S7 ,INJ ,137,Yes
+CITROEN        , C5       , 2.0 HDI 110  X     ,06, DCRHZB        , BE5,nr15603,S7 ,DITU,110,Yes
+CITROEN        , C5       , 2.0 HDI 110 SX     ,06, DCRHZB        , BE5,nr15604,S7 ,DITU,110,Yes
+CITROEN        , C5       , 2.0 HDI 110 SX BA  ,07, DCRHZE        , BE5,nr15605,S7 ,DITU,110,Yes
+CITROEN        , C5       , 2.0 HDI 110 X BA   ,07, DCRHZE        , BE5,nr15606,S7 ,DITU,110,Yes
+CITROEN        , C5       , 2.0 HPI EXCLUSIVE  ,08, DCRLZB        , BE5,nr15607,S7 ,INTU,143,Yes
+CITROEN        , C5       , 2.2 HDI 16V SX     ,08, DC4HXB        , BE5,nr15608,S7 ,DITU,134,Yes
+CITROEN        , C5       , 2.2 HDI EXCLUSIVE  ,08, DC4HXB        , BE5,nr15609,S7 ,DITU,134,Yes
+CITROEN        , C5       , V6 EXCLUSIVE       ,13, DCXFXB        , BE5,nr15610,S7 ,INJ ,210,Yes
+CITROEN        , C5       , V6 EXCLUSIVE BVA   ,14, DCXFXE        , BE5,nr15611,S7 ,INJ ,210,Yes
+CITROEN        , JUMPER   , 27C 2.8 HDI        ,09, 231AL2        , FTE,nr15612,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31C 2.8 HDI        ,09, 231AL2        , FTE,nr15613,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31C 2.8 HDI        ,09, 231GL2        , FTE,nr15614,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31C 2.8 HDI        ,09, 231GL22       , FTE,nr15615,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31CH 2.8 HDI       ,09, 231AL2        , FTE,nr15616,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31L 2.8 HDI        ,09, 233GL2        , FTE,nr15617,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31L 2.8 HDI        ,09, 233GL22       , FTE,nr15618,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31L 2.8 HDI        ,09, 233HL2        , FTE,nr15619,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31LH 2.8 HDI       ,09, 232BL2        , FTE,nr15620,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31M 2.8 HDI        ,09, 232BL2        , FTE,nr15621,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31M 2.8 HDI        ,09, 232GL2        , FTE,nr15622,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31M 2.8 HDI        ,09, 232GL22       , FTE,nr15623,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31M 2.8 HDI        ,09, 232HL2        , FTE,nr15624,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 31MH 2.8 HDI       ,09, 232BL2        , FTE,nr15625,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 32M 2.8 HDI        ,09, 232FL2        , FTE,nr15626,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 32MH 2.8 HDI       ,09, 232FL2        , FTE,nr15627,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35L 2.8 HDI        ,09, 233KL2        , FTE,nr15628,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35L 2.8 HDI        ,09, 233KL22       , FTE,nr15629,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35L 2.8 HDI        ,09, 233LL2        , FTE,nr15630,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35L 2.8 HDI        ,09, 233LL21       , FTE,nr15631,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35L 2.8 HDI        ,09, 233NL2        , FTE,nr15632,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35LH 2.8 HDI       ,09, 233JL2        , FTE,nr15633,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35LH 2.8 HDI       ,09, 233NL2        , FTE,nr15634,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35LS 2.8 HDI       ,09, 233JL2        , FTE,nr15635,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35M 2.8 HDI        ,09, 232HL2        , FTE,nr15636,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35M 2.8 HDI        ,09, 232KL2        , FTE,nr15637,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35M 2.8 HDI        ,09, 232KL22       , FTE,nr15638,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35M 2.8 HDI        ,09, 232NL2        , FTE,nr15639,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35MH 2.8 HDI       ,09, 232JL2        , FTE,nr15640,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35MH 2.8 HDI       ,09, 232NL2        , FTE,nr15641,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35MS 2.8 HDI       ,09, 232JL2        , FTE,nr15642,   ,DITU,127,Yes
+CITROEN        , JUMPER   , 35XL 2.8 HDI       ,09, 234KL2        , FTE,nr15643,   ,DITU,127,Yes
+CITROEN        , XSARAPICA,S1.6I               ,06, CHNFVB        , BK5,nr15644,S7 ,INJ ,096,Yes
+CITROEN        , XSARAPICA,S1.8I 16V           ,07, CH6FZB        , BK5,nr15645,S7 ,INJ ,117,Yes
+CITROEN        , XSARAPICA,S2.0 HDI            ,05, CHRHYB        , BK5,nr15646,S7 ,DITU,090,Yes
+FIAT           , PUNTO    , 60 STEEL           ,04,               , BE3,nr15647,S7 ,INJ ,060,Yes
+FIAT           , PUNTO    , 60 STEEL           ,04,               , BE5,nr15648,S7 ,INJ ,060,Yes
+FIAT           , PUNTO    , 60 STEEL CLIM      ,04,               , BE3,nr15649,S7 ,INJ ,060,Yes
+FIAT           , PUNTO    , 60 STEEL CLIM      ,04,               , BE5,nr15650,S7 ,INJ ,060,Yes
+FIAT           , PUNTO    , 80 16V STEEL       ,05,               , BE3,nr15651,S7 ,INJ ,080,Yes
+FIAT           , PUNTO    , 80 16V STEEL       ,05,               , BE5,nr15652,S7 ,INJ ,080,Yes
+FIAT           , PUNTO    , 80 16V STEEL CLIM  ,05,               , BE3,nr15653,S7 ,INJ ,080,Yes
+FIAT           , PUNTO    , 80 16V STEEL CLIM  ,05,               , BE5,nr15654,S7 ,INJ ,080,Yes
+FIAT           , PUNTO    , JTD80 STEEL        ,05,               , BE3,nr15655,S7 ,DITU,080,Yes
+FIAT           , PUNTO    , JTD80 STEEL        ,05,               , BE5,nr15656,S7 ,DITU,080,Yes
+FIAT           , PUNTO    , JTD80 STEEL CLIM   ,05,               , BE3,nr15657,S7 ,DITU,080,Yes
+FIAT           , PUNTO    , JTD80 STEEL CLIM   ,05,               , BE5,nr15658,S7 ,DITU,080,Yes
+FORD           , FIESTA   , 1300 ODYSSEE       ,05,               , BE3,nr15659,S7 ,INJ ,060,Yes
+FORD           , FIESTA   , 1300 ODYSSEE       ,05,               , BE5,nr15660,S7 ,INJ ,060,Yes
+FORD           , MONDEO   , 1.8 16V AMBIENTE   ,07,               , BE4,nr15661,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V AMBIENTE   ,07,               , BE5,nr15662,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V GHIA       ,07,               , BE4,nr15663,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V GHIA       ,07,               , BE5,nr15664,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V GHIA 125CH ,08,               , BE4,nr15665,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 1.8 16V GHIA 125CH ,08,               , BE5,nr15666,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 1.8 16V GHIA 125CH ,08,               , BK5,nr15667,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 1.8 16V TREND      ,07,               , BE4,nr15668,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V TREND      ,07,               , BE5,nr15669,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V TREND      ,07,               , BK5,nr15670,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , 1.8 16V TREND 125CH,08,               , BE4,nr15671,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 1.8 16V TREND 125CH,08,               , BE5,nr15672,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 1.8 16V TREND 125CH,08,               , BK5,nr15673,S7 ,INJ ,125,Yes
+FORD           , MONDEO   , 2.0 16V GHIA       ,09,               , BE4,nr15674,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V GHIA       ,09,               , BE5,nr15675,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V GHIA       ,09,               , BK5,nr15676,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V GHIA BA    ,10,               , BE4,nr15677,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V GHIA BA    ,10,               , BE5,nr15678,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V GHIA BA    ,10,               , BK5,nr15679,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND      ,09,               , BE4,nr15680,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND      ,09,               , BE5,nr15681,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND      ,09,               , BK5,nr15682,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND BA   ,10,               , BE4,nr15683,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND BA   ,10,               , BE5,nr15684,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 16V TREND BA   ,10,               , BK5,nr15685,S7 ,INJ ,145,Yes
+FORD           , MONDEO   , 2.0 DI AMBIENTE 115,07,               , BE4,nr15686,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI AMBIENTE 115,07,               , BE5,nr15687,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI AMBIENTE 115,07,               , BK5,nr15688,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI AMBIENTE 90 ,06,               , BE4,nr15689,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.0 DI AMBIENTE 90 ,06,               , BE5,nr15690,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.0 DI GHIA 115    ,07,               , BE4,nr15691,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI GHIA 115    ,07,               , BE5,nr15692,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI GHIA 115    ,07,               , BK5,nr15693,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI TREND 115   ,07,               , BE4,nr15694,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI TREND 115   ,07,               , BE5,nr15695,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI TREND 115   ,07,               , BK5,nr15696,S7 ,DITU,115,Yes
+FORD           , MONDEO   , 2.0 DI TREND 90    ,06,               , BE4,nr15697,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.0 DI TREND 90    ,06,               , BE5,nr15698,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.0 DI TREND 90    ,06,               , BK5,nr15699,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.0DI AMBIENTE 90  ,06,               , BK5,nr15700,S7 ,DITU,090,Yes
+FORD           , MONDEO   , 2.5 V6 GHIA        ,11,               , BE4,nr15701,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , 2.5 V6 GHIA        ,11,               , BE5,nr15702,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , 2.5 V6 GHIA CLIPPER,11,               , BK5,nr15703,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , 2.5 V6 TREND       ,11,               , BE4,nr15704,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , 2.5 V6 TREND       ,11,               , BE5,nr15705,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , 2.5 V6 TREND CLIPPE,11,R              , BK5,nr15706,S7 ,INJ ,170,Yes
+FORD           , MONDEO   , CLIPPER 1.8 GHIA   ,07,               , BK5,nr15707,S7 ,INJ ,110,Yes
+FORD           , MONDEO   , CLIPPER1.8 AMBIENTE,07,               , BK5,nr15708,S7 ,INJ ,110,Yes
+FORD           , TRANSIT  , 260CP TD100        ,07, FAEYABFAAA    , FTE,nr15709,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 260CP TD75         ,07, FAEYD3FAAA    , FTE,nr15710,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 260CP TD85         ,07, FAEYF3FAAA    , FTE,nr15711,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 280C TD100         ,07, FAEYABFABA    , FTE,nr15712,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 280C TD75          ,07, FAEYD3FABA    , FTE,nr15713,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 280C TD85          ,07, FAEYF3FABA    , FTE,nr15714,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 280M TD100         ,07, FAFYABFAEA    , FTE,nr15715,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 280M TD75          ,07, FAFYD3FAEA    , FTE,nr15716,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 280M TD85          ,07, FAFYF3FAEA    , FTE,nr15717,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 280MS TD100        ,07, FAFYABFAEA    , FTE,nr15718,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 280MS TD75         ,07, FAFYD3FAEA    , FTE,nr15719,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 280MS TD85         ,07, FAFYF3FAEA    , FTE,nr15720,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 300C TD100         ,07, FAEYABFACA    , FTE,nr15721,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 300C TD75          ,07, FAEYD3FABA    , FTE,nr15722,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 300C TD85          ,07, FAEYF3FACA    , FTE,nr15723,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 300L TD100         ,07, FAGYABFAKA    , FTE,nr15724,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 300L TD75          ,07, FAGYD3FAKA    , FTE,nr15725,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 300L TD85          ,07, FAGYF3FAKA    , FTE,nr15726,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 300LS TD100        ,07, FAGYABFAKA    , FTE,nr15727,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 300LS TD75         ,07, FAGYD3FAKA    , FTE,nr15728,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 300LS TD85         ,07, FAGYF3FAKA    , FTE,nr15729,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 300M TD100         ,07, FAFYABFAFA    , FTE,nr15730,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 300M TD75          ,07, FAFYD3FAFA    , FTE,nr15731,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 300M TD85          ,07, FAFYF3FAFA    , FTE,nr15732,S7 ,DITU,085,Yes
+FORD           , TRANSIT  , 300MS TD100        ,07, FAFYABFAFA    , FTE,nr15733,S7 ,DITU,100,Yes
+FORD           , TRANSIT  , 300MS TD75         ,07, FAFYD3FAFA    , FTE,nr15734,S7 ,DITU,075,Yes
+FORD           , TRANSIT  , 300MS TD85         ,07, FAFYF3FAFA    , FTE,nr15735,S7 ,DITU,085,Yes
+HYUNDAI        , ACCENT   , 1.3 GL CLIM        ,06, LCADJN        , BE3,nr15736,   ,INJ ,086,Yes
+HYUNDAI        , ACCENT   , 1.3 GL CLIM        ,06, LCCDJN        , BE5,nr15737,   ,INJ ,086,Yes
+HYUNDAI        , COUPE    , 1.6 FX CLIM        ,07, RDCR11L1SHMQM , CPE,nr15738,   ,INJ ,114,Yes
+HYUNDAI        , COUPE    , 2.0 JVC JAZZ FESTIV,09,ARDCF11L1DGMHM , CPE,nr15739,   ,INJ ,139,Yes
+HYUNDAI        , ELANTRA  , 2.0 CRDI GLS CONFOR,07,TXDARM         , BE4,nr15740,   ,DITU,112,Yes
+HYUNDAI        , ELANTRA  , 2.0 CRDI GLS CONFOR,07,TXDBRM         , BE5,nr15741,   ,DITU,112,Yes
+HYUNDAI        , GALLOPER , 2.5TD GL INTERCOOLE,08,R              , BK3,nr15742,   ,DITU,100,Yes
+HYUNDAI        , GALLOPER , 2.5TD GL INTERCOOLE,08,R              , BK5,nr15743,   ,DITU,100,Yes
+HYUNDAI        , GALLOPER , 2.5TD GLX INTERCOOL,08,E              , BK3,nr15744,   ,DITU,100,Yes
+HYUNDAI        , GALLOPER , 2.5TD GLX INTERCOOL,08,E              , BK5,nr15745,   ,DITU,100,Yes
+HYUNDAI        , SANTA FE , 2.0 CRDI 4WD GLS CO,08,NSMV2DA        , BK5,nr15746,   ,DITU,112,Yes
+HYUNDAI        , TRAJET   , 2.0 CRDI GLS CONFOR,07,TFOVD          , BK5,nr15747,   ,DITU,112,Yes
+ISUZU          , SERIE N  , NKR 55 EAL         ,09, R553524N      , FTE,nr15748,   ,DITU,095,Yes
+ISUZU          , SERIE N  , NKR 55 LL          ,09, R553533N      , FTE,nr15749,   ,DITU,095,Yes
+ISUZU          , SERIE N  , NPR 55 GL          ,09, R553527L      , FTE,nr15750,   ,DITU,095,Yes
+ISUZU          , SERIE N  , NPR 55 LL          ,09, R553533L      , FTE,nr15751,   ,DITU,095,Yes
+LAND ROVER     , FREELANDE,RV6 SE              ,13,               , BK3,nr15752,S7 ,INJ ,177,Yes
+LAND ROVER     , FREELANDE,RV6 SE              ,13,               , BK5,nr15753,S7 ,INJ ,177,Yes
+LAND ROVER     , FREELANDE,RV6 SX              ,13,               , BK3,nr15754,S7 ,INJ ,177,Yes
+LAND ROVER     , FREELANDE,RV6 SX              ,13,               , BK5,nr15755,S7 ,INJ ,177,Yes
+MERCEDES       , CLASSE C , C180 AVANTGARDE    ,09,               , BE4,nr15756,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 AVANTGARDE BA ,09,               , BE4,nr15757,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 AVANTGARDE PK ,09,L              , BE4,nr15758,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 AVANTGARDE PKL,09,               , BE4,nr15759,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 CLASSIC       ,09,               , BE4,nr15760,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 CLASSIC BA    ,09,               , BE4,nr15761,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 ELEGANCE      ,09,               , BE4,nr15762,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 ELEGANCE BA   ,09,               , BE4,nr15763,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 ELEGANCE PK LU,09,X              , BE4,nr15764,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C180 ELEGANCE PKL B,09,A              , BE4,nr15765,S7 ,INJ ,129,Yes
+MERCEDES       , CLASSE C , C270CDI AVANTGARDE ,10,               , BE4,nr15766,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI AVANTGARDE ,10,B              , BE4,nr15767,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI AVANTGARDE ,10,P              , BE4,nr15768,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI AVANTGARDE ,10,P              , BE4,nr15769,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI CLASSIC    ,10,               , BE4,nr15770,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI CLASSIC BA ,10,               , BE4,nr15771,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI ELEGANCE   ,10,               , BE4,nr15772,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI ELEGANCE BA,10,               , BE4,nr15773,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI ELEGANCE PK,10,               , BE4,nr15774,S7 ,DITU,170,Yes
+MERCEDES       , CLASSE C , C270CDI ELEGANCE PK,10,L              , BE4,nr15775,S7 ,DITU,170,Yes
+NISSAN         , MICRA    , 1.0 JADE           ,04, EAAK11        , BE3,nr15776,S7 ,INJ ,060,Yes
+NISSAN         , MICRA    , 1.0 JADE           ,04, FAAK11        , BE5,nr15777,S7 ,INJ ,060,Yes
+OPEL           , SPEEDSTER, 2.2 16V            ,09,               , CAB,nr15778,   ,INJ ,147,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,07,S              , BE4,nr15779,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,08,S              , BE4,nr15780,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,07,S              , BE5,nr15781,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,08,S              , BE5,nr15782,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,07,S              , BK5,nr15783,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 1.816V EXECUTIVE GP,08,S              , BK5,nr15784,S7 ,INJ ,115,Yes
+OPEL           , VECTRA   , 2.2DTI 16V COMFORT ,07,               , BE4,nr15785,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V COMFORT ,07,               , BE5,nr15786,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V COMFORT ,07,               , BK5,nr15787,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V ELEGANCE,07,               , BE4,nr15788,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V ELEGANCE,07,               , BE5,nr15789,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V ELEGANCE,07,               , BK5,nr15790,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,07,S              , BE4,nr15791,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,08,S              , BE4,nr15792,S7 ,DITU,125,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,07,S              , BE5,nr15793,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,08,S              , BE5,nr15794,S7 ,DITU,125,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,07,S              , BK5,nr15795,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V EXECU GP,08,S              , BK5,nr15796,S7 ,DITU,125,Yes
+OPEL           , VECTRA   , 2.2DTI 16V SPORT   ,07,               , BE4,nr15797,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V SPORT   ,07,               , BE5,nr15798,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.2DTI 16V SPORT   ,07,               , BK5,nr15799,S7 ,DITU,120,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,11,S              , BE4,nr15800,S7 ,INJ ,170,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,12,S              , BE4,nr15801,S7 ,INJ ,170,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,11,S              , BE5,nr15802,S7 ,INJ ,170,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,12,S              , BE5,nr15803,S7 ,INJ ,170,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,11,S              , BK5,nr15804,S7 ,INJ ,170,Yes
+OPEL           , VECTRA   , 2.6 V6 EXECUTIVE GP,12,S              , BK5,nr15805,S7 ,INJ ,170,Yes
+PEUGEOT        , 206      , XR PRESENCE 2.0 HDI,05, 2ARHYU        , BE5,nr15806,S7 ,DITU,090,Yes
+PEUGEOT        , 206      , XR PRESENCE 2.0 HDI,05, 2CRHYU        , BE3,nr15807,S7 ,DITU,090,Yes
+PEUGEOT        , 406      , 2.2 HDI            ,08, 8C4HXF        , CPE,nr15808,S7 ,DITU,136,Yes
+PEUGEOT        , 406      , 2.2 HDI PACK       ,08, 8C4HXF        , CPE,nr15809,S7 ,DITU,136,Yes
+PEUGEOT        , BOXER    , 270C 2.8 HDI       ,09, 231AL2        , FTE,nr15810,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 270CS 2.8 HDI      ,09, 231AL2        , FTE,nr15811,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 310C 2.8 HDI       ,09, 231GL2        , FTE,nr15812,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320L 2.8 HDI       ,09, 233GL2        , FTE,nr15813,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320L 2.8 HDI       ,09, 233GL21       , FTE,nr15814,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320LH 2.8 HDI      ,09, 233BL2        , FTE,nr15815,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320LL 2.8 HDI      ,09, 234GL2        , FTE,nr15816,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320M 2.8 HDI       ,09, 232BL2        , FTE,nr15817,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320M 2.8 HDI       ,09, 232GL2        , FTE,nr15818,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320M 2.8 HDI       ,09, 232HL2        , FTE,nr15819,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 320MH 2.8 HDI      ,09, 232BL21       , FTE,nr15820,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350C 2.8 HDI       ,09, 231JL2        , FTE,nr15821,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350CS 2.8 HDI      ,09, 231JL2        , FTE,nr15822,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350LH 2.8 HDI      ,09, 233JL2        , FTE,nr15823,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350LHS 2.8 HDI     ,09, 233JL2        , FTE,nr15824,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350MH 2.8 HDI      ,09, 232JL2        , FTE,nr15825,   ,DITU,127,Yes
+PEUGEOT        , BOXER    , 350MHS 2.8 HDI     ,09, 232JL2        , FTE,nr15826,   ,DITU,127,Yes
+PEUGEOT        , PARTNER  , 170C 2.0 HDI       ,08, 5BRHYF        , FTE,nr15827,S7 ,DITU,090,Yes
+PEUGEOT        , PARTNER  , 170C 2.0 HDI       ,08, 5ERHYF        , FTE,nr15828,S7 ,DITU,090,Yes
+PEUGEOT        , PARTNER  , 190C 2.0 HDI       ,08, 5CRHYF        , FTE,nr15829,S7 ,DITU,090,Yes
+RENAULT        , CLIO     , EXTREME 1.2        ,04, BBOFBF        , BE5,nr15830,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , EXTREME 1.2        ,04, CBOFBF        , BE3,nr15831,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , EXTREME 1.2 16V    ,05, BB050F        , BE5,nr15832,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , EXTREME 1.2 16V    ,05, CB050F        , BE3,nr15833,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , EXTREME 1.4 16V    ,06, BBOPOF        , BE5,nr15834,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , EXTREME 1.4 16V    ,06, CBOPOF        , BE5,nr15835,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , EXTREME 1.4 16V BA ,06, BBOPOA        , BE5,nr15836,S7 ,INJ ,098,Yes
+RENAULT        , CLIO     , EXTREME 1.4 16V BA ,06, CB0P0A        , BE3,nr15837,S7 ,INJ ,098,Yes
+RENAULT        , CLIO     , EXTREME 1.9DTI     ,05, BBOVOF        , BE5,nr15838,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , EXTREME 1.9DTI     ,05, CBOVOF        , BE3,nr15839,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , EXTREME1.9D        ,05, BBOJOF        , BE5,nr15840,S7 ,DIES,065,Yes
+RENAULT        , CLIO     , EXTREME1.9D        ,05, CBOJOF        , BE3,nr15841,S7 ,DIES,065,Yes
+RENAULT        , CLIO     , INITIALE 1.6 16V   ,07, BBOHOF        , BE5,nr15842,S7 ,INJ ,110,Yes
+RENAULT        , CLIO     , INITIALE 1.6 16V   ,07, CBOHOF        , BE3,nr15843,S7 ,INJ ,110,Yes
+RENAULT        , CLIO     , LUDO 1.2           ,04, BBOFBF        , BE5,nr15844,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , LUDO 1.2           ,04, CBOFBF        , BE3,nr15845,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , LUDO 1.4           ,05, BBEBOF        , BE5,nr15846,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , LUDO 1.4 16V       ,06, BBOPOF        , BE5,nr15847,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , LUDO 1.4 16V       ,06, CBOPOF        , BE3,nr15848,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , LUDO 1.9DTI        ,05, BBOVOF        , BE5,nr15849,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , LUDO 1.9DTI        ,05, CBOVOF        , BE3,nr15850,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , LUDO1.4            ,05, CBEBOF        , BE3,nr15851,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , RTE 1.2            ,04, BBOFBF        , BE5,nr15852,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , RTE 1.2            ,04, CBOFBF        , BE3,nr15853,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , RXE 1.2            ,04, BBOFBF        , BE5,nr15854,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , RXE 1.2            ,04, CBOFBF        , BE3,nr15855,S7 ,INJ ,060,Yes
+RENAULT        , CLIO     , RXE 1.4            ,05, BBEBOF        , BE5,nr15856,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , RXE 1.4            ,05, CBEBOF        , BE3,nr15857,S7 ,INJ ,075,Yes
+RENAULT        , CLIO     , RXE 1.4 16V BVA    ,06, BBOPOA        , BE5,nr15858,S7 ,INJ ,098,Yes
+RENAULT        , CLIO     , RXE 1.4 16V BVA    ,06, CB0P0A        , BE3,nr15859,S7 ,INJ ,098,Yes
+RENAULT        , CLIO     , RXE 1.9DTI         ,05, BBOVOF        , BE5,nr15860,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , RXE 1.9DTI         ,05, CBOVOF        , BE3,nr15861,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , RXT 1.4 16V        ,06, BBOPOF        , BE5,nr15862,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , RXT 1.4 16V        ,06, CBOPOF        , BE3,nr15863,S7 ,INJ ,095,Yes
+RENAULT        , CLIO     , RXT 1.6 16V        ,07, BBOHOF        , BE5,nr15864,S7 ,INJ ,110,Yes
+RENAULT        , CLIO     , RXT 1.6 16V        ,07, CBOHOF        , BE3,nr15865,S7 ,INJ ,110,Yes
+RENAULT        , CLIO     , RXT 1.9DTI         ,05, BBOVOF        , BE5,nr15866,S7 ,DITU,080,Yes
+RENAULT        , CLIO     , RXT 1.9DTI         ,05, CBOVOF        , BE3,nr15867,S7 ,DITU,080,Yes
+RENAULT        , ESPACE   , THE RACE 2.2DCI    ,08, JE0K05        , BK5,nr15868,S7 ,DITU,130,Yes
+RENAULT        , ESPACE   , THE RACE 2.2DCI    ,07, JE0S05        , BK5,nr15869,S7 ,DITU,115,Yes
+RENAULT        , ESPACE   , THE RACE V6 BA     ,13, JEOG02        , BK5,nr15870,S7 ,INJ ,194,Yes
+RENAULT        , ESPACE   , THE RACE2.0 16V    ,09, JEOL05        , BK5,nr15871,S7 ,INJ ,140,Yes
+RENAULT        , ESPACE   , THE RACE2.0 16V BA ,09, JEOL02        , BK5,nr15872,S7 ,INJ ,140,Yes
+RENAULT        , GRAND ESP,ATHE RACE 2.0 16V   ,09, JEOLL5        , BK5,nr15873,S7 ,INJ ,140,Yes
+RENAULT        , GRAND ESP,ATHE RACE 2.2DCI    ,08, JE0KL5        , BK5,nr15874,S7 ,DITU,130,Yes
+RENAULT        , GRAND ESP,ATHE RACE 2.2DCI    ,07, JE0SL5        , BK5,nr15875,S7 ,DITU,115,Yes
+RENAULT        , GRAND ESP,ATHE RACE V6 BA     ,13, JEOGL2        , BK5,nr15876,S7 ,INJ ,194,Yes
+RENAULT        , LAGUNA II, AUTHENTIQUE 1.6 16V,07, BG0A05        , BE5,nr15877,S7 ,INJ ,110,Yes
+RENAULT        , LAGUNA II, AUTHENTIQUE 1.9DCI ,06, BG0R06        , BE5,nr15878,S7 ,DITU,110,Yes
+RENAULT        , LAGUNA II, DYNAMIQUE 1.8 16V  ,07, BGOC05        , BE5,nr15879,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNA II, DYNAMIQUE 1.9DCI   ,07, BG0G06        , BE5,nr15880,S7 ,DITU,120,Yes
+RENAULT        , LAGUNA II, DYNAMIQUE V6 24V BA,14, BG0D0B        , BE5,nr15881,S7 ,INJ ,210,Yes
+RENAULT        , LAGUNA II, EXPRESSION 1.6 16V ,07, BG0A05        , BE5,nr15882,S7 ,INJ ,110,Yes
+RENAULT        , LAGUNA II, EXPRESSION 1.8 16V ,07, BGOC05        , BE5,nr15883,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNA II, EXPRESSION 1.9DCI  ,06, BG0R06        , BE5,nr15884,S7 ,DITU,110,Yes
+RENAULT        , LAGUNA II, INITIALE 1.8 16V   ,07, BGOC05        , BE5,nr15885,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNA II, INITIALE 1.9DCI    ,07, BG0G06        , BE5,nr15886,S7 ,DITU,120,Yes
+RENAULT        , LAGUNA II, INITIALE V6 24V BA ,14, BG0D0B        , BE5,nr15887,S7 ,INJ ,210,Yes
+RENAULT        , LAGUNA II, PRIVILEGE 1.8 16V  ,07, BGOC05        , BE5,nr15888,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNA II, PRIVILEGE 1.9DCI   ,07, BG0G06        , BE5,nr15889,S7 ,DITU,120,Yes
+RENAULT        , LAGUNA II, PRIVILEGE V6 24V BA,14, BG0D0B        , BE5,nr15890,S7 ,INJ ,210,Yes
+RENAULT        , LAGUNAEST,AAUTHENTIQUE 1.6 16V,07, KG0A05        , BK5,nr15891,S7 ,INJ ,110,Yes
+RENAULT        , LAGUNAEST,AAUTHENTIQUE 1.9DCI ,06, KG0R06        , BK5,nr15892,S7 ,DITU,110,Yes
+RENAULT        , LAGUNAEST,ADYNAMIQUE 1.8 16V  ,07, KGOC05        , BK5,nr15893,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNAEST,ADYNAMIQUE 1.9DCI   ,07, KG0G06        , BK5,nr15894,S7 ,DITU,120,Yes
+RENAULT        , LAGUNAEST,ADYNAMIQUE V6 24V BA,14, KG0D0B        , BK5,nr15895,S7 ,INJ ,210,Yes
+RENAULT        , LAGUNAEST,AEXPRESSION 1.6 16V ,07, KG0A05        , BK5,nr15896,S7 ,INJ ,110,Yes
+RENAULT        , LAGUNAEST,AEXPRESSION 1.8 16V ,07, KGOC05        , BK5,nr15897,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNAEST,AEXPRESSION 1.9DCI  ,06, KG0R06        , BK5,nr15898,S7 ,DITU,110,Yes
+RENAULT        , LAGUNAEST,AINITIALE 1.8 16V   ,07, KGOC05        , BK5,nr15899,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNAEST,AINITIALE 1.9DCI    ,07, KG0G06        , BK5,nr15900,S7 ,DITU,120,Yes
+RENAULT        , LAGUNAEST,AINITIALE V6 24V BA ,14, KG0D0B        , BK5,nr15901,S7 ,INJ ,210,Yes
+RENAULT        , LAGUNAEST,APRIVILEGE 1.8 16V  ,07, KGOC05        , BK5,nr15902,S7 ,INJ ,117,Yes
+RENAULT        , LAGUNAEST,APRIVILEGE 1.9DCI   ,07, KG0G06        , BK5,nr15903,S7 ,DITU,120,Yes
+RENAULT        , LAGUNAEST,APRIVILEGE V6 24V BA,14, KG0D0B        , BK5,nr15904,S7 ,INJ ,210,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE  1.9D  ,05, LAOR05        , BE4,nr15905,S7 ,DIES,065,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE 1.4 16V,06, KAODO5        , BK5,nr15906,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE 1.4 16V,06, LAODO5        , BE4,nr15907,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE 1.9D   ,05, BAOR05        , BE5,nr15908,S7 ,DIES,065,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE 1.9D   ,05, KAOR05        , BK5,nr15909,S7 ,DITU,065,Yes
+RENAULT        , MEGANE   , AUTHENTIQUE 1.9DCI ,06, KAO505        , BK5,nr15910,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.4 16V  ,06, DA0D05        , CPE,nr15911,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.4 16V  ,06, EA0D05        , CAB,nr15912,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.6 16V  ,07, DA0B05        , CPE,nr15913,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.6 16V  ,07, EA0B02        , CAB,nr15914,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.6 16V  ,07, EA0B05        , CAB,nr15915,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.6 16V B,07,ADA0B02        , CPE,nr15916,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , DYNAMIQUE 1.9 DCI  ,06, DA0505        , CPE,nr15917,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.4 16V ,06, DA0D05        , CPE,nr15918,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.4 16V ,06, EA0D05        , CAB,nr15919,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.4 16V ,06, KAODO5        , BK5,nr15920,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.4 16V ,06, LAODO5        , BE4,nr15921,S7 ,INJ ,095,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 1.6V,07, BAOB02        , BE5,nr15922,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 1.6V,07, BAOB05        , BE5,nr15923,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 1.6V,07, LAOB02        , BE4,nr15924,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 1.6V,07, LAOB05        , BE4,nr15925,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 16V ,07, DA0B05        , CPE,nr15926,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.6 16V ,07, KAOBO5        , BK5,nr15927,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.8 1.6V,07, BA1A05        , BE5,nr15928,S7 ,INJ ,118,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.8 16V ,07, KA1AO5        , BK5,nr15929,S7 ,INJ ,118,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9D    ,05, BAOR05        , BE5,nr15930,S7 ,DIES,065,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9D    ,05, KAOR05        , BK5,nr15931,S7 ,DITU,065,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9D    ,05, LAOR05        , BE4,nr15932,S7 ,DIES,065,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9DCI  ,06, KAO505        , BK5,nr15933,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9DCI  ,06, LAO505        , BE4,nr15934,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , EXPRESSION 1.9DTI B,06,ALAON02        , BE4,nr15935,S7 ,DITU,100,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 1.6V ,07, BAOB02        , BE5,nr15936,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 1.6V ,07, BAOB05        , BE5,nr15937,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 1.6V ,07, LAOB02        , BE4,nr15938,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 1.6V ,07, LAOB05        , BE4,nr15939,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 16V  ,07, DA0B05        , CPE,nr15940,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 16V  ,07, EA0B05        , CAB,nr15941,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 16V B,07,ADA0B02        , CPE,nr15942,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.6 16V B,07,AEA0B02        , CAB,nr15943,S7 ,INJ ,110,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.8 1.6V ,07, BA1A05        , BE5,nr15944,S7 ,INJ ,118,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.9 DCI  ,06, DA0505        , CPE,nr15945,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.9DCI   ,06, LAO505        , BE4,nr15946,S7 ,DITU,105,Yes
+RENAULT        , MEGANE   , PRIVILEGE 1.9DTI BA,06, LAON02        , BE4,nr15947,S7 ,DITU,100,Yes
+RENAULT        , MEGANE   , PRIVILEGE 2.0 IDE  ,09, DA0P05        , CPE,nr15948,S7 ,INJ ,140,Yes
+RENAULT        , MEGANE   , PRIVILEGE 2.0 IDE  ,09, EA0P05        , CAB,nr15949,S7 ,INJ ,140,Yes
+RENAULT        , TWINGO   , AUTHENTIQUE  1.2   ,04, C068A5        , BE3,nr15950,S7 ,INJ ,060,Yes
+RENAULT        , TWINGO   , CINETIC 1.2        ,04, C068A5        , BE3,nr15951,S7 ,INJ ,060,Yes
+RENAULT        , TWINGO   , CINETIC 1.2 16V    ,05, C06C05        , BE3,nr15952,S7 ,INJ ,075,Yes
+RENAULT        , TWINGO   , CINETIC 1.2 QUICKSH,04,IC06TAH        , BE3,nr15953,S7 ,INJ ,060,Yes
+RENAULT        , TWINGO   , EXPRESSION 1.2     ,04, C068A5        , BE3,nr15954,S7 ,INJ ,060,Yes
+RENAULT        , TWINGO   , EXPRESSION 1.2 16V ,05, C06C05        , BE3,nr15955,S7 ,INJ ,075,Yes
+RENAULT        , TWINGO   , EXPRESSION 1.2 QUIC,04,KC06TAH        , BE3,nr15956,S7 ,INJ ,060,Yes
+RENAULT        , TWINGO   , INITIALE 1.2 16V   ,05, C06C05        , BE3,nr15957,S7 ,INJ ,075,Yes
+RENAULT        , TWINGO   , PRIVILEGE 1.2 16V  ,05, C06C05        , BE3,nr15958,S7 ,INJ ,075,Yes
+SEAT           , AROSA    , 1.0 SELECT         ,04,               , BE3,nr15959,S7 ,INJ ,050,Yes
+SEAT           , AROSA    , 1.0 STELLA         ,04,               , BE3,nr15960,S7 ,INJ ,050,Yes
+SEAT           , AROSA    , 1.4 16V SPORT      ,06,               , BE3,nr15961,S7 ,INJ ,100,Yes
+SEAT           , AROSA    , 1.4 STELLA         ,04,               , BE3,nr15962,S7 ,INJ ,060,Yes
+SEAT           , AROSA    , 1.4 STELLA BA      ,05,               , BE3,nr15963,S7 ,INJ ,060,Yes
+SEAT           , AROSA    , 1.4 TDI STELLA     ,04,               , BE3,nr15964,S7 ,DITU,075,Yes
+SEAT           , AROSA    , 1.7 SDI SELECT     ,04,               , BE3,nr15965,S7 ,DIES,060,Yes
+SEAT           , AROSA    , 1.7 SDI STELLA     ,04,               , BE3,nr15966,S7 ,DIES,060,Yes
+SEAT           , CORDOBA  , 1.4I 16V SIGNO PLUS,05,               , BE4,nr15967,S7 ,INJ ,075,Yes
+SEAT           , CORDOBA  , 1.4I 16V SIGNO PLUS,05,               , BK5,nr15968,S7 ,INJ ,075,Yes
+SEAT           , CORDOBA  , 1.4I 16V STELLA PLU,05,S              , BE4,nr15969,S7 ,INJ ,075,Yes
+SEAT           , CORDOBA  , 1.4I 16V STELLA PLU,05,S              , BK5,nr15970,S7 ,INJ ,075,Yes
+SEAT           , CORDOBA  , 1.4I SIGNO PLUS    ,05,               , BE4,nr15971,S7 ,INJ ,060,Yes
+SEAT           , CORDOBA  , 1.4I STELLA PLUS   ,05,               , BE4,nr15972,S7 ,INJ ,060,Yes
+SEAT           , CORDOBA  , 1.6I SPORT PLUS    ,07,               , BE4,nr15973,S7 ,INJ ,100,Yes
+SEAT           , CORDOBA  , 1.6I SPORT PLUS    ,07,               , CPE,nr15974,S7 ,INJ ,100,Yes
+SEAT           , CORDOBA  , 1.9 SDI SIGNO PLUS ,04,               , BE4,nr15975,S7 ,DIES,068,Yes
+SEAT           , CORDOBA  , 1.9 SDI SIGNO PLUS ,05,               , BK5,nr15976,S7 ,DIES,068,Yes
+SEAT           , CORDOBA  , 1.9 SDI STELLA PLUS,04,               , BE4,nr15977,S7 ,DIES,068,Yes
+SEAT           , CORDOBA  , 1.9 SDI STELLA PLUS,05,               , BK5,nr15978,S7 ,DIES,068,Yes
+SEAT           , CORDOBA  , 1.9 TDI SIGNO PLUS ,05,               , BE4,nr15979,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI SIGNO PLUS ,06,               , BE4,nr15980,S7 ,DITU,110,Yes
+SEAT           , CORDOBA  , 1.9 TDI SIGNO PLUS ,05,               , BK5,nr15981,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI SIGNO PLUS ,06,               , BK5,nr15982,S7 ,DITU,110,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,05,               , BE4,nr15983,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,06,               , BE4,nr15984,S7 ,DITU,110,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,05,               , BK5,nr15985,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,06,               , BK5,nr15986,S7 ,DITU,110,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,05,               , CPE,nr15987,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI SPORT PLUS ,06,               , CPE,nr15988,S7 ,DITU,110,Yes
+SEAT           , CORDOBA  , 1.9 TDI STELLA PLUS,05,               , BE4,nr15989,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , 1.9 TDI STELLA PLUS,05,               , BK5,nr15990,S7 ,DITU,090,Yes
+SEAT           , CORDOBA  , VAR 1.4I SIGNO PLUS,05,               , BK5,nr15991,S7 ,INJ ,060,Yes
+SEAT           , CORDOBA  , VAR 1.4I STELLA PLU,05,S              , BK5,nr15992,S7 ,INJ ,060,Yes
+SEAT           , CORDOBA  , VARIO 1.6I SPORT PL,07,U              , BK5,nr15993,S7 ,INJ ,100,Yes
+SEAT           , IBIZA    , 1.4I 16V SIGNO PLUS,05,               , BE3,nr15994,S7 ,INJ ,075,Yes
+SEAT           , IBIZA    , 1.4I 16V SIGNO PLUS,05,               , BE5,nr15995,S7 ,INJ ,075,Yes
+SEAT           , IBIZA    , 1.4I 16V STELLA PLU,05,S              , BE3,nr15996,S7 ,INJ ,075,Yes
+SEAT           , IBIZA    , 1.4I 16V STELLA PLU,05,S              , BE5,nr15997,S7 ,INJ ,075,Yes
+SEAT           , IBIZA    , 1.4I SELECT PLUS   ,05,               , BE3,nr15998,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.4I SELECT PLUS   ,05,               , BE5,nr15999,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.4I SIGNO PLUS    ,05,               , BE3,nr16000,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.4I SIGNO PLUS    ,05,               , BE5,nr16001,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.4I STELLA PLUS   ,05,               , BE3,nr16002,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.4I STELLA PLUS   ,05,               , BE5,nr16003,S7 ,INJ ,060,Yes
+SEAT           , IBIZA    , 1.6I SPORT PLUS    ,07,               , BE3,nr16004,S7 ,INJ ,100,Yes
+SEAT           , IBIZA    , 1.8I20V T SPORT PLU,10,S              , BE3,nr16005,S7 ,INTU,156,Yes
+SEAT           , IBIZA    , 1.9 SDI SELECT PLUS,04,               , BE3,nr16006,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 SDI SELECT PLUS,04,               , BE5,nr16007,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 SDI SIGNO PLUS ,04,               , BE3,nr16008,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 SDI SIGNO PLUS ,04,               , BE5,nr16009,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 SDI STELLA PLUS,04,               , BE3,nr16010,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 SDI STELLA PLUS,04,               , BE5,nr16011,S7 ,DIES,068,Yes
+SEAT           , IBIZA    , 1.9 TDI SIGNO PLUS ,05,               , BE3,nr16012,S7 ,DITU,090,Yes
+SEAT           , IBIZA    , 1.9 TDI SIGNO PLUS ,05,               , BE5,nr16013,S7 ,DITU,090,Yes
+SEAT           , IBIZA    , 1.9 TDI SIGNO PLUS ,06,               , BE5,nr16014,S7 ,DITU,110,Yes
+SEAT           , IBIZA    , 1.9 TDI SPORT PLUS ,05,               , BE3,nr16015,S7 ,DITU,090,Yes
+SEAT           , IBIZA    , 1.9 TDI SPORT PLUS ,06,               , BE3,nr16016,S7 ,DITU,110,Yes
+SEAT           , IBIZA    , 1.9 TDI STELLA PLUS,05,               , BE3,nr16017,S7 ,DITU,090,Yes
+SEAT           , IBIZA    , 1.9 TDI STELLA PLUS,05,               , BE5,nr16018,S7 ,DITU,090,Yes
+SKODA          , FABIA    , COMBI 1.4 68 CLASSI,05,C              , BK5,nr16019,S7 ,INJ ,068,Yes
+SKODA          , FABIA    , COMBI 1.4 75 COMFOR,05,T              , BK5,nr16020,S7 ,INJ ,075,Yes
+SKODA          , FABIA    , COMBI 1.4 ELEGANCE ,06,               , BK5,nr16021,S7 ,INJ ,100,Yes
+SKODA          , FABIA    , COMBI 1.9 SDI CLASS,04,I              , BK5,nr16022,S7 ,DIES,064,Yes
+SKODA          , FABIA    , COMBI 1.9 SDI COMFO,04,R              , BK5,nr16023,S7 ,DIES,064,Yes
+SKODA          , FABIA    , COMBI 1.9 TDI COMFO,06,               , BK5,nr16024,S7 ,DITU,100,Yes
+SKODA          , FABIA    , COMBI 1.9 TDI ELEGA,06,N              , BK5,nr16025,S7 ,DITU,100,Yes
+SUZUKI         , GRD VITAR,A2.0TD LUXE         ,07,               , BK5,nr16026,   ,DITU,109,Yes
+SUZUKI         , GRD VITAR,A2.0TD STANDARD     ,07,               , BK5,nr16027,   ,DITU,109,Yes
+SUZUKI         , GRD VITAR,A2.5 V6 LUXE        ,10,               , BK5,nr16028,   ,INJ ,144,Yes
+SUZUKI         , GRD VITAR,A2.5 V6 LUXE BA     ,11,               , BK5,nr16029,   ,INJ ,144,Yes
+TOYOTA         , LEXUS    , RX 300 PACK        ,15, JTJHF10U      , BK5,nr16030,   ,INJ ,201,Yes
+TOYOTA         , LEXUS    , RX 300 PACK GPS    ,15, JTJHF10U      , BK5,nr16031,   ,INJ ,201,Yes
+TOYOTA         , LEXUS    , RX 300 PACK LUXE   ,15, JTJHF10U      , BK5,nr16032,   ,INJ ,201,Yes
+TOYOTA         , LEXUS    , RX 300 PACK LUXE GP,15,SJTJHF10U      , BK5,nr16033,   ,INJ ,201,Yes
+VOLKSWAGEN     , BORA     , SPORT V5           ,11,               , BE4,nr16034,S7 ,INJ ,170,Yes
+VOLKSWAGEN     , BORA     , SPORT V5           ,11,               , BK5,nr16035,S7 ,INJ ,170,Yes
+VOLKSWAGEN     , GOLF IV  , CABRIO CARAT 2.0   ,08,               , CAB,nr16036,S7 ,INJ ,115,Yes
+VOLKSWAGEN     , GOLF IV  , CABRIO CARAT 2.0 BA,08,               , CAB,nr16037,S7 ,INJ ,115,Yes
+VOLKSWAGEN     , GOLF IV  , CABRIO MAYFLOWER 2.,08,0              , CAB,nr16038,S7 ,INJ ,115,Yes
+VOLKSWAGEN     , GOLF IV  , TDI 100            ,06,               , BK5,nr16039,S7 ,DITU,100,Yes
+VOLKSWAGEN     , LUPO     , 1.6 16V GTI        ,08,               , BE3,nr16040,S7 ,INJ ,125,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH      ,05,               , BE3,nr16041,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH      ,05,               , BE5,nr16042,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH BA   ,06,               , BE3,nr16043,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH BA   ,06,               , BE5,nr16044,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH CFT B,06,A              , BE3,nr16045,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH CFT B,06,A              , BE5,nr16046,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH CONFO,05,R              , BE3,nr16047,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 16S MATCH CONFO,05,R              , BE5,nr16048,S7 ,INJ ,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH          ,04,               , BE3,nr16049,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH          ,05,               , BE3,nr16050,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH          ,04,               , BE5,nr16051,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH          ,05,               , BE5,nr16052,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH CONFORT  ,04,               , BE3,nr16053,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH CONFORT  ,05,               , BE3,nr16054,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH CONFORT  ,04,               , BE5,nr16055,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 MATCH CONFORT  ,05,               , BE5,nr16056,S7 ,INJ ,060,Yes
+VOLKSWAGEN     , POLO     , 1.4 TDI MATCH      ,04,               , BE3,nr16057,S7 ,DITU,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 TDI MATCH      ,04,               , BE5,nr16058,S7 ,DITU,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 TDI MATCH CONFO,04,R              , BE3,nr16059,S7 ,DITU,075,Yes
+VOLKSWAGEN     , POLO     , 1.4 TDI MATCH CONFO,04,R              , BE5,nr16060,S7 ,DITU,075,Yes
+VOLVO          , S40      , 1.6 16V TITANIUM   ,07, VS10K3        , BE4,nr16061,   ,INJ ,109,Yes
+VOLVO          , S40      , 1.8 16V TITANIUM   ,08, VS14K9        , BE4,nr16062,   ,INJ ,122,Yes
+VOLVO          , S40      , 1.8 16V TITANIUM   ,07, VS15K3        , BE4,nr16063,   ,INJ ,115,Yes
+VOLVO          , S40      , 1.8I TITANIUM      ,07, VS2675        , BE4,nr16064,   ,INJ ,125,Yes
+VOLVO          , S40      , 1.9D TITANIUM 102  ,06, VS7882        , BE4,nr16065,   ,DITU,102,Yes
+VOLVO          , S40      , 1.9D TITANIUM 115  ,06, VS7082        , BE4,nr16066,   ,DITU,115,Yes
+VOLVO          , S40      , 2.0 16V TITANIUM   ,09, VS17K2        , BE4,nr16067,   ,INJ ,136,Yes
+VOLVO          , S40      , 2.0 16V TITANIUM   ,09, VS17K9        , BE4,nr16068,   ,INJ ,136,Yes
+VOLVO          , S40      , 2.0T TITANIUM      ,10, VS2962        , BE4,nr16069,   ,INTU,164,Yes
+VOLVO          , S40      , 2.0T TITANIUM      ,11, VS2969        , BE4,nr16070,   ,INTU,164,Yes
+VOLVO          , S40      , T4 TITANIUM        ,13, VS3762        , BE4,nr16071,   ,INTU,200,Yes
+VOLVO          , S40      , T4 TITANIUM        ,13, VS3769        , BE4,nr16072,   ,INTU,200,Yes
+VOLVO          , V40      , 1.6 16V TITANIUM   ,07, VW10K3        , BK5,nr16073,   ,INJ ,109,Yes
+VOLVO          , V40      , 1.8 16V TITANIUM   ,08, VW14K9        , BK5,nr16074,   ,INJ ,122,Yes
+VOLVO          , V40      , 1.8 16V TITANIUM   ,07, VW15K3        , BK5,nr16075,   ,INJ ,115,Yes
+VOLVO          , V40      , 1.8I TITANIUM      ,07, VW2675        , BK5,nr16076,   ,INJ ,125,Yes
+VOLVO          , V40      , 1.9D TITANIUM 102  ,06, VW7882        , BK5,nr16077,   ,DITU,102,Yes
+VOLVO          , V40      , 1.9D TITANIUM 115  ,06, VW7082        , BK5,nr16078,   ,DITU,115,Yes
+VOLVO          , V40      , 2.0 16V TITANIUM   ,09, VW17K2        , BK5,nr16079,   ,INJ ,136,Yes
+VOLVO          , V40      , 2.0 16V TITANIUM   ,09, VW17K9        , BK5,nr16080,   ,INJ ,136,Yes
+VOLVO          , V40      , 2.0T TITANIUM      ,10, VW2962        , BK5,nr16081,   ,INTU,164,Yes
+VOLVO          , V40      , 2.0T TITANIUM      ,11, VW2969        , BK5,nr16082,   ,INTU,164,Yes
+VOLVO          , V40      , T4 TITANIUM        ,13, VW3762        , BK5,nr16083,   ,INTU,200,Yes
+VOLVO          , V40      , T4 TITANIUM        ,13, VW3769        , BK5,nr16084,   ,INTU,200,Yes
+VOLVO          , V40      , T4 TITANIUM        ,13, VW3769        , BK5,nr16085,   ,INTU,200,Yes

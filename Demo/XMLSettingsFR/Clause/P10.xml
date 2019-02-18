@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_Provision><Code Id="2"><![CDATA[P10]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1036\f0\fs16       Les garanties prennent effet pour chacun des pr\f1\'eats, sous r\'e9serve de l'acceptation du risque et l'encaissement effectif 
+\par       de la 1\'e8re cotisation par l'Assureur, \'e0 la date d'acceptation de l'offre de pr\'eat sign\'e9e aupr\'e8s de l'organisme pr\'eateur, 
+\par       et au plus t\'f4t, \'e0 la date de r\'e9ception de la lettre de couverture ou de la lettre de notification des surprimes et/ou 
+\par       des exclusions envoy\'e9e par l'Assureur. ...
+\par 
+\par       D\'e9lai de renonciation : 30 jours calendaires r\'e9volus
+\par 
+\par       La lettre de couverture ou la lettre de notification des surprimes et/ou des exclusions est consid\'e9r\'e9e avoir \'e9t\'e9 re\'e7ue 
+\par       7 jours calendaires apr\'e8s son envoi par l'Assureur. 
+\par 
+\par       Garantie est accord\'e9e pour le montant du capital assur\'e9, dans le limite de 350 000 euros et sous r\'e9serve des exclusions 
+\par       \'e9nonc\'e9es \'e0 l'article 7
+\par 
+\par       Date d'effet de la garantie contre le risque de d\'e9c\'e8s cons\'e9cutif \'e0 un accident :La date d'effet de cette garantie est la date 
+\par       de signature de la Demande d'adh\'e9sion\f0 
+\par }
+]]></content><Clausetype Id="1"><![CDATA[Clause générale]]></Clausetype><Title Id="1"><![CDATA[Prise d'effet des garanties]]></Title><EnumerateSubDocuments Id="14"><![CDATA[Faux]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[Faux]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Obligatoire]]></DuringComposition><Composed Id="15"><![CDATA[Faux]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[Faux]]></StartOnNextpage><Name Id="3"><![CDATA[CG Emprunteur Prise d'effet des garanties]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773931]]></NSId><Id Id="2"><![CDATA[11]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_Provision></EntityExport>

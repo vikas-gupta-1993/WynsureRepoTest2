@@ -1,0 +1,18 @@
+{
+	"description": "",
+	"request": {
+		"login": "super manager",
+		"oldPassword": "",
+		"newPassword": "765"
+	},
+	"response": {
+		"_Result": true
+	},
+	"eval": null,
+	"className": "aSF_Manage_LogOn",
+	"methodName": "ChangePasswordForLoginEx",
+	"version": "5.8.3.0",
+	"date": "2018-12-04",
+	"errors": [
+	]
+}

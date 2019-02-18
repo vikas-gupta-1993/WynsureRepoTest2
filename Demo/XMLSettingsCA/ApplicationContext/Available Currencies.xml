@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFApplicationAvailableCurrenciesContext><AvailableCurrencies Id="1"><![CDATA[AUD,CAD,CHF,EUR,GBP,JPY,USD]]></AvailableCurrencies><DefaultCurrency Id="6"><![CDATA[USD]]></DefaultCurrency><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318767912]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFApplicationAvailableCurrenciesContext></EntityExport>

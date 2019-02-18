@@ -1,0 +1,745 @@
+{
+	"description":"",
+	"request":{
+		"criteria":"",
+		"maxSize":50
+	},
+	"response":[
+		{
+			"code":"HDam",
+			"classId":218185087,
+			"name":"Apartment-Building Loss",
+			"nsId":318848383
+		},
+		{
+			"code":"HPropDam",
+			"classId":218185087,
+			"name":"Apartment-Property Damaged or Damage of Contents",
+			"nsId":318848383
+		},
+		{
+			"code":"BIT",
+			"classId":218185087,
+			"name":"Bodily Injury in Trip",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_CPI",
+			"classId":218185087,
+			"name":"Covered Person Injury",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_ATTMTHEFT",
+			"classId":218185087,
+			"name":"Covered Vehicle Attempted Theft Damage",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_BD",
+			"classId":218185087,
+			"name":"Covered Vehicle Break Down",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_CVD",
+			"classId":218185087,
+			"name":"Covered Vehicle Collision Damage",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_FIRE",
+			"classId":218185087,
+			"name":"Covered Vehicle Fire Damage",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_VD",
+			"classId":218185087,
+			"name":"Covered Vehicle Vandalism Damage",
+			"nsId":318848383
+		},
+		{
+			"code":"CI",
+			"classId":218185087,
+			"name":"Critical Illness",
+			"nsId":318848383
+		},
+		{
+			"code":"DFA",
+			"classId":218185087,
+			"name":"Damage to Fine Arts",
+			"nsId":318848383
+		},
+		{
+			"code":"DJ",
+			"classId":218185087,
+			"name":"Damage to Jewelry",
+			"nsId":318848383
+		},
+		{
+			"code":"DIT",
+			"classId":218185087,
+			"name":"Death in Trip",
+			"nsId":318848383
+		},
+		{
+			"code":"DCP",
+			"classId":218185087,
+			"name":"Death of the Insured",
+			"nsId":318848383
+		},
+		{
+			"code":"EM",
+			"classId":218185087,
+			"name":"Emergency Medical",
+			"nsId":318848383
+		},
+		{
+			"code":"GRC",
+			"classId":218185087,
+			"name":"Guaranteed Replacement Cost",
+			"nsId":318848383
+		},
+		{
+			"code":"LTD",
+			"classId":218185087,
+			"name":"Long Term Disability",
+			"nsId":318848383
+		},
+		{
+			"code":"LoI",
+			"classId":218185087,
+			"name":"Loss of Item",
+			"nsId":318848383
+		},
+		{
+			"code":"29",
+			"classId":218185087,
+			"name":"Personal Injury Liability Loss",
+			"nsId":318848383
+		},
+		{
+			"code":"26",
+			"classId":218185087,
+			"name":"Premises\/Operations Liability Loss",
+			"nsId":318848383
+		},
+		{
+			"code":"STD",
+			"classId":218185087,
+			"name":"Short Term Disability",
+			"nsId":318848383
+		},
+		{
+			"code":"HTerr",
+			"classId":218185087,
+			"name":"Terrorist Act",
+			"nsId":318848383
+		},
+		{
+			"code":"TDFA",
+			"classId":218185087,
+			"name":"Theft & Disappearance of Fine Arts",
+			"nsId":318848383
+		},
+		{
+			"code":"TDJ",
+			"classId":218185087,
+			"name":"Theft & Disappearance of Jewelry",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_TPDI",
+			"classId":218185087,
+			"name":"Third Party Injury",
+			"nsId":318848383
+		},
+		{
+			"code":"AL_TPVD",
+			"classId":218185087,
+			"name":"Third Party Vehicle Collision Damage",
+			"nsId":318848383
+		},
+		{
+			"code":"TCI",
+			"classId":218185087,
+			"name":"Trip Cancelation",
+			"nsId":318848383
+		},
+		{
+			"code":"TIDemo",
+			"classId":218185087,
+			"name":"Trip Interruption",
+			"nsId":318848383
+		},
+		{
+			"code":"ACD",
+			"classId":218185807,
+			"name":"Accidental Dismemberment",
+			"nsId":318849103
+		},
+		{
+			"code":"GUNSHOT",
+			"classId":218185807,
+			"name":"Accidental Gunshot",
+			"nsId":318849103
+		},
+		{
+			"code":"ACDB",
+			"classId":218185807,
+			"name":"Accelerated Death Benefit",
+			"nsId":318849103
+		},
+		{
+			"code":"PL",
+			"classId":218185807,
+			"name":"Paralysis",
+			"nsId":318849103
+		},
+		{
+			"code":"RA",
+			"classId":218185807,
+			"name":"Retirement Annuity",
+			"nsId":318849103
+		},
+		{
+			"code":"WOP",
+			"classId":218185807,
+			"name":"Waiver of Premium",
+			"nsId":318849103
+		},
+		{
+			"code":"HLO",
+			"classId":218186616,
+			"name":"General",
+			"nsId":318849912
+		},
+		{
+			"code":"AR",
+			"classId":218185578,
+			"name":"Apartment-Accounts Receivable Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"BIL",
+			"classId":218185578,
+			"name":"Apartment-Business Income Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"GL",
+			"classId":218185578,
+			"name":"Apartment-Glass Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"OL",
+			"classId":218185578,
+			"name":"Apartment-Ordinance or Law Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"SL",
+			"classId":218185578,
+			"name":"Apartment-Sign Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"TR",
+			"classId":218185578,
+			"name":"Apartment-Total Replacement Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"VPR",
+			"classId":218185578,
+			"name":"Apartment-Valuable Papers and Records Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"BPPD",
+			"classId":218185578,
+			"name":"Business Personal Property Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"CVADD",
+			"classId":218185578,
+			"name":"Civil Authority-Additional Living Expense",
+			"nsId":318848874
+		},
+		{
+			"code":"CR",
+			"classId":218185578,
+			"name":"Cost of Rental",
+			"nsId":318848874
+		},
+		{
+			"code":"CLADD",
+			"classId":218185578,
+			"name":"Covered Loss Property Damage(Other)-Additional Living Expense",
+			"nsId":318848874
+		},
+		{
+			"code":"CLD",
+			"classId":218185578,
+			"name":"Covered Loss-Damage (Other)",
+			"nsId":318848874
+		},
+		{
+			"code":"DPR",
+			"classId":218185578,
+			"name":"Damaged Property Repair",
+			"nsId":318848874
+		},
+		{
+			"code":"DPRE",
+			"classId":218185578,
+			"name":"Damaged Property Replacement",
+			"nsId":318848874
+		},
+		{
+			"code":"EWD",
+			"classId":218185578,
+			"name":"Exterior Walls Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"FID",
+			"classId":218185578,
+			"name":"Fire Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"FPDADD",
+			"classId":218185578,
+			"name":"Fire Property Damage-Additional Living Expense",
+			"nsId":318848874
+		},
+		{
+			"code":"FD",
+			"classId":218185578,
+			"name":"Floors Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"FE",
+			"classId":218185578,
+			"name":"Funeral Expenses",
+			"nsId":318848874
+		},
+		{
+			"code":"GB",
+			"classId":218185578,
+			"name":"Glass Breakage",
+			"nsId":318848874
+		},
+		{
+			"code":"IWD",
+			"classId":218185578,
+			"name":"Interior Walls Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"IF",
+			"classId":218185578,
+			"name":"Investigation Fees",
+			"nsId":318848874
+		},
+		{
+			"code":"LSF",
+			"classId":218185578,
+			"name":"Legal Services Fees",
+			"nsId":318848874
+		},
+		{
+			"code":"LAF",
+			"classId":218185578,
+			"name":"Loan Application Fees",
+			"nsId":318848874
+		},
+		{
+			"code":"LE",
+			"classId":218185578,
+			"name":"Loss of Earnings",
+			"nsId":318848874
+		},
+		{
+			"code":"MB",
+			"classId":218185578,
+			"name":"Medical Bills",
+			"nsId":318848874
+		},
+		{
+			"code":"OD",
+			"classId":218185578,
+			"name":"Other Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"O",
+			"classId":218185578,
+			"name":"Other",
+			"nsId":318848874
+		},
+		{
+			"code":"OVL",
+			"classId":218185578,
+			"name":"Other",
+			"nsId":318848874
+		},
+		{
+			"code":"OPD",
+			"classId":218185578,
+			"name":"Outside Property Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"PS",
+			"classId":218185578,
+			"name":"Pain and Suffering",
+			"nsId":318848874
+		},
+		{
+			"code":"PPTL",
+			"classId":218185578,
+			"name":"Personal Property at a Temporary Location",
+			"nsId":318848874
+		},
+		{
+			"code":"PPD",
+			"classId":218185578,
+			"name":"Personal Property Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"PPOIP",
+			"classId":218185578,
+			"name":"Personal Property of Others at Insured Premises",
+			"nsId":318848874
+		},
+		{
+			"code":"PSF",
+			"classId":218185578,
+			"name":"Professional Services Fees",
+			"nsId":318848874
+		},
+		{
+			"code":"PD",
+			"classId":218185578,
+			"name":"Punitive Damages",
+			"nsId":318848874
+		},
+		{
+			"code":"RD",
+			"classId":218185578,
+			"name":"Roof Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"CRT",
+			"classId":218185578,
+			"name":"Car Rental",
+			"nsId":318848874
+		},
+		{
+			"code":"DB",
+			"classId":218185578,
+			"name":"Dead Battery",
+			"nsId":318848874
+		},
+		{
+			"code":"ESM",
+			"classId":218185578,
+			"name":"Entrapment (snow, mud, water...)",
+			"nsId":318848874
+		},
+		{
+			"code":"FT",
+			"classId":218185578,
+			"name":"Flat Tire",
+			"nsId":318848874
+		},
+		{
+			"code":"MP6",
+			"classId":218185578,
+			"name":"Insured Bodily Injury",
+			"nsId":318848874
+		},
+		{
+			"code":"MP4",
+			"classId":218185578,
+			"name":"Insured Vehicle Comprehensive Damage (not due to collision)",
+			"nsId":318848874
+		},
+		{
+			"code":"MP5",
+			"classId":218185578,
+			"name":"Insured Vehicle Collision Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"LO",
+			"classId":218185578,
+			"name":"Locked Out",
+			"nsId":318848874
+		},
+		{
+			"code":"OG",
+			"classId":218185578,
+			"name":"Out of Gas",
+			"nsId":318848874
+		},
+		{
+			"code":"MP1",
+			"classId":218185578,
+			"name":"Third Party Bodily Injury",
+			"nsId":318848874
+		},
+		{
+			"code":"MP2",
+			"classId":218185578,
+			"name":"Third Party Property Damage SimpleLoss",
+			"nsId":318848874
+		},
+		{
+			"code":"MP3",
+			"classId":218185578,
+			"name":"Third Party Vehicle Damage SimpleLoss",
+			"nsId":318848874
+		},
+		{
+			"code":"TS",
+			"classId":218185578,
+			"name":"Towing Service",
+			"nsId":318848874
+		},
+		{
+			"code":"TD",
+			"classId":218185578,
+			"name":"Theft & Disappearance",
+			"nsId":318848874
+		},
+		{
+			"code":"TL",
+			"classId":218185578,
+			"name":"Total Loss",
+			"nsId":318848874
+		},
+		{
+			"code":"VMMD",
+			"classId":218185578,
+			"name":"Vandalism or Malicious Mischief Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"VD",
+			"classId":218185578,
+			"name":"Vehicle Damage",
+			"nsId":318848874
+		},
+		{
+			"code":"VR",
+			"classId":218185578,
+			"name":"Vehicle Repair",
+			"nsId":318848874
+		},
+		{
+			"code":"VRE",
+			"classId":218185578,
+			"name":"Vehicle Replaced",
+			"nsId":318848874
+		},
+		{
+			"code":"VT",
+			"classId":218185578,
+			"name":"Vehicle Theft",
+			"nsId":318848874
+		},
+		{
+			"code":"WRD",
+			"classId":218185578,
+			"name":"Weather Related Damage ",
+			"nsId":318848874
+		},
+		{
+			"code":"WRPADD",
+			"classId":218185578,
+			"name":"Weather Related Property Damage-Additional Living Expense",
+			"nsId":318848874
+		},
+		{
+			"code":"ADD",
+			"classId":218185092,
+			"name":"Additional Living Expense\/Loss of Use",
+			"nsId":318848388
+		},
+		{
+			"code":"ApartDam",
+			"classId":218185092,
+			"name":"Apartment-Damage",
+			"nsId":318848388
+		},
+		{
+			"code":"ATH",
+			"classId":218185092,
+			"name":"Apartment-Theft",
+			"nsId":318848388
+		},
+		{
+			"code":"BWSD",
+			"classId":218185092,
+			"name":"Back-up of Water & Sewer Damage",
+			"nsId":318848388
+		},
+		{
+			"code":"BI",
+			"classId":218185092,
+			"name":"Bodily Injury",
+			"nsId":318848388
+		},
+		{
+			"code":"C",
+			"classId":218185092,
+			"name":"Collision",
+			"nsId":318848388
+		},
+		{
+			"code":"AUTO_CL",
+			"classId":218185092,
+			"name":"Commercial Auto Collision",
+			"nsId":318848388
+		},
+		{
+			"code":"AUTO_CP",
+			"classId":218185092,
+			"name":"Commercial Auto Comprehensive",
+			"nsId":318848388
+		},
+		{
+			"code":"COMP",
+			"classId":218185092,
+			"name":"Comprehensive",
+			"nsId":318848388
+		},
+		{
+			"code":"CPJ",
+			"classId":218185092,
+			"name":"Covered Person Injury",
+			"nsId":318848388
+		},
+		{
+			"code":"HomeDam",
+			"classId":218185092,
+			"name":"Home Dwelling",
+			"nsId":318848388
+		},
+		{
+			"code":"ITE",
+			"classId":218185092,
+			"name":"Identity Theft Expense",
+			"nsId":318848388
+		},
+		{
+			"code":"RAS",
+			"classId":218185092,
+			"name":"24\/7 Roadside Assistance",
+			"nsId":318848388
+		},
+		{
+			"code":"FL",
+			"classId":218185092,
+			"name":"Flood",
+			"nsId":318848388
+		},
+		{
+			"code":"LNG",
+			"classId":218185092,
+			"name":"Lightning",
+			"nsId":318848388
+		},
+		{
+			"code":"MA",
+			"classId":218185092,
+			"name":"Malicious Acts and Vandalism",
+			"nsId":318848388
+		},
+		{
+			"code":"RCD",
+			"classId":218185092,
+			"name":"Riot and Civil Disorder",
+			"nsId":318848388
+		},
+		{
+			"code":"VC",
+			"classId":218185092,
+			"name":"Traffic Accident",
+			"nsId":318848388
+		},
+		{
+			"code":"VF",
+			"classId":218185092,
+			"name":"Vehicle Fire",
+			"nsId":318848388
+		},
+		{
+			"code":"VT",
+			"classId":218185092,
+			"name":"Vehicle Theft",
+			"nsId":318848388
+		},
+		{
+			"code":"WIN",
+			"classId":218185092,
+			"name":"Windstrom",
+			"nsId":318848388
+		},
+		{
+			"code":"MPO",
+			"classId":218185092,
+			"name":"Medical Payments to Others (Each Person)",
+			"nsId":318848388
+		},
+		{
+			"code":"OSD",
+			"classId":218185092,
+			"name":"Other Structures Damages",
+			"nsId":318848388
+		},
+		{
+			"code":"PP",
+			"classId":218185092,
+			"name":"Personal Property",
+			"nsId":318848388
+		},
+		{
+			"code":"RR",
+			"classId":218185092,
+			"name":"Rental Reimbursement",
+			"nsId":318848388
+		},
+		{
+			"code":"TPL",
+			"classId":218185092,
+			"name":"Third Party Liability",
+			"nsId":318848388
+		},
+		{
+			"code":"TPPD",
+			"classId":218185092,
+			"name":"Third Party Property Damage",
+			"nsId":318848388
+		},
+		{
+			"code":"TPVD",
+			"classId":218185092,
+			"name":"Third Party Vehicle Damage",
+			"nsId":318848388
+		}
+	],
+	"className":"aSLIC_Consult_Claim",
+	"methodName":"SearchLossTypes",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

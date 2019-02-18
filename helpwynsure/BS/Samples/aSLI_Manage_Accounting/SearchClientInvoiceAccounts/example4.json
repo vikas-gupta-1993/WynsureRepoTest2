@@ -1,0 +1,83 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			},
+			"buid":"318842236_17"
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L249",
+			"thirdParty":"Stephen Palmer",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000563 ",
+			"buid":"318841792_249"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L252",
+			"thirdParty":"Stephen Palmer",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000564 ",
+			"buid":"318841792_252"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L253",
+			"thirdParty":"Stephen Palmer",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000565 ",
+			"buid":"318841792_253"
+		},
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L254",
+			"thirdParty":"Stephen Palmer",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000566 ",
+			"buid":"318841792_254"
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"SearchClientInvoiceAccounts",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

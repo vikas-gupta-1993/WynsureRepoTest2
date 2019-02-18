@@ -1,0 +1,8 @@
+ul.SubscriptionChoices , ul.SubscriptionChoices li {
+  list-style-type: none;
+  margin: 0px;
+ }
+ 
+.SubscriptionChoices {
+ padding: 0px !important;
+ }

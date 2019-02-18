@@ -1,0 +1,22 @@
+#SignatureDateWrapper, #SubscriptionDateWrapper{
+	width: 50%;
+}
+
+#SignatureDateWrapper dt, #SubscriptionDateWrapper dt{
+	width : 120px;
+}
+
+#SignatureDateWrapper input, #SubscriptionDateWrapper input{
+	margin-top : -1px;
+}
+
+#SubscriptionDateWrapper{
+	float : left;
+}
+
+#SignatureDateWrapper{
+    float: left;
+	display : inline-block;
+}
+
+

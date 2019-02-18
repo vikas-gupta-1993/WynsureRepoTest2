@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_3QaQ4B6tEeesWcstTehK1Q" name="person" label="person" dataPackage="_U_e0oRZlEeeah92pizZ-QQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_U_e0oRZlEeeah92pizZ-QQ" dataManager="_3QaQ4B6tEeesWcstTehK1Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_U_e0ohZlEeeah92pizZ-QQ" id="_U_ajMBZlEeeah92pizZ-QQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U_e0oxZlEeeah92pizZ-QQ" name="ID" label="ID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_U_e0pBZlEeeah92pizZ-QQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2HeIBZlEeeah92pizZ-QQ" name="compagnyID" label="compagnyID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5rKcEB6tEeesWcstTehK1Q" name="establishmentID" label="establishmentID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U_e0pRZlEeeah92pizZ-QQ" name="Siren" label="Siren" length="9" talendType="id_String">
+        <initialValue xmi:id="_U_e0phZlEeeah92pizZ-QQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a8EH0BZlEeeah92pizZ-QQ" name="Nic" label="Nic" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4HK5wB6tEeesWcstTehK1Q" name="Identifiant" label="Identifiant" length="13" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8zI5oB6tEeesWcstTehK1Q" name="Nom" label="Nom" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-C8UoB6tEeesWcstTehK1Q" name="Prenoms" label="Prenoms" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__MbFMB6tEeesWcstTehK1Q" name="Sexe" label="Sexe" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ApoqEB6uEeesWcstTehK1Q" name="DateDeNaissance" label="DateDeNaissance" length="8" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5r8sB6uEeesWcstTehK1Q" name="Voie" label="Voie" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ed9QQB6uEeesWcstTehK1Q" name="CodePostal" label="CodePostal" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HOgsUB6uEeesWcstTehK1Q" name="Localite" label="Localite" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IqI80B6uEeesWcstTehK1Q" name="CodePays" label="CodePays" length="2" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

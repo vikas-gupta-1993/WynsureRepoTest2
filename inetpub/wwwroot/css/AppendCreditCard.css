@@ -1,0 +1,29 @@
+#tab-CreditCard #NameWrapper,
+#tab-CreditCard #EffectiveDateWrapper,
+#tab-CreditCard #EndDateWrapper {
+	float: left;
+	width: 20em;
+}
+#tab-CreditCard #NameWrapper {
+  width: 25em
+}
+.isDate {
+  width: 7em;
+}
+#tab-CreditCard #EffectiveDateWrapper,
+#tab-CreditCard #EndDateWrapper {
+  width: 12em
+}
+#tab-CreditCard h4#CreditCard {
+	clear: both;
+}
+#tab-CreditCard #CreditCardTypeWrapper,
+#tab-CreditCard #CreditCardNumberWrapper,
+#tab-CreditCard #ExpirationDateWrapper,
+#tab-CreditCard #ValidationCodeWrapper,
+#tab-CreditCard #HolderNameWrapper {
+  float: left;
+  width: 25em;
+}
+
+

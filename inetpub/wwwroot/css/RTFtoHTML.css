@@ -1,0 +1,8 @@
+dl dt{
+ float:left;
+ padding-right : 10px;
+}
+
+dt.bold{
+ font-weight:bold;
+}

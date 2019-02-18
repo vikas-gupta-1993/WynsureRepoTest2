@@ -1,0 +1,56 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Accounting"
+		},
+		"disbursementID":{
+			"disbursementFunctionalIdentifier":"1",
+			"buid":""
+		},
+		"cancelationReason":"Other",
+		"isAlreadyCashed":false
+	},
+	"response":{
+		"className":"aSPLI_GetDisbursement_Out",
+		"paramEntity":{
+			"className":"aSPCB_Disbursement",
+			"sentDate":"2017-10-27",
+			"statementEffectiveDate":null,
+			"cashedDate":null,
+			"operation":"323",
+			"amount":{
+				"amount":500,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":"2017-10-27"
+		},
+		"statement":"Contract 4800000576   Disbursed Amount: $500.00   Effective Date: 10\/27\/2017   (Due Date: 10\/27\/2017) Canceled",
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"1"
+			},
+			"buid":"318836550_1"
+		},
+		"actorAsAccountOwner":"Steve Baran 3723 Copperhead Road, Hartford, CT 06103",
+		"actorAsBeneficiary":"Steve Baran 3723 Copperhead Road, Hartford, CT 06103",
+		"channel":"Manual Check",
+		"buid":"318836550_1"
+	},
+	"className":"aSLI_manage_accounting",
+	"methodName":"VoidDisbursement",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+		{
+			"code":"031D_BS_00043",
+			"message":"Cannot void the disbursement",
+			"kind":"errBadValue",
+			"kindNumber":0
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLIC_Consult_Claim"
+		},
+		"claimActionOnInvolvedParties":"searchInvolvedParties"
+	},
+	"response":[
+		{
+			"name":"Individual",
+			"involvedPartyTypeBuid":"218103810_218178940"
+		},
+		{
+			"name":"Legal Entity",
+			"involvedPartyTypeBuid":"218103810_218178977"
+		},
+		{
+			"name":"Broker US",
+			"involvedPartyTypeBuid":"218103810_218179764"
+		},
+		{
+			"name":"Insurer",
+			"involvedPartyTypeBuid":"218103810_218179279"
+		},
+		{
+			"name":"Body Shop",
+			"involvedPartyTypeBuid":"218103810_218190817"
+		},
+		{
+			"name":"Appraiser",
+			"involvedPartyTypeBuid":"218103810_218190790"
+		}
+	],
+	"className":"aSLIC_consult_claim",
+	"methodName":"GetAvailableInvolvedPartiesForClaim",
+	"version":"5.7.3.0",
+	"date":"2017-11-01",
+	"errors":[
+	]
+}

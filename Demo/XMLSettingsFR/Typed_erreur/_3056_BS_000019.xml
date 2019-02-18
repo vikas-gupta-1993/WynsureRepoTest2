@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWF_ErrorDesc><ErrorCode Id="1"><![CDATA[3056_BS_000019]]></ErrorCode><CodeDescription Id="2"><![CDATA[Ne peut pas trouver le processus d'abonnement par processus id ou entrez le valide id d'abonnement.: ý:]]></CodeDescription><ErrorKind Id="3"><![CDATA[4]]></ErrorKind><Name Id="3"><![CDATA[3056_BS_000019]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835660]]></NSId><Id Id="2"><![CDATA[28]]></Id><Version Id="3"><![CDATA[1]]></Version></aWF_ErrorDesc></EntityExport>

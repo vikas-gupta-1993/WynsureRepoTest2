@@ -1,0 +1,62 @@
+AC01;Coordonnées bancaires inexploitables
+AC04;Compte soldé cloturé viré
+AC06;Opposition sur compte
+AG01;Opération non admise
+AG02;Code opération incorrect
+AGNT;Agent incorrect
+AM01;Montant = 0
+AM02;Montant non autorisé
+AM03;Devise non autorisée
+AM04;Provision insuffisante
+AM05;Doublon
+AM06;Montant trop faible
+AM07;Montant bloqué
+AM09;Montant faux
+AM10;Contrôle de la somme invalide 
+BE01;En contradiction avec l'utilisateur final
+BE04;Adresse invalide
+BE05;Tiers à l'origine non reconnu
+BE06;Utilisateur final inconnu
+BE07;Adresse du débiteur manquante
+CURR;Devise incorrect
+CUST;Requis par le client
+DS0A;Signature requise
+DS0B;Format de signature inconnu
+DS0C;Signature du certificat revoquée
+DS0D;Signature du certificat invalide
+DS0E;Signature du certificat incorrect
+DS0F;Autorisation invalide
+DS0G;Paiement non autorisé
+DS0H;Compte non autorisé
+DS0K;N° de transaction non autorisé
+DS10;Signature du certificat 1 révoquée
+DS11;Signature du certificat 1 invalide
+DS12;Signature du certificat 1 incorrecte
+DS13;Autorisation 1 invalide
+DS20;Signature du certificat 2 révoquée
+DS21;Signature du certificat 2 invalide
+DS22;Signature du certificat 2 incorrecte
+DS23;Autorisation 2 invalide
+DT01;Date invalide
+DUPL;Duplicata de paiement
+ED01;Correspondant à la banque impossible
+ED03;Informations sur le solde requises
+ED05;Règlement manqué
+FF01;Format de fichier invalide
+MD01;Pas d’autorisation / Absence de mandat
+MD02;Données manquantes dans le mandat
+MD05;Paiement non dû
+MD06;Contestation débiteur / Contestation d’une opération autorisée
+MD07;Titulaire décédé
+MS02;Sur ordre du client / Refus du débiteur
+MS03;Raison non communiquée
+NARR;Narrative
+RC01;Code banque incorrect / Identifiant bancaire incorrect
+RF01;Référence de la transaction non unique
+RR01;Identification du débiteur manquante
+RR02;Nom ou adresse du débiteur manquant
+RR03;Nom ou adresse du créditeur manquant
+RR04;Motif réglementaire
+SL01;Service spécifique offert par l'agent débiteur
+SL02;Service spécifique offert par l'agent créditeur
+TM01;Heure limite dépassée

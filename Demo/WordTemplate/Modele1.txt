@@ -1,0 +1,2 @@
+Assure/Nom	Assure/Prenom	Assure/AdressePrincipale/Ligne1	Assure/AdressePrincipale/Ligne2	Assure/AdressePrincipale/CodePostal	Assure/AdressePrincipale/Ville	Assure/Titre	Assure/NuméroSécu	
+ABAD	CHANTAL	6096 Avenue du Président Wilson		92300	LEVALLOIS PERRET	Mme	256039935067243	

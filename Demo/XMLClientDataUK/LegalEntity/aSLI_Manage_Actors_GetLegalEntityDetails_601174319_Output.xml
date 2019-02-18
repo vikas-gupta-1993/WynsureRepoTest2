@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://tempuri.org/xsd">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <ClientId>
+      <InternalClientId>0000000012</InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId></ExternalClientId>
+         <ThirdPartyID></ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <UpdateDate>2013-06-26</UpdateDate>
+   <LegalEntityIdentity>
+      <Name>Flowers.com</Name>
+      <ShortName>FLO</ShortName>
+      <CreationDate>2013-06-26</CreationDate>
+      <PreferedLanguageCode>En</PreferedLanguageCode>
+      <MasterLegalEntity>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </MasterLegalEntity>
+      <Activity></Activity>
+      <InBankrupcy>false</InBankrupcy>
+      <Country>GBR</Country>
+      <State></State>
+      <IndustrialClassification>
+         <System>SIC UK</System>
+         <Code>2813</Code>
+      </IndustrialClassification>
+      <AdditionalDatas></AdditionalDatas>
+   </LegalEntityIdentity>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1800-01-01</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address>
+            <Line1></Line1>
+            <Line2>Oakfield Lane</Line2>
+            <ZipCodeAndCity>
+               <ZipCode>NG20 0JF</ZipCode>
+               <City>Warsop</City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(01623) 595 313</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>(01623) 595 313</CellPhone>
+         <Fax>(01623) 595 313</Fax>
+         <eMail>flowers.com@free.com</eMail>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns:aSPCB_IBAN_BankAccount">
+         <Name>HSBC</Name>
+         <EffectiveDate>2000-01-01</EffectiveDate>
+         <HolderName>Flowers.com</HolderName>
+         <Currency>cBritishPound</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>City of London</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>HSBC</BankName>
+         <Address>
+            <Line1></Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode></ZipCode>
+               <City></City>
+            </ZipCodeAndCity>
+            <Country>GBR</Country>
+         </Address>
+         <IBAN>GB97MIDL72278982116263</IBAN>
+         <BIC>MIDLGB51</BIC>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations>
+      <Element>
+         <Name>Secretary</Name>
+         <ContactName>John Smith</ContactName>
+      </Element>
+      <Element>
+         <Name>Director</Name>
+         <ContactName>William Doe</ContactName>
+      </Element>
+      <Element>
+         <Name>Sales man</Name>
+         <ContactName>Kent Johns</ContactName>
+      </Element>
+      <Element>
+         <Name>Financial director</Name>
+         <ContactName>Ruth Browns</ContactName>
+      </Element>
+      <Element>
+         <Name>Project manager</Name>
+         <ContactName>Steve Powell</ContactName>
+      </Element>
+      <Element>
+         <Name>Chief executive officer</Name>
+         <ContactName>Roberta Jackson</ContactName>
+      </Element>
+      <Element>
+         <Name>Advisor</Name>
+         <ContactName>Elizabeth White</ContactName>
+      </Element>
+      <Element>
+         <Name>Staff manager</Name>
+         <ContactName>Sandy Robinson</ContactName>
+      </Element>
+      <Element>
+         <Name>Accountant</Name>
+         <ContactName>Heather Clarck</ContactName>
+      </Element>
+      <Element>
+         <Name>Technical director</Name>
+         <ContactName>Maria Walker</ContactName>
+      </Element>
+   </ContactInformations>
+   <EmployeeInformations></EmployeeInformations>
+</_Result>

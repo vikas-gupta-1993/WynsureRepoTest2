@@ -1,0 +1,65 @@
+div #BankAccounts dd{
+overflow : hidden;
+text-overflow: ellipsis;
+white-space : nowrap;
+}
+
+.aPCB_FolderBankAccountUsPresenter dl, .aPCB_FolderCreditCardPresenter dl{
+  width:30%;
+}
+
+.aPCB_FolderIBANBankAccountPresenter dl {
+width : 30%;
+}
+
+#PersonBankAccount .details{
+  padding-left : 26px;
+}
+
+#PersonBankAccount .Title{
+     Height : 16px;
+}
+
+.details, .IconAndTitle {
+  width : 95%;
+}
+
+#PersonBankAccount dl, #PersonBankAccount div, #PersonBankAccount span {
+  float: left;
+} 
+
+#HolderNameWrapper,#RoutingNumberWrapper, #CreditCardTypeWrapper, #CreditCardNumberWrapper{
+  width : 30%;
+}
+
+#RoutingNumberWrapper{
+width : 30%;
+}
+
+.aPCB_FolderBankAccountFrPresenter #BankCodeWrapper{
+  width : 15%;
+}
+
+.aPCB_FolderBankAccountFrPresenter #OfficeCodeWrapper{
+  width : 15%;
+}
+
+.aPCB_FolderBankAccountFrPresenter #AccountNumberWrapper{
+  width : 20%;
+}
+.aPCB_FolderBankAccountFrPresenter #RIBKeyWrapper{
+  width : 10%;
+}
+
+.aPCB_FolderBankAccountFrPresenter #IBANWrapper{
+float:left;
+width : 50%;
+}
+
+.aPCB_FolderBankAccountFrPresenter #BICWrapper{
+width:40%;
+}
+
+#BankAddressWrapper{
+Width:90%;
+}

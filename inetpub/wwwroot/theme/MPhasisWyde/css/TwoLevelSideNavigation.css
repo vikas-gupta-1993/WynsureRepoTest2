@@ -1,0 +1,53 @@
+#SideNavigationWrapper {
+  width: 180px;
+}
+#SideNavigationWrapper h3 a {
+  text-decoration: none;
+}
+#SideNavigationWrapper li a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+#SideNavigationWrapper ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+#SideNavigationWrapper ul li a.selected:hover {
+  text-decoration: underline;
+  color: #1B285D;
+}
+#SideNavigationWrapper li a:active,
+#SideNavigationWrapper li a:visited,
+#SideNavigationWrapper li a:link {
+  color: #555555;
+}
+#SideNavigationWrapper li a.selected {
+  color: #1B285D;
+  font-style:italic;
+}
+#SideNavigationWrapper li span {
+  float: left;
+}
+#SideNavigationWrapper ul {
+  padding-left: 3px; 
+}
+#SideNavigationWrapper li {
+  clear: both;
+  height: 20px;
+  margin: 0 0 2px 0;
+}
+#SideNavigation ul li a {
+  border-top: 0px;
+}
+#SideNavigation ul {
+	list-style: none outside none;
+	padding: 0;
+	margin: 0;
+}
+#SideNavigation li h3 {
+	font-size: 1.2em;
+	margin: 0;
+}
+#SideNavigation .RightSelect {
+  display: none;
+}

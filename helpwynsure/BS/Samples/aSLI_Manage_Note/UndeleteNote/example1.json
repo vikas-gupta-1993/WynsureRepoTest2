@@ -1,0 +1,28 @@
+{
+	"description":"",
+	"request":{
+		"noteBuid":""
+	},
+	"response":{
+		"_Result":false
+	},
+	"eval":null,
+	"className":"aSLI_Manage_Note",
+	"methodName":"UndeleteNote",
+	"version":"5.8.2.0",
+	"date":"2018-07-24",
+	"errors":[
+		{
+			"code":"3CE1_BS_00001",
+			"message":"Identifiant métier invalide",
+			"kind":"Information",
+			"kindNumber":4
+		},
+		{
+			"code":"003B_",
+			"message":"Note not found",
+			"kind":"Valeur incorrecte",
+			"kindNumber":0
+		}
+	]
+}

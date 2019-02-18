@@ -1,0 +1,46 @@
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  color: #EEEEEE;
+}
+
+.top-bar-presenter form,
+.top-bar-presenter .control-group,
+.top-bar-presenter .input-prepend,
+.top-bar-presenter .controlWithAddOn {
+  margin: 0;
+}
+#TopPanelWrapper {
+  background: url("../images/bkg_PortalHeader.png") repeat-x scroll 0 100% #585858;
+  height: 88px;     
+     
+  margin-bottom: 15px;     
+  border-bottom: 1px solid #DDDDDD; 
+}       
+.portal-wrapper {
+  margin-top: 0px;
+}  
+div#PortalLogo a {
+  margin: 15px 15px 0 0;
+  width: 160px;
+  height: 54px;
+  float: left; 
+  display: block;
+  background: url("../Wyde/LogoBroker.png") no-repeat scroll 0 0 transparent;
+}
+      
+#PrimaryNavigationWrapper form {
+  margin-bottom: 0;
+}       
+#PrimaryNavigation .nav {
+  margin-top: 51px;      
+  border-bottom: 0px;  
+  font-size: 14px;      
+}       
+#PrimaryNavigation .nav-tabs > li > a:hover, #PrimaryNavigation .nav-tabs > li > a:focus {
+  color: #005580;       
+}       
+#PrimaryNavigation .nav-tabs > .active > a {         
+  color: #555555;       
+}       
+#PrimaryNavigation .nav-tabs > li > a {         
+  color: white;       
+}       

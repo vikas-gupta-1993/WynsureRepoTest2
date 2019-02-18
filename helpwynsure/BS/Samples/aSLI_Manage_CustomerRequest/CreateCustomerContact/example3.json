@@ -1,0 +1,25 @@
+{
+	"description":"",
+	"request":{
+		"contactDescription":{
+			"$ref":"#",
+			"className":"aSPLI_CreateContact_In",
+			"name":"Outgoing contact",
+			"clientBuid":"318842869_76",
+			"media":"mMail",
+			"dateOfContact":"1900-01-01",
+			"timeOfContact":"0:00:00Z",
+			"contactKind":"ckOutgoingContact",
+			"contactText":"Manually created Outgoing customer contact",
+			"businessDomain":"hlbdContract"
+		}
+	},
+	"response":null,
+	"eval":null,
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"CreateCustomerContact",
+	"version":"5.8.2.0",
+	"date":"2018-07-13",
+	"errors":[
+	]
+}

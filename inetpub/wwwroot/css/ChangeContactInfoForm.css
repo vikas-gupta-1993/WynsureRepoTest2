@@ -1,0 +1,36 @@
+
+.action {
+	clear: both;
+}
+
+#PrivateCellPhoneWrapper,
+#PrivateFaxWrapper,
+#PrivateEMailWrapper {
+ /*float: left;
+ width: 25em; */
+}
+#PrivateEMail {
+	width: 23em;
+}
+
+#PrivateFixedPhoneWrapper,
+#OfficeFixedPhoneWrapper {
+	float: left;
+	width: 14em;
+}
+
+#PrivateFixedPhoneExtensionWrapper,
+#OfficeFixedPhoneExtensionWrapper {
+	float: left;
+	width: 20em;
+}
+#PrivateFixedPhoneExtension,
+#OfficeFixedPhoneExtension {
+	width: 3em;
+}
+
+#PrivateFixedPhoneExtensionWrapper dd,
+#OfficeFixedPhoneExtensionWrapper dd {
+	margin: 0;
+	padding: 0;
+}

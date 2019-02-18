@@ -1,0 +1,58 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Payment"
+		},
+		"paymentBuid":"318835563_29"
+	},
+	"response":{
+		"className":"aSPLI_GetPayment_Out",
+		"paramEntity":{
+			"className":"aSPCB_Payment",
+			"receivedDate":"2017-11-01",
+			"bankInformation":{
+				"receivedDate":null,
+				"canceledDate":null,
+				"canceledReason":""
+			},
+			"paymentStatus":"cpsAssigned",
+			"operation":"1234",
+			"amount":{
+				"amount":1200,
+				"currency":"cUSDollar"
+			},
+			"netAmount":{
+				"amount":0,
+				"currency":"cUSDollar"
+			},
+			"canceledDate":null
+		},
+		"targets":[
+			{
+				"className":"aSPCB_PaymentTarget",
+				"amount":{
+					"amount":1200,
+					"currency":"cUSDollar"
+				},
+				"target":"Suspense Account for Alison James \/ W Insurance Company CA W Insurance Company CA:James Alison #D267 ($)"
+			}
+		],
+		"moneyMovementId":{
+			"moneyMovementIdentifier":{
+				"name":"29"
+			},
+			"buid":"318835563_29"
+		},
+		"actorAsAccountOwner":"James Alison Columbia Avenue, Hampton, VA 23669",
+		"actorAsBeneficiary":"",
+		"channel":"Manual EFT",
+		"buid":"318835563_29"
+	},
+	"className":"aSLI_Manage_Payment",
+	"methodName":"GetPaymentDetails",
+	"version":"5.7.3.0",
+	"date":"2017-11-24",
+	"errors":[
+	]
+}

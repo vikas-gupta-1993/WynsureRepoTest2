@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_XQDcACAcEeeEBKt1qKE8vQ" name="contract" label="contract" dataPackage="_U_e0oRZlEeeah92pizZ-QQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_U_e0oRZlEeeah92pizZ-QQ" dataManager="_XQDcACAcEeeEBKt1qKE8vQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_U_e0ohZlEeeah92pizZ-QQ" id="_U_ajMBZlEeeah92pizZ-QQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_U_e0oxZlEeeah92pizZ-QQ" name="ID" label="ID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_U_e0pBZlEeeah92pizZ-QQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2HeIBZlEeeah92pizZ-QQ" name="compagnyID" label="compagnyID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5rKcEB6tEeesWcstTehK1Q" name="establishmentID" label="establishmentID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nMN9wCAcEeeEBKt1qKE8vQ" name="personID" label="personID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jFD7ICAcEeeEBKt1qKE8vQ" name="DateDebut" label="DateDebut" length="8" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

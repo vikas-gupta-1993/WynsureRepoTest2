@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_zznSEbYvEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataPackage="_zznSErYvEea63c4_XNFt3Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_zznSErYvEea63c4_XNFt3Q" name="repository.metadataGenericSchema" dataManager="_zznSEbYvEea63c4_XNFt3Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zznSE7YvEea63c4_XNFt3Q" id="_A6HqwLYvEea63c4_XNFt3Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSFbYvEea63c4_XNFt3Q" name="personName" label="personName" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSFrYvEea63c4_XNFt3Q" name="personFirstName" label="personFirstName" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSF7YvEea63c4_XNFt3Q" name="personBirthDate" label="personBirthDate" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lYBQgLcGEea63c4_XNFt3Q" name="personBirthRank" label="personBirthRank" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSGLYvEea63c4_XNFt3Q" name="personSSN" label="personSSN" length="15" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSGbYvEea63c4_XNFt3Q" name="startDate" label="startDate" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zznSGrYvEea63c4_XNFt3Q" name="endDate" label="endDate" length="10" talendType="id_String">
+        <initialValue xmi:id="_PDnGYLceEea63c4_XNFt3Q" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PfM2MLceEea63c4_XNFt3Q" name="scheme_ss" label="scheme_ss" length="2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PoxB4LceEea63c4_XNFt3Q" name="cpam_code" label="cpam_code" length="3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PqxNALceEea63c4_XNFt3Q" name="alsaceMoselle" label="alsaceMoselle" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DKnmYLYyEea63c4_XNFt3Q" name="id_tp_right" label="id_tp_right" length="20" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

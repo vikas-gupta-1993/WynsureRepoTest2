@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_6Lg4cCgKEeaDh8k0rzOGLw" name="repository.metadataGenericSchema" dataPackage="_6Lg4cSgKEeaDh8k0rzOGLw"/>
+  <TalendMetadata:GenericPackage xmi:id="_6Lg4cSgKEeaDh8k0rzOGLw" name="repository.metadataGenericSchema" dataManager="_6Lg4cCgKEeaDh8k0rzOGLw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6Lg4cigKEeaDh8k0rzOGLw" id="_FkhqACgJEeaDh8k0rzOGLw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4cygKEeaDh8k0rzOGLw" name="idntfr" label="idntfr" length="8" precision="-1" talendType="id_Long" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4dCgKEeaDh8k0rzOGLw" name="entity" label="entity" length="3" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4dSgKEeaDh8k0rzOGLw" name="EmetteurType" label="EmetteurType" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4digKEeaDh8k0rzOGLw" name="EmetteurNb" label="EmetteurNb" length="14" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4dygKEeaDh8k0rzOGLw" name="Filler" label="Filler" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4eCgKEeaDh8k0rzOGLw" name="AddresseeType" label="AddresseeType" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4eSgKEeaDh8k0rzOGLw" name="Addressee" label="Addressee" length="14" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4eigKEeaDh8k0rzOGLw" name="ReceptDate" label="ReceptDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4eygKEeaDh8k0rzOGLw" name="Application" label="Application" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4fCgKEeaDh8k0rzOGLw" name="FileId" label="FileId" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4fSgKEeaDh8k0rzOGLw" name="CreationDate" label="CreationDate" length="6" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4figKEeaDh8k0rzOGLw" name="Norm" label="Norm" length="4" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4fygKEeaDh8k0rzOGLw" name="Version" label="Version" length="2" precision="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6Lg4gCgKEeaDh8k0rzOGLw" name="Datas" label="Datas" length="61" precision="-1" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

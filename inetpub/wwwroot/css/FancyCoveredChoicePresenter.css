@@ -1,0 +1,58 @@
+.SubscriptionChoice{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: table;
+  min-height: 55px;
+  width:100%;
+}
+
+.Choices li:not(:first-child) .SubscriptionChoice{
+  border-top: 1px solid #ddd;
+}
+
+.SubscriptionChoice .Description_Content{
+ font-size: 11pt;
+}
+
+.SubscriptionChoice .Action_Text_Title{
+ color: green;
+}
+
+.SubscriptionChoice .Action_Text_Description{
+ font-size: small;
+ color: grey;
+}
+
+.SubscriptionChoice .Action_Text_SubscriptionInTheFuture{
+  font-size: small;
+  color: grey;
+}
+
+.SubscriptionChoice .Description{
+ display: table-cell !important;
+ vertical-align: middle;
+ float: none !important;
+}
+
+.SubscriptionChoice .Action{
+ text-align: center;
+ padding: 5px;
+ display: table-cell !important;
+ vertical-align: middle;
+ float: none !important;
+}
+.SubscriptionChoice .Action_Component .btn{
+ color: #08c;
+}
+
+.Action_Text_Title{
+ font-size: 17.5px;
+}
+
+.Wynsure-portal .SubscriptionChoice .Description_Content, .Wynsure-portal .SubscriptionChoice  .Action_Text_Description,  .Wynsure-portal .SubscriptionChoice  .Action_Text_SubscriptionInTheFuture{
+ font-size: inherit;
+}
+
+.Wynsure-portal .SubscriptionChoice .Action_Text_Title{
+ color: inherit;
+}

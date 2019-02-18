@@ -1,0 +1,21 @@
+{
+   "runtimeMode":"IDE",
+   "options": {
+      "show-model-annotation": true,
+      "minimize-model-annotation": true
+   },
+   "services": {
+      "ewam": {
+         "classname":"aMRS_ActiveModelService"
+      },
+      "http-service": {
+         "classname":"aSystemHttpService",
+         "url":"http://127.0.0.1:9931/",
+         "map": {
+            "/": {
+               "method":"http-service/interpret-http-transaction"
+            }
+         }
+      }
+   }
+}

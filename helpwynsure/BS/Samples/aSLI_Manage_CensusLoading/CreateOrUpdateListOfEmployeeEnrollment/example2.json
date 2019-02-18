@@ -1,0 +1,252 @@
+{
+	"description": "Enrollment for Multi product GBP",
+	"request": {
+		"input": {
+			"$ref": "#",
+			"className": "aSPLI_MultiCensusLoading_In",
+			"listCensusLoading": [
+				{
+					"$ref": "#",
+					"className": "aSPLI_CensusLoading_In",
+					"employee": {
+						"$ref": "#",
+						"className": "aSPLI_CreateOrUpdateEmployee_In",
+						"employeeId": {
+							"employeeId": "{{employeeID}}"
+						},
+						"employee": {
+							"className": "aSPLI_US_Employee",
+							"effectiveDate": "{{CurrentDate}}",
+							"terminationReason": "",
+							"terminationDate": null,
+							"hireDate": "{{CurrentDate}}",
+							"salaryDefinedAtDate": null,
+							"employmentStatus": "esActive",
+							"workingHours": 40,
+							"workingHoursDefinedForFrequency": "fWeekly",
+							"workingCategory": "cFullTime",
+							"baseSalaryAmount": {
+								"amount": "{{employeeSalary}}",
+								"currency": "USD"
+							},
+							"baseSalaryFrequency": "fAnnually",
+							"salaryCommissionAmount": {
+								"amount": 0.00,
+								"currency": "USD"
+							},
+							"salaryCommissionFrequency": "meUndefined",
+							"salaryBonusAmount": {
+								"amount": 0.00,
+								"currency": "USD"
+							},
+							"salaryBonusFrequency": "meUndefined",
+							"canBeEnrolled": true,
+							"additionalDynamicDatas": [
+							],
+							"worksiteState": "cMN"
+						},
+						"person": {
+							"$ref": "#",
+							"className": "aSPLI_CreateOrUpdatePerson_Data",
+							"thirdPartyID": "DistRoot",
+							"clientId": {
+								"buid": "{{personBUID}}",
+								"internalClientId": "",
+								"externalClientIdentifier": {
+									"externalClientId": "",
+									"thirdPartyID": "DistRoot"
+								}
+							}
+						},
+						"legalEntityId": {
+							"buid": "{{legalEntityBUID}}",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": "DistRoot"
+							}
+						}
+					},
+					"enrollment": {
+						"$ref": "#",
+						"className": "aSPLI_CreateOrUpdateEnrollment_In",
+						"enrollmentInformation": {
+							"$ref": "#",
+							"className": "aSPLI_MemberContract",
+							"creationDate": "{{CurrentDate}}",
+							"effectiveDate": "{{CurrentDate}}",
+							"subscriptionDate": "{{CurrentDate}}",
+							"signatureDate": "{{CurrentDate}}",
+							"termOrRenewalDate": null,
+							"lastRenewalDate": null,
+							"reinstatementDate": null,
+							"terminationDate": null,
+							"terminationReason": "",
+							"terminationNumber": 0,
+							"billingMode": "cNextPeriod",
+							"endorsementKind": "",
+							"status": "cActive",
+							"externalManagement": false,
+							"claimExternalManagement": false,
+							"residenceStateCode": {
+								"stateName": "AL",
+								"stateCode": "AL",
+								"stateLabel": "Owner Residence State"
+							},
+							"additionalDatas": [
+								{
+									"className": "aSPCB_ClassificationValue",
+									"fieldCode": "MC",
+									"fieldName": "Member Class",
+									"codeForPopulationClass": "",
+									"valueCode": "EX",
+									"fieldValue": "Executive",
+									"nameDescription": "Executive"
+								}
+							],
+							"gBPNumber": {
+								"buid": "{{mps_GBP_BUID}}",
+								"internalPolicyIdentifier": {
+									"internalPolicyId": "",
+									"issuingCompanyCode": ""
+								},
+								"externalPolicyIdentifier": {
+									"externalPolicyId": "",
+									"thirdPartyID": "AA"
+								}
+							},
+							"memberClassCode": ""
+						},
+						"updateDate": "{{CurrentDate}}",
+						"subscribedEntities": [
+							{
+								"$ref": "#",
+								"className": "aSPLI_CreateOrUpdateSubscribedProduct_In",
+								"productCode": {
+									"buid": "",
+									"productIdentifier": {
+										"issuingCompanyCode": "WIC",
+										"productCode": "{{productCode}}"
+									}
+								},
+								"productInfo": {
+									"$ref": "#",
+									"className": "aSPLI_SubscribedProduct",
+									"creationDate": "{{CurrentDate}}",
+									"effectiveDate": "{{CurrentDate}}",
+									"subscriptionDate": "{{CurrentDate}}",
+									"signatureDate": "{{CurrentDate}}",
+									"termOrRenewalDate": null,
+									"lastRenewalDate": null,
+									"reinstatementDate": null,
+									"terminationDate": null,
+									"terminationReason": "",
+									"terminationNumber": 0,
+									"billingMode": "cNextPeriod",
+									"endorsementKind": "",
+									"status": "cActive",
+									"productCode": {
+										"buid": "",
+										"productIdentifier": {
+											"issuingCompanyCode": "WIC",
+											"productCode": "{{productCode}}"
+										}
+									},
+									"additionalDatas": [
+										{
+											"className": "aSPCB_ClassificationValue",
+											"fieldCode": "JC",
+											"fieldName": "Job Classification",
+											"codeForPopulationClass": "",
+											"valueCode": "MS",
+											"fieldValue": "Monthly Salaried",
+											"nameDescription": "Monthly Salaried"
+										}
+									]
+								},
+								"coverages": [
+									{
+										"$ref": "#",
+										"className": "aSPLI_CreateOrUpdateIndividualLifeCoverage_In",
+										"coverageGeneralInformation": {
+											"$ref": "#",
+											"className": "aSPLI_IndividualLifeCoverage",
+											"creationDate": "{{CurrentDate}}",
+											"subscribedPackage": "",
+											"optionCode": "{{v_coverageCode}}",
+											"optionName": "{{v_coverageName}}",
+											"effectiveDate": "{{cov_InitialEffectiveDate}}",
+											"subscriptionDate": "{{CurrentDate}}",
+											"terminationDate": null,
+											"terminationReason": "",
+											"terminationNumber": 0,
+											"billingServiceName": "",
+											"status": "cActive",
+											"additionalDatas": [
+												{
+													"className": "aSPCB_ClassificationValue",
+													"fieldCode": "PlanDesign",
+													"fieldName": "Plan Design",
+													"codeForPopulationClass": "",
+													"valueCode": "P1",
+													"fieldValue": "Plan 1",
+													"nameDescription": "Plan 1"
+												}
+											],
+											"grandFathered": false
+										},
+										"insuredPersons": [
+											{
+												"className": "aSPLI_CreateOrUpdateCoveredPerson_In",
+												"coveredPerson": {
+													"className": "aSPLI_GetPerson",
+													"searchPerson": {
+														"internalClientId": "",
+														"externalClientIdentifier": {
+															"externalClientId": "",
+															"thirdPartyID": ""
+														},
+														"buid": "{{personBUID}}"
+													}
+												},
+												"details": {
+													"className": "aSPLI_CoveredPerson",
+													"relationship_Deprecated": "cCoveredSubscriber",
+													"effectiveDate": "{{cov_InitalEffectiveDate}}",
+													"additionalDatas": [
+													]
+												},
+												"relationToOwners": [
+												]
+											}
+										],
+										"beneficiaries": [
+										],
+										"coverageAmount": {
+											"className": "aSPLI_CoverageAmountVersion",
+											"effectiveDate": "{{cov_InitalEffectiveDate}}",
+											"amount": {
+												"amount": "{{coverageAmount}}",
+												"currency": "USD"
+											}
+										},
+										"underwrittingData": [
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	},
+	"response": null,
+	"eval": null,
+	"className": "aSLI_Manage_CensusLoading",
+	"methodName": "CreateOrUpdateListOfEmployeeEnrollment",
+	"version": "5.8.2.2",
+	"date": "2018-12-21",
+	"errors": [
+	]
+}

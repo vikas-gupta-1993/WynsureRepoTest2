@@ -1,0 +1,22 @@
+{
+	"description":"",
+	"request":{
+	},
+	"response":[
+		{
+			"code":"JPMCC",
+			"name":"JP Morgan Chase & Co."
+		},
+		{
+			"code":"WSB",
+			"name":"Wall Street Bank"
+		}
+	],
+	"eval":null,
+	"className":"aSCB_Manage_ConversionSystems",
+	"methodName":"GetConversionSystems",
+	"version":"5.8.2.0",
+	"date":"2018-08-29",
+	"errors":[
+	]
+}

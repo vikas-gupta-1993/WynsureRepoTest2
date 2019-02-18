@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLO_CappingModel><Code Id="12"><![CDATA[AERAS]]></Code><AlwaysEligible Id="17"><![CDATA[Faux]]></AlwaysEligible><EligibilityToStudyRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Pour un prêt immobilier ou professionnel, le capital emprunté doit être inférieur à 320 000 euros et la personne couverte doit avoir moins de 70 ans à la fin du prêt.
+Pour un prêt à la consommation, le capital emprunté doit être inférieur à 17 000 euros, la personne couverte doit avoir moins de 50 ans et le prêt doit durer moins de 4 ans.]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLO_LoanRuleEngine) (Def Version:3) (Implem Version:1)
+
+type tWF_Generated_Objetdupret_318792436_1 : (ResidencePrincipale, ResidenceSecondaire, 
+   Professionnel, Consommation)
+
+
+function Pret__Objetdupret return tWF_Generated_Objetdupret_318792436_1
+   if self.EvaluateClassificationFromRank(0, 14, 'Pret__Objetdupret')
+      _Result = tWF_Generated_Objetdupret_318792436_1(self.V_ForClassificationEvaluation)
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : Boolean)
+   if (self.Pret__Objetdupret = Professionnel) or (self.Pret__Objetdupret = ResidencePrincipale)
+      ;cas du prêt immobilier ou professionnel
+      if (self.Pret__Capital_Emprunte <= 320000) and (self.Personne_couverte__Age__A_la_Fin_du_Pret <= 
+         70)
+         Result = True
+      else
+         Result = False
+      endIf
+   elseif self.Pret__Objetdupret = Consommation
+      ;Cas du prêt à la consommation
+      if (self.Personne_couverte__Age__Exact <= 50) and (self.Pret__Duree_En_Mois <= 
+         48) and (self.Pret__Capital_Emprunte <= 17000)
+         Result = True
+      else
+         Result = False
+      endIf
+   else
+      Result = False
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLO_LoanRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218129048]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLO_CappingModel]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aFullObject]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLO_LoanClassification><ClassificationValues><aWLO_LoanClassificationValue><Name>Résidence Principale</Name><NSId>318792438</NSId><Id>1</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Résidence Secondaire</Name><NSId>318792438</NSId><Id>2</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Professionnel</Name><NSId>318792438</NSId><Id>3</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Consommation</Name><NSId>318792438</NSId><Id>4</Id></aWLO_LoanClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Résidence Principale]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[OP5]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Objet du prêt]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318792436]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLO_LoanClassification></UsedRules><MyOwner><aWLO_CappingModel><NSId Id="1"><![CDATA[318792721]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLO_CappingModel></MyOwner><Name Id="3"><![CDATA[Pré-éligibilité AERAS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[23]]></Id><Version Id="3"><![CDATA[3]]></Version></aWFRuleDesc></EligibilityToStudyRule><CalculationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Le calcul s'effectue par prêt. 
+Le taux d'écrêtement est le pourcentage qui permet d'avoir le TEG avec assurance et surprimes inférieur au TEG sans assurance plus une marge de 1,4.]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLO_LoanRuleEngine) (Def Version:4) (Implem Version:1)
+
+uses WFTypes
+
+
+procedure WFCalculate(inOut Result : Num8)
+   const Marge = 0.00001
+   const EcartLimiteTEG = 0.014
+   
+   var TEGHorsAssur : tWFPercent
+   var TEGHorsSurprimes : tWFPercent
+   var TEGAvecAssurEtSurprimes : tWFPercent
+   var TEGEcrete : tWFPercent
+   var TEGMax : tWFPercent
+   var MinRate : tWFPercent
+   var MaxRate : tWFPercent
+   
+   TEGHorsAssur = self.Ecretement__TEG_Hors_Assurance
+   TEGHorsSurprimes = self.Ecretement__TEG_Hors_Surprimes
+   TEGAvecAssurEtSurprimes = self.Ecretement__TEG_Avec_Assurance_et_Surprimes
+   TEGMax = TEGHorsAssur + EcartLimiteTEG
+   ;
+   if TEGAvecAssurEtSurprimes > TEGMax
+      if not self.Ecretement__Il_y_a_des_surprimes_non_nulles or (TEGHorsSurprimes > 
+         TEGMax)
+         Result = 0
+      else
+         MinRate = 0
+         MaxRate = 1
+         Result = 0.5
+         ;dichotomie pour s'approcher du taux d'écrêtement
+         TEGEcrete = self.Ecretement__TEG_Avec_Assurance_et_Surprimes_Ecretees(Result)
+         while self.Valeur_absolue(TEGEcrete - TEGMax) > Marge
+            if TEGEcrete > TEGMax
+               MaxRate = Result
+            else
+               MinRate = Result
+            endIf
+            Result = (MaxRate + MinRate) / 2
+            TEGEcrete = self.Ecretement__TEG_Avec_Assurance_et_Surprimes_Ecretees(Result)
+         endWhile
+         ;
+         Result = self.RoundToNearest(Result, 0.0001)
+         ;ajustement du taux
+         TEGEcrete = self.Ecretement__TEG_Avec_Assurance_et_Surprimes_Ecretees(Result)
+         while TEGEcrete > TEGMax
+            Result -= 0.0001
+            TEGEcrete = self.Ecretement__TEG_Avec_Assurance_et_Surprimes_Ecretees(Result)
+         endWhile
+      endIf
+   else
+      Result = 1
+   endIf
+   ;Définition du type
+   if Result = 0
+      self.Ecretement__Definir_le_type_d_ecretement('T')
+   elseif Result = 1
+      self.Ecretement__Definir_le_type_d_ecretement('N')
+   else
+      self.Ecretement__Definir_le_type_d_ecretement('P')
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLO_LoanRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218129048]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLO_CappingModel]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aLightObject]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLO_CappingModel><NSId Id="1"><![CDATA[318792721]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLO_CappingModel></MyOwner><Name Id="3"><![CDATA[Taux AERAS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[24]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></CalculationRule><AgreementRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Pour un prêt immobilier ou professionnel, une personne couverte est éligible si son revenu annuel est inférieur à un seuil dépendant du PASS et de sa part de foyer fiscal.]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLO_LoanRuleEngine) (Def Version:2) (Implem Version:1)
+
+type tWF_Generated_Objetdupret_318792436_1 : (ResidencePrincipale, ResidenceSecondaire, 
+   Professionnel, Consommation)
+
+
+function Pret__Objetdupret return tWF_Generated_Objetdupret_318792436_1
+   if self.EvaluateClassificationFromRank(0, 14, 'Pret__Objetdupret')
+      _Result = tWF_Generated_Objetdupret_318792436_1(self.V_ForClassificationEvaluation)
+   endIf
+endFunc 
+
+function Donnees_d_Ecretement__PASS return Num8
+   type tpValue : .Num8
+   
+   var p : Num8
+   
+   if self.EvaluateFieldDescFromRank(1, 105, 'Donnees_d_Ecretement__PASS')
+      p = tpValue(self.pFieldValue).
+      _Result = p
+   endIf
+endFunc 
+
+function Donnees_d_Ecretement__RevenuAnnuel return Num8
+   type tpValue : .Num8
+   
+   var p : Num8
+   
+   if self.EvaluateFieldDescFromRank(2, 105, 'Donnees_d_Ecretement__RevenuAnnuel')
+      p = tpValue(self.pFieldValue).
+      _Result = p
+   endIf
+endFunc 
+
+function Donnees_d_Ecretement__Partdufoyerfiscal return Num8
+   type tpValue : .Num8
+   
+   var p : Num8
+   
+   if self.EvaluateFieldDescFromRank(3, 105, 'Donnees_d_Ecretement__Partdufoyerfiscal')
+      p = tpValue(self.pFieldValue).
+      _Result = p
+   endIf
+endFunc 
+
+procedure WFCalculate(inOut Result : Boolean)
+   var Categorie : Num8
+   var Seuil_Categorie_2 : Num8
+   var Seuil_Categorie_3 : Num8
+   var Seuil_Categorie_4 : Num8
+   
+   if self.Donnees_d_Ecretement__Type_d_ecretement = 'N'
+      Result = False
+      self.AjouterMessageInfo('Taux d''écrêtement calculé nul')
+   else
+      ;
+      if (self.Pret__Objetdupret = Professionnel) or (self.Pret__Objetdupret = ResidencePrincipale)
+         ;cas du prêt professionnel ou immobilier
+         if self.Pret__Capital_Emprunte <= 320000
+            if self.Personne_couverte__Age__A_la_Fin_du_Pret <= 70
+               ;
+               Seuil_Categorie_2 = self.Donnees_d_Ecretement__PASS
+               Seuil_Categorie_3 = 1.25 * self.Donnees_d_Ecretement__PASS
+               Seuil_Categorie_4 = 1.5 * self.Donnees_d_Ecretement__PASS
+               ;
+               if self.Donnees_d_Ecretement__RevenuAnnuel <= Seuil_Categorie_2
+                  Result = True
+               elseif self.Donnees_d_Ecretement__RevenuAnnuel <= Seuil_Categorie_3
+                  if self.Donnees_d_Ecretement__Partdufoyerfiscal < 1.5
+                     Result = False
+                     self.AjouterMessageInfo('Revenu Annuel trop important pour la part de foyer fiscal')
+                  else
+                     Result = True
+                  endIf
+               elseif self.Donnees_d_Ecretement__RevenuAnnuel <= Seuil_Categorie_4
+                  if self.Donnees_d_Ecretement__Partdufoyerfiscal < 3
+                     Result = False
+                     self.AjouterMessageInfo('Revenu Annuel trop important pour la part de foyer fiscal')
+                  else
+                     Result = True
+                  endIf
+               else
+                  Result = False
+                  self.AjouterMessageInfo('Revenu Annuel trop important')
+               endIf
+            else
+               Result = False
+               self.AjouterMessageInfo('Prêt non éligible : la personne couverte a plus de 70 ans à la fin du prêt')
+            endIf
+         else
+            Result = False
+            self.AjouterMessageInfo('Prêt non éligible : Capital emprunté supérieur à 320 000 euros')
+         endIf
+         ;
+      elseif self.Pret__Objetdupret = Consommation
+         ;Cas du prêt à la consommation
+         if self.Personne_couverte__Age__Exact <= 50
+            if self.Pret__Duree_En_Mois <= 48
+               if self.Pret__Capital_Emprunte <= 17000
+                  Result = True
+               else
+                  Result = False
+                  self.AjouterMessageInfo('Prêt non éligible : capital emprunté supérieur à 17 000')
+               endIf
+            else
+               Result = False
+               self.AjouterMessageInfo('Prêt non éligible : durée du prêt supérieure à 4 ans')
+            endIf
+         else
+            Result = False
+            self.AjouterMessageInfo('Prêt non éligible : age de la personne couverte supérieur à 50 ans')
+         endIf
+      else
+         Result = False
+         self.AjouterMessageInfo('Prêt non éligible : objet du prêt non éligible')
+      endIf
+   endIf
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLO_LoanRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218129048]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLO_CappingModel]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aMotorStatus]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWLO_LoanClassification><ClassificationValues><aWLO_LoanClassificationValue><Name>Résidence Principale</Name><NSId>318792438</NSId><Id>1</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Résidence Secondaire</Name><NSId>318792438</NSId><Id>2</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Professionnel</Name><NSId>318792438</NSId><Id>3</Id></aWLO_LoanClassificationValue></ClassificationValues><ClassificationValues><aWLO_LoanClassificationValue><Name>Consommation</Name><NSId>318792438</NSId><Id>4</Id></aWLO_LoanClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Résidence Principale]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[OP5]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Objet du prêt]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318792436]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLO_LoanClassification></UsedRules><UsedRules><aWFFieldDesc_Amount><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[13]]></Id></aWFFieldDesc_Amount></UsedRules><UsedRules><aWFFieldDesc_Amount><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFFieldDesc_Amount></UsedRules><UsedRules><aWFFieldDesc_Float><NSId Id="1"><![CDATA[318771844]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFFieldDesc_Float></UsedRules><MyOwner><aWLO_CappingModel><NSId Id="1"><![CDATA[318792721]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLO_CappingModel></MyOwner><Name Id="3"><![CDATA[Décision AERAS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318769372]]></NSId><Id Id="2"><![CDATA[25]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFRuleDesc></AgreementRule><AdditionalData><aWFDynamicObjectDesc><Variables><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0,00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Faux]]></UseDefaultValue><Code Id="23"><![CDATA[RA]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFDynamicObjectDesc><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id></aWFDynamicObjectDesc></MyOwner><Name Id="3"><![CDATA[Revenu Annuel]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[12]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Variables><Variables><aWFFieldDesc_Enumerate><DefaultValueEnumerate><aWFFieldDesc_Enumerator><NSId Id="1"><![CDATA[318771809]]></NSId><Id Id="2"><![CDATA[68]]></Id></aWFFieldDesc_Enumerator></DefaultValueEnumerate><Enumerators><aWFFieldDesc_Enumerator><PresentedName Id="6"><![CDATA[]]></PresentedName><MyOwner><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771807]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFFieldDesc_Enumerate></MyOwner><Name Id="3"><![CDATA[Niveau I]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771809]]></NSId><Id Id="2"><![CDATA[67]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><PresentedName Id="6"><![CDATA[]]></PresentedName><MyOwner><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771807]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFFieldDesc_Enumerate></MyOwner><Name Id="3"><![CDATA[Niveau II]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771809]]></NSId><Id Id="2"><![CDATA[68]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerator></Enumerators><Enumerators><aWFFieldDesc_Enumerator><PresentedName Id="6"><![CDATA[]]></PresentedName><MyOwner><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771807]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFFieldDesc_Enumerate></MyOwner><Name Id="3"><![CDATA[Niveau III]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771809]]></NSId><Id Id="2"><![CDATA[69]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerator></Enumerators><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Vrai]]></UseDefaultValue><Code Id="23"><![CDATA[Niv]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFDynamicObjectDesc><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id></aWFDynamicObjectDesc></MyOwner><Name Id="3"><![CDATA[Niveau AERAS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771807]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Enumerate></Variables><Variables><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[100 000,00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Plafond annuel S\'e9curit\'e9 Sociale\f1\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Vrai]]></UseDefaultValue><Code Id="23"><![CDATA[PASS]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFDynamicObjectDesc><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id></aWFDynamicObjectDesc></MyOwner><Name Id="3"><![CDATA[PASS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[13]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Variables><Variables><aWFFieldDesc_Float><DefaultValueFloat Id="1"><![CDATA[1]]></DefaultValueFloat><MinFloat Id="2"><![CDATA[0]]></MinFloat><MaxFloat Id="3"><![CDATA[999 999 999 999 999]]></MaxFloat><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16\par
+}
+]]></Comment><UseDefaultValue Id="3"><![CDATA[Vrai]]></UseDefaultValue><Code Id="23"><![CDATA[Pff]]></Code><UseMandatoryRule Id="26"><![CDATA[Faux]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[Faux]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[Faux]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFDynamicObjectDesc><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id></aWFDynamicObjectDesc></MyOwner><Name Id="3"><![CDATA[Part du foyer fiscal]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771844]]></NSId><Id Id="2"><![CDATA[21]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Float></Variables><UseValidationRule Id="14"><![CDATA[Faux]]></UseValidationRule><Form><aWFDynamicDataAndClassificationForm><Qualifiers><aWFDynamicDataAndClassificationQualifier><FromData><aWFFieldDesc_Amount><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[12]]></Id></aWFFieldDesc_Amount></FromData><VisibilityRuleAsCstring Id="20"><![CDATA[]]></VisibilityRuleAsCstring><HabilitationLevel Id="5"><![CDATA[0]]></HabilitationLevel><IsVariableDynamicData Id="7"><![CDATA[Faux]]></IsVariableDynamicData><DisplayInPremiumSummary Id="13"><![CDATA[Vrai]]></DisplayInPremiumSummary><MandatoryLevel Id="15"><![CDATA[0]]></MandatoryLevel><row Id="3"><![CDATA[1]]></row><column Id="4"><![CDATA[1]]></column><width Id="6"><![CDATA[100]]></width><height Id="8"><![CDATA[25]]></height><minLabelWidth Id="24"><![CDATA[0]]></minLabelWidth><MyOwner><aWFDynamicDataAndClassificationForm><NSId Id="1"><![CDATA[318773890]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFDynamicDataAndClassificationForm></MyOwner><Name Id="3"><![CDATA[Revenu Annuel]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773903]]></NSId><Id Id="2"><![CDATA[27]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFDynamicDataAndClassificationQualifier></Qualifiers><Qualifiers><aWFDynamicDataAndClassificationQualifier><FromData><aWFFieldDesc_Enumerate><NSId Id="1"><![CDATA[318771807]]></NSId><Id Id="2"><![CDATA[22]]></Id></aWFFieldDesc_Enumerate></FromData><VisibilityRuleAsCstring Id="20"><![CDATA[]]></VisibilityRuleAsCstring><HabilitationLevel Id="5"><![CDATA[0]]></HabilitationLevel><IsVariableDynamicData Id="7"><![CDATA[Faux]]></IsVariableDynamicData><DisplayInPremiumSummary Id="13"><![CDATA[Vrai]]></DisplayInPremiumSummary><MandatoryLevel Id="15"><![CDATA[0]]></MandatoryLevel><row Id="3"><![CDATA[2]]></row><column Id="4"><![CDATA[1]]></column><width Id="6"><![CDATA[100]]></width><height Id="8"><![CDATA[25]]></height><minLabelWidth Id="24"><![CDATA[0]]></minLabelWidth><MyOwner><aWFDynamicDataAndClassificationForm><NSId Id="1"><![CDATA[318773890]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFDynamicDataAndClassificationForm></MyOwner><Name Id="3"><![CDATA[Niveau AERAS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773903]]></NSId><Id Id="2"><![CDATA[28]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFDynamicDataAndClassificationQualifier></Qualifiers><Qualifiers><aWFDynamicDataAndClassificationQualifier><FromData><aWFFieldDesc_Amount><NSId Id="1"><![CDATA[318771850]]></NSId><Id Id="2"><![CDATA[13]]></Id></aWFFieldDesc_Amount></FromData><VisibilityRuleAsCstring Id="20"><![CDATA[]]></VisibilityRuleAsCstring><HabilitationLevel Id="5"><![CDATA[0]]></HabilitationLevel><IsVariableDynamicData Id="7"><![CDATA[Faux]]></IsVariableDynamicData><DisplayInPremiumSummary Id="13"><![CDATA[Vrai]]></DisplayInPremiumSummary><MandatoryLevel Id="15"><![CDATA[0]]></MandatoryLevel><row Id="3"><![CDATA[3]]></row><column Id="4"><![CDATA[1]]></column><width Id="6"><![CDATA[100]]></width><height Id="8"><![CDATA[25]]></height><minLabelWidth Id="24"><![CDATA[0]]></minLabelWidth><MyOwner><aWFDynamicDataAndClassificationForm><NSId Id="1"><![CDATA[318773890]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFDynamicDataAndClassificationForm></MyOwner><Name Id="3"><![CDATA[PASS]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773903]]></NSId><Id Id="2"><![CDATA[29]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFDynamicDataAndClassificationQualifier></Qualifiers><Qualifiers><aWFDynamicDataAndClassificationQualifier><FromData><aWFFieldDesc_Float><NSId Id="1"><![CDATA[318771844]]></NSId><Id Id="2"><![CDATA[21]]></Id></aWFFieldDesc_Float></FromData><VisibilityRuleAsCstring Id="20"><![CDATA[]]></VisibilityRuleAsCstring><HabilitationLevel Id="5"><![CDATA[0]]></HabilitationLevel><IsVariableDynamicData Id="7"><![CDATA[Faux]]></IsVariableDynamicData><DisplayInPremiumSummary Id="13"><![CDATA[Vrai]]></DisplayInPremiumSummary><MandatoryLevel Id="15"><![CDATA[0]]></MandatoryLevel><row Id="3"><![CDATA[4]]></row><column Id="4"><![CDATA[1]]></column><width Id="6"><![CDATA[30]]></width><height Id="8"><![CDATA[25]]></height><minLabelWidth Id="24"><![CDATA[0]]></minLabelWidth><MyOwner><aWFDynamicDataAndClassificationForm><NSId Id="1"><![CDATA[318773890]]></NSId><Id Id="2"><![CDATA[7]]></Id></aWFDynamicDataAndClassificationForm></MyOwner><Name Id="3"><![CDATA[Part du foyer fiscal]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773903]]></NSId><Id Id="2"><![CDATA[30]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFDynamicDataAndClassificationQualifier></Qualifiers><MyOwner><aWFDynamicObjectDesc><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id></aWFDynamicObjectDesc></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318773890]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFDynamicDataAndClassificationForm></Form><MyOwner><aWLO_CappingModel><NSId Id="1"><![CDATA[318792721]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLO_CappingModel></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318772692]]></NSId><Id Id="2"><![CDATA[92]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFDynamicObjectDesc></AdditionalData><Description Id="13"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}{\f1\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 Application des r\'e8glementations AERAS\f1\par
+}
+]]></Description><Name Id="3"><![CDATA[Modèle AERAS emprunteur]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318792721]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[2]]></Version></aWLO_CappingModel></EntityExport>

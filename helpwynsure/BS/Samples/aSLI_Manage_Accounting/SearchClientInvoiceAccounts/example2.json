@@ -1,0 +1,37 @@
+{
+	"description":"",
+	"request":{
+		"clientId":{
+			"internalClientId":"",
+			"externalClientIdentifier":{
+				"externalClientId":"",
+				"thirdPartyID":""
+			},
+			"buid":"318843033_4"
+		}
+	},
+	"response":[
+		{
+			"className":"aSPCB_GetClientAccountInfo_Out",
+			"accountNumber":"L61",
+			"thirdParty":"nilesh nilesh",
+			"kind":"Invoice Account",
+			"balance":{
+				"amount":979.54,
+				"currency":"cUSDollar"
+			},
+			"suspended":{
+				"amount":-20.46,
+				"currency":"cUSDollar"
+			},
+			"description":"Invoice Account for Contract # 4800000502 List Billing",
+			"buid":"318842552_61"
+		}
+	],
+	"className":"aSLI_Manage_Accounting",
+	"methodName":"SearchClientInvoiceAccounts",
+	"version":"5.7.3.0",
+	"date":"2017-11-27",
+	"errors":[
+	]
+}

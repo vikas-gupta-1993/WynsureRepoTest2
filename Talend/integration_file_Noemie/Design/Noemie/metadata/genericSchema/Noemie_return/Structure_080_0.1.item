@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_4WoMkBEjEeaLhIu4lYnz6g" comment="connectionComment" label="connectionLabel" dataPackage="_4WoMkREjEeaLhIu4lYnz6g"/>
+  <TalendMetadata:GenericPackage xmi:id="_4WoMkREjEeaLhIu4lYnz6g" dataManager="_4WoMkBEjEeaLhIu4lYnz6g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4WoMkhEjEeaLhIu4lYnz6g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMkxEjEeaLhIu4lYnz6g" name="Idntfr" id="13081" label="Idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_4WoMlBEjEeaLhIu4lYnz6g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMlREjEeaLhIu4lYnz6g" name="Entity" id="13082" label="Entity" length="3" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4WoMlhEjEeaLhIu4lYnz6g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMlxEjEeaLhIu4lYnz6g" name="Level" id="13083" label="Level" length="2" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4WoMmBEjEeaLhIu4lYnz6g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMmREjEeaLhIu4lYnz6g" name="NOE_DRI" id="13084" label="NOE_DRI" length="6" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4WoMmhEjEeaLhIu4lYnz6g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMmxEjEeaLhIu4lYnz6g" name="LOT_NUM" id="13085" label="LOT_NUM" length="3" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_4WoMnBEjEeaLhIu4lYnz6g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4WoMnREjEeaLhIu4lYnz6g" name="Idntfr_045" id="13086" label="Idntfr_045" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_4WoMnhEjEeaLhIu4lYnz6g"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

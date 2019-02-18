@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Code Id="2"><![CDATA[P21]]></Code><content Id="4"><![CDATA[I TERMS AND DEFINITIONS
+1. Insurance Contract
+means an agreement between the Policyholder and the Insurer whereby:
+-  the  Policyholder  agrees  to  pay  the  Insurance  Premium  at  an  extent  and 
+according to the procedure set forth in the Insurance Contract, and
+-  the  Insurer agrees  to pay  the  Insurance  Indemnity  in  the events and at  the 
+extent set forth in the Insurance Contract.
+2. Insurance Policy
+means  the  document  issued  by  the  Insurer  as  a  proof  of  entry  into  the 
+Insurance Contract.
+3. Insurer
+means  Swedbank  Life  insurance  SE (hereinafter  alternatively  referred  to  as 
+"Swedbank  Life  Insurance")  represented  by  the  tied  insurance  agent 
+Swedbank AS.
+4. Policyholder
+means  the natural person specified in  the Insurance Contract who enters  into 
+the Insurance Contract with the Insurer.
+5. Insured
+means  a  natural  person,  whose  life  is  being  insured  and  who  is  also  the 
+Policyholder.
+At  the  time of entering  in  the  Insurance Contract,  the  Insured must 18  to 50
+years of age. At the end of the insurance period - not older  than 55 years of 
+age.
+6. Guardian
+means  the  natural  guardians  (parents)  of  the  Beneficiary,  the  guardian 
+appointed  by  the  Orphans  Court  or  by  other  competent  institution,  or  the 
+adopter approved by court.
+7. Bank
+means Swedbank AS.
+8. Account
+means the Policyholder's account specified in the Insurance Contract.
+9. Beneficiary
+means  the  natural  person  stated  in  the  Insurance  Contract,  to  whom  the 
+Insurer  agrees  to  pay  the  Insurance  Indemnity  upon  occurrence  of  Insured 
+Event. The Policyholder may  change  the Beneficiary  during  the  term  of  the 
+Insurance Contract by filing a written application to the Insurer.
+10. Insured Event
+means  the death of the  Insured during the time when the  Insurance Cover  is 
+in  force (the "Event of Death of the  Insured"). The insured's death during the 
+time,  when  the  insurance  cover  has  been  suspended  or  terminated,  is  not 
+considered an Insured Event.
+11. Insurance Cover
+is  the  insurer's  liability upon occurrence of  the  Insured Event during  the  time 
+when  the  Insurance Cover  is  in  force  to  pay  the  Insurance  Indemnity  in  an 
+amount and under conditions determined by the Insurance Contract.
+12. Sum Insured
+means the amount of money, at the extent of which the life of the Insured is 
+insured. The Sum Insured is equivalent to employees' monthly average gross 
+pay, as determined by the Central Statistics Board of the Republic of Latvia in 
+the last quarter of the previous calendar year, multiplied by 12.
+The amount of the Sum Insured is reviewed annually on 1 April.
+13. Insurance Indemnity
+means the amount of money paid to the Beneficiary upon occurrence of an 
+Event Insured. If an Insured Event occurs as a result of a traffic accident, the 
+payment of the Insurance Indemnity will be equivalent to two Sums Insured.
+14. Insurance Premium
+means  the payment  that  the Policyholder  has  a duty  to make  to  the  Insurer 
+under  the  Insurance  Contract. The  Insurance  Premium  varies  during  the 
+contract in accordance with changes in the Sum Insured.
+15. Insurance Contract Currency
+for  payment  of  Insurance  Premiums  and  the  Insurance  Indemnity  shall  be 
+Latvian lats.
+16. Road Traffic Accident
+means an accident,  in  road  traffic or other place where motoring  is possible, 
+where at least one vehicle  is involved and which has resulted  in  the death of 
+the Insured as evidenced by investigation and / or court documents.
+]]></content><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Title Id="1"><![CDATA[I TERMS AND DEFINITIONS]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Terms and conditions-Definitions]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775697]]></NSId><Id Id="2"><![CDATA[41]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

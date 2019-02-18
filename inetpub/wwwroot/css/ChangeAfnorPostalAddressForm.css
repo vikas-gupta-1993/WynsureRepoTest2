@@ -1,0 +1,26 @@
+.fields dl {
+	height: 50px;
+}
+.action {
+	clear: both;
+}
+.action input {
+	width: 100px;
+}
+#EffectiveDateWrapper {
+	float: none;
+}
+#Line1Wrapper input, #Line2Wrapper input {
+	width: 45em;
+}
+#Line1Wrapper, #Line2Wrapper {
+	margin: 0;
+	clear: both;
+}
+#ZipCodeWrapper, #CityWrapper, #StateWrapper, #CountryWrapper, #RecipientWrapper, #DoorOrLetterbox_Floor_StaircaseWrapper {
+	float: left;
+	width: 25em;
+}
+#DoorOrLetterbox_Floor_StaircaseWrapper input, #RecipientWrapper input, #StateWrapper input, #CountryWrapper input {
+	width: 20em;
+}

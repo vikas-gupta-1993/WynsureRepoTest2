@@ -1,0 +1,71 @@
+                                         
+/***********************
+ *Tuto-specific CSS
+ *********************/ 
+
+div.pre {
+ /* 
+  float: left;
+  font-family: monaco,monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  padding:15px;
+  
+  
+  span OLD
+      border: 1px dotted #DDDDDD !important;
+    border-radius: 2px 2px 2px 2px;
+    color: #06263C !important;
+    font-size: 1.0em; !important;
+    line-height: 1.3 !important;
+    margin: 0.5em 0 0.2em !important;
+    padding: 1px !important;
+    text-indent: 0px;
+   */
+  
+  
+  background: none repeat scroll 0 0 #F5F4EE !important;
+    border: 3px dotted #5581C0 !important;
+    border-radius: 5px 20px 5px 30px;
+    color: #06263C !important;
+    font-size: 1.3em; !important;
+    line-height: 1.6 !important;
+    margin: 1.5em 0 1.2em !important;
+    padding: 5px !important;
+    text-indent:50px;
+    display:block;
+    line-height:17px;
+    font-weight:normal!important;
+}
+
+
+span.pre {
+
+  background: none repeat scroll 0 0 #F5F4EE !important;
+    border: 3px dotted #5581C0 !important;
+    border-radius: 5px 20px 5px 30px;
+    color: #06263C !important;
+    font-size: 1.3em; !important;
+    line-height: 1.6 !important;
+    margin: 1.5em 0 1.2em !important;
+    padding: 5px !important;
+    text-indent:50px;
+    display:block;
+    line-height:17px;
+    font-weight:normal!important;
+}
+input:disabledForm,
+select:disabledForm,
+input[disabled],
+select[disabled],
+.disable,
+.disabledForm
+ {
+  background-color: #F0F0F0;
+  color: #404040;
+	border: 1px solid #949494;
+	border-top: 2px solid #666666;
+	border-left: 2px solid #666666;
+}

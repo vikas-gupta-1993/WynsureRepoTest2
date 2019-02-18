@@ -1,0 +1,339 @@
+{
+	"data":{
+		"className":"aSPLI_FR_PersonData",
+		"bUID":"##55",
+		"dataHistory":[
+		],
+		"thirdPartyId":"AA",
+		"correspondences":[
+			{
+				"className":"aSPCB_Correspondence",
+				"effectiveDate":"1941-12-08",
+				"addressUsage":"0",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"1260",
+						"city":"NYON/VD"
+					},
+					"country":"SUISSE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"RUE SAINT-JACQUES",
+					"line2":""
+				},
+				"isDefaultCorrespondance":true,
+				"privatePhone":"027 744 37 80 ",
+				"privatePhoneExtension":"",
+				"officePhone":"",
+				"officePhoneExtension":"",
+				"cellPhone":"027 744 37 80 ",
+				"fax":"027 744 37 80 ",
+				"eMail":"rodrigues.di_carlo@free.com",
+				"mediaType":"Courrier",
+				"isInvalid":false,
+				"reasonForInvalidAddress":""
+			}
+		],
+		"paymentMethods":[
+			{
+				"className":"aSPCB_Fr_BankAccount",
+				"name":"BNP",
+				"effectiveDate":"2000-01-01",
+				"endDate":null,
+				"holderName":"DI CARLO",
+				"currency":"cEuro",
+				"accountType":"catChecking",
+				"branchName":"BNP Opéra",
+				"depositType":"dpNA",
+				"bankName":"BNP",
+				"address":{
+					"className":"aSPCB_Fr_AfnorPostalAddress",
+					"zipCodeAndCity":{
+						"zipCode":"75002",
+						"city":"PARIS"
+					},
+					"country":"FRANCE",
+					"district":"",
+					"doorOrLetterbox_Floor_Staircase":"",
+					"specialMention_GeographicalCity":"",
+					"recipient":"",
+					"line1":"23 BD DES ITALIENS",
+					"line2":""
+				},
+				"bankCode":"15753",
+				"officeCode":"64042",
+				"accountNumber":"60204664328",
+				"rIBKey":"14",
+				"iBAN":"FR7615753640426020466432814",
+				"bIC":"CEPAFRPP118"
+			}
+		],
+		"contacts":[
+		],
+		"logins":[
+			{
+				"data":{
+					"className":"aSPCB_ExternalApplicationUserData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"profiles":[
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Administrateur collectif",
+							"code":"WAC"
+						},
+						{
+							"className":"aSPCB_ProfileIdentifier",
+							"bUID":"",
+							"description":"wPortal Client",
+							"code":"WC"
+						}
+					],
+					"extendedProfile":null,
+					"organizationUnit":null,
+					"hasVisibilityOnDistributionTree":{
+						"className":"aSPCB_OrganizationUnitIdentifier",
+						"bUID":"",
+						"description":"Gestion interne (Distributeur) (Distribution directe)",
+						"unitCode":"AI"
+					},
+					"loginEntity":{
+						"className":"aSPCB_ApplicationLogin",
+						"fullName":"rodrigues.di_carlo@free.com",
+						"name":"rodrigues.di_carlo@free.com",
+						"password":"",
+						"forbatch":false,
+						"isDisabled":false,
+						"jobLabel":"",
+						"preferedLanguageCode":"",
+						"email":"rodrigues.di_carlo@free.com"
+					},
+					"actor":{
+						"className":"aSPCB_ActorIdentifier",
+						"bUID":"##55",
+						"description":"Rodrigues DI CARLO RUE SAINT-JACQUES, NYON/VD, 1260, SUISSE"
+					}
+				},
+				"identifier":{
+					"className":"aSPCB_ExternalApplicationUserIdentifier",
+					"bUID":"",
+					"description":"rodrigues.di_carlo@free.com",
+					"name":"rodrigues.di_carlo@free.com",
+					"actorReference":{
+						"className":"aSPLI_PersonIdentifier",
+						"bUID":"",
+						"description":"Rodrigues DI CARLO RUE SAINT-JACQUES, NYON/VD, 1260, SUISSE",
+						"internalClientId":"",
+						"externalClientId":{
+							"externalClientId":"0000000058WEX",
+							"thirdPartyID":"AA"
+						}
+					}
+				}
+			}
+		],
+		"actorDataExtension":{
+			"className":"aSPH_FR_PersonExtensionData",
+			"bUID":"",
+			"dataHistory":[
+			],
+			"actorDataExtension":{
+				"className":"aSPH_FR_PersonExtension",
+				"birthRank":1,
+				"thirdPartyPayerActivated":false
+			},
+			"actor":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Rodrigues DI CARLO RUE SAINT-JACQUES, NYON/VD, 1260, SUISSE",
+				"internalClientId":"0000000056",
+				"externalClientId":{
+					"externalClientId":"0000000058WEX",
+					"thirdPartyID":"AA"
+				}
+			},
+			"personDataVersions":[
+				{
+					"className":"aSPH_FR_PersonExtensionVersionData",
+					"bUID":"",
+					"dataHistory":[
+					],
+					"personDataVersion":{
+						"className":"aSPH_FR_PersonExtensionVersion",
+						"effectiveDate":"1800-01-01",
+						"code":"01121000",
+						"socialSchemeCode":"01",
+						"registeredDeskCode":"121",
+						"centerCode":"000",
+						"cTICode":"002",
+						"addressee":"121",
+						"state":"12",
+						"attachedToPerson":false,
+						"alsaceMoselle":false,
+						"noemieActivated":false
+					},
+					"attachedToPersonDataExtensions":[
+					],
+					"preferredAttachedToPersonDataExtension":null
+				}
+			]
+		},
+		"externalClientId":"0000000058WEX",
+		"claimDisbursementChannel":[
+			{
+				"className":"aSPCB_PersonClaimPaymentMethod",
+				"productFamilies":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"E",
+						"fieldValue":"Assurance de prêt",
+						"nameDescription":"Assurance de prêt"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"TI",
+						"fieldValue":"Assurance voyage",
+						"nameDescription":"Assurance voyage"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"CV",
+						"fieldValue":"Epargne",
+						"nameDescription":"Epargne"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"PC",
+						"fieldValue":"IARD",
+						"nameDescription":"IARD"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"D",
+						"fieldValue":"Prévoyance",
+						"nameDescription":"Prévoyance"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"S",
+						"fieldValue":"Santé",
+						"nameDescription":"Santé"
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"fieldCode":"PF",
+						"fieldName":"Famille de produit",
+						"codeForPopulationClass":"",
+						"valueCode":"L",
+						"fieldValue":"Vie",
+						"nameDescription":"Vie"
+					}
+				],
+				"channelType":"aWF_SEPACreditTransfer_DisbursementChannel",
+				"actorPaymentMethodName":"BNP"
+			}
+		],
+		"legalRepresentative":{
+			"data":null,
+			"identifier":null
+		},
+		"actor":{
+			"className":"aSPLI_Fr_Person",
+			"name":"DI CARLO",
+			"shortName":"Rodrigues",
+			"creationDate":"2018-07-10",
+			"preferredLanguageCode":"Fr",
+			"terminationDate":null,
+			"preferredContactChoice":"pcDefaultCorrespondence",
+			"delinquent":false,
+			"underSurveillance":false,
+			"isAnonymous":false,
+			"birthDate":"1941-12-08",
+			"personTitleEnum":"ptMr",
+			"priorName":"",
+			"middleName1":"",
+			"middleName2":"",
+			"nameSuffix":"",
+			"gender":"gMale",
+			"attachedToAnOtherSSN":false,
+			"nationality":"",
+			"birthRank":1,
+			"birthCountry":"",
+			"birthPlaceCity":"NYON/VD",
+			"birthPlaceZipCode":"1260",
+			"birthPlaceState":"",
+			"legalRepresentativeId_Deprecated5200":{
+				"buid":"",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			},
+			"occupation":"",
+			"additionalDatas":[
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"1",
+					"fieldName":"Employé interne",
+					"codeForPopulationClass":"",
+					"valueCode":"NIE",
+					"fieldValue":"N'est pas employé interne",
+					"nameDescription":"N'est pas employé interne"
+				},
+				{
+					"className":"aSPCB_ClassificationValue",
+					"fieldCode":"2",
+					"fieldName":"VIP",
+					"codeForPopulationClass":"",
+					"valueCode":"N'est pas VIP",
+					"fieldValue":"N'est pas VIP",
+					"nameDescription":"N'est pas VIP"
+				}
+			],
+			"oldSSN":"",
+			"oldLastName":"",
+			"oldFirstname":"",
+			"oldDOB":null,
+			"isIncapableAdult":false,
+			"isEmancipatedMinor":false,
+			"sSN":"141121734737284",
+			"maritalStatus":"cDivorced",
+			"regime":"01",
+			"caisse":"121"
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_PersonIdentifier",
+		"bUID":"",
+		"description":"Rodrigues DI CARLO RUE SAINT-JACQUES, NYON/VD, 1260, SUISSE",
+		"internalClientId":"",
+		"externalClientId":{
+			"externalClientId":"0000000058WEX",
+			"thirdPartyID":"AA"
+		}
+	}
+}

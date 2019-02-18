@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport>
+	<aWF_RTF_FormModel>
+		<RTFModel>
+			<aWF_RTFFormModel_BodyRTFTExt>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1815]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Adresse actuelle par défaut/Nom de Rue]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Adresse actuelle par défaut/Nom de Rue]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3047]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1816]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Adresse actuelle par défaut/Numéro de Rue]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Adresse actuelle par défaut/Numéro de Rue]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3048]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1817]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Adresse actuelle par défaut/Pays]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Adresse actuelle par défaut/Pays]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3049]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1818]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Adresse actuelle par défaut/Ville]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Adresse actuelle par défaut/Ville]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3050]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1819]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Nom]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Nom]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3051]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1820]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Client/Prénom]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client/Prénom]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3052]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1826]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Date Impression]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Date Impression]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3058]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1821]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Nouveau BIC]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Nouveau BIC]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3053]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1822]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Nouveau IBAN]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Nouveau IBAN]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3054]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1823]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[BIC précédent]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[BIC précédent]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3055]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1824]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[IBAN précédent]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[IBAN précédent]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3056]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Fields>
+					<aWF_RTF_DraggableFieldDesc>
+						<Qualifier>
+							<aWFForm_FinalFlatData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1825]]>
+								</Id>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifier>
+						<Rank Id="6">
+							<![CDATA[0]]>
+						</Rank>
+						<SizeMax Id="1">
+							<![CDATA[0]]>
+						</SizeMax>
+						<ForceUpcase Id="2">
+							<![CDATA[Faux]]>
+						</ForceUpcase>
+						<LongName Id="1">
+							<![CDATA[Compte bancaire mis à jour/Debut de validité]]>
+						</LongName>
+						<FieldId Id="13">
+							<![CDATA[0]]>
+						</FieldId>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Compte bancaire mis à jour/Debut de validité]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3057]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWF_RTF_DraggableFieldDesc>
+				</Fields>
+				<Parts>
+					<aWF_RTF_RTFModelPart>
+						<RTFModel>
+							<aWF_RTF_FormModel>
+								<RTFModel>
+									<aWF_RTFFormModel_BodyRTFTExt>
+										<Name>Nouveau Modèle</Name>
+										<NSId>318857170</NSId>
+										<Id>6</Id>
+									</aWF_RTFFormModel_BodyRTFTExt>
+								</RTFModel>
+								<RecipientManagementKind Id="16">
+									<![CDATA[0]]>
+								</RecipientManagementKind>
+								<InheritContentToo Id="19">
+									<![CDATA[Faux]]>
+								</InheritContentToo>
+								<FormContextClassDef>
+									<aClassDef>
+										<Name>aWFFormContentDesc</Name>
+										<NSId>218103810</NSId>
+										<Id>218174105</Id>
+									</aClassDef>
+								</FormContextClassDef>
+								<ContextName Id="106">
+									<![CDATA[Tout modèle]]>
+								</ContextName>
+								<Qualifiers>
+									<aWFForm_CurrentRecipient_Qualifier>
+										<Name>Destinataire courant</Name>
+										<NSId>318839076</NSId>
+										<Id>2</Id>
+									</aWFForm_CurrentRecipient_Qualifier>
+								</Qualifiers>
+								<Active Id="27">
+									<![CDATA[Faux]]>
+								</Active>
+								<DefaultModel Id="46">
+									<![CDATA[Faux]]>
+								</DefaultModel>
+								<kind Id="38">
+									<![CDATA[0]]>
+								</kind>
+								<UserDefinedPrintingKind>
+									<aWFPredefinedPrintingKind>
+										<Name>Défaut</Name>
+										<NSId>318837723</NSId>
+										<Id>1</Id>
+									</aWFPredefinedPrintingKind>
+								</UserDefinedPrintingKind>
+								<InheritedModel Id="70">
+									<![CDATA[Faux]]>
+								</InheritedModel>
+								<Code Id="105">
+									<![CDATA[EG]]>
+								</Code>
+								<DefineRecipients Id="120">
+									<![CDATA[Faux]]>
+								</DefineRecipients>
+								<MainRecipientKindEnum Id="132">
+									<![CDATA[0]]>
+								</MainRecipientKindEnum>
+								<OtherRecipientKindsSet Id="133">
+									<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+								</OtherRecipientKindsSet>
+								<Name Id="3">
+									<![CDATA[Entête générique]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318857179]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[6]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWF_RTF_FormModel>
+						</RTFModel>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Entête générique]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857232]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[226]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_RTFModelPart>
+				</Parts>
+				<Parts>
+					<aWF_RTF_RTFModelPart>
+						<RTFModel>
+							<aWF_RTF_FormModel>
+								<RTFModel>
+									<aWF_RTFFormModel_BodyRTFTExt>
+										<Name>Nouveau Modèle</Name>
+										<NSId>318857170</NSId>
+										<Id>7</Id>
+									</aWF_RTFFormModel_BodyRTFTExt>
+								</RTFModel>
+								<RecipientManagementKind Id="16">
+									<![CDATA[0]]>
+								</RecipientManagementKind>
+								<InheritContentToo Id="19">
+									<![CDATA[Faux]]>
+								</InheritContentToo>
+								<FormContextClassDef>
+									<aClassDef>
+										<Name>aWFFormContentDesc</Name>
+										<NSId>218103810</NSId>
+										<Id>218174105</Id>
+									</aClassDef>
+								</FormContextClassDef>
+								<ContextName Id="106">
+									<![CDATA[Tout modèle]]>
+								</ContextName>
+								<Active Id="27">
+									<![CDATA[Faux]]>
+								</Active>
+								<DefaultModel Id="46">
+									<![CDATA[Faux]]>
+								</DefaultModel>
+								<kind Id="38">
+									<![CDATA[0]]>
+								</kind>
+								<UserDefinedPrintingKind>
+									<aWFPredefinedPrintingKind>
+										<Name>Défaut</Name>
+										<NSId>318837723</NSId>
+										<Id>1</Id>
+									</aWFPredefinedPrintingKind>
+								</UserDefinedPrintingKind>
+								<InheritedModel Id="70">
+									<![CDATA[Faux]]>
+								</InheritedModel>
+								<Code Id="105">
+									<![CDATA[FL]]>
+								</Code>
+								<DefineRecipients Id="120">
+									<![CDATA[Faux]]>
+								</DefineRecipients>
+								<MainRecipientKindEnum Id="132">
+									<![CDATA[0]]>
+								</MainRecipientKindEnum>
+								<OtherRecipientKindsSet Id="133">
+									<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+								</OtherRecipientKindsSet>
+								<Name Id="3">
+									<![CDATA[Fin de lettre générique]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318857179]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[7]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWF_RTF_FormModel>
+						</RTFModel>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Fin de lettre générique]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857232]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[227]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWF_RTF_RTFModelPart>
+				</Parts>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3051]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3052]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3058]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3056]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3055]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3054]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3053]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedFields>
+					<aWF_RTF_DraggableFieldDesc>
+						<NSId Id="1">
+							<![CDATA[318857173]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[3057]]>
+						</Id>
+					</aWF_RTF_DraggableFieldDesc>
+				</UsedFields>
+				<UsedParts>
+					<aWF_RTF_RTFModelPart>
+						<NSId Id="1">
+							<![CDATA[318857232]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[226]]>
+						</Id>
+					</aWF_RTF_RTFModelPart>
+				</UsedParts>
+				<UsedParts>
+					<aWF_RTF_RTFModelPart>
+						<NSId Id="1">
+							<![CDATA[318857232]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[227]]>
+						</Id>
+					</aWF_RTF_RTFModelPart>
+				</UsedParts>
+				<Status Id="4">
+					<![CDATA[2]]>
+				</Status>
+				<PageBreakAfterText Id="6">
+					<![CDATA[Faux]]>
+				</PageBreakAfterText>
+				<StoredText Id="2">
+					<![CDATA[]]>
+				</StoredText>
+				<SubTexts>
+					<aWF_SubBodyRTFText>
+						<MyOwner>
+							<aWF_RTFFormModel_BodyRTFTExt>
+								<NSId Id="1">
+									<![CDATA[318857170]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[174]]>
+								</Id>
+							</aWF_RTFFormModel_BodyRTFTExt>
+						</MyOwner>
+						<StoredText Id="2">
+							<![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red128\green0\blue0;\red0\green0\blue0;\red0\green168\blue0;}
+\viewkind4\uc1\pard\cf1\f0\fs16 @@0@@\cf0\par
+\cf2\fs20 R\'e9f\'e9rence client:\par
+Nom client : \cf3 ##0##\cf2\par
+Pr\'e9nom client : \cf3 ##1##\cf2\par
+\par
+Le \cf3 ##2##\cf2 ,\par
+\par
+Nous vous confirmons le changement de compte bancaire \cf3 ##3##\cf2  \cf3 ##4##\cf2  vers le compte bancaire  \cf3 ##5##\cf2  \cf3 ##6##\cf2 .\par
+\par
+Ce changement prend effet le \cf3 ##7##\cf2\par
+\cf0\fs16\par
+\cf1 @@1@@\cf0\par
+}
+]]>
+						</StoredText>
+						<DuringComposition Id="4">
+							<![CDATA[0]]>
+						</DuringComposition>
+						<Composed Id="15">
+							<![CDATA[Faux]]>
+						</Composed>
+						<Numerotation Id="29">
+							<![CDATA[(0,0,0,0,0,0,0,0,0,0)]]>
+						</Numerotation>
+						<Level Id="30">
+							<![CDATA[0]]>
+						</Level>
+						<StartOnNextpage Id="36">
+							<![CDATA[Faux]]>
+						</StartOnNextpage>
+						<Title Id="1">
+							<![CDATA[]]>
+						</Title>
+						<content Id="4">
+							<![CDATA[]]>
+						</content>
+						<Name Id="3">
+							<![CDATA[SubText_1]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318857215]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[1513]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[5]]>
+						</Version>
+					</aWF_SubBodyRTFText>
+				</SubTexts>
+				<DuringComposition Id="4">
+					<![CDATA[0]]>
+				</DuringComposition>
+				<Composed Id="15">
+					<![CDATA[Faux]]>
+				</Composed>
+				<Numerotation Id="29">
+					<![CDATA[(0,0,0,0,0,0,0,0,0,0)]]>
+				</Numerotation>
+				<Level Id="30">
+					<![CDATA[0]]>
+				</Level>
+				<Title Id="1">
+					<![CDATA[]]>
+				</Title>
+				<content Id="4">
+					<![CDATA[]]>
+				</content>
+				<Name Id="3">
+					<![CDATA[Nouveau Modèle]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318857170]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[174]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[7]]>
+				</Version>
+			</aWF_RTFFormModel_BodyRTFTExt>
+		</RTFModel>
+		<RecipientManagementKind Id="16">
+			<![CDATA[0]]>
+		</RecipientManagementKind>
+		<InheritContentToo Id="19">
+			<![CDATA[Faux]]>
+		</InheritContentToo>
+		<FormContextClassDef>
+			<aClassDef>
+				<Name Id="2">
+					<![CDATA[aSCB_BusinessServiceLog_BankMobility_FormContentDesc]]>
+				</Name>
+				<NSId Id="1">
+					<![CDATA[218103810]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[218628108]]>
+				</Id>
+			</aClassDef>
+		</FormContextClassDef>
+		<ContextName Id="106">
+			<![CDATA[Client:BankMobility]]>
+		</ContextName>
+		<Qualifiers>
+			<aWFForm_FinalFlatData_Qualifier>
+				<Format Id="1">
+					<![CDATA[]]>
+				</Format>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>BIC_original</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846355987</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[BIC précédent]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838666]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[1823]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[2]]>
+				</Version>
+			</aWFForm_FinalFlatData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_RefObjectData_Qualifier>
+				<FixedNumberOfOccurence Id="1">
+					<![CDATA[Faux]]>
+				</FixedNumberOfOccurence>
+				<FormModel>
+					<aWFFormModel>
+						<FormContextClassDef>
+							<aClassDef>
+								<Name Id="2">
+									<![CDATA[aWLIPerson_FormContentDesc]]>
+								</Name>
+								<NSId Id="1">
+									<![CDATA[218103810]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[218179519]]>
+								</Id>
+							</aClassDef>
+						</FormContextClassDef>
+						<ContextName Id="106">
+							<![CDATA[Client:Personne Physique]]>
+						</ContextName>
+						<Qualifiers>
+							<aWFForm_RefObjectData_Qualifier>
+								<FixedNumberOfOccurence Id="1">
+									<![CDATA[Faux]]>
+								</FixedNumberOfOccurence>
+								<FormModel>
+									<aWFFormModel>
+										<FormContextClassDef>
+											<aClassDef>
+												<Name Id="2">
+													<![CDATA[aWFAfnorPostalAddress_FormContentDesc]]>
+												</Name>
+												<NSId Id="1">
+													<![CDATA[218103810]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[218174824]]>
+												</Id>
+											</aClassDef>
+										</FormContextClassDef>
+										<ContextName Id="106">
+											<![CDATA[Tout modèle]]>
+										</ContextName>
+										<Qualifiers>
+											<aWFForm_FinalFlatData_Qualifier>
+												<Format Id="1">
+													<![CDATA[]]>
+												</Format>
+												<BusinessData>
+													<aMethodDesc>
+														<Name>StreetName</Name>
+														<NSId>218103824</NSId>
+														<Id>937053733890555933</Id>
+														<ClassName>aWFAfnorPostalAddress_FormContentDesc</ClassName>
+													</aMethodDesc>
+												</BusinessData>
+												<MyOwner>
+													<aWFFormModel>
+														<NSId Id="1">
+															<![CDATA[318837379]]>
+														</NSId>
+														<Id Id="2">
+															<![CDATA[838]]>
+														</Id>
+													</aWFFormModel>
+												</MyOwner>
+												<Name Id="3">
+													<![CDATA[Nom de Rue]]>
+												</Name>
+												<MigrationDate Id="15">
+													<![CDATA[--/--/----]]>
+												</MigrationDate>
+												<NSId Id="1">
+													<![CDATA[318838666]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[1815]]>
+												</Id>
+												<Version Id="3">
+													<![CDATA[1]]>
+												</Version>
+											</aWFForm_FinalFlatData_Qualifier>
+										</Qualifiers>
+										<Qualifiers>
+											<aWFForm_FinalFlatData_Qualifier>
+												<Format Id="1">
+													<![CDATA[]]>
+												</Format>
+												<BusinessData>
+													<aMethodDesc>
+														<Name>StreetNumber</Name>
+														<NSId>218103824</NSId>
+														<Id>937053733890555928</Id>
+														<ClassName>aWFAfnorPostalAddress_FormContentDesc</ClassName>
+													</aMethodDesc>
+												</BusinessData>
+												<MyOwner>
+													<aWFFormModel>
+														<NSId Id="1">
+															<![CDATA[318837379]]>
+														</NSId>
+														<Id Id="2">
+															<![CDATA[838]]>
+														</Id>
+													</aWFFormModel>
+												</MyOwner>
+												<Name Id="3">
+													<![CDATA[Numéro de Rue]]>
+												</Name>
+												<MigrationDate Id="15">
+													<![CDATA[--/--/----]]>
+												</MigrationDate>
+												<NSId Id="1">
+													<![CDATA[318838666]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[1816]]>
+												</Id>
+												<Version Id="3">
+													<![CDATA[1]]>
+												</Version>
+											</aWFForm_FinalFlatData_Qualifier>
+										</Qualifiers>
+										<Qualifiers>
+											<aWFForm_FinalFlatData_Qualifier>
+												<Format Id="1">
+													<![CDATA[]]>
+												</Format>
+												<BusinessData>
+													<aMethodDesc>
+														<Name>Country</Name>
+														<NSId>218103824</NSId>
+														<Id>937047961454510081</Id>
+														<ClassName>aWFPostalAddress_FormContentDesc</ClassName>
+													</aMethodDesc>
+												</BusinessData>
+												<MyOwner>
+													<aWFFormModel>
+														<NSId Id="1">
+															<![CDATA[318837379]]>
+														</NSId>
+														<Id Id="2">
+															<![CDATA[838]]>
+														</Id>
+													</aWFFormModel>
+												</MyOwner>
+												<Name Id="3">
+													<![CDATA[Pays]]>
+												</Name>
+												<MigrationDate Id="15">
+													<![CDATA[--/--/----]]>
+												</MigrationDate>
+												<NSId Id="1">
+													<![CDATA[318838666]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[1817]]>
+												</Id>
+												<Version Id="3">
+													<![CDATA[1]]>
+												</Version>
+											</aWFForm_FinalFlatData_Qualifier>
+										</Qualifiers>
+										<Qualifiers>
+											<aWFForm_FinalFlatData_Qualifier>
+												<Format Id="1">
+													<![CDATA[]]>
+												</Format>
+												<BusinessData>
+													<aMethodDesc>
+														<Name>City</Name>
+														<NSId>218103824</NSId>
+														<Id>937047961454510100</Id>
+														<ClassName>aWFPostalAddress_FormContentDesc</ClassName>
+													</aMethodDesc>
+												</BusinessData>
+												<MyOwner>
+													<aWFFormModel>
+														<NSId Id="1">
+															<![CDATA[318837379]]>
+														</NSId>
+														<Id Id="2">
+															<![CDATA[838]]>
+														</Id>
+													</aWFFormModel>
+												</MyOwner>
+												<Name Id="3">
+													<![CDATA[Ville]]>
+												</Name>
+												<MigrationDate Id="15">
+													<![CDATA[--/--/----]]>
+												</MigrationDate>
+												<NSId Id="1">
+													<![CDATA[318838666]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[1818]]>
+												</Id>
+												<Version Id="3">
+													<![CDATA[1]]>
+												</Version>
+											</aWFForm_FinalFlatData_Qualifier>
+										</Qualifiers>
+										<Active Id="27">
+											<![CDATA[Faux]]>
+										</Active>
+										<DefaultModel Id="46">
+											<![CDATA[Faux]]>
+										</DefaultModel>
+										<kind Id="38">
+											<![CDATA[0]]>
+										</kind>
+										<InheritedModel Id="70">
+											<![CDATA[Faux]]>
+										</InheritedModel>
+										<Code Id="105">
+											<![CDATA[]]>
+										</Code>
+										<DefineRecipients Id="120">
+											<![CDATA[Faux]]>
+										</DefineRecipients>
+										<MainRecipientKindEnum Id="132">
+											<![CDATA[0]]>
+										</MainRecipientKindEnum>
+										<OtherRecipientKindsSet Id="133">
+											<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+										</OtherRecipientKindsSet>
+										<MyOwner>
+											<aWFForm_RefObjectData_Qualifier>
+												<NSId Id="1">
+													<![CDATA[318838668]]>
+												</NSId>
+												<Id Id="2">
+													<![CDATA[635]]>
+												</Id>
+											</aWFForm_RefObjectData_Qualifier>
+										</MyOwner>
+										<Name Id="3">
+											<![CDATA[Adresse actuelle par défaut]]>
+										</Name>
+										<MigrationDate Id="15">
+											<![CDATA[--/--/----]]>
+										</MigrationDate>
+										<NSId Id="1">
+											<![CDATA[318837379]]>
+										</NSId>
+										<Id Id="2">
+											<![CDATA[838]]>
+										</Id>
+										<Version Id="3">
+											<![CDATA[1]]>
+										</Version>
+									</aWFFormModel>
+								</FormModel>
+								<BusinessData>
+									<aMethodDesc>
+										<Name>CurrentDefaultAddress</Name>
+										<NSId>218103824</NSId>
+										<Id>937048107483398321</Id>
+										<ClassName>aWF_Actor_FormContentDesc</ClassName>
+									</aMethodDesc>
+								</BusinessData>
+								<MyOwner>
+									<aWFFormModel>
+										<NSId Id="1">
+											<![CDATA[318837379]]>
+										</NSId>
+										<Id Id="2">
+											<![CDATA[837]]>
+										</Id>
+									</aWFFormModel>
+								</MyOwner>
+								<Name Id="3">
+									<![CDATA[Adresse actuelle par défaut]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318838668]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[635]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWFForm_RefObjectData_Qualifier>
+						</Qualifiers>
+						<Qualifiers>
+							<aWFForm_FinalFlatData_Qualifier>
+								<Format Id="1">
+									<![CDATA[]]>
+								</Format>
+								<BusinessData>
+									<aMethodDesc>
+										<Name>ActorName</Name>
+										<NSId>218103824</NSId>
+										<Id>937048107483398218</Id>
+										<ClassName>aWF_Actor_FormContentDesc</ClassName>
+									</aMethodDesc>
+								</BusinessData>
+								<MyOwner>
+									<aWFFormModel>
+										<NSId Id="1">
+											<![CDATA[318837379]]>
+										</NSId>
+										<Id Id="2">
+											<![CDATA[837]]>
+										</Id>
+									</aWFFormModel>
+								</MyOwner>
+								<Name Id="3">
+									<![CDATA[Nom]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1819]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifiers>
+						<Qualifiers>
+							<aWFForm_FinalFlatData_Qualifier>
+								<Format Id="1">
+									<![CDATA[]]>
+								</Format>
+								<BusinessData>
+									<aMethodDesc>
+										<Name>FirstName</Name>
+										<NSId>218103824</NSId>
+										<Id>937047974339411970</Id>
+										<ClassName>aWFPerson_FormContentDesc</ClassName>
+									</aMethodDesc>
+								</BusinessData>
+								<MyOwner>
+									<aWFFormModel>
+										<NSId Id="1">
+											<![CDATA[318837379]]>
+										</NSId>
+										<Id Id="2">
+											<![CDATA[837]]>
+										</Id>
+									</aWFFormModel>
+								</MyOwner>
+								<Name Id="3">
+									<![CDATA[Prénom]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1820]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifiers>
+						<Active Id="27">
+							<![CDATA[Faux]]>
+						</Active>
+						<DefaultModel Id="46">
+							<![CDATA[Faux]]>
+						</DefaultModel>
+						<kind Id="38">
+							<![CDATA[0]]>
+						</kind>
+						<InheritedModel Id="70">
+							<![CDATA[Faux]]>
+						</InheritedModel>
+						<Code Id="105">
+							<![CDATA[]]>
+						</Code>
+						<DefineRecipients Id="120">
+							<![CDATA[Faux]]>
+						</DefineRecipients>
+						<MainRecipientKindEnum Id="132">
+							<![CDATA[0]]>
+						</MainRecipientKindEnum>
+						<OtherRecipientKindsSet Id="133">
+							<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+						</OtherRecipientKindsSet>
+						<MyOwner>
+							<aWFForm_RefObjectData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838668]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[634]]>
+								</Id>
+							</aWFForm_RefObjectData_Qualifier>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Client]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318837379]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[837]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[1]]>
+						</Version>
+					</aWFFormModel>
+				</FormModel>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>GetBankAccountClientForm</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846356041</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[Client]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838668]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[634]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[1]]>
+				</Version>
+			</aWFForm_RefObjectData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_RefObjectData_Qualifier>
+				<FixedNumberOfOccurence Id="1">
+					<![CDATA[Faux]]>
+				</FixedNumberOfOccurence>
+				<FormModel>
+					<aWFFormModel>
+						<FormContextClassDef>
+							<aClassDef>
+								<Name Id="2">
+									<![CDATA[aWF_BankAccount_FormContentDesc]]>
+								</Name>
+								<NSId Id="1">
+									<![CDATA[218103810]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[218173481]]>
+								</Id>
+							</aClassDef>
+						</FormContextClassDef>
+						<ContextName Id="106">
+							<![CDATA[Tout modèle]]>
+						</ContextName>
+						<Qualifiers>
+							<aWFForm_FinalFlatData_Qualifier>
+								<Format Id="1">
+									<![CDATA[]]>
+								</Format>
+								<BusinessData>
+									<aMethodDesc>
+										<Name>ValidityStart</Name>
+										<NSId>218103824</NSId>
+										<Id>937047965749477389</Id>
+										<ClassName>aWF_BankAccount_FormContentDesc</ClassName>
+									</aMethodDesc>
+								</BusinessData>
+								<MyOwner>
+									<aWFFormModel>
+										<NSId Id="1">
+											<![CDATA[318837379]]>
+										</NSId>
+										<Id Id="2">
+											<![CDATA[839]]>
+										</Id>
+									</aWFFormModel>
+								</MyOwner>
+								<Name Id="3">
+									<![CDATA[Debut de validité]]>
+								</Name>
+								<MigrationDate Id="15">
+									<![CDATA[--/--/----]]>
+								</MigrationDate>
+								<NSId Id="1">
+									<![CDATA[318838666]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[1825]]>
+								</Id>
+								<Version Id="3">
+									<![CDATA[1]]>
+								</Version>
+							</aWFForm_FinalFlatData_Qualifier>
+						</Qualifiers>
+						<Active Id="27">
+							<![CDATA[Faux]]>
+						</Active>
+						<DefaultModel Id="46">
+							<![CDATA[Faux]]>
+						</DefaultModel>
+						<kind Id="38">
+							<![CDATA[0]]>
+						</kind>
+						<InheritedModel Id="70">
+							<![CDATA[Faux]]>
+						</InheritedModel>
+						<Code Id="105">
+							<![CDATA[]]>
+						</Code>
+						<DefineRecipients Id="120">
+							<![CDATA[Faux]]>
+						</DefineRecipients>
+						<MainRecipientKindEnum Id="132">
+							<![CDATA[0]]>
+						</MainRecipientKindEnum>
+						<OtherRecipientKindsSet Id="133">
+							<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+						</OtherRecipientKindsSet>
+						<MyOwner>
+							<aWFForm_RefObjectData_Qualifier>
+								<NSId Id="1">
+									<![CDATA[318838668]]>
+								</NSId>
+								<Id Id="2">
+									<![CDATA[636]]>
+								</Id>
+							</aWFForm_RefObjectData_Qualifier>
+						</MyOwner>
+						<Name Id="3">
+							<![CDATA[Updated Bank Account]]>
+						</Name>
+						<MigrationDate Id="15">
+							<![CDATA[--/--/----]]>
+						</MigrationDate>
+						<NSId Id="1">
+							<![CDATA[318837379]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[839]]>
+						</Id>
+						<Version Id="3">
+							<![CDATA[2]]>
+						</Version>
+					</aWFFormModel>
+				</FormModel>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>GetUpdatedBankAccountForm</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846356031</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[Compte bancaire mis à jour]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838668]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[636]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[2]]>
+				</Version>
+			</aWFForm_RefObjectData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_FinalFlatData_Qualifier>
+				<Format Id="1">
+					<![CDATA[]]>
+				</Format>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>PrintDate</Name>
+						<NSId>218103824</NSId>
+						<Id>937050645809070318</Id>
+						<ClassName>aWFFormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[Date Impression]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838666]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[1826]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[1]]>
+				</Version>
+			</aWFForm_FinalFlatData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_FinalFlatData_Qualifier>
+				<Format Id="1">
+					<![CDATA[]]>
+				</Format>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>IBAN_original</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846355979</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[IBAN précédent]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838666]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[1824]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[2]]>
+				</Version>
+			</aWFForm_FinalFlatData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_FinalFlatData_Qualifier>
+				<Format Id="1">
+					<![CDATA[]]>
+				</Format>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>BIC_updated</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846355991</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[Nouveau BIC]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838666]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[1821]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[2]]>
+				</Version>
+			</aWFForm_FinalFlatData_Qualifier>
+		</Qualifiers>
+		<Qualifiers>
+			<aWFForm_FinalFlatData_Qualifier>
+				<Format Id="1">
+					<![CDATA[]]>
+				</Format>
+				<BusinessData>
+					<aMethodDesc>
+						<Name>IBAN_updated</Name>
+						<NSId>218103824</NSId>
+						<Id>939000573846355983</Id>
+						<ClassName>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</ClassName>
+					</aMethodDesc>
+				</BusinessData>
+				<MyOwner>
+					<aWF_RTF_FormModel>
+						<NSId Id="1">
+							<![CDATA[318857179]]>
+						</NSId>
+						<Id Id="2">
+							<![CDATA[150]]>
+						</Id>
+					</aWF_RTF_FormModel>
+				</MyOwner>
+				<Name Id="3">
+					<![CDATA[Nouveau IBAN]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318838666]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[1822]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[2]]>
+				</Version>
+			</aWFForm_FinalFlatData_Qualifier>
+		</Qualifiers>
+		<Active Id="27">
+			<![CDATA[Vrai]]>
+		</Active>
+		<DefaultModel Id="46">
+			<![CDATA[Faux]]>
+		</DefaultModel>
+		<kind Id="38">
+			<![CDATA[255]]>
+		</kind>
+		<UserDefinedPrintingKind>
+			<aWFUserDefinedPrintingKind>
+				<FormContextClassDef>
+					<aClassDef>
+						<Name>aSCB_BusinessServiceLog_BankMobility_FormContentDesc</Name>
+						<NSId>218103810</NSId>
+						<Id>218628108</Id>
+					</aClassDef>
+				</FormContextClassDef>
+				<IsAvailableInObject Id="4">
+					<![CDATA[Vrai]]>
+				</IsAvailableInObject>
+				<IsAvailableInDesktop Id="5">
+					<![CDATA[Faux]]>
+				</IsAvailableInDesktop>
+				<FunctionalDomains Id="2">
+					<![CDATA[]]>
+				</FunctionalDomains>
+				<WithRecipient Id="12">
+					<![CDATA[Vrai]]>
+				</WithRecipient>
+				<Name Id="3">
+					<![CDATA[Courrier mobilité bancaire]]>
+				</Name>
+				<MigrationDate Id="15">
+					<![CDATA[--/--/----]]>
+				</MigrationDate>
+				<NSId Id="1">
+					<![CDATA[318837403]]>
+				</NSId>
+				<Id Id="2">
+					<![CDATA[4]]>
+				</Id>
+				<Version Id="3">
+					<![CDATA[1]]>
+				</Version>
+			</aWFUserDefinedPrintingKind>
+		</UserDefinedPrintingKind>
+		<InheritedModel Id="70">
+			<![CDATA[Faux]]>
+		</InheritedModel>
+		<Code Id="105">
+			<![CDATA[CMB]]>
+		</Code>
+		<DefineRecipients Id="120">
+			<![CDATA[Faux]]>
+		</DefineRecipients>
+		<MainRecipientKindEnum Id="132">
+			<![CDATA[0]]>
+		</MainRecipientKindEnum>
+		<OtherRecipientKindsSet Id="133">
+			<![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]>
+		</OtherRecipientKindsSet>
+		<Name Id="3">
+			<![CDATA[Courrier mobilité bancaire]]>
+		</Name>
+		<MigrationDate Id="15">
+			<![CDATA[--/--/----]]>
+		</MigrationDate>
+		<NSId Id="1">
+			<![CDATA[318857179]]>
+		</NSId>
+		<Id Id="2">
+			<![CDATA[150]]>
+		</Id>
+		<Version Id="3">
+			<![CDATA[3]]>
+		</Version>
+	</aWF_RTF_FormModel>
+</EntityExport>

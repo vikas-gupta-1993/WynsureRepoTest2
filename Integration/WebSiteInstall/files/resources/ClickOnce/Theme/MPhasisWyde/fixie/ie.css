@@ -1,0 +1,7 @@
+.ui-buttonset .ui-button{
+	margin-right:-0.1em;
+}
+
+.ui-button-text{
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#dddddd')" ;
+}

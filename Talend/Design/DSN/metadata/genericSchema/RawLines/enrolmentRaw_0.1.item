@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_0N6CwhWlEeeio-VrOvxbwA" comment="connectionComment" label="connectionLabel" dataPackage="_0N6CwxWlEeeio-VrOvxbwA"/>
+  <TalendMetadata:GenericPackage xmi:id="_0N6CwxWlEeeio-VrOvxbwA" dataManager="_0N6CwhWlEeeio-VrOvxbwA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_0N6CxBWlEeeio-VrOvxbwA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CxRWlEeeio-VrOvxbwA" name="rubrique" id="1321" label="rubrique" length="3" talendType="id_Integer">
+        <initialValue xmi:id="_0N6CxhWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CxxWlEeeio-VrOvxbwA" name="value" id="1322" label="value" length="-1" talendType="id_String">
+        <initialValue xmi:id="_0N6CyBWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CyRWlEeeio-VrOvxbwA" name="compagnyID" id="1323" label="compagnyID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_0N6CyhWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CyxWlEeeio-VrOvxbwA" name="establishmentID" id="1324" label="establishmentID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_0N6CzBWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CzRWlEeeio-VrOvxbwA" name="personID" id="1325" label="personID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_0N6CzhWlEeeio-VrOvxbwA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6rc4cCAuEeeEBKt1qKE8vQ" name="contractID" label="contractID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0N6CzxWlEeeio-VrOvxbwA" name="enrolmentID" id="1326" label="enrolmentID" length="-1" talendType="id_Integer">
+        <initialValue xmi:id="_0N6C0BWlEeeio-VrOvxbwA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

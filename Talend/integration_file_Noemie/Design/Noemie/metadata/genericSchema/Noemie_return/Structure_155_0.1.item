@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_QwKRUBOXEeaPy8bJyYiSzw" comment="connectionComment" label="connectionLabel" dataPackage="_QwKRUROXEeaPy8bJyYiSzw"/>
+  <TalendMetadata:GenericPackage xmi:id="_QwKRUROXEeaPy8bJyYiSzw" dataManager="_QwKRUBOXEeaPy8bJyYiSzw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QwK4YBOXEeaPy8bJyYiSzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4YROXEeaPy8bJyYiSzw" name="Idntfr" id="265348" label="Idntfr" length="-1" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_QwK4YhOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4YxOXEeaPy8bJyYiSzw" name="Entity" id="265349" label="Entity" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_QwK4ZBOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4ZROXEeaPy8bJyYiSzw" name="Level" id="265350" label="Level" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_QwK4ZhOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4ZxOXEeaPy8bJyYiSzw" name="ASU_NAT" id="265351" label="ASU_NAT" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_QwK4aBOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4aROXEeaPy8bJyYiSzw" name="SIN_NUM" id="265352" label="SIN_NUM" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_QwK4ahOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4axOXEeaPy8bJyYiSzw" name="RCT_DRD" id="265353" label="RCT_DRD" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_QwK4bBOXEeaPy8bJyYiSzw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QwK4bROXEeaPy8bJyYiSzw" name="Idntfr_045" id="265354" label="Idntfr_045" length="-1" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_QwK4bhOXEeaPy8bJyYiSzw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,831 @@
+{
+	"description": "This example submits member enrollment data for GBP with single product",
+	"request": {
+		"enrollmentData": {
+			"className": "aSPLI_MemberEnrollment_Data",
+			"subscriberBuid": "{{PersonBUID}}",
+			"employee": {
+				"$ref": "#",
+				"className": "aSPLI_GetEmployee",
+				"searchEmployee": {
+					"buid": "{{employeeBUID}}",
+					"employeeId": "",
+					"personId": {
+						"buid": "",
+						"internalClientId": "",
+						"externalClientIdentifier": {
+							"externalClientId": "",
+							"thirdPartyID": ""
+						}
+					},
+					"legalEntityId": {
+						"buid": "",
+						"internalClientId": "",
+						"externalClientIdentifier": {
+							"externalClientId": "",
+							"thirdPartyID": ""
+						}
+					}
+				},
+				"createOrUpdateEmployee": null
+			},
+			"gBPId": {
+				"buid": "{{GBP_BUID}}"
+			},
+			"distributionUnitCode": "AA",
+			"subscriptionDate": "{{CurrentDate}}",
+			"signatureDate": "{{CurrentDate}}",
+			"choices": [
+				{
+					"className": "aSPLI_LifeInsuredChoices",
+					"options": [
+						{
+							"className": "aSPCB_SubscriptionChoiceOption",
+							"option": {
+								"className": "aSPCB_OfferedOption",
+								"name": "{{CoverageName}}",
+								"entityDescription": "",
+								"code": "{{CoverageCode}}"
+							},
+							"isChecked": true,
+							"isMandatory": true,
+							"effectiveDate": null,
+							"parentOptionCode": ""
+						}
+					],
+					"insured": {
+						"className": "aSPLI_InsuredWithRelation",
+						"clientId": {
+							"buid": "{{personBUID}}",
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": "DistRoot"
+							}
+						}
+					}
+				}
+			],
+			"useState": true,
+			"stateCode": {
+				"stateLabel": "",
+				"stateName": "AK",
+				"stateCode": "AK"
+			},
+			"stateCandidates": [
+			],
+			"additionalData": [
+				{
+					"className": "aSPCB_AdditionalData_ValueDescription",
+					"value": {
+						"className": "aSPCB_ClassificationValue",
+						"valueCode": "EX",
+						"fieldValue": "Executive",
+						"nameDescription": "Executive",
+						"fieldCode": "MC",
+						"fieldName": "Member Class",
+						"codeForPopulationClass": ""
+					}
+				},
+				{
+					"className": "aSPCB_AdditionalData_ValueDescription",
+					"value": {
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "JC",
+						"fieldName": "Job Classification",
+						"codeForPopulationClass": "",
+						"valueCode": "MS",
+						"fieldValue": "Monthly Salaried",
+						"nameDescription": "Monthly Salaried"
+					}
+				}
+			],
+			"insured": [
+				{
+					"className": "aSPLI_Insured_Data",
+					"insuredInformation": {
+						"className": "aSPLI_InsuredWithRelation",
+						"dependence_Deprecated5200": "cCoveredSubscriber",
+						"clientId": {
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": "DistRoot"
+							},
+							"buid": "{{PersonBUID}}"
+						}
+					},
+					"additionalData": [
+					],
+					"insured": {
+						"className": "aSPLI_GetPerson",
+						"searchPerson": {
+							"internalClientId": "",
+							"externalClientIdentifier": {
+								"externalClientId": "",
+								"thirdPartyID": "DistRoot"
+							},
+							"buid": "{{PersonBUID}}"
+						}
+					}
+				}
+			],
+			"coverages": [
+			],
+			"possibleInsured_Deprecated5200": [
+			],
+			"possibleRelationshipsToInsured": [
+			],
+			"productChoices": [
+			],
+			"products": [
+			],
+			"buid": ""
+		}
+	},
+	"response": {
+		"$ref": "#",
+		"className": "aSPLI_SubmittedMemberEnrollment_Out",
+		"buid": "",
+		"enrollmentData": {
+			"className": "aSPLI_MemberEnrollment_Data",
+			"buid": "",
+			"subscriberBuid": "318842770_27",
+			"employee": {
+				"className": "aSPLI_GetEmployee",
+				"searchEmployee": {
+					"buid": "318842723_21",
+					"employeeId": "",
+					"personId": {
+						"buid": "",
+						"internalClientId": "",
+						"externalClientIdentifier": {
+							"externalClientId": "",
+							"thirdPartyID": ""
+						}
+					},
+					"legalEntityId": {
+						"buid": "",
+						"internalClientId": "",
+						"externalClientIdentifier": {
+							"externalClientId": "",
+							"thirdPartyID": ""
+						}
+					}
+				},
+				"createOrUpdateEmployee": null
+			},
+			"gBPId": {
+				"buid": "318842620_2",
+				"internalPolicyIdentifier": {
+					"internalPolicyId": "",
+					"issuingCompanyCode": ""
+				},
+				"externalPolicyIdentifier": {
+					"externalPolicyId": "",
+					"thirdPartyID": ""
+				}
+			},
+			"distributionUnitCode": "AA",
+			"subscriptionDate": "2018-12-07",
+			"signatureDate": "2018-12-07",
+			"choices": [
+				{
+					"className": "aSPLI_LifeInsuredChoices",
+					"options": [
+						{
+							"className": "aSPCB_SubscriptionChoiceOption",
+							"option": {
+								"className": "aSPCB_OfferedOption",
+								"name": "Short Term Disability",
+								"entityDescription": "",
+								"code": "STDgd"
+							},
+							"isChecked": true,
+							"isMandatory": true,
+							"effectiveDate": null,
+							"parentOptionCode": ""
+						}
+					],
+					"insured": {
+						"className": "aSPLI_InsuredWithRelation",
+						"clientId": {
+							"buid": "318842770_27",
+							"internalClientId": "0000000027",
+							"externalClientIdentifier": {
+								"externalClientId": "0000000027WEX",
+								"thirdPartyID": "DistRoot"
+							}
+						},
+						"lastName": "Brown",
+						"firstName": "Jill",
+						"birthDate": "1986-07-23",
+						"sSN": "522737787",
+						"dependence_Deprecated5200": "cCoveredSubscriber",
+						"mainOwnerRelationshipToInsured": ""
+					}
+				}
+			],
+			"useState": true,
+			"stateCode": {
+				"stateName": "AK",
+				"stateCode": "AK",
+				"stateLabel": "Owner Residence State"
+			},
+			"stateCandidates": [
+				{
+					"stateName": "AK",
+					"stateCode": "AK"
+				},
+				{
+					"stateName": "AL",
+					"stateCode": "AL"
+				},
+				{
+					"stateName": "AR",
+					"stateCode": "AR"
+				},
+				{
+					"stateName": "AZ",
+					"stateCode": "AZ"
+				},
+				{
+					"stateName": "CA",
+					"stateCode": "CA"
+				},
+				{
+					"stateName": "CO",
+					"stateCode": "CO"
+				},
+				{
+					"stateName": "CT",
+					"stateCode": "CT"
+				},
+				{
+					"stateName": "DE",
+					"stateCode": "DE"
+				},
+				{
+					"stateName": "FL",
+					"stateCode": "FL"
+				},
+				{
+					"stateName": "GA",
+					"stateCode": "GA"
+				},
+				{
+					"stateName": "HI",
+					"stateCode": "HI"
+				},
+				{
+					"stateName": "IA",
+					"stateCode": "IA"
+				},
+				{
+					"stateName": "ID",
+					"stateCode": "ID"
+				},
+				{
+					"stateName": "IL",
+					"stateCode": "IL"
+				},
+				{
+					"stateName": "IN",
+					"stateCode": "IN"
+				},
+				{
+					"stateName": "KS",
+					"stateCode": "KS"
+				},
+				{
+					"stateName": "KY",
+					"stateCode": "KY"
+				},
+				{
+					"stateName": "LA",
+					"stateCode": "LA"
+				},
+				{
+					"stateName": "MA",
+					"stateCode": "MA"
+				},
+				{
+					"stateName": "MD",
+					"stateCode": "MD"
+				},
+				{
+					"stateName": "ME",
+					"stateCode": "ME"
+				},
+				{
+					"stateName": "MI",
+					"stateCode": "MI"
+				},
+				{
+					"stateName": "MN",
+					"stateCode": "MN"
+				},
+				{
+					"stateName": "MO",
+					"stateCode": "MO"
+				},
+				{
+					"stateName": "MS",
+					"stateCode": "MS"
+				},
+				{
+					"stateName": "MT",
+					"stateCode": "MT"
+				},
+				{
+					"stateName": "NC",
+					"stateCode": "NC"
+				},
+				{
+					"stateName": "ND",
+					"stateCode": "ND"
+				},
+				{
+					"stateName": "NE",
+					"stateCode": "NE"
+				},
+				{
+					"stateName": "NH",
+					"stateCode": "NH"
+				},
+				{
+					"stateName": "NJ",
+					"stateCode": "NJ"
+				},
+				{
+					"stateName": "NM",
+					"stateCode": "NM"
+				},
+				{
+					"stateName": "NV",
+					"stateCode": "NV"
+				},
+				{
+					"stateName": "NY",
+					"stateCode": "NY"
+				},
+				{
+					"stateName": "OH",
+					"stateCode": "OH"
+				},
+				{
+					"stateName": "OK",
+					"stateCode": "OK"
+				},
+				{
+					"stateName": "OR",
+					"stateCode": "OR"
+				},
+				{
+					"stateName": "PA",
+					"stateCode": "PA"
+				},
+				{
+					"stateName": "RI",
+					"stateCode": "RI"
+				},
+				{
+					"stateName": "SC",
+					"stateCode": "SC"
+				},
+				{
+					"stateName": "SD",
+					"stateCode": "SD"
+				},
+				{
+					"stateName": "TN",
+					"stateCode": "TN"
+				},
+				{
+					"stateName": "TX",
+					"stateCode": "TX"
+				},
+				{
+					"stateName": "UT",
+					"stateCode": "UT"
+				},
+				{
+					"stateName": "VA",
+					"stateCode": "VA"
+				},
+				{
+					"stateName": "VT",
+					"stateCode": "VT"
+				},
+				{
+					"stateName": "WA",
+					"stateCode": "WA"
+				},
+				{
+					"stateName": "WI",
+					"stateCode": "WI"
+				},
+				{
+					"stateName": "WV",
+					"stateCode": "WV"
+				},
+				{
+					"stateName": "WY",
+					"stateCode": "WY"
+				},
+				{
+					"stateName": "AS",
+					"stateCode": "AS"
+				},
+				{
+					"stateName": "DC",
+					"stateCode": "DC"
+				},
+				{
+					"stateName": "FM",
+					"stateCode": "FM"
+				},
+				{
+					"stateName": "GU",
+					"stateCode": "GU"
+				},
+				{
+					"stateName": "MH",
+					"stateCode": "MH"
+				},
+				{
+					"stateName": "MP",
+					"stateCode": "MP"
+				},
+				{
+					"stateName": "PW",
+					"stateCode": "PW"
+				},
+				{
+					"stateName": "PR",
+					"stateCode": "PR"
+				},
+				{
+					"stateName": "VI",
+					"stateCode": "VI"
+				}
+			],
+			"additionalData": [
+				{
+					"className": "aSPCB_AdditionalData_ValueDescription",
+					"value": {
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "MC",
+						"fieldName": "Member Class",
+						"codeForPopulationClass": "",
+						"valueCode": "EX",
+						"fieldValue": "Executive",
+						"nameDescription": "Executive"
+					},
+					"description": {
+						"className": "aSPCB_Classification",
+						"fieldCode": "MC",
+						"fieldName": "Member Class",
+						"codeForPopulationClass": "",
+						"useDefaultValue": false,
+						"isCalculated": false,
+						"possibleValues": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "MC",
+								"fieldName": "Member Class",
+								"codeForPopulationClass": "",
+								"valueCode": "EX",
+								"fieldValue": "Executive",
+								"nameDescription": "Executive"
+							},
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "MC",
+								"fieldName": "Member Class",
+								"codeForPopulationClass": "",
+								"valueCode": "NEX",
+								"fieldValue": "Non executive",
+								"nameDescription": "Non executive"
+							}
+						],
+						"defaultValue": null
+					},
+					"visibility": "cVis_Quote",
+					"mandatoryLevel": "cVis_Quote",
+					"positionOrderX": 0,
+					"positionOrderY": 0,
+					"visibilityRule": ""
+				},
+				{
+					"className": "aSPCB_AdditionalData_ValueDescription",
+					"value": {
+						"className": "aSPCB_ClassificationValue",
+						"fieldCode": "JC",
+						"fieldName": "Job Classification",
+						"codeForPopulationClass": "",
+						"valueCode": "MS",
+						"fieldValue": "Monthly Salaried",
+						"nameDescription": "Monthly Salaried"
+					},
+					"description": {
+						"className": "aSPCB_Classification",
+						"fieldCode": "JC",
+						"fieldName": "Job Classification",
+						"codeForPopulationClass": "",
+						"useDefaultValue": false,
+						"isCalculated": false,
+						"possibleValues": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "JC",
+								"fieldName": "Job Classification",
+								"codeForPopulationClass": "",
+								"valueCode": "MS",
+								"fieldValue": "Monthly Salaried",
+								"nameDescription": "Monthly Salaried"
+							},
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "JC",
+								"fieldName": "Job Classification",
+								"codeForPopulationClass": "",
+								"valueCode": "BS",
+								"fieldValue": "Biweekly Salaried",
+								"nameDescription": "Biweekly Salaried"
+							},
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "JC",
+								"fieldName": "Job Classification",
+								"codeForPopulationClass": "",
+								"valueCode": "HS",
+								"fieldValue": "Hourly Salaried",
+								"nameDescription": "Hourly Salaried"
+							}
+						],
+						"defaultValue": null
+					},
+					"visibility": "cVis_Quote",
+					"mandatoryLevel": "cNot_Mandatory",
+					"positionOrderX": 1,
+					"positionOrderY": 1,
+					"visibilityRule": ""
+				}
+			],
+			"insured": [
+				{
+					"className": "aSPLI_Insured_Data",
+					"insuredInformation": {
+						"className": "aSPLI_InsuredWithRelation",
+						"clientId": {
+							"buid": "318842770_27",
+							"internalClientId": "0000000027",
+							"externalClientIdentifier": {
+								"externalClientId": "0000000027WEX",
+								"thirdPartyID": "DistRoot"
+							}
+						},
+						"lastName": "Brown",
+						"firstName": "Jill",
+						"birthDate": "1986-07-23",
+						"sSN": "522737787",
+						"dependence_Deprecated5200": "cCoveredSubscriber",
+						"mainOwnerRelationshipToInsured": ""
+					},
+					"additionalData": [
+						{
+							"className": "aSPCB_AdditionalData_ValueDescription",
+							"value": {
+								"className": "aSPCB_AdditionalDataValue_Boolean",
+								"fieldCode": "PREEX312",
+								"fieldName": "Does the Insured have Pre-existing Condition 3/12?",
+								"codeForPopulationClass": "",
+								"fieldValue": false
+							},
+							"description": {
+								"className": "aSPCB_AdditionalData_Desc_Boolean",
+								"fieldCode": "PREEX312",
+								"fieldName": "Does the Insured have Pre-existing Condition 3/12?",
+								"codeForPopulationClass": "",
+								"useDefaultValue": true,
+								"isCalculated": false,
+								"defaultValue": false
+							},
+							"visibility": "cVis_Quote",
+							"mandatoryLevel": "cNot_Mandatory",
+							"positionOrderX": 1,
+							"positionOrderY": 1,
+							"visibilityRule": ""
+						}
+					],
+					"insured": {
+						"className": "aSPLI_GetPerson",
+						"searchPerson": {
+							"buid": "318842770_27",
+							"internalClientId": "0000000027",
+							"externalClientIdentifier": {
+								"externalClientId": "0000000027WEX",
+								"thirdPartyID": "DistRoot"
+							}
+						},
+						"createOrUpdatePerson": null
+					},
+					"relationshipsToInsured": ""
+				}
+			],
+			"contractContacts": [
+			],
+			"preferredPolicyContacts": [
+			],
+			"coverages": [
+				{
+					"className": "aSPLI_LifeCoverage_Data",
+					"additionalData": [
+						{
+							"className": "aSPCB_AdditionalData_ValueDescription",
+							"value": {
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "PlanDesign",
+								"fieldName": "Plan Design",
+								"codeForPopulationClass": "",
+								"valueCode": "P1",
+								"fieldValue": "Plan 1",
+								"nameDescription": "Plan 1"
+							},
+							"description": {
+								"className": "aSPCB_Classification",
+								"fieldCode": "PlanDesign",
+								"fieldName": "Plan Design",
+								"codeForPopulationClass": "",
+								"useDefaultValue": false,
+								"isCalculated": false,
+								"possibleValues": [
+									{
+										"className": "aSPCB_ClassificationValue",
+										"fieldCode": "PlanDesign",
+										"fieldName": "Plan Design",
+										"codeForPopulationClass": "",
+										"valueCode": "P1",
+										"fieldValue": "Plan 1",
+										"nameDescription": "Plan 1"
+									}
+								],
+								"defaultValue": null
+							},
+							"visibility": "cVis_Quote",
+							"mandatoryLevel": "cVis_Quote",
+							"positionOrderX": 0,
+							"positionOrderY": 0,
+							"visibilityRule": ""
+						}
+					],
+					"underwritingNeeded": false,
+					"premium": {
+						"amount": 0.00,
+						"currency": "cUSDollar"
+					},
+					"premiumHt": {
+						"amount": 0.00,
+						"currency": "cUSDollar"
+					},
+					"frequency": "fAnnually",
+					"coverageAmount": {
+						"amount": 0.00,
+						"currency": "cUSDollar"
+					},
+					"coverageAmountDescriptor": {
+						"className": "aSPLI_CoverageAmount_Info",
+						"definedAtSubscription": true,
+						"flatMinimumAmountIsUsed": false,
+						"minimumAmount": {
+							"amount": 0.00,
+							"currency": "cUSDollar"
+						},
+						"flatMaximumAmountIsUsed": false,
+						"maximumAmount": {
+							"amount": 0.00,
+							"currency": "cUSDollar"
+						},
+						"defaultAmount": {
+							"amount": 14482.40,
+							"currency": "cUSDollar"
+						},
+						"amountIsFree": false,
+						"possibleAmounts": [
+							{
+								"amount": 14482.40,
+								"currency": "cUSDollar"
+							}
+						],
+						"requestedAmount": {
+							"amount": 14482.40,
+							"currency": "cUSDollar"
+						}
+					},
+					"isMultiInsured": false,
+					"insured": [
+						{
+							"className": "aSPLI_Insured_Data",
+							"insuredInformation": {
+								"className": "aSPLI_InsuredWithRelation",
+								"clientId": {
+									"buid": "318842770_27",
+									"internalClientId": "0000000027",
+									"externalClientIdentifier": {
+										"externalClientId": "0000000027WEX",
+										"thirdPartyID": "DistRoot"
+									}
+								},
+								"lastName": "Brown",
+								"firstName": "Jill",
+								"birthDate": "1986-07-23",
+								"sSN": "522737787",
+								"dependence_Deprecated5200": "cCoveredSubscriber",
+								"mainOwnerRelationshipToInsured": ""
+							},
+							"additionalData": [
+							],
+							"insured": {
+								"className": "aSPLI_GetPerson",
+								"searchPerson": {
+									"buid": "318842770_27",
+									"internalClientId": "0000000027",
+									"externalClientIdentifier": {
+										"externalClientId": "0000000027WEX",
+										"thirdPartyID": "DistRoot"
+									}
+								},
+								"createOrUpdatePerson": null
+							},
+							"relationshipsToInsured": ""
+						}
+					],
+					"useBeneficiaries": false,
+					"coverage": {
+						"className": "aSPLI_IndividualLifeCoverage",
+						"creationDate": "2018-12-07",
+						"subscribedPackage": "",
+						"optionCode": "STDgd",
+						"optionName": "Short Term Disability",
+						"effectiveDate": "2018-12-07",
+						"subscriptionDate": "2018-12-07",
+						"terminationDate": null,
+						"terminationReason": "",
+						"terminationNumber": 0,
+						"billingServiceName": "",
+						"status": "cProject",
+						"additionalDatas": [
+							{
+								"className": "aSPCB_ClassificationValue",
+								"fieldCode": "PlanDesign",
+								"fieldName": "Plan Design",
+								"codeForPopulationClass": "",
+								"valueCode": "P1",
+								"fieldValue": "Plan 1",
+								"nameDescription": "Plan 1"
+							}
+						],
+						"grandFathered": false
+					}
+				}
+			],
+			"possibleInsured_Deprecated5200": [
+			],
+			"possibleRelationshipsToInsured": [
+				"AD",
+				"CH",
+				"DE",
+				"OT",
+				"PA",
+				"SP"
+			],
+			"productChoices": [
+			],
+			"products": [
+			]
+		},
+		"billingServices": [
+			{
+				"className": "aSPLI_GetGBPBillingService_Out",
+				"buid": "318843541_1",
+				"name": "B_0(List Billing)",
+				"isDirectBilling": false,
+				"billingModes": [
+				]
+			}
+		],
+		"requestedDocumentDescs": [
+		],
+		"billingMode": null,
+		"invoiceChannel": null,
+		"beneficiaries": null
+	},
+	"eval": null,
+	"className": "aSLI_Manage_GBPMember",
+	"methodName": "SubmitEnrollmentData",
+	"version": "5.8.3.0",
+	"date": "2018-12-07",
+	"errors": [
+	]
+}

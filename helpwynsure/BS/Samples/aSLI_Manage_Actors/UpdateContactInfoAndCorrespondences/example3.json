@@ -1,0 +1,41 @@
+{
+	"description": "Address is mandatory ",
+	"request": {
+		"myParam": {
+			"className": "aSPLI_ContactInfoAndAddressChange_In",
+			"effectiveDate": "1900-01-01",
+			"myNewAddress": null,
+			"myNewCorrespondence": null,
+			"buid": ""
+		}
+	},
+	"response": {
+		"error": {
+			"code": "CONFLICT",
+			"message": "",
+			"innererror": {
+				"className": "aSF_Exception",
+				"detailsFromException": {
+					"error": {
+						"errorCode": "WF-M0001",
+						"errorKind": "bsErrMandatory",
+						"errorMessage": "myNewAddress"
+					}
+				}
+			}
+		}
+	},
+	"eval": null,
+	"className": "aSLI_Manage_Actors",
+	"methodName": "UpdateContactInfoAndCorrespondences",
+	"version": "5.8.2.2",
+	"date": "2018-11-19",
+	"errors": [
+		{
+			"code": "WF-M0001",
+			"message": "myNewAddress",
+			"kind": "Mandatory",
+			"kindNumber": 1
+		}
+	]
+}

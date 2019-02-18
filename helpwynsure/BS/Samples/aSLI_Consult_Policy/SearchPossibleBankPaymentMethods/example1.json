@@ -1,0 +1,20 @@
+{
+	"description":"",
+	"request":{
+		"objectBuid":"318851264_21",
+		"channelBuid":""
+	},
+	"response":[
+	],
+	"className":"aSLI_Consult_Policy",
+	"methodName":"SearchPossibleBankPaymentMethods",
+	"version":"5.7.3.0",
+	"duration":2,
+	"date":"2017-10-18",
+	"user":"Nicolas",
+	"errors":[
+	],
+	"possibleErrorsStack":{
+		"sFBService\/BuidAsObject":true
+	}
+}

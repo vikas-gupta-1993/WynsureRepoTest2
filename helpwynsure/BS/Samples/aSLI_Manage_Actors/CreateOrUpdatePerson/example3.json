@@ -1,0 +1,129 @@
+{
+	"description":"Updating the blank address with address",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Actors"
+		},
+		"input":{
+			"className":"aSPLI_CreateOrUpdatePerson_Data",
+			"personIdentity":{
+				"className":"aSPLI_Person",
+				"personTitleEnum":"",
+				"priorName":"",
+				"middleName1":"",
+				"middleName2":"",
+				"nameSuffix":"",
+				"gender":"gMale",
+				"attachedToAnOtherSSN":false,
+				"nationality":"USA",
+				"birthRank":1,
+				"birthCountry":"USA",
+				"birthPlaceCity":"Orlando",
+				"birthPlaceZipCode":"32810",
+				"birthPlaceState":"",
+				"legalRepresentativeId_Deprecated5200":{
+					"internalClientId":"",
+					"externalClientIdentifier":{
+						"externalClientId":"",
+						"thirdPartyID":""
+					},
+					"buid":""
+				},
+				"occupation":"",
+				"additionalDatas":[
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"NIE",
+						"fieldValue":"Is Not Internal Employee",
+						"nameDescription":"Is Not Internal Employee",
+						"fieldCode":"1",
+						"fieldName":"Internal Employee",
+						"codeForPopulationClass":""
+					},
+					{
+						"className":"aSPCB_ClassificationValue",
+						"valueCode":"Is not VIP",
+						"fieldValue":"Is not VIP",
+						"nameDescription":"Is not VIP",
+						"fieldCode":"2",
+						"fieldName":"VIP",
+						"codeForPopulationClass":""
+					}
+				],
+				"oldSSN":"",
+				"oldLastName":"",
+				"oldFirstname":"",
+				"oldDOB":null,
+				"birthDate":"1990-10-10",
+				"delinquent":false,
+				"underSurveillance":false,
+				"isAnonymous":false,
+				"name":"Sohel",
+				"shortName":"Shaikh",
+				"creationDate":"2017-12-06",
+				"preferredLanguageCode":"En",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"legalRepresentative":null,
+			"claimDisbursementChannel":[
+			],
+			"clientId":{
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				},
+				"buid":"318842996_4"
+			},
+			"thirdPartyID":"DistRoot",
+			"updateDate":"2017-12-06",
+			"correspondences":[
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"1960-06-21",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"FL",
+						"line1":"710 Linden Avenue",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"32810",
+							"city":"Orlando"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"(407) 580-2620",
+					"privatePhoneExtension":"",
+					"officePhone":"",
+					"officePhoneExtension":"",
+					"cellPhone":"(407) 580-2620",
+					"fax":"",
+					"eMail":"robert.blake@fnhjn.com",
+					"mediaType":"Mail"
+				}
+			],
+			"paymentMethods":[
+			],
+			"contactInformations":[
+			],
+			"loginInformation":null
+		}
+	},
+	"response":{
+		"internalClientId":"0000000003",
+		"externalClientIdentifier":{
+			"externalClientId":"",
+			"thirdPartyID":"DistRoot"
+		},
+		"buid":"318842996_4"
+	},
+	"className":"aSLI_Manage_Actors",
+	"methodName":"CreateOrUpdatePerson",
+	"version":"5.7.3.0",
+	"date":"2017-12-06",
+	"errors":[
+	]
+}

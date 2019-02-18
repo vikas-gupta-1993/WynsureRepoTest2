@@ -1,0 +1,52 @@
+ADM;Administrator
+AM;Accounting Manager
+AS;Accounting Specialist
+CDS2;Claim Declaration Specialist - Level 2
+CDS;Claim Declaration Specialist - Level 1
+CM;Claim Manager
+CP;Claim Payer
+CS;Commission Specialist
+CSM;Customer Service Manager
+CSS;Customer Service Specialist
+EEM;Employee Enrollment Manager
+EES;Employee Enrollment Specialist
+GCM;Group Manager
+GCS;Group Specialist
+GQS;Group Quote Setup Specialist
+GS;Claim Specialist
+GUA;Group Underwriter Adjustment
+GU;Group Underwriter
+GUSFRO;Group Underwriter Senior Final Rate Override
+GUS;Group Underwriter Senior
+HCCS;Health Care Claim Specialist
+IPM;Individual Policy Maintenance Specialist
+IPMM2;Individual Policy Maintenance Manager
+IPQS;Individual Policy Quote Setup Specialist
+IPS;Individual Policy Setup Specialist
+IPSM;Individual Policy Setup Manager
+IS;Imaging Specialist
+LEPS;Legal Entity Policy Setup Specialist
+LEPSM;Legal Entity Policy Setup Manager
+LEQS;Legal Entity Policy Quote Setup Specialist
+MCT;Manager Commission team
+MD;Medical Director
+PIS;Policy Issuance Specialist
+PS;Billing Specialist
+PSS;Product Specialist
+P_CS;P and C Specialist
+PCSU;P and C Senior Underwriter
+PCU;P and C Junior Underwriter
+QAM;Quality Review Manager
+QAS;Quality Review
+RES;Requirement Sevicing
+RS;Reinsurance Specialist
+SA;Super admin
+SM;Super manager
+UJ;Underwriter Junior
+US;Underwriter Senior
+U;Underwriter
+WA;wPortal Wynsure
+WB;wPortal Broker
+WC;wPortal Individual Client
+WGA;wPortal Group Admin
+WLEC;wPortal Legal Entity Client

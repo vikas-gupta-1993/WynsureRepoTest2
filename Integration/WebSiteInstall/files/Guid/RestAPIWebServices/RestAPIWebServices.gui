@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<gui display="RestAPI Web Services">
+	<intro height="50">
+		<h3 align="center">RestAPI Web Services Install</h3>
+	</intro>
+	<command display="Install for eWam 32 bit">install_RestAPIWebServices.bat Win32 {IIS_PORT_RESTAPI} {WSM_PORT_RESTAPI} {USER_NAME}</command>
+	<command display="Install for eWam 64 bit">install_RestAPIWebServices.bat x64 {IIS_PORT_RESTAPI} {WSM_PORT_RESTAPI} {USER_NAME}</command>
+	<arg type="text" id="IIS_PORT_RESTAPI" display="IIS Port (default: 54400)">54400</arg>
+	<arg type="text" id="WSM_PORT_RESTAPI" display="Wyseman Port (default: 54500)">54500</arg>
+	<arg type="text" id="USER_NAME" display="Your first name"></arg>
+</gui>

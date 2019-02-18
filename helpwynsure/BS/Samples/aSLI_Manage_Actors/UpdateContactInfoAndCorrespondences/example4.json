@@ -1,0 +1,42 @@
+{
+	"description": "Update contact info and address",
+	"request": {
+		"myParam": {
+			"className": "aSPLI_ContactInfoAndAddressChange_In",
+			"effectiveDate": "{{currentDAte}}",
+			"myNewAddress": {
+				"className": "aSPCB_US_PostalAddress",
+				"line1": "3670 HILL STREET",
+				"line2": "Line 2",
+				"zipCodeAndCity": {
+					"zipCode": "43609",
+					"city": "Toledo"
+				},
+				"country": "USA",
+				"district": "",
+				"state": "OH",
+				"county": "",
+				"fIPSCode": 0
+			},
+			"myNewCorrespondence": {
+				"className": "aSPCB_Correspondence",
+				"privatePhone": "(419) 803-5094",
+				"privatePhoneExtension": "",
+				"officePhone": "",
+				"officePhoneExtension": "",
+				"cellPhone": "(419) 803-5095",
+				"fax": "",
+				"eMail": "beverly.williams@free.com"
+			},
+			"buid": "318842869_25"
+		}
+	},
+	"response": null,
+	"eval": null,
+	"className": "aSLI_Manage_Actors",
+	"methodName": "UpdateContactInfoAndCorrespondences",
+	"version": "5.8.2.2",
+	"date": "2018-11-19",
+	"errors": [
+	]
+}

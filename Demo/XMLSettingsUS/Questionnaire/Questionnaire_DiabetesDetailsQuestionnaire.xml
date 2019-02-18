@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWFQuestionnaireDesc><Title Id="9"><![CDATA[Details]]></Title><Content Id="2"><![CDATA[<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Questionnaire>
+   <Field Kind="Date">
+      <Id>Q1</Id>
+      <Title>
+         <Value>1. When was the diabetes first diagnosed?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value></Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>Q2</Id>
+      <Title>
+         <Value>2. Did you attend a diabetic clinic?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Text">
+      <Id>Q2a</Id>
+      <Title>
+         <Value>(a) Name and address of clinic</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q2 = Yes</VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>Under Title On Left</Presentor>
+         <Value>
+<![CDATA[]]]]><![CDATA[>         </Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Date">
+      <Id>Q2b</Id>
+      <Title>
+         <Value>(b) Date of last attendance</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q2 = Yes</VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value></Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>Q3</Id>
+      <Title>
+         <Value>3. Are you now haveing oral drug treatment?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Cstring">
+      <Id>Q3a</Id>
+      <Title>
+         <Value>Give name of drug</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q3 = Yes</VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value></Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>Q4</Id>
+      <Title>
+         <Value>4. Are you now taking insulin?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>Q5</Id>
+      <Title>
+         <Value>5. Has you intake of insulin or oral drugs varied the last 2 years?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Cstring">
+      <Id>Q5a</Id>
+      <Title>
+         <Value>Give details</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q5 = Yes</VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>Under Title On Left</Presentor>
+         <Value></Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Boolean">
+      <Id>Q6</Id>
+      <Title>
+         <Value>6. Are you able to give your last two HbAlC results?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>Yes</Value>
+      </ValueInformation>
+   </Field>
+   <Record>
+      <Title>
+         <Value>Give dates and results of your last two HbAIC (glycated haemoglobin)</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName></FontName>
+            <FontSize>0</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q6 = Yes</VisibilityRule>
+      <Record>
+         <Title>
+            <Value>1st</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName></FontName>
+               <FontSize>0</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <Line>
+            <VisibilityRule></VisibilityRule>
+            <Field Kind="Date">
+               <Id>Q61d</Id>
+               <Title>
+                  <Value>Date</Value>
+                  <Presentor>Title Auto</Presentor>
+                  <Font>
+                     <FontName>MS Sans Serif</FontName>
+                     <FontSize>8</FontSize>
+                     <FontSels></FontSels>
+                  </Font>
+               </Title>
+               <VisibilityRule></VisibilityRule>
+               <ValueInformation>
+                  <IsMandatory>No</IsMandatory>
+                  <Presentor>In Line</Presentor>
+                  <Value></Value>
+               </ValueInformation>
+            </Field>
+            <Field Kind="Cstring">
+               <Id>Q61r</Id>
+               <Title>
+                  <Value>Result</Value>
+                  <Presentor>Title Auto</Presentor>
+                  <Font>
+                     <FontName>MS Sans Serif</FontName>
+                     <FontSize>8</FontSize>
+                     <FontSels></FontSels>
+                  </Font>
+               </Title>
+               <VisibilityRule></VisibilityRule>
+               <ValueInformation>
+                  <IsMandatory>No</IsMandatory>
+                  <Presentor>In Line</Presentor>
+                  <Value></Value>
+               </ValueInformation>
+            </Field>
+         </Line>
+         <PresentorKind>Expendable Group</PresentorKind>
+      </Record>
+      <Record>
+         <Title>
+            <Value>2nd</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName></FontName>
+               <FontSize>0</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <Line>
+            <VisibilityRule></VisibilityRule>
+            <Field Kind="Date">
+               <Id>Q62d</Id>
+               <Title>
+                  <Value>Date</Value>
+                  <Presentor>Title Auto</Presentor>
+                  <Font>
+                     <FontName>MS Sans Serif</FontName>
+                     <FontSize>8</FontSize>
+                     <FontSels></FontSels>
+                  </Font>
+               </Title>
+               <VisibilityRule></VisibilityRule>
+               <ValueInformation>
+                  <IsMandatory>No</IsMandatory>
+                  <Presentor>In Line</Presentor>
+                  <Value></Value>
+               </ValueInformation>
+            </Field>
+            <Field Kind="Cstring">
+               <Id>Q62r</Id>
+               <Title>
+                  <Value>Result</Value>
+                  <Presentor>Title Auto</Presentor>
+                  <Font>
+                     <FontName>MS Sans Serif</FontName>
+                     <FontSize>8</FontSize>
+                     <FontSels></FontSels>
+                  </Font>
+               </Title>
+               <VisibilityRule></VisibilityRule>
+               <ValueInformation>
+                  <IsMandatory>No</IsMandatory>
+                  <Presentor>In Line</Presentor>
+                  <Value></Value>
+               </ValueInformation>
+            </Field>
+         </Line>
+         <PresentorKind>Expendable Group</PresentorKind>
+      </Record>
+      <PresentorKind>Group Box</PresentorKind>
+   </Record>
+   <Record>
+      <Title>
+         <Value>7. How often do you test your blood or urine for glucose?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName></FontName>
+            <FontSize>0</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q6 = No</VisibilityRule>
+      <Field Kind="Enumerator">
+         <Id>Q7a</Id>
+         <Title>
+            <Value>(a) average pre breakfast bllod glucose</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>Less than 8</Value>
+            <PossibleValues>
+               <Value>Less than 8</Value>
+               <Value>8.1 - 9</Value>
+               <Value>9.1 - 11</Value>
+               <Value>11.1 or more</Value>
+            </PossibleValues>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Enumerator">
+         <Id>Q7b</Id>
+         <Title>
+            <Value>(b) urine</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>Glucose negative</Value>
+            <PossibleValues>
+               <Value>Glucose negative</Value>
+               <Value>Glucose +</Value>
+               <Value>Glucose ++</Value>
+               <Value>Glucose +++ or more</Value>
+            </PossibleValues>
+         </ValueInformation>
+      </Field>
+      <Separator>
+         <Title>
+            <Value>If you do not routinely test your urine, please ignore Question 7.b.</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels>Italic</FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <PresentorKind>Title Separator</PresentorKind>
+      </Separator>
+      <PresentorKind>Group Box</PresentorKind>
+   </Record>
+   <Field Kind="Boolean">
+      <Id>Q8</Id>
+      <Title>
+         <Value>8. Since your treatment began, have you ever had a diabetic (hyperglycaemic) or insulin (hypoglycaemic) coma requiring the assistance of another person, hospital admission or intravenous glucose?</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>In Line</Presentor>
+         <Value>No</Value>
+      </ValueInformation>
+   </Field>
+   <Field Kind="Text">
+      <Id>Q8a</Id>
+      <Title>
+         <Value>Give details including dates</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName>MS Sans Serif</FontName>
+            <FontSize>8</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule>Q8 = Yes</VisibilityRule>
+      <ValueInformation>
+         <IsMandatory>No</IsMandatory>
+         <Presentor>Under Title On Left</Presentor>
+         <Value>
+<![CDATA[]]]]><![CDATA[>         </Value>
+      </ValueInformation>
+   </Field>
+   <Record>
+      <Title>
+         <Value>9. Have you ever had:</Value>
+         <Presentor>Title Auto</Presentor>
+         <Font>
+            <FontName></FontName>
+            <FontSize>0</FontSize>
+            <FontSels></FontSels>
+         </Font>
+      </Title>
+      <VisibilityRule></VisibilityRule>
+      <Field Kind="Boolean">
+         <Id>Q9a</Id>
+         <Title>
+            <Value>(a) problem with your eyes</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>No</Value>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Boolean">
+         <Id>Q9b</Id>
+         <Title>
+            <Value>(b) high blood pressure</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>No</Value>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Boolean">
+         <Id>Q9c</Id>
+         <Title>
+            <Value>(c) heart or circulatory trouble</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>No</Value>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Boolean">
+         <Id>Q9d</Id>
+         <Title>
+            <Value>(d) albumin or protein in your urine</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>No</Value>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Boolean">
+         <Id>Q9e</Id>
+         <Title>
+            <Value>(e) numbness or tingling in your feet or legs</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>In Line</Presentor>
+            <Value>No</Value>
+         </ValueInformation>
+      </Field>
+      <Field Kind="Text">
+         <Id>Q9details</Id>
+         <Title>
+            <Value>If yes, please give details</Value>
+            <Presentor>Title Auto</Presentor>
+            <Font>
+               <FontName>MS Sans Serif</FontName>
+               <FontSize>8</FontSize>
+               <FontSels></FontSels>
+            </Font>
+         </Title>
+         <VisibilityRule></VisibilityRule>
+         <ValueInformation>
+            <IsMandatory>No</IsMandatory>
+            <Presentor>Under Title On Left</Presentor>
+            <Value>
+<![CDATA[]]]]><![CDATA[>            </Value>
+         </ValueInformation>
+      </Field>
+      <PresentorKind>Group Box</PresentorKind>
+   </Record>
+</Questionnaire>
+]]></Content><Code Id="5"><![CDATA[DDQ]]></Code><Name Id="3"><![CDATA[Diabetes Details Questionnaire]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774507]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[12]]></Version></aWFQuestionnaireDesc></EntityExport>

@@ -1,0 +1,111 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"$ref":"#",
+			"className":"aSPLI_ProductsForNormalQuote_In",
+			"distributionUnitCode":"AA",
+			"subscriptionDate":"{{currentDate}}",
+			"productAvailabilities":[
+			],
+			"subscriber":{
+				"buid":"318842906_25",
+				"internalClientId":"",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":""
+				}
+			}
+		},
+		"productCode":{
+			"buid":"",
+			"productIdentifier":{
+				"issuingCompanyCode":"WIC",
+				"productCode":"GLADD_GBP"
+			}
+		}
+	},
+	"response":{
+		"$ref":"#",
+		"className":"aSPLI_ProductAndAuthorization",
+		"productWithOptions":{
+			"className":"aSPCB_ProductWithOptions_Out",
+			"buid":"",
+			"productCode":{
+				"buid":"318842720_3",
+				"productIdentifier":{
+					"issuingCompanyCode":"WIC",
+					"productCode":"GLADD_GBP"
+				}
+			},
+			"product":{
+				"className":"aSPLI_GroupBenefitPlanProduct",
+				"name":"Group Life GBP",
+				"entityDescription":"Within a GBP contract, only coverage from one GBP Model can be chosen, and it is not possible to customize rules.",
+				"productFamily":"Life",
+				"productAvailabilities":[
+					"Available on wPortal"
+				],
+				"isMultiOwner":false,
+				"subscribedBy":"cWFSubscribedByLegalEntity",
+				"productIsForGroup":true,
+				"onlyPredefinedMemberProduct":true,
+				"customizationPossible":false,
+				"stateDefinition":"cSitusState",
+				"individualCompensation":false,
+				"automaticallyUpdateFromGBPModelChanges":true,
+				"employeeClassCustomizationAtSubscription":true
+			},
+			"isMultiInsured":false,
+			"options":[
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Employee Term Life",
+					"entityDescription":"Basic Group Term Life coverage provides a basic level of life insurance, often paid for by the employer. ",
+					"code":"EGTL"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Spouse Term Life",
+					"entityDescription":"Basic Group Term Life coverage provides a basic level of life insurance, often paid for by the employer. ",
+					"code":"SGTL"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Child Term Life",
+					"entityDescription":"",
+					"code":"CTL"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Employee Accidental Death & Dismemberment",
+					"entityDescription":"Accidental Death and Dismemberment (AD&D) provides funds in the event of a fatal accident for an accident that results in the loss of a limb or eyesight.\r\n\r\nThis benefit is paid out as an annuity. A lump sum amount can also be paid out to cover Funeral cost.",
+					"code":"EADD"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Spouse Accidental Death & Dismemberment",
+					"entityDescription":"Accidental Death and Dismemberment (AD&D) provides funds in the event of a fatal accident for an accident that results in the loss of a limb or eyesight.\r\n\r\nThis benefit is paid out as an annuity. A lump sum amount can also be paid out to cover Funeral cost.",
+					"code":"SADD"
+				},
+				{
+					"className":"aSPCB_OfferedOption",
+					"name":"Gunshot Wound Benefit",
+					"entityDescription":"",
+					"code":"GUNSHOT"
+				}
+			]
+		},
+		"loggedUserIsAuthorizedToCreateQuote":true,
+		"loggedUserIsAuthorizedToCreatePolicy":true,
+		"isEligible":true,
+		"subscriberType":"tpli_Group"
+	},
+	"eval":null,
+	"className":"aSLI_Subscribe_Policy",
+	"methodName":"GetGroupProductForQuote",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

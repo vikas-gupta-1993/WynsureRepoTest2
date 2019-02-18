@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<EntityExport><aWLI_StateProvision><States Id="1"><![CDATA[Undefined,AK,AL,AR,AZ,CA,CO,CT,DE,FL,GA,HI,IA,ID,IL,IN,KS,KY,LA,MA,MD,ME,MI,MN,MO,MS,MT,NC,ND,NE,NH,NJ,NM,NV,NY,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VA,VT,WA,WI,WV,WY,AS,DC,FM,GU,MH,MP,PW,PR,VI]]></States><Clausetype Id="1"><![CDATA[General provision]]></Clausetype><Code Id="1"><![CDATA[PROV_006]]></Code><content Id="4"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil Arial;}{\f1\fnil\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}{\f3\fnil MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang0\f0\fs20 If this Policy ends (lapses) because a premium due for it was not paid, You can reinstate the Base Policy so that it provides insurance again as if it had never lapsed. To reinstate the Base Policy, You must: \par
+\pard\fi-195\li195\lang1036\f1 -\lang1024\f2  \lang0\f0 request such reinstatement within five years following the date this Policy lapsed;\par
+\lang1036\f1 - \lang0\f0 pay all premiums for the Base Policy which would have been due if the Base Policy had never lapsed, with 7% interest per year, compounded annually;\par
+\pard\lang1036\f3\fs16\par
+\par
+\lang0\f0\fs20 The Primary Insured must be alive on the date We approve a reinstatement in order for that reinstatement to take effect. You cannot reinstate any coverage under this Policy after this Policy terminates.\par
+\par
+\par
+Any Riders, which have ended (lapsed) because a premium was not paid, may also be reinstated with the Base Policy. \par
+To reinstate such a Rider, You must: \par
+\pard\fi-195\li195\lang1024\f2\'b7\tab\lang0\f0 within five years following the date the Rider lapsed, complete a Request that it be reinstated; \par
+\pard\lang1024\f2\'b7\tab\lang0\f0 pay all premiums for that Rider which would have been due if that Rider had never lapsed, with 7% interest per year, compounded annually;\lang1036\f3\fs16\par
+}
+]]></content><Title Id="1"><![CDATA[Reinstatement Provision]]></Title><EnumerateSubDocuments Id="14"><![CDATA[No]]></EnumerateSubDocuments><SecondaryDocument Id="17"><![CDATA[No]]></SecondaryDocument><DuringComposition Id="4"><![CDATA[Mandatory]]></DuringComposition><Composed Id="15"><![CDATA[No]]></Composed><Numerotation Id="29"><![CDATA[(0,0,0,0,0,0,0,0,0,0)]]></Numerotation><Level Id="30"><![CDATA[0]]></Level><StartOnNextpage Id="36"><![CDATA[No]]></StartOnNextpage><Name Id="3"><![CDATA[Reinstatement Provision]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318777438]]></NSId><Id Id="2"><![CDATA[6]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_StateProvision></EntityExport>

@@ -1,0 +1,7 @@
+TYPE;CODE;NAME
+aWPnC_ExpertType;TEX01;Expert Automobile
+aWPnC_ExpertType;TEX02;Expert Habitation
+aWPnC_GarageType;TGA01;Carrossier automobile
+aWPnC_GarageType;TGA02;Mécanicien automobile
+aWPnC_GarageType;TGA03;Mécanicien machines agricoles
+aWPnC_GarageType;TGA04;Réparateur automobile

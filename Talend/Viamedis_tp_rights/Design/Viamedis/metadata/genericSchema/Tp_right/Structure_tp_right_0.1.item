@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_bBNG0LDpEeaPceLRQvz63Q" name="repository.metadataGenericSchema" dataPackage="_bBNG0bDpEeaPceLRQvz63Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_bBNG0bDpEeaPceLRQvz63Q" name="repository.metadataGenericSchema" dataManager="_bBNG0LDpEeaPceLRQvz63Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bBNG0rDpEeaPceLRQvz63Q" id="_gHcdULDoEeaPceLRQvz63Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pbRkALbZEea63c4_XNFt3Q" name="id" label="id" length="15" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG07DpEeaPceLRQvz63Q" name="eventName" label="eventName" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG1LDpEeaPceLRQvz63Q" name="eventDate" label="eventDate" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8TgAkLiBEeahYI92bQvCIQ" name="printed" label="printed" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG1bDpEeaPceLRQvz63Q" name="sSN_FR" label="sSN_FR" length="13" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG1rDpEeaPceLRQvz63Q" name="name" label="name" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG17DpEeaPceLRQvz63Q" name="firstName" label="firstName" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bBNG2LDpEeaPceLRQvz63Q" name="birthDate" label="birthDate" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_w9wt4LexEea63c4_XNFt3Q" name="birthRank" label="birthRank" length="1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cNjxQLvWEeafSqQfgUCH_w" name="insured_address_line_1" label="insured_address_line_1" length="32" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cTyVELvWEeafSqQfgUCH_w" name="insured_address_line_2" label="insured_address_line_2" length="32" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cWLhwLvWEeafSqQfgUCH_w" name="insured_postalCode" label="insured_postalCode" length="5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bCmIELvYEeafSqQfgUCH_w" name="insured_city" label="insured_city" length="27" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QtgjkLvYEeafSqQfgUCH_w" name="insured_country" label="insured_country" length="32" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v0j5ILcMEea63c4_XNFt3Q" name="id_amc" label="id_amc" length="9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QSbIELcMEea63c4_XNFt3Q" name="issuingCompany_name" label="issuingCompany_name" length="30" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MiHI4LvSEeafSqQfgUCH_w" name="issuingCompany_address_line_1" label="issuingCompany_address_line_1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZAdf8LvSEeafSqQfgUCH_w" name="issuingCompany_address_line_2" label="issuingCompany_address_line_2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NGtDsLvSEeafSqQfgUCH_w" name="issuingCompany_postalCode" label="issuingCompany_postalCode" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NLZWcLvSEeafSqQfgUCH_w" name="issuingCompany_city" label="issuingCompany_city" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JcOHQLvYEeafSqQfgUCH_w" name="issuingCompany_country" label="issuingCompany_country" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cGv7cLvSEeafSqQfgUCH_w" name="issuingCompany_officeFixedPhone" label="issuingCompany_officeFixedPhone" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

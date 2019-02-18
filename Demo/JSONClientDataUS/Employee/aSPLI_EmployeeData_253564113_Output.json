@@ -1,0 +1,903 @@
+{
+	"data":{
+		"className":"aSPLI_EmployeeData",
+		"bUID":"##15",
+		"dataHistory":[
+		],
+		"employee":{
+			"className":"aSPLI_US_Employee",
+			"effectiveDate":"1997-01-01",
+			"terminationReason":"",
+			"terminationDate":null,
+			"hireDate":"1997-01-01",
+			"salaryDefinedAtDate":null,
+			"employmentStatus":"esActive",
+			"workingHours":40,
+			"workingHoursDefinedForFrequency":"fWeekly",
+			"workingCategory":"cFullTime",
+			"baseSalaryAmount":{
+				"amount":38071,
+				"currency":"USD"
+			},
+			"baseSalaryFrequency":"fAnnually",
+			"salaryCommissionAmount":{
+				"amount":0,
+				"currency":"USD"
+			},
+			"salaryCommissionFrequency":"meUndefined",
+			"salaryBonusAmount":{
+				"amount":0,
+				"currency":"USD"
+			},
+			"salaryBonusFrequency":"meUndefined",
+			"canBeEnrolled":true,
+			"additionalDynamicDatas":[
+			],
+			"worksiteState":"meUndefined"
+		},
+		"person":{
+			"data":{
+				"className":"aSPLI_PersonData",
+				"bUID":"##17",
+				"dataHistory":[
+				],
+				"thirdPartyId":"DistRoot",
+				"correspondences":[
+					{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"1963-09-16",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"3723 COPPERHEAD ROAD",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"06103",
+								"city":"Hartford"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"CT",
+							"county":"",
+							"fIPSCode":0
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(860) 595-8627",
+						"privatePhoneExtension":"",
+						"officePhone":"",
+						"officePhoneExtension":"",
+						"cellPhone":"(860) 595-8627",
+						"fax":"",
+						"eMail":"steve.baran@free.com",
+						"mediaType":"Mail",
+						"isInvalid":false,
+						"reasonForInvalidAddress":""
+					}
+				],
+				"paymentMethods":[
+					{
+						"className":"aSPCB_US_BankAccount",
+						"name":"Chase Manhattan Bank",
+						"effectiveDate":"2013-06-17",
+						"endDate":null,
+						"holderName":"Baran",
+						"currency":"cUSDollar",
+						"accountType":"catChecking",
+						"branchName":"Branch",
+						"depositType":"dpNA",
+						"bankName":"Chase Manhattan Bank",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"2215 LEXINGTON AVENUE",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"10015",
+								"city":"NEW YORK"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"NY",
+							"county":"",
+							"fIPSCode":0
+						},
+						"accountNumber":"000140867176384",
+						"routingNumber":"091000019",
+						"preNoteCompleted":true,
+						"preNoteProcessCompletionDate":"2014-01-01"
+					}
+				],
+				"contacts":[
+				],
+				"logins":[
+					{
+						"data":{
+							"className":"aSPCB_ExternalApplicationUserData",
+							"bUID":"",
+							"dataHistory":[
+							],
+							"profiles":[
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Broker",
+									"code":"WB"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Individual Client",
+									"code":"WC"
+								}
+							],
+							"extendedProfile":null,
+							"organizationUnit":null,
+							"hasVisibilityOnDistributionTree":{
+								"className":"aSPCB_OrganizationUnitIdentifier",
+								"bUID":"",
+								"description":"Internal Agents (Distributor) (Direct Distribution)",
+								"unitCode":"AA"
+							},
+							"loginEntity":{
+								"className":"aSPCB_ApplicationLogin",
+								"fullName":"steve.baran@free.com",
+								"name":"steve.baran@free.com",
+								"password":"",
+								"forbatch":false,
+								"isDisabled":false,
+								"jobLabel":"",
+								"preferedLanguageCode":"",
+								"email":"steve.baran@free.com"
+							},
+							"actor":{
+								"className":"aSPCB_ActorIdentifier",
+								"bUID":"##17",
+								"description":"Steve Baran 3723 COPPERHEAD ROAD, Hartford, CT 06103"
+							}
+						},
+						"identifier":{
+							"className":"aSPCB_ExternalApplicationUserIdentifier",
+							"bUID":"",
+							"description":"steve.baran@free.com",
+							"name":"steve.baran@free.com",
+							"actorReference":{
+								"className":"aSPLI_PersonIdentifier",
+								"bUID":"",
+								"description":"Steve Baran 3723 COPPERHEAD ROAD, Hartford, CT 06103",
+								"internalClientId":"",
+								"externalClientId":{
+									"externalClientId":"0000000034WEX",
+									"thirdPartyID":"DistRoot"
+								}
+							}
+						}
+					}
+				],
+				"actorDataExtension":null,
+				"externalClientId":"0000000034WEX",
+				"actor":{
+					"className":"aSPLI_Person",
+					"name":"Baran",
+					"shortName":"Steve",
+					"creationDate":"2018-07-10",
+					"preferredLanguageCode":"En",
+					"terminationDate":null,
+					"preferredContactChoice":"pcDefaultCorrespondence",
+					"delinquent":false,
+					"underSurveillance":false,
+					"isAnonymous":false,
+					"birthDate":"1963-09-16",
+					"personTitleEnum":"ptMr",
+					"priorName":"",
+					"middleName1":"",
+					"middleName2":"",
+					"nameSuffix":"",
+					"gender":"gMale",
+					"sSN":"734147846",
+					"maritalStatus":"cWidowed",
+					"attachedToAnOtherSSN":false,
+					"nationality":"",
+					"birthRank":1,
+					"birthCountry":"",
+					"birthPlaceCity":"Hartford",
+					"birthPlaceZipCode":"06103",
+					"birthPlaceState":"",
+					"legalRepresentativeId_Deprecated5200":{
+						"buid":"",
+						"internalClientId":"",
+						"externalClientIdentifier":{
+							"externalClientId":"",
+							"thirdPartyID":""
+						}
+					},
+					"occupation":"",
+					"additionalDatas":[
+						{
+							"className":"aSPCB_ClassificationValue",
+							"fieldCode":"1",
+							"fieldName":"Internal Employee",
+							"codeForPopulationClass":"",
+							"valueCode":"NIE",
+							"fieldValue":"Is Not Internal Employee",
+							"nameDescription":"Is Not Internal Employee"
+						},
+						{
+							"className":"aSPCB_ClassificationValue",
+							"fieldCode":"2",
+							"fieldName":"VIP",
+							"codeForPopulationClass":"",
+							"valueCode":"Is not VIP",
+							"fieldValue":"Is not VIP",
+							"nameDescription":"Is not VIP"
+						}
+					],
+					"oldSSN":"",
+					"oldLastName":"",
+					"oldFirstname":"",
+					"oldDOB":null,
+					"isIncapableAdult":false,
+					"isEmancipatedMinor":false
+				},
+				"claimDisbursementChannel":[
+				],
+				"legalRepresentative":{
+					"data":null,
+					"identifier":null
+				}
+			},
+			"identifier":{
+				"className":"aSPLI_PersonIdentifier",
+				"bUID":"",
+				"description":"Steve Baran 3723 COPPERHEAD ROAD, Hartford, CT 06103",
+				"internalClientId":"",
+				"externalClientId":{
+					"externalClientId":"0000000034WEX",
+					"thirdPartyID":"DistRoot"
+				}
+			}
+		},
+		"legalEntity":{
+			"data":{
+				"className":"aSPLI_LegalEntityData",
+				"bUID":"##16",
+				"dataHistory":[
+				],
+				"thirdPartyId":"DistRoot",
+				"correspondences":[
+					{
+						"className":"aSPCB_Correspondence",
+						"effectiveDate":"1800-01-01",
+						"addressUsage":"0",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"44693 WHITE OAK CT",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"66109",
+								"city":"Kansas City"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"KS",
+							"county":"",
+							"fIPSCode":0
+						},
+						"isDefaultCorrespondance":true,
+						"privatePhone":"(301) 253-6425",
+						"privatePhoneExtension":"",
+						"officePhone":"",
+						"officePhoneExtension":"",
+						"cellPhone":"(301) 253-6425",
+						"fax":"(301) 253-6425",
+						"eMail":"ashgrovetruevaluehomecenter@free.com",
+						"mediaType":"Mail",
+						"isInvalid":false,
+						"reasonForInvalidAddress":""
+					}
+				],
+				"paymentMethods":[
+					{
+						"className":"aSPCB_US_BankAccount",
+						"name":"Chase Manhattan Bank",
+						"effectiveDate":"2013-05-24",
+						"endDate":null,
+						"holderName":"ASH grove True Value Home Center",
+						"currency":"cUSDollar",
+						"accountType":"catChecking",
+						"branchName":"Branch",
+						"depositType":"dpNA",
+						"bankName":"Chase Manhattan Bank",
+						"address":{
+							"className":"aSPCB_US_PostalAddress",
+							"line1":"516 LEXINGTON AVENUE",
+							"line2":"",
+							"zipCodeAndCity":{
+								"zipCode":"10015",
+								"city":"NEW YORK"
+							},
+							"country":"UNITED STATES",
+							"district":"",
+							"state":"NY",
+							"county":"",
+							"fIPSCode":0
+						},
+						"accountNumber":"000140867181252",
+						"routingNumber":"091000019",
+						"preNoteCompleted":true,
+						"preNoteProcessCompletionDate":"2014-01-01"
+					}
+				],
+				"contacts":[
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Secretary",
+						"contactName":"John Smith",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Director",
+						"contactName":"William Doe",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Sales man",
+						"contactName":"Kent Johns",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Financial director",
+						"contactName":"Ruth Browns",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Project manager",
+						"contactName":"Steve Powell",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Chief executive officer",
+						"contactName":"Roberta Jackson",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Advisor",
+						"contactName":"Elizabeth White",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Staff manager",
+						"contactName":"Sandy Robinson",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Accountant",
+						"contactName":"Heather Clarck",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					},
+					{
+						"className":"aSPCB_ActorContact",
+						"name":"Technical director",
+						"contactName":"Maria Walker",
+						"beginDate":null,
+						"endDate":null,
+						"correspondence":{
+							"className":"aSPCB_Correspondence",
+							"effectiveDate":"1800-01-01",
+							"addressUsage":"0",
+							"address":{
+								"className":"aSPCB_US_PostalAddress",
+								"line1":"44693 WHITE OAK CT",
+								"line2":"",
+								"zipCodeAndCity":{
+									"zipCode":"66109",
+									"city":"Kansas City"
+								},
+								"country":"UNITED STATES",
+								"district":"",
+								"state":"KS",
+								"county":"",
+								"fIPSCode":0
+							},
+							"isDefaultCorrespondance":true,
+							"privatePhone":"(301) 253-6425",
+							"privatePhoneExtension":"",
+							"officePhone":"",
+							"officePhoneExtension":"",
+							"cellPhone":"(301) 253-6425",
+							"fax":"(301) 253-6425",
+							"eMail":"ashgrovetruevaluehomecenter@free.com",
+							"mediaType":"Mail",
+							"isInvalid":false,
+							"reasonForInvalidAddress":""
+						},
+						"role":[
+						],
+						"correspondenceChoice":"predefined",
+						"mediaType":"Mail",
+						"isDeaultContact":false
+					}
+				],
+				"logins":[
+					{
+						"data":{
+							"className":"aSPCB_ExternalApplicationUserData",
+							"bUID":"",
+							"dataHistory":[
+							],
+							"profiles":[
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Broker",
+									"code":"WB"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Group Admin",
+									"code":"WGA"
+								},
+								{
+									"className":"aSPCB_ProfileIdentifier",
+									"bUID":"",
+									"description":"wPortal Legal Entity Client",
+									"code":"WLEC"
+								}
+							],
+							"extendedProfile":null,
+							"organizationUnit":null,
+							"hasVisibilityOnDistributionTree":{
+								"className":"aSPCB_OrganizationUnitIdentifier",
+								"bUID":"",
+								"description":"Internal Agents (Distributor) (Direct Distribution)",
+								"unitCode":"AA"
+							},
+							"loginEntity":{
+								"className":"aSPCB_ApplicationLogin",
+								"fullName":"ash grove true value home center@free.com",
+								"name":"ash grove true value home center@free.com",
+								"password":"",
+								"forbatch":false,
+								"isDisabled":false,
+								"jobLabel":"",
+								"preferedLanguageCode":"",
+								"email":"ashgrovetruevaluehomecenter@free.com"
+							},
+							"actor":{
+								"className":"aSPCB_ActorIdentifier",
+								"bUID":"##16",
+								"description":"ASH grove True Value Home Center (ASH)"
+							}
+						},
+						"identifier":{
+							"className":"aSPCB_ExternalApplicationUserIdentifier",
+							"bUID":"",
+							"description":"ash grove true value home center@free.com",
+							"name":"ash grove true value home center@free.com",
+							"actorReference":{
+								"className":"aSPLI_LegalEntityIdentifier",
+								"bUID":"",
+								"description":"ASH grove True Value Home Center (ASH)",
+								"internalClientId":"",
+								"externalClientId":{
+									"externalClientId":"0000000069WEX",
+									"thirdPartyID":"DistRoot"
+								}
+							}
+						}
+					}
+				],
+				"claimDisbursementChannel":[
+				],
+				"actorDataExtension":null,
+				"externalClientId":"0000000069WEX",
+				"actor":{
+					"className":"aSPLI_US_LegalEntity",
+					"shortName":"ASH",
+					"creationDate":"2018-07-10",
+					"preferredLanguageCode":"En",
+					"terminationDate":null,
+					"preferredContactChoice":"pcDefaultCorrespondence",
+					"delinquent":false,
+					"underSurveillance":false,
+					"isAnonymous":false,
+					"name":"ASH grove True Value Home Center",
+					"masterLegalEntity":{
+						"buid":"",
+						"internalClientId":"",
+						"externalClientIdentifier":{
+							"externalClientId":"",
+							"thirdPartyID":""
+						}
+					},
+					"activity":"",
+					"inBankrupcy":false,
+					"country":"UNITED STATES",
+					"state":"NY",
+					"industrialClassification":{
+						"classificationSystem":"SIC US",
+						"code":"0762"
+					},
+					"totalNumberOfEmployees":100,
+					"additionalDatas":[
+					],
+					"companyType":"Private",
+					"worksiteStates":[
+						"MN",
+						"NY"
+					],
+					"taxId":"6"
+				},
+				"headquarters":[
+				]
+			},
+			"identifier":{
+				"className":"aSPLI_LegalEntityIdentifier",
+				"bUID":"",
+				"description":"ASH grove True Value Home Center (ASH)",
+				"internalClientId":"",
+				"externalClientId":{
+					"externalClientId":"0000000069WEX",
+					"thirdPartyID":"DistRoot"
+				}
+			}
+		}
+	},
+	"identifier":{
+		"className":"aSPLI_EmployeeIdentifier",
+		"bUID":"",
+		"description":"Steve Baran 3723 COPPERHEAD ROAD, Hartford, CT 06103 from ASH grove True Value Home Center (ASH)",
+		"employeeId":"",
+		"personIdentifier":{
+			"className":"aSPLI_PersonIdentifier",
+			"bUID":"",
+			"description":"Steve Baran 3723 COPPERHEAD ROAD, Hartford, CT 06103",
+			"internalClientId":"",
+			"externalClientId":{
+				"externalClientId":"0000000034WEX",
+				"thirdPartyID":"DistRoot"
+			}
+		},
+		"legalEntityIdentifier":{
+			"className":"aSPLI_LegalEntityIdentifier",
+			"bUID":"",
+			"description":"ASH grove True Value Home Center (ASH)",
+			"internalClientId":"",
+			"externalClientId":{
+				"externalClientId":"0000000069WEX",
+				"thirdPartyID":"DistRoot"
+			}
+		}
+	}
+}

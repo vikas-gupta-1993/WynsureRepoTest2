@@ -1,0 +1,140 @@
+{
+	"description":"",
+	"request":{
+		"criteria":{
+			"className":"aSPLI_GetCustomer_In",
+			"kind":"tplib_All",
+			"name":"",
+			"shortName":"",
+			"birthDate":null,
+			"policyNumber":"",
+			"customerID":{
+				"internalClientId":"0000000100",
+				"externalClientIdentifier":{
+					"externalClientId":"",
+					"thirdPartyID":"DistRoot"
+				},
+				"buid":""
+			},
+			"brokerBUID":"",
+			"sSN":""
+		},
+		"maxSize":12
+	},
+	"response":[
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000595",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842086_6"
+			},
+			"effectiveDate":"2017-12-13",
+			"signatureDate":"2017-12-13",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"ABC Timber Lmt",
+			"ownerFirstName":"ABC Timber Lmt",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000578",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842086_4"
+			},
+			"effectiveDate":"2017-10-30",
+			"signatureDate":"2017-10-30",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"ABC Timber Lmt",
+			"ownerFirstName":"ABC Timber Lmt",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000567",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842086_2"
+			},
+			"effectiveDate":"2017-10-27",
+			"signatureDate":"2017-10-27",
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Master Product Standard",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"ABC Timber Lmt",
+			"ownerFirstName":"ABC Timber Lmt",
+			"ownerBuid":""
+		},
+		{
+			"className":"aSPLI_GetPolicyInfo_Out",
+			"contract":{
+				"internalPolicyIdentifier":{
+					"internalPolicyId":"4800000501",
+					"issuingCompanyCode":"WIC"
+				},
+				"externalPolicyIdentifier":{
+					"externalPolicyId":"4800000501WEX",
+					"thirdPartyID":"AA"
+				},
+				"buid":"318842086_1"
+			},
+			"effectiveDate":"2016-10-12",
+			"signatureDate":null,
+			"terminationDate":null,
+			"terminationReason":"",
+			"reinstatementDate":null,
+			"status":"cActive",
+			"complementaryStatus":"",
+			"productName":"Fully Customizable GBP",
+			"issuingCompany":"W Insurance Company",
+			"distributionUnit":"Internal Agents",
+			"ownerLastName":"ABC Timber Lmt",
+			"ownerFirstName":"ABC Timber Lmt",
+			"ownerBuid":""
+		}
+	],
+	"className":"aSLI_consult_Policy",
+	"methodName":"GetGBPs",
+	"version":"5.7.3.0",
+	"date":"2017-12-29",
+	"errors":[
+	]
+}

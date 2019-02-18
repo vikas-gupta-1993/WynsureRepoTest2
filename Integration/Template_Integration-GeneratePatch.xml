@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<aWEXIntegrationPlanDesc name="Patch Generator">
+	<aWFxGenerateNewVersionBundlesDesc>
+      <Name>#PATCHNAME#</Name>
+      <myText></myText>
+      <StopIfErrors>false</StopIfErrors>
+      <Skip>false</Skip>
+      <bGeneratePatch>true</bGeneratePatch>
+	  <bForceRegenerateBundleFromLastRelease>True</bForceRegenerateBundleFromLastRelease>
+	</aWFxGenerateNewVersionBundlesDesc>
+</aWEXIntegrationPlanDesc>

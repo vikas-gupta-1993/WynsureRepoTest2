@@ -1,0 +1,12 @@
+{
+	"description":"",
+	"request":{
+		"requestedAction":"crInformation"
+	},
+	"response":[
+	],
+	"className":"aSLI_Manage_CustomerRequest",
+	"methodName":"SearchPossibleCustomerRequestTypes",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

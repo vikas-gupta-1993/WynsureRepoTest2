@@ -1,0 +1,21 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Subscribe_Policy"
+		},
+		"processID":{
+			"className":"aSPF_Identifier",
+			"bUID":"318844564_11",
+			"description":""
+		}
+	},
+	"response":[
+	],
+	"className":"asli_subscribe_policy",
+	"methodName":"GetClientAccountsIfDisbursementRequired",
+	"version":"5.8.1.0",
+	"date":"2018-02-09",
+	"errors":[
+	]
+}

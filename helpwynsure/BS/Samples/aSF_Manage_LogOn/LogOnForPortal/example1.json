@@ -1,0 +1,19 @@
+{
+	"description":"This example have been captured by the interperter hook (aSF_OperationExecutionInterpreterHookAsJSON).",
+	"request":{
+		"logOn_In":{
+			"className":"aSPF_LogOn_In_ForPortal",
+			"loginName":"Super manager",
+			"password":"",
+			"token":"",
+			"applicationName":"WynsureSolution_US_Clone2",
+			"functionalDomain":6239,
+			"languageCode":""
+		}
+	},
+	"response":true,
+	"className":"aSF_Manage_LogOn",
+	"methodName":"LogOnForPortal",
+	"date":"2017-10-09",
+	"user":"Nicolas"
+}

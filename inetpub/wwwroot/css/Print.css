@@ -1,0 +1,9 @@
+#TopPanelWrapper, #LeftPanelWrapper, #BottomPanelWrapper, #RightPanelWrapper, #LeftPanel{
+	display: none;
+}
+
+#PageContent{
+	width: 100%;
+	margin :0;
+	border :none;
+}

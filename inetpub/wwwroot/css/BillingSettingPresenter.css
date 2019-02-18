@@ -1,0 +1,91 @@
+dt{
+	float : left;
+}
+
+#DisplayBillingModeWrapper dt{
+	width : 120px;
+}
+
+#DisplayBillingModeWrapper select{	
+	min-width:350px;
+	max-width:500px;
+	margin-top : -1px;
+}
+
+#DisplayInvoicePaymentMethodWrapper{
+    float: left;
+	display :  inline-block;
+	width:70%;
+}
+
+#DisplayInvoicePaymentMethodWrapper .ui-accordion-header{
+	display :none;
+}
+
+#DisplayInvoicePaymentMethodWrapper  dt{
+	width: 120px;
+}
+
+#DisplayInvoicePaymentMethodWrapper  select {
+    min-width: 200px;
+
+    width: 300px;
+	margin-top : -1px;
+}
+
+#DayOfPaymentWrapper input{
+	margin-top : -1px;
+	width : 30px;
+}
+
+#InvoiceChannelWrapper{
+	width: 28%;
+	float:left;
+}
+
+#InvoiceChannelWrapper dt{
+	display : none;
+}
+
+#DisplayRefundPaymentMethodWrapper{
+	display :  inline-block;
+	width:70%;
+}
+
+#DisplayRefundPaymentMethodWrapper .ui-accordion-header{
+	display :none;
+}
+
+#DisplayRefundPaymentMethodWrapper  dt{
+	width : 150px;
+}
+
+#DisplayRefundPaymentMethodWrapper  select {
+	width : 280px;
+	margin-top : -1px;
+}
+
+#RefundChannelWrapper{
+	width:30%;
+	float:left;
+}
+
+#RefundChannelWrapper dt{
+	display : none;
+}
+
+.premiumInfo{
+	color: green;
+}
+
+.premiumInfo i{
+margin-right: 10px;
+}
+
+#BillingInformation .section-content{
+	margin-top: 10px;
+}
+
+.houseHoldCheckBox label{
+	padding-left: 0px;
+}

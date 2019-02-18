@@ -1,0 +1,134 @@
+{
+	"description":"",
+	"request":{
+		"serviceProviderData":{
+			"className":"aSPLIIndividualHealthCareProviderData",
+			"actor":{
+				"className":"aSPLIIndividualHealthCareProvider",
+				"generationSuffix":"",
+				"credentialsCode":"",
+				"uPINNumber":"",
+				"nPINumber":"",
+				"licenceState":"meUndefined",
+				"businessZipCode":"",
+				"filler":"",
+				"classificationValues":[
+				],
+				"openDay":[
+				],
+				"visitDay":[
+				],
+				"description":"",
+				"providerID":"2354211",
+				"typeServiceProvider":"Individual Health Care Provider",
+				"name":"Health Care City",
+				"shortName":"",
+				"creationDate":null,
+				"preferredLanguageCode":"",
+				"terminationDate":null,
+				"preferredContactChoice":"pcDefaultCorrespondence"
+			},
+			"providerType":{
+				"className":"aSPLI_GenericProviderTypeIdentifier",
+				"code":"4",
+				"bUID":"",
+				"description":""
+			},
+			"providerSpecialities":[
+				{
+					"className":"aSPLI_GenericProviderSpecialityIdentifier",
+					"code":"11",
+					"bUID":"",
+					"description":""
+				}
+			],
+			"thirdPartyId":"",
+			"correspondences":[
+				{
+					"className":"aSPCB_Correspondence",
+					"effectiveDate":"2017-07-10",
+					"addressUsage":"0",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"25 Main St.",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"isDefaultCorrespondance":true,
+					"privatePhone":"",
+					"privatePhoneExtension":"",
+					"officePhone":"020344582",
+					"officePhoneExtension":"",
+					"cellPhone":"7678988765",
+					"fax":"",
+					"eMail":"",
+					"mediaType":""
+				}
+			],
+			"paymentMethods":[
+				{
+					"className":"aSPCB_US_BankAccount",
+					"accountNumber":"22382882384726",
+					"routingNumber":"091000019",
+					"preNoteCompleted":false,
+					"preNoteProcessCompletionDate":null,
+					"currency":"cUSDollar",
+					"accountType":"catChecking",
+					"branchName":"NY",
+					"depositType":"dpNA",
+					"bankName":"Chase Manhattan Bank",
+					"address":{
+						"className":"aSPCB_PostalAddressWithState",
+						"state":"NY",
+						"line1":"25 Main St.",
+						"line2":"",
+						"zipCodeAndCity":{
+							"zipCode":"10173",
+							"city":"New York"
+						},
+						"country":"USA"
+					},
+					"name":"",
+					"effectiveDate":"2017-07-10",
+					"endDate":null,
+					"holderName":"Med City"
+				}
+			],
+			"contacts":[
+			],
+			"logins":[
+			],
+			"claimDisbursementChannel":[
+			],
+			"bUID":"",
+			"dataHistory":[
+			]
+		}
+	},
+	"response":null,
+	"className":"aSLIC_Manage_Claim",
+	"methodName":"CreateServiceProvider",
+	"version":"5.7.3.0",
+	"duration":0,
+	"date":"2017-10-11",
+	"user":"Nicolas",
+	"errors":[
+		{
+			"code":"BS_00005",
+			"message":"Error during Validation of Individual Health Care Provider",
+			"kind":"errDuplicate",
+			"kindNumber":2
+		},
+		{
+			"code":"WF_00003",
+			"message":"This object is a duplicate of other objects",
+			"kind":"errDuplicate",
+			"kindNumber":2
+		}
+	]
+}

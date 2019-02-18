@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_eRMbABeVEeaJcYNBvudP9Q" comment="connectionComment" label="connectionLabel" dataPackage="_eRMbAReVEeaJcYNBvudP9Q"/>
+  <TalendMetadata:GenericPackage xmi:id="_eRMbAReVEeaJcYNBvudP9Q" dataManager="_eRMbABeVEeaJcYNBvudP9Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eRMbAheVEeaJcYNBvudP9Q" label="generic_model">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eRMbAxeVEeaJcYNBvudP9Q" name="idntfr" id="31777" label="idntfr" length="8" precision="-1" sourceType="" talendType="id_Long" key="true">
+        <initialValue xmi:id="_eRMbBBeVEeaJcYNBvudP9Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eRMbBReVEeaJcYNBvudP9Q" name="entity" id="35931" label="entity" length="1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eRMbBheVEeaJcYNBvudP9Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eRMbBxeVEeaJcYNBvudP9Q" name="datas" id="31778" label="datas" length="127" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_eRMbCBeVEeaJcYNBvudP9Q"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eRMbCReVEeaJcYNBvudP9Q" name="idntfr_parent" id="31779" label="idntfr_parent" length="8" precision="-1" sourceType="" talendType="id_Long">
+        <initialValue xmi:id="_eRMbCheVEeaJcYNBvudP9Q"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

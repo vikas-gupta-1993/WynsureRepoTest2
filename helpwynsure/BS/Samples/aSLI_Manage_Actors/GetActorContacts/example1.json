@@ -1,0 +1,14 @@
+{
+	"description":"",
+	"request":{
+		"actorBuid":"{{legalentitybuid}}"
+	},
+	"response":[
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetActorContacts",
+	"version":"5.8.1.0",
+	"date":"2018-02-09",
+	"errors":[
+	]
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<_Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns_1="http://tempuri.org/xsd" xmlns:ns="http://tempuri.org">
+   <ThirdPartyID>DistRoot</ThirdPartyID>
+   <Correspondences>
+      <Element>
+         <EffectiveDate>1992-05-04</EffectiveDate>
+         <AddressUsage>0</AddressUsage>
+         <Address xsi:type="ns_1:aSPCB_PostalAddressWithState">
+            <Line1>3670 Hill Street</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>43609</ZipCode>
+               <City>Toledo</City>
+            </ZipCodeAndCity>
+            <Country>USA</Country>
+            <State>OH</State>
+         </Address>
+         <IsDefaultCorrespondance>true</IsDefaultCorrespondance>
+         <PrivatePhone>(419) 803-5094</PrivatePhone>
+         <PrivatePhoneExtension></PrivatePhoneExtension>
+         <OfficePhone></OfficePhone>
+         <OfficePhoneExtension></OfficePhoneExtension>
+         <CellPhone>(419) 803-5095</CellPhone>
+         <Fax></Fax>
+         <eMail>beverly.williams@free.com</eMail>
+         <MediaType>Mail</MediaType>
+      </Element>
+   </Correspondences>
+   <PaymentMethods>
+      <Element xsi:type="ns_1:aSPCB_US_BankAccount">
+         <Name>Chase Manhattan Bank</Name>
+         <EffectiveDate>2013-06-17</EffectiveDate>
+         <HolderName>Williams</HolderName>
+         <Currency>cUSDollar</Currency>
+         <AccountType>catChecking</AccountType>
+         <BranchName>Branch</BranchName>
+         <DepositType>dpNA</DepositType>
+         <BankName>Chase Manhattan Bank</BankName>
+         <Address xsi:type="ns_1:aSPCB_PostalAddressWithState">
+            <Line1>1823 Lexington Avenue</Line1>
+            <Line2></Line2>
+            <ZipCodeAndCity>
+               <ZipCode>10015</ZipCode>
+               <City>NEW YORK</City>
+            </ZipCodeAndCity>
+            <Country>USA</Country>
+            <State>NY</State>
+         </Address>
+         <AccountNumber>000140867154776</AccountNumber>
+         <RoutingNumber>091000019</RoutingNumber>
+         <PreNoteCompleted>true</PreNoteCompleted>
+         <PreNoteProcessCompletionDate>2014-01-01</PreNoteProcessCompletionDate>
+      </Element>
+   </PaymentMethods>
+   <ContactInformations></ContactInformations>
+   <LoginInformation>
+      <Logins>
+         <Element>
+            <ApplicationLogin>
+               <Buid></Buid>
+               <ParamEntity>
+                  <Name>beverly.williams@free.com</Name>
+                  <Password>Be257252ms</Password>
+                  <Forbatch>false</Forbatch>
+                  <IsDisabled>false</IsDisabled>
+                  <HasExtendedProfile>false</HasExtendedProfile>
+                  <JobLabel></JobLabel>
+                  <PreferedLanguageCode></PreferedLanguageCode>
+                  <Email>beverly.williams@free.com</Email>
+               </ParamEntity>
+            </ApplicationLogin>
+            <Profiles>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Broker</Name>
+                     <Code>WB</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+               <Element>
+                  <Buid></Buid>
+                  <ParamEntity>
+                     <Name>wPortal Individual Client</Name>
+                     <Code>WC</Code>
+                     <IsDisabled>false</IsDisabled>
+                     <IsForExternalActor>true</IsForExternalActor>
+                  </ParamEntity>
+               </Element>
+            </Profiles>
+         </Element>
+      </Logins>
+   </LoginInformation>
+   <ClientId>
+      <Buid></Buid>
+      <InternalClientId></InternalClientId>
+      <ExternalClientIdentifier>
+         <ExternalClientId>0000000025WEX</ExternalClientId>
+         <ThirdPartyID>DistRoot</ThirdPartyID>
+      </ExternalClientIdentifier>
+   </ClientId>
+   <PersonIdentity xsi:type="ns_1:aSPLI_US_Person">
+      <Name>Williams</Name>
+      <ShortName>Beverly</ShortName>
+      <CreationDate>2013-06-17</CreationDate>
+      <PreferredLanguageCode>En</PreferredLanguageCode>
+      <IsAnonymous>false</IsAnonymous>
+      <PreferredContactChoice>pcDefaultCorrespondence</PreferredContactChoice>
+      <VisibilityCode>2</VisibilityCode>
+      <Delinquent>false</Delinquent>
+      <UnderSurveillance>false</UnderSurveillance>
+      <BirthDate>1992-05-04</BirthDate>
+      <PersonTitleEnum>2</PersonTitleEnum>
+      <PriorName></PriorName>
+      <MiddleName1></MiddleName1>
+      <MiddleName2></MiddleName2>
+      <NameSuffix></NameSuffix>
+      <Gender>gFemale</Gender>
+      <AttachedToAnOtherSSN>false</AttachedToAnOtherSSN>
+      <Nationality>USA</Nationality>
+      <BirthRank>1</BirthRank>
+      <BirthCountry>USA</BirthCountry>
+      <BirthPlaceCity>Toledo</BirthPlaceCity>
+      <BirthPlaceZipCode>43609</BirthPlaceZipCode>
+      <BirthPlaceState></BirthPlaceState>
+      <LegalRepresentativeId_Deprecated5200>
+         <Buid></Buid>
+         <InternalClientId></InternalClientId>
+         <ExternalClientIdentifier>
+            <ExternalClientId></ExternalClientId>
+            <ThirdPartyID></ThirdPartyID>
+         </ExternalClientIdentifier>
+      </LegalRepresentativeId_Deprecated5200>
+      <Occupation></Occupation>
+      <AdditionalDatas>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>1</FieldCode>
+            <FieldName>Internal Employee</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>NIE</ValueCode>
+            <FieldValue>Is Not Internal Employee</FieldValue>
+            <NameDescription>Is Not Internal Employee</NameDescription>
+         </Element>
+         <Element xsi:type="ns_1:aSPCB_ClassificationValue">
+            <FieldCode>2</FieldCode>
+            <FieldName>VIP</FieldName>
+            <CodeForPopulationClass></CodeForPopulationClass>
+            <ValueCode>Is not VIP</ValueCode>
+            <FieldValue>Is not VIP</FieldValue>
+            <NameDescription>Is not VIP</NameDescription>
+         </Element>
+      </AdditionalDatas>
+      <SSN>711254532</SSN>
+      <MaritalStatus>cMarried</MaritalStatus>
+   </PersonIdentity>
+</_Result>

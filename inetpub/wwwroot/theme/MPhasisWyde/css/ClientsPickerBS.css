@@ -1,0 +1,23 @@
+.fields dl {
+	float: left;
+	height: 40px;
+	width: 19em;
+	clear: none;
+}
+
+.table .birthDate {
+	width:80px;
+}
+.table .SSN {
+	width:100px;
+}
+
+.table .clientId {
+	width:100px;
+}
+
+.table .clientIcon{
+	width: 10px;
+	text-align: center;
+	margin-right: 8px;
+}

@@ -1,0 +1,13 @@
+Cramanran William is 100 old : test eligibility
+-----Enrollment creation : 20------
+For Alstneuvenran Kate, option Group Life,Add a beneficiary person Alstneuvenran Marc
+For Alstneuvenran Kate, option Group Life,Add a beneficiary person Alstneuvenran Paul
+---------Update employee information--------
+For Essura Julia ,update of the salary at the initial date from 45730 to 50303
+For Cramanran William ,update of the salary one year after initial effective date45501 to 50051.1
+For Ewinsurame Pedro ,No change
+For Lomesura Tom ,Change in the name to Lomesura2 : task send to customer service
+-----Enrollment update------
+For the member id 351860696, Termination of the coverage Group Life one year after the subscription
+For the member id 351860696, Termination of the coverage Accidental Death & Dismemberment Group one year after the subscription
+For the member id 351860696, Termination of the coverage Critical Illness one year after the subscription

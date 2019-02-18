@@ -1,0 +1,36 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSCB_ManageRules"
+		},
+		"ruleIdentifier":{
+			"className":"aSPCB_GlobalRuleIdentifier",
+			"bUID":"",
+			"description":"",
+			"name":"Contestability_Period"
+		},
+		"parameters":[
+			{
+				"name":"ContractEffectiveDate",
+				"value":"2018-08-29"
+			},
+			{
+				"name":"LossEventDate",
+				"value":"2018-08-30"
+			}
+		],
+		"atDate":"2018-08-30"
+	},
+	"response":{
+		"result":"{\"_Result\":true}",
+		"comment":""
+	},
+	"eval":null,
+	"className":"aSCB_ManageRules",
+	"methodName":"CallGlobalRule",
+	"version":"5.8.2.0",
+	"date":"2018-08-30",
+	"errors":[
+	]
+}

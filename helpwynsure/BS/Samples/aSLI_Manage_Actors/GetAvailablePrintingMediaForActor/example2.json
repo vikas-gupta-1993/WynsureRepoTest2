@@ -1,0 +1,19 @@
+{
+	"description":"",
+	"request":{
+		"self":{
+			"className":"aSLI_Manage_Actors"
+		}
+	},
+	"response":[
+		"Mail",
+		"Email",
+		"Mail And Email"
+	],
+	"className":"aSLI_Manage_Actors",
+	"methodName":"GetAvailablePrintingMediaForActor",
+	"version":"5.7.3.0",
+	"date":"2017-12-13",
+	"errors":[
+	]
+}

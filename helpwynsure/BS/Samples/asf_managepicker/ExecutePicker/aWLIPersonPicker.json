@@ -1,0 +1,38 @@
+{
+	"description":"",
+	"request":{
+		"input":{
+			"picker":"awlipersonpicker",
+			"params":[
+				{
+					"name":"firstname",
+					"value":"B"
+				}
+			]
+		}
+	},
+	"response":[
+		{
+			"$ref":"318851909_90",
+			"summary":{
+				"clientID":"0000000090",
+				"name":"GIERNALCZYK",
+				"firstName":"Bartosz ",
+				"priorName":"",
+				"birthDate":"1971-03-19",
+				"sSN":"171035775881243",
+				"distributionNetwork":"Cetelem",
+				"exClientID":"0000000091WEX"
+			}
+		}
+	],
+	"eval":{
+		"[0]/$ref":"personBUID"
+	},
+	"className":"asf_managepicker",
+	"methodName":"ExecutePicker",
+	"version":"5.8.2.0",
+	"date":"2018-07-11",
+	"errors":[
+	]
+}
