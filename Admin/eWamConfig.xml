@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <eWamConfig>
 <DatabaseDefinitions>
+	<!-- Oracle DB dedicated to Acceptance environment -->
 	<DatabaseDefinition Name="WynsureOracleRenamingDBDef_Acceptance">
 		<DataBaseName>WynsureTest</DataBaseName>
 			<UserName>Wydef59_1_Accept_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
+	<!-- Oracle DB dedicated to Patch environment -->
 	<DatabaseDefinition Name="WynsureOracleRenamingDBDef_Patch">
 		<DataBaseName>WynsureTest</DataBaseName>
 			<UserName>Wydef59_1_Patch_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
-	<DatabaseDefinition Name="WynsureSQLServerRenamingDBDef_Acceptance">
-		<DataBaseName>WYN59_1_ACCEPT_EN</DataBaseName>
-			<UserName>Wydef_Accept</UserName>
-			<Password>LOBcsmbXxE4=</Password>
-	</DatabaseDefinition>
-	<DatabaseDefinition Name="WynsureSQLServerRenamingDBDef_Patch">
-		<DataBaseName>WYN59_1_PATCH_EN</DataBaseName>
-			<UserName>Wydef_Patch</UserName>
-			<Password>LOBcsmbXxE4=</Password>
-	</DatabaseDefinition>
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Acceptance">
-		<DataBaseName>WYN59_1_ACCEPT_FR</DataBaseName>
-			<UserName>wydef59_1_accept_fr</UserName>
-			<Password>LOBcsmbXxE4=</Password>
-	</DatabaseDefinition>
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Patch">
-		<DataBaseName>WYN59_1_PATCH_FR</DataBaseName>
-			<UserName>wydef59_1_patch_fr</UserName>
-			<Password>LOBcsmbXxE4=</Password>
-	</DatabaseDefinition>
+	<!-- Oracle DB dedicated to Demo test cases tests -->
 	<DatabaseDefinition Name="WynsureOracleRenamingDBDef">
 		<DataBaseName>WynsureTest</DataBaseName>
 			<UserName>Wydef59_1_Demo_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
+	
+	<!-- SQLServer DB dedicated to Acceptance environment -->
+	<DatabaseDefinition Name="WynsureSQLServerRenamingDBDef_Acceptance">
+		<DataBaseName>WYN59_1_ACCEPT_EN</DataBaseName>
+			<UserName>Wydef_Accept</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- SQLServer DB dedicated to Patch environment -->
+	<DatabaseDefinition Name="WynsureSQLServerRenamingDBDef_Patch">
+		<DataBaseName>WYN59_1_PATCH_EN</DataBaseName>
+			<UserName>Wydef_Patch</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- SQLServer DB dedicated to Demo test cases tests -->
 	<DatabaseDefinition Name="WynsureSQLServerRenamingDBDef">
 		<DataBaseName>WYN59_1_DEMO_EN</DataBaseName>
 			<UserName>Wydef_Accept</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
+	
+	<!-- PostgreSQL DB dedicated to Acceptance environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Acceptance">
+		<DataBaseName>WYN59_1_ACCEPT_FR</DataBaseName>
+			<UserName>wydef59_1_accept_fr</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- PostgreSQL DB dedicated to Patch environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Patch">
+		<DataBaseName>WYN59_1_PATCH_FR</DataBaseName>
+			<UserName>wydef59_1_patch_fr</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- PostgreSQL DB dedicated to Demo test cases tests -->
 	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef">
 		<DataBaseName>WYN59_1_DEMO_FR</DataBaseName>
 			<UserName>wydef59_1_demo_fr</UserName>
