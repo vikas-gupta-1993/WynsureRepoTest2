@@ -1,4 +1,4 @@
-<wsdl:definitions xmlns:ns="http://tempuri.org" xmlns:ns1="http://tempuri.org/xsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="aXI58" targetNamespace="http://tempuri.org">
+<wsdl:definitions xmlns:ns="http://tempuri.org" xmlns:ns1="http://tempuri.org/xsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" name="aXI59" targetNamespace="http://tempuri.org">
 <wsdl:types xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <xsd:schema targetNamespace="http://tempuri.org">
 <xsd:import schemaLocation="./xsd0.xsd" namespace="http://tempuri.org/xsd"/>
@@ -43,9 +43,23 @@
 <wsdl:message name="aSCB_Manage_BankMobility_BankMobility_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_BankMobility_BankMobilityResponse"/>
 </wsdl:message>
+<wsdl:message name="aSF_Manage_LogOn_ChangePasswordForLoginEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_ChangePasswordForLoginEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_LogOn_ChangePasswordForLoginEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_ChangePasswordForLoginExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSF_Manage_LogOn_ChangePasswordForLogin_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_ChangePasswordForLogin"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_LogOn_LogOffEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_LogOffEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_LogOn_LogOffEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_LogOffExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSF_Manage_LogOn_LogOff_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_LogOn_LogOff"/>
@@ -125,17 +139,45 @@
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginProfiles"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginProfilesEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginProfilesEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginProfilesEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginProfilesExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginsStatus_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginsStatus"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginsStatusEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginsStatusEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginsStatusEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginsStatusExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginStatus_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginStatus"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginStatusEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginStatusEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_UpdateApplicationLoginStatusEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_UpdateApplicationLoginStatusExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSCB_Manage_Login_SimpleUpdateApplicationLogin_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_SimpleUpdateApplicationLogin"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_SimpleUpdateApplicationLoginEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_SimpleUpdateApplicationLoginEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSCB_Manage_Login_SimpleUpdateApplicationLoginEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_SimpleUpdateApplicationLoginExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSCB_Manage_Login_GetApplicationLoginDetails_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSCB_Manage_Login_GetApplicationLoginDetails"/>
@@ -290,6 +332,13 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_ConfirmCustomerEmail"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_AddCustomerBankAccountEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_AddCustomerBankAccountEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_AddCustomerBankAccountEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_AddCustomerBankAccountExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_Actors_AddCustomerBankAccount_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_AddCustomerBankAccount"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -380,6 +429,20 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliation"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationExResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_CreateAffiliateLegalEntityEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateAffiliateLegalEntityEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Actors_CreateAffiliateLegalEntityEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateAffiliateLegalEntityExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_Actors_CreateAffiliateLegalEntity_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_CreateAffiliateLegalEntity"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -433,6 +496,60 @@
 <wsdl:message name="aSLI_Manage_Actors_GetAvailablePrintingMediaForActor_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_Actors_GetAvailablePrintingMediaForActorResponse"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerHierarchies_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerHierarchies"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerHierarchies_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerHierarchiesResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerInformation_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerInformation"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerInformation_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerInformationResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_CreateBrokerHierarchies_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_CreateBrokerHierarchies"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_CreateOrUpdateBroker_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_CreateOrUpdateBroker"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_CreateOrUpdateBroker_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_CreateOrUpdateBrokerResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_AddBrokerBankAccount_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_AddBrokerBankAccount"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_UpdateBrokerCorrespondence_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_UpdateBrokerCorrespondence"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerDetails_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerDetails"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerDetails_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetRootsBrokerDetails_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetRootsBrokerDetails"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetRootsBrokerDetails_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetRootsBrokerDetailsResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerChildren_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerChildren"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_Broker_GetBrokerChildren_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_Broker_GetBrokerChildrenResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_SearchGeneratedDocumentsForObject_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_SearchGeneratedDocumentsForObject"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -443,6 +560,13 @@
 <wsdl:message name="aSLI_Manage_CustomerRequest_CreateCustomerContact_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateCustomerContact"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_CreateCustomerContactEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateCustomerContactEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_CreateCustomerContactEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateCustomerContactExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_GetContactFromOpAssignment_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_GetContactFromOpAssignment"/>
@@ -455,9 +579,23 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ForwardCustomerRequest"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ForwardCustomerRequestExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_ApplyCustomerRequest_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ApplyCustomerRequest"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_ApplyCustomerRequestExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_SearchRequirementDescriptors_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_SearchRequirementDescriptors"/>
@@ -498,9 +636,23 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequest"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObject_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObject"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSLI_Manage_CustomerRequest_SearchRequestedRequirementsForObject_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CustomerRequest_SearchRequestedRequirementsForObject"/>
@@ -1402,6 +1554,13 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContract"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Subscribe_GBPContract_UploadCensusFile_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Subscribe_GBPContract_UploadCensusFile"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -1469,6 +1628,13 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_GBPMember_CreateOrUpdateEnrollment"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_GBPMember_TerminateEnrollement_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_GBPMember_TerminateEnrollement"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -1519,9 +1685,23 @@
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollment"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollment_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollment"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEnrolledEmployee_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEnrolledEmployee"/>
@@ -1540,6 +1720,13 @@
 <wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployee_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployee"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSLI_Subscribe_LifePolicy_GetIndividualLifeContractWithHistory_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Subscribe_LifePolicy_GetIndividualLifeContractWithHistory"/>
@@ -1974,6 +2161,52 @@
 <wsdl:message name="aSLIC_Consult_LifeClaim_GetClaimLosses_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLIC_Consult_LifeClaim_GetClaimLossesResponse"/>
 </wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_StartClaimDeclarationProcessResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_GetLifeClaim_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_GetLifeClaim"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_GetLifeClaim_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_GetLifeClaimResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_CreateLifeClaim_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_CreateLifeClaim"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_CreateLifeClaim_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_CreateLifeClaimResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_SendReturnToWorkNotification_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_SendReturnToWorkNotification"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_SubmitClaim_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_SubmitClaim"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_SubmitClaim_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_SubmitClaimResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclarationResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptorResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLIC_Manage_Claim_CalculateOutstandingAmountForLossReserve_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLIC_Manage_Claim_CalculateOutstandingAmountForLossReserve"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -2352,13 +2585,6 @@
 <wsdl:message name="aSH_ManageClaim_CreateHealthClaim_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSH_ManageClaim_CreateHealthClaimResponse"/>
 </wsdl:message>
-<wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_InputMessage">
-<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees"/>
-<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
-</wsdl:message>
-<wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_OutputMessage">
-<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployeesResponse"/>
-</wsdl:message>
 <wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -2366,12 +2592,26 @@
 <wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployeeResponse"/>
 </wsdl:message>
+<wsdl:message name="aSLI_FR_Manage_DSN_GenerateFullSSN_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_GenerateFullSSN"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_FR_Manage_DSN_GenerateFullSSN_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_GenerateFullSSNResponse"/>
+</wsdl:message>
 <wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
 <wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollmentResponse"/>
+</wsdl:message>
+<wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployeesResponse"/>
 </wsdl:message>
 <wsdl:message name="aSHFR_Consult_Claim_GetClaimFromName_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSHFR_Consult_Claim_GetClaimFromName"/>
@@ -2877,13 +3117,6 @@
 <wsdl:message name="aSLI_Manage_GenericCensusLoad_CreateOrUpdateLegalEntityEnrolledEmployees_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_Manage_GenericCensusLoad_CreateOrUpdateLegalEntityEnrolledEmployeesResponse"/>
 </wsdl:message>
-<wsdl:message name="aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage">
-<wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment"/>
-<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
-</wsdl:message>
-<wsdl:message name="aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_OutputMessage">
-<wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePaymentResponse"/>
-</wsdl:message>
 <wsdl:message name="aSLI_FR_ManageBill_DSN_RegularizationOnContractBill_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_RegularizationOnContractBill"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
@@ -2905,13 +3138,34 @@
 <wsdl:message name="aSLI_FR_ManageBill_DSN_AdjustGroupContractBill_OutputMessage">
 <wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_AdjustGroupContractBillResponse"/>
 </wsdl:message>
+<wsdl:message name="aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePaymentResponse"/>
+</wsdl:message>
 <wsdl:message name="aSF_Manage_Transactions_CancelNewTransaction_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelNewTransaction"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_CancelNewTransactionEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelNewTransactionEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_CancelNewTransactionEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelNewTransactionExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSF_Manage_Transactions_AcceptNewTransaction_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptNewTransaction"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_AcceptNewTransactionEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptNewTransactionEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_AcceptNewTransactionEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptNewTransactionExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSF_Manage_Transactions_StartNewTransaction_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_StartNewTransaction"/>
@@ -2924,9 +3178,23 @@
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelGlobalTransaction"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
 </wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_CancelGlobalTransactionEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelGlobalTransactionEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_CancelGlobalTransactionEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_CancelGlobalTransactionExResponse"/>
+</wsdl:message>
 <wsdl:message name="aSF_Manage_Transactions_AcceptGlobalTransaction_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptGlobalTransaction"/>
 <wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_AcceptGlobalTransactionEx_InputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptGlobalTransactionEx"/>
+<wsdl:part name="header" element="ns1:aSF_Manage_LogOn_PreAndPostTreatment"/>
+</wsdl:message>
+<wsdl:message name="aSF_Manage_Transactions_AcceptGlobalTransactionEx_OutputMessage">
+<wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_AcceptGlobalTransactionExResponse"/>
 </wsdl:message>
 <wsdl:message name="aSF_Manage_Transactions_StartGlobalTransaction_InputMessage">
 <wsdl:part name="parameter" element="ns1:aSF_Manage_Transactions_StartGlobalTransaction"/>
@@ -3072,22 +3340,6 @@ The &apos;CreateNoemieRetour&apos; operation creates a Noemie Operation 929
 </wsdl:portType>
 <wsdl:portType name="aSHFR_UpdateThirdPartyOperation">
 <wsdl:operation name="UpdateOperation">
-<wsdl:documentation>
-;#### Summary:
-;The &apos;UpdateOperation&apos; business service sets the third party operation status to treated and a treatment date. 
-;This business service is supposed to be called by the third party flow (viamedis, almerys..) from Talend or any other ETL to specify that the flow has been treated correctly 
-;
-;#### Business rules:
-;*	The third party operation (or message) is found by Buid
-;*     It sets the status to treated and the modification effective date to treatment date
-;
-;
-;
-;#### Errors:
-;*	can no modified the third party operation
-;
-
-</wsdl:documentation>
 <wsdl:input message="ns:aSHFR_UpdateThirdPartyOperation_UpdateOperation_InputMessage"/>
 </wsdl:operation>
 </wsdl:portType>
@@ -3135,6 +3387,28 @@ If the mandate number (RUM) was given in the input file, only one mandate will b
 ; Service with sessions mechanisms (creation, destruction)
 
 </wsdl:documentation>
+<wsdl:operation name="ChangePasswordForLoginEx">
+<wsdl:documentation>
+#### Summary:
+The &apos;ChangePasswordForLogin&apos; operation changes the password for the login with the new password. 
+
+#### Business rules:
+*	The operation tries to find the application login corresponding to given login and old password
+*	If the login and the password match with an application login, Wynsure updates it with the new password and the changement is effective immediately
+
+#### Inputs:
+*      Login(CString)
+*      Old Password(CString)
+*      New Password(CString)
+
+#### Errors:
+*	Impossible to change the password, the user is locked in database
+*	Impossible to change the password, no user matches with the login and password
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSF_Manage_LogOn_ChangePasswordForLoginEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_LogOn_ChangePasswordForLoginEx_OutputMessage"/>
+</wsdl:operation>
 <wsdl:operation name="ChangePasswordForLogin">
 <wsdl:documentation>
 #### Summary:
@@ -3155,6 +3429,21 @@ The &apos;ChangePasswordForLogin&apos; operation changes the password for the lo
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSF_Manage_LogOn_ChangePasswordForLogin_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="LogOffEx">
+<wsdl:documentation>
+#### Summary:
+The operation tries to log off the logged user from current application.
+
+#### Business Rules:
+If invalid login details found,the service &apos;LogOff&apos; logs off from the application.
+
+#### Errors:
+*	The Application is not launched.
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSF_Manage_LogOn_LogOffEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_LogOn_LogOffEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="LogOff">
 <wsdl:documentation>
@@ -3387,6 +3676,9 @@ Sets the mail address,name,application login,etc...
 <wsdl:output message="ns:aSCB_Manage_Login_CreateWebLoginForActor_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UpdateApplicationLoginProfiles">
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfiles_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginProfilesEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;UpdateApplicationLoginProfiles&apos; operation updates given the login profiles specified in &apos;ApplicationLogin.ApplicationLoginBuid
@@ -3406,9 +3698,13 @@ Then it initialize to the profiles and finally it appends
 *	The application login can not be modified (locked in database)
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfiles_InputMessage"/>
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfilesEx_InputMessage"/>
+<wsdl:output message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfilesEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UpdateApplicationLoginsStatus">
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatus_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginsStatusEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;UpdateApplicationLoginStatus&apos; operation updates the login status for the login specified in &apos;ApplicationLogin.ApplicationLoginBuid&apos;
@@ -3426,9 +3722,13 @@ The &apos;UpdateApplicationLoginStatus&apos; operation updates the login status 
 *	The application login can not be modified (locked in database)
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatus_InputMessage"/>
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatusEx_InputMessage"/>
+<wsdl:output message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatusEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UpdateApplicationLoginStatus">
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatus_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginStatusEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;UpdateApplicationLoginStatus&apos; operation updates the login status for the login specified in &apos;ApplicationLogin.ApplicationLoginBuid&apos;
@@ -3446,9 +3746,13 @@ The &apos;UpdateApplicationLoginStatus&apos; operation updates the login status 
 *	The application login can not be modified (locked in database)
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatus_InputMessage"/>
+<wsdl:input message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatusEx_InputMessage"/>
+<wsdl:output message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatusEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="SimpleUpdateApplicationLogin">
+<wsdl:input message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLogin_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SimpleUpdateApplicationLoginEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;UpdateApplicationLogin&apos; operation updates the application login specified in &apos;Login&apos; and belonging to the actor specified in &apos;ActorBuid&apos;.
@@ -3468,7 +3772,8 @@ The &apos;UpdateApplicationLogin&apos; operation updates the application login s
 *  The application login can not be modified (locked in database)
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLogin_InputMessage"/>
+<wsdl:input message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLoginEx_InputMessage"/>
+<wsdl:output message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLoginEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="GetApplicationLoginDetails">
 <wsdl:documentation>
@@ -3628,8 +3933,8 @@ The list of available conversion systems
 </wsdl:portType>
 <wsdl:portType name="aSLI_Manage_Actors">
 <wsdl:documentation>
-This business service is used to create and update Actors in Wynsure Database.
-Actors are clients : individual clients or legal entities.
+This business service provides the set of operations which creates, updates and searches the individual clients or legal entities. 
+The service also provides the operations to manage the correspondence address details, bank accounts &amp; contacts of individual clients or legal entities.
 </wsdl:documentation>
 <wsdl:operation name="UpdateActor">
 <wsdl:documentation>
@@ -3669,90 +3974,92 @@ This service updates an existing actor with given information.
 </wsdl:operation>
 <wsdl:operation name="GetPerson">
 <wsdl:documentation>
-#### SUMMARY : 
-
-This service will search for a particular person, depending on the input person identifier.
+#### Summary: 
+This operation will search for a person, depending on the input person identifier.
 
 #### Business Rules:
-*     The input identifier contains the BUID or Client ID for the person to be searched. 
-*     The person object is fetched using the identifier.
+* The input identifier contains person business identifier
+* The person object is fetched using the identifier.
 
 #### Input:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference
-*           aSPLI_PersonIdentifier 
+Identifer: Person Business Identifier
 
-#### Output:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference 
+#### Response:
+aSPLI_PersonData: It contains the below information for the person being searched
+* Person Information
+* Claim Disbursement Channel
+
 #### Errors:
-*      Invalid business object identifier
-
-
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: The input identifier is mandatory and should contain valid data.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetPerson_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetPerson_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreatePerson">
 <wsdl:documentation>
-#### SUMMARY : 
-
-This service will create a new person business object.
+#### Summary: 
+The &apos;CreatePerson&apos; operation will create a new person record.
 
 #### Business Rules:
-*     The person details are passed in the input data.
-*     New person business object created from this data and accepted.
-*     Business object is converted to Data and returned.
+The operation will create a new person record with data provided as input
 
 #### Input:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference
-*           aSPLI_PersonIdentifier 
+Data: It contains the below information about the person to be created.
+* Information about Actor
+* Claim Disbursement Channel
+* Claim Reference
 
-#### Output:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference  
+#### Response:
+aSPLI_PersonData: It contains the below information about the person created along with business identifier.
+* Information about Actor
+* Claim Disbursement Channel
+* Claim Reference
 
 #### Errors:
-*      Invalid business object identifier
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: The input data is mandatory and it should contain the valid data.
 
-
+Error Code:SWF-B0006
+Error Message: Cannot update entity, Person cannot be created
+Resolution: Not able to create person object. Verify the input data.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreatePerson_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_CreatePerson_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UpdatePerson">
 <wsdl:documentation>
-#### SUMMARY : 
-
-This service will update an existing person business object with new information.
+#### Summary: 
+The operation will update an existing person data with new information.
 
 #### Business Rules:
-*     If both Data and Identifier are provided, the existing person object will be fetched from the identifier and updated with the Data.
+The person details are searched using person business identifier and updated as provided in data input.
 
 #### Input:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference
-*           aSPLI_PersonIdentifier 
+Data: It contains,
+* Information about Actor
+* Claim Disbursement Channel
+* Claim Reference
 
-#### Output:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference  
+Identifier: Person Business Identifier
+
+#### Response:
+aSPLI_PersonData: It contains,
+* Information about Actor
+* Claim Disbursement Channel
+* Claim Reference
 
 #### Errors:
-*      Invalid business object identifier
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: The input data is mandatory and it should contain valid data.
+
+
+Error Code:SWF-C0007
+Error Message: Cannot update entity, Person cannot be updated
+Resolution: Provide the valid person business identifier
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_UpdatePerson_InputMessage"/>
@@ -3760,31 +4067,35 @@ This service will update an existing person business object with new information
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdatePerson2">
 <wsdl:documentation>
-#### SUMMARY: 
-
-This service will either create a new person business object or update an existing person object depending on the input identifier.
+#### Summary: 
+This operation will either create a new person data or update an existing person data depending on the input identifier.
 
 #### Business Rules:
-*     If only input Data is provided and Identifier is nil, a new person object will be created based on the Data.
-*     If both Data and Identifier are provided, the existing person object will be fetched from the identifier and updated with the Data.
+* If only input data is provided and Identifier is nil, a new person data will be created.
+* If both data and person business identifier are provided, the existing person data will be fetched from the identifier and updated with the Data.
 
 #### Input:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference
-*     aSPLI_PersonIdentifier 
+aSPLI_PersonData: It Contains,
+* Person Details
+* Claim Disbursement Channel
+* Legal Representative details
 
-#### Output:
-*     aSPLI_PersonData containing: 
-*           Information about Actor
-*           Claim Disbursement Channel
-*           Claim Reference    
+aSPLI_PersonIdentifier: Person Business Identifier
+
+#### Response:
+aSPLI_PersonData: It Contains,
+* Person Details
+* Claim Disbursement Channel
+* Legal Representative details
 
 #### Errors:
-*      Invalid business object identifier
+Error Code:WF-M0001
+Error Message: This value is mandatory
+Resolution: The input data is mandatory and it should contain valid data.
 
-
+Error Code:SWF-B0008
+Error Message: Cannot create or update entity
+Resolution: Verify the Person data and identifier
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreateOrUpdatePerson2_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_CreateOrUpdatePerson2_OutputMessage"/>
@@ -3792,51 +4103,58 @@ This service will either create a new person business object or update an existi
 <wsdl:operation name="CheckBankAccount">
 <wsdl:documentation>
 #### SUMMARY: 
-&apos;CheckBankAccount&apos; service checks the bank account information.
+The &apos;CheckBankAccount&apos; operation validates the bank account information.
 
-#### BUsiness Rules:
-It creates the temporary correspondence Bank Account object and check whether everything is ok or not.
+#### Business Rules:
+It creates temporary correspondence bank Account and validates.
 
 #### Inputs:
-*    BankAccount Information(HolderName,EffectiveDate,EndDate,etc...)
-*    AtDate
+PaymentMethod: It contains,
+* Payment Method Name
+* Effective Date
+* End Date
+* Holder Name
 
-#### Errors:
-*	Wynsure Errors
+atDate: Creation Date
 
+#### Errors: None
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CheckBankAccount_InputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CheckCorrespondence">
 <wsdl:documentation>
-#### SUMMARY: 
-&apos;CheckCorrespondence&apos; service checks the correspondences information.
+#### Summary: 
+The &apos;CheckCorrespondence&apos; operation validates the correspondence address information.
 
-#### BUsiness Rules:
-It creates the temporary correspondence business object and check whether everything is ok or not.
+#### Business Rules:
+The correspondence address information is validated.
 
 #### Inputs:
-*    Correspondence Information(mediaType,address,isDefaultCorrespondence,etc...)
-*    AtDate
+Correspondence: It contains the address information.
+AtDate: Address effective date
 
 #### Errors:
-*	Wynsure Errors
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: Correspondence address is mandatory
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CheckCorrespondence_InputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="GetAvailableDistributionUnitsForClient">
 <wsdl:documentation>
-#### SUMMARY: 
-
-&apos;GetAvailableDistributionUnitsForClient&apos; service will returns the available distribution units for the client.
+#### Summary: 
+The &apos;GetAvailableDistributionUnitsForClient&apos; operation will return all the available distribution networks
 
 #### Business Rules:
-*     It takes code and name of distribution unit as a blank in order to get all distribution networks for client.
-*     It returns list of distribution networks.
+Returns all distribution networks
 
-#### Output:
-*     Sequence of tSPCB_OrganizationUnits containing name,code,etc....
+#### Inputs: None
+
+#### Response:
+tSPCB_OrganizationUnits: Contains the list of distribution networks.
+
+#### Errors:
 
 
 </wsdl:documentation>
@@ -3845,22 +4163,25 @@ It creates the temporary correspondence business object and check whether everyt
 </wsdl:operation>
 <wsdl:operation name="SearchAvailableDistributionUnitsForClient">
 <wsdl:documentation>
-#### SUMMARY: 
-
-&apos;SearchAvailableDistributionUnitsForClient&apos; service will returns the available distribution units for the client as per the criteria.
+#### Summary: 
+The &apos;SearchAvailableDistributionUnitsForClient&apos; operation will return the available distribution units for the client as per the criteria.
 
 #### Business Rules:
-*     It takes code and name of distribution unit as a input.
-*     It filters distribution network by name and code.
+* The operation searches for the distribution unit based on name and code of distribution unit
+* The search also filter the result for distribution unit to be of distribution network type.
 
 #### Inputs:
-*     aSPCB_GetAvailableDistributionUnit_In which contains:
-*          Name(CString) 
-*          Code(CString)
+Criteria: It contains,
+Name: Name of distribution unit
+Code: Code of distribution unit
 
-#### Output:
-*     Sequence of tSPCB_OrganizationUnits containing Name,code,etc.... 
+#### Response:
+tSPCB_OrganizationUnits: Contains the list of distribution units.
 
+#### Errors:
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: The input criteria is mandatory and should contain valid data.
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_SearchAvailableDistributionUnitsForClient_InputMessage"/>
@@ -3869,24 +4190,18 @@ It creates the temporary correspondence business object and check whether everyt
 <wsdl:operation name="GetListOfLegalEntityAffiliations">
 <wsdl:documentation>
 #### SUMMARY: 
-&apos;GetListOfLegalEntityAffiliations&apos; service will returns the lists of legal entity affiliations.
+The &apos;GetListOfLegalEntityAffiliations&apos; operation will returns the lists of legal entity affiliations.
 
 #### Business Rules:
-*     It fetches the legal entity business object from identifier.
-*     It searches the headquarters/affiliate legal entities and appends the corresponding param entities in result.
+Based on the legal entity identifier provided as input, it searches for the legal entity affiliates and returns the same.
 
 #### Inputs:
-*          Client Identifier
+Input: Legal Entity Identifier
 
-#### Output:
-*     aSPLI_CreateListOfLegalEntityDivisions_In containing: 
-*           HeadQuarter
-*           StartDate(tWFDate)
-*           EndDate(tWFDate)
+#### Response:
+aSPLI_CreateListOfLegalEntityDivisions: It contains list of legal entity affiliates with start and end dates.
 
 #### Errors:
-*           Invalid business object identifier
-*           Client Full Id Is Not Consistent
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetListOfLegalEntityAffiliations_InputMessage"/>
@@ -3895,28 +4210,31 @@ It creates the temporary correspondence business object and check whether everyt
 <wsdl:operation name="GetLegalEntityWithHistory">
 <wsdl:documentation>
 #### SUMMARY: 
-&apos;GetLegalEntityWithHistory&apos; service will returns the legal entity with history.
+The &apos;GetLegalEntityWithHistory&apos; operation will returns the legal entity details with change history.
 
 #### Business Rules:
-It returns the legal entiy param object with corresponding data related to previous version.
+The operation search for legal entity based on input identifier and return the legal entity details with change history.
 
 #### Inputs:
-*          Client Identifier
+Input: Legal Entity business identifier
 
-#### Output:
-*     aSPLI_CreateLegalEntityWithHistory containing: 
-*           ThirdPartyID
-*           LegalEntityIdentityHistories
-*           Correspondences
-*           PaymentMethods
-*           ContactInformations
-*           EmployeeInformations
-*           LegalEntityDivision
+#### Response:
+aSPLI_CreateLegalEntityWithHistory: It contains,
+* LegalEntityIdentityHistories
+* Correspondences
+* PaymentMethods
+* ContactInformations
+* EmployeeInformations
+* LegalEntityDivision
 
 #### Errors:
-*           Can not Find Client By ClientId.
-*           All Identifiers does not correspond to one Legal Entity.
-*           Client Full Id Is Not Consistent.
+Error Code: SWF-F0005
+Error Message: Cannot find entity, Can not Find Client By ClientId
+Resolution: Please verify and provide the valid legal entity identifier.
+
+Error Code: BS_00026
+Error Message: Client Full Id Is Not Consistent
+Resolution: Please verify and provide the valid legal entity identifier.
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetLegalEntityWithHistory_InputMessage"/>
@@ -3925,29 +4243,31 @@ It returns the legal entiy param object with corresponding data related to previ
 <wsdl:operation name="GetPersonWithHistory">
 <wsdl:documentation>
 #### SUMMARY: 
-&apos;GetPersonWithHistory&apos; service will returns the person details with history.
+The &apos;GetPersonWithHistory&apos; operation will returns the person details along with change history.
 
 #### Business Rules:
-;It returns the person param object with corresponding data related to previous version.
+For the given person business identifier, it will search and returns the person details along with change history.
 
 #### Inputs:
-*          Client Identifier
+Input: Person business identifier
 
-#### Output:
-*     aSPLI_CreatePersonWithHistory containing: 
-*           ClientId
-*           PersonIdentityHistories
-*           Correspondences
-*           PaymentMethods
-*           ContactInformations
-*           LegalRepresentative
+#### Response:
+aSPLI_CreatePersonWithHistory: It contains the below information
+* ClientId
+* PersonIdentityHistories
+* Correspondences
+* PaymentMethods
+* ContactInformations
+* LegalRepresentative
 
 #### Errors:
-*           Can not Find Client By ClientId.
-*           All Identifiers does not correspond to one person.
-*           Client Full Id Is Not Consistent.
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Can not Find Client By ClientId
+Resolution: Please verify and provide the valid client business identifier.
 
-
+Error Code: BS_00026
+Error Message: Client Full Id Is Not Consistent
+Resolution: Please verify and provide the valid client business identifier.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetPersonWithHistory_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetPersonWithHistory_OutputMessage"/>
@@ -3955,19 +4275,18 @@ It returns the legal entiy param object with corresponding data related to previ
 <wsdl:operation name="GetActorForLoggedUser">
 <wsdl:documentation>
 #### SUMMARY: 
-&apos;GetActorForLoggedUser&apos; service returns the logged user details.
+The &apos;GetActorForLoggedUser&apos; operation returns the logged user details.
 
 #### Business Rules:
-Returns the corresponding actor for a logged user.
+For the logged user, it searches for the actor details and returns the same.
 
-#### Output:
-*     Actors BUID.
-*     Actor info(Name,ShortName,CreationDate,TerminationDate)
-*     Distribution Network
+#### Response:
+aSPLI_GetActorInfo_Out: It contains the logged user details.
 
 #### Errors:
-*     The Application is not launched.
-
+Error Code: BS_00011
+Error Message:The Application is not launched
+Resolution:Not able to locate the logged user as the application is not available. Please launch the application.
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorForLoggedUser_InputMessage"/>
@@ -3981,6 +4300,8 @@ Returns the corresponding actor for a logged user.
 #### BUsiness Rules:
 It searches the customer based on customerBuid provided in input.
 Then it checks whether it is person or or legal entity and based on that it updates the contacts as well as correspondences details
+This seeks address and correspondence as mandatory inputs and inside the correspondence, 
+contact details such as &apos;CellPhone&apos;, &apos;Officephone&apos;, &apos;PrivatePhone&apos;, &apos;Email&apos; and &apos;Fax&apos; can only be updated.
 
 #### Inputs:
 *    CustomerBUID
@@ -4038,49 +4359,50 @@ The &apos;ConfirmCustomerEmail&apos; operation confirms customer email after a c
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_ConfirmCustomerEmail_InputMessage"/>
 </wsdl:operation>
-<wsdl:operation name="AddCustomerBankAccount">
+<wsdl:operation name="AddCustomerBankAccountEx">
 <wsdl:documentation>
 #### Summary:
-The &apos;AddCustomerBankAccount&apos; operation adds a new bank account to the customer specified in &apos;CustomerBuid&apos;.
+The &apos;AddCustomerBankAccountEx&apos; operation adds bank accoutn details to an existing customer. 
 
 #### Business rules:
-*	The operation creates an instance of &apos;Add Bank Account&apos; (aWLI_AddPersonBankAccountOp).
-*	The endorsement is effective at current date
-*	The endorsement is auto validated immediately
+* The operation searches for the customer as per &apos;customerbuid&apos;
+* Once the customer is found, address is appended and sets its effective date as &apos;current date&apos;
 
 #### Inputs:
-*      CustomerBUid(CString)
-*      BankAccountDetails(holderName,EffectiveDate,etc...)
+CustomerBUID: Customer Business Identifier
+BankAccount: New Bank account details 
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-*	Wynsure Errors
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity
+Resolution: Verify and Provide the valid CustomerBuid input parameter
 </wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Actors_AddCustomerBankAccountEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Actors_AddCustomerBankAccountEx_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="AddCustomerBankAccount">
 <wsdl:input message="ns:aSLI_Manage_Actors_AddCustomerBankAccount_InputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UpdateCustomerAddress">
 <wsdl:documentation>
 #### Summary:
-The &apos;UpdateCustomerAddress&apos; operation updates customer postal address using customer ID. We manage US, French, Canadian addresses 
+The &apos;UpdateCustomerAddress&apos; operation updates customer postal address. 
 
 #### Business rules:
-*	The operation creates an instance of &apos;Address Change&apos; (aWLI_ChangeOfPersonAddressOp).
-*	The endorsement is effective at &apos;AtDate&apos; parameter
-*	The endorsement is applied immediately
-*	After this operation the default actor correspondence should have a new version at &apos;AtDate&apos;
+* The operation searches for the customer as per &apos;customerbuid&apos;
+* Once the customer is found, address is updated and sets the effective date as &apos;AtDate&apos;
+* It is basically an endorsement process for address change. 
+* The operation updates  US, French, Canadian customer addresses using customer ID and sets the address effective date as supplied in &apos;AtDate&apos; input param.
 
 #### Inputs:
-*      CustomerBUID(CString)
-*      NewCorrespondence(Address,line1,line2,etc..)
-*      AtDate(tWFDate)
+CustomerBUID: Customer Business Identifier
+NewAddress: NewCorrespondence(Address,line1,line2,etc..)
+AtDate: Address effective date
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-*	Address Errors
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity
+Resolution: Verify and Provide the valid CustomerBuid input parameter
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_UpdateCustomerAddress_InputMessage"/>
 </wsdl:operation>
@@ -4148,24 +4470,26 @@ The &apos;UpdateCustomerCorrespondence&apos; operation updates customer correspo
 <wsdl:operation name="GetCustomerDetails">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetCustomerDetails&apos; operation returns the actor details specified in &apos;Criteria&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetCustomerDetails&apos; operation returns the customer details.
 
-#### BUsiness rules:
-It takes the clientId as a input and returns the customer details at date specified in &apos;atDate&apos;
+#### Business rules:
+It searches for the customer details based on the criteria at a specified date.
 
 #### Input:
-*     ClientId
+Criteria: It contains the customer business identifier
+atDate: Date at which customer details to be searched.
 
 #### Response:
-*	Customer information (identity, name, short name,...)
-*	Default correspondence
-*	Bank accounts
-*	Contacts
+aSPLI_GetActorDetails_Out: It contains the below information about the customer like:
+* Customer information (identity, name, short name,...)
+* Default correspondence
+* Bank accounts
+* Contacts
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Invalid Identifier
+Resolution: Verify and Provide the valid customer identifier.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetCustomerDetails_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetCustomerDetails_OutputMessage"/>
@@ -4173,30 +4497,24 @@ It takes the clientId as a input and returns the customer details at date specif
 <wsdl:operation name="SearchCustomers">
 <wsdl:documentation>
 #### Summary:
-The &apos;SearchCustomers&apos; operation returns the customer list matching search criteria. 
+The &apos;SearchCustomers&apos; operation searches the customers for the given criteria and return the customer list.
 
 #### Business rules:
-If customerBuid is provided,then it searches based on the buid provided and returns the sequence of record. 
-Or if customerKind is provided,then it searches based on the CustomerKind provided and returns the sequence of record.
+* The operation searches for the customer
+* The search is optimized based on customer kind like Individual or Legal entity
+* The search result returns the customer list
 
 #### Inputs:
-*      Customer type : person, legal entity or all (mandatory)
-*      Cutomer Ids (Client Id or Client Buid)
-*      Customer name 
-*      Customer short name
-*      Person birth Date 
-*      Policy number
+Criteria: It contains the customer search criteria. In which, customer kind and customer id is mandatory.
+MaxSize: Limit the maximum number of records in the output.
 
-#### Response (a sequence of record):
-*	Client Id
-*	Client buid
-*	Customer information (Name, short name...)
-*	Distribution network
+#### Response 
+tSLI_CustomersOut: Contains the list of customer Ids.
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: The input criteria is mandatory and should contain valid data.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_SearchCustomers_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_SearchCustomers_OutputMessage"/>
@@ -4204,22 +4522,23 @@ Or if customerKind is provided,then it searches based on the CustomerKind provid
 <wsdl:operation name="SearchNotes">
 <wsdl:documentation>
 #### Summary:
-The &apos;SearchNotes&apos; operation returns all active notes attached to the entity specified in &apos;ObjectBuid&apos;. 
+The &apos;SearchNotes&apos; operation searches and returns all the notes attached to person or legal entity.
 
 #### Business Rules:
-It gets all th active notes attached to the entity specified in &apos;objectBuid&apos;
-From the entity, it initialize the active notes to the param object and finally returns sequence of notes.
+The operation returns only active notes unless otherwise specified in the input parameter to show the deleted notes as well.
 
-#### Input:
-*     ObjectBUID(CString)
-*     CanShowRemovedNotes(Boolean)
+#### Inputs:
+ObjectBUID: Business Identifer of Person or Legal Entity
+CanShowRemovedNotes: If true, shows all notes including the deleted ones.
 
 #### Response:
-*	Sequence of notes
+tSLI_Notes: Sequence of notes
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Can not Find Client By ClientId
+Resolution: Verify and provide the valid business identifier for person or legal entity
+
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_SearchNotes_InputMessage"/>
@@ -4228,22 +4547,22 @@ From the entity, it initialize the active notes to the param object and finally 
 <wsdl:operation name="GetActorCorrespondences">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetActorCorrespondences&apos; operation returns the actor correspondences specified in &apos;ActorBuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetActorCorrespondences&apos; operation returns the actor or person correspondence  address.
 
 #### Business Rules:
-It takes the actor buid as a input and returns the sequence of actor correspondence details at date specified in &apos;atDate&apos;
+The operation return the actor correspondence address which is effective at a given date.
 
 #### Inputs:
-*     ActorBUID(CString)
-*     AtDate(tWFDate)
+ActorBUID: Actor or Person Business Identifier
+AtDate: Address effective date
 
 #### Response:
-*	Sequence of correspondences
+tSequenceOfParamCorrespondence: Sequence of correspondences
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity
+Resolution: Verify and Provide the valid ActorBuid input parameter
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorCorrespondences_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetActorCorrespondences_OutputMessage"/>
@@ -4251,25 +4570,31 @@ It takes the actor buid as a input and returns the sequence of actor corresponde
 <wsdl:operation name="GetActorDetails">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetActorDetails&apos; operation returns the actor details specified in &apos;ActorBuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetActorDetails&apos; operation returns the actor details.
 
 #### Business Rules:
-It takes the actor buid as a input and returns the actor details at date specified in &apos;atDate&apos;
+The operation returns the actor or person details for the given business identifer at a specified date.
 
 #### Inputs:
-*     ActorBUID(CString)
-*     AtDate(tWFDate)
-
+ActorBUID: Actor Business Identifier
+AtDate: Date at which actor details to be fetched.
 
 #### Response:
-*	Actor information (identity, name, short name,...)
-*	Default correspondence
-*	Bank accounts
-*	Contacts
+aSPLI_GetActorDetails_Out: It contains the below information.
+- Actor Details
+- Distribution Network
+- Default correspondence
+- Bank accounts
+- Contacts
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Cannot find the actor details
+Resolution: Verify the actor buid and date parameter
+
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Actor does not exists
+Resolution: Verify the actor buid and date parameter
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorDetails_InputMessage"/>
@@ -4278,24 +4603,22 @@ It takes the actor buid as a input and returns the actor details at date specifi
 <wsdl:operation name="GetActorBankAccounts">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetActorBankAccounts&apos; operation returns the bank accounts list of the actor specified in &apos;ActorBuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetActorBankAccounts&apos; operation returns the bank accounts list of an actor.
 
 #### Business rules:
-*	The parameter &apos;ActorBuid&apos; is mandatory
-*	The returned bank account can be an instance of US/FR/Can account
+The operation returns the bank accounts list of an actor at a specified date. 
 
 #### Inputs:
-*      ActorBUID(CString)
-*      AtDate(tWFDate)
+ActorBuid: Actor Business Identifier
+atDate: Date at which actor bank accounts to be fetched
 
-#### Response (a sequence of account):
-*	Payment method name
-*	Payment method details (account information, card information...)
+#### Response:
+tSLI_ActorBankPaymentMethods_Out: List of bank accounts
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity
+Resolution: Verify and Provide the valid ActorBuid input parameter
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorBankAccounts_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetActorBankAccounts_OutputMessage"/>
@@ -4303,18 +4626,21 @@ The &apos;GetActorBankAccounts&apos; operation returns the bank accounts list of
 <wsdl:operation name="GetActorContacts">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetActorContacts&apos; operation returns the actor contacts list of the actor specified in &apos;ActorBuid&apos;. 
+The &apos;GetActorContacts&apos; operation returns the contacts list of an actor
 
 #### Business rules:
-*	The parameter &apos;ActorBuid&apos; is mandatory
+The operation returns the contacts list of an actor.
+
+#### Inputs:
+ActorBuid: Actor Business Identifier
 
 #### Response:
-*	A sequence of contact
+tSLI_ActorContacts: Contains the list of contacts for an actor
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
- 
+Error Code:SWF-F0005
+Error Message:Cannot find entity
+Resolution: Verify and Provide the valid ActorBuid input parameter
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorContacts_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetActorContacts_OutputMessage"/>
@@ -4322,20 +4648,23 @@ The &apos;GetActorContacts&apos; operation returns the actor contacts list of th
 <wsdl:operation name="GetActorDefaultCorrespondence">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetActorDefaultCorrespondence&apos; operation returns the default correspondence of the actor specified in &apos;ActorBuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetActorDefaultCorrespondence&apos; operation returns the default correspondence of the actor.
 
 #### Business rules:
-*	The parameter &apos;ActorBuid&apos; is mandatory
-*	The returned address can be an instance of US/FR/Can address
+* It searches for the actor as per the &apos;ActorBuid&apos;
+* If the actor is found, it gets the default correspondence address at a specified date.
+
+#### Inputs:
+Actor Buid: Actor Business Identifier
+atDate: Date at which default correspondence to be returned
 
 #### Response:
-*	Actor contact information(phone number, email, fax...)
-*	Default actor address
+aSPCB_Correspondence: It contains the default correspondence of an actor.
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code:SWF-F0005
+Error Message: Cannot find entity
+Resolution: Verify the ActorBuid input parameter and provide the valid id.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetActorDefaultCorrespondence_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetActorDefaultCorrespondence_OutputMessage"/>
@@ -4343,7 +4672,7 @@ The &apos;GetActorDefaultCorrespondence&apos; operation returns the default corr
 <wsdl:operation name="GetAllLegalEntityClassifications">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetAllLegalEntityClassifications&apos; operation returns the persons classifications.
+The &apos;GetAllLegalEntityClassifications&apos; operation returns the legal entity classifications.
 
 #### Business rules:
 *	The legal entity is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
@@ -4366,88 +4695,116 @@ The &apos;GetAllLegalEntityClassifications&apos; operation returns the persons c
 The &apos;GetAllPersonClassifications&apos; operation returns the persons classifications.
 
 #### Business rules:
-*	The legal entity is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+The operation returns the persons classifications like (Internal Employee, Not Internal Employee, VIP, Not VIP)
+
+#### Inputs: None
 
 #### Response:
-*      tAdditionalDataDescValues sequence containing description,value,etc...
+tAdditionalDataDescValues: Contains the classification list defined for a person
  
 #### Errors:
-*	Can Not Create Or Found Division
-*	Is already modified by other process
-*      Invalid Legal Entity Identifier
-
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetAllPersonClassifications_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetAllPersonClassifications_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateListOfLegalEntityAffiliation">
+<wsdl:input message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliation_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateListOfLegalEntityAffiliationEx">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateListOfLegalEntityAffiliation&apos; operation creates a list of Affiliate Legal Entity.
+The &apos;CreateListOfLegalEntityAffiliation&apos; operation creates a list of Legal Entity Affiliates.
 
 #### Business rules:
-*	The legal entity is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+The Legal Entity Affiliates are like sub divisions of legal entity associated with a particular business segment.
 
 #### Inputs:
-*      Internal Client Id
-*      Headquarter
+AffiliateLegalEntity: It contains the list of legal entity affilates which needs to be created and it contains the below information.
+* Affilate Head Quarter Identifier
+* Affiliate Start and End Dates
+* Affiliate Employee information
 
 #### Errors:
-*	Can Not Create Or Found Division
-*	Is already modified by other process
-*      Invalid Legal Entity Identifier
-
+Error Code: SWF-F0005
+Error Message:Cannot find entity, Invalid Legal Entity Identifier
+Resolution: Verify and Provide the valid legal entity identifier
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliation_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateAffiliateLegalEntityEx">
+<wsdl:documentation>
+#### Summary:
+The &apos;CreateAffiliateLegalEntityEx&apos; operation creates a Legal Entity Affiliate and returns the Legal Entity data. 
+
+#### Business rules:
+* The operation searches for the legal entity as per the &apos;LegalEntityId&apos;
+* If Legal entity is found, it creates affiliate based on the information provided in input parameter &apos;AffiliateInformation&apos;
+* The affiliate entity will be added only if it&apos;s start and end dates do not clash with an existing active headquarter. 
+* If the start and end dates of the affiliate entity to be added are either before or after the period of the existing active headquarter, it will added to the list as an inactive headquarter.
+
+#### Inputs:
+* LegalEntityId: Legal Entity Identifier
+* AffiliateInformation: It contains the affiliate information such as Headquarter, Startdate, Enddate etc.
+
+#### Output: 
+* Legal Entity information with updated headquarters.
+
+#### Errors:
+Error Code: SWF-F0005
+Error Message: Cannot find entity, Invalid Legal Entity Identifier
+Resolution: Please provide the valid Legal Entity Identifier
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Actors_CreateAffiliateLegalEntityEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Actors_CreateAffiliateLegalEntityEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateAffiliateLegalEntity">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateLegalEntityWithHistory&apos; operation creates a Affiliate Legal Entity.
+The &apos;CreateAffiliateLegalEntity&apos; operation creates a Legal Entity Affiliate. 
 
 #### Business rules:
-*	The legal entity is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+* The operation searches for the legal entity as per the &apos;LegalEntityId&apos;
+* If Legal entity is found, it creates affiliate based on the information provided in input parameter &apos;AffiliateInformation&apos;
+* The affiliate entity will be added only if it&apos;s start and end dates do not clash with an existing active headquarter. 
+* If the start and end dates of the affiliate entity to be added are either before or after the period of the existing active headquarter, it will added to the list as an inactive headquarter.
 
 #### Inputs:
-*      Client Identifier
-*      Headquarter
-*      Start and end date
+* LegalEntityId: Legal Entity Identifier
+* AffiliateInformation: It contains the affiliate information such as Headquarter, Startdate, Enddate etc.
 
 #### Errors:
-*	Can Not Create Or Found Division
-*	Is already modified by other process
-*      Invalid Legal Entity Identifier
-
+Error Code: SWF-F0005
+Error Message: Cannot find entity, Invalid Legal Entity Identifier
+Resolution: Please provide the valid Legal Entity Identifier
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreateAffiliateLegalEntity_InputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateLegalEntityWithHistory">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateLegalEntityWithHistory&apos; operation creates a Legal Entity.
-Creates the version for the legal entity provided in the input.
-
-With this operation we can set:
-*	Legal entity  Information (name, short name...)
-*	Legal entity  correspondence 
-*	Legal entity  bank accounts
-*	Legal entity  contacts
-*	Legal entity  employees
-*	Legal entity  affiliates
+The &apos;CreateLegalEntityWithHistory&apos; operation used in data migration process which creates the Legal Entity with change history in destination database.
 
 #### Business rules:
-*	The legal entity is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+The operation captures the Legal entity details with history changes in Wynsure and creates the same in destination database.
 
 #### Inputs:
-*      aSPLI_CreateLegalEntityWithHistory class containing thirdPartyId,ClientId,etc....
+Input: It contains the below information.
+* Legal entity  Information (name, short name...)
+* Legal entity  correspondence 
+* Legal entity  bank accounts
+* Legal entity  contacts
+* Legal entity  employees
+* Legal entity  affiliates
 
 #### Response:
-*	&apos;LegalEntityBuid&apos; of the created legal entity
+tClientFullId: It contains the newly created Legal entity business identifier.
 
 #### Errors:
-*	Cannot find distribution network
-*	Two main addresses are defined
-*	Cannot create legal entity
+Error Code:WF-M0001
+Error Message:Input LegalEntityIdentityHistories is mandatory
+Resolution: Legal Entity details are mandatory.
+
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreateLegalEntityWithHistory_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_CreateLegalEntityWithHistory_OutputMessage"/>
@@ -4455,28 +4812,29 @@ With this operation we can set:
 <wsdl:operation name="CreateOrUpdateLegalEntity">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateOrUpdateLegalEntity&apos; operation creates or updates a legal entity at &apos;Input.UpdateDate&apos;.With this operation we can set:
-
-*	Legal entity Information (name, short name...)
-*	Legal entity  correspondence 
-*	Legal entity  bank accounts
-*	Legal entity  contacts
+The &apos;CreateOrUpdateLegalEntity&apos; operation creates or updates a legal entity
 
 #### Business rules:
-*	The operation creates or updates the Legal entity if necessary
-*	The Legal entity is created/updated in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+* The operation searches for the distribution network as per &apos;Input.ThirdPartyId&apos;
+* If distribution network is found, it then searches for the Legal entity.
+* If Legal entity is not found, it will create the legal entity in the distribution network identified by &apos;Input.ThirdPartyId&apos;
+  with the details like Correspondences, PaymentMethods, ContactInformations, AffiliateLegalEntity and LoginInformation.
+* if Legal entity is found, it updates the legal entity with the details of  Correspondences, PaymentMethods, ContactInformations, 
+  AffiliateLegalEntity and LoginInformation
+* Once, the legal entity is either created or updated, it will then update the employee list wtih the employees information provided.
 
 #### Inputs:
-*      aSPLI_CreateOrUpdateLegalEntity_Data class containing LegalEnitityIdentifier,employee info,etc...
+Input: It contains the Legal Entity details along with below details like.
+* Legal entity employees information
+* Legal entity divisions
 
 #### Response:
-*	LegalEntityBuid of the created/updated person
+tClientFullId: Business Identifier of Legal entity which is either created or updated by the operation.
 
 #### Errors:
-*	Cannot find distribution network
-*	Cannot create or update Legal Entity
-*	Two main addresses are defined
-*	Legal Entity  is already modified by other process
+Error Code: SWF-F0005
+Error Message: Cannot find entity, Can not found Distribution Network from ThirdPartyId 
+Resolution: Please provide the valid ThirdParty Id
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreateOrUpdateLegalEntity_InputMessage"/>
@@ -4485,28 +4843,24 @@ The &apos;CreateOrUpdateLegalEntity&apos; operation creates or updates a legal e
 <wsdl:operation name="CreatePersonWithHistory">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreatePersonWithHistory&apos; operation creates a person and his history. 
-With this operation we can set:
-
-*	Person Information History (name, short name, birth date...)
-*	Person correspondence 
-*	Person bank accounts
-*	Person contacts
+The &apos;CreatePersonWithHistory&apos; operation used in data migration process which creates the person with change history in destination database.
 
 #### Business rules:
-*	The person is created in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+The operation captures the person details with history changes in Wynsure and creates the person in destination database.
 
 #### Inputs:
-*      aSPLI_CreatePersonWithHistory class containing client id,correspondence,etc..
+Input: It contains the person details with change history along with below information:
+* Person correspondence 
+* Person bank accounts
+* Person contacts
 
 #### Response:
-*	PersonBuid of the created person
+tClientFullId: Return the business identifier of the person being created in destination database.
 
 #### Errors:
-*	Cannot find distribution network
-*	Two main addresses are defined
-*	Cannot create person
-
+Error Code:WF-M0001
+Error Message:Input PersonIdentityHistories is mandatory
+Resolution: Person details are mandatory for person to be created.
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_CreatePersonWithHistory_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_CreatePersonWithHistory_OutputMessage"/>
@@ -4514,11 +4868,11 @@ With this operation we can set:
 <wsdl:operation name="GetLegalEntityDetails">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetLegalEntityDetails&apos; operation returns the person details specified in &apos;LegalEntityBuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetLegalEntityDetails&apos; operation returns the details of the legal entity specified in &apos;LegalEntityBuid&apos;, at date specified in &apos;atDate&apos;. 
 
 #### Business Rules:
 It gets the legal entity from the BUID provided.
-Then it initialise to the param object and assigns to the result.
+Then it initializes the param object and assigns it to the result.
 
 #### Inputs:
 *      InternalClientId
@@ -4526,15 +4880,16 @@ Then it initialise to the param object and assigns to the result.
 *      atDate(tWFDate)
 
 #### Response:
-*	Customer information (identity, name, short name,...)
+*	Legal Entity Information such as: 
 *	Default correspondence
 *	Bank accounts
 *	Contacts
+*      Headquarter ID.     
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
-
+Error Code:SWF-F0005
+Error Message: Cannot find entity, Invalid Identifier
+Resolution: Verify the Legal Entity Business Identifier
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetLegalEntityDetails_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetLegalEntityDetails_OutputMessage"/>
@@ -4542,25 +4897,35 @@ Then it initialise to the param object and assigns to the result.
 <wsdl:operation name="GetPersonDetails">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetPersonDetails&apos; operation returns the person details specified in &apos;personbuid&apos; at date specified in &apos;atDate&apos;. 
+The &apos;GetPersonDetails&apos; operation returns the person details at a given date.
 
-#### Business Rules:
-It gets the person details from the Person identifier.
-It converts the business object to param object and assigns to the result.
+#### Business rules:
+* The operation searches for the person as per the input &apos;PersonBuid&apos;
+* If the person is found, it then gets the person details at a given date.
 
 #### Inputs:
-*      Client Identifier
-*      atDate(tWFDate)
+PersonBuid: Person Business Identifer
+atDate: Person details at a given date
 
 #### Response:
-*	Customer information (identity, name, short name,...)
-*	Default correspondence
-*	Bank accounts
-*	Contacts
+aSPLI_CreateOrUpdatePerson_Data: It contains,
+* Person Details
+* Legal representative
+* Claim disbursement details
 
 #### Errors:
-*	Invalid Business Identifier
-*	Invalid Business Object Type
+Error Code:BS_00026
+Error Message: Client Full Id Is Not Consistent
+Resolution: Verify the Person BUID input parameter
+
+Error Code:SWF-F0005
+Error Message: Cannot find entity, Cannot find details of the person
+Resolution: Not able to find the person for the given date. Verify the date.
+
+Error Code:SWF-F0005
+Error Message: Cannot find entity, Person does not exists
+Resolution: Verify the Person BUID and provide valid BUID.
+
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetPersonDetails_InputMessage"/>
@@ -4569,26 +4934,33 @@ It converts the business object to param object and assigns to the result.
 <wsdl:operation name="CreateOrUpdatePerson">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateOrUpdatePerson&apos; operation creates or updates a person at &apos;Input.UpdateDate&apos;.
+The &apos;CreateOrUpdatePerson&apos; operation creates or updates a person.
 
 #### Business rules:
-*	The operation creates or updates the person if necessary
-*      The operation creates a legal representative person / updates the reference to representative person (The creation is selected to perform over the updating in the presence of both identifier and other inforamtion)
-*	The person is created/updated in the distribution network specified in &apos;Input.ThirdPartyID&apos;
+* Based on the &apos;Legal representative&apos; input parameter, it first creates or updates legal representative.
+* It then searches for the distribution network based on input parameter &apos;ThirdPartyID&apos;
+* Once, distribution network is found, it searches for the person in that distribution network based on first name or SSN.
+* If the person is not found, the operation will create the person in the distribtuion network identified by &apos;ThirdPartyId&apos;
+* Else, if the person is found, it updates the person with the details provided.
 
 #### Inputs:
-*      Person info(PersonTitleEnum,PriorName,MiddleName1,MiddleName2,NameSuffix,Gender,BirthDate,Nationality...)    
-*      ClaimDisbursementChannel
-*      Legal representative
+Input: It contains the below details about the person.
+* Person info(PersonTitleEnum,PriorName,MiddleName1,MiddleName2,NameSuffix,Gender,BirthDate,Nationality...)    
+* ClaimDisbursementChannel
+* Legal representative
 
 #### Response:
-*	PersonBuid of the created/updated person
+tClientFullId: Person business identifier
 
 #### Errors:
-*	Cannot find distribution network
-*	Cannot create or update person
-*	Two main addresses are defined
-*	Person is already modified by other process
+Error Code: WF-M0001
+Error Message:This value is mandatory
+Resolution: Please provide the input parameters with valid data values.
+
+Error Code: SWF-B0008
+Error Message: Cannot create or update entity, Cannot create or update person
+Resolution: Please verify and provide valid person details input parameter.
+
 
 
 </wsdl:documentation>
@@ -4598,21 +4970,249 @@ The &apos;CreateOrUpdatePerson&apos; operation creates or updates a person at &a
 <wsdl:operation name="GetAvailablePrintingMediaForActor">
 <wsdl:documentation>
 #### Summary:
-The &apos;GetAvailablePrintingMediaForActor&apos; operation returns the printing medias defined in Wynsure:
+The &apos;GetAvailablePrintingMediaForActor&apos; operation provides the list of printing media.
 
 #### Business rules:
-*	The operation returns a list according to the configuration of dymanic broker in the Wynsure application desc.
+The operation provides the list of printing media like (Email, Mail, Fax) defined for an Actor.
+
+#### Inputs: None
 
 #### Response:
-*	List of cstrings representing the available printing media
+tCStringSeq: Contains a Sequence of printing media like (Email, Mail, Fax) defined for an Actor
 
-#### Errors:
-*	Asking for a broker class that is not a dynamic broker
-
-
+#### Errors: None
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_Actors_GetAvailablePrintingMediaForActor_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_Actors_GetAvailablePrintingMediaForActor_OutputMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:portType name="aSLI_Manage_Broker">
+<wsdl:documentation>
+Create a broker or update brokers information: correspondence, bank account, organization, payment method....
+
+</wsdl:documentation>
+<wsdl:operation name="GetBrokerHierarchies">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetBrokerHierarchies&apos; operation returns the paticular broker details alongwith its hierarchy specified in &apos;Input.BrokerId&apos;. 
+
+#### BUsiness Rules:
+Firstly it fetched out the broker details specified in the &apos;Input.BrokerId&apos; 
+and then finally returns the hierarchy for that brokers if the count for Broker.BrokerOrganization is greater than 0.
+
+#### Input:
+*     BrokerID(tWFLongName)
+
+#### Response:
+*     BrokerID 
+*     UpdateDate 
+*     BrokerIdentity
+*     Correspondences 
+*     PaymentMethods 
+*     ContactInformations
+*     BrokerHierarchies 
+*     CommissionPlanInformations
+
+#### Errors:
+*	Invalid Business Identifier
+*      The Broker Is Nil
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_GetBrokerHierarchies_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_GetBrokerHierarchies_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerInformation">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetBrokerInformation&apos; operation returns the broker details specified in &apos;Input.BrokerId&apos;. 
+
+#### BUsiness Rules:
+It returns object with broker details alongwith broker license.
+
+#### Input:
+*     BrokerID(tWFLongName)
+
+#### Response:
+*     BrokerID 
+*     UpdateDate 
+*     BrokerIdentity
+*     Correspondences 
+*     PaymentMethods 
+*     ContactInformations
+*     BrokerHierarchies 
+*     CommissionPlanInformations
+
+#### Errors:
+*	Invalid Business Identifier
+*      The Broker Is Nil
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_GetBrokerInformation_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_GetBrokerInformation_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateBrokerHierarchies">
+<wsdl:documentation>
+#### Summary:
+The &apos;CreateBrokerHierarchies&apos; operation creates the broker hierarchy for the broker provided in &apos;Input.BrokerId&apos;:
+
+####Business Rules:
+Firstly it fetches the broker details from the provided &apos;Input.BrokerId&apos;.
+Then it creates the hierarchy provided in the input for the &apos;Input.BrokerId&apos;.
+
+####Inputs:
+*	Broker id
+*	Name
+*	Short Name
+
+####Errors:
+*      Input Broker Identity is mandatory
+*      Wynsure errors
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_CreateBrokerHierarchies_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateBroker">
+<wsdl:documentation>
+#### Summary:
+The &apos;CreateOrUpdateBroker&apos; operation creates or updates broker. With this operation we can set:
+
+*	Broker information
+*	Correspondences
+*	Payment methods
+*	Contact information
+*	Broker hierarchies
+*	Commission plan information
+
+#### Business rules:
+*	The operation begins to test if the broker exists from broker ID.
+*	If the broker exists, the operation updates this broker else it creates a new broker.
+
+#### Inputs:
+*      BrokerID 
+*      UpdateDate 
+*      BrokerIdentity
+*      Correspondences 
+*      PaymentMethods 
+*      ContactInformations
+*      BrokerHierarchies 
+*      CommissionPlanInformations
+
+#### Response:
+*      BrokerId
+
+#### Errors:
+*     The Business Object Is Nil
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_CreateOrUpdateBroker_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_CreateOrUpdateBroker_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="AddBrokerBankAccount">
+<wsdl:documentation>
+#### Summary:
+The &apos;AddBrokerBankAccount&apos; operation adds a new bank account to the broker specified in &apos;Buid&apos;.
+
+#### Business rules:
+*	The endorsement is effective at current date
+*	The endorsement is auto validated immediately
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+*	Wynsure Errors
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_AddBrokerBankAccount_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UpdateBrokerCorrespondence">
+<wsdl:documentation>
+#### Summary:
+The &apos;UpdateBrokerCorrespondence&apos; operation updates broker correspondence using &apos;Buid&apos;.With this operation we can set:
+
+*	Private Cell Phone
+*	Office Phone
+*	Home Phone
+*	Private EMail
+*	Private Fax
+*    Address Lines
+*    ZipCode and City
+*    State
+*    District
+*    Country
+
+#### Business rules:
+*	The endorsement is effective at current date
+*	The endorsement is auto validated immediately
+*	After this operation the default broker correspondence should have a new version at current date
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+*	Wynsure Errors
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_UpdateBrokerCorrespondence_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerDetails">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetBrokerDetails&apos; operation returns the details of the broker specified in &apos;BrokerGUID&apos;.
+
+#### Response:
+*	Broker Information (name, short name, license n&#176;,...)
+*	Broker correspondence
+*	Broker contacts
+*	Broker bank accounts
+*	Broker Id
+
+
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_GetBrokerDetails_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_GetBrokerDetails_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetRootsBrokerDetails">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetRootsBrokerDetails&apos; operation returns the top hierarchy nodes for the broker specified in &apos;buid&apos;.
+
+#### Response (a sequence of record):
+*	Brokers Hierarchy (Parent, Name, Short name)
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_GetRootsBrokerDetails_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_GetRootsBrokerDetails_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerChildren">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetBrokerChildren&apos; operation returns the first level children under given broker
+
+#### Business rules:
+*	The search criteria are:
+	*	Parent: this criteria is mandatory broker parent in hierarchy
+	*	BrokerBuid: this criteria is mandatory parent
+
+#### Response (a sequence of record):
+*	Brokers Hierarchy (Name, Short name)
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_Manage_Broker_GetBrokerChildren_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_Broker_GetBrokerChildren_OutputMessage"/>
 </wsdl:operation>
 </wsdl:portType>
 <wsdl:portType name="aSLI_Manage_CustomerRequest">
@@ -4648,6 +5248,9 @@ The &apos;SearchGeneratedDocumentsForObject&apos; operation returns the list of 
 <wsdl:output message="ns:aSLI_Manage_CustomerRequest_SearchGeneratedDocumentsForObject_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateCustomerContact">
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContact_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateCustomerContactEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CreateCustomerContact&apos; operation creates an incoming or outgoing customer contact with the information contained by ContactDescription.
@@ -4665,7 +5268,8 @@ With this operation we can set:
 *	Invalid Business Object Type
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContact_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContactEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContactEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="GetContactFromOpAssignment">
 <wsdl:documentation>
@@ -4689,6 +5293,9 @@ The &apos;GetContactFromOpAssignment&apos; operation returns the correspondence 
 <wsdl:output message="ns:aSLI_Manage_CustomerRequest_GetContactFromOpAssignment_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="ForwardCustomerRequest">
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequest_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ForwardCustomerRequestEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;ForwardCustomerRequest&apos; operation forwards the task to the default team. 
@@ -4704,9 +5311,13 @@ The &apos;ForwardCustomerRequest&apos; operation forwards the task to the defaul
 *	Wynsure Errors
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequest_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="ApplyCustomerRequest">
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequest_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="ApplyCustomerRequestEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;ApplyCustomerRequest&apos; operation validates the task created by CreateIncomingCustomerRequest and removes it from the to do list. 
@@ -4720,7 +5331,8 @@ The &apos;ApplyCustomerRequest&apos; operation validates the task created by Cre
 *	Wynsure #### Errors
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequest_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="SearchRequirementDescriptors">
 <wsdl:documentation>
@@ -4839,6 +5451,9 @@ A list of generated documents related to the claim in question, which contains
 <wsdl:output message="ns:aSLI_Manage_CustomerRequest_SearchReceivedRequirements_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateIncomingCustomerRequest">
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequest_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateIncomingCustomerRequestEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CreateIncomingCustomerRequest&apos; operation creates an incoming customer request and a task with the information contained by aSLI_CRMRequest_In.
@@ -4862,9 +5477,13 @@ The &apos;CreateIncomingCustomerRequest&apos; operation creates an incoming cust
 *    Cannot find request from RequestId
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequest_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UploadRequestedRequirementsForObject">
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObject_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="UploadRequestedRequirementsForObjectEx">
 <wsdl:documentation>
 #### Summary
 The &apos;UploadRequestedDocumentsForObject&apos; operation uploads requested documents for an object.
@@ -4885,7 +5504,8 @@ The &apos;UploadRequestedDocumentsForObject&apos; operation uploads requested do
 *	No file is selected
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObject_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="SearchRequestedRequirementsForObject">
 <wsdl:documentation>
@@ -5197,7 +5817,27 @@ date or update an existing quote process.
 </wsdl:operation>
 <wsdl:operation name="GetDocumentRequestsContainerForContract">
 <wsdl:documentation>
-[DEPRECATED]
+#### SUMMARY : 
+
+This service will fetch the document requests container for a particular policy.
+
+#### Business Rules : 
+*     Policy object will be fetched from the input identifier.
+*     Document Requests Container for is fetched from the policy object.
+*     This service can be used to provide the container ID to aSF_Manage_RequirementRequest services.
+
+#### Input : 
+*     Policy Identifier (BUID)
+
+#### Output : 
+*     aSPCB_DocumentRequestsContainerForContract containing : 
+*           List of requirement requests
+
+#### Errors : 
+*     Cannot find the policy from the identifier.
+*     Document Requests Container does not exist.
+
+
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Subscribe_Policy_GetDocumentRequestsContainerForContract_InputMessage"/>
 <wsdl:output message="ns:aSLI_Subscribe_Policy_GetDocumentRequestsContainerForContract_OutputMessage"/>
@@ -8329,6 +8969,9 @@ manage GBP contract : create or get contract
 <wsdl:output message="ns:aSLI_Subscribe_GBPContract_GetGBPContractWithHistory_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="TransformSavedGBPQuoteIntoContract">
+<wsdl:input message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContract_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="TransformSavedGBPQuoteIntoContractEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;TransformSavedGBPQuoteIntoContract&apos; operation transforms a submitted GBP Quote into a GBP contract and initializes the subscription process.
@@ -8348,7 +8991,8 @@ Then it checks the quote transformation and then finally it create a GBP subscri
 *	Quote is no longer valid at the signature date
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContract_InputMessage"/>
+<wsdl:input message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="UploadCensusFile">
 <wsdl:documentation>
@@ -8581,56 +9225,102 @@ manage employees elligible for GBP contracts, enrollments and members enrolled i
 The &apos;SaveEnrollmentProcess&apos; operation saves an enrollment process depends on given input 
 
 #### Business rules:
-* Validate the &apos;Enrollment process&apos; if the parameter &apos;Auto Validate&apos; is set to &apos;True&apos;.In this case the process will be:
-           * In underwriting and suspended at Underwriting step, if underwriting is needed
-           * Accepted if it is at &apos;Validation&apos; step
-* Enrollment process will be suspended if there are errors or &apos;Auto validate&apos; is set to &apos;False&apos;.
+
+*This service is used to create or update member contract for a GBP with Mono product.
+*It can be used to create or update member contract for an existing employee.
+*To work on existing employee, the insured in the coverage details has to be the same person of the employment.
+*Incase of creation of employee for a legal entity, Person can be searched or created.
+*It can create member contract with default plan design.To do so, no need to provide additional data in the coverage information.
+*It can create member contract with default mandatory coverages. To do so, no need to provide coverage details.
+
+*Validate the &apos;Enrollment process&apos; if the parameter &apos;Auto Validate&apos; is set to &apos;True&apos;.In this case the process will be:
+***In underwriting and suspended at Underwriting step, if underwriting is needed
+***Accepted if it is at &apos;Validation&apos; step
+*Enrollment process will be suspended if there are errors or &apos;Auto validate&apos; is set to &apos;False&apos;.
 
 #### Input:
-	     *EnrollmentNumber(tPolicyFullId)
-	     *ThirdPartyID(tWFLongName)
-            *Employee Information
-            *Enrollment information
-            *AutoValidate(Boolean)
+
+*EnrollmentNumber(tPolicyFullId)
+*ThirdPartyID(tWFLongName)
+*Employee Information
+*Enrollment information
+*AutoValidate(Boolean)
 
 #### Response:
-* tSLI_SubscriptionOrEndorsment ProcessDetails containing
-            *Process ID
-            *Contract ID
-            *Contract Endorsement Or Subscription Status (In Progress, Need underwriting, Accepted or Declined)
+
+*tSLI_SubscriptionOrEndorsment ProcessDetails containing
+**Process ID
+**Contract ID
+**Contract Endorsement Or Subscription Status (In Progress, Need underwriting, Accepted or Declined)
 
 #### Errors:
-            *Cannot create or update member contract
-            *Cannot create enrollment process
+
+*WF-M0001  :This value is mandatory Input 
+*SWF-F0005 :Cannot find entity Employee
+*BS_00005  :Error during Validation of Member 
+*WF-D0002  :This is duplicated object This object is a duplicate of other objects(Member)
+*5668_BS_00027 :Employee Full Id Is Not Consistent
+*50D4_BS00024  :Is Not A Enrollment Contract 
+*5668_BS_00028 :Can Not Find Legal Entity By LegalEntity FullId
+*5668_BS_00016 :Legal Entity must be not null 
+*1FDE_BS_00004 :GBP not Active at Date
+*1FDE_BS_00003 :Cannot find GBP Contract by GBP Contract Number 
+*5A92_BS_00006 :Coverage must have at least one covered person 
+*Warning:BS_00005 :Error during Validation of  Coverage Amount 
+*Warning:WF_00004 :Not eligible to Requested Coverage Amount due to Age or Maximum Amount Defined Coverage Amount 
+*Warning:401E_BS_00001 :Given coverage amount cannot be used
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Manage_GBPMember_SaveEnrollmentProcess_InputMessage"/>
 <wsdl:output message="ns:aSLI_Manage_GBPMember_SaveEnrollmentProcess_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEnrollment">
+<wsdl:input message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollment_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEnrollmentEx">
 <wsdl:documentation>
 #### SUMMARY:
-* The CreateOrUpdateEnrollment operation creates or updates the enrollment data.
+*The &apos;CreateOrUpdateEnrollment&apos; operation creates or updates the enrollment data.
 
 #### Business rules:
-* It searches the employee with the Actor.Employee BUID.
-* If enrollment exists,then it updates and saves the updated data else it creates the enrollment with the enrollment information provided in the input
 
-#### Input:
-	     *EnrollmentNumber(tPolicyFullId)
-	     *ThirdPartyID(tWFLongName)
-            *Employee Information
-            *Enrollment information
+*This service is used to create or update member contract for a GBP with Mono product.
+*It can be used to create or update member contract for an existing employee.
+*To work on existing employee, the insured in the coverage details has to be the same person of the employment.
+*Incase of creation of employee for a legal entity, Person can be searched or created.
+*It can create member contract with default plan design.To do so, no need to provide additional data in the coverage information.
+*It can create member contract with default mandatory coverages. To do so, no need to provide coverage details.
+*Underwriting task can be created if there is any underwriting required.
+
+#### Inputs:
+
+*EnrollmentNumber(tPolicyFullId)
+*ThirdPartyID(tWFLongName)
+*Employee Information
+*Enrollment information
+*Coverage informations
 
 #### Errors:
-            *Can Not Find Policy By Policy Id.
-            *Distribution Unit Of Contract Must Not Be Null.
-            *To Get Policy FullId Contract Must Not Be Empty.
-            *This type of coverage is not managed.
+
+*WF-M0001  :This value is mandatory Input 
+*SWF-F0005 :Cannot find entity Employee
+*BS_00005  :Error during Validation of Member 
+*WF-D0002  :This is duplicated object This object is a duplicate of other objects(Member)
+*5668_BS_00027 :Employee Full Id Is Not Consistent
+*50D4_BS00024  :Is Not A Enrollment Contract 
+*5668_BS_00028 :Can Not Find Legal Entity By LegalEntity FullId
+*5668_BS_00016 :Legal Entity must be not null 
+*1FDE_BS_00004 :GBP not Active at Date
+*1FDE_BS_00003 :Cannot find GBP Contract by GBP Contract Number 
+*5A92_BS_00006 :Coverage must have at least one covered person 
+*Warning:BS_00005 :Error during Validation of  Coverage Amount 
+*Warning:WF_00004 :Not eligible to Requested Coverage Amount due to Age or Maximum Amount Defined Coverage Amount 
+*Warning:401E_BS_00001 :Given coverage amount cannot be used
 
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollment_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="TerminateEnrollement">
 <wsdl:documentation>
@@ -8886,6 +9576,9 @@ The &apos;SearchListEmployeeEnrollment_ACORD&apos; operation get a list of enrol
 <wsdl:output message="ns:aSLI_Manage_CensusLoading_SendListEmployeeEnrollment_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateListOfEmployeeEnrollment">
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollment_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateListOfEmployeeEnrollmentEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CreateOrUpdateListOfEmployeeEnrollment&apos; operation creates or updates a list of Enrollment and do not return any information. With this operation we can set for each enrollment:
@@ -8946,70 +9639,67 @@ The &apos;CreateOrUpdateListOfEmployeeEnrollment&apos; operation creates or upda
 *	 Wynsure Errors
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollment_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEmployeeEnrollment">
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollment_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEmployeeEnrollmentEx">
 <wsdl:documentation>
 #### Summary:
-The &apos;CreateOrUpdateEmployeeEnrollment&apos; operation creates or updates an Enrollment and does not return any information. With this operation we can set:
 
-*	 Enrollment information (State and additional Information)
-*	 Covered definition (Create insured and their information)
-*	 Subscription choices (For each insured)
-*	 Coverages information (Additional Information and coverage amount)
+The &apos;CreateOrUpdateEmployeeEnrollment&apos; operation creates or updates an Enrollment and does not return any information. With this operation we can set:
+*Enrollment information (State and Member class)
+*Covered definition (Create insured and their information)
+*Subscription choices (For each insured)
+*Coverages information (Plan design and coverage amount)
 
 #### Business rules:
-*	 The operation manages life enrollment creation and technical update
-*	 The operation tries to load an existing enrollment from the contract id. It also tries to load an existing person/subscriber from the client id
-*	 The operation will technically update an existing object (subscriber or enrollment) 
-*	 The operation put the enrollment in the good status: active, pending, underwriting
-*	 Set operations are triggered in this order:
-	*	Create or update employee
-	*	Set the enrollment information
-	*	Set the covered persons
-	*	Set coverages information
-	*	Set coverage amount, beneficiary and underwriting information on coverage
-*	 A failed operation will not accept anything in the database
+
+*This operation is used to create or update member contract for a GBP with Mono product and Multi product.
+*To use it for a particular scenario(Mono/Multi product), user has to switch the input(Product/Coverage details) accordingly.
+*It can be used to create or update member contract for an existing employee.
+*To work on existing employee, the insured in the coverage details has to be the same person of the employment.
+*Incase of creation of employee for a legal entity, Person can be searched or created.
+*It can create member contract with default plan design
+*It can create member contract with default mandatory coverages.
+*Underwriting task can be created if there is any underwriting required.
+*This operation puts the enrollment in the good status: active, pending, underwriting
+*Set operations are triggered in this order:
+***Create or update employee
+***Set the enrollment information
+***Set coverages information
+***Set the covered persons
+***Set coverage amount, beneficiary and underwriting information on coverage
+*A failed operation will not accept anything in the database
 
 #### Errors:
-*	 Invalid Input data
-*	 Product is mandatory
-*	 Contract number is mandatory
-*	 GBP contract number is mandatory
-*	 This kind of beneficiary doesn&apos;t exist
-*	 Cannot create this beneficiary
-*	 Coverage must have at least one covered person
-*	 Beneficiary values don&apos;t match
-*	 Coverage is nil or with bad type
-*	 More than one param covered person for mono covered offered entity
-*	 Less coverage define on param than coverage on contract
-*	 One coverage was not updated
-*	 Coverage is already modified by another process
-*	 The Outgoing Payment Method Is Nil
-*	 The Incoming Payment Method Is Nil
-*	 At least one Insured Persons was not found on Coverage
-*	 At least one Insured Persons was not updated on Coverage
-*	 At least one Beneficiary was not updated on Coverage
-*	 At least one Beneficiary was not found on Coverage
-*	 No beneficiaries information on param in
-*	 Missing Coverage on param
-*	 This beneficiary description is not manage yet
-*	 Coverage Amount not initialized
-*	 Underwriting service not initialized
-*	 Covered person is already modify by another process
-*	 Premium is already modify by another process
-*	 Coverage is already modify by another process
-*	 BillDesc is already modify by another process
-*	 Can not subscribe coverage for this dependent type of covered
-*	 Param Details of covered person is not initialized
-*	 Error on beneficiaries definition
-*	 Beneficiaries description is not initialized
-*	 The subscription date is prior to the product effective date
-*	 DistributionNetwork is mandatory to find Person
-*	 Wynsure Errors
+
+*WF-M0001 :This value is mandatory Input 
+*WF-M0001 :This value is mandatory Employee 
+*BS_00005 :Error during Validation of Member
+*WF_00001 :The data &apos;Insured Relationship to Owner&apos; is mandatory
+*WF-D0002 :This is duplicated object This object is a duplicate of other objects
+*SWF-F0005 :Cannot find distribution network
+*SWF-B0008 :Cannot create or update entity Enrollment 
+*SWF-F0005 :Cannot find entity Cannot find legal entity
+*SWF-B0006 :Cannot create entity Can Not Create Coverage   
+*SWF-B0006 :Cannot create entity EnrollmentInformation 
+*5668_BS_00020 :Error during Employee information creation
+*5668_BS_00017 :Person must be not null
+*5668_BS_00022 :ParamEmployee must be not null
+*5668_BS_00016 :Legal Entity must be not null 
+*5668_BS_00021 :Can not found Person 
+*401E_BS_00001 :Given coverage amount cannot be used
+*5A92_BS_00039 :Param Details of covered person is not initialized 
+*1FDE_BS_00004 :GBP not Active at Date
+*1FDE_BS_00003 :Cannot find GBP Contract by GBP Contract Number 
+*1FDE_BS_00003 :Subscriber is mandatory   
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollment_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEnrolledEmployee">
 <wsdl:documentation>
@@ -9068,6 +9758,9 @@ The &apos;CreateOrUpdateEmployeeEnrollment&apos; operation creates or updates an
 <wsdl:output message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollments_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEmployee">
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployee_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEmployeeEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CreateOrUpdateEmployee&apos; operation creates or updates an employee at &apos;Input.Person.UpdateDate&apos;.
@@ -9095,7 +9788,8 @@ The &apos;CreateOrUpdateEmployee&apos; operation creates or updates an employee 
 *	Person is already modify by other process
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployee_InputMessage"/>
+<wsdl:input message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx_InputMessage"/>
+<wsdl:output message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx_OutputMessage"/>
 </wsdl:operation>
 </wsdl:portType>
 <wsdl:portType name="aSLI_Subscribe_LifePolicy">
@@ -9127,7 +9821,7 @@ Service providing life policy subscription and quote creation in Wynsure.
 *      aSPLI_CreateIndividualLifePolicyWithHistory   
 
 #### Errors:
-*      Contract number is mandatory
+*      Connot find policy from policy ID.
 
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_Subscribe_LifePolicy_GetIndividualLifeContractWithHistory_InputMessage"/>
@@ -10524,6 +11218,177 @@ The &apos;GetClaimLosses&apos; operation returns the lifes losses of the claim s
 <wsdl:output message="ns:aSLIC_Consult_LifeClaim_GetClaimLosses_OutputMessage"/>
 </wsdl:operation>
 </wsdl:portType>
+<wsdl:portType name="aSLIC_Manage_LifeClaim">
+<wsdl:documentation>
+This business service is used to get information on existing claim and declare new claim
+
+</wsdl:documentation>
+<wsdl:operation name="StartClaimDeclarationProcess">
+<wsdl:documentation>
+#### Summary:
+* The &apos;StartClaimDeclarationProcess&apos; operation initializes the Individual claim declaration process. 
+
+#### Business rules:
+* This service creates an instance of &apos;Individual claim declaration data clase&apos;(aSPLIC_IndividualClaimDeclarationProcessData)
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetLifeClaim">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetLifeClaim&apos; operation create a &quot;create life Claim Param Service&quot; from the life claim whose full id is given in parameter.
+
+#### Business rules:
+*	The operation creates an instance of &quot;Create Life Claim Param Service&quot; (aSPLIC_CreateLifeClaim).
+*	OverPayment is not managed
+
+#### Errors:
+*	Can not find claim by claimID
+*	Wynsure Errors
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_GetLifeClaim_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_GetLifeClaim_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateLifeClaim">
+<wsdl:documentation>
+#### Summary:
+The &apos;CreateLifeClaim&apos; operation creates an individual life claim (aWLIClaim) with the following informations:
+
+*	Claim Information (Open date, close date, status ....)
+*	Loss Information  (Insured, Loss descriptor...)
+*	Delivered service information (beneficiary, Amount, subscribed coverage...)
+*	Delivered waiver of premium information (exercised coverage ...)
+*	Indemnification (Beneficiary part, Indemnification Period ...)
+*       Invervention for delivered service (provider, delivered payment information...)
+
+#### Business rules:
+*	The operation create an individual life claim.
+*     	The Policy, claimant, beneficiary, claim manager, service provider need to be already imported in Wynsure, this service don&apos;t create new actor.
+*	The Claim overpayment is not managed at the moment.	
+
+#### Response:
+*	Claim full ID of the created claim
+
+#### Errors:
+*	Cannot find claimant
+*	Cannot find claim manager
+*	Cannot find claimant
+*	Cannot find insured
+*	Cannot find beneficiary actor
+*	Identifiers does not correspond to one contract
+*	Cannot find offered entity
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_CreateLifeClaim_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_CreateLifeClaim_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SendReturnToWorkNotification">
+<wsdl:documentation>
+#### Summary:
+The &apos;SendReturnToWorkNotification&apos; operation sends a notification of &quot;return to work&quot; on a claim to claim treatment team.
+
+#### Business rules:
+*	The operation retrieves the claim
+*	It checks if the claim is opened before the date of returning
+*	It sends a notification to claim treatment team
+*	We can set:
+	*	The date of returning to work
+	*	The description
+
+#### Errors:
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+*	No open short term disability loss found for the current claimant
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_SendReturnToWorkNotification_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="SubmitClaim">
+<wsdl:documentation>
+#### Summary:
+The &apos;SubmitClaim&apos; operation submits a new claim on the person specified in &apos;Criteria.ClaimantId&apos;.
+
+#### Business rules:
+*	The operation creates a claim declaration process and submits it.
+*	The operation creates a claim treatment process by product family and sends it to the back office team.
+*	The operation attaches the uploaded document list to the specified claimant.
+*	The operation returns the list of opened claims related to this declaration.
+
+#### Response:
+*	A list of claim information related to the declaration, which contains:
+	*	Claim buid
+	*	Claimant
+	*	Claim number
+	*	Claim object
+
+#### Errors:
+*	Client not found
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+*	Declaration Date can not be future
+*	Event Date can not be future
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_SubmitClaim_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_SubmitClaim_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GetPossibleLossesForWebDeclaration">
+<wsdl:documentation>
+#### Summary:
+The &apos;GetPossibleLossesForWebDeclaration&apos; operation returns the possible losses for web portal declaration.
+
+#### Business rules:
+*	It searches and returns all the possible losses for the client through &apos;ClientIdentifier&apos;.
+*	This operation manages only life claim declaration.
+ 
+#### Response:
+*	A list of loss descriptors which contains
+	*	Loss desc buid
+	*	Loss desc name
+	*	Loss desc events
+
+#### Errors:
+*	Client not found
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateEmptyLossParamFromDescriptor">
+<wsdl:documentation>
+#### Summary:
+The &apos;CreateEmptyLossParamFromDescriptor&apos; operation returns the loss details corresponding to the loss descriptor specified in &apos;LossDescriptorIdentifier&apos;.
+
+#### Business rules:
+*	The search criteria are:
+	*	LossDescriptorIdentifier : the descriptor buid
+
+#### Response:
+Loss details corresponding to the loss descriptor
+
+*	ParamEntity : Loss general information
+*	LossType : the loss type
+*	LossEvent : a empty loss event ( not initialized )
+*	LossReason : a empty loss reason ( not initialized )
+*	ParamDescriptor : aSPLIC_GetLossDesc_Data (param descriptor used to create current loss)
+*	SubLosses : a empty list of sub loss ( not initialized )
+
+
+#### Errors:
+*	Client not found
+*	Invalid Business Identifier
+*	Invalid Business Object Type
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor_InputMessage"/>
+<wsdl:output message="ns:aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor_OutputMessage"/>
+</wsdl:operation>
+</wsdl:portType>
 <wsdl:portType name="aSLIC_Manage_Claim">
 <wsdl:documentation>
 This business service is used to get information on existing Claim and declare new Claim.
@@ -11240,7 +12105,26 @@ This service will fetch the document requests container for a particular interve
 </wsdl:operation>
 <wsdl:operation name="GetDocumentRequestsContainerForClaim">
 <wsdl:documentation>
-[DEPRECATED]
+#### SUMMARY : 
+
+This service will fetch the document requests container for a particular claim.
+
+#### Business Rules : 
+*     First Claim object will be fetched from the input claim identifier.
+*     Document Requests Container is then obtained from the claim object.
+*     This service can be used to provide the container id to aSF_Manage_RequirementRequest services.
+
+#### Input : 
+*     Claim Identifier (BUID)
+
+#### Output : 
+*     aSPLIC_DocumentRequestsContainerForClaimData containing : 
+*           List of requirement requests
+
+#### Errors : 
+*     Cannot find the claim from the identifier.
+*     Document Requests Container does not exist.
+
 </wsdl:documentation>
 <wsdl:input message="ns:aSLIC_Manage_Claim_GetDocumentRequestsContainerForClaim_InputMessage"/>
 <wsdl:output message="ns:aSLIC_Manage_Claim_GetDocumentRequestsContainerForClaim_OutputMessage"/>
@@ -11920,6 +12804,74 @@ It creates new health claim including all necessary information
   var GBPId : tPolicyFullId
 
 </wsdl:documentation>
+<wsdl:operation name="CreateOrUpdateEnrolledEmployee">
+<wsdl:documentation>
+DSN - Employ&#233;
+#### Summary:
+The &apos;CreateOrUpdateEnrolledEmployee&apos; business service creates and updates one employee of a legal entity. 
+It is supposed to be called by aSLI_FR_Manage_DSN.CreateOrUpdateLegalEntityEnrolledEmployees
+It follows the french DSN norm 
+
+#### Business rules:
+*       The persons are found using the SSN and if needed the last name, date of birth and first name
+*       For employee criteria we check that the &apos;code population&apos; passed to the BS by the DSN flow is consistent with the mapping of the GBP. And else raise an error
+*       During Enrollment, mandatory coverages are automatically subscribed.
+*       Then SubscribedOptions are populated from DSN Options 
+*       When creating a new employee the system sets the &quot;R&#233;gime&quot; and &quot;Caisse&quot; tof the person from the DSN file. These data are not updated through DSN
+*       If an employee had previously an enrollment, which is not given in input by the DSN file an error is raised
+*       When there is a end date for an employee (date de fin de contrat de travail), the employee is terminated and all his enrollments are terminated
+*       For now updates on enrollment are not handled because the effective date is not present in the DSN file, errors are thrown: Member class change (code population),DSN option change
+
+#### Response:
+*	boolean: false if there is an error
+
+#### Errors:
+*     If the employee can not be found
+*     If the legal entity can not be found
+*     If the network distribution can not be found
+*     If an employee had previously an enrollment, which is not given in input by the DSN file
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_InputMessage"/>
+<wsdl:output message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="GenerateFullSSN">
+<wsdl:input message="ns:aSLI_FR_Manage_DSN_GenerateFullSSN_InputMessage"/>
+<wsdl:output message="ns:aSLI_FR_Manage_DSN_GenerateFullSSN_OutputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEmployeeEnrollment">
+<wsdl:documentation>
+DSN - Affiliation
+#### Summary:
+The &apos;CreateOrUpdateEmployeeEnrollment&apos; business service creates and updates an enrollment for one employee of a legal entity. 
+It is supposed to be called by aSLI_FR_Manage_DSN.CreateOrUpdateEnrolledEmployee
+It follows the french DSN norm 
+
+#### Business rules:
+*       The persons are found using the SSN and if needed the last name, date of birth and first name
+*       For employee criteria we check that the &apos;code population&apos; passed to the BS by the DSN flow is consistent with the mapping of the GBP. And else raise an error
+*       During Enrollment, mandatory coverages are automatically subscribed.
+*       Then SubscribedOptions are populated from DSN Options 
+*       When there is a end date for an employee (date de fin de contrat de travail), the employee is terminated and all his enrollments are terminated
+*       For now updates on enrollment are not handled because the effective date is not present in the DSN file, errors are thrown: Member class change (code population),DSN option change
+
+#### Response:
+*	tPolicyFullId: Id of the enrollment
+
+#### Errors:
+*     If the employee can not be found
+*     If the group contract can not be found
+*     If the Hire date is prior to the GBP effective date
+*     If the network distribution can not be found
+*     If it can not create or update an enrollment
+*     If the population is not consistent with the employee criteria
+*     If the code population has changed
+*     If a code option has changed
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_InputMessage"/>
+<wsdl:output message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_OutputMessage"/>
+</wsdl:operation>
 <wsdl:operation name="CreateOrUpdateLegalEntityEnrolledEmployees">
 <wsdl:documentation>
 DSN - Etablissement
@@ -11958,70 +12910,6 @@ It follows the french DSN norm
 </wsdl:documentation>
 <wsdl:input message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_InputMessage"/>
 <wsdl:output message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_OutputMessage"/>
-</wsdl:operation>
-<wsdl:operation name="CreateOrUpdateEnrolledEmployee">
-<wsdl:documentation>
-DSN - Employ&#233;
-#### Summary:
-The &apos;CreateOrUpdateEnrolledEmployee&apos; business service creates and updates one employee of a legal entity. 
-It is supposed to be called by aSLI_FR_Manage_DSN.CreateOrUpdateLegalEntityEnrolledEmployees
-It follows the french DSN norm 
-
-#### Business rules:
-*       The persons are found using the SSN and if needed the last name, date of birth and first name
-*       For employee criteria we check that the &apos;code population&apos; passed to the BS by the DSN flow is consistent with the mapping of the GBP. And else raise an error
-*       During Enrollment, mandatory coverages are automatically subscribed.
-*       Then SubscribedOptions are populated from DSN Options 
-*       When creating a new employee the system sets the &quot;R&#233;gime&quot; and &quot;Caisse&quot; tof the person from the DSN file. These data are not updated through DSN
-*       If an employee had previously an enrollment, which is not given in input by the DSN file an error is raised
-*       When there is a end date for an employee (date de fin de contrat de travail), the employee is terminated and all his enrollments are terminated
-*       For now updates on enrollment are not handled because the effective date is not present in the DSN file, errors are thrown: Member class change (code population),DSN option change
-
-#### Response:
-*	boolean: false if there is an error
-
-#### Errors:
-*     If the employee can not be found
-*     If the legal entity can not be found
-*     If the network distribution can not be found
-*     If an employee had previously an enrollment, which is not given in input by the DSN file
-
-</wsdl:documentation>
-<wsdl:input message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_InputMessage"/>
-<wsdl:output message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEnrolledEmployee_OutputMessage"/>
-</wsdl:operation>
-<wsdl:operation name="CreateOrUpdateEmployeeEnrollment">
-<wsdl:documentation>
-DSN - Affiliation
-#### Summary:
-The &apos;CreateOrUpdateEmployeeEnrollment&apos; business service creates and updates an enrollment for one employee of a legal entity. 
-It is supposed to be called by aSLI_FR_Manage_DSN.CreateOrUpdateEnrolledEmployee
-It follows the french DSN norm 
-
-#### Business rules:
-*       The persons are found using the SSN and if needed the last name, date of birth and first name
-*       For employee criteria we check that the &apos;code population&apos; passed to the BS by the DSN flow is consistent with the mapping of the GBP. And else raise an error
-*       During Enrollment, mandatory coverages are automatically subscribed.
-*       Then SubscribedOptions are populated from DSN Options 
-*       When there is a end date for an employee (date de fin de contrat de travail), the employee is terminated and all his enrollments are terminated
-*       For now updates on enrollment are not handled because the effective date is not present in the DSN file, errors are thrown: Member class change (code population),DSN option change
-
-#### Response:
-*	tPolicyFullId: Id of the enrollment
-
-#### Errors:
-*     If the employee can not be found
-*     If the group contract can not be found
-*     If the Hire date is prior to the GBP effective date
-*     If the network distribution can not be found
-*     If it can not create or update an enrollment
-*     If the population is not consistent with the employee criteria
-*     If the code population has changed
-*     If a code option has changed
-
-</wsdl:documentation>
-<wsdl:input message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_InputMessage"/>
-<wsdl:output message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_OutputMessage"/>
 </wsdl:operation>
 </wsdl:portType>
 <wsdl:portType name="aSHFR_Consult_Claim">
@@ -14061,49 +14949,6 @@ Create or Update Legal Entity Enrolled Employees
 </wsdl:operation>
 </wsdl:portType>
 <wsdl:portType name="aSLI_FR_ManageBill_DSN">
-<wsdl:operation name="AdjustGroupBillsAndReceivePayment">
-<wsdl:documentation>
-DSN - Flux de cotisation
-#### Summary:
-The &apos;AdjustGroupBillsAndReceivePayment&apos; business service ajusts SA bills with information given in DSN file and register Legal entity payments
-
-#### Business rules:
-*     The DSN Business Service takes in input specific DSN Param entities
-*     Business Service searches the Legal Entity  by SIRET for DSN.
-*     It, then, goes through GBPs to add up
-*        it searches the bill based on the begin and end date of the param (the bill must be a SA monthly temporary bill)
-*        it checks if the billing is supported: if there are code options it is not supported, or if billing is based on coverage amount
-*        it cancels the temporary bill
-*        regenerates the member profiles and update them
-*           by adding member number per population or TA,TB, TC...per population
-*        it recalculates the bill based on the new profiles
-*           if the difference between the calculated amount and the sum of premium per employee is too big =&gt; rejected
-*           else it saves the new bill
-*                 by using the premium sent in the DSN file (the bill is generated with the DSN amount, not with the amounts calculated by wynsure) - the total amount of premium sent in the DSN file is split on each member profile line using a prorata ba
-                  used on the bill lines amount
-*                 and updates the data ProfileDataIsFrovisionFrom
-*     it also creates payment if payment data are present
-*        it finds the payor based on SIRET
-*        it finds bills in the indicated period
-*        it generates an invoice for these bills
-*        it creates a payment that pays this invoice
-
-#### Response:
-*	aSPLI_FR_BillDSN_Out with needed information for DSN CRM
-
-#### Errors:
-*     If the Legal entity is not found
-*     If the contract is not found
-*     If the adjusted SA bill is not found
-*     If the SA Billing frequency is not monthly
-*     If the &quot;fiche de param&#233;trage&quot; was not generated
-*     If the difference between the bill amount calculated by wynsure and the amount given in DSN file is more than a limit defined in the application (configuration)
-*     If there is a payment and the payment mode is not &quot;T&#233;l&#233;r&#232;glement&quot;
-
-</wsdl:documentation>
-<wsdl:input message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage"/>
-<wsdl:output message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_OutputMessage"/>
-</wsdl:operation>
 <wsdl:operation name="RegularizationOnContractBill">
 <wsdl:documentation>
 DSN - R&#233;gularisation chiffrage de prime
@@ -14199,12 +15044,58 @@ The &apos;AdjustGroupContractBill&apos; business service ajusts SA bills for a s
 <wsdl:input message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupContractBill_InputMessage"/>
 <wsdl:output message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupContractBill_OutputMessage"/>
 </wsdl:operation>
+<wsdl:operation name="AdjustGroupBillsAndReceivePayment">
+<wsdl:documentation>
+DSN - Flux de cotisation
+#### Summary:
+The &apos;AdjustGroupBillsAndReceivePayment&apos; business service ajusts SA bills with information given in DSN file and register Legal entity payments
+
+#### Business rules:
+*     The DSN Business Service takes in input specific DSN Param entities
+*     Business Service searches the Legal Entity  by SIRET for DSN.
+*     It, then, goes through GBPs to add up
+*        it searches the bill based on the begin and end date of the param (the bill must be a SA monthly temporary bill)
+*        it checks if the billing is supported: if there are code options it is not supported, or if billing is based on coverage amount
+*        it cancels the temporary bill
+*        regenerates the member profiles and update them
+*           by adding member number per population or TA,TB, TC...per population
+*        it recalculates the bill based on the new profiles
+*           if the difference between the calculated amount and the sum of premium per employee is too big =&gt; rejected
+*           else it saves the new bill
+*                 by using the premium sent in the DSN file (the bill is generated with the DSN amount, not with the amounts calculated by wynsure) - the total amount of premium sent in the DSN file is split on each member profile line using a prorata ba
+                  used on the bill lines amount
+*                 and updates the data ProfileDataIsFrovisionFrom
+*     it also creates payment if payment data are present
+*        it finds the payor based on SIRET
+*        it finds bills in the indicated period
+*        it generates an invoice for these bills
+*        it creates a payment that pays this invoice
+
+#### Response:
+*	aSPLI_FR_BillDSN_Out with needed information for DSN CRM
+
+#### Errors:
+*     If the Legal entity is not found
+*     If the contract is not found
+*     If the adjusted SA bill is not found
+*     If the SA Billing frequency is not monthly
+*     If the &quot;fiche de param&#233;trage&quot; was not generated
+*     If the difference between the bill amount calculated by wynsure and the amount given in DSN file is more than a limit defined in the application (configuration)
+*     If there is a payment and the payment mode is not &quot;T&#233;l&#233;r&#232;glement&quot;
+
+</wsdl:documentation>
+<wsdl:input message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage"/>
+<wsdl:output message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_OutputMessage"/>
+</wsdl:operation>
 </wsdl:portType>
 <wsdl:portType name="aSF_Manage_Transactions">
 <wsdl:documentation>
 This business service is to manage all transactio which includes start,accept and cancels.
 </wsdl:documentation>
 <wsdl:operation name="CancelNewTransaction">
+<wsdl:input message="ns:aSF_Manage_Transactions_CancelNewTransaction_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CancelNewTransactionEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CancelNewTransaction&apos; operation cancels the new transaction previously started with &apos;StartNewTransaction&apos;, with RollBackMode set to true
@@ -14223,9 +15114,13 @@ The &apos;CancelNewTransaction&apos; operation cancels the new transaction previ
 *      BS_00007 - Can&apos;t cancel without rollback mode
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSF_Manage_Transactions_CancelNewTransaction_InputMessage"/>
+<wsdl:input message="ns:aSF_Manage_Transactions_CancelNewTransactionEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_Transactions_CancelNewTransactionEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="AcceptNewTransaction">
+<wsdl:input message="ns:aSF_Manage_Transactions_AcceptNewTransaction_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="AcceptNewTransactionEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;AcceptNewTransaction&apos; operation accepts the new transaction previously started with &apos;StartNewTransaction&apos;.
@@ -14244,7 +15139,8 @@ The &apos;AcceptNewTransaction&apos; operation accepts the new transaction previ
 *      BS_00006 - Missing transaction
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSF_Manage_Transactions_AcceptNewTransaction_InputMessage"/>
+<wsdl:input message="ns:aSF_Manage_Transactions_AcceptNewTransactionEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_Transactions_AcceptNewTransactionEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="StartNewTransaction">
 <wsdl:documentation>
@@ -14272,6 +15168,9 @@ The &apos;StartNewTransaction&apos; operation starts a new global transaction.
 <wsdl:output message="ns:aSF_Manage_Transactions_StartNewTransaction_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="CancelGlobalTransaction">
+<wsdl:input message="ns:aSF_Manage_Transactions_CancelGlobalTransaction_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="CancelGlobalTransactionEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;CancelGlobalTransaction&apos; operation cancels the global transaction previously started with &apos;StartGlobalTransaction&apos;, with RollBackMode set to true
@@ -14290,9 +15189,13 @@ The &apos;CancelGlobalTransaction&apos; operation cancels the global transaction
 *      BS_00007 - Can&apos;t cancel without rollback mode
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSF_Manage_Transactions_CancelGlobalTransaction_InputMessage"/>
+<wsdl:input message="ns:aSF_Manage_Transactions_CancelGlobalTransactionEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_Transactions_CancelGlobalTransactionEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="AcceptGlobalTransaction">
+<wsdl:input message="ns:aSF_Manage_Transactions_AcceptGlobalTransaction_InputMessage"/>
+</wsdl:operation>
+<wsdl:operation name="AcceptGlobalTransactionEx">
 <wsdl:documentation>
 #### Summary:
 The &apos;AcceptGlobalTransaction&apos; operation accepts the global transaction previously started with &apos;StartGlobalTransaction&apos;.
@@ -14311,7 +15214,8 @@ The &apos;AcceptGlobalTransaction&apos; operation accepts the global transaction
 *      BS_00007 - Can&apos;t cancel without rollback mode
 
 </wsdl:documentation>
-<wsdl:input message="ns:aSF_Manage_Transactions_AcceptGlobalTransaction_InputMessage"/>
+<wsdl:input message="ns:aSF_Manage_Transactions_AcceptGlobalTransactionEx_InputMessage"/>
+<wsdl:output message="ns:aSF_Manage_Transactions_AcceptGlobalTransactionEx_OutputMessage"/>
 </wsdl:operation>
 <wsdl:operation name="StartGlobalTransaction">
 <wsdl:documentation>
@@ -14473,16 +15377,6 @@ Based on the providerId as well as providerType it searches the service provider
 </wsdl:portType>
 <wsdl:binding name="HttpSoap12aSLI_FR_ManageBill_DSN" type="ns:aSLI_FR_ManageBill_DSN">
 <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-<wsdl:operation name="AdjustGroupBillsAndReceivePayment">
-<wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_ManageBill_DSN/AdjustGroupBillsAndReceivePayment"/>
-<wsdl:input>
-<wsoap12:body use="literal" parts="parameter"/>
-<wsoap12:header use="literal" message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage" part="header"/>
-</wsdl:input>
-<wsdl:output>
-<wsoap12:body use="literal"/>
-</wsdl:output>
-</wsdl:operation>
 <wsdl:operation name="RegularizationOnContractBill">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_ManageBill_DSN/RegularizationOnContractBill"/>
 <wsdl:input>
@@ -14508,6 +15402,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupContractBill_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="AdjustGroupBillsAndReceivePayment">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_ManageBill_DSN/AdjustGroupBillsAndReceivePayment"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_FR_ManageBill_DSN_AdjustGroupBillsAndReceivePayment_InputMessage" part="header"/>
 </wsdl:input>
 <wsdl:output>
 <wsoap12:body use="literal"/>
@@ -14612,6 +15516,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContact_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CreateCustomerContactEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/CreateCustomerContactEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_CreateCustomerContactEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="GetContactFromOpAssignment">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/GetContactFromOpAssignment"/>
 <wsdl:input>
@@ -14629,12 +15543,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequest_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="ForwardCustomerRequestEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/ForwardCustomerRequestEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_ForwardCustomerRequestEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="ApplyCustomerRequest">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/ApplyCustomerRequest"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequest_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="ApplyCustomerRequestEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/ApplyCustomerRequestEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_ApplyCustomerRequestEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="SearchRequirementDescriptors">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/SearchRequirementDescriptors"/>
@@ -14693,12 +15627,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequest_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CreateIncomingCustomerRequestEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/CreateIncomingCustomerRequestEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_CreateIncomingCustomerRequestEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="UploadRequestedRequirementsForObject">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/UploadRequestedRequirementsForObject"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObject_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="UploadRequestedRequirementsForObjectEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/UploadRequestedRequirementsForObjectEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CustomerRequest_UploadRequestedRequirementsForObjectEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="SearchRequestedRequirementsForObject">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CustomerRequest/SearchRequestedRequirementsForObject"/>
@@ -14882,12 +15836,32 @@ Based on the providerId as well as providerType it searches the service provider
 </wsdl:binding>
 <wsdl:binding name="HttpSoap12aSF_Manage_LogOn" type="ns:aSF_Manage_LogOn">
 <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<wsdl:operation name="ChangePasswordForLoginEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_LogOn/ChangePasswordForLoginEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_LogOn_ChangePasswordForLoginEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="ChangePasswordForLogin">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_LogOn/ChangePasswordForLogin"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSF_Manage_LogOn_ChangePasswordForLogin_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="LogOffEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_LogOn/LogOffEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_LogOn_LogOffEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="LogOff">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_LogOn/LogOff"/>
@@ -15285,12 +16259,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfiles_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginProfilesEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/UpdateApplicationLoginProfilesEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginProfilesEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="UpdateApplicationLoginsStatus">
 <wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/UpdateApplicationLoginsStatus"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatus_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginsStatusEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/UpdateApplicationLoginsStatusEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginsStatusEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="UpdateApplicationLoginStatus">
 <wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/UpdateApplicationLoginStatus"/>
@@ -15299,12 +16293,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatus_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="UpdateApplicationLoginStatusEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/UpdateApplicationLoginStatusEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSCB_Manage_Login_UpdateApplicationLoginStatusEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="SimpleUpdateApplicationLogin">
 <wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/SimpleUpdateApplicationLogin"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLogin_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="SimpleUpdateApplicationLoginEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/SimpleUpdateApplicationLoginEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSCB_Manage_Login_SimpleUpdateApplicationLoginEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="GetApplicationLoginDetails">
 <wsoap12:operation soapAction="http://tempuri.org/aSCB_Manage_Login/GetApplicationLoginDetails"/>
@@ -15621,6 +16635,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollment_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEnrollmentEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_GBPMember/CreateOrUpdateEnrollmentEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_GBPMember_CreateOrUpdateEnrollmentEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="TerminateEnrollement">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_GBPMember/TerminateEnrollement"/>
 <wsdl:input>
@@ -15724,12 +16748,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_CancelNewTransaction_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CancelNewTransactionEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/CancelNewTransactionEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_CancelNewTransactionEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="AcceptNewTransaction">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/AcceptNewTransaction"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_AcceptNewTransaction_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="AcceptNewTransactionEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/AcceptNewTransactionEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_AcceptNewTransactionEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="StartNewTransaction">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/StartNewTransaction"/>
@@ -15748,12 +16792,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_CancelGlobalTransaction_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CancelGlobalTransactionEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/CancelGlobalTransactionEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_CancelGlobalTransactionEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="AcceptGlobalTransaction">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/AcceptGlobalTransaction"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_AcceptGlobalTransaction_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="AcceptGlobalTransactionEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/AcceptGlobalTransactionEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSF_Manage_Transactions_AcceptGlobalTransactionEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="StartGlobalTransaction">
 <wsoap12:operation soapAction="http://tempuri.org/aSF_Manage_Transactions/StartGlobalTransaction"/>
@@ -15845,12 +16909,32 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollment_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="CreateOrUpdateListOfEmployeeEnrollmentEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CensusLoading/CreateOrUpdateListOfEmployeeEnrollmentEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateListOfEmployeeEnrollmentEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEmployeeEnrollment">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CensusLoading/CreateOrUpdateEmployeeEnrollment"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollment_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEmployeeEnrollmentEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CensusLoading/CreateOrUpdateEmployeeEnrollmentEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEnrollmentEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEnrolledEmployee">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CensusLoading/CreateOrUpdateEnrolledEmployee"/>
@@ -15878,6 +16962,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployee_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateEmployeeEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_CensusLoading/CreateOrUpdateEmployeeEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_CensusLoading_CreateOrUpdateEmployeeEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 </wsdl:binding>
 <wsdl:binding name="HttpSoap12aSLI_Manage_ServiceProvider" type="ns:aSLI_Manage_ServiceProvider">
@@ -17146,6 +18240,90 @@ Based on the providerId as well as providerType it searches the service provider
 </wsdl:input>
 </wsdl:operation>
 </wsdl:binding>
+<wsdl:binding name="HttpSoap12aSLI_Manage_Broker" type="ns:aSLI_Manage_Broker">
+<wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<wsdl:operation name="GetBrokerHierarchies">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/GetBrokerHierarchies"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_GetBrokerHierarchies_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerInformation">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/GetBrokerInformation"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_GetBrokerInformation_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="CreateBrokerHierarchies">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/CreateBrokerHierarchies"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_CreateBrokerHierarchies_InputMessage" part="header"/>
+</wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateBroker">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/CreateOrUpdateBroker"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_CreateOrUpdateBroker_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="AddBrokerBankAccount">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/AddBrokerBankAccount"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_AddBrokerBankAccount_InputMessage" part="header"/>
+</wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="UpdateBrokerCorrespondence">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/UpdateBrokerCorrespondence"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_UpdateBrokerCorrespondence_InputMessage" part="header"/>
+</wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerDetails">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/GetBrokerDetails"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_GetBrokerDetails_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetRootsBrokerDetails">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/GetRootsBrokerDetails"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_GetRootsBrokerDetails_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetBrokerChildren">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Broker/GetBrokerChildren"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Broker_GetBrokerChildren_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
 <wsdl:binding name="HttpSoap12aSLO_Consult_LoanPolicy" type="ns:aSLO_Consult_LoanPolicy">
 <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
 <wsdl:operation name="GetLoanPolicyDetails">
@@ -17560,16 +18738,6 @@ Based on the providerId as well as providerType it searches the service provider
 </wsdl:binding>
 <wsdl:binding name="HttpSoap12aSLI_FR_Manage_DSN" type="ns:aSLI_FR_Manage_DSN">
 <wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-<wsdl:operation name="CreateOrUpdateLegalEntityEnrolledEmployees">
-<wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_Manage_DSN/CreateOrUpdateLegalEntityEnrolledEmployees"/>
-<wsdl:input>
-<wsoap12:body use="literal" parts="parameter"/>
-<wsoap12:header use="literal" message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_InputMessage" part="header"/>
-</wsdl:input>
-<wsdl:output>
-<wsoap12:body use="literal"/>
-</wsdl:output>
-</wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEnrolledEmployee">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_Manage_DSN/CreateOrUpdateEnrolledEmployee"/>
 <wsdl:input>
@@ -17580,11 +18748,31 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:body use="literal"/>
 </wsdl:output>
 </wsdl:operation>
+<wsdl:operation name="GenerateFullSSN">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_Manage_DSN/GenerateFullSSN"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_FR_Manage_DSN_GenerateFullSSN_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="CreateOrUpdateEmployeeEnrollment">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_Manage_DSN/CreateOrUpdateEmployeeEnrollment"/>
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateEmployeeEnrollment_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="CreateOrUpdateLegalEntityEnrolledEmployees">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_FR_Manage_DSN/CreateOrUpdateLegalEntityEnrolledEmployees"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_FR_Manage_DSN_CreateOrUpdateLegalEntityEnrolledEmployees_InputMessage" part="header"/>
 </wsdl:input>
 <wsdl:output>
 <wsoap12:body use="literal"/>
@@ -17884,6 +19072,76 @@ Based on the providerId as well as providerType it searches the service provider
 <wsdl:input>
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Subscribe_Policy_GetPolicyOwnersFrom_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:binding name="HttpSoap12aSLIC_Manage_LifeClaim" type="ns:aSLIC_Manage_LifeClaim">
+<wsoap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+<wsdl:operation name="StartClaimDeclarationProcess">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/StartClaimDeclarationProcess"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_StartClaimDeclarationProcess_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetLifeClaim">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/GetLifeClaim"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_GetLifeClaim_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="CreateLifeClaim">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/CreateLifeClaim"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_CreateLifeClaim_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="SendReturnToWorkNotification">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/SendReturnToWorkNotification"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_SendReturnToWorkNotification_InputMessage" part="header"/>
+</wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="SubmitClaim">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/SubmitClaim"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_SubmitClaim_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="GetPossibleLossesForWebDeclaration">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/GetPossibleLossesForWebDeclaration"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_GetPossibleLossesForWebDeclaration_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="CreateEmptyLossParamFromDescriptor">
+<wsoap12:operation soapAction="http://tempuri.org/aSLIC_Manage_LifeClaim/CreateEmptyLossParamFromDescriptor"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLIC_Manage_LifeClaim_CreateEmptyLossParamFromDescriptor_InputMessage" part="header"/>
 </wsdl:input>
 <wsdl:output>
 <wsoap12:body use="literal"/>
@@ -18561,6 +19819,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Manage_Actors_ConfirmCustomerEmail_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="AddCustomerBankAccountEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Actors/AddCustomerBankAccountEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Actors_AddCustomerBankAccountEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="AddCustomerBankAccount">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Actors/AddCustomerBankAccount"/>
 <wsdl:input>
@@ -18695,6 +19963,26 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:body use="literal" parts="parameter"/>
 <wsoap12:header use="literal" message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliation_InputMessage" part="header"/>
 </wsdl:input>
+</wsdl:operation>
+<wsdl:operation name="CreateListOfLegalEntityAffiliationEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Actors/CreateListOfLegalEntityAffiliationEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Actors_CreateListOfLegalEntityAffiliationEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="CreateAffiliateLegalEntityEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Actors/CreateAffiliateLegalEntityEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Manage_Actors_CreateAffiliateLegalEntityEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
 </wsdl:operation>
 <wsdl:operation name="CreateAffiliateLegalEntity">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Manage_Actors/CreateAffiliateLegalEntity"/>
@@ -18912,6 +20200,16 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:header use="literal" message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContract_InputMessage" part="header"/>
 </wsdl:input>
 </wsdl:operation>
+<wsdl:operation name="TransformSavedGBPQuoteIntoContractEx">
+<wsoap12:operation soapAction="http://tempuri.org/aSLI_Subscribe_GBPContract/TransformSavedGBPQuoteIntoContractEx"/>
+<wsdl:input>
+<wsoap12:body use="literal" parts="parameter"/>
+<wsoap12:header use="literal" message="ns:aSLI_Subscribe_GBPContract_TransformSavedGBPQuoteIntoContractEx_InputMessage" part="header"/>
+</wsdl:input>
+<wsdl:output>
+<wsoap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
 <wsdl:operation name="UploadCensusFile">
 <wsoap12:operation soapAction="http://tempuri.org/aSLI_Subscribe_GBPContract/UploadCensusFile"/>
 <wsdl:input>
@@ -19118,6 +20416,11 @@ Based on the providerId as well as providerType it searches the service provider
 <wsoap12:address location="&lt;&lt;BaseURL&gt;&gt;&lt;&lt;ServletName&gt;&gt;&lt;&lt;URLExtension&gt;&gt;"/>
 </wsdl:port>
 </wsdl:service>
+<wsdl:service name="aSLI_Manage_Broker">
+<wsdl:port name="HttpSoap12aSLI_Manage_Broker" binding="ns:HttpSoap12aSLI_Manage_Broker">
+<wsoap12:address location="&lt;&lt;BaseURL&gt;&gt;&lt;&lt;ServletName&gt;&gt;&lt;&lt;URLExtension&gt;&gt;"/>
+</wsdl:port>
+</wsdl:service>
 <wsdl:service name="aSLO_Consult_LoanPolicy">
 <wsdl:port name="HttpSoap12aSLO_Consult_LoanPolicy" binding="ns:HttpSoap12aSLO_Consult_LoanPolicy">
 <wsoap12:address location="&lt;&lt;BaseURL&gt;&gt;&lt;&lt;ServletName&gt;&gt;&lt;&lt;URLExtension&gt;&gt;"/>
@@ -19155,6 +20458,11 @@ Based on the providerId as well as providerType it searches the service provider
 </wsdl:service>
 <wsdl:service name="aSLI_Subscribe_Policy">
 <wsdl:port name="HttpSoap12aSLI_Subscribe_Policy" binding="ns:HttpSoap12aSLI_Subscribe_Policy">
+<wsoap12:address location="&lt;&lt;BaseURL&gt;&gt;&lt;&lt;ServletName&gt;&gt;&lt;&lt;URLExtension&gt;&gt;"/>
+</wsdl:port>
+</wsdl:service>
+<wsdl:service name="aSLIC_Manage_LifeClaim">
+<wsdl:port name="HttpSoap12aSLIC_Manage_LifeClaim" binding="ns:HttpSoap12aSLIC_Manage_LifeClaim">
 <wsoap12:address location="&lt;&lt;BaseURL&gt;&gt;&lt;&lt;ServletName&gt;&gt;&lt;&lt;URLExtension&gt;&gt;"/>
 </wsdl:port>
 </wsdl:service>
