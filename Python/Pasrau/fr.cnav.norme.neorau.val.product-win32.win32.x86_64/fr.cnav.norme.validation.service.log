@@ -1,0 +1,158 @@
+2019-03-08 17:34:51,055 ERROR [main] Validate:185 - Vous devez fournir un message en paramètre.
+2019-03-08 17:35:31,755 ERROR [main] Validate:260 - Option invalide.
+2019-03-08 17:37:17,411 ERROR [main] Validate:226 - Le fichier ''D:\Others\Python' n'existe pas.
+2019-03-08 17:39:00,848  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out.pasrau avec la norme NEORAU
+2019-03-08 17:39:00,983  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out.pasrau avec la norme NEORAU
+2019-03-08 17:39:01,339 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-08 17:39:01,344 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-08 17:39:01,682 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-08 17:39:01,690 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-08 17:39:01,713 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-08 17:39:01,722 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-08 17:39:01,729  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 16
+2019-03-08 17:39:01,730  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out.pasrau.xml
+2019-03-08 17:39:01,732  INFO [main] Validate:476 - Fin de la validation
+2019-03-11 12:17:57,130 ERROR [main] Validate:226 - Le fichier 'out' n'existe pas.
+2019-03-11 12:19:19,641  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outt.pasrau avec la norme NEORAU
+2019-03-11 12:19:19,753  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outt.pasrau avec la norme NEORAU
+2019-03-11 12:19:20,089 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-11 12:19:20,094 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-11 12:19:20,422 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-11 12:19:20,423 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-11 12:19:20,438 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-11 12:19:20,449 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-11 12:19:20,457  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 16
+2019-03-11 12:19:20,457  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outt.pasrau.xml
+2019-03-11 12:19:20,460  INFO [main] Validate:476 - Fin de la validation
+2019-03-11 12:24:27,461  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outtt.pasrau avec la norme NEORAU
+2019-03-11 12:24:27,526  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outtt.pasrau avec la norme NEORAU
+2019-03-11 12:24:27,756 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-11 12:24:27,760 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-11 12:24:28,206 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-11 12:24:28,207 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-11 12:24:28,233 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-11 12:24:28,279 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-11 12:24:28,291  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 15
+2019-03-11 12:24:28,292  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\outtt.pasrau.xml
+2019-03-11 12:24:28,310  INFO [main] Validate:476 - Fin de la validation
+2019-03-13 10:56:04,602  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_1.pasrau avec la norme NEORAU
+2019-03-13 10:56:04,712  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_1.pasrau avec la norme NEORAU
+2019-03-13 10:56:04,997 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-13 10:56:05,001 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-13 10:56:05,330 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-13 10:56:05,331 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-13 10:56:05,347 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-13 10:56:05,358 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-13 10:56:05,365  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 3
+2019-03-13 10:56:05,366  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_1.pasrau.xml
+2019-03-13 10:56:05,368  INFO [main] Validate:476 - Fin de la validation
+2019-03-13 13:07:55,565  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_2.pasrau avec la norme NEORAU
+2019-03-13 13:07:55,622  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_2.pasrau avec la norme NEORAU
+2019-03-13 13:07:55,872 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-13 13:07:55,877 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-13 13:07:56,063 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-13 13:07:56,064 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-13 13:07:56,091 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-13 13:07:56,099 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-13 13:07:56,107  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 1
+2019-03-13 13:07:56,108  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_2.pasrau.xml
+2019-03-13 13:07:56,111  INFO [main] Validate:476 - Fin de la validation
+2019-03-13 13:21:44,315  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-13 13:21:44,435  INFO [main] Validate:444 - Validation sur le message C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-13 13:21:45,216 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-13 13:21:45,224 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-13 13:21:45,540 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-13 13:21:45,542 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-13 13:21:45,574 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-13 13:21:45,583 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-13 13:21:45,594  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-13 13:21:45,595  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : C:\Users\kumar_n\Downloads\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-13 13:21:45,607  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:17:26,689  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:17:26,778  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:17:27,115 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:17:27,121 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:17:27,273 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:17:27,273 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:17:27,291 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:17:27,299 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:17:27,306  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:17:27,307  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:17:27,310  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:19:14,239  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:19:14,322  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:19:14,665 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:19:14,671 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:19:14,827 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:19:14,828 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:19:14,842 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:19:14,849 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:19:14,855  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:19:14,855  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:19:14,858  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:20:09,358  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:20:09,415  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:20:09,667 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:20:09,673 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:20:09,821 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:20:09,822 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:20:09,844 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:20:09,851 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:20:09,859  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:20:09,865  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:20:09,876  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:24:40,703  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:24:40,808  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:24:41,117 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:24:41,122 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:24:41,279 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:24:41,279 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:24:41,294 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:24:41,300 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:24:41,305  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:24:41,306  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:24:41,311  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:27:49,650  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:27:49,715  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:27:50,025 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:27:50,029 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:27:50,178 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:27:50,179 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:27:50,195 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:27:50,203 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:27:50,209  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:27:50,212  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:27:50,216  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:29:01,995  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:29:02,120  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:29:02,356 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:29:02,360 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:29:02,537 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:29:02,538 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:29:02,553 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:29:02,559 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:29:02,565  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:29:02,565  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:29:02,571  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:30:46,827  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:30:46,928  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:30:47,218 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:30:47,224 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:30:47,395 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:30:47,395 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:30:47,409 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:30:47,415 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:30:47,420  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:30:47,421  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:30:47,425  INFO [main] Validate:476 - Fin de la validation
+2019-03-20 14:32:52,421  INFO [main] Validate:439 - Test de l'intégrité du fichier d'entrée :D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:32:52,515  INFO [main] Validate:444 - Validation sur le message D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau avec la norme NEORAU
+2019-03-20 14:32:52,749 DEBUG [main] ValidationFunctions:122 - Start of the syntactic and semantic validation
+2019-03-20 14:32:52,754 DEBUG [main] ValidationFunctions:1145 - Start of the conversion and validation in one pass
+2019-03-20 14:32:52,915 DEBUG [main] ValidationFunctions:1200 - End of the conversion
+2019-03-20 14:32:52,916 DEBUG [main] ValidationFunctions:210 - End of the syntactic and semantic validation
+2019-03-20 14:32:52,932 DEBUG [main] ValidationFunctions:718 - Start of the report writing
+2019-03-20 14:32:52,938 DEBUG [main] ValidationFunctions:735 - End of the report writing
+2019-03-20 14:32:52,945  INFO [main] Validate:459 - Validation effectuée / Nombre d'anomalies : 0
+2019-03-20 14:32:52,948  INFO [main] Validate:461 - Ecriture du fichier rapport sur disque : D:\fr.cnav.norme.neorau.val.product-win32.win32.x86_64\out_3.pasrau.xml
+2019-03-20 14:32:52,963  INFO [main] Validate:476 - Fin de la validation
