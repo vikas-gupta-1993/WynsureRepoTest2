@@ -10,19 +10,11 @@ import shutil
 import subprocess
 import urllib.request
 import urllib.error
-from Norm import BLOCS, R_BLOCS, Months, Gender, FrenchCountry_Code_list
+from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE
 
 sys.argv = ["D:\\Wynsure59-1\\Wynsure\\Python\\Pasrau\\Pasrauu.py", "D:\\Wynsure59-1\\"
                                                                     "Wynsure\\batch\\Out_Python\\",
-            "D:\\Wynsure59-1\\Wynsure\\batch\\Out_Python\\Out_Pasrau\\"]
-json_folder_path = sys.argv[1]
-print(f"Json Folder : {json_folder_path}")
-out_pasrau_path = sys.argv[2]
-print(f"outpasrau Folder : {out_pasrau_path}")
-pasrau_path = str(sys.argv[0]).replace("Pasrauu.py", "")
-sys.stdout = open(pasrau_path+'output.txt', 'w')
-logging.basicConfig(filename=pasrau_path+'loging.log', level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
+            "D:\\Wynsure59-1\\Wynsure\\batch\\Out_Python\\Out_Pasrau\\", "D:\\Wynsure59-1\\EnvRoot\\"]
 
 
 def connection_check():
@@ -47,8 +39,8 @@ def xpath_get(mapping, path):
     return elem
 
 
-def isbelongtofrance(country_code):
-    if country_code in FrenchCountry_Code_list:
+def isbelong_france(country_code):
+    if country_code in FRENCH_COUNTRYCODE:
         return True
 
 
@@ -73,11 +65,11 @@ class Bloc:
     sub_blocs: List['Bloc']
 
     @classmethod
-    def create_bloc(cls, id):
+    def create_bloc(cls, bloc_id):
         try:
-            return cls(id, BLOCS[id], [], [])
+            return cls(bloc_id, BLOCS[bloc_id], [], [])
         except KeyError:
-            raise KeyError(f"Error cannot find id for bloc creation  id: {id}")
+            raise KeyError(f"Error cannot find id for bloc creation  id: {bloc_id}")
 
     @classmethod
     def create_bloc_from_label(cls, label):
@@ -86,21 +78,32 @@ class Bloc:
         except KeyError:
             raise KeyError(f"Error cannot find label for bloc creation  label: {label}")
 
-    def append_rubrique(self, id, label, value):
-        self.rubriques.append(Rubrique(id, label, value))
+    def append_rubrique(self, rubrique_id, label, value):
+        self.rubriques.append(Rubrique(rubrique_id, label, value))
 
-    def append_rubrique_from_path(self, id, label, mapping, path):
+    def append_rubrique_from_path(self, rubrique_id, label, mapping, path):
         value = str(xpath_get(mapping, path))
-        self.append_rubrique(id, label, value)
+        self.append_rubrique(rubrique_id, label, value)
 
     def append_sub_bloc(self, sub):
         self.sub_blocs.append(sub)
 
-    def write(self, file):
+    def append_address(self, rubrique_id, mapping, defaultaddress_path):
+        country_code = xpath_get(mapping, defaultaddress_path+'getCountryShortCode')
+        if isbelong_france(country_code):
+            self.append_rubrique_from_path(rubrique_id[0], "Code postal",
+                                           mapping, defaultaddress_path+'zipCode/zipCode')
+            self.append_rubrique_from_path(rubrique_id[1], "Localité", mapping, defaultaddress_path+'zipCode/city')
+        else:
+            self.append_rubrique(rubrique_id[2], "Pays", country_code)
+            self.append_rubrique_from_path(rubrique_id[3], "Code de distribution à l'étranger ",
+                                           mapping, defaultaddress_path+'zipCode/zipCode')
+
+    def write(self, pasrau_file):
         for r in self.rubriques:
-            file.write(str(self.id) + '.' + str(r.id) + ',' + "'" + r.value + "'" + "\n")
+            pasrau_file.write(str(self.id) + '.' + str(r.id) + ',' + "'" + r.value + "'" + "\n")
         for b in self.sub_blocs:
-            b.write(file)
+            b.write(pasrau_file)
 
     def append_envoi(self):
         envoi = Bloc.create_bloc_from_label('Envoi')
@@ -117,29 +120,18 @@ class Bloc:
         le_path = 'getClaimTaxDeductionFlowConfig/legalEntity/'
         emetteur = Bloc.create_bloc_from_label('Emetteur')
         siret = xpath_get(mapping, le_path+'sIRET')
-        country_code = xpath_get(mapping, le_path+'getDefaultAddress/getCountryShortCode')
         emetteur.append_rubrique('001', "Siren de l'émetteur de l'envoi", siret[:9])
         emetteur.append_rubrique('002', "Nic de l'émetteur de l'envoi", siret[9:])
         emetteur.append_rubrique_from_path('003', "Nom ou raison sociale de l'émetteur", mapping, le_path + 'name')
         emetteur.append_rubrique_from_path('004', "Numéro, extension, nature et libellé de la voie", mapping,
                                            le_path + 'getDefaultAddress/line1')
-        if isbelongtofrance(country_code):
-            emetteur.append_rubrique_from_path('005', "Code postal", mapping,
-                                               le_path + 'getDefaultAddress/zipCode/zipCode')
-            emetteur.append_rubrique_from_path('006', "Localité", mapping, le_path + 'getDefaultAddress/zipCode/city')
-        else:
-            # TODO code pays
-            emetteur.append_rubrique('007', "Pays", country_code)
-            emetteur.append_rubrique_from_path('008', "Code de distribution à l'étranger ", mapping,
-                                               le_path + 'getDefaultAddress/zipCode/zipCode')
+        emetteur.append_address(('005', '006', '007', '008'), mapping, le_path+'getDefaultAddress/')
         self.append_sub_bloc(emetteur)
 
     def append_contact_emetteur(self, mapping):
         contact = Bloc.create_bloc_from_label('Contact Emetteur')
-        # GAP Civilité hard coded
         ce_path = "getClaimTaxDeductionFlowConfig/getCustomerContact_PASRAUEmission/"
-        email = xpath_get(mapping, ce_path + "eMail")
-        email = email.replace("_", "")
+        email = xpath_get(mapping, ce_path + "eMail").replace("_", "")
         contact.append_rubrique('001', 'Code civilité', '01')
         contact.append_rubrique_from_path('002', 'Nom et prénom de la personne à contacter', mapping,
                                           "getClaimTaxDeductionFlowConfig/getContactName_PASRAUEmission")
@@ -153,15 +145,13 @@ class Bloc:
         pasrau.append_rubrique('002', 'Type de la déclaration', '01')
         pasrau.append_rubrique('003', 'Numéro de fraction de déclaration', '11')
         pasrau.append_rubrique('004', "Numéro d'ordre de la déclaration", '0')
-        # TODO Manage dates
-        # changed function argument and taken the maping and convered date accordingly
         declaration_month = xpath_get(mapping, 'month')
         declaration_year = xpath_get(mapping, 'year')
-        decclaration_date_str = '010' + str(Months[declaration_month]) + str(declaration_year)
-        pasrau.append_rubrique('005', 'Date du mois principal déclaré', decclaration_date_str)
-        # Current date when the file is being genereted
-        creationdate = datetime.now().strftime("%d%m")+str(datetime.now().year)
-        pasrau.append_rubrique('007', 'Date de constitution du fichier', creationdate)
+        declaration_date = '01' + MONTHS[declaration_month] + str(declaration_year)
+        pasrau.append_rubrique('005', 'Date du mois principal déclaré', declaration_date)
+        """ Current date of file being generated """
+        creation_date = datetime.now().strftime("%d%m%Y")
+        pasrau.append_rubrique('007', 'Date de constitution du fichier', creation_date)
         pasrau.append_rubrique('010', 'Devise de la déclaration', '01')
         self.append_sub_bloc(pasrau)
         return pasrau
@@ -169,8 +159,7 @@ class Bloc:
     def append_contact_declare(self, mapping):
         contact = Bloc.create_bloc_from_label('Contact chez le déclaré')
         cd_path = "getClaimTaxDeductionFlowConfig/getCustomerContact_PASRAUDeclaration/"
-        email = xpath_get(mapping, cd_path+"eMail")
-        email = email.replace("_", "")
+        email = xpath_get(mapping, cd_path+"eMail").replace("_", "")
         contact.append_rubrique_from_path('001', 'Nom et prénom du contact',
                                           mapping, "getClaimTaxDeductionFlowConfig/getContactName_PASRAUDeclaration")
         contact.append_rubrique_from_path('002', 'Adresse téléphonique', mapping, cd_path + "privateFixedPhone")
@@ -182,25 +171,14 @@ class Bloc:
         entreprise = Bloc.create_bloc_from_label('Entreprise')
         le_path = 'getClaimTaxDeductionFlowConfig/legalEntity/'
         siret = xpath_get(mapping, le_path+'sIRET')
-        country_code = xpath_get(mapping, le_path + 'getDefaultAddress/getCountryShortCode')
         entreprise.append_rubrique('001', 'SIREN', siret[:9])
         entreprise.append_rubrique('002', 'NIC du siège', siret[9:])
-        # TODO Code apen not hard coded
-        # taken industrial classification code and remove the char '.' from string
-        indclassif_code = xpath_get(mapping, le_path+'getIndustrialClassificationCode')
-        indclassif_code = indclassif_code.replace(".", "")
+        """"Industrial classification code should be value of code appen"""
+        indclassif_code = xpath_get(mapping, le_path+'getIndustrialClassificationCode').replace(".", "")
         entreprise.append_rubrique('003', 'Code APEN', indclassif_code)
         entreprise.append_rubrique_from_path('004', "Numéro, extension, nature et libellé de la voie",
                                              mapping, le_path+'getDefaultAddress/line1')
-        # entreprise.append_rubrique('004', 'Type', '11')
-        if isbelongtofrance(country_code):
-            entreprise.append_rubrique_from_path('005', 'Code postal', mapping,
-                                                 le_path + 'getDefaultAddress/zipCode/zipCode')
-            entreprise.append_rubrique_from_path('006', 'Localité', mapping, le_path + 'getDefaultAddress/zipCode/city')
-        else:
-            entreprise.append_rubrique('010', "Pays", country_code)
-            entreprise.append_rubrique_from_path('011', "Code de distribution à l'étranger ",
-                                                 mapping, le_path + 'getDefaultAddress/zipCode/zipCode')
+        entreprise.append_address(('005', '006', '010', '011'), mapping, le_path + 'getDefaultAddress/')
         self.append_sub_bloc(entreprise)
         return entreprise
 
@@ -208,24 +186,13 @@ class Bloc:
         etablissement = Bloc.create_bloc_from_label('Etablissement')
         le_path = 'getClaimTaxDeductionFlowConfig/legalEntity/'
         siret = xpath_get(mapping, le_path+'sIRET')
-        country_code = xpath_get(mapping, le_path + 'getDefaultAddress/getCountryShortCode')
         etablissement.append_rubrique('001', 'NIC', siret[9:])
-        # TODO Code apet not hard coded
-        # taken industrial classification code and remove the char '.' from string
-        indclassif_code = xpath_get(mapping, le_path+'getIndustrialClassificationCode')
-        indclassif_code = indclassif_code.replace(".", "")
+        """"Industrial classification code should be value of code appet"""
+        indclassif_code = xpath_get(mapping, le_path+'getIndustrialClassificationCode').replace(".", "")
         etablissement.append_rubrique('002', 'Code APET', indclassif_code)
         etablissement.append_rubrique_from_path('003', 'Numéro, extension, nature et libellé de la voie',
                                                 mapping, le_path+'getDefaultAddress/line1')
-        if isbelongtofrance(country_code):
-            etablissement.append_rubrique_from_path('004', 'Code postal ', mapping,
-                                                    le_path + 'getDefaultAddress/zipCode/zipCode')
-            etablissement.append_rubrique_from_path('005', 'Localité ', mapping,
-                                                    le_path + 'getDefaultAddress/zipCode/city')
-        else:
-            etablissement.append_rubrique('015', "Pays", country_code)
-            etablissement.append_rubrique_from_path('016', "Code de distribution à l'étranger ",
-                                                    mapping, le_path + 'getDefaultAddress/zipCode/zipCode')
+        etablissement.append_address(('004', '005', '015', '016'), mapping, le_path + 'getDefaultAddress/')
         self.append_sub_bloc(etablissement)
         return etablissement
 
@@ -236,15 +203,13 @@ class Bloc:
         versement.append_rubrique_from_path('004', 'IBAN', mapping, "getClaimTaxDeductionFlowConfig/bankAccount/iBAN")
         amount = xpath_get(mapping, "globalAmount/amount")
         versement.append_rubrique('005', 'Montant du versement', "{0:.2f}".format(amount))
-        # TODO not hard coded periode de rattachement
-        # taken first date of dclaraton month
+        """First day of month of declaration"""
         declarationmonth = xpath_get(mapping, 'month')
         declarationyear = xpath_get(mapping, 'year')
-        decclaration_date_str = '010' + str(Months[declarationmonth]) + str(declarationyear)
-        versement.append_rubrique('006', 'Date de début de période de rattachement', decclaration_date_str)
-        # taken last day of that month
-        declaration_last_day = str(calendar.monthrange(declarationyear, Months[declarationmonth])[-1]) + '0' + str(
-            Months[declarationmonth]) + str(declarationyear)
+        declaration_date = '01' + MONTHS[declarationmonth] + str(declarationyear)
+        versement.append_rubrique('006', 'Date de début de période de rattachement', declaration_date)
+        """last day of month of declaration """
+        declaration_last_day = str(calendar.monthrange(declarationyear, int(MONTHS[declarationmonth]))[-1]) + MONTHS[declarationmonth] + str(declarationyear)
         versement.append_rubrique('007', 'Date de fin de période de rattachement', declaration_last_day)
         versement.append_rubrique('010', 'Mode de paiement', '05')
         self.append_sub_bloc(versement)
@@ -253,34 +218,23 @@ class Bloc:
         individu = Bloc.create_bloc_from_label('Individu')
         idividu_addr_path = 'person/getDefaultAddress/'
         ssn = xpath_get(mapping, "person/getSSNNumber")
-        country_code = xpath_get(mapping, idividu_addr_path+'getCountryShortCode')
         individu.append_rubrique('001', "Numéro d'inscription au répertoire", ssn[:-2])
         individu.append_rubrique_from_path('002', 'Nom de famille', mapping, "person/name")
         individu.append_rubrique_from_path('003', 'Nom d\'usage', mapping, "person/priorName")
         individu.append_rubrique_from_path('004', 'Prénoms', mapping, "person/shortName")
         gender_str = xpath_get(mapping, "person/gender")
-        individu.append_rubrique('005', 'Sexe', Gender[gender_str])
+        individu.append_rubrique('005', 'Sexe', GENDER[gender_str])
         birth_date_str = xpath_get(mapping, "person/birthDate")
         birth_date = datetime.strptime(birth_date_str, "%Y-%m-%d")
         individu.append_rubrique('006', 'Date de naissance', birth_date.strftime("%d%m%Y"))
         individu.append_rubrique_from_path('007', 'Lieu de naissance', mapping, "person/birthPlace/city")
         individu.append_rubrique_from_path('008', 'Numéro, extension, nature et libellé de la voie',
                                            mapping, idividu_addr_path + 'line1')
-        if isbelongtofrance(country_code):
-            individu.append_rubrique_from_path('009', 'Code postal ',
-                                               mapping, idividu_addr_path + 'zipCode/zipCode')
-            individu.append_rubrique_from_path('010', 'Localité ',
-                                               mapping, idividu_addr_path + 'zipCode/city')
-        else:
-            individu.append_rubrique('011', "Pays", country_code)
-            individu.append_rubrique_from_path('012', "Code de distribution à l'étranger ", mapping,
-                                               Idividu_Addr_path + 'zipCode/zipCode')
-        # TODO Country code
-        # AppendRubriqueFromPath(b, '011', 'Code pays', data, "person/birthCountry")
+        individu.append_address(('009', '010', '011', '012'), mapping, idividu_addr_path)
         birth_zip = xpath_get(mapping, 'person/birthPlace/zipCode')
-        birth_country = xpath_get(mapping, 'person/birthCountry')
         birth_country_code = xpath_get(mapping, 'person/getShortCodeOfbirthCountry')
-        if birth_country_code in FrenchCountry_Code_list:
+        """ birth zipcode should be according to nom """
+        if birth_country_code in FRENCH_COUNTRYCODE:
             if birth_zip[:2] != 20:
                 birth_zipcode = birth_zip[:2]
             else:
@@ -294,30 +248,36 @@ class Bloc:
         else:
             birth_zipcode = '99'
         individu.append_rubrique('014', 'Code département de naissance',  birth_zipcode)
-        individu.append_rubrique('015', 'Code pays de naissance', birth_Country_Code)
+        individu.append_rubrique('015', 'Code pays de naissance', birth_country_code)
         self.append_sub_bloc(individu)
         return individu
 
     def append_versement_individu(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement individu')
-        # TODO Date
-        versement.append_rubrique('001', 'Date de versement', '01012018')
+        disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
+        print(disbursement_date_str)
+        disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
+        versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
         rate = xpath_get(mapping, 'getTaxRate')
+        identifier = xpath_get(mapping, 'getIdentifier')
         tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
         # TODO Rémunération nette fiscale
         net_fiscal = tax_amount / rate
         versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
         versement.append_rubrique('003', 'Numéro de versement', '1')
         versement.append_rubrique('006', 'Taux de prélèvement à la source', "{0:.2f}".format(rate))
-        # TODO => manage different type du taux / rubrique 008 id
-        # either we write a function to get 007 type de taux or
-        tax_name = xpath_get(mapping, 'GetTaxname')
-        if "Metropole" in tax_name:
-            tax_code = '17'
-        elif 'Guadeloupe' in tax_name:
-            tax_code = '27'
-        elif 'GuyaneMayotte' in tax_name:
-            tax_code = '37'
+        """ according to tax tax code will be given in file """
+        tax_name = xpath_get(mapping, 'getTaxname')
+        tax_code = ''
+        if identifier != '':
+            if "Metropole" in tax_name:
+                tax_code = '17'
+            elif 'Guadeloupe' in tax_name:
+                tax_code = '27'
+            elif 'GuyaneMayotte' in tax_name:
+                tax_code = '37'
+            else:
+                logging.warning(f"Not matching with any of tax")
         else:
             tax_code = '01'
         versement.append_rubrique('007', 'Type du taux de prélèvement à la source', tax_code)
@@ -342,8 +302,8 @@ class Bloc:
         self.append_sub_bloc(total)
 
 
-def create_pasrau_file_from_mapping(file, jsonfile):
-    with open(file, 'r', encoding="UTF8") as fl:
+def create_pasrau_file_from_mapping(jfile, jsonfile):
+    with open(jfile, 'r', encoding="UTF8") as fl:
         data = json.load(fl)
         root = Bloc(0, 'Root', [], [])
         root.append_envoi()
@@ -364,19 +324,41 @@ def create_pasrau_file_from_mapping(file, jsonfile):
     with open(of, 'w', encoding="ISO 8859-1") as f:
         root.write(f)
     if connection_check():
-        subprocess.call([pasrau_path+'fr.cnav.norme.neorau.val.product-win32.win32.x86_64\\Validation_pasrau.bat', of],
-                        stdout=sys.stdout)
+        subprocess.call([pasrau_path+'fr.cnav.norme.neorau.val.product-win32.win32.x86_64'
+                                     '\\Autocontrol-ValidateurModeBatchWin64.cmd', of])
     else:
         print(f"Connection is not avalable,cannot validate pasrau file")
 
 
+""" all the file need to move the correct location if file not exist making directory"""
+json_folder_path = sys.argv[1]
+print(f"Json Folder : {json_folder_path}")
+out_pasrau_path = sys.argv[2]
+print(f"outpasrau Folder : {out_pasrau_path}")
+pasrau_path = str(sys.argv[0]).replace("Pasrauu.py", "")
+log_file_path = sys.argv[3]+'Log\\'
+if not os.path.exists(log_file_path + 'Python'):
+    os.makedirs(log_file_path + 'Python')
+print(f"log file : {log_file_path+'Python'}")
 json_files = [x for x in os.listdir(json_folder_path) if x.endswith("json")]
+if len(json_files) > 0:
+    logging.basicConfig(filename=log_file_path + 'Python\\' + (datetime.now().strftime("%d%m%y%H%M")) + '.log',
+                        level=logging.DEBUG, format='%(asctime)s %(message)s')
+with open(log_file_path + 'Python\\' + '_mainlog.txt', 'a') as file:
+    if len(json_files) == 0:
+        file.write(f"{datetime.now().strftime('%d-%m-%y-%H-%M-%S')} : No json file is available for convert"
+                   f" pasrau file" + '\n')
+    else:
+        file.write(f"{datetime.now().strftime('%d-%m-%y-%H-%M-%S')} :"
+                   f" total {len(json_files)} number of json file has been executed for converting pasrau file.")
+        file.write(f"Please see more log detail in {(datetime.now().strftime('%d%m%y%H%M')) + '.log'} file" + '\n')
+        file.close()
 for json_file in json_files:
     json_file_path = os.path.join(json_folder_path, json_file)
     create_pasrau_file_from_mapping(json_file_path, json_file)
     if not os.path.exists(json_folder_path + 'Archive'):
         os.makedirs(json_folder_path + 'Archive')
-    if os.path.isfile(json_folder_path + 'Archive//'+json_file):
+    if os.path.isfile(json_folder_path + 'Archive//' + json_file):
         shutil.copy2(json_file_path, json_folder_path + 'Archive')
         os.remove(json_file_path)
     else:
