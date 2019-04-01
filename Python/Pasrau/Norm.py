@@ -1,5 +1,3 @@
-import math
-from enum import Enum
 
 BLOCS = {
     'S10.G00.00': 'Envoi',

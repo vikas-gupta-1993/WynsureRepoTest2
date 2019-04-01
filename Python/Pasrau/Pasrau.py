@@ -7,14 +7,47 @@ import logging
 import calendar
 import sys
 import shutil
-import subprocess
 import urllib.request
 import urllib.error
 from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE
+# import subprocess
 
-sys.argv = ["D:\\Wynsure59-1\\Wynsure\\Python\\Pasrau\\Pasrauu.py", "D:\\Wynsure59-1\\"
-                                                                    "Wynsure\\batch\\Out_Python\\",
-            "D:\\Wynsure59-1\\Wynsure\\batch\\Out_Python\\Out_Pasrau\\", "D:\\Wynsure59-1\\EnvRoot\\"]
+# sys.argv = [" ", "D:\\Wynsure59-1\\Wynsure\\batch\\OUT_APPLI\\PASRAU",
+# "D:\\Wynsure59-1\\Wynsure\\batch\\OUT_PYTHON\\PASRAU\\","D:\\Wynsure59-1\\EnvRoot\\Log\\Python\\"]
+
+
+def setup_logger(logger_name, log_file, level=logging.DEBUG):
+    logger_name = logging.getLogger(logger_name)
+    formatter = logging.Formatter('%(asctime)s %(levelname)s : %(message)s')
+    filehandler = logging.FileHandler(log_file, mode='a')
+    filehandler.setFormatter(formatter)
+    streamhandler = logging.StreamHandler()
+    streamhandler.setFormatter(logging.Formatter('%(levelname)s : %(message)s'))
+    logger_name.setLevel(level)
+    logger_name.addHandler(filehandler)
+    logger_name.addHandler(streamhandler)
+    return logger_name
+
+
+"""all the file need to move the correct location if file not exist making directory """
+
+wynsure_version = sys.argv[1]
+json_folder_path = sys.argv[2]
+out_pasrau_path = sys.argv[3]
+log_file_path = sys.argv[4]
+pasrau_path = sys.argv[5]
+
+mainlogger = setup_logger('mainlogger', log_file_path + 'mainlog.log')
+
+json_files = [x for x in os.listdir(json_folder_path) if x.endswith("json")]
+if len(json_files) == 0:
+    mainlogger.info('No json file is available for convert Pasrau file')
+else:
+    mainlogger.info(f" total {len(json_files)} number of json file has been executed for converting pasrau file.")
+    for i in range(0, len(json_files)):
+        mainlogger.info(f"{json_files[i]} has been processed")
+    logger = setup_logger('logger', log_file_path + (datetime.now().strftime("%d%m%y%H%M")) + '.log')
+    mainlogger.info(f"Please see more log detail in {(datetime.now().strftime('%d%m%y%H%M')) + '.log'} file")
 
 
 def connection_check():
@@ -23,7 +56,7 @@ def connection_check():
         urllib.request.urlopen(url, timeout=2)
         return True
     except urllib.error.URLError:
-        logging.warning(f"connection is not available")
+        logger.warning(f"connection is not available")
         return False
 
 
@@ -35,7 +68,7 @@ def xpath_get(mapping, path):
     except AttributeError:
         pass
     if not elem:
-        logging.warning(f"Can not find element for path '{path}'")
+        logger.warning(f"Can not find element for path '{path}'")
     return elem
 
 
@@ -59,7 +92,7 @@ class Bloc:
     Might contain descendant blocs (sub_blocs)
     Contains rubriques.
     """
-    id: int
+    id: str
     label: str
     rubriques: List[Rubrique]
     sub_blocs: List['Bloc']
@@ -109,8 +142,7 @@ class Bloc:
         envoi = Bloc.create_bloc_from_label('Envoi')
         envoi.append_rubrique('001', 'Nom du logiciel utilisé', 'Wynsure')
         envoi.append_rubrique('002', "Nom de l'éditeur", 'MPHASIS WYDE')
-        # TODO version
-        envoi.append_rubrique('003', 'Numéro de version du logiciel utilisé', '5.9')
+        envoi.append_rubrique('003', 'Numéro de version du logiciel utilisé', wynsure_version)
         envoi.append_rubrique('005', "Code envoi du fichier d'essai ou réel", '02')
         envoi.append_rubrique('006', 'Numéro de version de la norme utilisée', '201710')
         envoi.append_rubrique('008', "Type de l'envoi", '01')
@@ -209,7 +241,9 @@ class Bloc:
         declaration_date = '01' + MONTHS[declarationmonth] + str(declarationyear)
         versement.append_rubrique('006', 'Date de début de période de rattachement', declaration_date)
         """last day of month of declaration """
-        declaration_last_day = str(calendar.monthrange(declarationyear, int(MONTHS[declarationmonth]))[-1]) + MONTHS[declarationmonth] + str(declarationyear)
+        declaration_last_day = str(calendar.monthrange(declarationyear,
+                                                       int(MONTHS[declarationmonth]))[-1]) + MONTHS[declarationmonth]
+        declaration_last_day = declaration_last_day + str(declarationyear)
         versement.append_rubrique('007', 'Date de fin de période de rattachement', declaration_last_day)
         versement.append_rubrique('010', 'Mode de paiement', '05')
         self.append_sub_bloc(versement)
@@ -255,13 +289,12 @@ class Bloc:
     def append_versement_individu(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement individu')
         disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
-        print(disbursement_date_str)
         disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
         versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
         tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
-        # TODO Rémunération nette fiscale
+        # need to do Rémunération nette fiscale
         net_fiscal = tax_amount / rate
         versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
         versement.append_rubrique('003', 'Numéro de versement', '1')
@@ -305,7 +338,7 @@ class Bloc:
 def create_pasrau_file_from_mapping(jfile, jsonfile):
     with open(jfile, 'r', encoding="UTF8") as fl:
         data = json.load(fl)
-        root = Bloc(0, 'Root', [], [])
+        root = Bloc('0', 'Root', [], [])
         root.append_envoi()
         root.append_emetteur(data)
         root.append_contact_emetteur(data)
@@ -323,36 +356,14 @@ def create_pasrau_file_from_mapping(jfile, jsonfile):
     of = out_pasrau_path+pasrau_file
     with open(of, 'w', encoding="ISO 8859-1") as f:
         root.write(f)
-    if connection_check():
-        subprocess.call([pasrau_path+'fr.cnav.norme.neorau.val.product-win32.win32.x86_64'
-                                     '\\Autocontrol-ValidateurModeBatchWin64.cmd', of])
-    else:
-        print(f"Connection is not avalable,cannot validate pasrau file")
+    # if connection_check():
+    # print(pasrau_path+'fr.cnav.norme.neorau.val.product-win32.win32.x86_64\\Autocontrol-ValidateurModeBatchWin64.cmd')
+    # subprocess.call([pasrau_path+
+    # 'fr.cnav.norme.neorau.val.product-win32.win32.x86_64\\Autocontrol-ValidateurModeBatchWin64.cmd', of])
+    # else:
+    # logger.warning(f"Connection is not avalable,cannot validate pasrau file")
 
 
-""" all the file need to move the correct location if file not exist making directory"""
-json_folder_path = sys.argv[1]
-print(f"Json Folder : {json_folder_path}")
-out_pasrau_path = sys.argv[2]
-print(f"outpasrau Folder : {out_pasrau_path}")
-pasrau_path = str(sys.argv[0]).replace("Pasrauu.py", "")
-log_file_path = sys.argv[3]+'Log\\'
-if not os.path.exists(log_file_path + 'Python'):
-    os.makedirs(log_file_path + 'Python')
-print(f"log file : {log_file_path+'Python'}")
-json_files = [x for x in os.listdir(json_folder_path) if x.endswith("json")]
-if len(json_files) > 0:
-    logging.basicConfig(filename=log_file_path + 'Python\\' + (datetime.now().strftime("%d%m%y%H%M")) + '.log',
-                        level=logging.DEBUG, format='%(asctime)s %(message)s')
-with open(log_file_path + 'Python\\' + '_mainlog.txt', 'a') as file:
-    if len(json_files) == 0:
-        file.write(f"{datetime.now().strftime('%d-%m-%y-%H-%M-%S')} : No json file is available for convert"
-                   f" pasrau file" + '\n')
-    else:
-        file.write(f"{datetime.now().strftime('%d-%m-%y-%H-%M-%S')} :"
-                   f" total {len(json_files)} number of json file has been executed for converting pasrau file.")
-        file.write(f"Please see more log detail in {(datetime.now().strftime('%d%m%y%H%M')) + '.log'} file" + '\n')
-        file.close()
 for json_file in json_files:
     json_file_path = os.path.join(json_folder_path, json_file)
     create_pasrau_file_from_mapping(json_file_path, json_file)
