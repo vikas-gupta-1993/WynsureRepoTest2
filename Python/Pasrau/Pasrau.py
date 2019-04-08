@@ -218,7 +218,7 @@ class Bloc:
         ssn = xpath_get(mapping, "person/getSSNNumber")
         individu.append_rubrique('001', "Numéro d'inscription au répertoire", ssn[:-2])
         individu.append_rubrique_from_path('002', 'Nom de famille', mapping, "person/name")
-        individu.append_rubrique_from_path('003', 'Nom d\'usage', mapping, "person/priorName")
+        individu.append_rubrique_from_path('003', 'Nom d\'usage', mapping, "person/shortName")
         individu.append_rubrique_from_path('004', 'Prénoms', mapping, "person/shortName")
         gender_str = xpath_get(mapping, "person/gender")
         individu.append_rubrique('005', 'Sexe', GENDER[gender_str])
@@ -266,7 +266,7 @@ class Bloc:
         """ according to tax tax code will be given in file """
         tax_name = xpath_get(mapping, 'getTaxname')
         tax_code = ''
-        if identifier != '':
+        if identifier == '':
             if "Metropole" in tax_name:
                 tax_code = '17'
             elif 'Guadeloupe' in tax_name:
