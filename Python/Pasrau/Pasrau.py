@@ -10,54 +10,18 @@ import shutil
 import urllib.request
 import urllib.error
 from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE
-# import subprocess
-
-# sys.argv = [" ", "D:\\Wynsure59-1\\Wynsure\\batch\\OUT_APPLI\\PASRAU",
-# "D:\\Wynsure59-1\\Wynsure\\batch\\OUT_PYTHON\\PASRAU\\","D:\\Wynsure59-1\\EnvRoot\\Log\\Python\\"]
 
 
-def setup_logger(logger_name, log_file, level=logging.DEBUG):
-    logger_name = logging.getLogger(logger_name)
-    formatter = logging.Formatter('%(asctime)s %(levelname)s : %(message)s')
+def setup_logger(log_file):
+    mainlog = logging.getLogger(__name__)
     filehandler = logging.FileHandler(log_file, mode='a')
-    filehandler.setFormatter(formatter)
+    filehandler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s : %(message)s'))
     streamhandler = logging.StreamHandler()
     streamhandler.setFormatter(logging.Formatter('%(levelname)s : %(message)s'))
-    logger_name.setLevel(level)
-    logger_name.addHandler(filehandler)
-    logger_name.addHandler(streamhandler)
-    return logger_name
-
-
-"""all the file need to move the correct location if file not exist making directory """
-
-wynsure_version = sys.argv[1]
-json_folder_path = sys.argv[2]
-out_pasrau_path = sys.argv[3]
-log_file_path = sys.argv[4]
-pasrau_path = sys.argv[5]
-
-mainlogger = setup_logger('mainlogger', log_file_path + 'mainlog.log')
-
-json_files = [x for x in os.listdir(json_folder_path) if x.endswith("json")]
-if len(json_files) == 0:
-    mainlogger.info('No json file is available for convert Pasrau file')
-else:
-    mainlogger.info(f" total {len(json_files)} number of json file has been executed for converting pasrau file.")
-    for i in range(0, len(json_files)):
-        mainlogger.info(f"{json_files[i]} has been processed")
-    logger = setup_logger('logger', log_file_path + (datetime.now().strftime("%d%m%y%H%M")) + '.log')
-    mainlogger.info(f"Please see more log detail in {(datetime.now().strftime('%d%m%y%H%M')) + '.log'} file")
-
-
-def connection_check():
-    try:
-        url = "http://www.gip-mds.fr/Outil/pasrau-val/"
-        urllib.request.urlopen(url, timeout=2)
-        return True
-    except urllib.error.URLError:
-        logger.warning(f"connection is not available")
-        return False
+    mainlog.setLevel(level=logging.DEBUG)
+    mainlog.addHandler(filehandler)
+    mainlog.addHandler(streamhandler)
+    return mainlog
 
 
 def xpath_get(mapping, path):
@@ -68,7 +32,7 @@ def xpath_get(mapping, path):
     except AttributeError:
         pass
     if not elem:
-        logger.warning(f"Can not find element for path '{path}'")
+        main_log.warning(f"Can not find element for path '{path}'")
     return elem
 
 
@@ -138,7 +102,7 @@ class Bloc:
         for b in self.sub_blocs:
             b.write(pasrau_file)
 
-    def append_envoi(self):
+    def append_envoi(self, wynsure_version):
         envoi = Bloc.create_bloc_from_label('Envoi')
         envoi.append_rubrique('001', 'Nom du logiciel utilisé', 'Wynsure')
         envoi.append_rubrique('002', "Nom de l'éditeur", 'MPHASIS WYDE')
@@ -335,11 +299,13 @@ class Bloc:
         self.append_sub_bloc(total)
 
 
-def create_pasrau_file_from_mapping(jfile, jsonfile):
+def create_pasrau_file_from_mapping(jfile, out_pasrau_path, wynsure_version, python_log_path):
+    global main_log
+    main_log = setup_logger(os.path.join(python_log_path, datetime.now().strftime("%d%m%y%H%M")) + '.log')
     with open(jfile, 'r', encoding="UTF8") as fl:
         data = json.load(fl)
         root = Bloc('0', 'Root', [], [])
-        root.append_envoi()
+        root.append_envoi(wynsure_version)
         root.append_emetteur(data)
         root.append_contact_emetteur(data)
         pasrau = root.append_pasrau(data)
@@ -352,25 +318,7 @@ def create_pasrau_file_from_mapping(jfile, jsonfile):
             for versement_data in individu_data['claimLogs']:
                 individu.append_versement_individu(versement_data)
         root.append_total()
-    pasrau_file = jsonfile.replace(".json", "")+".pasrau"
-    of = out_pasrau_path+pasrau_file
-    with open(of, 'w', encoding="ISO 8859-1") as f:
+    pasrau_file = (str(jfile).split('\\'))[-1].replace(".json", "")+".pasrau"
+    out_pasrau = os.path.join(out_pasrau_path, pasrau_file)
+    with open(out_pasrau, 'w', encoding="ISO 8859-1") as f:
         root.write(f)
-    # if connection_check():
-    # print(pasrau_path+'fr.cnav.norme.neorau.val.product-win32.win32.x86_64\\Autocontrol-ValidateurModeBatchWin64.cmd')
-    # subprocess.call([pasrau_path+
-    # 'fr.cnav.norme.neorau.val.product-win32.win32.x86_64\\Autocontrol-ValidateurModeBatchWin64.cmd', of])
-    # else:
-    # logger.warning(f"Connection is not avalable,cannot validate pasrau file")
-
-
-for json_file in json_files:
-    json_file_path = os.path.join(json_folder_path, json_file)
-    create_pasrau_file_from_mapping(json_file_path, json_file)
-    if not os.path.exists(json_folder_path + 'Archive'):
-        os.makedirs(json_folder_path + 'Archive')
-    if os.path.isfile(json_folder_path + 'Archive//' + json_file):
-        shutil.copy2(json_file_path, json_folder_path + 'Archive')
-        os.remove(json_file_path)
-    else:
-        shutil.move(json_file_path, json_folder_path + 'Archive')
