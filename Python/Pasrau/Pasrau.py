@@ -9,19 +9,38 @@ import sys
 import shutil
 import urllib.request
 import urllib.error
+import shutil
 from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE
 
 
 def setup_logger(log_file):
-    mainlog = logging.getLogger(__name__)
+    logger = logging.getLogger(__name__)
     filehandler = logging.FileHandler(log_file, mode='a')
     filehandler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s : %(message)s'))
     streamhandler = logging.StreamHandler()
     streamhandler.setFormatter(logging.Formatter('%(levelname)s : %(message)s'))
-    mainlog.setLevel(level=logging.DEBUG)
-    mainlog.addHandler(filehandler)
-    mainlog.addHandler(streamhandler)
-    return mainlog
+    logger.setLevel(level=logging.DEBUG)
+    logger.addHandler(filehandler)
+    logger.addHandler(streamhandler)
+    return logger
+
+
+def create_dir(path):
+    """Creating directoty if not Exsist."""
+    os.makedirs(path, exist_ok=True)
+    return path
+
+
+def get_valid_directory_path(dir_path):
+    """Checking and returning the valid Directory."""
+    path = ''
+    for x in dir_path.split(os.sep):
+        path = path+x
+        if not os.path.exists(path):
+            log.error(f"not found the path {path}")
+            raise ValueError(f"not a valid directory {path}")
+        path = path+os.sep
+    return path
 
 
 def xpath_get(mapping, path):
@@ -32,7 +51,7 @@ def xpath_get(mapping, path):
     except AttributeError:
         pass
     if not elem:
-        main_log.warning(f"Can not find element for path '{path}'")
+        log.warning(f"Can not find element for path '{path}'")
     return elem
 
 
@@ -299,10 +318,8 @@ class Bloc:
         self.append_sub_bloc(total)
 
 
-def create_pasrau_file_from_mapping(jfile, out_pasrau_path, wynsure_version, python_log_path):
-    global main_log
-    main_log = setup_logger(os.path.join(python_log_path, datetime.now().strftime("%d%m%y%H%M")) + '.log')
-    with open(jfile, 'r', encoding="UTF8") as fl:
+def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version):
+    with open(json_file, 'r', encoding="UTF8") as fl:
         data = json.load(fl)
         root = Bloc('0', 'Root', [], [])
         root.append_envoi(wynsure_version)
@@ -318,7 +335,44 @@ def create_pasrau_file_from_mapping(jfile, out_pasrau_path, wynsure_version, pyt
             for versement_data in individu_data['claimLogs']:
                 individu.append_versement_individu(versement_data)
         root.append_total()
-    pasrau_file = (str(jfile).split('\\'))[-1].replace(".json", "")+".pasrau"
+    pasrau_file = (str(json_file).split('\\'))[-1].replace(".json", "")+".pasrau"
     out_pasrau = os.path.join(out_pasrau_path, pasrau_file)
     with open(out_pasrau, 'w', encoding="ISO 8859-1") as f:
         root.write(f)
+
+
+def manage_pasrau(directory_path):
+    """managing the Pasrau file"""
+    global log
+    input_json = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'batch', 'OUT_APPLI', 'PASRAU'))
+    out_python = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'batch', 'OUT_PYTHON'))
+    out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
+    python_log = get_valid_directory_path(os.path.join(directory_path['env-root'], 'Log', 'Python'))
+    pasrau = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'Python', 'Pasrau'))
+    wyn_version = directory_path['wynsure-version']
+    log = setup_logger(os.path.join(python_log, datetime.now().strftime("%d%m%Y")) + '.log')
+    log.info(f"Json Folder : {input_json}")
+    log.info(f"pasrau Folder : {out_pasrau}")
+    log.info(f"log folder : {python_log}")
+    log.info(f"Pasrau.py: {pasrau}")
+    json_files = [x for x in os.listdir(input_json) if x.endswith("json")]
+    if len(json_files) == 0:
+        log.info('No json file is available for convert Pasrau file')
+    else:
+        log.info(f"total {len(json_files)} number of json file has been executed for converting pasrau file.")
+        log.info(f"Please see more log detail in {(datetime.now().strftime('%d%m%Y')) + '.log'} file")
+    for json_file in json_files:
+        json_file_path = os.path.join(input_json, json_file)
+        try:
+            create_pasrau_file_from_mapping(json_file_path, out_pasrau, wyn_version)
+        except Exception as e:
+            log.error(f"Exception While running Pasrau.py : {str(e)} "
+                      f"For more log please find log filr {python_log} ")
+            log.exception(f"Exception in in Pasrau py:{str(e)}")
+            raise
+        create_dir(os.path.join(input_json, 'Archive'))
+        if os.path.isfile(os.path.join(input_json, 'Archive', json_file)):
+            shutil.copy2(json_file_path, input_json + 'Archive')
+            os.remove(json_file_path)
+        else:
+            shutil.move(json_file_path, input_json + 'Archive')
