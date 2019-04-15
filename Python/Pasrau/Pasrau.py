@@ -341,15 +341,15 @@ def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version)
         root.write(f)
 
 
-def manage_pasrau(directory_path):
+def manage_pasrau(config):
     """managing the Pasrau file"""
     global log
-    input_json = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'batch', 'OUT_APPLI', 'PASRAU'))
-    out_python = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'batch', 'OUT_PYTHON'))
+    input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_APPLI', 'PASRAU'))
+    out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
     out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
-    python_log = get_valid_directory_path(os.path.join(directory_path['env-root'], 'Log', 'Python'))
-    pasrau = get_valid_directory_path(os.path.join(directory_path['wf-root'], 'Python', 'Pasrau'))
-    wyn_version = directory_path['wynsure-version']
+    python_log = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python'))
+    pasrau = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'Python', 'Pasrau'))
+    wyn_version = config.get('WydeEnvironment', 'wynsure-version')
     log = setup_logger(os.path.join(python_log, datetime.now().strftime("%d%m%Y")) + '.log')
     log.info(f"Json Folder : {input_json}")
     log.info(f"pasrau Folder : {out_pasrau}")
