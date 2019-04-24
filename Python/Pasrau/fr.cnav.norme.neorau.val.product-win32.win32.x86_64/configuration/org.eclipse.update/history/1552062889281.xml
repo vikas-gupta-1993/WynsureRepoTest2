@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1552062889281" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.12.0.v20151130-0157/" version="3.12.0.v20151130-0157">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20151130-0157/" version="1.1.0.v20151130-0157">
+</feature>
+<feature id="fr.cnav.autocontrole.feature.rcp" url="features/fr.cnav.autocontrole.feature.rcp_1.4.0.201901110759/" version="1.4.0.201901110759">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.2.0.v20151130-0157/" version="1.2.0.v20151130-0157">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.3.100.v20150527-1706/" version="1.3.100.v20150527-1706">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.101.v20150826-1318/" version="1.2.101.v20150826-1318">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.12.0.v20151130-0157/" version="3.12.0.v20151130-0157">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.0.v20151130-0157/" version="1.1.0.v20151130-0157">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20151130-0157/" version="1.1.0.v20151130-0157">
+</feature>
+<feature id="fr.cnav.norme.neorau.feature" url="features/fr.cnav.norme.neorau.feature_1.4.0.201901110759/" version="1.4.0.201901110759">
+</feature>
+<feature id="fr.cnav.saturne.dependencies.feature" url="features/fr.cnav.saturne.dependencies.feature_2.1.0.201901110759/" version="2.1.0.201901110759">
+</feature>
+<feature id="fr.cnav.autocontrole.feature.validator" url="features/fr.cnav.autocontrole.feature.validator_1.7.0.201901110759/" version="1.7.0.201901110759">
+</feature>
+<feature id="fr.cnav.autocontrole.base.feature" url="features/fr.cnav.autocontrole.base.feature_1.5.0.201901110759/" version="1.5.0.201901110759">
+</feature>
+</site>
+</config>
