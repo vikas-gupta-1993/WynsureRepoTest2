@@ -350,7 +350,7 @@ def manage_pasrau(config):
     out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
     out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
     python_log = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python'))
-    pasrau = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'Python', 'Pasrau'))
+    pasrau = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'Python', 'Pasrau_File'))
     wyn_version = config.get('WydeEnvironment', 'wynsure-version')
     log = setup_logger(os.path.join(python_log, datetime.now().strftime("%d%m%Y")) + '.log')
     log.info(f"Json Folder : {input_json}")
