@@ -167,6 +167,7 @@ class Bloc:
         """ Current date of file being generated """
         creation_date = datetime.now().strftime("%d%m%Y")
         pasrau.append_rubrique('007', 'Date de constitution du fichier', creation_date)
+        pasrau.append_rubrique('009', 'Identifiant métier', str(declaration_year) + MONTHS[declaration_month] + '01')
         pasrau.append_rubrique('010', 'Devise de la déclaration', '01')
         self.append_sub_bloc(pasrau)
         return pasrau
@@ -276,6 +277,7 @@ class Bloc:
         versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
+        is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
         tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
         # need to do Rémunération nette fiscale
         net_fiscal = tax_amount / rate
@@ -285,7 +287,7 @@ class Bloc:
         """ according to tax tax code will be given in file """
         tax_name = xpath_get(mapping, 'getTaxname')
         tax_code = ''
-        if identifier == '':
+        if identifier == '' or is_default_taxrate == 'true':
             if "Metropole" in tax_name:
                 tax_code = '17'
             elif 'Guadeloupe' in tax_name:
@@ -293,7 +295,7 @@ class Bloc:
             elif 'GuyaneMayotte' in tax_name:
                 tax_code = '37'
             else:
-                logging.warning(f"Not matching with any of tax")
+                log.warning(f"Not matching with any of tax")
         else:
             tax_code = '01'
         versement.append_rubrique('007', 'Type du taux de prélèvement à la source', tax_code)
@@ -367,12 +369,12 @@ def manage_pasrau(config):
             create_pasrau_file_from_mapping(json_file_path, out_pasrau, wyn_version)
         except Exception as e:
             log.error(f"Exception While running Pasrau.py : {str(e)} "
-                      f"For more log please find log filr {python_log} ")
+                      f"For more log please find log file {python_log} ")
             log.exception(f"Exception in in Pasrau py:{str(e)}")
             raise
-        create_dir(os.path.join(input_json, 'Archive'))
+        archive_dir = create_dir(os.path.join(input_json, 'Archive'))
         if os.path.isfile(os.path.join(input_json, 'Archive', json_file)):
-            shutil.copy2(json_file_path, input_json + 'Archive')
+            shutil.copy2(json_file_path, archive_dir)
             os.remove(json_file_path)
         else:
-            shutil.move(json_file_path, input_json + 'Archive')
+            shutil.move(json_file_path, archive_dir)
