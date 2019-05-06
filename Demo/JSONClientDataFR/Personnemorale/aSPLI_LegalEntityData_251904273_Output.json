@@ -1,4 +1,4 @@
-{
+﻿{
 	"data":{
 		"className":"aSPLI_LegalEntityData",
 		"bUID":"##20",
@@ -607,7 +607,7 @@
 					"className":"aSPCB_ClientIdentifier",
 					"bUID":"",
 					"description":"ADLC COORDINATION SECURITE ET PROTECTION SANTE (ADL) - 78967567500019",
-					"internalClientId":"0000000130",
+					"internalClientId":"",
 					"externalClientId":{
 						"externalClientId":"0000000118WEX",
 						"thirdPartyID":"CET"
