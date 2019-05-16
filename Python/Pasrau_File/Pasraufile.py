@@ -115,6 +115,11 @@ class Bloc:
             self.append_rubrique_from_path(rubrique_id[3], "Code de distribution à l'étranger ",
                                            mapping, defaultaddress_path+'zipCode/zipCode')
 
+    def is_regularisation_not_found(self, mapping):
+        reverse_log = xpath_get(mapping, 'reversedLog')
+        if reverse_log is None:
+            return True
+
     def write(self, pasrau_file):
         for r in self.rubriques:
             pasrau_file.write(str(self.id) + '.' + str(r.id) + ',' + "'" + r.value + "'" + "\n")
@@ -272,6 +277,7 @@ class Bloc:
 
     def append_versement_individu(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement individu')
+        reverse_log = xpath_get(mapping, 'reversedLog')
         disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
         disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
         versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
@@ -302,8 +308,26 @@ class Bloc:
         if tax_code == '01':
             versement.append_rubrique_from_path('008', 'Identifiant du taux de prélèvement à la source', mapping,
                                                 'getIdentifier')
-        versement.append_rubrique('009', 'Montant du prélèvement à la source', "{0:.2f}".format(tax_amount))
+        if reverse_log is None:
+            versement.append_rubrique('009', 'Montant du prélèvement à la source', "{0:.2f}".format(tax_amount))
+        else:
+            versement.append_rubrique('009', 'Montant du prélèvement à la source', '0.00')
         self.append_sub_bloc(versement)
+        return versement
+
+    def append_reegularisation(self, mapping):
+        reverse_tax_amount = xpath_get(mapping, 'amount/amount')
+        reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
+        regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
+        regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'GetMonthAndYear')
+        regularisation.append_rubrique('002', 'Type d\'erreur', '03')
+        regularisation.append_rubrique('003', 'Régularisation de la rémunération nette fiscale',
+                                       "{0:.2f}".format(reverse_tax_amount))
+        regularisation.append_rubrique('006', 'Taux déclaré le mois de l’erreur',
+                                       "{0:.2f}".format(reverse_tax_rate))
+        regularisation.append_rubrique('007', 'Montant de la régularisation du prélèvement à'
+                                              ' la source', "{0:.2f}".format(reverse_tax_amount))
+        self.append_sub_bloc(regularisation)
 
     def total_rubrique(self):
         """Give the total number of rubriques (lines) in the file"""
@@ -335,7 +359,9 @@ def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version)
         for individu_data in data['getListWithPersonDeductions']:
             individu = etablissement.append_individu(individu_data)
             for versement_data in individu_data['claimLogs']:
-                individu.append_versement_individu(versement_data)
+                versement = individu.append_versement_individu(versement_data)
+                if not versement.is_regularisation_not_found(versement_data):
+                    versement.append_regularisation(versement_data)
         root.append_total()
     pasrau_file = (str(json_file).split('\\'))[-1].replace(".json", "")+".pasrau"
     out_pasrau = os.path.join(out_pasrau_path, pasrau_file)
@@ -346,7 +372,8 @@ def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version)
 def manage_pasrau(config):
     """managing the Pasrau file"""
     global log
-    input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_APPLI', 'PASRAU'))
+    input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'),
+                                                       'batch', 'OUT_APPLI', 'PASRAU'))
     out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
     out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
     python_log = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python'))
