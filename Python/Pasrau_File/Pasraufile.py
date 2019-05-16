@@ -278,7 +278,7 @@ class Bloc:
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
-        tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
+        tax_amount = xpath_get(mapping, 'amount/amount')
         # need to do Rémunération nette fiscale
         net_fiscal = tax_amount / rate
         versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
