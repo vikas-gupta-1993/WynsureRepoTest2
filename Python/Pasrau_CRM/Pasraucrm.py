@@ -83,13 +83,21 @@ def get_header(config):
         return header
 
 
+def xpath_get(node, path):
+    elem = node.findtext(path)
+    if not elem:
+        crm_log.error(f"Can not find element for path '{path}'")
+        raise ValueError(f"Can not find element for path '{path}'")
+    return elem
+
+
 def get_input_data(root):
     taxRateInputs = []
     identifiant = root.get('identifiant')
     for salarie in root.findall('declaration/declaration_bilan/salarie'):
         salarie_dict = dict()
         salarie_dict['identifier'] = identifiant
-        salarie_dict['sSN'] = salarie.find('NIR').text + str(97 - int(salarie.find('NIR').text) % 97)
+        salarie_dict['sSN'] = xpath_get(salarie, 'NIR') + str(97 - int(salarie.find('NIR').text) % 97)
         salarie_dict['taxData'] = 'Taux Imposition Metropole'
         if len(salarie.findall('taux_imposition_PAS')) > 0:
             salarie_dict['rate'] = salarie.find('taux_imposition_PAS').text
@@ -97,7 +105,7 @@ def get_input_data(root):
         else:
             salarie_dict['rate'] = '0.00'
             salarie_dict['DefaultTaxRate'] = 'true'
-        salarie_dict['effectiveDate'] = root.findtext('declaration/declaration_identification/identifiant_metier')
+        salarie_dict['effectiveDate'] = xpath_get(root, 'declaration/declaration_identification/identifiant_metier')
         effective_date = datetime.strptime(salarie_dict['effectiveDate'], "%Y-%m-%d")
         next_month = calendar.nextmonth(effective_date.year, effective_date.month)
         end_date = str(next_month[0]) + str(next_month[-1]) +\
@@ -108,8 +116,8 @@ def get_input_data(root):
     input_data = {"input": {
         "taxRateInputs": taxRateInputs
     },
-        "sIRET": root.findtext('declaration/declaration_identification/SIREN')
-        + root.findtext('declaration/declaration_identification/nic_affectation'),
+        "sIRET": xpath_get(root, 'declaration/declaration_identification/SIREN')
+        + xpath_get(root, 'declaration/declaration_identification/nic_affectation'),
         "date": datetime.now().strftime('%Y-%m-%d')
     }
     print(input_data)
@@ -156,7 +164,8 @@ def manage_pasrau_crm(config):
                     shutil.move(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
             elif response.status_code == 400:
                 output = json.loads(response.content)
-                crm_log.info(f"called the business service and throwing exception {output}[{response.status_code}]")
+                crm_log.warning(f"Output::Exception-{output['error']['innererror']['detailsFromException']['error']['errorMessage']}")
+                crm_log.warning(f"for more detail of exception {output}[{response.status_code}]")
             else:
                 crm_log.error(
                     f"Error while requesting for business service:[{response.status_code}] {response.reason}")
