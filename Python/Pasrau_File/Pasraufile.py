@@ -315,7 +315,7 @@ class Bloc:
         self.append_sub_bloc(versement)
         return versement
 
-    def append_reegularisation(self, mapping):
+    def append_regularisation(self, mapping):
         reverse_tax_amount = xpath_get(mapping, 'amount/amount')
         reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
         regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
