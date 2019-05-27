@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aEDA_ActionLogEventDesc><ActionLogTitle Id="2"><![CDATA[Avenant]]></ActionLogTitle><visibility Id="2"><![CDATA[0]]></visibility><resource><aWFX_ResourceRepresentation><RepresentingClassDef><aClassDef><Name>aWLIFR_GroupBenefitPlanContract</Name><NSId>218103810</NSId><Id>218188734</Id></aClassDef></RepresentingClassDef><Description Id="19"><![CDATA[]]></Description><SelectedVars><aOverrideInstanceVarDesc><Name>EmployeeClass</Name><NSId>218103824</NSId><Id>937113476885643346</Id><ClassName>aWLIFR_GroupBenefitPlanContract</ClassName></aOverrideInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>MemberProduct</Name><NSId>218103824</NSId><Id>937077755642642433</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aOverrideInstanceVarDesc><Name>OfferedEntity</Name><NSId>218103824</NSId><Id>937077755642642458</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aOverrideInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>CoveredDivisions</Name><NSId>218103824</NSId><Id>937077755642643010</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>EmployeeClassifications</Name><NSId>218103824</NSId><Id>937077755642643021</Id><ClassName>aWLIGroupBenefitPlanContract</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>Options</Name><NSId>218103824</NSId><Id>937044297847406596</Id><ClassName>aWFContractWithOptions</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>SubscribedPackages</Name><NSId>218103824</NSId><Id>937044297847407141</Id><ClassName>aWFContractWithOptions</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>SubscriberName</Name><NSId>218103824</NSId><Id>937044108868846509</Id><ClassName>aWFContract</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>SubscriptionDate</Name><NSId>218103824</NSId><Id>937044147523553399</Id><ClassName>aWFSubscribedEntity</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>CreationDate</Name><NSId>218103824</NSId><Id>937046234877657089</Id><ClassName>aWFDescWithCreationDate</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aOverrideInstanceVarDesc><Name>Name</Name><NSId>218103824</NSId><Id>937032336363487889</Id><ClassName>aWFDesc</ClassName></aOverrideInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>NSId</Name><NSId>18</NSId><Id>4294967297</Id><ClassName>aFullObject</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>Id</Name><NSId>18</NSId><Id>4294967298</Id><ClassName>aFullObject</ClassName></aInstanceVarDesc></SelectedVars><SelectedVars><aInstanceVarDesc><Name>Version</Name><NSId>18</NSId><Id>4294967299</Id><ClassName>aFullObject</ClassName></aInstanceVarDesc></SelectedVars><UseStringExtract Id="33"><![CDATA[Faux]]></UseStringExtract><ExtractMode Id="34"><![CDATA[0]]></ExtractMode><StandAlone Id="46"><![CDATA[Vrai]]></StandAlone><OnlyExtractSelectedVars Id="56"><![CDATA[Faux]]></OnlyExtractSelectedVars><UseBuid Id="61"><![CDATA[Faux]]></UseBuid><Name Id="3"><![CDATA[Contrat Collectif]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318834807]]></NSId><Id Id="2"><![CDATA[13]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFX_ResourceRepresentation></resource><PayloadRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aEDA_EventDescRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aEDA_EventDescRuleEngine)
+
+uses aWLIFR_GroupBenefitPlanContract, aEDA_ActionLogEvent, aEDA_Event
+
+
+; Rule
+; Classification
+function ContratCollectif return aWLIFR_GroupBenefitPlanContract
+   if self.Master <> Nil
+      return aWLIFR_GroupBenefitPlanContract(self.Master.OnObject)
+   else
+      return aWLIFR_GroupBenefitPlanContract(self.OnObject)
+   endIf
+endFunc 
+
+function Event return aEDA_ActionLogEvent override
+   var curEvent : aEDA_Event
+   
+   if self.Master <> Nil
+      return aEDA_ActionLogEvent(self.Master.Event)
+   else
+      curEvent = inherited self.Event
+      return aEDA_ActionLogEvent(curEvent)
+   endIf
+endFunc 
+
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
+procedure WFCalculate(inOut Result : Text)
+   uses aWLIFR_DSN_FicheParametrageVersion, aEnumType
+   
+   var t : tFicheParametrageRequestType
+   
+   t = fprtAmendment
+   Result := t.type.AsCString(@t)
+endProc 
+
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aEDA_EventDescRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218194381]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIFR_GroupBenefitPlanContract]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aEDA_ActionLogEventDesc]]></RuleEngineUsingKindContext><ReturnType><aTextType><Name Id="2"><![CDATA[Text]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1500]]></Id></aTextType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aEDA_ActionLogEventDesc><NSId Id="1"><![CDATA[318857544]]></NSId><Id Id="2"><![CDATA[51]]></Id></aEDA_ActionLogEventDesc></UsedRules><MyOwner><aEDA_ActionLogEventDesc><NSId Id="1"><![CDATA[318857544]]></NSId><Id Id="2"><![CDATA[51]]></Id></aEDA_ActionLogEventDesc></MyOwner><Name Id="3"><![CDATA[Avenant]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[786]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></PayloadRule><UsePayloadRule Id="37"><![CDATA[Vrai]]></UsePayloadRule><Name Id="3"><![CDATA[Avenant __ Contrat Collectif__ Avenant]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318857544]]></NSId><Id Id="2"><![CDATA[51]]></Id><Version Id="3"><![CDATA[3]]></Version></aEDA_ActionLogEventDesc></EntityExport>
