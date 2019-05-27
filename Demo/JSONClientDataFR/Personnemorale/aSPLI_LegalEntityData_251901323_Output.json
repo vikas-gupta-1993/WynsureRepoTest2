@@ -523,13 +523,13 @@
 					},
 					"loginEntity": {
 						"className": "aSPCB_ApplicationLogin",
-						"fullName":""adlccoordinationsecuriteetprotectionsante@free.com",
 						"name": "adlccoordinationsecuriteetprotectionsante@free.com",
 						"password": "",
 						"forbatch": false,
 						"isDisabled": false,
 						"jobLabel": "",
 						"preferedLanguageCode": "",
+						"fullName":"adlccoordinationsecuriteetprotectionsante@free.com",
 						"email": "adlccoordinationsecuriteetprotectionsante@free.com"
 					},
 					"actor": {
@@ -567,6 +567,7 @@
 			"preferredLanguageCode": "Fr",
 			"terminationDate": null,
 			"preferredContactChoice": "pcDefaultCorrespondence",
+			"preferredCurrency": "cEuro",
 			"delinquent": false,
 			"underSurveillance": false,
 			"isAnonymous": false,
