@@ -4,8 +4,8 @@
 		<h3 align="center">ClickOnce Install</h3>
 	</intro>
 	<!--<command display="Install for eWam 32 bit">..\install_ClickOnce.bat Win32 {IIS_PORT} {WSM_PORT} {USER_NAME}</command>-->
-	<!--<command display="Install for eWam 64 bit">..\install_ClickOnce.bat x64 {IIS_PORT} {WSM_PORT} {USER_NAME}</command>-->
-	<arg type="text" id="IIS_PORT" display="IIS Port">Creation in progress...</arg>
-	<arg type="text" id="WSM_PORT" display="Wyseman Port">Creation in progress...</arg>
-	<arg type="text" id="USER_NAME" display="Your first name">Creation in progress...</arg>
+	<command display="Install for eWam 64 bit">..\install_ClickOnce.bat x64 {IIS_PORT} {WSM_PORT} {USER_NAME}</command>
+	<arg type="text" id="IIS_PORT" display="IIS Port">54600</arg>
+	<arg type="text" id="WSM_PORT" display="Wyseman Port">54700</arg>
+	<arg type="text" id="USER_NAME" display="Your first name"></arg>
 </gui>

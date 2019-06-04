@@ -18,8 +18,12 @@ set GSP_HANDLER_EXT=*.gold
 set GSP_HANDLER_NAME=GOLD_WS
 SET GSP_CONFIG_FILE=SoapAPIConf.cfg
 
+:: Those parameters are for another web site : here we should have the 2 config files of ClickOnce under CLICKONCECONFIGTEMPLATES
+
 
 IF %INSTALLCLICKONCERETURNCODE%==0 GOTO ENDINERROR
+
+:: Path to be reviewed, or if it is simple you can simply add your script.
 CALL %~dp0..\Install_.bat %PRODUCTNAME%
 
 
