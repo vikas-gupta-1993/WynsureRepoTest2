@@ -146,13 +146,13 @@ def manage_pasrau_crm(config):
             root = ET.parse(crm_file_path).getroot()
             input_data = get_input_data(root)
             crm_log.info(f"input data of {crm_file}: {input_data} ")
-            #response = requests.post(
-             #   f"{endpointurl}restapi/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
-            #    data=json.dumps(input_data), headers=header, verify=False)
-             #For calling business service on local environment
             response = requests.post(
-                "http://localhost:54400/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
-            data=json.dumps(input_data), headers={"Authorization": "Basic c3VwZXIgZ2VzdGlvbm5haXJlOg=="}, verify=False)
+                f"{endpointurl}restapi/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
+                data=json.dumps(input_data), headers=header, verify=False)
+             #For calling business service on local environment
+            #response = requests.post(
+             #   "http://localhost:54400/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
+            #data=json.dumps(input_data), headers={"Authorization": "Basic c3VwZXIgZ2VzdGlvbm5haXJlOg=="}, verify=False)
             if response.status_code == 200:
                 crm_log.info(f"succesfully called the business service! [{response.status_code}]")
                 output = json.loads(response.content)
