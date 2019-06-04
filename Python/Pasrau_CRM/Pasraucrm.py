@@ -100,7 +100,7 @@ def get_input_data(root):
         salarie_dict['sSN'] = xpath_get(salarie, 'NIR') + str(97 - int(salarie.find('NIR').text) % 97)
         salarie_dict['taxData'] = 'Taux Imposition Metropole'
         if len(salarie.findall('taux_imposition_PAS')) > 0:
-            salarie_dict['rate'] = salarie.find('taux_imposition_PAS').text
+            salarie_dict['rate'] = int(salarie.find('taux_imposition_PAS').text)/100
             salarie_dict['DefaultTaxRate'] = 'false'
         else:
             salarie_dict['rate'] = '0.00'
@@ -146,22 +146,27 @@ def manage_pasrau_crm(config):
             root = ET.parse(crm_file_path).getroot()
             input_data = get_input_data(root)
             crm_log.info(f"input data of {crm_file}: {input_data} ")
+            #response = requests.post(
+             #   f"{endpointurl}restapi/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
+            #    data=json.dumps(input_data), headers=header, verify=False)
+             #For calling business service on local environment
             response = requests.post(
-                f"{endpointurl}restapi/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
-                data=json.dumps(input_data), headers=header, verify=False)
-            # For calling business service on local environment
-            # response = requests.post(
-            #    "http://localhost:54400/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
-            # data=json.dumps(input_data), headers={"Authorization": "Basic c3VwZXIgZ2VzdGlvbm5haXJlOg=="}, verify=False)
+                "http://localhost:54400/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
+            data=json.dumps(input_data), headers={"Authorization": "Basic c3VwZXIgZ2VzdGlvbm5haXJlOg=="}, verify=False)
             if response.status_code == 200:
                 crm_log.info(f"succesfully called the business service! [{response.status_code}]")
                 output = json.loads(response.content)
-                crm_log.info(f"output :{output}")
-                if os.path.isfile(os.path.join(input_crm_file_path, 'Archive', crm_file)):
-                    shutil.copy2(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
-                    os.remove(crm_file_path)
-                else:
-                    shutil.move(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
+                print(output)
+                for persontaxdescription in output['_Result']['persontaxdescription']:
+                    crm_log.info(f"successfully overridden tax rate of Person:{persontaxdescription['name']} {persontaxdescription['firstname']}"
+                                 f" with ssn: {persontaxdescription['sSN']} and  rate: {persontaxdescription['rate']}")
+                for errorPersontaxdescription in output['_Result']['errorPersontaxdescription']:
+                    if errorPersontaxdescription['name']:
+                        crm_log.warning(f"error found overridden tax rate of Person:{errorPersontaxdescription['name']}"
+                                        f" {errorPersontaxdescription['firstname']}"
+                                        f" ssn:{errorPersontaxdescription['sSN']} error : {errorPersontaxdescription['error']}")
+                    else:
+                        crm_log.warning(f"Not found the person with SSN:{errorPersontaxdescription['sSN']}")
             elif response.status_code == 400:
                 output = json.loads(response.content)
                 crm_log.warning(f"Output::Exception-{output['error']['innererror']['detailsFromException']['error']['errorMessage']}")
@@ -169,4 +174,8 @@ def manage_pasrau_crm(config):
             else:
                 crm_log.error(
                     f"Error while requesting for business service:[{response.status_code}] {response.reason}")
-
+            if os.path.isfile(os.path.join(input_crm_file_path, 'Archive', crm_file)):
+                shutil.copy2(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
+                os.remove(crm_file_path)
+            else:
+                shutil.move(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
