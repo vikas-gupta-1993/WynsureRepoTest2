@@ -405,3 +405,4 @@ def manage_pasrau(config):
             os.remove(json_file_path)
         else:
             shutil.move(json_file_path, archive_dir)
+
