@@ -285,9 +285,11 @@ class Bloc:
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
         tax_amount = xpath_get(mapping, 'amount/amount')
-        # need to do Rémunération nette fiscale
         net_fiscal = (tax_amount / rate)*100
-        versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
+        if reverse_log is None:
+            versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
+        else:
+            versement.append_rubrique('002', 'Rémunération nette fiscale', '0.00')
         versement.append_rubrique('003', 'Numéro de versement', '1')
         versement.append_rubrique('006', 'Taux de prélèvement à la source', "{0:.2f}".format(rate))
         """ according to tax tax code will be given in file """
@@ -317,12 +319,14 @@ class Bloc:
 
     def append_regularisation(self, mapping):
         reverse_tax_amount = xpath_get(mapping, 'amount/amount')
+        rate = xpath_get(mapping, 'getTaxRate')
+        net_fiscal = (reverse_tax_amount / rate) * 100
         reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
         regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
         regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'getMonthAndYear')
         regularisation.append_rubrique('002', 'Type d\'erreur', '03')
         regularisation.append_rubrique('003', 'Régularisation de la rémunération nette fiscale',
-                                       "{0:.2f}".format(reverse_tax_amount))
+                                       "{0:.2f}".format(net_fiscal))
         regularisation.append_rubrique('006', 'Taux déclaré le mois de l’erreur',
                                        "{0:.2f}".format(reverse_tax_rate))
         regularisation.append_rubrique('007', 'Montant de la régularisation du prélèvement à'
