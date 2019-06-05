@@ -42614,10 +42614,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA_Impayes]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA_Impayes]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
@@ -45666,10 +45666,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA_Impayes]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA_Impayes]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
@@ -47548,10 +47548,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\Prelevements_SEPA_Impayes]]>
+											<![CDATA[(WF-Tmp)\Prelevements_SEPA_Impayes]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
