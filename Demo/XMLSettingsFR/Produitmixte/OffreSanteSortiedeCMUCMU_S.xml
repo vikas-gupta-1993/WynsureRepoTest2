@@ -43499,10 +43499,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA[(WF-Tmp)]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA[(WF-Tmp)]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
@@ -46551,10 +46551,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA[(WF-Tmp)]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA['WF-Tmp)]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
@@ -48433,10 +48433,10 @@ endProc
 											<![CDATA[0]]>
 										</DelayToSendPaymentOrder>
 										<FolderForSentFiles Id="9">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA[(WF-Tmp)]]>
 										</FolderForSentFiles>
 										<FolderForRejectionNoticeFiles Id="10">
-											<![CDATA[[WF-Tmp]\]]>
+											<![CDATA[(WF-Tmp)]]>
 										</FolderForRejectionNoticeFiles>
 										<FolderForWaitingIncomingFiles Id="35">
 											<![CDATA[]]>
