@@ -284,8 +284,8 @@ class Bloc:
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
-        tax_amount = xpath_get(mapping, 'amount/amount')
-        net_fiscal = (tax_amount / rate)*100
+        tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
+        net_fiscal = xpath_get(mapping, 'getbaseAmount/amount')
         if reverse_log is None:
             versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
         else:
@@ -318,9 +318,8 @@ class Bloc:
         return versement
 
     def append_regularisation(self, mapping):
-        reverse_tax_amount = xpath_get(mapping, 'amount/amount')
-        rate = xpath_get(mapping, 'getTaxRate')
-        net_fiscal = (reverse_tax_amount / rate) * 100
+        reverse_tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
+        net_fiscal = -xpath_get(mapping, 'reversedLog/getbaseAmount/amount')
         reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
         regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
         regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'getMonthAndYear')
