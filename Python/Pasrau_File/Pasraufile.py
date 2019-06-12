@@ -322,7 +322,7 @@ class Bloc:
         net_fiscal = -xpath_get(mapping, 'reversedLog/getbaseAmount/amount')
         reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
         regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
-        regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'getMonthAndYear')
+        regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'reversedLog/getMonthAndYear')
         regularisation.append_rubrique('002', 'Type d\'erreur', '03')
         regularisation.append_rubrique('003', 'Régularisation de la rémunération nette fiscale',
                                        "{0:.2f}".format(net_fiscal))
