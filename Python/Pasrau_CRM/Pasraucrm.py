@@ -100,7 +100,7 @@ def get_input_data(root):
         salarie_dict['sSN'] = xpath_get(salarie, 'NIR') + str(97 - int(salarie.find('NIR').text) % 97)
         salarie_dict['taxData'] = 'Taux Imposition Metropole'
         if len(salarie.findall('taux_imposition_PAS')) > 0:
-            salarie_dict['rate'] = int(salarie.find('taux_imposition_PAS').text)/100
+            salarie_dict['rate'] = float(salarie.find('taux_imposition_PAS').text)/100
             salarie_dict['DefaultTaxRate'] = 'false'
         else:
             salarie_dict['rate'] = '0.00'
