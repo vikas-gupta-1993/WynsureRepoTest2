@@ -108,6 +108,7 @@ def get_input_data(root):
         salarie_dict['effectiveDate'] = xpath_get(root, 'declaration/declaration_identification/identifiant_metier')
         effective_date = datetime.strptime(salarie_dict['effectiveDate'], "%Y-%m-%d")
         next_month = calendar.nextmonth(effective_date.year, effective_date.month)
+        next_month= calendar.nextmonth(next_month[0], next_month[-1])
         end_date = str(next_month[0]) + str(next_month[-1]) +\
             str(calendar.monthrange(next_month[0], next_month[-1])[-1])
         end_date = datetime.strptime(end_date, "%Y%m%d")
