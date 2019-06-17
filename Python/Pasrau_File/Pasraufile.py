@@ -278,9 +278,9 @@ class Bloc:
     def append_versement_individu(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement individu')
         reverse_log = xpath_get(mapping, 'reversedLog')
-        disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
-        disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
-        versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
+        taxes_calculation_date_str = xpath_get(mapping, 'getTaxesCalculationDate')
+        taxes_calculation_date = datetime.strptime(taxes_calculation_date_str, "%Y-%m-%d")
+        versement.append_rubrique('001', 'Date de versement', taxes_calculation_date.strftime("%d%m%Y"))
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
