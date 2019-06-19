@@ -64,13 +64,13 @@
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
 	<!-- PostgreSQL DB dedicated to PatchUS environment -->
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_PatchFR">
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_PatchUS">
 		<DataBaseName>WYN59_1_PATCH_US</DataBaseName>
 			<UserName>wydef59_1_patch_us</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
 	<!-- PostgreSQL DB dedicated to DemoUS test cases tests -->
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDefFR">
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDefUS">
 		<DataBaseName>WYN59_1_DEMO_US</DataBaseName>
 			<UserName>wydef59_1_demo_us</UserName>
 			<Password>LOBcsmbXxE4=</Password>
