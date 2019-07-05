@@ -93,6 +93,12 @@ echo Retrieving Wynsure git changes...
 cd /d %~dp0
 "%GITCMD%" pull
 if ERRORLEVEL 1 echo Git sync of Wynsure failed. See log above.
+:GITSYNCDEV
+echo.
+echo Retrieving Dev git changes...
+cd /d %ROOTFOLDER%/Dev
+"%GITCMD%" pull
+if ERRORLEVEL 1 echo Git sync of Dev failed. See log above.
 :GITSYNCWYNSUREFULLWEB
 IF NOT EXIST %ROOTFOLDER%/wynsure-fullweb GOTO :GITSYNCDESIGNWORKSHOP
 echo.
