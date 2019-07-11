@@ -1,0 +1,32 @@
+<Services>
+   <Service>
+      <Name>wynsureAcceptFR</Name>
+      <ServicesManagers>
+         <ServicesManager>
+            <Host>localhost</Host>
+            <Port>{SERVER_PORT_CLICKONCE}</Port>
+            <NbMaxConcurrentRequests>100</NbMaxConcurrentRequests>
+            <Alias></Alias>
+            <TimeBeforePolling>0</TimeBeforePolling>
+            <Emergency>0</Emergency>
+            <Compression>0</Compression>
+            <Security>
+               <Encryption>0</Encryption>
+               <Authenticate>0</Authenticate>
+               <UserName></UserName>
+               <UserPassword></UserPassword>
+               <UserDomain></UserDomain>
+            </Security>
+            <ConnectTimeout>0</ConnectTimeout>
+         </ServicesManager>
+      </ServicesManagers>
+      <Security>
+         <Encryption>0</Encryption>
+         <Authenticate>0</Authenticate>
+         <UserName></UserName>
+         <UserPassword></UserPassword>
+         <UserDomain></UserDomain>
+      </Security>
+      <Aliases></Aliases>
+   </Service>
+</Services>

@@ -1,0 +1,1 @@
+/run:aWFApplicationlauncher.Run /Service:wynsureAcceptFR /HtmlErrorPage:http://localhost/WydeWebErrors/WydeWebErrors_FR.html
