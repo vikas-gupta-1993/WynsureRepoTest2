@@ -37,23 +37,28 @@
         <script type="text/javascript">            
             switch (BrowserDetect.browser)
             {
-            case "Chrome":
-                document.writeln("<br /><br />ClickOnce extension for Chrome needs to be installed.<br />Click <a href=\"https://chrome.google.com/webstore/detail/meta4-clickonce-launcher/jkncabbipkgbconhaajbapbhokpbgkdc\">here</a> to install it. <a href=\"HelpChrome.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a><br />");
-                document.writeln("<br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
-                break;
-            case "Firefox":
-                document.writeln("<br /><br />.NET extension for Firefox needs to be installed.<br />Click <a href=\"https://addons.mozilla.org/firefox/addon/onlinestarter/\">here</a> to install it. <a href=\"HelpFireFox.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a><br />");
-                document.writeln("<br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");              
-                break;
-            case "Explorer":
-                document.writeln("<br /><br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
-                break; 
-            case "Mozilla":
-                document.writeln("<br /><br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
-                break;               
-            default:
-                document.writeln("<br /><br />the application is not compatible with your browser.");
+               case "Chrome":
+                  document.writeln("<br /><br />ClickOnce extension for Chrome needs to be installed.<br />Click <a href=\"https://chrome.google.com/webstore/detail/meta4-clickonce-launcher/jkncabbipkgbconhaajbapbhokpbgkdc\">here</a> to install it. <a href=\"HelpChrome.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a><br />");
+                  document.writeln("<br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
+                  break;
+               case "Firefox":
+                  document.writeln("<br /><br />.NET extension for Firefox needs to be installed.<br />Click <a href=\"https://addons.mozilla.org/en-US/firefox/addon/meta4clickoncelauncher/\">here</a> to install it. <a href=\"HelpFireFox.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a><br />");
+                  document.writeln("<br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
+                  break;
+               case "Explorer":
+                  document.writeln("<br /><br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
+                  //Try to open the .application automatically anyway
+                  window.open("wydeClient.application", '_self');
+                  break;
+               case "Mozilla": //edge
+                  document.writeln("<br /><br />Click <a href=\"wydeClient.application\">here</a> to launch the Application. <a href=\"HelpClickOnce.html\"><img src=\"theme/mphasiswyde/wyde/question.png\" /></a>");
+                  //Try to open the .application automatically anyway
+                  window.open("wydeClient.application", '_self');
+                  break;
+               default:
+                  document.writeln("<br /><br />the application is not compatible with your browser.");
             }
+            
         </script>
         </font></h1>
    </div>

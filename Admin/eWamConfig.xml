@@ -39,22 +39,40 @@
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
 	
-	<!-- PostgreSQL DB dedicated to Acceptance environment -->
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Acceptance">
+	<!-- PostgreSQL DB dedicated to AcceptanceFR environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_AcceptanceFR">
 		<DataBaseName>WYN59_1_ACCEPT_FR</DataBaseName>
 			<UserName>wydef59_1_accept_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
-	<!-- PostgreSQL DB dedicated to Patch environment -->
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_Patch">
+	<!-- PostgreSQL DB dedicated to PatchFR environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_PatchFR">
 		<DataBaseName>WYN59_1_PATCH_FR</DataBaseName>
 			<UserName>wydef59_1_patch_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
-	<!-- PostgreSQL DB dedicated to Demo test cases tests -->
-	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef">
+	<!-- PostgreSQL DB dedicated to DemoFR test cases tests -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDefFR">
 		<DataBaseName>WYN59_1_DEMO_FR</DataBaseName>
 			<UserName>wydef59_1_demo_fr</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- PostgreSQL DB dedicated to AcceptanceUS environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_AcceptanceUS">
+		<DataBaseName>WYN59_1_ACCEPT_US</DataBaseName>
+			<UserName>wydef59_1_accept_us</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- PostgreSQL DB dedicated to PatchUS environment -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_PatchUS">
+		<DataBaseName>WYN59_1_PATCH_US</DataBaseName>
+			<UserName>wydef59_1_patch_us</UserName>
+			<Password>LOBcsmbXxE4=</Password>
+	</DatabaseDefinition>
+	<!-- PostgreSQL DB dedicated to DemoUS test cases tests -->
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDefUS">
+		<DataBaseName>WYN59_1_DEMO_US</DataBaseName>
+			<UserName>wydef59_1_demo_us</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
 </DatabaseDefinitions>

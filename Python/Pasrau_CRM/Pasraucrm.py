@@ -100,7 +100,7 @@ def get_input_data(root):
         salarie_dict['sSN'] = xpath_get(salarie, 'NIR') + str(97 - int(salarie.find('NIR').text) % 97)
         salarie_dict['taxData'] = 'Taux Imposition Metropole'
         if len(salarie.findall('taux_imposition_PAS')) > 0:
-            salarie_dict['rate'] = int(salarie.find('taux_imposition_PAS').text)/100
+            salarie_dict['rate'] = float(salarie.find('taux_imposition_PAS').text)/100
             salarie_dict['DefaultTaxRate'] = 'false'
         else:
             salarie_dict['rate'] = '0.00'
@@ -108,6 +108,7 @@ def get_input_data(root):
         salarie_dict['effectiveDate'] = xpath_get(root, 'declaration/declaration_identification/identifiant_metier')
         effective_date = datetime.strptime(salarie_dict['effectiveDate'], "%Y-%m-%d")
         next_month = calendar.nextmonth(effective_date.year, effective_date.month)
+        next_month= calendar.nextmonth(next_month[0], next_month[-1])
         end_date = str(next_month[0]) + str(next_month[-1]) +\
             str(calendar.monthrange(next_month[0], next_month[-1])[-1])
         end_date = datetime.strptime(end_date, "%Y%m%d")

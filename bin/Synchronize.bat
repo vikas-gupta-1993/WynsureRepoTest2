@@ -1,19 +1,8 @@
 @echo off
-
-ECHO -----------------------------------------------------------
-SET SYNCHRONIZE=%0
-SET errorCode=0
-ECHO #INFO# %date% %time% Start of %SYNCHRONIZE%
-
 setlocal
-
-:::::::::::::::
-:: Workaround : synchronize.bat file is called from eWAM on some cases using path %WYDE-ROOT%\Bin : this has to be changed
-:: to be able synchronize waiting for this change :
-IF "%WF-tmp%"=="" SET WF-tmp=%WYDE-ROOT%\tmp
 ::Add your git.exe path here (e.g. d:\developpement\tools\git\bin), OR put git.exe path to your PATH
-IF "%GITPATH%"=="" set "GITPATH=C:\Program Files (x86)\Git\bin;C:\Program Files\Git\bin"
-:::::::::::::::
+set GITPATH=
+call "%~dp0ewam set env.bat"
 
 if "%~1"=="/nopause" (
    shift 
@@ -29,118 +18,123 @@ if "%~2"=="/nopause" (
 if "%~2"=="/nopauseonnoerror" (
    set NoPauseOnNoError=1
 )
+SET ACTION=%~1
+if "%ACTION%"=="" GOTO quickall
+if "%ACTION%"=="/all" GOTO all
+if "%ACTION%"=="/quickall" GOTO quickall
+if "%ACTION%"=="/quicktgv" GOTO quicktgv
+if "%ACTION%"=="/tgv" GOTO tgv
+if "%ACTION%"=="/git" GOTO git
 
-if "%~1"=="" (
-   call:quickall
-) else (
-if "%~1"=="/all" (
-   call:all
-) else (
-if "%~1"=="/quickall" (
-   call:quickall
-) else (
-if "%~1"=="/quicktgv" (
-   call:quicktgv
-) else (
-if "%~1"=="/tgv" (
-   call:tgv
-) else (
-if "%~1"=="/git" (
-   call:git
-) else (
-   echo Possible arguments:
-   echo.   /all         Sync GIT and TGV from shared repository 
-   echo.   /quickall    Sync GIT and TGV from local copy
-   echo.   /quicktgv    Sync TGV only from local copy
-   echo.   /tgv         Sync TGV only from shared repository
-   echo.   /git         Sync GIT only
-   echo No argument defaults to /quickall.
-   echo Local copy is put in WF-tmp i.e. %WF-tmp%.
-   echo "git.exe" should be in your PATH or GITPATH should be set in this script.
-   echo Use additional parameter /nopause to prevent the script from pausing when 
-   echo done.
-   echo Use additional parameter /nopauseonnoerror to prevent the script from pausing when 
-   echo done without any errors.
-))))))
-goto :endofscript
+echo Possible arguments:
+echo.   /all         Sync GIT and TGV from shared repository 
+echo.   /quickall    Sync GIT and TGV from local copy
+echo.   /quicktgv    Sync TGV only from local copy
+echo.   /tgv         Sync TGV only from shared repository
+echo.   /git         Sync GIT only
+echo No argument defaults to /quickall.
+echo Local copy is put in WF-tmp i.e. %WF-tmp%.
+echo "git.exe" should be in your PATH or GITPATH should be set in this script.
+echo Use additional parameter /nopause to prevent the script from pausing when 
+echo done.
+echo Use additional parameter /nopauseonnoerror to prevent the script from pausing when 
+echo done without any errors.
+GOTO errorexit
 
 :all
 echo **GIT and TGV from repository**
 echo.
-call:gitsync
-call:tgvsync
-GOTO:EOF
+call :gitsync
+call :tgvsync
+GOTO endofscript
 
 :quickall
 echo **GIT and TGV from local copy**
 echo.
-call:gitsync
-call:tgvcopy
-call:tgvsync
-call:tgvclean
-GOTO:EOF
+call :gitsync
+call :tgvcopy
+call :tgvsync
+call :tgvclean
+GOTO endofscript
 
 :quicktgv
 echo **TGV only from local copy**
 echo.
-call:tgvcopy
-call:tgvsync
-call:tgvclean
-GOTO:EOF
+call :tgvcopy
+call :tgvsync
+call :tgvclean
+GOTO endofscript
 
 :tgv
 echo **TGV only from repository**
 echo.
-call:tgvsync
-GOTO:EOF
+call :tgvsync
+GOTO endofscript
 
 :git
 echo **GIT only**
 echo.
-call:gitsync
-GOTO:EOF
+call :gitsync
+GOTO endofscript
 
 ::Git synchronization
 :gitsync
 :: Note you need to have git.exe in you PATH in order to allow git pull from this script.
+ECHO --------------------------------
+ECHO #INFO# GIT Sync Started...
 set PATH=%PATH%;%GITPATH%
-
-echo #INFO# Retrieving git.exe path...
+echo Retrieving git.exe path...
 @FOR /F "tokens=*" %%F IN ('where git.exe') do set GITCMD=%%F
-if "%GITCMD%"=="" (
-   echo #ERROR# Couldn't find git.exe. Either set the GITPATH variable in this script,
-   echo #ERROR# or add git.exe directory to your PATH. 
-   echo #ERROR# Skipping git sync.
-   echo.
-   goto :errorexit
-) else (
-   echo #INFO# Retrieving git changes...
-   rem cd /d %~p0
-   cd /d %~dp0
-   echo #INFO# Command : "%GITCMD%" pull
-   "%GITCMD%" pull
-   if ERRORLEVEL 1 (
-      echo Git sync failed. See log above.
-      goto :errorexit
-   ) else (
-      echo. 
-   )
-)
-GOTO:EOF
+IF "%GITCMD%"=="" CALL :GITFILENOTFOUNDERROR
+IF "%GITCMD%"=="" GOTO :EOF
+:GITSYNCWYNSURE
+echo.
+echo Retrieving Wynsure git changes...
+cd /d %~dp0
+"%GITCMD%" pull
+if ERRORLEVEL 1 echo Git sync of Wynsure failed. See log above.
+:GITSYNCDEV
+echo.
+echo Retrieving Dev git changes...
+cd /d %ROOTFOLDER%/Dev
+"%GITCMD%" pull
+if ERRORLEVEL 1 echo Git sync of Dev failed. See log above.
+:GITSYNCWYNSUREFULLWEB
+IF NOT EXIST %ROOTFOLDER%/wynsure-fullweb GOTO :GITSYNCDESIGNWORKSHOP
+echo.
+echo Retrieving Wynsure FullWeb git changes...
+cd /d %ROOTFOLDER%/wynsure-fullweb
+"%GITCMD%" pull
+if ERRORLEVEL 1 echo Git sync of Wynsure-FullWeb failed. See log above.
+:GITSYNCDESIGNWORKSHOP
+IF NOT EXIST %ROOTFOLDER%/design-workshop-packages GOTO :ENDGITSYNC
+echo.
+echo Retrieving Design Workshop git changes...
+cd /d %ROOTFOLDER%/design-workshop-packages
+"%GITCMD%" pull
+if ERRORLEVEL 1 echo Git sync of Design Workshop failed. See log above.
+:ENDGITSYNC
+ECHO #INFO# GIT Sync finished
+ECHO --------------------------------
+GOTO :EOF
+
+:GITFILENOTFOUNDERROR
+echo #ERROR# Couldn't find git.exe. Either set the GITPATH variable in this script,
+echo #ERROR# or add git.exe directory to your to your PATH. 
+echo #ERROR# Skipping git sync.
+echo.
+GOTO :EOF
 
 ::Make local copy of TGVs
 :tgvcopy
+ECHO --------------------------------
+ECHO #INFO# Copying ref base locally...
 echo Checking if for "%wyde-refdevtgv%"\#####*.log, see if base4 is available for copy...
 @FOR /F "tokens=*" %%F IN ('dir /B "%wyde-refdevtgv%"\#####*.log') do set LOCKFILES=%%F
 
-if "%LOCKFILES%"=="" (
-   echo ... Good. All systems are GO.
-   echo.
-) else (
-   echo ... Nope. DB is locked for now: file "%wyde-refdevtgv%"\%LOCKFILES% found. Try again later.
-   echo.
-   goto :errorexit
-)
+if "%LOCKFILES%"=="" echo ... Good. All systems are GO.
+if NOT "%LOCKFILES%"=="" echo ... Nope. DB is locked for now: file "%wyde-refdevtgv%"\%LOCKFILES% found. Try again later.
+if NOT "%LOCKFILES%"=="" GOTO :EOF
 
 echo Copying shared TGV to "%WF-tmp%"\
 xcopy /Y "%WYDE-REFDEVTGV%"\W004001.TGV "%WF-tmp%"\
@@ -156,22 +150,32 @@ if ERRORLEVEL 1 (
 )
 
 set WYDE-REFDEVTGV=%WF-tmp%
+ECHO #INFO# End of copying ref base locally
+ECHO --------------------------------
 echo.
-GOTO:EOF
+GOTO :EOF
 
 ::TGV Sync
 :tgvsync
+ECHO --------------------------------
+ECHO #INFO# Starting synchronization of TGV with ref base...
 echo Synchronizing with local shared TGV...
 %WYDE-ROOT%\Bin\ewam.exe /SYNCHRONIZEALL %*
+ECHO #INFO# End of synchronization of TGV with ref base
+ECHO --------------------------------
 echo.
-GOTO:EOF
+GOTO :EOF
 
 ::Clean local copy of TGVs
 :tgvclean
+ECHO --------------------------------
+ECHO #INFO# Cleaning local copy ref base...
 echo Cleaning "%WF-tmp%"\
 del "%WF-tmp%"\W004001.TGV "%WF-tmp%"\#####AntiSharedFile.tmp
+ECHO #INFO# Cleaning local copy ref base finished
+ECHO --------------------------------
 echo.
-GOTO:EOF
+GOTO :EOF
 
 ::An error occured
 :errorexit
@@ -196,7 +200,7 @@ if not defined NoPause (
 ) else (
    TIMEOUT 5 /NOBREAK
 )
+endlocal
 
-ECHO #INFO# %date% %time% End of %SYNCHRONIZE%
-ECHO -----------------------------------------------------------
+:END
 exit %errorCode%

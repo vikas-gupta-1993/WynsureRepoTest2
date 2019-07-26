@@ -4,8 +4,13 @@
 		<h3 align="center">ClickOnce Install</h3>
 	</intro>
 	<!--<command display="Install for eWam 32 bit">..\install_ClickOnce.bat Win32 {IIS_PORT} {WSM_PORT} {USER_NAME}</command>-->
-	<command display="Install for eWam 64 bit">..\install_ClickOnce.bat x64 {IIS_PORT} {WSM_PORT} {USER_NAME}</command>
-	<arg type="text" id="IIS_PORT" display="IIS Port">54600</arg>
+	<command display="Install for eWam 64 bit">..\install_ClickOnce.bat x64 {IIS_PORT_FR} {IIS_PORT_US} {WSM_PORT} {OVERRIDE} {USER_NAME}</command>
+	<arg type="text" id="IIS_PORT_FR" display="IIS Port FR">54600</arg>
+	<arg type="text" id="IIS_PORT_US" display="IIS Port US">54800</arg>
 	<arg type="text" id="WSM_PORT" display="Wyseman Port">54700</arg>
 	<arg type="text" id="USER_NAME" display="Your first name"></arg>
+		<arg type="check" default="checked" id="OVERRIDE" display="Override ressources directory if already exist ?">
+		<checked>override</checked>
+		<unchecked>underride</unchecked>
+	</arg>
 </gui>
