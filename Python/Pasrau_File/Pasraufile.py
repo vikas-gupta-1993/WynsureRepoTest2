@@ -279,8 +279,13 @@ class Bloc:
         versement = Bloc.create_bloc_from_label('Versement individu')
         reverse_log = xpath_get(mapping, 'reversedLog')
         taxes_calculation_date_str = xpath_get(mapping, 'getTaxesCalculationDate')
-        taxes_calculation_date = datetime.strptime(taxes_calculation_date_str, "%Y-%m-%d")
-        versement.append_rubrique('001', 'Date de versement', taxes_calculation_date.strftime("%d%m%Y"))
+        disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
+        if disbursement_date_str:
+            disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
+            versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
+        else:
+            taxes_calculation_date = datetime.strptime(taxes_calculation_date_str, "%Y-%m-%d")
+            versement.append_rubrique('001', 'Date de versement', taxes_calculation_date.strftime("%d%m%Y"))
         rate = xpath_get(mapping, 'getTaxRate')
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
@@ -375,9 +380,17 @@ def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version)
 def manage_pasrau(config):
     """managing the Pasrau file"""
     global log
-    input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'),
+    pasrau_file_input_json = config.get('PASRAU_FILE', 'pasrau_file_input_json')
+    if pasrau_file_input_json:
+        input_json = get_valid_directory_path(pasrau_file_input_json)
+    else:
+        input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'),
                                                        'batch', 'OUT_APPLI', 'PASRAU'))
-    out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
+    pasrau_file_output = config.get('PASRAU_FILE', 'pasrau_file_output')
+    if pasrau_file_output:
+        out_python = get_valid_directory_path(pasrau_file_output)
+    else:
+        out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
     out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
     python_log = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python'))
     pasrau = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'Python', 'Pasrau_File'))
@@ -402,10 +415,11 @@ def manage_pasrau(config):
                       f"For more log please find log file {python_log} ")
             log.exception(f"Exception in in Pasrau py:{str(e)}")
             raise
-        archive_dir = create_dir(os.path.join(input_json, 'Archive'))
-        if os.path.isfile(os.path.join(input_json, 'Archive', json_file)):
-            shutil.copy2(json_file_path, archive_dir)
-            os.remove(json_file_path)
-        else:
-            shutil.move(json_file_path, archive_dir)
+        finally:
+            archive_dir = create_dir(os.path.join(input_json, 'Archive'))
+            if os.path.isfile(os.path.join(input_json, 'Archive', json_file)):
+                shutil.copy2(json_file_path, archive_dir)
+                os.remove(json_file_path)
+            else:
+                shutil.move(json_file_path, archive_dir)
 

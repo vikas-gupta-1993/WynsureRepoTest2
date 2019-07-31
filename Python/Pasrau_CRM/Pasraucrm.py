@@ -25,8 +25,8 @@ def setup_logger(log_file):
 
 
 def get_basic_header(config):
-    acceptance_user = config.get('WydeEnvironment', 'acceptanceUser')
-    acceptance_pass = config.get('WydeEnvironment', 'acceptancePass')
+    acceptance_user = config.get('WydeEnvironment', 'endpoint_user')
+    acceptance_pass = config.get('WydeEnvironment', 'endpoint_password')
     basicauth = bytes(base64.b64encode(bytes('%s:%s' % (acceptance_user, acceptance_pass), 'utf-8'))).decode('utf-8')
     header = {
         "Content-Type": "application/json",
@@ -40,9 +40,15 @@ def get_basic_header(config):
 
 
 def get_user_info(config):
-    user_name = config.get('WydeEnvironment', 'Wynsure-User')
-    user_pass = config.get('WydeEnvironment', 'Wysure-Pass')
     application = config.get('WydeEnvironment', 'application')
+    user_name = config.get('Wynsure', 'wynsure_user')
+    user_pass = config.get('Wynsure', 'wynsure_password')
+    if application == 'wynsuresolution_fr':
+        if not user_name:
+            user_name = 'Super gestionnaire'
+    if application == 'wynsuresolution_US':
+        if not user_name:
+            user_name = 'Super manager'
     user_info = {
         "login": user_name,
         "password": user_pass,
@@ -55,7 +61,7 @@ def get_user_info(config):
 def get_authorise_token(config):
     header = get_basic_header(config)
     user_info = get_user_info(config)
-    endpointurl = config.get('WydeEnvironment', 'EndPointURL')
+    endpointurl = config.get('WydeEnvironment', 'endpoint_root_url')
     response = requests.post(f"{endpointurl}restapi/api/rest/wynauth",
                              data=json.dumps(user_info), headers=header, verify=False)
     if response.status_code == 200:
@@ -67,8 +73,8 @@ def get_authorise_token(config):
 
 
 def get_header(config):
-    acceptance_user = config.get('WydeEnvironment', 'acceptanceUser')
-    acceptance_pass = config.get('WydeEnvironment', 'acceptancePass')
+    acceptance_user = config.get('WydeEnvironment', 'endpoint_user')
+    acceptance_pass = config.get('WydeEnvironment', 'endpoint_password')
     basicauth = bytes(base64.b64encode(bytes('%s:%s' % (acceptance_user, acceptance_pass), 'utf-8'))).decode('utf-8')
     token = get_authorise_token(config)['access_token']
     if token:
@@ -129,7 +135,11 @@ def manage_pasrau_crm(config):
     global crm_log
     python_log_path = os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python')
     crm_log = setup_logger(os.path.join(python_log_path, datetime.now().strftime("%d%m%Y")) + '.log')
-    input_crm_file_path = os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'IN_APPLI', 'PASRAUCRM')
+    pasrau_crm_input = config.get('PASRAU_CRM', 'pasrau_crm_input')
+    if pasrau_crm_input:
+        input_crm_file_path = pasrau_crm_input
+    else:
+        input_crm_file_path = os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'IN_APPLI', 'PASRAUCRM')
     if not os.path.exists(input_crm_file_path):
         crm_log.info(f"Create directory for file at location: {input_crm_file_path}")
         os.mkdir(input_crm_file_path)
@@ -139,8 +149,13 @@ def manage_pasrau_crm(config):
     os.makedirs(os.path.join(input_crm_file_path, 'Archive'), exist_ok=True)
     header = get_header(config)
     if header:
-        endpointurl = config.get('WydeEnvironment', 'EndPointURL')
+        endpointurl = config.get('WydeEnvironment', 'endpoint_root_url')
+        endpoint_suffix = config.get('PASRAU_CRM', 'endpoint_suffix')
+        if not endpoint_suffix:
+            endpoint_suffix = 'restapi / api / rpc / aSLIFR_Manage_SetPersonOverriddenTaxRate / CreateOverriddenTaxRates'
         crm_log.info(f"endpoint url : {endpointurl}")
+        crm_log.info(f"endpoint_with_suffix : {endpointurl}{endpoint_suffix}")
+        crm_log.info(f"input_crm_file_path : {input_crm_file_path}")
         crm_files = [x for x in os.listdir(input_crm_file_path) if x.endswith(".xml")]
         for crm_file in crm_files:
             crm_file_path = os.path.join(input_crm_file_path, crm_file)
@@ -148,8 +163,7 @@ def manage_pasrau_crm(config):
             input_data = get_input_data(root)
             crm_log.info(f"input data of {crm_file}: {input_data} ")
             response = requests.post(
-                f"{endpointurl}restapi/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
-                data=json.dumps(input_data), headers=header, verify=False)
+                f"{endpointurl}{endpoint_suffix}", data=json.dumps(input_data), headers=header, verify=False)
              #For calling business service on local environment
             #response = requests.post(
              #   "http://localhost:54400/api/rpc/aSLIFR_Manage_SetPersonOverriddenTaxRate/CreateOverriddenTaxRates",
