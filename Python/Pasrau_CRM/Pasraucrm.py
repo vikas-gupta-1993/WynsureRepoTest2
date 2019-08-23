@@ -146,7 +146,6 @@ def manage_pasrau_crm(config):
     basic_auth_bytes = bytes(
         base64.b64encode(bytes('%s:%s' % (user_info['login'], user_info['password']), 'utf-8'))).decode('utf-8')
     endpointurl = config.get('WydeEnvironment', 'endpoint_root_url')
-    localhost_envurl = config.get('WydeEnvironment', 'localhost_envurl')
     endpoint_suffix = config.get('PASRAU_CRM', 'endpoint_suffix')
     if not endpoint_suffix:
         endpoint_suffix = 'restapi / api / rpc / aSLIFR_Manage_SetPASRAUTaxRate / CreatePasrauTaxRates'
@@ -167,7 +166,7 @@ def manage_pasrau_crm(config):
                                      verify=False)
         else:
             print("Basic %s" % basic_auth_bytes)
-            response = requests.post(f"{localhost_envurl}{endpoint_suffix}", data=json.dumps(input_data),
+            response = requests.post(f"{endpointurl}{endpoint_suffix}", data=json.dumps(input_data),
                                      headers={"Authorization": "Basic %s" % basic_auth_bytes}, verify=False)
         if response.status_code == 200:
             crm_log.info(f"succesfully called the business service! [{response.status_code}]")
