@@ -59,38 +59,6 @@
 			{
 				"Wynsure": "SeesDistributionUnit",
 				"LDAP": "physicalDeliveryOfficeName"
-			}],
-			"LDAPAttributesListSupportedValues": [{
-				"Wynsure": "Email",
-				"LDAP": "mail"
-			},
-			{
-				"Wynsure": "IsEmailChecked",
-				"LDAP": "IsEmailVerified"
-			},
-			{
-				"Wynsure": "OutOfOfficeFlag",
-				"LDAP": "outOfOfficeFlag"
-			},
-			{
-				"Wynsure": "ForBatch",
-				"LDAP": "isBatchUser"
-			},
-			{
-				"Wynsure": "Job",
-				"LDAP": "department"
-			},
-			{
-				"Wynsure": "OrganizationUnit",
-				"LDAP": "division"
-			},
-			{
-				"Wynsure": "Position",
-				"LDAP": "employeeType"
-			},
-			{
-				"Wynsure": "SeesDistributionUnit",
-				"LDAP": "physicalDeliveryOfficeName"
 			}]
 		}
 	}
