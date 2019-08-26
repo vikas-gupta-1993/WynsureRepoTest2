@@ -34,7 +34,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if self.Option__LimitValue('Cov A Dwelling Limit') > 500000
+   if self.Coverage__LimitValue('Cov A Dwelling Limit') > 500000
       Result = self.Contract__UnderwritingAtSubscription
       Result = True
    endIf
@@ -258,7 +258,7 @@ uses WFTypes
 
 
 procedure WFCalculate(inOut Result : tWFNum8)
-   Result = self.Option__LimitValue('Personal Liability Limit') / 1000
+   Result = self.Coverage__LimitValue('Personal Liability Limit') / 1000
    Result = Result * 1.15
 endProc 
 
@@ -411,7 +411,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if self.Option__LimitValue('Fine Arts Limit') > 50000
+   if self.Coverage__LimitValue('Fine Arts Limit') > 50000
       Result = self.Contract__UnderwritingAtSubscription
       Result = True
    endIf

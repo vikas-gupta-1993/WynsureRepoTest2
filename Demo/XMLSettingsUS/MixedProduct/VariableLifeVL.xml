@@ -70,10 +70,10 @@ procedure WFCalculate(inOut Result : Num8)
       else
          Result = 100
    endSwitch
-   if self.Option__CoverageAmount < self.Option__CashValue * Result / 100
+   if self.Coverage__CoverageAmount < self.Option__CashValue * Result / 100
       Result = self.Option__CashValue * Result / 100
    else
-      Result = self.Option__CoverageAmount
+      Result = self.Coverage__CoverageAmount
    endIf
 endProc 
 

@@ -8,10 +8,10 @@ procedure WFCalculate(inOut Result : tWFNum8)
    if self.Coverage__TerminationDate <= self.CurrentDate
       Result = 0
    else
-      if self.Coverage__CashValueStatus = cvInsidePUA
-         Result = self.Coverage__PaidUpPremiumAmount * (self.Coverage__AgeInYears - self.Coverage__AgeInYearAtCoverageAmountEffectiveDate)
+      if self.Option__CashValueStatus = cvInsidePUA
+         Result = self.Option__PaidUpPremiumAmount * (self.Coverage__AgeInYears - self.Option__AgeInYearAtCoverageAmountEffectiveDate)
       else
-         Result = self.Coverage__AnnualPremiumAmount * self.Coverage__AgeInYears * 0.9
+         Result = self.Coverage__CoverageAmount * self.Coverage__AgeInYears * 0.9
       endIf
    endIf
 endProc 
@@ -25,7 +25,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.Coverage__CoverageAmount - self.Coverage__TotalUnPaidLoanAmount + self.Coverage__TotalCashValueAndTabular
+   Result = self.Coverage__CoverageAmount - self.Option__TotalUnPaidLoanAmount + self.Option__TotalCashValueAndTabular
    Result = self.RoundToNearest(Result, 1)
 endProc 
 
@@ -85,7 +85,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.Coverage__CoverageAmount - self.Coverage__TotalUnPaidLoanAmount + self.Coverage__TotalCashValueAndTabular
+   Result = self.Coverage__CoverageAmount - self.Option__TotalUnPaidLoanAmount + self.Option__TotalCashValueAndTabular
    Result = self.RoundToNearest(Result, 1)
 endProc 
 

@@ -8,7 +8,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    var amount : Num8
    var amount2 : Num8
    
-   amount = self.Option__LimitValue('Bodily Injury Limit ')
+   amount = self.Coverage__LimitValue('Bodily Injury Limit ')
    if amount = 30000
       Result = 105
    elseif amount = 50000
@@ -22,7 +22,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    elseif amount = 1000000
       Result = 205
    endIf
-   amount2 = self.Option__LimitValue('Property Damage Limit')
+   amount2 = self.Coverage__LimitValue('Property Damage Limit')
    if amount2 = 15000
       Result += 25
    elseif amount2 = 30000
@@ -268,7 +268,7 @@ procedure WFCalculate(inOut Result : Num8)
    
    ; total as submitted = amount per day
    Result = self.DeliveredService__DailySubmittedAmount
-   LimitPerDay = self.Option__LimitValue('Limit per day')
+   LimitPerDay = self.Coverage__LimitValue('Limit per day')
    if Result > LimitPerDay
       Result = LimitPerDay
    endIf
@@ -295,7 +295,7 @@ uses WFTypes
 procedure WFCalculate(inOut Result : tWFNum8)
    var amount : Num8
    
-   amount = self.Option__LimitValue('Un/Underinsured Motorist Limit')
+   amount = self.Coverage__LimitValue('Un/Underinsured Motorist Limit')
    if amount = 30000
       Result = 50
    elseif amount = 50000

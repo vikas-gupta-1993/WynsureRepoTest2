@@ -41,7 +41,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    var Memory4 : Num8
    var Memory5 : Num8
    
-   Memory1 = self.AutoUMNon_OwnedRateTable(Int4(self.Option__LimitValue('Amount Limit : Uninsured Motorist')))
+   Memory1 = self.AutoUMNon_OwnedRateTable(Int4(self.Coverage__LimitValue('Amount Limit : Uninsured Motorist')))
    ; If Insured includes as Indovidual or Married Couple
    ;if  = cMarried
    ;   Memory2 = 1.25
@@ -62,7 +62,7 @@ procedure WFCalculate(inOut Result : Boolean)
    var Memory1 : Boolean
    
    ;
-   Memory1 = self.Option__LimitValue('Amount  Limit  :  Uninsured Motorist') > 1000000
+   Memory1 = self.Coverage__LimitValue('Amount  Limit  :  Uninsured Motorist') > 1000000
    ;
    Result = Memory1
 endProc 
@@ -83,7 +83,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    
    ;
    ;Memory1 = Composite__Count
-   ;Memory2 = Option__LimitValue('Amount  Limit  :  Roadside Assistance') / 100 + 1
+   ;Memory2 = Coverage__LimitValue('Amount  Limit  :  Roadside Assistance') / 100 + 1
    Memory3 = 25
    ;
    ;Result = Memory1 * Memory2 * Memory3
@@ -103,7 +103,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    
    ;
    Memory1 = self.Contract__InsuredItemsNumber
-   Memory2 = self.Option__LimitValue('Amount  Limit  :  Garage Protection') / 5000
+   Memory2 = self.Coverage__LimitValue('Amount  Limit  :  Garage Protection') / 5000
    Memory3 = self.Option__DeductibleValue('Amount  Deductible  :  Garage Protection') / 
       20
    Memory4 = Memory1 * Memory2
@@ -236,7 +236,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    Memory1 = self.AutoLiabilityStateRateTable(Int4(self.Item__Code), TerritoryCode)
    Memory2 = self.AutoLCMLiabilityRateTable(self.Subscriber__LegalEntitySitusState)
    Memory3 = self.Rule100_IncreasedLimitFactor_OtherThanTruck(self.Vehicle__Weight, 
-      Int4(self.Option__LimitValue('Amount Limit : Covered Auto Liability')))
+      Int4(self.Coverage__LimitValue('Amount Limit : Covered Auto Liability')))
    Memory4 = self.Rule33_B_FarmersAutosFactor(self.Item__FarmVehicle)
    Memory5 = self.Rule22_C_2_b_FleetFactorLiab(IsFleet)
    Memory6 = 1
@@ -372,7 +372,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
    IsFleet = self.Contract__InsuredItemsNumber > 5
    Memory1 = self.AutoLiabilityStateRateTable(Int4(self.Item__Code), TerritoryCode)
    Memory2 = self.AutoLCMLiabilityRateTable(self.Subscriber__LegalEntitySitusState)
-   Memory3 = self.Rule100_IncreasedLimitFactorForTruck(Int4(self.Option__LimitValue('Amount Limit : Covered Truck Liability')))
+   Memory3 = self.Rule100_IncreasedLimitFactorForTruck(Int4(self.Coverage__LimitValue('Amount Limit : Covered Truck Liability')))
    Memory4 = 1
    Memory5 = self.Rule22_C_2_b_FleetFactorLiab(IsFleet)
    Memory6 = 1
@@ -485,8 +485,8 @@ procedure WFCalculate(inOut Result : tWFNum8)
    var Memory3 : Num8
    
    Memory1 = 1.32 / 100
-   Memory2 = self.RentalReimbursementDaysLimit(Int4(self.Option__LimitValue('Duration Limit : Auto Rental Reimbursement')))
-   Memory3 = self.RentalReimbursementLimitPerDay(Int4(self.Option__LimitValue('Amount Limit : Auto Rental Reimbursement')))
+   Memory2 = self.RentalReimbursementDaysLimit(Int4(self.Coverage__LimitValue('Duration Limit : Auto Rental Reimbursement')))
+   Memory3 = self.RentalReimbursementLimitPerDay(Int4(self.Coverage__LimitValue('Amount Limit : Auto Rental Reimbursement')))
    Result = Memory1 * Memory2 * Memory3
    Result = self.RoundToNearest(Result, 0.01)
 endProc 
@@ -532,8 +532,8 @@ procedure WFCalculate(inOut Result : tWFNum8)
    var Memory3 : Num8
    
    Memory1 = 1.32 / 100
-   Memory2 = self.RentalReimbursementDaysLimit(Int4(self.Option__LimitValue('Duration Limit : Truck Rental Reimbursement')))
-   Memory3 = self.RentalReimbursementLimitPerDay(Int4(self.Option__LimitValue('Amount Limit : Truck Rental Reimbursement')))
+   Memory2 = self.RentalReimbursementDaysLimit(Int4(self.Coverage__LimitValue('Duration Limit : Truck Rental Reimbursement')))
+   Memory3 = self.RentalReimbursementLimitPerDay(Int4(self.Coverage__LimitValue('Amount Limit : Truck Rental Reimbursement')))
    Result = Memory1 * Memory2 * Memory3
    Result = self.RoundToNearest(Result, 0.01)
 endProc 

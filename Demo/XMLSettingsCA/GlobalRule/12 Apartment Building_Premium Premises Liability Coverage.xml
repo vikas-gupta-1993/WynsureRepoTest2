@@ -21,8 +21,9 @@
 }
 ]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[D]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318770476]]></NSId><Id Id="2"><![CDATA[9]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Deductible]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771184]]></NSId><Id Id="2"><![CDATA[25]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
 
-uses aWFRuleDesc, aWFStandAloneRule
+uses WFTypes, aWFRuleDesc, aWFStandAloneRule
 
+; Rule
 NumberofApartmentUnits : Int4
 Limit : Num8
 BuildingAge : Int4
@@ -30,37 +31,10 @@ AggregateLimit : Num8
 Deductible : Num8
 
 
-function ApartmentBuilding_PremisesLiability_DeductibleFactor(Deductible : Num8) return Num8
+function ApartmentBuilding_PremisesLiabilityCoverage_LimitFactor(Limit : Num8, AggregateLimit : Num8) return tWFNum8
    var tmpRule : aWFRuleDesc
    
    tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.CurrentDate)
-   if tmpRule <> Nil
-      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Deductible, 0, tmpRule)
-      tmpRule.GetStandAloneResult(_Result, self)
-      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
-   else
-      self.AppendComment('No rule version defined at this date')
-   endIf
-endFunc 
-
-function ApartmentBuilding_BuildingAgeCredit(BuildingAge : Int4, GivenPremium : Num8) return Num8
-   var tmpRule : aWFRuleDesc
-   
-   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(1, self.CurrentDate)
-   if tmpRule <> Nil
-      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(BuildingAge, 0, tmpRule)
-      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(GivenPremium, 1, tmpRule)
-      tmpRule.GetStandAloneResult(_Result, self)
-      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
-   else
-      self.AppendComment('No rule version defined at this date')
-   endIf
-endFunc 
-
-function ApartmentBuilding_PremisesLiabilityCoverage_LimitFactor(Limit : Num8, AggregateLimit : Num8) return Num8
-   var tmpRule : aWFRuleDesc
-   
-   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(2, self.CurrentDate)
    if tmpRule <> Nil
       aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Limit, 0, tmpRule)
       aWFStandAloneRule(tmpRule.MyOwner).AppendParam(AggregateLimit, 1, tmpRule)
@@ -71,6 +45,37 @@ function ApartmentBuilding_PremisesLiabilityCoverage_LimitFactor(Limit : Num8, A
    endIf
 endFunc 
 
+function ApartmentBuilding_PremisesLiability_DeductibleFactor(Deductible : Num8) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(1, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(Deductible, 0, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+function ApartmentBuilding_BuildingAgeCredit(BuildingAge : Int4, GivenPremium : Num8) return tWFNum8
+   var tmpRule : aWFRuleDesc
+   
+   tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(2, self.CurrentDate)
+   if tmpRule <> Nil
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(BuildingAge, 0, tmpRule)
+      aWFStandAloneRule(tmpRule.MyOwner).AppendParam(GivenPremium, 1, tmpRule)
+      tmpRule.GetStandAloneResult(_Result, self)
+      aWFStandAloneRule(tmpRule.MyOwner).CleanParamsAfterExecution(tmpRule)
+   else
+      self.AppendComment('No rule version defined at this date')
+   endIf
+endFunc 
+
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
 procedure WFCalculate(inOut Result : Num8)
    Result = 50 * self.NumberofApartmentUnits
    Result = Result * self.ApartmentBuilding_PremisesLiabilityCoverage_LimitFactor(self.Limit, 

@@ -52,7 +52,7 @@ procedure WFCalculate(inOut Result : Num8)
    var COI : tWFAmount
    var Units : tWFAmount
    
-   Units = self.Option__CoverageAmount / 1000
+   Units = self.Coverage__CoverageAmount / 1000
    self.AppendComment(Concat('Units:', NaS(Units)))
    ;
    COI = self.CashValue_NetSinglePremium(self.Insured__Age__At_Subscription, self.Option__AgeInYears)
@@ -133,10 +133,10 @@ procedure WFCalculate(inOut Result : Num8)
       else
          Result = 100
    endSwitch
-   if self.Option__CoverageAmount < self.Option__CashValue * Result / 100
+   if self.Coverage__CoverageAmount < self.Option__CashValue * Result / 100
       Result = self.Option__CashValue * Result / 100
    else
-      Result = self.Option__CoverageAmount
+      Result = self.Coverage__CoverageAmount
    endIf
 endProc 
 

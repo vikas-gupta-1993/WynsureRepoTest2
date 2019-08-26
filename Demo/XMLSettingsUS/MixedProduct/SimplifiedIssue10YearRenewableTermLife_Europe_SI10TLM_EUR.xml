@@ -26,11 +26,9 @@ uses SystemModDef
 ; VarDesc
 
 Proc WFCalculate(out Result :Boolean)
-    if Recipient__Recipient_Kind = frkIrrevocableBeneficiary
-       Result = True
-    endIf
+    Result = tWLIFormRecipientKind(self.Recipient__Recipient_Kind) = frkIrrevocableBeneficiary
+endProc
 
-end
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218180793]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLI_MixedLifeOrDisabilityProduct]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLIEndorsementPossibleBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIRequestedDocumentRuleForEndorsement><NSId Id="1"><![CDATA[318845752]]></NSId><Id Id="2"><![CDATA[11]]></Id></aWLIRequestedDocumentRuleForEndorsement></MyOwner><Name Id="3"><![CDATA[Eligibility]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[1152]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RequiredConditionRule><PeriodicCheckingType Id="3"><![CDATA[0]]></PeriodicCheckingType><PeriodicCheckingDuration Id="8"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></PeriodicCheckingDuration><PeriodicCheckingAnnuallyAtDate Id="9"><![CDATA[--/--/----]]></PeriodicCheckingAnnuallyAtDate><Name Id="3"><![CDATA[Irrevocable Beneficiary Validation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318845752]]></NSId><Id Id="2"><![CDATA[11]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIRequestedDocumentRuleForEndorsement></RequiredDocuments><MyOwner><aWLIEndorsementParameterData><NSId Id="1"><![CDATA[318845687]]></NSId><Id Id="2"><![CDATA[59]]></Id></aWLIEndorsementParameterData></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318845753]]></NSId><Id Id="2"><![CDATA[125]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIRequiredDocumentManagerForEndorsement></RequiredDocuments><UnderwritingKind Id="18"><![CDATA[0]]></UnderwritingKind><UnderwritingNotification Id="23"><![CDATA[0]]></UnderwritingNotification><Name Id="3"><![CDATA[Policy Owner Change]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318845687]]></NSId><Id Id="2"><![CDATA[59]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIEndorsementParameterData></EndorsementRules><EndorsementRules><aWLIEndorsementParameterData><MyOwner><aWLIEndorsementPossibleBroker><NSId Id="1"><![CDATA[318845103]]></NSId><Id Id="2"><![CDATA[10]]></Id></aWLIEndorsementPossibleBroker></MyOwner><EndorsementOp><aClassDef><Name Id="2"><![CDATA[aWLI_ReinstatementEndorsement_Op]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218184850]]></Id></aClassDef></EndorsementOp><EndorsementChange Id="3"><![CDATA[0]]></EndorsementChange><FeeType Id="13"><![CDATA[0]]></FeeType><FlatFee Id="14"><![CDATA[0.00]]></FlatFee><RequiredDocuments><aWLIRequiredDocumentManagerForEndorsement><RequiredDocuments><aWLI_BackPremiumRequirementRule><MyOwner><aWLIRequiredDocumentManagerForEndorsement><NSId Id="1"><![CDATA[318845753]]></NSId><Id Id="2"><![CDATA[126]]></Id></aWLIRequiredDocumentManagerForEndorsement></MyOwner><WillBeRequiredFor Id="58"><![CDATA[0]]></WillBeRequiredFor><PaymentCalculationType Id="1"><![CDATA[0]]></PaymentCalculationType><PaymentFixedAmount Id="2"><![CDATA[0.00]]></PaymentFixedAmount><PaymentCancellationEffect Id="25"><![CDATA[0]]></PaymentCancellationEffect><Light Id="16"><![CDATA[No]]></Light><RequestSentTo Id="7"><![CDATA[0]]></RequestSentTo><InvolvedActorsFilter Id="74"><![CDATA[]]></InvolvedActorsFilter><BlockingType Id="21"><![CDATA[0]]></BlockingType><Document><aWLI_BackPremiumRequirementDesc><Code Id="1"><![CDATA[BP]]></Code><Description Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs16\par
@@ -339,9 +337,7 @@ uses WLITypes
 
 procedure WFCalculate(inOut Result : Boolean)
    if self.Endorsement__Is_Beneficiary_Change
-      if self.Recipient__Recipient_Kind = frkIrrevocableBeneficiary
-         Result = True
-      endIf
+      Result = tWLIFormRecipientKind(self.Recipient__Recipient_Kind) = frkIrrevocableBeneficiary
    endIf
 endProc 
 
@@ -474,9 +470,7 @@ uses WLITypes
 
 procedure WFCalculate(inOut Result : Boolean)
    if self.Endorsement__Is_Beneficiary_Change
-      if self.Recipient__Recipient_Kind = frkIrrevocableBeneficiary
-         Result = True
-      endIf
+      Result = tWLIFormRecipientKind(self.Recipient__Recipient_Kind) = frkIrrevocableBeneficiary
    endIf
 endProc 
 
@@ -551,9 +545,7 @@ uses WLITypes
 
 procedure WFCalculate(inOut Result : Boolean)
    if self.Endorsement__Is_Beneficiary_Change
-      if self.Recipient__Recipient_Kind = frkIrrevocableBeneficiary
-         Result = True
-      endIf
+      Result = tWLIFormRecipientKind(self.Recipient__Recipient_Kind) = frkIrrevocableBeneficiary
    endIf
 endProc 
 

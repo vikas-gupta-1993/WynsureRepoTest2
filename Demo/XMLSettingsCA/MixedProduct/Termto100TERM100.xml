@@ -104,10 +104,10 @@ procedure WFCalculate(inOut Result : tWFNum8)
       ;
       if self.Insured__Gender = gMale
          Result = self.Termto100YearsLifeRates(Male, self.Insured__Age__Nearest_At_Last_Renewal, 
-            self.Option__CoverageAmount, self.Insured__Classifications__Smoker)
+            self.Coverage__CoverageAmount, self.Insured__Classifications__Smoker)
       else
          Result = self.Termto100YearsLifeRates(Female, self.Insured__Age__Nearest_At_Last_Renewal, 
-            self.Option__CoverageAmount, self.Insured__Classifications__Smoker)
+            self.Coverage__CoverageAmount, self.Insured__Classifications__Smoker)
       endIf
       ;
       self.AppendBillLineDetail(Result, 'Base Rate')
@@ -131,7 +131,7 @@ endProc
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]></Comment><Name Id="3"><![CDATA[Ten Year Waiver of Premium Rates]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770482]]></NSId><Id Id="2"><![CDATA[89]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWLISubscriptionClassification><NSId Id="1"><![CDATA[318775174]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWLISubscriptionClassification></UsedRules><UsedRules><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></UsedRules><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[Rate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768708]]></NSId><Id Id="2"><![CDATA[227]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RateRule><AmountDefineForAVolume Id="4"><![CDATA[Per Unit Volume]]></AmountDefineForAVolume><AmountVolumeBusinessData><aMethodDesc><Name>Option__CoverageAmount</Name><NSId>218103824</NSId><Id>936782356381958199</Id><ClassName>aWLIRuleEngine</ClassName></aMethodDesc></AmountVolumeBusinessData><RateFactorForBusinessData Id="56"><![CDATA[1]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[1,000]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[409]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><Name Id="3"><![CDATA[4053239055]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredCoveragePeriodicPricingBroker></CoveredPeriodicPricingRules><RatingFrequency Id="6"><![CDATA[Annually]]></RatingFrequency><SubscriptionProratingBehaviour Id="24"><![CDATA[Effective Date]]></SubscriptionProratingBehaviour><ModificationProratingBehaviour Id="39"><![CDATA[Effective Date]]></ModificationProratingBehaviour><TerminationProratingBehaviour Id="25"><![CDATA[Effective Date]]></TerminationProratingBehaviour><CalculateMemberContribution Id="33"><![CDATA[No]]></CalculateMemberContribution><MemberProfileBilling Id="47"><![CDATA[Apply Rate per Member]]></MemberProfileBilling><RatingRuleType Id="53"><![CDATA[Formula]]></RatingRuleType><Rate Id="1"><![CDATA[0]]></Rate><AmountDefineForAVolume Id="4"><![CDATA[No Proportional Rate]]></AmountDefineForAVolume><RateFactorForBusinessData Id="56"><![CDATA[0]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[0]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[31]]></Id></aWLICoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[408]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><MyOwner><aWLICoveragePeriodicPricingMultiBroker><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[31]]></Id></aWLICoveragePeriodicPricingMultiBroker></MyOwner><Name Id="3"><![CDATA[40532390710]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[31]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingBroker></Brokers><UseCapping Id="2"><![CDATA[No]]></UseCapping><DoNotBill Id="3"><![CDATA[No]]></DoNotBill><ZeroBillingResultVisibleInBill Id="4"><![CDATA[No]]></ZeroBillingResultVisibleInBill><RatingMode Id="5"><![CDATA[Guaranteed Rate]]></RatingMode><ApplySubscriptionPricesAtRenewal Id="8"><![CDATA[No]]></ApplySubscriptionPricesAtRenewal><MyOwner><aWLIOfferedLifeOrDisabilityCoverage><NSId Id="1"><![CDATA[318779681]]></NSId><Id Id="2"><![CDATA[28]]></Id></aWLIOfferedLifeOrDisabilityCoverage></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[31]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingMultiBroker></PeriodicPricingParameters><CoveredDependants Id="25"><![CDATA[Owner,Spouse,Child,Dependant]]></CoveredDependants><CoveredClassifications><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></CoveredClassifications><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[No]]></IsDefault><Code Id="8"><![CDATA[Smoker]]></Code><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[Yes]]></IsDefault><Code Id="8"><![CDATA[Non Smoker]]></Code><Name Id="3"><![CDATA[Non Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredTerminationParameters><aWLICoveredTerminationMultiBroker><Brokers><aWLICoveredTerminationRuleBroker><DependantClassification Id="4"><![CDATA[]]></DependantClassification><AgeCalculationRuleUsed Id="7"><![CDATA[0]]></AgeCalculationRuleUsed><AutomaticTerminationRuleType Id="3"><![CDATA[Termination Based on Rule]]></AutomaticTerminationRuleType><AutomaticTerminationMaxAge Id="4"><![CDATA[75]]></AutomaticTerminationMaxAge><AutomaticTerminationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Insured up to 100. Age calculated based on insurance age.
+]]></Comment><Name Id="3"><![CDATA[Ten Year Waiver of Premium Rates]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770482]]></NSId><Id Id="2"><![CDATA[89]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWLISubscriptionClassification><NSId Id="1"><![CDATA[318775174]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWLISubscriptionClassification></UsedRules><UsedRules><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></UsedRules><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[Rate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768708]]></NSId><Id Id="2"><![CDATA[227]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RateRule><AmountDefineForAVolume Id="4"><![CDATA[Per Unit Volume]]></AmountDefineForAVolume><AmountVolumeBusinessData><aMethodDesc><Name>Coverage__CoverageAmount</Name><NSId>218103824</NSId><Id>936782356381958199</Id><ClassName>aWLIRuleEngine</ClassName></aMethodDesc></AmountVolumeBusinessData><RateFactorForBusinessData Id="56"><![CDATA[1]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[1,000]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[409]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><Name Id="3"><![CDATA[4053239055]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredCoveragePeriodicPricingBroker></CoveredPeriodicPricingRules><RatingFrequency Id="6"><![CDATA[Annually]]></RatingFrequency><SubscriptionProratingBehaviour Id="24"><![CDATA[Effective Date]]></SubscriptionProratingBehaviour><ModificationProratingBehaviour Id="39"><![CDATA[Effective Date]]></ModificationProratingBehaviour><TerminationProratingBehaviour Id="25"><![CDATA[Effective Date]]></TerminationProratingBehaviour><CalculateMemberContribution Id="33"><![CDATA[No]]></CalculateMemberContribution><MemberProfileBilling Id="47"><![CDATA[Apply Rate per Member]]></MemberProfileBilling><RatingRuleType Id="53"><![CDATA[Formula]]></RatingRuleType><Rate Id="1"><![CDATA[0]]></Rate><AmountDefineForAVolume Id="4"><![CDATA[No Proportional Rate]]></AmountDefineForAVolume><RateFactorForBusinessData Id="56"><![CDATA[0]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[0]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[31]]></Id></aWLICoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[408]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><MyOwner><aWLICoveragePeriodicPricingMultiBroker><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[31]]></Id></aWLICoveragePeriodicPricingMultiBroker></MyOwner><Name Id="3"><![CDATA[40532390710]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[31]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingBroker></Brokers><UseCapping Id="2"><![CDATA[No]]></UseCapping><DoNotBill Id="3"><![CDATA[No]]></DoNotBill><ZeroBillingResultVisibleInBill Id="4"><![CDATA[No]]></ZeroBillingResultVisibleInBill><RatingMode Id="5"><![CDATA[Guaranteed Rate]]></RatingMode><ApplySubscriptionPricesAtRenewal Id="8"><![CDATA[No]]></ApplySubscriptionPricesAtRenewal><MyOwner><aWLIOfferedLifeOrDisabilityCoverage><NSId Id="1"><![CDATA[318779681]]></NSId><Id Id="2"><![CDATA[28]]></Id></aWLIOfferedLifeOrDisabilityCoverage></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[31]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingMultiBroker></PeriodicPricingParameters><CoveredDependants Id="25"><![CDATA[Owner,Spouse,Child,Dependant]]></CoveredDependants><CoveredClassifications><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></CoveredClassifications><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[No]]></IsDefault><Code Id="8"><![CDATA[Smoker]]></Code><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[Yes]]></IsDefault><Code Id="8"><![CDATA[Non Smoker]]></Code><Name Id="3"><![CDATA[Non Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredTerminationParameters><aWLICoveredTerminationMultiBroker><Brokers><aWLICoveredTerminationRuleBroker><DependantClassification Id="4"><![CDATA[]]></DependantClassification><AgeCalculationRuleUsed Id="7"><![CDATA[0]]></AgeCalculationRuleUsed><AutomaticTerminationRuleType Id="3"><![CDATA[Termination Based on Rule]]></AutomaticTerminationRuleType><AutomaticTerminationMaxAge Id="4"><![CDATA[75]]></AutomaticTerminationMaxAge><AutomaticTerminationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Insured up to 100. Age calculated based on insurance age.
 
 Eg. Suppose John's policy anniversary date is Dec 31, 2010 and John's birth date is June 30, 1940, then John's Age is 60 years and 184 days at policy anniversary. So, the Owner Age in this case will be considered as 61 instead of 60 at anniversary. In case John's birthday had happened to be 180 days of within his policy's anniversary date, then the Owner Age will be considered to be 60 years. Simply put, if John was born on July 05, 1940, his age at anniversary would still be considered as 60 instead of 61 as in the earlier case.]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLI_LifeDisabilityRuleEngine) (Def Version:3) (Implem Version:1)
 
@@ -179,7 +179,7 @@ function MedicalEvidenceRule(Age : Int4, Amount : Num8) return Boolean
 endFunc 
 
 procedure WFCalculate(inOut Result : Boolean)
-   Result = self.MedicalEvidenceRule(self.Insured__Age__Nearest_At_Last_Renewal, self.Option__CoverageAmount)
+   Result = self.MedicalEvidenceRule(self.Insured__Age__Nearest_At_Last_Renewal, self.Coverage__CoverageAmount)
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLI_LifeDisabilityRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218116400]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedLifeOrDisabilityCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLICoverageUnderwritingSingleBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><Name>Age</Name><NSId>318771176</NSId><Id>100</Id></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><Name>Amount</Name><NSId>318771186</NSId><Id>34</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[True/False value]]></ReturnType><Rules><aWFRuleDesc><Name>Medical Evidence Rule</Name><NSId>318768708</NSId><Id>14</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
@@ -195,27 +195,27 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      3000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      3000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
-      1000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
+      1000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
-      50000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
+      50000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount > 
-      250000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount > 
+      250000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 70) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 70) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
 endProc 
@@ -229,15 +229,15 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
       5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount > 
       3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount > 
       1000000)
       Result = True
    endIf
@@ -254,11 +254,11 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
       250000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
       150000)
       Result = True
    endIf
@@ -276,7 +276,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Option__CoverageAmount > 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Coverage__CoverageAmount > 5000000)
       Result = True
    endIf
 endProc 
@@ -293,11 +293,11 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount <= 
       250000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount <= 
       150000)
       Result = True
    endIf
@@ -317,23 +317,23 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      1000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      1000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
-      500000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
+      500000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 3000000)
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount <= 
       3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount <= 
       1000000)
       Result = True
    endIf
@@ -352,15 +352,15 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 1000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 1000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount <= 
       500000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount <= 
       150000)
       Result = True
    endIf
@@ -378,11 +378,11 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
       250000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
       150000)
       Result = True
    endIf
@@ -401,27 +401,27 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      3000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      3000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
-      1000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
+      1000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
-      50000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
+      50000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount > 
-      250000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount > 
+      250000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 70) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 70) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
 endProc 
@@ -435,15 +435,15 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
       5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount > 
       3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount > 
       1000000)
       Result = True
    endIf
@@ -464,15 +464,15 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 1000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 1000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount <= 
       500000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount <= 
       150000)
       Result = True
    endIf
@@ -489,11 +489,11 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount <= 
       250000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount <= 
       150000)
       Result = True
    endIf
@@ -513,23 +513,23 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      1000000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      1000000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
-      500000) and (self.Option__CoverageAmount <= 5000000)
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
+      500000) and (self.Coverage__CoverageAmount <= 5000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 3000000)
+   if (self.Insured__Age__Exact > 50) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 55) and (self.Insured__Age__Exact <= 65) and (self.Coverage__CoverageAmount <= 
       3000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Option__CoverageAmount <= 
+   if (self.Insured__Age__Exact > 65) and (self.Insured__Age__Exact <= 70) and (self.Coverage__CoverageAmount <= 
       1000000)
       Result = True
    endIf
@@ -544,7 +544,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Option__CoverageAmount > 5000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Coverage__CoverageAmount > 5000000)
       Result = True
    endIf
 endProc 
@@ -561,11 +561,11 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
       250000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Option__CoverageAmount > 
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 55) and (self.Coverage__CoverageAmount > 
       150000)
       Result = True
    endIf
@@ -584,12 +584,12 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Option__CoverageAmount > 
-      250000) and (self.Option__CoverageAmount <= 1000000)
+   if (self.Insured__Age__Exact >= 18) and (self.Insured__Age__Exact <= 40) and (self.Coverage__CoverageAmount > 
+      250000) and (self.Coverage__CoverageAmount <= 1000000)
       Result = True
    endIf
-   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Option__CoverageAmount > 
-      150000) and (self.Option__CoverageAmount <= 500000)
+   if (self.Insured__Age__Exact > 40) and (self.Insured__Age__Exact <= 50) and (self.Coverage__CoverageAmount > 
+      150000) and (self.Coverage__CoverageAmount <= 500000)
       Result = True
    endIf
 endProc 
@@ -624,19 +624,19 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   if self.Option__CoverageAmount * 0.7 <= 250000
-      if (self.Claim__ExactCost <= self.Option__CoverageAmount * 0.7) and (self.Claim__ExactCost >= 
+   if self.Coverage__CoverageAmount * 0.7 <= 250000
+      if (self.Claim__ExactCost <= self.Coverage__CoverageAmount * 0.7) and (self.Claim__ExactCost >= 
          10000)
          Result = self.Claim__ExactCost
       elseif self.Claim__ExactCost < 10000
          Result = 10000
-      elseif self.Claim__ExactCost > self.Option__CoverageAmount * 0.7
-         Result = self.Option__CoverageAmount * 0.7
+      elseif self.Claim__ExactCost > self.Coverage__CoverageAmount * 0.7
+         Result = self.Coverage__CoverageAmount * 0.7
       endIf
-   elseif (self.Option__CoverageAmount * 0.7 > 250000) and (self.Claim__ExactCost > 
+   elseif (self.Coverage__CoverageAmount * 0.7 > 250000) and (self.Claim__ExactCost > 
       250000)
       Result = 250000
-   elseif (self.Option__CoverageAmount * 0.7 > 250000) and (self.Claim__ExactCost <= 
+   elseif (self.Coverage__CoverageAmount * 0.7 > 250000) and (self.Claim__ExactCost <= 
       250000)
       Result = self.Claim__ExactCost
    endIf
@@ -706,13 +706,13 @@ endFunc
 procedure WFCalculate(inOut Result : Num8)
    if (self.DeliveredService__Classifications__WasAcceleratedBenefitExercis = IsWasAcceleratedBenefitExercised) and 
       (self.DeliveredService__Dynamic_Data__AcceleratedBenefitAmount > 0)
-      Result = self.Option__CoverageAmount - self.DeliveredService__Dynamic_Data__AcceleratedBenefitAmount
+      Result = self.Coverage__CoverageAmount - self.DeliveredService__Dynamic_Data__AcceleratedBenefitAmount
    elseif (self.DeliveredService__Classifications__WasAcceleratedBenefitExercis = 
       IsWasAcceleratedBenefitExercised) and (self.DeliveredService__Dynamic_Data__AcceleratedBenefitAmount <= 
       0)
       self.AppendErrorMessage('Please input the amount of Accelerated Benefit Used')
    else
-      Result = self.Option__CoverageAmount
+      Result = self.Coverage__CoverageAmount
    endIf
 endProc 
 
@@ -900,7 +900,7 @@ endProc
 {\colortbl ;\red0\green0\blue0;}
 {\*\generator Msftedit 5.41.21.2509;}\viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]></Comment><Name Id="3"><![CDATA[Ten Year Waiver of Premium Rates]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770482]]></NSId><Id Id="2"><![CDATA[89]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWLISubscriptionClassification><NSId Id="1"><![CDATA[318775174]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWLISubscriptionClassification></UsedRules><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[Rate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768708]]></NSId><Id Id="2"><![CDATA[254]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RateRule><AmountDefineForAVolume Id="4"><![CDATA[Per Unit Volume]]></AmountDefineForAVolume><AmountVolumeBusinessData><aMethodDesc><Name>Option__CoverageAmount</Name><NSId>218103824</NSId><Id>936782356381958199</Id><ClassName>aWLIRuleEngine</ClassName></aMethodDesc></AmountVolumeBusinessData><RateFactorForBusinessData Id="56"><![CDATA[1]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[1,000]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[423]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[01/01/2006]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><Name Id="3"><![CDATA[4053240494]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredCoveragePeriodicPricingBroker></CoveredPeriodicPricingRules><RatingFrequency Id="6"><![CDATA[Annually]]></RatingFrequency><SubscriptionProratingBehaviour Id="24"><![CDATA[Effective Date]]></SubscriptionProratingBehaviour><ModificationProratingBehaviour Id="39"><![CDATA[Effective Date]]></ModificationProratingBehaviour><TerminationProratingBehaviour Id="25"><![CDATA[Effective Date]]></TerminationProratingBehaviour><CalculateMemberContribution Id="33"><![CDATA[No]]></CalculateMemberContribution><MemberProfileBilling Id="47"><![CDATA[Apply Rate per Member]]></MemberProfileBilling><RatingRuleType Id="53"><![CDATA[Flat amount]]></RatingRuleType><Rate Id="1"><![CDATA[0]]></Rate><AmountDefineForAVolume Id="4"><![CDATA[No Proportional Rate]]></AmountDefineForAVolume><RateFactorForBusinessData Id="56"><![CDATA[0]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[0]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[32]]></Id></aWLICoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[422]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><MyOwner><aWLICoveragePeriodicPricingMultiBroker><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[32]]></Id></aWLICoveragePeriodicPricingMultiBroker></MyOwner><Name Id="3"><![CDATA[40532404960]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[32]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingBroker></Brokers><UseCapping Id="2"><![CDATA[No]]></UseCapping><DoNotBill Id="3"><![CDATA[No]]></DoNotBill><ZeroBillingResultVisibleInBill Id="4"><![CDATA[No]]></ZeroBillingResultVisibleInBill><RatingMode Id="5"><![CDATA[Guaranteed Rate]]></RatingMode><ApplySubscriptionPricesAtRenewal Id="8"><![CDATA[No]]></ApplySubscriptionPricesAtRenewal><MyOwner><aWLIOfferedLifeOrDisabilityCoverage><NSId Id="1"><![CDATA[318779681]]></NSId><Id Id="2"><![CDATA[29]]></Id></aWLIOfferedLifeOrDisabilityCoverage></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[32]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingMultiBroker></PeriodicPricingParameters><CoveredDependants Id="25"><![CDATA[Owner,Spouse,Child,Dependant]]></CoveredDependants><CoveredClassifications><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></CoveredClassifications><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[No]]></IsDefault><Code Id="8"><![CDATA[Smoker]]></Code><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[Yes]]></IsDefault><Code Id="8"><![CDATA[Non Smoker]]></Code><Name Id="3"><![CDATA[Non Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredTerminationParameters><aWLICoveredTerminationMultiBroker><Brokers><aWLICoveredTerminationRuleBroker><DependantClassification Id="4"><![CDATA[]]></DependantClassification><AgeCalculationRuleUsed Id="7"><![CDATA[0]]></AgeCalculationRuleUsed><AutomaticTerminationRuleType Id="3"><![CDATA[Termination Based on Rule]]></AutomaticTerminationRuleType><AutomaticTerminationMaxAge Id="4"><![CDATA[0]]></AutomaticTerminationMaxAge><AutomaticTerminationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[The person is eligible up to 65. We are looking at his age at policy anniversary date. And we check his age based on insurance age.
+]]></Comment><Name Id="3"><![CDATA[Ten Year Waiver of Premium Rates]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318770482]]></NSId><Id Id="2"><![CDATA[89]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWLISubscriptionClassification><NSId Id="1"><![CDATA[318775174]]></NSId><Id Id="2"><![CDATA[15]]></Id></aWLISubscriptionClassification></UsedRules><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[Rate]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318768708]]></NSId><Id Id="2"><![CDATA[254]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RateRule><AmountDefineForAVolume Id="4"><![CDATA[Per Unit Volume]]></AmountDefineForAVolume><AmountVolumeBusinessData><aMethodDesc><Name>Coverage__CoverageAmount</Name><NSId>218103824</NSId><Id>936782356381958199</Id><ClassName>aWLIRuleEngine</ClassName></aMethodDesc></AmountVolumeBusinessData><RateFactorForBusinessData Id="56"><![CDATA[1]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[1,000]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveredCoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLICoveredCoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[423]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[01/01/2006]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><Name Id="3"><![CDATA[4053240494]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774498]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredCoveragePeriodicPricingBroker></CoveredPeriodicPricingRules><RatingFrequency Id="6"><![CDATA[Annually]]></RatingFrequency><SubscriptionProratingBehaviour Id="24"><![CDATA[Effective Date]]></SubscriptionProratingBehaviour><ModificationProratingBehaviour Id="39"><![CDATA[Effective Date]]></ModificationProratingBehaviour><TerminationProratingBehaviour Id="25"><![CDATA[Effective Date]]></TerminationProratingBehaviour><CalculateMemberContribution Id="33"><![CDATA[No]]></CalculateMemberContribution><MemberProfileBilling Id="47"><![CDATA[Apply Rate per Member]]></MemberProfileBilling><RatingRuleType Id="53"><![CDATA[Flat amount]]></RatingRuleType><Rate Id="1"><![CDATA[0]]></Rate><AmountDefineForAVolume Id="4"><![CDATA[No Proportional Rate]]></AmountDefineForAVolume><RateFactorForBusinessData Id="56"><![CDATA[0]]></RateFactorForBusinessData><AmountVolume Id="6"><![CDATA[0]]></AmountVolume><WithTaxes Id="44"><![CDATA[No]]></WithTaxes><RoundingRule><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[Round to nearest]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[No]]></UseSpecificRoundingRule><MyOwner><aWLICoveragePeriodicPricingBroker><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[32]]></Id></aWLICoveragePeriodicPricingBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318771605]]></NSId><Id Id="2"><![CDATA[422]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRule><EffectiveDate Id="30"><![CDATA[09/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><MyOwner><aWLICoveragePeriodicPricingMultiBroker><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[32]]></Id></aWLICoveragePeriodicPricingMultiBroker></MyOwner><Name Id="3"><![CDATA[40532404960]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774474]]></NSId><Id Id="2"><![CDATA[32]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingBroker></Brokers><UseCapping Id="2"><![CDATA[No]]></UseCapping><DoNotBill Id="3"><![CDATA[No]]></DoNotBill><ZeroBillingResultVisibleInBill Id="4"><![CDATA[No]]></ZeroBillingResultVisibleInBill><RatingMode Id="5"><![CDATA[Guaranteed Rate]]></RatingMode><ApplySubscriptionPricesAtRenewal Id="8"><![CDATA[No]]></ApplySubscriptionPricesAtRenewal><MyOwner><aWLIOfferedLifeOrDisabilityCoverage><NSId Id="1"><![CDATA[318779681]]></NSId><Id Id="2"><![CDATA[29]]></Id></aWLIOfferedLifeOrDisabilityCoverage></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318774470]]></NSId><Id Id="2"><![CDATA[32]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveragePeriodicPricingMultiBroker></PeriodicPricingParameters><CoveredDependants Id="25"><![CDATA[Owner,Spouse,Child,Dependant]]></CoveredDependants><CoveredClassifications><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></CoveredClassifications><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[No]]></IsDefault><Code Id="8"><![CDATA[Smoker]]></Code><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredClassificationsValuesAuthorized><aWLICoveredPersonClassificationValue><MyOwner><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318775455</NSId><Id>7</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318775455</NSId><Id>8</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[S]]></Code><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775454]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassification></MyOwner><IsDefault Id="4"><![CDATA[Yes]]></IsDefault><Code Id="8"><![CDATA[Non Smoker]]></Code><Name Id="3"><![CDATA[Non Smoker]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318775455]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICoveredPersonClassificationValue></CoveredClassificationsValuesAuthorized><CoveredTerminationParameters><aWLICoveredTerminationMultiBroker><Brokers><aWLICoveredTerminationRuleBroker><DependantClassification Id="4"><![CDATA[]]></DependantClassification><AgeCalculationRuleUsed Id="7"><![CDATA[0]]></AgeCalculationRuleUsed><AutomaticTerminationRuleType Id="3"><![CDATA[Termination Based on Rule]]></AutomaticTerminationRuleType><AutomaticTerminationMaxAge Id="4"><![CDATA[0]]></AutomaticTerminationMaxAge><AutomaticTerminationRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[The person is eligible up to 65. We are looking at his age at policy anniversary date. And we check his age based on insurance age.
 
 Eg. Suppose John's policy anniversary date is Dec 31, 2010 and John's birth date is June 30, 1940, then John's Age is 60 years and 184 days at policy anniversary. So, the Owner Age in this case will be considered as 61 instead of 60 at anniversary. In case John's birthday had happened to be 180 days of within his policy's anniversary date, then the Owner Age will be considered to be 60 years. Simply put, if John was born on July 05, 1940, his age at anniversary would still be considered as 60 instead of 61 as in the earlier case.]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLI_LifeDisabilityRuleEngine) (Def Version:3) (Implem Version:1)
 
@@ -948,7 +948,7 @@ function MedicalEvidenceRule(Age : Int4, Amount : Num8) return Boolean
 endFunc 
 
 procedure WFCalculate(inOut Result : Boolean)
-   Result = self.MedicalEvidenceRule(self.Insured__Age__At_Last_Renewal, self.Option__CoverageAmount)
+   Result = self.MedicalEvidenceRule(self.Insured__Age__At_Last_Renewal, self.Coverage__CoverageAmount)
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLI_LifeDisabilityRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218116400]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedLifeOrDisabilityCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLICoverageUnderwritingSingleBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><Name>Age</Name><NSId>318771176</NSId><Id>100</Id></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><Name>Amount</Name><NSId>318771186</NSId><Id>34</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[True/False value]]></ReturnType><Rules><aWFRuleDesc><Name>Medical Evidence Rule</Name><NSId>318768708</NSId><Id>14</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}

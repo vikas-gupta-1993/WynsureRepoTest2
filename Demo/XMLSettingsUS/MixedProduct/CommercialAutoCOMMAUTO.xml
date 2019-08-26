@@ -2765,9 +2765,14 @@ endProc
 
 uses WFTypes, WFCountryTypes, aWFRuleDesc, aEnumType
 
-type tWF___CoverageType : (Comprehensive)
+; Classification
+; FieldDesc
+type tWF___CoverageType54 : (
+   [model(Text:'Comprehensive')] Comprehensive
+)
 
 
+; Rule
 function PhysicalDamagePremium(CoverageType : CString, InState : tWFUSState, VehicleValue : Num8) return tWFNum8
    uses aWFStandAloneRule
    
@@ -2785,10 +2790,10 @@ function PhysicalDamagePremium(CoverageType : CString, InState : tWFUSState, Veh
    endIf
 endFunc 
 
-function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType
-   type tpValue : .tWF___CoverageType
+function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType54
+   type tpValue : .tWF___CoverageType54
    
-   var p : tWF___CoverageType
+   var p : tWF___CoverageType54
    
    if self.EvaluateFieldDescFromRank(1, 5, 'Coverage__Dynamic_Data__CoverageType')
       p = tpValue(self.pFieldValue).
@@ -2796,13 +2801,10 @@ function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType
    endIf
 endFunc 
 
-procedure Set_Coverage__Dynamic_Data__CoverageType(_DataValue : tWF___CoverageType)
-   self.SetDynDataValue('Coverage Type', @_DataValue)
-endProc 
-
+; VarDesc
+; Indexes Of TableDesc
 procedure WFCalculate(inOut Result : tWFNum8)
-   var Premium : Num8
-   var CoverageType : tWF___CoverageType
+   var CoverageType : tWF___CoverageType54
    var CoverageTypeText : CString
    
    ;Convert tWF___CoverageType to CString
@@ -2810,11 +2812,9 @@ procedure WFCalculate(inOut Result : tWFNum8)
    CoverageTypeText = CoverageType.type.AsCString(@CoverageType)
    ;
    ;Calculate Premium
-   Premium = self.PhysicalDamagePremium(CoverageTypeText, self.Subscriber__LegalEntitySitusState, 
+   Result = self.PhysicalDamagePremium(CoverageTypeText, self.Subscriber__LegalEntitySitusState, 
       self.Vehicle__Price)
    ;
-   ;
-   Result = Premium
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWPnC_ItemRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218190844]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWPnC_OfferedService]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWPnC_ItemPeriodicCalculateBillLineBroker]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033268371391099</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_CString><Name>Coverage Type</Name><NSId>318838179</NSId><Id>9</Id></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_USStates><Name>In State</Name><NSId>318838350</NSId><Id>6</Id></aWFFieldDesc_USStates></Parameters><Parameters><aWFFieldDesc_Amount><Name>Vehicle Value</Name><NSId>318838228</NSId><Id>51</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><Name>Physical Damage Premium</Name><NSId>318835750</NSId><Id>16</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
@@ -2974,9 +2974,15 @@ endProc
 
 uses WFTypes, WFCountryTypes, aWFRuleDesc, aEnumType
 
-type tWF___CoverageType : (Comprehensive, SpecifiedCausesofLoss)
+; Classification
+; FieldDesc
+type tWF___CoverageType55 : (
+   [model(Text:'Comprehensive')] Comprehensive, 
+   [model(Text:'SpecifiedCausesofLoss')] SpecifiedCausesofLoss
+)
 
 
+; Rule
 function PhysicalDamagePremium(CoverageType : CString, InState : tWFUSState, VehicleValue : Num8) return tWFNum8
    uses aWFStandAloneRule
    
@@ -2994,10 +3000,10 @@ function PhysicalDamagePremium(CoverageType : CString, InState : tWFUSState, Veh
    endIf
 endFunc 
 
-function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType
-   type tpValue : .tWF___CoverageType
+function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType55
+   type tpValue : .tWF___CoverageType55
    
-   var p : tWF___CoverageType
+   var p : tWF___CoverageType55
    
    if self.EvaluateFieldDescFromRank(1, 5, 'Coverage__Dynamic_Data__CoverageType')
       p = tpValue(self.pFieldValue).
@@ -3005,13 +3011,10 @@ function Coverage__Dynamic_Data__CoverageType return tWF___CoverageType
    endIf
 endFunc 
 
-procedure Set_Coverage__Dynamic_Data__CoverageType(_DataValue : tWF___CoverageType)
-   self.SetDynDataValue('Coverage Type', @_DataValue)
-endProc 
-
+; VarDesc
+; Indexes Of TableDesc
 procedure WFCalculate(inOut Result : tWFNum8)
-   var Premium : Num8
-   var CoverageType : tWF___CoverageType
+   var CoverageType : tWF___CoverageType55
    var CoverageTypeText : CString
    
    ;Convert tWF___CoverageType to CString
@@ -3019,11 +3022,8 @@ procedure WFCalculate(inOut Result : tWFNum8)
    CoverageTypeText = CoverageType.type.AsCString(@CoverageType)
    ;
    ;Calculate Premium
-   Premium = self.PhysicalDamagePremium(CoverageTypeText, self.Subscriber__LegalEntitySitusState, 
+   Result = self.PhysicalDamagePremium(CoverageTypeText, self.Subscriber__LegalEntitySitusState, 
       self.Vehicle__Price)
-   ;
-   ;
-   Result = Premium
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWPnC_ItemRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218190844]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWPnC_OfferedService]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWPnC_ItemPeriodicCalculateBillLineBroker]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033268371391099</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_CString><Name>Coverage Type</Name><NSId>318838179</NSId><Id>9</Id></aWFFieldDesc_CString></Parameters><Parameters><aWFFieldDesc_USStates><Name>In State</Name><NSId>318838350</NSId><Id>6</Id></aWFFieldDesc_USStates></Parameters><Parameters><aWFFieldDesc_Amount><Name>Vehicle Value</Name><NSId>318838228</NSId><Id>51</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><Name>Physical Damage Premium</Name><NSId>318835750</NSId><Id>16</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}

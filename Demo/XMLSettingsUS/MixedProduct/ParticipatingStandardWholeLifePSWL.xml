@@ -236,10 +236,10 @@ procedure WFCalculate(inOut Result : Num8)
          ; the cost basis is decreased and the gain is increased
          Result = -self.Dividend__Amount
       else
-         if self.Coverage__Gain > 0
-            if self.Coverage__Gain < self.Dividend__Amount
+         if self.Option__Gain > 0
+            if self.Option__Gain < self.Dividend__Amount
                ; if dividends are greater than gain, taxes are paid on gain and the gains go into the cost basis
-               Result = -self.Dividend__Amount + self.Coverage__Gain
+               Result = -self.Dividend__Amount + self.Option__Gain
             else
                ; if dividends are less than gain, taxes are paid on dividends and the dividends go into the cost basis
                Result = -self.Dividend__Amount + self.Dividend__Amount
@@ -252,9 +252,9 @@ procedure WFCalculate(inOut Result : Num8)
       if not self.Contract__IsMEC
          Result = 0
       else
-         if self.Coverage__Gain > 0
-            if self.Coverage__Gain < self.Dividend__Amount
-               Result = self.Coverage__Gain
+         if self.Option__Gain > 0
+            if self.Option__Gain < self.Dividend__Amount
+               Result = self.Option__Gain
             else
                Result = self.Dividend__Amount
             endIf
@@ -280,11 +280,19 @@ endProc
 
 uses WFTypes, aWFRuleDesc, aWLICoverageAmountAndPremiumVersion
 
-type tWF_Generated_SmokerStatus_318776179_5 : (Smoker, NonSmoker)
-type tWF___MxDxCx : (Mx, Dx, Cx)
+; Rule
+type tWF_Generated_SmokerStatus_318844608_5 : (
+   [model(Text:'Smoker')] Smoker, 
+   [model(Text:'NonSmoker')] NonSmoker
+)
+type tWF___MxDxCx8 : (
+   [model(Text:'Mx')] Mx, 
+   [model(Text:'Dx')] Dx, 
+   [model(Text:'Cx')] Cx
+)
 
 
-function NSP_Net_Single_Premium(AttainedAge : Int4, NSP_Smoker : tWF_Generated_SmokerStatus_318776179_5) return tWFNum8
+function NSP_Net_Single_Premium(AttainedAge : Int4, NSP_Smoker : tWF_Generated_SmokerStatus_318844608_5) return tWFNum8
    uses aWFStandAloneRule
    
    var tmpRule : aWFRuleDesc
@@ -300,7 +308,7 @@ function NSP_Net_Single_Premium(AttainedAge : Int4, NSP_Smoker : tWF_Generated_S
    endIf
 endFunc 
 
-function CommutationTables_2001_Blended_5_(IssueAge : Int4, MxDxCx : tWF___MxDxCx) return tWFNum8
+function CommutationTables_2001_Blended_5_(IssueAge : Int4, MxDxCx : tWF___MxDxCx8) return tWFNum8
    uses aWFStandAloneRule
    
    var tmpRule : aWFRuleDesc
@@ -332,12 +340,16 @@ function CSO2001_Blended_5_(Duration : Int4, Age : Int4) return tWFNum8
    endIf
 endFunc 
 
-function Insured__Classifications__SmokerStatus return tWF_Generated_SmokerStatus_318776179_5
+; Classification
+function Insured__Classifications__SmokerStatus return tWF_Generated_SmokerStatus_318844608_5
    if self.EvaluateClassificationFromRank(3, 6, 'Insured__Classifications__SmokerStatus')
-      _Result = tWF_Generated_SmokerStatus_318776179_5(self.V_ForClassificationEvaluation)
+      _Result = tWF_Generated_SmokerStatus_318844608_5(self.V_ForClassificationEvaluation)
    endIf
 endFunc 
 
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
 procedure WFCalculate(inOut Result : tWFNum8)
    var NbYears : Int4
    var NbDays : Num8
@@ -505,8 +517,8 @@ endProc
 }
 ]]></Comment><Name Id="3"><![CDATA[CSO2001_Blended_5%]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837524]]></NSId><Id Id="2"><![CDATA[22]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWLICoveredPersonClassification><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Smoker</Name><NSId>318844609</NSId><Id>12</Id></aWLICoveredPersonClassificationValue></ClassificationValues><ClassificationValues><aWLICoveredPersonClassificationValue><Name>Non Smoker</Name><NSId>318844609</NSId><Id>13</Id></aWLICoveredPersonClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[Non Smoker]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[No]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[No]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[SMS]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[No]]></WithHierarchy><Name Id="3"><![CDATA[Smoker Status]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844608]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[2]]></Version></aWLICoveredPersonClassification></UsedRules><MyOwner><aWLITabularCashValueBroker><NSId Id="1"><![CDATA[318856328]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLITabularCashValueBroker></MyOwner><Name Id="3"><![CDATA[CashValueCalculation]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[1438]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RateRule><EffectiveDate Id="30"><![CDATA[01/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><MyOwner><aWLITabularCashValueMultiBroker><NSId Id="1"><![CDATA[318856327]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLITabularCashValueMultiBroker></MyOwner><IsStateDefinitionOverridden Id="79"><![CDATA[No]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[41867630210]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856328]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLITabularCashValueBroker></Brokers><BasedOnCoverageAmountVersion Id="1"><![CDATA[Yes]]></BasedOnCoverageAmountVersion><MyOwner><aWLIOfferedIndividualLifeCoverageWithCashValue><NSId Id="1"><![CDATA[318856163]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLIOfferedIndividualLifeCoverageWithCashValue></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856327]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLITabularCashValueMultiBroker></TabularCashValue><SurrenderPercentage><aWLISurrenderValueMultiBroker><MyOwner><aWLIOfferedIndividualLifeCoverageWithCashValue><NSId Id="1"><![CDATA[318856163]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLIOfferedIndividualLifeCoverageWithCashValue></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856331]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISurrenderValueMultiBroker></SurrenderPercentage><CoverageAmountParameters><aWLIIndividualCoverageAmountForCashValueMultiBroker><Brokers><aWLIIndividualCoverageAmountForCashValueBroker><MyOwner><aWLIIndividualCoverageAmountForCashValueMultiBroker><NSId Id="1"><![CDATA[318856329]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLIIndividualCoverageAmountForCashValueMultiBroker></MyOwner><CalculationType Id="5"><![CDATA[2]]></CalculationType><CoverageAmountBasedOnOtherCoverageAmountFlatCoef Id="98"><![CDATA[0]]></CoverageAmountBasedOnOtherCoverageAmountFlatCoef><CoverageAmountBasedOnOtherCoverageAmountCoefKind Id="99"><![CDATA[0]]></CoverageAmountBasedOnOtherCoverageAmountCoefKind><CombinedMaximumWithOtherCoverage Id="103"><![CDATA[No]]></CombinedMaximumWithOtherCoverage><CoverageAmountdependOnOtherCoverage Id="104"><![CDATA[No]]></CoverageAmountdependOnOtherCoverage><ReductionTable><aWFTableDesc><DimensionsContext Id="73"><![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]></DimensionsContext><TableContentSize Id="35"><![CDATA[0]]></TableContentSize><TableIndexSize Id="36"><![CDATA[0]]></TableIndexSize><EnumsAsSet Id="157"><![CDATA[0]]></EnumsAsSet><RuleText Id="20"><![CDATA[]]></RuleText><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIClaimRuleEngineWithCashValue]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218192999]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedIndividualLifeCoverageWithCashValue]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aFullObject]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033268371391099</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIIndividualCoverageAmountForCashValueBroker><NSId Id="1"><![CDATA[318856330]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLIIndividualCoverageAmountForCashValueBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835767]]></NSId><Id Id="2"><![CDATA[746]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFTableDesc></ReductionTable><ReductionAgeCalculationRule Id="87"><![CDATA[0]]></ReductionAgeCalculationRule><CoverageFlatAmount Id="4"><![CDATA[0.00]]></CoverageFlatAmount><AppendFlatAmountToBasedOnSalaryAmount_DeprecatedWF5000 Id="100"><![CDATA[No]]></AppendFlatAmountToBasedOnSalaryAmount_DeprecatedWF5000><MaximumCoverageFlatAmount Id="14"><![CDATA[0.00]]></MaximumCoverageFlatAmount><MaximumCoverageFlatAmountUsed Id="15"><![CDATA[No]]></MaximumCoverageFlatAmountUsed><MaximumPercentageOfDependingCoverage Id="20"><![CDATA[0.00%]]></MaximumPercentageOfDependingCoverage><MaximumCompareAmountsTypeEnum Id="21"><![CDATA[0]]></MaximumCompareAmountsTypeEnum><MinimumCoverageFlatAmount Id="22"><![CDATA[0.00]]></MinimumCoverageFlatAmount><MinimumCoverageFlatAmountUsed Id="23"><![CDATA[No]]></MinimumCoverageFlatAmountUsed><MinimumCompareAmountsType Id="28"><![CDATA[0]]></MinimumCompareAmountsType><ReductionRule Id="29"><![CDATA[0]]></ReductionRule><SecondReductionRule Id="35"><![CDATA[0]]></SecondReductionRule><SecondReductionTable><aWFTableDesc><DimensionsContext Id="73"><![CDATA[(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)]]></DimensionsContext><TableContentSize Id="35"><![CDATA[0]]></TableContentSize><TableIndexSize Id="36"><![CDATA[0]]></TableIndexSize><EnumsAsSet Id="157"><![CDATA[0]]></EnumsAsSet><RuleText Id="20"><![CDATA[]]></RuleText><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIClaimRuleEngineWithCashValue]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218192999]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedIndividualLifeCoverageWithCashValue]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aFullObject]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033268371391099</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIIndividualCoverageAmountForCashValueBroker><NSId Id="1"><![CDATA[318856330]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLIIndividualCoverageAmountForCashValueBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835767]]></NSId><Id Id="2"><![CDATA[747]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFTableDesc></SecondReductionTable><CompareReductionTypesEnum Id="37"><![CDATA[0]]></CompareReductionTypesEnum><ElementsList><aWFAmountsChosenFromList><IncrementsOfAmount Id="2"><![CDATA[]]></IncrementsOfAmount><StartingIncrement Id="3"><![CDATA[0.00]]></StartingIncrement><EndingIncrement Id="4"><![CDATA[0.00]]></EndingIncrement><IntervalOfIncrements Id="5"><![CDATA[0.00]]></IntervalOfIncrements><MaximumFlatAmount Id="8"><![CDATA[0.00]]></MaximumFlatAmount><MinimumFlatAmount Id="9"><![CDATA[0.00]]></MinimumFlatAmount><DefaultAmount Id="13"><![CDATA[0.00]]></DefaultAmount><RuleType Id="1"><![CDATA[0]]></RuleType><ChosenAtSubscriptionType Id="11"><![CDATA[]]></ChosenAtSubscriptionType><IncrementType Id="2"><![CDATA[0]]></IncrementType><UseMin Id="3"><![CDATA[No]]></UseMin><UseMax Id="4"><![CDATA[No]]></UseMax><MyOwner><aWLIIndividualCoverageAmountForCashValueBroker><NSId Id="1"><![CDATA[318856330]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLIIndividualCoverageAmountForCashValueBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837751]]></NSId><Id Id="2"><![CDATA[134]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFAmountsChosenFromList></ElementsList><ReductionDefinition Id="135"><![CDATA[0]]></ReductionDefinition><MaxDefinition Id="141"><![CDATA[0]]></MaxDefinition><MinDefinition Id="143"><![CDATA[0]]></MinDefinition><PersonAgeReductionRule Id="152"><![CDATA[0]]></PersonAgeReductionRule><CoverageAmountCalculationFrequency Id="177"><![CDATA[0]]></CoverageAmountCalculationFrequency><ElementType Id="14"><![CDATA[0]]></ElementType><ElementFormula><aWFRuleDesc><RuleDescription Id="64"><![CDATA[This rule is used to:
 - define the coverage amount rule for the Base coverage: list of value
-- calculate the RPU value (Coverage__CashValueStatus = cvReduction)
-- calculate for the Dividend PUA (Coverage__CashValueStatus = cvInsidePUA)]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLIClaimRuleEngineWithCashValue) (Def Version:2) (Implem Version:1)
+- calculate the RPU value (Option__CashValueStatus = cvReduction)
+- calculate for the Dividend PUA (Option__CashValueStatus = cvInsidePUA)]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLIClaimRuleEngineWithCashValue) (Def Version:2) (Implem Version:1)
 
 uses WFTypes, aWFRuleDesc, aWLICoverageAmountAndPremiumVersion
 
@@ -740,7 +752,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.Coverage__Gain
+   Result = self.Option__Gain
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIClaimRuleEngineWithCashValue]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218192999]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedIndividualLifeCoverageWithCashValue]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLI_ChangeOfOwnerRuleBroker]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLI_ChangeOfOwnerRuleBroker><NSId Id="1"><![CDATA[318856838]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLI_ChangeOfOwnerRuleBroker></MyOwner><Name Id="3"><![CDATA[Cost Basis Impact]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[1440]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></CostBasisRule><MyOwner><aWLI_ChangeOfOwnerRuleMultiBroker><NSId Id="1"><![CDATA[318856839]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLI_ChangeOfOwnerRuleMultiBroker></MyOwner><EffectiveDate Id="30"><![CDATA[01/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Yes]]></AppliedToAllClassifications><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><IsStateDefinitionOverridden Id="79"><![CDATA[No]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[41867607010]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856838]]></NSId><Id Id="2"><![CDATA[1]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_ChangeOfOwnerRuleBroker></Brokers><MyOwner><aWLIOfferedIndividualLifeCoverageWithCashValue><NSId Id="1"><![CDATA[318856163]]></NSId><Id Id="2"><![CDATA[4]]></Id></aWLIOfferedIndividualLifeCoverageWithCashValue></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856839]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLI_ChangeOfOwnerRuleMultiBroker></ChangeOfOwnerRuleBroker><OfferedExtensionForInvestmentCashAccount><aWLIOfferedExtensionForInvestmentCashAccountUS><USTaxRegulationMultiBroker><aWLIUSTaxRegulationMultiBroker><Brokers><aWLIUSTaxRegulationBroker><MyOwner><aWLIUSTaxRegulationMultiBroker><NSId Id="1"><![CDATA[318856848]]></NSId><Id Id="2"><![CDATA[1]]></Id></aWLIUSTaxRegulationMultiBroker></MyOwner><SevenPayLimitRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLIClaimRuleEngineWithCashValue) (Def Version:1) (Implem Version:1)
@@ -1018,17 +1030,17 @@ If MEC and there is some gain on the contract, the gain is taxed and the cost ba
 
 procedure WFCalculate(inOut Result : Num8)
    if not self.Contract__IsMEC
-      if self.DeliveredService__GrossSurrenderAmount <= self.Coverage__CostBasis
+      if self.DeliveredService__GrossSurrenderAmount <= self.Option__CostBasis
          Result = -self.DeliveredService__GrossSurrenderAmount
       else
-         Result = -self.Coverage__CostBasis
+         Result = -self.Option__CostBasis
       endIf
    else
-      if self.Coverage__Gain > 0
-         if self.Coverage__Gain >= self.DeliveredService__GrossSurrenderAmount
+      if self.Option__Gain > 0
+         if self.Option__Gain >= self.DeliveredService__GrossSurrenderAmount
             Result = self.DeliveredService__GrossSurrenderAmount
          else
-            Result = self.Coverage__Gain
+            Result = self.Option__Gain
          endIf
       else
          Result = 0
@@ -1054,7 +1066,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.Coverage__TabularCashValueAtDate(self.CurrentDate) - self.Coverage__TotalUnPaidLoanAmount
+   Result = self.Option__TabularCashValueAtDate(self.CurrentDate) - self.Option__TotalUnPaidLoanAmount
    ;
    if self.DeliveredService__RequestedLoanAmount < Result
       Result = self.DeliveredService__RequestedLoanAmount
@@ -1077,11 +1089,11 @@ If MEC and there is some gain on the contract, the gain is taxed and the cost ba
 
 procedure WFCalculate(inOut Result : Num8)
    if self.Contract__IsMEC
-      if self.Coverage__Gain > 0
-         if self.Coverage__Gain >= self.DeliveredService__AcceptedLoanAmount
+      if self.Option__Gain > 0
+         if self.Option__Gain >= self.DeliveredService__AcceptedLoanAmount
             Result = self.DeliveredService__AcceptedLoanAmount
          else
-            Result = self.Coverage__Gain
+            Result = self.Option__Gain
          endIf
       else
          Result = 0
@@ -1099,7 +1111,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = 0.9 * self.Coverage__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Coverage__TotalUnPaidLoanAmount
+   Result = 0.9 * self.Option__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Option__TotalUnPaidLoanAmount
    ;
    if self.DeliveredService__RequestedLoanAmount < Result
       Result = self.DeliveredService__RequestedLoanAmount
@@ -1122,11 +1134,11 @@ If MEC and there is some gain on the contract, the gain is taxed and the cost ba
 
 procedure WFCalculate(inOut Result : Num8)
    if self.Contract__IsMEC
-      if self.Coverage__Gain > 0
-         if self.Coverage__Gain >= self.DeliveredService__AcceptedLoanAmount
+      if self.Option__Gain > 0
+         if self.Option__Gain >= self.DeliveredService__AcceptedLoanAmount
             Result = self.DeliveredService__AcceptedLoanAmount
          else
-            Result = self.Coverage__Gain
+            Result = self.Option__Gain
          endIf
       else
          Result = 0
@@ -1151,7 +1163,7 @@ procedure WFCalculate(inOut Result : Boolean)
    ;
    minLoan = 100
    ;
-   maxLoan = 0.9 * self.Coverage__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Coverage__TotalUnPaidLoanAmount
+   maxLoan = 0.9 * self.Option__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Option__TotalUnPaidLoanAmount
    ;
    if self.DeliveredService__RequestedLoanAmount > maxLoan
       Result = False
@@ -1177,10 +1189,10 @@ endProc
 procedure WFCalculate(inOut Result : Num8)
    if self.Contract__IsETI(self.CurrentDate) or self.Contract__IsReduced(self.CurrentDate)
       ; Cash value at surrender date (Loan not possible on an ETI & RPU contract)
-      Result = self.Coverage__TotalCashValueAndTabularAtDate(self.CurrentDate)
+      Result = self.Option__TotalCashValueAndTabularAtDate(self.CurrentDate)
    else
       ; Cash value at Paid To Date  
-      Result = self.Coverage__TotalCashValueAndTabularAtDate(self.Contract__PaidToDate)
+      Result = self.Option__TotalCashValueAndTabularAtDate(self.Contract__PaidToDate)
    endIf
 endProc 
 
@@ -1194,14 +1206,14 @@ Full Surrender: non 1035 Exchange
 
 procedure WFCalculate(inOut Result : Num8)
    if not self.Contract__IsMEC
-      if self.DeliveredService__GrossSurrenderAmount <= self.Coverage__CostBasis
+      if self.DeliveredService__GrossSurrenderAmount <= self.Option__CostBasis
          Result = -self.DeliveredService__GrossSurrenderAmount
       else
-         Result = -self.Coverage__CostBasis
+         Result = -self.Option__CostBasis
       endIf
    else
-      if self.DeliveredService__GrossSurrenderAmount > self.Coverage__Gain
-         Result = -(self.DeliveredService__GrossSurrenderAmount - self.Coverage__Gain)
+      if self.DeliveredService__GrossSurrenderAmount > self.Option__Gain
+         Result = -(self.DeliveredService__GrossSurrenderAmount - self.Option__Gain)
       else
          Result = 0
       endIf
@@ -1214,10 +1226,10 @@ endProc
 procedure WFCalculate(inOut Result : Num8)
    if self.Contract__IsETI(self.CurrentDate) or self.Contract__IsReduced(self.CurrentDate)
       ; Cash value at surrender date (Loan not possible on an ETI & RPU contract)
-      Result = self.Coverage__TotalCashValueAndTabularAtDate(self.CurrentDate)
+      Result = self.Option__TotalCashValueAndTabularAtDate(self.CurrentDate)
    else
       ; Cash value at Paid To Date  
-      Result = self.Coverage__TotalCashValueAndTabularAtDate(self.Contract__PaidToDate)
+      Result = self.Option__TotalCashValueAndTabularAtDate(self.Contract__PaidToDate)
    endIf
 endProc 
 
@@ -1228,7 +1240,7 @@ Full Surrender: 1035 Exchange : no impact on the cost basis
 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = -self.Coverage__CostBasis
+   Result = -self.Option__CostBasis
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIClaimRuleEngineWithCashValue]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218192999]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedIndividualLifeCoverageWithCashValue]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLICostBasisRole]]></RuleEngineUsingKindContext><ReturnType><aNumType><Name Id="2"><![CDATA[Num8]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1035]]></Id></aNumType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLICashValueSurrenderBenefitBroker><NSId Id="1"><![CDATA[318856170]]></NSId><Id Id="2"><![CDATA[5]]></Id></aWLICashValueSurrenderBenefitBroker></MyOwner><Name Id="3"><![CDATA[Cost Basis Impact]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[1424]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></CostBasisRule><EffectiveDate Id="30"><![CDATA[01/01/2000]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[No]]></AppliedToAllClassifications><SelectedSubscriberClassifications><aWFClassification><NSId Id="1"><![CDATA[318836210]]></NSId><Id Id="2"><![CDATA[16]]></Id></aWFClassification></SelectedSubscriberClassifications><ClassificationValues><aWFClassificationValue><NSId Id="1"><![CDATA[318835828]]></NSId><Id Id="2"><![CDATA[116]]></Id></aWFClassificationValue></ClassificationValues><AppliedToAllUSStates Id="43"><![CDATA[Yes]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><IsStateDefinitionOverridden Id="79"><![CDATA[No]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[41868558801]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856170]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICashValueSurrenderBenefitBroker></Brokers><MyOwner><aWLICashValueSurrenderBenefit><NSId Id="1"><![CDATA[318856165]]></NSId><Id Id="2"><![CDATA[3]]></Id></aWLICashValueSurrenderBenefit></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318856166]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLICashValueSurrenderBenefitMultiBroker></BenefitParameters><CanDeliverParameters><aWLICashValueSurrenderBenefitEligibilityMultiBroker><Brokers><aWLISurrenderIndividualBenefitEligibilityBroker><GrossMinimumAmountToLet Id="3"><![CDATA[0.00]]></GrossMinimumAmountToLet><GrossMaximumPercentToWithdraw Id="6"><![CDATA[0]]></GrossMaximumPercentToWithdraw><CheckGrossMinimumAmountToLet Id="7"><![CDATA[No]]></CheckGrossMinimumAmountToLet><CheckGrossMaximumPercentToWithdraw Id="8"><![CDATA[No]]></CheckGrossMaximumPercentToWithdraw><NetMinimumAmountToLet Id="14"><![CDATA[0.00]]></NetMinimumAmountToLet><NetMaximumPercent Id="15"><![CDATA[0]]></NetMaximumPercent><CheckNetMinimumAmount Id="16"><![CDATA[No]]></CheckNetMinimumAmount><CheckNetMaximumPercent Id="17"><![CDATA[No]]></CheckNetMaximumPercent><CheckMaximum Id="3"><![CDATA[No]]></CheckMaximum><Maximum Id="1"><![CDATA[0.00]]></Maximum><CheckMinimum Id="4"><![CDATA[No]]></CheckMinimum><Minimum Id="2"><![CDATA[0.00]]></Minimum><CheckMonthlyNumberMax Id="9"><![CDATA[No]]></CheckMonthlyNumberMax><MaxNumberPerMonth Id="10"><![CDATA[0]]></MaxNumberPerMonth><CheckYearlyNumberMax Id="11"><![CDATA[No]]></CheckYearlyNumberMax><MaxNumberPerYear Id="12"><![CDATA[0]]></MaxNumberPerYear><MaximumAge Id="1"><![CDATA[0]]></MaximumAge><MaximumAgeUsed Id="2"><![CDATA[No]]></MaximumAgeUsed><MinimumAge Id="3"><![CDATA[0]]></MinimumAge><MinimumAgeUsed Id="4"><![CDATA[No]]></MinimumAgeUsed><AgeCalculationRuleUsed Id="5"><![CDATA[0]]></AgeCalculationRuleUsed><FormulaRule Id="10"><![CDATA[1]]></FormulaRule><EligibilityRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWLIClaimRuleEngineWithCashValue) (Def Version:1) (Implem Version:1)
@@ -1263,7 +1275,7 @@ endProc
 
 procedure WFCalculate(inOut Result : Num8)
    ; cash account amount    
-   Result = self.Coverage__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Coverage__TabularCashValueAtDate(self.CurrentDate)
+   Result = self.Option__TotalCashValueAndTabularAtDate(self.CurrentDate) - self.Option__TabularCashValueAtDate(self.CurrentDate)
    ;
    if self.DeliveredService__RequiredWithdrawal < Result
       Result = self.DeliveredService__RequiredWithdrawal
@@ -1399,9 +1411,7 @@ uses WLITypes
 
 procedure WFCalculate(inOut Result : Boolean)
    if self.Endorsement__Is_Beneficiary_Change
-      if self.Recipient__Recipient_Kind = frkIrrevocableBeneficiary
-         Result = True
-      endIf
+      Result = tWLIFormRecipientKind(self.Recipient__Recipient_Kind) = frkIrrevocableBeneficiary
    endIf
 endProc 
 

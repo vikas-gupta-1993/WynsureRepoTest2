@@ -22,7 +22,7 @@ endFunc
 procedure WFCalculate(inOut Result : tWFAmount)
    ; The annual premium is based on the mortality table and the chosen coverage amount
    Result = 2.5 * (100 - self.MortalityTable(self.Subscriber__Age__At_Subscription))
-   Result = Result * self.Option__CoverageAmount / 1000
+   Result = Result * self.Coverage__CoverageAmount / 1000
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWLIClaimRuleEngineWithCashValue]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218118382]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWLIOfferedIndividualLifeCoverageWithCashValue]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWLIAnnualPremiumForCashValueBroker]]></RuleEngineUsingKindContext><ReturnType><aWFDefaultAmountType><Name>tWFAmount</Name><NSId>218103824</NSId><Id>936750148422205817</Id><ClassName>WFTypes</ClassName></aWFDefaultAmountType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>MortalityTable</Name><NSId>318768725</NSId><Id>79</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Integer><Name>Age</Name><NSId>318771176</NSId><Id>72</Id></aWFFieldDesc_Integer></Parameters><ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil\fcharset0 MS Sans Serif;}}
@@ -37,7 +37,7 @@ uses WFTypes
 
 
 procedure WFCalculate(inOut Result : tWFAmount)
-   Result = self.Option__PaidUpPremiumAmount + self.Option__AnnualPremiumAmount * 
+   Result = self.Option__PaidUpPremiumAmount + self.Coverage__CoverageAmount * 
       self.Option__AgeInYears * (1 - self.Option__SurrenderChargePercentage)
 endProc 
 
@@ -63,10 +63,10 @@ procedure WFCalculate(inOut Result : tWFNum8)
    elseif self.Option__CashValueStatus = cvReduction
       initialDate = self.Option__SubscriptionDate
       self.IncYears(8, initialDate)
-      Result = self.Option__CoverageAmountAtDate(self.CurrentDate - 1) * (self.CurrentDate - 
+      Result = self.Coverage__CoverageAmountAtDate(self.CurrentDate - 1) * (self.CurrentDate - 
          self.Option__SubscriptionDate) / (initialDate - self.Option__SubscriptionDate)
    elseif self.Option__CashValueStatus = cvPaidUpConversion
-      Result = self.Option__CoverageAmount
+      Result = self.Coverage__CoverageAmount
    endIf
 endProc 
 
