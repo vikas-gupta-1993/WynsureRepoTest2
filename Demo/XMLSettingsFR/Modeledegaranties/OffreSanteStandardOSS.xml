@@ -307,7 +307,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -330,11 +330,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          FMC)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          FMC)
    endIf
@@ -691,7 +691,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -714,11 +714,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          HOSPI)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          HOSPI)
    endIf
@@ -908,7 +908,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -931,11 +931,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          OPTI)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          OPTI)
    endIf
@@ -988,7 +988,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   Result = self.Sante__FR > 2500
+   Result = self.LigneActe__FR > 2500
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWHFR_RuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218190073]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWHFR_OfferedCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWHFR_BenefitBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIClaimRequestedDocumentRule><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[45]]></Id></aWLIClaimRequestedDocumentRule></MyOwner><Name Id="3"><![CDATA[Eligibilite]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[296]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RequiredConditionRule><PeriodicCheckingType Id="3"><![CDATA[0]]></PeriodicCheckingType><PeriodicCheckingDuration Id="8"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></PeriodicCheckingDuration><PeriodicCheckingAnnuallyAtDate Id="9"><![CDATA[--/--/----]]></PeriodicCheckingAnnuallyAtDate><Name Id="3"><![CDATA[Devis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[45]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIClaimRequestedDocumentRule></RequiredDocuments><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[169]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850535]]></NSId><Id Id="2"><![CDATA[267]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIRequiredDocumentsManagerForClaim></RequiredDocumentsManager><EffectiveDate Id="30"><![CDATA[18/10/2009]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Faux]]></AppliedToAllClassifications><SelectedSubscriberClassifications><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></SelectedSubscriberClassifications><ClassificationValues><aWLISubscriberClassificationValue><MyOwner><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></MyOwner><IsDefault Id="4"><![CDATA[Faux]]></IsDefault><Code Id="8"><![CDATA[ECO]]></Code><EffectiveDate Id="30"><![CDATA[--/--/----]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><Name Id="3"><![CDATA[Eco]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844572]]></NSId><Id Id="2"><![CDATA[3]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriberClassificationValue></ClassificationValues><AppliedToAllUSStates Id="43"><![CDATA[Vrai]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><IsStateDefinitionOverridden Id="79"><![CDATA[Faux]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[42205591520]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[169]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_BenefitBroker></Brokers><Brokers><aWHFR_BenefitBroker><SimpleBenefitCalculation><aWHFR_SimpleBenefitCalculation><ReimbursmentType><aWHFR_ReimbursementCalculation><PercentageDefinition Id="7"><![CDATA[9]]></PercentageDefinition><DefinitionType Id="9"><![CDATA[1]]></DefinitionType><FlatCalculation Id="2"><![CDATA[0,00]]></FlatCalculation><CalculationKind Id="3"><![CDATA[Taux]]></CalculationKind><PercentageCalculation Id="4"><![CDATA[395,00%]]></PercentageCalculation><BasedOnQuantity Id="15"><![CDATA[Faux]]></BasedOnQuantity><ReducedByLegalReimbursement Id="18"><![CDATA[Vrai]]></ReducedByLegalReimbursement><MyOwner><aWHFR_SimpleBenefitCalculation><NSId Id="1"><![CDATA[318853330]]></NSId><Id Id="2"><![CDATA[185]]></Id></aWHFR_SimpleBenefitCalculation></MyOwner><Name Id="3"><![CDATA[395% de BR - Part RO]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853368]]></NSId><Id Id="2"><![CDATA[185]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_ReimbursementCalculation></ReimbursmentType><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[170]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[Définition simple du remboursement pour 42205591520]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853330]]></NSId><Id Id="2"><![CDATA[185]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_SimpleBenefitCalculation></SimpleBenefitCalculation><MyOwner><aWHFR_BenefitMultiBroker><NSId Id="1"><![CDATA[318853325]]></NSId><Id Id="2"><![CDATA[76]]></Id></aWHFR_BenefitMultiBroker></MyOwner><BenefitCalculationType Id="21"><![CDATA[0]]></BenefitCalculationType><RoundingRuleForBenefitCalculation><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[0]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[Faux]]></UseSpecificRoundingRule><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[170]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838647]]></NSId><Id Id="2"><![CDATA[657]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRuleForBenefitCalculation><BenefitCalculationText Id="22"><![CDATA[]]></BenefitCalculationText><TaxesDefinitionType Id="49"><![CDATA[0]]></TaxesDefinitionType><UseTaxesCalculationDate Id="60"><![CDATA[Faux]]></UseTaxesCalculationDate><TaxesText Id="52"><![CDATA[]]></TaxesText><DisplayTableInSummary Id="62"><![CDATA[Faux]]></DisplayTableInSummary><RequiredDocumentsManager><aWLIRequiredDocumentsManagerForClaim><RequiredDocuments><aWLIClaimRequestedDocumentRule><MyOwner><aWLIRequiredDocumentsManagerForClaim><NSId Id="1"><![CDATA[318850535]]></NSId><Id Id="2"><![CDATA[268]]></Id></aWLIRequiredDocumentsManagerForClaim></MyOwner><RequestSentTo Id="7"><![CDATA[2]]></RequestSentTo><InvolvedActorsFilter Id="8"><![CDATA[Assuré,Déclarant,Bénéficiaire,Expert,Recouvrement,Tiers]]></InvolvedActorsFilter><BlockingType Id="21"><![CDATA[0]]></BlockingType><Document><aWFDocumentDesc><Code Id="1"><![CDATA[DEVIS]]></Code><Description Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
@@ -999,7 +999,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   Result = self.Sante__FR > 2500
+   Result = self.LigneActe__FR > 2500
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWHFR_RuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218190073]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWHFR_OfferedCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWHFR_BenefitBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIClaimRequestedDocumentRule><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[46]]></Id></aWLIClaimRequestedDocumentRule></MyOwner><Name Id="3"><![CDATA[Eligibilite]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[297]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RequiredConditionRule><PeriodicCheckingType Id="3"><![CDATA[0]]></PeriodicCheckingType><PeriodicCheckingDuration Id="8"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></PeriodicCheckingDuration><PeriodicCheckingAnnuallyAtDate Id="9"><![CDATA[--/--/----]]></PeriodicCheckingAnnuallyAtDate><Name Id="3"><![CDATA[Devis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[46]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIClaimRequestedDocumentRule></RequiredDocuments><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[170]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850535]]></NSId><Id Id="2"><![CDATA[268]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIRequiredDocumentsManagerForClaim></RequiredDocumentsManager><EffectiveDate Id="30"><![CDATA[18/10/2009]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Faux]]></AppliedToAllClassifications><SelectedSubscriberClassifications><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></SelectedSubscriberClassifications><ClassificationValues><aWLISubscriberClassificationValue><MyOwner><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></MyOwner><IsDefault Id="4"><![CDATA[Faux]]></IsDefault><Code Id="8"><![CDATA[PREMIUM]]></Code><EffectiveDate Id="30"><![CDATA[--/--/----]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><Name Id="3"><![CDATA[Premium]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844572]]></NSId><Id Id="2"><![CDATA[4]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriberClassificationValue></ClassificationValues><AppliedToAllUSStates Id="43"><![CDATA[Vrai]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><IsStateDefinitionOverridden Id="79"><![CDATA[Faux]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[42205591520]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[170]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_BenefitBroker></Brokers><Brokers><aWHFR_BenefitBroker><SimpleBenefitCalculation><aWHFR_SimpleBenefitCalculation><ReimbursmentType><aWHFR_ReimbursementCalculation><PercentageDefinition Id="7"><![CDATA[9]]></PercentageDefinition><DefinitionType Id="9"><![CDATA[1]]></DefinitionType><FlatCalculation Id="2"><![CDATA[0,00]]></FlatCalculation><CalculationKind Id="3"><![CDATA[Taux]]></CalculationKind><PercentageCalculation Id="4"><![CDATA[125,00%]]></PercentageCalculation><BasedOnQuantity Id="15"><![CDATA[Faux]]></BasedOnQuantity><ReducedByLegalReimbursement Id="18"><![CDATA[Vrai]]></ReducedByLegalReimbursement><MyOwner><aWHFR_SimpleBenefitCalculation><NSId Id="1"><![CDATA[318853330]]></NSId><Id Id="2"><![CDATA[186]]></Id></aWHFR_SimpleBenefitCalculation></MyOwner><Name Id="3"><![CDATA[125% de BR - Part RO]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853368]]></NSId><Id Id="2"><![CDATA[186]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_ReimbursementCalculation></ReimbursmentType><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[171]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[Définition simple du remboursement pour 42205591520]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853330]]></NSId><Id Id="2"><![CDATA[186]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_SimpleBenefitCalculation></SimpleBenefitCalculation><MyOwner><aWHFR_BenefitMultiBroker><NSId Id="1"><![CDATA[318853325]]></NSId><Id Id="2"><![CDATA[76]]></Id></aWHFR_BenefitMultiBroker></MyOwner><BenefitCalculationType Id="21"><![CDATA[0]]></BenefitCalculationType><RoundingRuleForBenefitCalculation><aWFRoundingRule><RoundingStrategy Id="2"><![CDATA[0]]></RoundingStrategy><RoundingPrecision Id="3"><![CDATA[0.01]]></RoundingPrecision><UseSpecificRoundingRule Id="6"><![CDATA[Faux]]></UseSpecificRoundingRule><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[171]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838647]]></NSId><Id Id="2"><![CDATA[658]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRoundingRule></RoundingRuleForBenefitCalculation><BenefitCalculationText Id="22"><![CDATA[100% TM + 25% BR = 125% BR - SS]]></BenefitCalculationText><TaxesDefinitionType Id="49"><![CDATA[0]]></TaxesDefinitionType><UseTaxesCalculationDate Id="60"><![CDATA[Faux]]></UseTaxesCalculationDate><TaxesText Id="52"><![CDATA[]]></TaxesText><DisplayTableInSummary Id="62"><![CDATA[Faux]]></DisplayTableInSummary><RequiredDocumentsManager><aWLIRequiredDocumentsManagerForClaim><RequiredDocuments><aWLIClaimRequestedDocumentRule><MyOwner><aWLIRequiredDocumentsManagerForClaim><NSId Id="1"><![CDATA[318850535]]></NSId><Id Id="2"><![CDATA[269]]></Id></aWLIRequiredDocumentsManagerForClaim></MyOwner><RequestSentTo Id="7"><![CDATA[2]]></RequestSentTo><InvolvedActorsFilter Id="8"><![CDATA[Assuré,Déclarant,Bénéficiaire,Expert,Recouvrement,Tiers]]></InvolvedActorsFilter><BlockingType Id="21"><![CDATA[0]]></BlockingType><Document><aWFDocumentDesc><Code Id="1"><![CDATA[DEVIS]]></Code><Description Id="2"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
@@ -1010,7 +1010,7 @@ endProc
 
 
 procedure WFCalculate(inOut Result : Boolean)
-   Result = self.Sante__FR > 2500
+   Result = self.LigneActe__FR > 2500
 endProc 
 
 ]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWHFR_RuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218190073]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[aWHFR_OfferedCoverage]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[aWHFR_BenefitBroker]]></RuleEngineUsingKindContext><ReturnType><aBooleanType><Name Id="2"><![CDATA[Boolean]]></Name><NSId Id="1"><![CDATA[3]]></NSId><Id Id="2"><![CDATA[1026]]></Id></aBooleanType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><MyOwner><aWLIClaimRequestedDocumentRule><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[47]]></Id></aWLIClaimRequestedDocumentRule></MyOwner><Name Id="3"><![CDATA[Eligibilite]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[298]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></RequiredConditionRule><PeriodicCheckingType Id="3"><![CDATA[0]]></PeriodicCheckingType><PeriodicCheckingDuration Id="8"><Quantity><![CDATA[0]]></Quantity><Unit><![CDATA[0]]></Unit></PeriodicCheckingDuration><PeriodicCheckingAnnuallyAtDate Id="9"><![CDATA[--/--/----]]></PeriodicCheckingAnnuallyAtDate><Name Id="3"><![CDATA[Devis]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850534]]></NSId><Id Id="2"><![CDATA[47]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIClaimRequestedDocumentRule></RequiredDocuments><MyOwner><aWHFR_BenefitBroker><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[171]]></Id></aWHFR_BenefitBroker></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318850535]]></NSId><Id Id="2"><![CDATA[269]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLIRequiredDocumentsManagerForClaim></RequiredDocumentsManager><EffectiveDate Id="30"><![CDATA[18/10/2009]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><AppliedToAllClassifications Id="7"><![CDATA[Faux]]></AppliedToAllClassifications><SelectedSubscriberClassifications><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></SelectedSubscriberClassifications><ClassificationValues><aWLISubscriberClassificationValue><MyOwner><aWLISubscriptionClassification><ClassificationValues><aWLISubscriberClassificationValue><Name>Eco</Name><NSId>318844572</NSId><Id>3</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Premium</Name><NSId>318844572</NSId><Id>4</Id></aWLISubscriberClassificationValue></ClassificationValues><ClassificationValues><aWLISubscriberClassificationValue><Name>Panier de soins</Name><NSId>318844572</NSId><Id>5</Id></aWLISubscriberClassificationValue></ClassificationValues><DefaultValueName Id="19"><![CDATA[]]></DefaultValueName><IsBooleanClassification Id="22"><![CDATA[Faux]]></IsBooleanClassification><DisableIntermediateValues Id="62"><![CDATA[Faux]]></DisableIntermediateValues><Description Id="27"><![CDATA[]]></Description><Code Id="28"><![CDATA[NIV_COUV]]></Code><TechnicalCode Id="80"><![CDATA[]]></TechnicalCode><WithHierarchy Id="42"><![CDATA[Faux]]></WithHierarchy><Name Id="3"><![CDATA[Niveau de couverture]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844328]]></NSId><Id Id="2"><![CDATA[2]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriptionClassification></MyOwner><IsDefault Id="4"><![CDATA[Faux]]></IsDefault><Code Id="8"><![CDATA[PANIERSOINS]]></Code><EffectiveDate Id="30"><![CDATA[--/--/----]]></EffectiveDate><EndDate Id="31"><![CDATA[--/--/----]]></EndDate><Name Id="3"><![CDATA[Panier de soins]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318844572]]></NSId><Id Id="2"><![CDATA[5]]></Id><Version Id="3"><![CDATA[1]]></Version></aWLISubscriberClassificationValue></ClassificationValues><AppliedToAllUSStates Id="43"><![CDATA[Vrai]]></AppliedToAllUSStates><USStates Id="44"><![CDATA[]]></USStates><IsStateDefinitionOverridden Id="79"><![CDATA[Faux]]></IsStateDefinitionOverridden><OverriddenStateDefinition Id="78"><![CDATA[0]]></OverriddenStateDefinition><Name Id="3"><![CDATA[42205591520]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853335]]></NSId><Id Id="2"><![CDATA[171]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_BenefitBroker></Brokers><ProceduresAndFamilies><aWHFR_RegisteredProcedureDefinition><LibelleAvisAssure Id="22"><![CDATA[]]></LibelleAvisAssure><Code Id="3"><![CDATA[PAM]]></Code><ProcedureFamily><aWH_ProcedureFamily><Name>Dentaire</Name><NSId>318852787</NSId><Id>6</Id></aWH_ProcedureFamily></ProcedureFamily><LossDescs><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></LossDescs><DefaultLossDesc><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></DefaultLossDesc><Name Id="3"><![CDATA[Prothèses amovibles définitives métallique]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853376]]></NSId><Id Id="2"><![CDATA[366]]></Id><Version Id="3"><![CDATA[2]]></Version></aWHFR_RegisteredProcedureDefinition></ProceduresAndFamilies><ProceduresAndFamilies><aWHFR_RegisteredProcedureDefinition><LibelleAvisAssure Id="22"><![CDATA[]]></LibelleAvisAssure><Code Id="3"><![CDATA[PDT]]></Code><ProcedureFamily><aWH_ProcedureFamily><Name>Dentaire</Name><NSId>318852787</NSId><Id>6</Id></aWH_ProcedureFamily></ProcedureFamily><LossDescs><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></LossDescs><DefaultLossDesc><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></DefaultLossDesc><Name Id="3"><![CDATA[Prothèses dentaires provisoires]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853376]]></NSId><Id Id="2"><![CDATA[360]]></Id><Version Id="3"><![CDATA[2]]></Version></aWHFR_RegisteredProcedureDefinition></ProceduresAndFamilies><ProceduresAndFamilies><aWHFR_RegisteredProcedureDefinition><LibelleAvisAssure Id="22"><![CDATA[]]></LibelleAvisAssure><Code Id="3"><![CDATA[PEX]]></Code><ProcedureFamily><aWH_ProcedureFamily><Name>Appareillage et audioprothèse</Name><NSId>318852787</NSId><Id>4</Id></aWH_ProcedureFamily></ProcedureFamily><LossDescs><aWH_LossDesc><Name>Soins de ville</Name><NSId>318853149</NSId><Id>6</Id></aWH_LossDesc></LossDescs><DefaultLossDesc><aWH_LossDesc><Name>Soins de ville</Name><NSId>318853149</NSId><Id>6</Id></aWH_LossDesc></DefaultLossDesc><Name Id="3"><![CDATA[PROTHESE EXTERNE NON ORTHOPEDIQUE ]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853376]]></NSId><Id Id="2"><![CDATA[232]]></Id><Version Id="3"><![CDATA[2]]></Version></aWHFR_RegisteredProcedureDefinition></ProceduresAndFamilies><ProceduresAndFamilies><aWHFR_RegisteredProcedureDefinition><LibelleAvisAssure Id="22"><![CDATA[]]></LibelleAvisAssure><Code Id="3"><![CDATA[PFC]]></Code><ProcedureFamily><aWH_ProcedureFamily><Name>Dentaire</Name><NSId>318852787</NSId><Id>6</Id></aWH_ProcedureFamily></ProcedureFamily><LossDescs><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></LossDescs><DefaultLossDesc><aWH_LossDesc><Name>Dentaire</Name><NSId>318853149</NSId><Id>2</Id></aWH_LossDesc></DefaultLossDesc><Name Id="3"><![CDATA[Prothèses Fixes Céramiques]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853376]]></NSId><Id Id="2"><![CDATA[364]]></Id><Version Id="3"><![CDATA[2]]></Version></aWHFR_RegisteredProcedureDefinition></ProceduresAndFamilies><MyOwner><aWHFR_Benefit><NSId Id="1"><![CDATA[318853331]]></NSId><Id Id="2"><![CDATA[76]]></Id></aWHFR_Benefit></MyOwner><Name Id="3"><![CDATA[]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318853325]]></NSId><Id Id="2"><![CDATA[76]]></Id><Version Id="3"><![CDATA[1]]></Version></aWHFR_BenefitMultiBroker></BenefitParameters><CanDeliverParameters><aWLIBenefitEligibilityMultiBroker><Brokers><aWLIBenefitEligibilityBroker><FormulaRule Id="10"><![CDATA[1]]></FormulaRule><EligibilityRule><aWFRuleDesc><RuleDescription Id="64"><![CDATA[Délai de prescription de deux ans]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWHFR_RuleEngine) (Def Version:3) (Implem Version:1)
@@ -1158,7 +1158,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1181,10 +1181,10 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          DENT)
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          DENT)
    endIf
@@ -1206,7 +1206,7 @@ procedure WFCalculate(inOut Result : Num8)
    
    Result = 0
    if not self.LigneActe__Conventionne
-      Result = 0.9 * self.LigneActe__FR - self.LigneActe__RSS
+      Result = 0.9 * self.LigneActe__FR - self.LigneActe__SS
       ;
       Plafond = 100 * self.LigneActe__Qte
       ;
@@ -1224,7 +1224,7 @@ procedure WFCalculate(inOut Result : Num8)
    
    Result = 0
    if not self.LigneActe__Conventionne
-      Result = 0.9 * self.LigneActe__FR - self.LigneActe__RSS
+      Result = 0.9 * self.LigneActe__FR - self.LigneActe__SS
       ;
       Plafond = 300 * self.LigneActe__Qte
       ;
@@ -1441,7 +1441,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1464,11 +1464,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          GC)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          GC)
    endIf
@@ -1720,7 +1720,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1743,11 +1743,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          R_FMC)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          R_FMC)
    endIf
@@ -1995,7 +1995,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -2018,11 +2018,11 @@ endFunc
 
 procedure WFCalculate(inOut Result : Num8)
    if self.ContratCollectif__TypeDeContrat = cMandatory
-      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSS_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          R_HOSPI)
    else
-      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSCF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          R_HOSPI)
    endIf

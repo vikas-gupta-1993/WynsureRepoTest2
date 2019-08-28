@@ -314,7 +314,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -336,7 +336,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, FMC, TU, I)
    ;
@@ -444,7 +444,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -493,7 +493,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, FMC, TD, Tarif)
    else
@@ -584,7 +584,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -627,7 +627,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       FMC, TT, I)
@@ -1030,7 +1030,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1052,7 +1052,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, HOSPI, TU, I)
 endProc 
@@ -1159,7 +1159,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1207,7 +1207,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, HOSPI, TD, Tarif)
    else
@@ -1297,7 +1297,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1340,7 +1340,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       HOSPI, TT, I)
@@ -1576,7 +1576,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1598,7 +1598,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, OPTI, TU, I)
 endProc 
@@ -1706,7 +1706,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1754,7 +1754,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, OPTI, TD, Tarif)
    else
@@ -1844,7 +1844,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -1887,7 +1887,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       OPTI, TT, I)
@@ -2198,7 +2198,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -2220,7 +2220,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, DENT, TU, I)
 endProc 
@@ -2327,7 +2327,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -2374,7 +2374,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, DENT, TD, Tarif)
    else
@@ -2465,7 +2465,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -2508,7 +2508,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       DENT, TT, I)
@@ -2828,7 +2828,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -2850,7 +2850,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, GC, TU, I)
 endProc 
@@ -2957,7 +2957,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -3004,7 +3004,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;    
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, GC, TD, Tarif)
    else
@@ -3095,7 +3095,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -3138,7 +3138,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       GC, TT, I)
@@ -3435,7 +3435,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -3457,7 +3457,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, R_FMC, TU, I)
 endProc 
@@ -3564,7 +3564,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -3608,7 +3608,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;    
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, R_FMC, TD, Tarif)
    else
@@ -3699,7 +3699,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -3742,7 +3742,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       R_FMC, TT, I)
@@ -4034,7 +4034,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -4056,7 +4056,7 @@ function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       False, R_HOSPI, TU, I)
 endProc 
@@ -4163,7 +4163,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -4207,7 +4207,7 @@ procedure WFCalculate(inOut Result : Num8)
    ;
    ;  
    if GarantieSouscrite
-      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+      Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
          self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
          False, R_HOSPI, TD, Tarif)
    else
@@ -4298,7 +4298,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-function TableIndexes__Employe__Categorie_D_Employe return tWFMemberCategory
+function TableIndexes__Employe__Categorie_Employe return tWFMemberCategory
    uses aWFRuleEditor, aWFDynamicEnumType
    
    var pvalue : tpCell
@@ -4341,7 +4341,7 @@ function TableIndexes__Personne_couverte__Relation_Avec_Souscripteur return tWLI
 endFunc 
 
 procedure WFCalculate(inOut Result : Num8)
-   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_D_Employe, 
+   Result = self.OSSF_CalculTauxCotisation(self.TableIndexes__Employe__Categorie_Employe, 
       self.TableIndexes__Beneficiairedel_ANI, self.Contrat__Classifications__Niveaudecouverture, 
       self.TableIndexes__Personne_couverte__Relation_Avec_Souscripteur = cCoveredChild, 
       R_HOSPI, TT, I)

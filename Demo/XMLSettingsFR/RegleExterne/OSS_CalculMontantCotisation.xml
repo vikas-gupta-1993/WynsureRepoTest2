@@ -19,20 +19,36 @@
 
 uses WFTypes, WFContract, aWFRuleDesc, aWFStandAloneRule
 
-type tWF___Categorieemploye : tWFMemberCategory
-type tWF_Generated_Beneficiairedel_ANI_318776651_1 : (EstBeneficiairedel_ANI, N_estpasBeneficiairedel_ANI)
-type tWF_Generated_Niveaudecouverture_318776651_24 : (Eco, Premium, Panierdesoins)
-type tWF___OSS_CodeGaranties : (FMC, HOSPI, OPTI, DENT, GC, R_FMC, R_HOSPI)
-type tWF___Categorie : tWFMemberCategory
+; Rule
+type tWF___Categorieemploye25 : tWFMemberCategory
+type tWF_Generated_Beneficiairedel_ANI_318844328_1 : (
+   [model(Text:'EstBeneficiairedel_ANI')] EstBeneficiairedel_ANI, 
+   [model(Text:'N_estpasBeneficiairedel_ANI')] N_estpasBeneficiairedel_ANI
+)
+type tWF_Generated_Niveaudecouverture_318844328_2 : (
+   [model(Text:'Eco')] Eco, 
+   [model(Text:'Premium')] Premium, 
+   [model(Text:'Panierdesoins')] Panierdesoins
+)
+type tWF___OSS_CodeGaranties1 : (
+   [model(Text:'FMC')] FMC, 
+   [model(Text:'HOSPI')] HOSPI, 
+   [model(Text:'OPTI')] OPTI, 
+   [model(Text:'DENT')] DENT, 
+   [model(Text:'GC')] GC, 
+   [model(Text:'R_FMC')] R_FMC, 
+   [model(Text:'R_HOSPI')] R_HOSPI
+)
+type tWF___Categorie21 : tWFMemberCategory
 
-Categorieemploye : tWF___Categorieemploye
-estANI : tWF_Generated_Beneficiairedel_ANI_318776651_1
-Niveaudecouverture : tWF_Generated_Niveaudecouverture_318776651_24
-OSS_CodeGaranties : tWF___OSS_CodeGaranties
+Categorieemploye : tWF___Categorieemploye25
+estANI : tWF_Generated_Beneficiairedel_ANI_318844328_1
+Niveaudecouverture : tWF_Generated_Niveaudecouverture_318844328_2
+OSS_CodeGaranties : tWF___OSS_CodeGaranties1
 
 
-function OSS_TauxCotisation(Niveaudecouverture : tWF_Generated_Niveaudecouverture_318776651_24, 
-   Categorie : tWF___Categorie, OSS_CodeGaranties : tWF___OSS_CodeGaranties) return tWFPercent
+function OSS_TauxCotisation(Niveaudecouverture : tWF_Generated_Niveaudecouverture_318844328_2, 
+   Categorie : tWF___Categorie21, OSS_CodeGaranties : tWF___OSS_CodeGaranties1) return tWFPercent
    var tmpRule : aWFRuleDesc
    
    tmpRule = self.GetExactRuleToExecuteFromRankInRuleDesc(0, self.Date_Du_Calcul)
@@ -47,13 +63,17 @@ function OSS_TauxCotisation(Niveaudecouverture : tWF_Generated_Niveaudecouvertur
    endIf
 endFunc 
 
+; Classification
+; FieldDesc
+; VarDesc
+; Indexes Of TableDesc
 procedure WFCalculate(inOut Result : tWFNum8)
-   Result = 0
-   ;
+   var TheI : Num8
+   
    if self.estANI = N_estpasBeneficiairedel_ANI
+      TheI = self.Indice('Plafond mensuel de la sécurité sociale', self.Date_Du_Calcul)
       Result = self.OSS_TauxCotisation(self.Niveaudecouverture, self.Categorieemploye, 
-         self.OSS_CodeGaranties) * self.Index('Plafond mensuel de la sécurité sociale', 
-         self.Date_Du_Calcul)
+         self.OSS_CodeGaranties) * TheI
    endIf
 endProc 
 

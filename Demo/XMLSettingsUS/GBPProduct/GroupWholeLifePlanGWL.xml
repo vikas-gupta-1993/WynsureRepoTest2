@@ -11,7 +11,7 @@ procedure WFCalculate(inOut Result : tWFNum8)
       if self.Option__CashValueStatus = cvInsidePUA
          Result = self.Option__PaidUpPremiumAmount * (self.Coverage__AgeInYears - self.Option__AgeInYearAtCoverageAmountEffectiveDate)
       else
-         Result = self.Coverage__CoverageAmount * self.Coverage__AgeInYears * 0.9
+         Result = self.Option__AnnualPremiumAmount * self.Coverage__AgeInYears * 0.9
       endIf
    endIf
 endProc 

@@ -2726,7 +2726,7 @@ procedure WFCalculate(inOut Result : tWFPercent)
       ; la taxe s'applique en fonction du département fiscal
       departement = self.Personne_couverte__DepartementFiscal
       if departement = ''
-         self.AppendError('DDO', '')
+         self.AjouterErreur('DDO', '')
       elseif (departement = '973') or (departement = '976')
          if self.ServiceDelivre__Ajout_taxe('Taux Imposition_GuyaneMayotte')
          endIf
@@ -5671,7 +5671,7 @@ procedure WFCalculate(inOut Result : tWFPercent)
       ; la taxe s'applique en fonction du département fiscal
       departement = self.Personne_couverte__DepartementFiscal
       if departement = ''
-         self.AppendError('DDO', '')
+         self.AjouterErreur('DDO', '')
       elseif (departement = '973') or (departement = '976')
          if self.ServiceDelivre__Ajout_taxe('Taux Imposition_GuyaneMayotte')
          endIf

@@ -14,7 +14,7 @@ uses aWF_PersonPortabilityRequest, aSF_Manage_LogOn, aEDA_Raise_ExternalEvent, a
    aSLI_Manage_Broker, aSCV_Subscribe_CashValuePolicy, aSLI_Subscribe_CommissionContract, 
    aSPnC_Consult_Claim, aSPnC_Manage_Claim, aSCB_Manage_ConversionSystems, aSLI_Manage_Disbursement, 
    aSHFR_ManageClaim, aSHFR_Consult_Claim, aSHFR_ManageNoemieRetour, aSHFR_UpdateThirdPartyOperation, 
-   aSF_ManageProcesses, aSF_Manage_Transactions, aSLIFR_Manage_SetPersonOverriddenTaxRate, 
+   aSF_ManageProcesses, aSF_Manage_Transactions, aSLIFR_Manage_SetPASRAUTaxRate, 
    aSLI_Manage_Note, aSLI_Manage_ServiceProvider, aSCV_Consult_CashValuePolicy, aSCV_Endorse_Policy, 
    aSLI_Endorse_LifePolicy, aSLI_Consult_CommissionContract, aSLI_Manage_GBPQuote, 
    aSLI_Manage_GenericCensusLoad, aSLI_Manage_Report, aSLO_Consult_LoanPolicy, aSLO_Subscribe_LoanPolicy, 
@@ -204,7 +204,7 @@ function aSF_Manage_Transactions return aSF_Manage_Transactions
    _Result = self.GetBSForClassDef(218196298)
 endFunc 
 
-function aSLIFR_Manage_SetPersonOverriddenTaxRate return aSLIFR_Manage_SetPersonOverriddenTaxRate
+function aSLIFR_Manage_SetPASRAUTaxRate return aSLIFR_Manage_SetPASRAUTaxRate
    _Result = self.GetBSForClassDef(218189469)
 endFunc 
 
