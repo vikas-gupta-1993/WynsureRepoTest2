@@ -2,7 +2,7 @@
 setlocal
 ::Add your git.exe path here (e.g. d:\developpement\tools\git\bin), OR put git.exe path to your PATH
 set GITPATH=
-call "%~dp0ewam set env.bat"
+CALL :CALLEWAMSETENV
 
 if "%~1"=="/nopause" (
    shift 
@@ -175,6 +175,11 @@ del "%WF-tmp%"\W004001.TGV "%WF-tmp%"\#####AntiSharedFile.tmp
 ECHO #INFO# Cleaning local copy ref base finished
 ECHO --------------------------------
 echo.
+GOTO :EOF
+
+:CALLEWAMSETENV
+IF EXIST "%~dp0ewam set env.bat" CALL "%~dp0ewam set env.bat"
+IF NOT EXIST "%~dp0ewam set env.bat" IF EXIST "%ENV-ROOT%\ewam set env.bat" CALL "%ENV-ROOT%\ewam set env.bat"
 GOTO :EOF
 
 ::An error occured
