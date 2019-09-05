@@ -1,151 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"  ?>
-<EntityExport>
-  <aWFStandAloneRule>
-    <Parameters>
-      <aWFFieldDesc_Integer>
-        <MinInt Id="1"><![CDATA[0]]></MinInt>
-        <MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt>
-        <DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger>
-        <Description Id="1"><![CDATA[]]></Description>
-        <Comment Id="2">
-          <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs16\par
-}
-]]>
-        </Comment>
-        <UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue>
-        <Code Id="23"><![CDATA[N]]></Code>
-        <UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Number of Apartment Units]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318771174]]></NSId>
-        <Id Id="2"><![CDATA[92]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFFieldDesc_Integer>
-    </Parameters>
-    <Parameters>
-      <aWFFieldDesc_Amount>
-        <DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount>
-        <Description Id="1"><![CDATA[]]></Description>
-        <Comment Id="2">
-          <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs16\par
-}
-]]>
-        </Comment>
-        <UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue>
-        <Code Id="23"><![CDATA[L]]></Code>
-        <UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Limit]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318771184]]></NSId>
-        <Id Id="2"><![CDATA[23]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFFieldDesc_Amount>
-    </Parameters>
-    <Parameters>
-      <aWFFieldDesc_Integer>
-        <MinInt Id="1"><![CDATA[0]]></MinInt>
-        <MaxInt Id="2"><![CDATA[999999999999999999]]></MaxInt>
-        <DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger>
-        <Description Id="1"><![CDATA[]]></Description>
-        <Comment Id="2">
-          <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs16\par
-}
-]]>
-        </Comment>
-        <UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue>
-        <Code Id="23"><![CDATA[A]]></Code>
-        <UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Building Age]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318771174]]></NSId>
-        <Id Id="2"><![CDATA[93]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFFieldDesc_Integer>
-    </Parameters>
-    <Parameters>
-      <aWFFieldDesc_Amount>
-        <DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount>
-        <Description Id="1"><![CDATA[]]></Description>
-        <Comment Id="2">
-          <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs16\par
-}
-]]>
-        </Comment>
-        <UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue>
-        <Code Id="23"><![CDATA[AL]]></Code>
-        <UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Aggregate Limit]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318771184]]></NSId>
-        <Id Id="2"><![CDATA[24]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFFieldDesc_Amount>
-    </Parameters>
-    <Parameters>
-      <aWFFieldDesc_Amount>
-        <DefaultValueAmount Id="1"><![CDATA[$0.00]]></DefaultValueAmount>
-        <Description Id="1"><![CDATA[]]></Description>
-        <Comment Id="2">
-          <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
-{\colortbl ;\red0\green0\blue0;}
-\viewkind4\uc1\pard\cf1\f0\fs16\par
-}
-]]>
-        </Comment>
-        <UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue>
-        <Code Id="23"><![CDATA[D]]></Code>
-        <UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Deductible]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318771184]]></NSId>
-        <Id Id="2"><![CDATA[25]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFFieldDesc_Amount>
-    </Parameters>
-    <ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType>
-    <Rules>
-      <aWFRuleDesc>
-        <RuleDescription Id="64"><![CDATA[]]></RuleDescription>
-        <RuleText Id="20">
-          <![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:2) (Implem Version:1)
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<EntityExport><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[99999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[N]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Number of Apartment Units]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838218]]></NSId><Id Id="2"><![CDATA[118]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[L]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Limit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838228]]></NSId><Id Id="2"><![CDATA[83]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Integer><MinInt Id="1"><![CDATA[0]]></MinInt><MaxInt Id="2"><![CDATA[99999999999999]]></MaxInt><DefaultValueInteger Id="3"><![CDATA[0]]></DefaultValueInteger><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[A]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Building Age]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838218]]></NSId><Id Id="2"><![CDATA[119]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[AL]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Aggregate Limit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838228]]></NSId><Id Id="2"><![CDATA[84]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Amount><DefaultValueAmount Id="1"><![CDATA[0.00]]></DefaultValueAmount><Description Id="1"><![CDATA[]]></Description><Comment Id="2"><![CDATA[]]></Comment><UseDefaultValue Id="3"><![CDATA[No]]></UseDefaultValue><Code Id="23"><![CDATA[D]]></Code><UseMandatoryRule Id="26"><![CDATA[No]]></UseMandatoryRule><CalculatedValue Id="35"><![CDATA[No]]></CalculatedValue><AllowCalculationOverride Id="50"><![CDATA[No]]></AllowCalculationOverride><TechnicalCode Id="68"><![CDATA[]]></TechnicalCode><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Deductible]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318838228]]></NSId><Id Id="2"><![CDATA[85]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><RuleDescription Id="64"><![CDATA[]]></RuleDescription><RuleText Id="20"><![CDATA[; aWF_RT_Formule (aWFStandAloneRuleEngine) (Def Version:1) (Implem Version:1)
+
+class aWF_RT_Formule (aWFStandAloneRuleEngine)
 
 uses WFTypes, aWFRuleDesc, aWFStandAloneRule
 
@@ -202,7 +58,7 @@ endFunc
 ; FieldDesc
 ; VarDesc
 ; Indexes Of TableDesc
-procedure WFCalculate(inOut Result : Num8)
+procedure WFCalculate(inOut Result : tWFNum8)
    Result = 50 * self.NumberofApartmentUnits
    Result = Result * self.ApartmentBuilding_PremisesLiabilityCoverage_LimitFactor(self.Limit, 
       self.AggregateLimit)
@@ -213,157 +69,20 @@ procedure WFCalculate(inOut Result : Num8)
    endIf
 endProc 
 
-]]>
-        </RuleText>
-        <RuleEngineClassDef>
-          <aClassDef>
-            <Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name>
-            <NSId Id="1"><![CDATA[218103810]]></NSId>
-            <Id Id="2"><![CDATA[218107183]]></Id>
-          </aClassDef>
-        </RuleEngineClassDef>
-        <RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext>
-        <RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext>
-        <ReturnType>
-          <aNumType>
-            <Name Id="2"><![CDATA[Num8]]></Name>
-            <NSId Id="1"><![CDATA[3]]></NSId>
-            <Id Id="2"><![CDATA[1035]]></Id>
-          </aNumType>
-        </ReturnType>
-        <FromDate Id="77"><![CDATA[--/--/----]]></FromDate>
-        <ToDate Id="78"><![CDATA[--/--/----]]></ToDate>
-        <UsedRules>
-          <aWFStandAloneTable>
-            <Rules>
-              <aWFTableDesc>
-                <Name>Apartment Building - Premises Liability Coverage - ILF</Name>
-                <NSId>318768723</NSId>
-                <Id>10</Id>
-              </aWFTableDesc>
-            </Rules>
-            <Parameters>
-              <aWFFieldDesc_Amount>
-                <Name>Limit</Name>
-                <NSId>318771184</NSId>
-                <Id>7</Id>
-              </aWFFieldDesc_Amount>
-            </Parameters>
-            <Parameters>
-              <aWFFieldDesc_Amount>
-                <Name>Aggregate Limit</Name>
-                <NSId>318771184</NSId>
-                <Id>8</Id>
-              </aWFFieldDesc_Amount>
-            </Parameters>
-            <ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType>
-            <Comment Id="5">
-              <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
+]]></RuleText><RuleEngineClassDef><aClassDef><Name Id="2"><![CDATA[aWFStandAloneRuleEngine]]></Name><NSId Id="1"><![CDATA[218103810]]></NSId><Id Id="2"><![CDATA[218174227]]></Id></aClassDef></RuleEngineClassDef><RuleEngineUsingObjectContext Id="44"><![CDATA[]]></RuleEngineUsingObjectContext><RuleEngineUsingKindContext Id="45"><![CDATA[]]></RuleEngineUsingKindContext><ReturnType><aWFNumberType><Name>tWFNum8</Name><NSId>218103824</NSId><Id>937033268371391099</Id><ClassName>WFTypes</ClassName></aWFNumberType></ReturnType><FromDate Id="77"><![CDATA[--/--/----]]></FromDate><ToDate Id="78"><![CDATA[--/--/----]]></ToDate><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Apartment Building - Premises Liability Coverage - ILF</Name><NSId>318835767</NSId><Id>7</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Amount><Name>Limit</Name><NSId>318838228</NSId><Id>25</Id></aWFFieldDesc_Amount></Parameters><Parameters><aWFFieldDesc_Amount><Name>Aggregate Limit</Name><NSId>318838228</NSId><Id>26</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]>
-            </Comment>
-            <Name Id="3"><![CDATA[Apartment Building - Premises Liability Coverage - Limit Factor]]></Name>
-            <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-            <NSId Id="1"><![CDATA[318770480]]></NSId>
-            <Id Id="2"><![CDATA[10]]></Id>
-            <Version Id="3"><![CDATA[1]]></Version>
-          </aWFStandAloneTable>
-        </UsedRules>
-        <UsedRules>
-          <aWFStandAloneTable>
-            <Rules>
-              <aWFTableDesc>
-                <Name>Apartment Building - Premises Liability - Deductible Factor</Name>
-                <NSId>318768723</NSId>
-                <Id>11</Id>
-              </aWFTableDesc>
-            </Rules>
-            <Parameters>
-              <aWFFieldDesc_Amount>
-                <Name>Deductible</Name>
-                <NSId>318771184</NSId>
-                <Id>9</Id>
-              </aWFFieldDesc_Amount>
-            </Parameters>
-            <ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType>
-            <Comment Id="5">
-              <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building - Premises Liability Coverage - Limit Factor]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837524]]></NSId><Id Id="2"><![CDATA[7]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneTable><Rules><aWFTableDesc><Name>Apartment Building - Premises Liability - Deductible Factor</Name><NSId>318835767</NSId><Id>8</Id></aWFTableDesc></Rules><Parameters><aWFFieldDesc_Amount><Name>Deductible</Name><NSId>318838228</NSId><Id>27</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]>
-            </Comment>
-            <Name Id="3"><![CDATA[Apartment Building - Premises Liability - Deductible Factor]]></Name>
-            <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-            <NSId Id="1"><![CDATA[318770480]]></NSId>
-            <Id Id="2"><![CDATA[11]]></Id>
-            <Version Id="3"><![CDATA[1]]></Version>
-          </aWFStandAloneTable>
-        </UsedRules>
-        <UsedRules>
-          <aWFStandAloneRule>
-            <Parameters>
-              <aWFFieldDesc_Integer>
-                <Name>Building Age</Name>
-                <NSId>318771174</NSId>
-                <Id>97</Id>
-              </aWFFieldDesc_Integer>
-            </Parameters>
-            <Parameters>
-              <aWFFieldDesc_Amount>
-                <Name>Given Premium</Name>
-                <NSId>318771184</NSId>
-                <Id>31</Id>
-              </aWFFieldDesc_Amount>
-            </Parameters>
-            <ReturnType Id="2"><![CDATA[Numeric value]]></ReturnType>
-            <Rules>
-              <aWFRuleDesc>
-                <Name>Apartment Building-Building Age Credit</Name>
-                <NSId>318768706</NSId>
-                <Id>13</Id>
-              </aWFRuleDesc>
-            </Rules>
-            <Comment Id="5">
-              <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building - Premises Liability - Deductible Factor]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837524]]></NSId><Id Id="2"><![CDATA[8]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneTable></UsedRules><UsedRules><aWFStandAloneRule><Parameters><aWFFieldDesc_Integer><Name>Building Age</Name><NSId>318838218</NSId><Id>68</Id></aWFFieldDesc_Integer></Parameters><Parameters><aWFFieldDesc_Amount><Name>Given Premium</Name><NSId>318838228</NSId><Id>49</Id></aWFFieldDesc_Amount></Parameters><ReturnType Id="2"><![CDATA[1]]></ReturnType><Rules><aWFRuleDesc><Name>Apartment Building-Building Age Credit</Name><NSId>318835750</NSId><Id>16</Id></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]>
-            </Comment>
-            <Name Id="3"><![CDATA[Apartment Building-Building Age Credit]]></Name>
-            <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[13]]></Id>
-            <Version Id="3"><![CDATA[2]]></Version>
-          </aWFStandAloneRule>
-        </UsedRules>
-        <MyOwner>
-          <aWFStandAloneRule>
-            <NSId Id="1"><![CDATA[318770476]]></NSId>
-            <Id Id="2"><![CDATA[9]]></Id>
-          </aWFStandAloneRule>
-        </MyOwner>
-        <Name Id="3"><![CDATA[Apartment Building-Premium Premises Liability Coverage]]></Name>
-        <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-        <NSId Id="1"><![CDATA[318768706]]></NSId>
-        <Id Id="2"><![CDATA[9]]></Id>
-        <Version Id="3"><![CDATA[2]]></Version>
-      </aWFRuleDesc>
-    </Rules>
-    <Comment Id="5">
-      <![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fnil MS Sans Serif;}}
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Building Age Credit]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[14]]></Id><Version Id="3"><![CDATA[2]]></Version></aWFStandAloneRule></UsedRules><MyOwner><aWFStandAloneRule><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id></aWFStandAloneRule></MyOwner><Name Id="3"><![CDATA[Apartment Building-Premium Premises Liability Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318835750]]></NSId><Id Id="2"><![CDATA[1577]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFRuleDesc></Rules><Comment Id="5"><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil MS Sans Serif;}}
 {\colortbl ;\red0\green0\blue0;}
 \viewkind4\uc1\pard\cf1\f0\fs16\par
 }
-]]>
-    </Comment>
-    <Name Id="3"><![CDATA[Apartment Building-Premium Premises Liability Coverage]]></Name>
-    <MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate>
-    <NSId Id="1"><![CDATA[318770476]]></NSId>
-    <Id Id="2"><![CDATA[9]]></Id>
-    <Version Id="3"><![CDATA[2]]></Version>
-  </aWFStandAloneRule>
-</EntityExport>
+]]></Comment><Name Id="3"><![CDATA[Apartment Building-Premium Premises Liability Coverage]]></Name><MigrationDate Id="15"><![CDATA[--/--/----]]></MigrationDate><NSId Id="1"><![CDATA[318837520]]></NSId><Id Id="2"><![CDATA[26]]></Id><Version Id="3"><![CDATA[1]]></Version></aWFStandAloneRule></EntityExport>
