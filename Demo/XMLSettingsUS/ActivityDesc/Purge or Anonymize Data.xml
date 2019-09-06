@@ -16,7 +16,7 @@ uses aWF_PersonAnonymizationRequest, aSF_Manage_LogOn, aSF_ManageObject, aSF_Man
    aSLI_Manage_MVR, aSLI_Manage_Disbursement, aSLI_Manage_GenericCensusLoad, aSLI_Manage_Note, 
    aSLI_Manage_ServiceProvider, aSLI_Manage_PortabilityRequest, aSLIC_Consult_LifeClaim, 
    aSLIC_Manage_Claim, aSLIC_Consult_Claim, aSLIC_Manage_LifeClaim, aSLI_FR_Manage_DSN, 
-   aSLI_FR_Manage_DSN_TO_BE_DELETED, aSLI_FR_ManageBill_DSN, aSLIFR_Manage_SetPersonOverriddenTaxRate, 
+   aSLI_FR_ManageBill_DSN, aSLIFR_Manage_SetPASRAUTaxRate, 
    aSPnC_Endorse_PnCPolicy, aSPnC_Subscribe_PnCPolicy, aSPnC_Consult_PnCPolicy, aSPnC_Consult_Claim, 
    aSPnC_Manage_Claim, aSH_ManageClaim, aSLO_Subscribe_LoanPolicy, aSLO_Consult_LoanPolicy, 
    aSLO_Endorse_LoanPolicy, aSHFR_ManageClaim, aSHFR_ManageNoemieRetour, aSHFR_Consult_Claim, 
@@ -227,15 +227,11 @@ function aSLI_FR_Manage_DSN return aSLI_FR_Manage_DSN
    _Result = self.GetBSForClassDef(218189356)
 endFunc 
 
-function aSLI_FR_Manage_DSN_TO_BE_DELETED return aSLI_FR_Manage_DSN_TO_BE_DELETED
-   _Result = self.GetBSForClassDef(218189359)
-endFunc 
-
 function aSLI_FR_ManageBill_DSN return aSLI_FR_ManageBill_DSN
    _Result = self.GetBSForClassDef(218189381)
 endFunc 
 
-function aSLIFR_Manage_SetPersonOverriddenTaxRate return aSLIFR_Manage_SetPersonOverriddenTaxRate
+function aSLIFR_Manage_SetPASRAUTaxRate return aSLIFR_Manage_SetPASRAUTaxRate
    _Result = self.GetBSForClassDef(218189404)
 endFunc 
 
