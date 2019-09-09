@@ -96,18 +96,18 @@ if ERRORLEVEL 1 echo Git sync of Wynsure failed. See log above.
 :GITSYNCDEV
 echo.
 echo Retrieving Dev git changes...
-cd /d %ROOTFOLDER%/Dev
+cd /d %ENV-ROOT%/Dev
 "%GITCMD%" pull
 if ERRORLEVEL 1 echo Git sync of Dev failed. See log above.
 :GITSYNCWYNSUREFULLWEB
-IF NOT EXIST %ROOTFOLDER%/wynsure-fullweb GOTO :GITSYNCDESIGNWORKSHOP
+IF NOT EXIST %FULLWEB_ROOT% GOTO :GITSYNCDESIGNWORKSHOP
 echo.
 echo Retrieving Wynsure FullWeb git changes...
 cd /d %ROOTFOLDER%/wynsure-fullweb
 "%GITCMD%" pull
 if ERRORLEVEL 1 echo Git sync of Wynsure-FullWeb failed. See log above.
 :GITSYNCDESIGNWORKSHOP
-IF NOT EXIST %ROOTFOLDER%/design-workshop-packages GOTO :ENDGITSYNC
+IF NOT EXIST %DESIGNWORKSHOP_ROOT% GOTO :ENDGITSYNC
 echo.
 echo Retrieving Design Workshop git changes...
 cd /d %ROOTFOLDER%/design-workshop-packages
