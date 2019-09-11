@@ -96,7 +96,7 @@ if ERRORLEVEL 1 echo Git sync of Wynsure failed. See log above.
 :GITSYNCDEV
 echo.
 echo Retrieving Dev git changes...
-cd /d %ENV-ROOT%/Dev
+cd /d %ENV-ROOT%
 "%GITCMD%" pull
 if ERRORLEVEL 1 echo Git sync of Dev failed. See log above.
 :GITSYNCWYNSUREFULLWEB
