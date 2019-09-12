@@ -9,6 +9,9 @@
 			"errorserializer" : "WFW",
 			"identifier":""
 		},
+		"settings": {
+			"pickersize": 100
+		},
 		"session":{
 			"definition":"aWFX_HttpSession",
 			"showInWSM": true,
