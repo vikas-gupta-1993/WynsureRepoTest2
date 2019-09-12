@@ -6,17 +6,24 @@
 				"aWF_MappingForGenericAPI"
 			],
 			"decoration":false,
+			"errorserializer" : "WFW",
 			"identifier":""
 		},
 		"session":{
 			"definition":"aWFX_HttpSession",
-			"timeout":0
+			"showInWSM": true,
+			"timeout": 0,
+			"timeout-stateful": 3600
 		},
 		"connection":{
 			"auth":[
 				"wynauth",
 				"basic"
 			]
+		},
+		"test": {
+			"skipRPCWhiteList": true,
+			"buildRPCWhiteList": false
 		}
 	},
 	"api":{
@@ -69,6 +76,8 @@
 		"PASRAUOut":"(WF-Root)/batch/OUT_APPLI/PASRAU"
 		},
 	"module":{
-		"obj":"aWF_ObjectModule"
+		"obj":"aWF_ObjectModule",
+		"encrypt": "",
+		"errorManager": "aWT_ErrorManager"
 	}
 }
