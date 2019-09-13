@@ -96,8 +96,5 @@
 	},
 	"PASRAU":{
 		"PASRAUOut":"(WF-Root)/batch/OUT_APPLI/PASRAU"
-		},
-	"module":{
-		"obj":"aWF_ObjectModule"
 	}
 }
