@@ -1,23 +1,52 @@
 {
 	"version":3,
-	"http":{
-		"router":{
-			"mapping":[
-				"aWF_MappingForGenericAPI"
-			],
-			"decoration":false,
-			"identifier":""
-		},
-		"session":{
-			"definition":"aWFX_HttpSession",
-			"timeout":0
-		},
-		"connection":{
-			"auth":[
-				"wynauth",
-				"basic"
+	"type": {
+		"extension": {
+			"prefix": [
+				"aWF_",
+				"aWFX_",
+				"aWT_",
+				"aCSF_",
+				"aWSI_"
 			]
 		}
+	},
+	"module": {
+		"obj": "aWS_ObjectModule",
+		"dataManager": "aFW_RPCDataManager"
+	},
+	"http": {
+		"router": {
+			"ewamAsServiceRouter": "aCSF_UrlDecorationServerRouter",
+			"mapping": ["aCSF_OnlyRPCMapping"],
+			"decoration": false,
+			"identifier": "buid",
+			"logging": "detail",
+			"csfTrace": true
+		},
+		"session": {
+			"definition": "aWFX_HttpSession",
+			"timeout": 6000,
+			"timeout-stateful": 6000
+		},
+		"settings": {
+			"forceToSerializeType": true,
+			"nbVarMaxToLoad": 30
+		},
+		"connection": {
+			"auth": [
+				"wynauth",
+				"basic"
+			],
+			"failOverToBasicAuth": true
+		}
+	},
+	"test":{
+            "skipRPCWhiteList":true,
+            "BuildRPCWhiteList":false
+        },
+	"otp": {
+		"length": 5
 	},
 	"api":{
 		"generateSchemas":false,

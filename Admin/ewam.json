@@ -10,7 +10,7 @@
       },
       "http-service": {
          "classname":"aSystemHttpService",
-         "url":"http://127.0.0.1:9931/",
+         "url":"http://127.0.0.1:9934/",
          "map": {
             "/": {
                "method":"http-service/interpret-http-transaction"

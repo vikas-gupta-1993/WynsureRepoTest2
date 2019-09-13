@@ -1,0 +1,22 @@
+{
+  "runtimeMode":"Application",
+  "options": {
+  },
+  "services": {
+    "SystemHttpEwamExService": {
+      "className": "aWSI_SystemHttpEwamExService"
+    },
+    "http-service": {
+      "className": "aSystemHttpService",
+      "url": "http://127.0.0.1:9943/",
+      "map": {
+        "/ewam/": {
+          "method": "http-service/interpret-http-transaction"
+        },
+        "/": {
+          "method": "SystemHttpEwamExService/ewamex"
+        }
+      }
+    }
+  }
+}
