@@ -1,5 +1,6 @@
 {
 	"version":3,
+<<<<<<< HEAD
 	"type": {
 		"extension": {
 			"prefix": [
@@ -28,6 +29,25 @@
 			"definition": "aWFX_HttpSession",
 			"timeout": 6000,
 			"timeout-stateful": 6000
+=======
+	"http":{
+		"router":{
+			"mapping":[
+				"aWF_MappingForGenericAPI"
+			],
+			"decoration":false,
+			"errorserializer" : "WFW",
+			"identifier":""
+		},
+		"settings": {
+			"pickersize": 100
+		},
+		"session":{
+			"definition":"aWFX_HttpSession",
+			"showInWSM": true,
+			"timeout": 0,
+			"timeout-stateful": 3600
+>>>>>>> 3ccc9e7bb3f572ea65871b270db1b96eeb43457b
 		},
 		"settings": {
 			"forceToSerializeType": true,
@@ -37,8 +57,16 @@
 			"auth": [
 				"wynauth",
 				"basic"
+<<<<<<< HEAD
 			],
 			"failOverToBasicAuth": true
+=======
+			]
+		},
+		"test": {
+			"skipRPCWhiteList": true,
+			"buildRPCWhiteList": false
+>>>>>>> 3ccc9e7bb3f572ea65871b270db1b96eeb43457b
 		}
 	},
 	"test":{
@@ -96,5 +124,13 @@
 	},
 	"PASRAU":{
 		"PASRAUOut":"(WF-Root)/batch/OUT_APPLI/PASRAU"
+<<<<<<< HEAD
+=======
+		},
+	"module":{
+		"obj":"aWF_ObjectModule",
+		"encrypt": "",
+		"errorManager": "aWT_ErrorManager"
+>>>>>>> 3ccc9e7bb3f572ea65871b270db1b96eeb43457b
 	}
 }
