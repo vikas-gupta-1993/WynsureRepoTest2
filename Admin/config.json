@@ -14,7 +14,7 @@
 	"module": {
 		"obj": "aWS_ObjectModule",
 		"dataManager": "aFW_RPCDataManager",
-		"errorManager": "aWT_ErrorManager",
+		"errorManager": "aWT_ErrorManager"
 	},
 	"http": {
 		"router": {
