@@ -43,12 +43,12 @@
 				"basic"
 			],
 			"failOverToBasicAuth": true
+		},
+		"test":{
+				"skipRPCWhiteList":true,
+				"BuildRPCWhiteList":false
 		}
 	},
-	"test":{
-            "skipRPCWhiteList":true,
-            "BuildRPCWhiteList":false
-        },
 	"otp": {
 		"length": 5
 	},
