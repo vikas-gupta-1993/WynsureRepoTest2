@@ -13,7 +13,8 @@
 	},
 	"module": {
 		"obj": "aWS_ObjectModule",
-		"dataManager": "aFW_RPCDataManager"
+		"dataManager": "aFW_RPCDataManager",
+		"errorManager": "aWT_ErrorManager",
 	},
 	"http": {
 		"router": {
@@ -21,17 +22,20 @@
 			"mapping": ["aCSF_OnlyRPCMapping"],
 			"decoration": false,
 			"identifier": "buid",
-			"logging": "detail",
+			"logging": "none",
+			"errorserializer" : "WFW",
 			"csfTrace": true
 		},
 		"session": {
 			"definition": "aWFX_HttpSession",
-			"timeout": 6000,
-			"timeout-stateful": 6000
+			"showInWSM": true,
+			"timeout": 0,
+			"timeout-stateful": 120
 		},
 		"settings": {
 			"forceToSerializeType": true,
-			"nbVarMaxToLoad": 30
+			"nbVarMaxToLoad": 30,
+			"pickersize": 100
 		},
 		"connection": {
 			"auth": [
