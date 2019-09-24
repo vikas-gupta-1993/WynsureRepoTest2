@@ -84,7 +84,7 @@
 				"buid-encryption-aglo": "",
 				"white-list": {
 					"enable": false,
-					"build": true
+					"build": false
 				}
 			}
 		},
