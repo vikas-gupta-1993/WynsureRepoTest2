@@ -1,0 +1,9 @@
+{
+	"version": 4,	
+	"healthCare":{
+		"noemieOUT":"(WF-Root)/Demo/HealthDemo/FichierTestEDI/Envoi"
+	},
+	"PASRAU":{
+		"PASRAUOut":"(WF-Root)/batch/OUT_APPLI/PASRAU"
+	}		
+}

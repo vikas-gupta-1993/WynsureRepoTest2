@@ -1,0 +1,156 @@
+{
+	"version": 4,
+	"global": {
+		"module": {
+			"obj": "aWF_ObjectModule",
+			"dataManager": "aFW_RPCDataManager",
+			"errorManager": "aWT_ErrorManager"
+		},
+		"login": {
+			"initial-wait-time": 2,
+			"wait-factor": 2,
+			"hash-passwords": true,
+			"salt": "Wynsure",
+			"otp": {
+				"length": 5,
+				"validity": 600
+			}
+		},
+		"json": {
+			"serialization": {
+				"object-identifier-kind": "buid",
+				"lower-case-first-char": true,
+				"enum-as-const": true,
+				"use-translation": false,
+				"serialize-type-as-instance": true,
+				"max-deep": 4,
+				"error-manager" : ""
+			},
+			"deserialization": {
+				"unescape-slash": true
+			}
+		},
+		"help-about": {
+			"show-unsecure-info": "UserAuth",
+			"component-version-black-list": []
+		},
+		"framework": {
+			"component-versions": {
+				"error-level": "MajorError"
+			},
+			"picker": {
+				"max-page-size": 100
+			}
+		}
+	},
+	"StatefulAPI": {
+		"rest": {
+			"session": {
+				"timeout": 6000
+			}
+		}
+	},
+	"rest": {
+		"cache": {
+			"client": {
+				"timeout": "60"
+			},
+			"server": {
+				"path": "(wyde-root)/tmp",
+				"timeout": "600"
+			}
+		},
+		"router": {
+			"mapping": [
+				"aCSF_OnlyRPCMapping"
+			],
+			"decoration": false,
+			"identifier": "",
+			"shortcut-url": false,
+			"logging": {
+				"log-level": "none",
+				"log-file": "(wyde-err)"
+			}
+		},
+		"rpc": {
+			"model": {
+				"transaction-box": ""
+			},
+			"scope": {
+				"nb-max": 10,
+				"timeout": 6000
+			},
+			"security": {
+				"buid-encryption-aglo": "",
+				"white-list": {
+					"enable": false,
+					"build": true
+				}
+			}
+		},
+		"settings": {
+			"force-type-serialization": true
+		},
+		"session": {
+			"show-in-wsm": true,
+			"definition": "aWFX_HttpSession",
+			"timeout": 0
+		},
+		"connection": {
+			"wynauth-token": {
+				"validity": 6000
+			},
+			"allowed-authentification-schemes": [
+				"bearer",
+				"basic"
+			]
+		}
+	},
+	"doc": {
+		"swagger": {
+			"generate-schemas": false,
+			"use-static-schema": false,
+			"host": "localhost:50301",
+			"info": {
+				"description": "",
+				"version": "5.8.3",
+				"title": "Wynsure API",
+				"terms-of-service": "",
+				"contact": {
+					"email": "support@wyde.com"
+				}
+			}
+		}
+	},
+	"eda": {
+		"activity-processor": {
+			"appliName": "WynsureSolution_US",
+			"use-light-processor": "false",
+			"user": {
+				"login": "Batch",
+				"password": ""
+			},
+			"worker": {
+				"sleep-period": "1000",
+				"count": 1
+			},
+			"memory-clean-period": 5,
+			"url-get-next-activity": "http://localhost/api/rest/getnextactivity?servicename=EDAUSQueuer"
+		},
+		"queue": {
+			"refresh-period": "10000",
+			"max-size": "1000"
+		},
+		"url-add-Worker": "http://localhost/api/rest/addworker?servicename=EDAUSWorker"
+	},
+	"business-services": {
+		"use-error-management": true,
+		"mass-treatment": {
+			"transaction-size": 50,
+			"garbage-collector-size": 2000
+		}
+	},
+	"batch": {
+		"check-in-entry-points": true
+	}
+}
