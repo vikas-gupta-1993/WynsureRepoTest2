@@ -61,6 +61,10 @@
 			}
 		},
 		"router": {
+			"connection-timeout": {
+				"ping-route" : "api/rpc/ping",
+				"timeout" : 10
+			},
 			"mapping": [
 				"aCSF_OnlyRPCMapping"
 			],
@@ -94,7 +98,7 @@
 		"session": {
 			"show-in-wsm": true,
 			"definition": "aWFX_HttpSession",
-			"timeout": 10
+			"timeout": 0
 		},
 		"connection": {
 			"wynauth-token": {
