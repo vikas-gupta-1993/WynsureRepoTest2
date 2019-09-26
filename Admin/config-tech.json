@@ -74,7 +74,8 @@
 			"logging": {
 				"log-level": "none",
 				"log-file": "(wyde-err)"
-			}
+			},
+			"ewamAsServiceRouter": "aCSF_UrlDecorationServerRouter"
 		},
 		"rpc": {
 			"model": {
