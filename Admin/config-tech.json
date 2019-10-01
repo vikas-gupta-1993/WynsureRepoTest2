@@ -60,11 +60,7 @@
 				"timeout": "600"
 			}
 		},
-		"router": {
-			"connection-timeout": {
-				"ping-route" : "api/rpc/ping",
-				"timeout" : 10
-			},
+		"router": {			
 			"mapping": [
 				"aCSF_OnlyRPCMapping"
 			],
@@ -78,6 +74,10 @@
 			"ewamAsServiceRouter": "aCSF_UrlDecorationServerRouter"
 		},
 		"rpc": {
+			"connection-timeout": {
+				"ping-route": "api/rpc/connection-ping",
+				"timeout": 3600
+			},
 			"model": {
 				"transaction-box": ""
 			},
