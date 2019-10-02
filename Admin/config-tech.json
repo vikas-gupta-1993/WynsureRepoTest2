@@ -20,7 +20,7 @@
 			"serialization": {
 				"object-identifier-kind": "buid",
 				"lower-case-first-char": true,
-				"enum-as-const": true,
+				"enum-as-const": false,
 				"use-translation": false,
 				"serialize-type-as-instance": true,
 				"max-deep": 4,
