@@ -46,7 +46,7 @@
 	"StatefulAPI": {
 		"rest": {
 			"session": {
-				"timeout": 3600
+				"timeout": 300
 			}
 		}
 	},
