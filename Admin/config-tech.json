@@ -47,6 +47,16 @@
 		"rest": {
 			"session": {
 				"timeout": 3600
+			},
+			"router": {
+				"mapping":["aWF_FW_StatefulMappingAPI"]
+			}
+		}
+	},
+	"StatelessAPI" : {
+		"rest": {			
+			"router": {
+				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
 			}
 		}
 	},
@@ -129,7 +139,7 @@
 	},
 	"eda": {
 		"activity-processor": {
-			"appliName": "WynsureSolution_US",
+			"appli-name": "WynsureSolution_US",
 			"use-light-processor": "false",
 			"user": {
 				"login": "Batch",
