@@ -156,7 +156,7 @@
 			"refresh-period": "10000",
 			"max-size": "1000"
 		},
-		"url-add-Worker": "http://localhost/api/rest/addworker?servicename=EDAUSWorker"
+		"add-worker-url": "http://localhost/api/rest/addworker?servicename=EDAUSWorker"
 	},
 	"business-services": {
 		"use-error-management": true,
