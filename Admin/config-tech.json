@@ -56,7 +56,7 @@
 	"StatelessAPI" : {
 		"rest": {			
 			"router": {
-				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
+				"mapping":["aWF_FW_StatelessMappingAPI"]
 			}
 		}
 	},
