@@ -39,7 +39,8 @@
 				"error-level": "MajorError"
 			},
 			"picker": {
-				"max-page-size": 100
+				"max-page-size": 100,
+				"dws130compatible":true
 			}
 		}
 	},
