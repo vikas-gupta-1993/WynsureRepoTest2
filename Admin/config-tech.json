@@ -71,7 +71,7 @@
 			}
 		},
 		"router": {			
-			"definition":"aWT_UrlDecorationServerRouter",
+			"definition":"aCSF_UrlDecorationServerRouter",
 			"mapping": [
 				"aCSF_OnlyRPCMapping"
 			],
