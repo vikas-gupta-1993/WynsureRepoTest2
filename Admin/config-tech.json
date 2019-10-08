@@ -73,7 +73,7 @@
 		"router": {			
 			"definition":"aCSF_UrlDecorationServerRouter",
 			"mapping": [
-				"aCSF_OnlyRPCMapping"
+				"aWF_FW_StatefulMappingAPI"
 			],
 			"decoration": false,
 			"identifier": "",
