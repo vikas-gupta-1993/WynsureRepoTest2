@@ -1,15 +1,6 @@
 {
 	"version": 4,
 	"global": {
-		"type" : {
-			"extension" : {
-				"prefix" : [
-					"aWF_",
-					"aWFX_",
-					"aWT_"
-				]						
-			}
-		},
 		"module": {
 			"obj": "aWF_ObjectModule",
 			"dataManager": "aFW_RPCDataManager",
@@ -80,11 +71,10 @@
 				"timeout": "600"
 			}
 		},
-		"router": {
-			"turbo": false,
-			"definition":"_aWT_UrlTurboDecorationServerRouter",
+		"router": {			
+			"definition":"aCSF_UrlDecorationServerRouter",
 			"mapping": [
-				"aCSF_OnlyRPCMapping"
+				"aWF_FW_StatefulMappingAPI"
 			],
 			"decoration": false,
 			"identifier": "",
