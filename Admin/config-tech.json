@@ -70,10 +70,10 @@
 				"timeout": "600"
 			}
 		},
-		"router": {			
+		"router": {
 			"definition":"aCSF_UrlDecorationServerRouter",
 			"mapping": [
-				"aWF_FW_StatefulMappingAPI"
+				"aCSF_OnlyRPCMapping"
 			],
 			"decoration": false,
 			"identifier": "",
