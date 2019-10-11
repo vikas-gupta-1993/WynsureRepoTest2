@@ -77,13 +77,13 @@
 	</DatabaseDefinition>
 
 	<!-- PostgreSQL DB dedicated to Dev on BIR team -->
-	<DatabaseDefinition Name="WynsurePostgreBIR_US">
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_AcceptanceUSDev">
 		<DataBaseName>WYN59_1_BIR_US</DataBaseName>
 			<UserName>wydef59_1_bir_us</UserName>
 			<Password>LOBcsmbXxE4=</Password>
 	</DatabaseDefinition>
 	<!-- PostgreSQL DB dedicated to Dev on BIR team -->
-	<DatabaseDefinition Name="WynsurePostgreBIR_FR">
+	<DatabaseDefinition Name="WynsurePostgreSQLRenamingDBDef_AcceptanceFRDev">
 		<DataBaseName>WYN59_1_BIR_FR</DataBaseName>
 			<UserName>wydef59_1_bir_fr</UserName>
 			<Password>LOBcsmbXxE4=</Password>
