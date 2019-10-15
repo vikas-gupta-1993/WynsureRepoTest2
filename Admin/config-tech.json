@@ -23,7 +23,12 @@
 			"otp": {
 				"length": 5,
 				"validity": 600
-			}
+			},
+			"password-minimum-length": 0,
+			"password-complexity": 0,
+			"password-enforce-history-check" : 0,
+			"password-minimum-age-hours": 0,
+			"password-maximum-age-days": 0
 		},
 		"json": {
 			"serialization": {
