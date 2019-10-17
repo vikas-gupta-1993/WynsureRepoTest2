@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="fr.cnav.saturne.dependencies.feature"
+      label="Saturne Dependencies"
+      version="2.1.0.201909250805"
+      provider-name="CNAV">
+
+   <description>
+      This feature contains all necessary third party libraries for Saturne 2
+   </description>
+
+   <copyright>
+      Logiciel créé en 2009 par la Caisse Nationale d&apos;Assurance Vieillesse
+(Cnav) France.
+Logiciel protégé au sens de l&apos;article L.112-2 13 du Code de la
+propriété intellectuelle (CPI).
+Tous les droits relatifs audit logiciel, sa documentation,
+y compris le matériel de conception préparatoire sont la propriété
+de la Cnav au sens du CPI.
+Ce fichier appartient a la suite d&apos;outils SATURNE
+(Suite Applicative pour des Traitements Unifiés et Rationalisés
+fondés sur une Norme d&apos;Echange).
+depot INPI en cours
+Ce logiciel et sa documentation sont proteges par la licence
+incluse.
+Vous devez avoir souscrit à une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+This file is part of the SATURNE Tool Suite
+(Suite of Autonomous Tools for Unified and Rationalized Norms
+of Exchange)..
+This software and the attached documentation are protected by
+the included license.
+You must be in possession of a valid license conceded by the
+Cnav
+to install and use this software.
+   </copyright>
+
+   <license url="">
+      La Cnav a conçu une suite d&apos;outils dénommée SATURNE.
+
+Les utilisateurs extérieurs à la Cnav de cette suite ou de tout produit logiciel issu de cette suite s’engagent à l&apos;utiliser dans le respect de sa finalité, à n’en faire aucun usage commercial et à ne tenter aucune rétro-ingéniérie.
+
+La Cnav conserve la propriété pleine et entière de la suite et des produits logiciels qui en sont issus.
+
+La Cnav décline toute responsabilité dans le cas de l&apos;utilisation de la suite et de tout produit logiciel issu de cette suite.
+
+La Cnav n&apos;assure pas de support sauf convention spécifique et expresse passée avec un utilisateur tiers.
+
+
+
+The Cnav has designed a suite of tools called SATURNE.
+
+Any user outside Cnav of the suite or of any software product built with the suite promises to use it according to its functional goals, promises not to sell it or to attempt any reverse engineering.
+
+The Cnav remains the sole and exclusive owner of the suite or of any product built with the suite.
+
+The Cnav cannot be held responsible for any damage incurred in the use of the suite or of products built with it.
+The Cnav does not provide user support except in the case of specific contracts passed with a third-party user.
+   </license>
+
+   <plugin
+         id="org.joda.time"
+         download-size="493"
+         install-size="575"
+         version="2.6.0"
+         unpack="false"/>
+
+   <plugin
+         id="dk.brics.automaton"
+         download-size="153"
+         install-size="174"
+         version="1.11.8"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.saxon"
+         download-size="1923"
+         install-size="5350"
+         version="9.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="434"
+         install-size="481"
+         version="1.2.17"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.poi.cnav"
+         download-size="21640"
+         install-size="27768"
+         version="3.11.0"/>
+
+   <plugin
+         id="com.opencsv"
+         download-size="36"
+         install-size="39"
+         version="3.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.antlr.runtime"
+         download-size="399"
+         install-size="789"
+         version="4.3.0.v201502022030"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2211"
+         install-size="4997"
+         version="15.0.0.v201403281430"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore"
+         download-size="1162"
+         install-size="2877"
+         version="2.11.2.v20160208-0816"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.common"
+         download-size="349"
+         install-size="735"
+         version="2.11.1.v20160208-0816"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.xmi"
+         download-size="225"
+         install-size="481"
+         version="2.11.1.v20160208-0816"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="323"
+         install-size="716"
+         version="3.1.0.v201403281430"
+         unpack="false"/>
+
+</feature>

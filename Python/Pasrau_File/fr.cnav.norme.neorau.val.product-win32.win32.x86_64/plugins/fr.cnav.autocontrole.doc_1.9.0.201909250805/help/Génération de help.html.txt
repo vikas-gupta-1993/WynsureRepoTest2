@@ -1,0 +1,9 @@
+Comment générer help.html
+=============================================================================================
+- A partir de help.textile, clic droit > WikiText > Generate HTML
+- Modifier le html manuellement en
+	- ajoutant <link href="css/style_customization.css" rel="stylesheet" type="text/css"
+		entre <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		et </head>
+	
+	- remplaçant <img "border="0" src="../icons par <img class="left "border="0" src="../icons

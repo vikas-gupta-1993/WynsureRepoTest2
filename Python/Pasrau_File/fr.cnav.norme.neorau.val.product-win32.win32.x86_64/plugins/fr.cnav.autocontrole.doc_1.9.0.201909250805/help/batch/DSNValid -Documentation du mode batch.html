@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	</head>
+	<body>
+		<p>
+			<a href="./../index.html">&lt;&lt; Retour à l&#8217;index </a>
+		</p>
+		<h1 id="Validationdenormeenlignedecommande">Validation de norme en ligne de commande</h1>
+		<ol class="toc" style="list-style: circle;">
+			<li>
+				<a href="#Validationdenormeenlignedecommande">Validation de norme en ligne de commande</a>
+				<ol style="list-style: circle;">
+					<li>
+						<a href="#Prrequis">Prérequis</a>
+					</li>
+					<li>
+						<a href="#Commandedinvocationdelavalidation">Commande d'invocation de la validation</a>
+					</li>
+					<li>
+						<a href="#Codesderreurpossibles">Codes d'erreur possibles</a>
+					</li>
+					<li>
+						<a href="#Configurationjava">Configuration java</a>
+					</li>
+					<li>
+						<a href="#Encodingsouswindows">Encoding sous windows</a>
+					</li>
+					<li>
+						<a href="#Laparamtrisationdelavalidation">La paramétrisation de la validation</a>
+					</li>
+				</ol>
+			</li>
+		</ol>
+		<h2 id="Prrequis">Prérequis</h2>
+		<p>Pour pouvoir utiliser l&#8217;application en mode ligne de commande, il faut :</p>
+		<ul>
+			<li>une machine avec un système d&#8217;exploitation Linux ou Windows, 32 ou 64 bits,</li>
+			<li>l&#8217;application Autocontrol présente sur la machine,</li>
+			<li>une machine virtuelle Java JDK 6 avec l&#8217;architecture correspondant au package téléchargé. Si le package x86_64 est téléchargé, il faut alors utiliser une machine virtuelle Java 64 Bits SUN installée sur la machine. Sinon, il faut utiliser une machine virtuelle Java 32 bits.</li>
+		</ul>
+		<p>La machine sur laquelle est exécutée la validation en mode ligne de commande n&#8217;a pas besoin de serveur graphique.</p>
+		<h2 id="Commandedinvocationdelavalidation">Commande d&#8217;invocation de la validation</h2>
+		<p>Le plugin «fr.cnav.autocontrole.headless» permet de valider un message DSN en mode ligne de commande. Ce plugin est intégré à l&#8217;exécutable DSN-Val. Pour exécuter la validation, il faut se mettre dans le répertoire d&#8217;installation de l&#8217;exécutable DSN-Val (ce répertoire doit contenir entre autre le fichier Autocontrol-Validateur.exe et les répertoires plugins et features) et ensuite lancer la commande suivante :</p>
+		<p>Pour Windows : </p>
+		<pre><code>Autocontrol-ValidateurModeBatchWin32.cmd [{--help|-h}]
+</code></pre>
+		<pre><code>Autocontrol-ValidateurModeBatchWin32.cmd 
+		[{--output|-o} cheminDuRepertoireCible] [--grouping|-g] [{--limit|-l} nbreAnomalieLimite]  
+		[{--noCheckUpdate|-nc} {--inputFileTypeXML|-xml}]cheminDuMessageDsn.dns
+</code></pre>
+		<pre><code>Autocontrol-ValidateurModeBatchWin32.cmd [{--doUpdate|-du}]
+</code></pre>
+		<p>Pour linux : </p>
+		<pre><code>./Autocontrol-ValidateurModeBatchLinux32.sh [{--help|-h}]
+</code></pre>
+		<pre><code>./Autocontrol-ValidateurModeBatchLinux32.sh 
+		[{--output|-o} cheminDuRepertoireCible] [{--grouping|-g}]  [{--limit|-l} nbreAnomalieLimite]  
+		[{--noCheckUpdate|-nc} {--inputFileTypeXML|-xml}]cheminDuMessageDsn.dns
+</code></pre>
+		<pre><code>./Autocontrol-ValidateurModeBatchLinux32.sh [{--doUpdate|-du}]
+</code></pre>
+		<p>Pour windows avec architecture 64 bits : </p>
+		<ul>
+			<li>Il faut remplacer le nom de l&#8217;exécutable dans la commande par &#171;Autocontrol-ValidateurModeBatchWin32.sh&#187;  </li>
+		</ul>
+		<p>Pour linux avec architecture 64 bits : </p>
+		<ul>
+			<li>Il faut remplacer le nom de l&#8217;exécutable dans la commande par &#171;Autocontrol-ValidateurModeBatchLinux64.sh&#187;  </li>
+		</ul>
+		<p>Voici la description des paramètres de lancement :</p>
+		<ul>
+			<li>{--help|-h} : Affiche l&#8217;aide de la commande (paramètre optionnel)</li>
+			<li>{--output|-o} cheminDuRepertoireCible : Indique le chemin du répertoire cible (paramètre optionnel). Si le paramètre n&#8217;est pas indiqué, le répertoire sera celui contenant le message de la norme à valider.</li>
+			<li>{--grouping|-g} : Activation de la mutualisation des anomalies.</li>
+			<li>{--limit|-l} nbreAnomalieLimite : Limite du nombre d&#8217;anomalies que le validateur doit présenter (paramètre optionnel). Si le paramètre n&#8217;est pas indiqué, la validation se fait sans limite.</li>
+			<li>{--inputFileTypeXML|-xml} : Active la validation XML native. Les fichiers validés doivent respecter la forme XML native.</li>
+			<li>{--noCheckUpdate|-nc} : Désactive la vérification de la version de l&#8217;outil (paramètre optionnel). Si le paramètre n&#8217;est pas indiqué, la vérification est réalisée, alors deux cas peuvent intervenir :
+				<ul>
+					<li>une mise à jour est disponible : la validation n&#8217;est pas réalisée et le message suivant est renvoyé : 'Le produit doit être mis à jour pour réaliser une validation conforme à la version actuelle de la norme. La validation peut être réalisée sans faire la mise à jour en utilisant l’option –nc pour -noCheckUpdate. Vous pouvez faire la mise à jour en ligne de commande en utilisant l’option -du ou --doUpdate.'</li>
+					<li>le produit est déjà à jour : La validation est effectuée.</li>
+				</ul>
+			</li>
+		</ul>
+		<p>Voici une copie d'écran de l&#8217;utilisation sur une machine linux sans utilisation du paramètre output : </p>
+		<p>
+			<img border="0" src="validate1.png"/>
+		</p>
+		<p>Voici une copie d'écran de l&#8217;utilisation sur une machine linux avec utilisation du paramètre output : </p>
+		<p>
+			<img border="0" src="validate2.png"/>
+		</p>
+		<h2 id="Codesderreurpossibles">Codes d&#8217;erreur possibles</h2>
+		<table style="border:1px solid black">
+			<tr style="background:#ddd">
+				<th>Nom</th>
+				<th>Message</th>
+				<th>Code</th>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_NO_ERROR</td>
+				<td>No error</td>
+				<td>0</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_NO_INPUT_FILE</td>
+				<td>Vous devez fournir un message en paramètre.</td>
+				<td>1</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INPUT_FILE_NOT_EXIST</td>
+				<td>Le fichier &#8249;%s&#8250; n&#8217;existe pas.</td>
+				<td>2</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INVALID_OUTPUT_TYPE</td>
+				<td>Le format d'écriture &#8249;%s&#8250; du rapport n&#8217;est pas supporté."</td>
+				<td>3</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INVALID_LIMIT_ANOMALIE</td>
+				<td>La limite du nombre d&#8217;anomalies passée en paramètre &#8249;%s&#8250; n&#8217;est pas valide (doit être un entier).</td>
+				<td>4</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INVALID_OPTION</td>
+				<td>Option invalide.</td>
+				<td>5</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INVALID_FACTORIZATION_THRESHOLD</td>
+				<td>Le seuil de factorisation des anomales &#8249;%s&#8250; n&#8217;est pas valide (doit être un entier).</td>
+				<td>6</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_OUTPUT_DIR_PARMETER_NOT_EXIST</td>
+				<td>Le répertoire &#8249;%s&#8250; passé en paramètre doit exister.</td>
+				<td>7</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_OUTPUT_PARMETER_IS_NOT_DIR</td>
+				<td>La ressource &#8249;%s&#8250; passée en paramètre doit être un répertoire.</td>
+				<td>8</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_MUST_UPDATE_PRODUCT</td>
+				<td>Le produit doit être mis à jour pour réaliser une validation conforme à la version actuelle de la norme. La validation peut être réalisée sans faire la mise à jour en utilisant l&#8217;option –nc pour -noCheckUpdate. Vous pouvez faire la mise à jour en ligne de commande en utilisant l&#8217;option -du ou --doUpdate</td>
+				<td>9</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_UPDATESITE_NOT_AVAILABLE</td>
+				<td>L&#8217;update site &#8249;%s&#8250; est inaccessible ou n&#8217;est pas un updatesite valide. La vérification du besoin de mise à jour du produit ne peut pas être faite. La validation peut être réalisée malgré ceci en utilisant l&#8217;option –nc ou  --noCheckUpdate.</td>
+				<td>10</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_EMPTY_UPDATESITE</td>
+				<td>L&#8217;update site n&#8217;est pas configuré, il peut être indiqué dans le fichier de configuration Autocontrol-Validateur.ini. La vérification du besoin de mise à jour du produit ne peut pas être faite. La validation peut être réalisée malgré ceci en utilisant l&#8217;option  –nc ou --noCheckUpdate.</td>
+				<td>11</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_NEED_HELP</td>
+				<td>Vous avez besoin d&#8217;aide.</td>
+				<td>12</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_INCORRECT_URI_UPDATESITE</td>
+				<td>L&#8217;update site &#8249;%s&#8250; indiqué dans le fichier de configuration Autocontrol-Validateur.ini n&#8217;est pas valide. Ce paramètre doit avoir une forme d&#8217;url (http://monUpdateSite.fr, https://monUpdateSite.fr, file://monUpdateSitePath)</td>
+				<td>13</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_TECHNICAL_ERROR</td>
+				<td>Une erreur technique inconnue s&#8217;est produite lors de la validation.</td>
+				<td>14</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_UPDATE_PRODUCT_DONE</td>
+				<td>Le produit est mise à jour.</td>
+				<td>15</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_UPDATE_PRODUCT_FAILED</td>
+				<td>La mise à jour du produit a échouée avec l&#8217;erreur %s</td>
+				<td>16</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_PRODUCT_ALREADY_UP_TO_DATE</td>
+				<td>Le produit est déjà à jour.</td>
+				<td>17</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_MSG_INTEGRITY_TEST_FAILED</td>
+				<td>Le fichier à valider (%s) ne semble pas correspondre au type de fichier attendu par la norme %s. La validation est donc interrompue.</td>
+				<td>18</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_CREATE_PRJ</td>
+				<td>La création du projet %s a échoué (%s).</td>
+				<td>21</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_PERPARE_PRJ</td>
+				<td>La préparation du projet %s à échoué (%s).</td>
+				<td>22</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_REFRESH_FOLDER</td>
+				<td>Le rafraîchissement des répertoires de validation a échoué.</td>
+				<td>23</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_PROCESS_SYNTACTIC_VALIDATION</td>
+				<td>La validation syntaxique a échoué.</td>
+				<td>24</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_PROCESS_SEMAMTIC_VALIDATION</td>
+				<td>La validation sémantique a échoué.</td>
+				<td>25</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_LOAD_FILE</td>
+				<td>Le chargement du fichier &#8249;%s&#8250; a échoué.</td>
+				<td>26</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_CLOSE_FILE</td>
+				<td>La fermeture du fichier &#8249;%s&#8250; a échoué.</td>
+				<td>27</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_CREATE_NORME_DESCRIPTOR</td>
+				<td>La création du norme descripteur a échouée : %s</td>
+				<td>28</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_EXPORT_XML</td>
+				<td>L&#8217;export XML a échoué.</td>
+				<td>30</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_EXPORT_CURRENT_REPORT</td>
+				<td>L&#8217;exportation du rapport du message courant dans le rapport &#8249;%s&#8250; dans le répertoire conteneur %s a échoué. Vérifier la validité du répertoire.</td>
+				<td>31</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_UNSUPPORTED_EXPORT</td>
+				<td>L&#8217;exportation &#8249;%s&#8250; n&#8217;est pas supportée.</td>
+				<td>32</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PATH_NOT_FILE</td>
+				<td>Le chemin &#8249;%s&#8250; ne correspond pas à un fichier</td>
+				<td>33</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_REPORT_CREATION</td>
+				<td>La création du rapport de %s a échoué ( %s ).</td>
+				<td>34</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PROCESS_CONVERTION</td>
+				<td>La conversion a échoué.</td>
+				<td>35</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PROCESS_CONVERTION_FORMAT_NORME</td>
+				<td>La validation a été interrompue. Le fichier d&#8217;entrée &#8249;%s&#8250; n&#8217;est pas un message de la norme.</td>
+				<td>36</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_VALIDATE_SEMANTIC</td>
+				<td>La validation sémantique a échoué (%s).</td>
+				<td>37</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_MERGE_REPORTS</td>
+				<td>La fusion des rapports a échoué (%s).</td>
+				<td>38</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_FORMATER_INI_CANNOT_ADD_VALUE</td>
+				<td>L&#8217;ajout de la valeur %s est impossible. Le nombre de valeur ne doit pas être plus grand que le nombre de titre %d.</td>
+				<td>39</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_FORMATER_INI_NOT_EQUAL_LIST_SIZE</td>
+				<td>L’initialisation de formateur n&#8217;est pas correcte. Le nombre de %s %d et de %s %d est diffrent</td>
+				<td>40</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_FORMATER_INI_NOT_PREPARE_METHOD_EXECUTED</td>
+				<td>L’initialisation du formateur n&#8217;est pas correcte. La méthode prepareValueLineSeparator n&#8217;a pas été invoquée</td>
+				<td>41</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_ZIP_FILE_ACCESS</td>
+				<td>L&#8217;accès au fichier zip &#8249;%s&#8250; a échoué (%s).</td>
+				<td>42</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_CLOSE_ZIP_FILE</td>
+				<td>La fermeture du fichier Zip précédent &#8249;%s&#8250; a échoué. (%s).</td>
+				<td>43</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_EXTRACT_SALARIE_MSG_LIST</td>
+				<td>L&#8217;extraction des salariés du message a échoué (%s).</td>
+				<td>44</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_EXPORT_IMPORT_TEMPLATE</td>
+				<td>Le template n&#8217;a pas pu être importé, le projet (%s) est introuvable.</td>
+				<td>45</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PROCESS_ALL_IN_ONE</td>
+				<td>Le processus de conversion-validation a échoué (%s).</td>
+				<td>47</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_SERIALISATION_REPORT_HEADLESS</td>
+				<td>Le fichier de destination &#8249;%s&#8250; n&#8217;a pu être sérialisé à partir du fichier temporaire &#8249;%s&#8250; qui a été généré par la validation</td>
+				<td>49</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_TECHNIC_VALIDATION</td>
+				<td>Une erreur technique s&#8217;est produite lors de la validation. Veuillez regarder la vue erreur log pour plus de détails</td>
+				<td>50</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_TECHNIC_EXPORT</td>
+				<td>Une erreur technique s&#8217;est produite lors de l&#8217;export. Veuillez regarder la vue erreur log pour plus de détails.</td>
+				<td>51</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_OPENING_ERROR_LOG</td>
+				<td>Une erreur technique s&#8217;est produite lors de l&#8217;ouverture de la vue error log.</td>
+				<td>52</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_INDIVIDUAL_VIEW_INITIALIZATION</td>
+				<td>Une erreur technique s&#8217;est produite lors de l&#8217;ouverture de la vue salarié.</td>
+				<td>53</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_INDIVIDUAL_VIEW_REFRESH</td>
+				<td>Une erreur technique s&#8217;est produite lors du rafraîchissement de la vue salarié</td>
+				<td>54</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_NORME_VIEW_REFRESH</td>
+				<td>Une erreur technique s&#8217;est produite lors du rafraîchissement de la vue norme.</td>
+				<td>55</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_NORME_VIEW_INITIALIZATION</td>
+				<td>Une erreur technique s&#8217;est produite lors de l&#8217;ouverture de la vue norme.</td>
+				<td>56</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PRINCIPAL_VIEW_REFRESH</td>
+				<td>Une erreur technique s&#8217;est produite lors du rafraîchissement de la vue principale.</td>
+				<td>57</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_PRINCIPALVIEW_INITIALIZATION</td>
+				<td>Une erreur technique s&#8217;est produite lors de l&#8217;ouverture de la vue principale.</td>
+				<td>58</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_NO_VALUE_FOR_INDIVIDUAL_FIELD</td>
+				<td>Impossible de trouver de rubrique correspondante à celle fournie (%s) dans le message, pour l&#8217;affichage du champ individu %s</td>
+				<td>59</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_CANNOT_RETRIEVE_BUNDLE</td>
+				<td>Le bundle de la norme &#8249;%s&#8250; n&#8217;a pu être r\u00E9cup\u00E9rer</td>
+				<td>60</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>CANNOT_SELECT_GIVEN_NORM</td>
+				<td>La norme dont l&#8217;identifiant est &#8249;%s&#8250; ne correspond à aucune norme installée. La liste des normes installées est la suivante</td>
+				<td>61</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_NO_NORMS_REGISTERED</td>
+				<td>Il n&#8217;y a aucune norme installée dans le produit.</td>
+				<td>62</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_INTEGRITY_CHECKING</td>
+				<td>Une erreur s&#8217;est produite lors de la tentative de détermination de la validité du fichier fournit pour la validation.</td>
+				<td>63</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_CANNOT_INSTANCIATE_DESCRIPTOR</td>
+				<td>La création du norme descripteur de la norme &#8249;%s&#8250; a échouée.</td>
+				<td>70</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_CLASS_INSTANCIATED_IS_NOT_DESCRIPTOR</td>
+				<td>Le type fourni par la norme %s qui permet de créer un descripteur de norme ne correspond pas à un type attendu.</td>
+				<td>71</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_CANNOT_INSTANCIATE_SERIALIZER</td>
+				<td>La création du sérialiseur de la norme &#8249;%s&#8250; a échoué</td>
+				<td>72</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>ERROR_CLASS_INSTANCIATED_IS_NOT_SERIALIZER</td>
+				<td>Le type fourni par la norme %s qui permet de créer un sérialiseur ne correspond pas à un type attendu.</td>
+				<td>74</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_JAVA_VERSION</td>
+				<td>La version de java utilise (&#8249;%s&#8250;) n&#8217;est pas bonne. Vous devez utiliser une version 1.6 &#8211; 32 bits (configurer la variable DSNVAL_JAVA).</td>
+				<td>99</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_JAVA_ARCHI</td>
+				<td>La version de java est une version 64 bits. Vous devez utiliser une version 1.6 &#8211; 32 bits  (configurez la variable DSNVAL_JAVA).</td>
+				<td>98</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>EC_JAVA_ARCHI_64</td>
+				<td>La version de java est une version 32 bits. Vous devez utiliser une version 64 bits (configurez la variable DSNVAL_JAVA).</td>
+				<td>97</td>
+			</tr>
+		</table>
+		<p>Le code retour de la commande peut être récupérer dans la variable ? ( echo $? ) dans un shell bash sous linux et la variable errorlevel sous windows ( echo %errorlevel% ).</p>
+		<h2 id="Configurationjava">Configuration java</h2>
+		<p>Par défaut, les scripts de lancement prennent l&#8217;exécutable java qui est défini dans le path du système. Si ce java n&#8217;est pas compatible avec le produit (Java 1.6 en version 32 ou 64-Bit) un message nous indiquera que la version utilisée n&#8217;est pas valide.</p>
+		<p>Nous pouvons configurer la version utilisé en valorisant la variable DSNVAL_JAVA avec le chemin de l&#8217;exécutable java voulu. Voici les commandes de configuration :</p>
+		<p>Pour Windows :</p>
+		<pre><code>set DSNVAL_JAVA="c:\path\to\java.exe"
+</code></pre>
+		<p>Pour Linux :</p>
+		<pre><code>export DSNVAL_JAVA=/path/to/java
+</code></pre>
+		<h2 id="Encodingsouswindows">Encoding sous windows</h2>
+		<p>Pour que les accents soient correctement restitués sous windows, deux actions doivent être réalisées : </p>
+		<ul>
+			<li>Lancer le changement d&#8217;encoding de la console en CP1252 grâce à la commande &#8249;chcp 1252&#8250;,</li>
+		</ul>
+		<ul>
+			<li>Mettre la police de la console à une police TrueType si ce n&#8217;est pas déjà le cas. Par exemple, la police &#8249;Police Raster&#8250; n&#8217;est pas TrueType alors que la police &#8249;Lucida Console&#8250; en est une.</li>
+		</ul>
+		<h2 id="Laparamtrisationdelavalidation">La paramétrisation de la validation</h2>
+		<p>Le comportement de la validation avec la validation headless d&#8217;autocontrole peut être paramétrée via le fichier &#171;Autocontrol-Validateur.ini&#187;. Pour chaque paramètre que l&#8217;on veut spécifier, il faut ajouter sa ligne à la fin du fichier &#171;ini&#187;. La liste des paramètres est la suivante : </p>
+		<table style="border:1px solid black">
+			<tr style="background:#ddd">
+				<th>Nom du paramètre</th>
+				<th>Valeur par défaut</th>
+				<th>Valeurs autorisées</th>
+				<th>Description</th>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dfr.cnav.norme.report.mutualisation.threshold</td>
+				<td>Pas de mutualisation</td>
+				<td>entier n &gt; 0</td>
+				<td>Propriété permettant de fixer le seuil à partir duquel les anomalies sont factorisées par le validateur. Si la définition de la propriété est absente la factorisation est inactive. Si la définition de la propriété est présente et contient un entier positif n alors les anomalies identiques ne seront présentes qu’au nombre de n dans chaque déclaration.</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dmaximal.number.errors</td>
+				<td>Illimité</td>
+				<td>entier n &gt; 0</td>
+				<td>Propriété fournissant le nombre d’anomalies au-delà duquel les anomalies sont factorisées en une seule anomalie. Une valeur de 0, une valeur négative ou l&#8217;absence de la propriété correspondent à l&#8217;absence de limite.</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-DconvertedFiles.root.path</td>
+				<td>none</td>
+				<td>String</td>
+				<td>chemin vers la racine du répertoire où sont produits les fichiers xml après conversion</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dfr.cnav.norme.val.originalValue</td>
+				<td>datenum</td>
+				<td>&#171;date&#187;, "datenum"</td>
+				<td>Propriété indiquant si on doit utiliser l’attribut XML originalValue sur les rubriques générées lors de la conversion.</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dstop.on.syntactic.error</td>
+				<td>false</td>
+				<td>&#171;true&#187;, "false"</td>
+				<td>Si la propriété est renseignée à la valeur « true » alors la validation est interrompue après la validation syntaxique en cas d’anomalies syntaxiques.</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dstop.on.conversion.error</td>
+				<td>false</td>
+				<td>&#171;true&#187;, "false"</td>
+				<td>Si la propriété est renseignée à la valeur « true » alors la validation est interrompue après la conversion en cas d’anomalies lors de la conversion.</td>
+			</tr>
+			<tr style="background:#ddd">
+				<td>-Dfr.cnav.norme.val.anomaliesInhibiting</td>
+				<td>true</td>
+				<td>&#171;true&#187;, "false"</td>
+				<td>Lorsque cette propriété est à « true », les anomalies sémantiques secondaires générées à cause d’une autre anomalie primaire sont filtrées du rapport de validation</td>
+			</tr>
+		</table>
+	</body>
+</html>

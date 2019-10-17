@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Logiciel créé en 2009 par la Caisse Nationale d'Assurance Vieillesse (Cnav) France.
+Logiciel protégé au sens de l'article L.112-2 13 du Code de la propriété intellectuelle (CPI).
+Tous les droits relatifs audit logiciel, sa documentation,
+y compris le matériel de conception préparatoire sont la propriété de la Cnav au sens du CPI.
+Ce fichier appartient a la suite d'outils SATURNE
+(Suite Applicative pour des Traitements Unifiés et Rationalisés fondés sur une Norme d'Echange).
+depot INPI en cours
+
+Ce logiciel et sa documentation sont proteges par la licence incluse.
+Vous devez avoir souscrit à une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+
+
+This file is part of the SATURNE Tool Suite
+(Suite of Autonomous Tools for Unified and Rationalized Norms of Exchange)..
+
+This software and the attached documentation are protected by the included license.
+You must be in possession of a valid license conceded by the Cnav
+to install and use this software.
+-->
+<feature
+      id="fr.cnav.autocontrole.feature.rcp"
+      label="Saturne 2 Autocontrol RCP"
+      version="1.4.0.201909250805"
+      provider-name="CNAV">
+
+   <description url="http://www.example.com/description">
+      This feature gathers all the features required by the autocontrole RCP application.
+   </description>
+
+   <copyright url="">
+      Logiciel créé en 2009 par la Caisse Nationale d&apos;Assurance Vieillesse (Cnav) France.
+Logiciel protégé au sens de l&apos;article L.112-2 13 du Code de la propriété intellectuelle (CPI).
+Tous les droits relatifs audit logiciel, sa documentation,
+y compris le matériel de conception préparatoire sont la propriété de la Cnav au sens du CPI.
+Ce fichier appartient a la suite d&apos;outils SATURNE
+(Suite Applicative pour des Traitements Unifiés et Rationalisés fondés sur une Norme d&apos;Echange).
+depot INPI en cours
+
+Ce logiciel et sa documentation sont proteges par la licence incluse.
+Vous devez avoir souscrit à une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+
+
+This file is part of the SATURNE Tool Suite
+(Suite of Autonomous Tools for Unified and Rationalized Norms of Exchange)..
+
+This software and the attached documentation are protected by the included license.
+You must be in possession of a valid license conceded by the Cnav
+to install and use this software.
+   </copyright>
+
+   <license url="">
+      La Cnav a conçu une suite d&apos;outils dénommée SATURNE.
+
+Les utilisateurs extérieurs à la Cnav de cette suite ou de tout produit logiciel issu de cette suite s’engagent à l&apos;utiliser dans le respect de sa finalité, à n’en faire aucun usage commercial et à ne tenter aucune rétro-ingéniérie.
+
+La Cnav conserve la propriété pleine et entière de la suite et des produits logiciels qui en sont issus.
+
+La Cnav décline toute responsabilité dans le cas de l&apos;utilisation de la suite et de tout produit logiciel issu de cette suite.
+
+La Cnav n&apos;assure pas de support sauf convention spécifique et expresse passée avec un utilisateur tiers.
+
+
+
+The Cnav has designed a suite of tools called SATURNE.
+
+Any user outside Cnav of the suite or of any software product built with the suite promises to use it according to its functional goals, promises not to sell it or to attempt any reverse engineering.
+
+The Cnav remains the sole and exclusive owner of the suite or of any product built with the suite.
+
+The Cnav cannot be held responsible for any damage incurred in the use of the suite or of products built with it.
+The Cnav does not provide user support except in the case of specific contracts passed with a third-party user.
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources" version="3.7.101" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edit" version="2.7.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.edit.ui" version="2.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.expressions" version="3.4.300" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.cli" version="1.2.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.log4j" version="1.2.15" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.core" version="2.1.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.repository" version="2.1.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.metadata" version="2.1.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.operations" version="2.1.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.p2.engine" version="2.1.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="10.0.1" match="greaterOrEqual"/>
+      <import feature="org.eclipse.equinox.p2.rcp.feature" version="1.0.1.v20110906-1605-782EqBqNKGVkiV-PUsgz-uny4gqO"/>
+   </requires>
+
+   <plugin
+         id="fr.cnav.autocontrole.rcp"
+         download-size="106"
+         install-size="496"
+         version="1.4.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole"
+         download-size="75"
+         install-size="152"
+         version="1.11.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole.ui"
+         download-size="187"
+         install-size="313"
+         version="1.9.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole.headless"
+         download-size="18"
+         install-size="31"
+         version="1.7.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole.export"
+         download-size="1049"
+         install-size="1174"
+         version="1.7.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole.update"
+         download-size="10"
+         install-size="17"
+         version="1.5.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.autocontrole.doc"
+         download-size="3760"
+         install-size="4359"
+         version="1.9.0.201909250805"
+         unpack="false"/>
+
+</feature>
