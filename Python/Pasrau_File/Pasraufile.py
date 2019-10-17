@@ -10,7 +10,7 @@ import shutil
 import urllib.request
 import urllib.error
 import shutil
-from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE
+from Norm import BLOCS, R_BLOCS, MONTHS, GENDER, FRENCH_COUNTRYCODE, BENEFIT_CODE_DICT
 
 
 def setup_logger(log_file):
@@ -115,16 +115,32 @@ class Bloc:
             self.append_rubrique_from_path(rubrique_id[3], "Code de distribution à l'étranger ",
                                            mapping, defaultaddress_path+'zipCode/zipCode')
 
-    def is_regularisation_not_found(self, mapping):
-        reverse_log = xpath_get(mapping, 'reversedLog')
-        if reverse_log is None:
-            return True
-
     def write(self, pasrau_file):
         for r in self.rubriques:
             pasrau_file.write(str(self.id) + '.' + str(r.id) + ',' + "'" + r.value + "'" + "\n")
         for b in self.sub_blocs:
             b.write(pasrau_file)
+
+    def get_rubrique_value_from_bloc(self, rubrique_id):
+        for rb in self.rubriques:
+            if rb.id == rubrique_id:
+                return rb.value
+
+    def is_rubrique_value_same(self, subbloc_id, rubrique_id, value):
+        for sb in self.sub_blocs:
+            if sb.id == subbloc_id:
+                for rub in sb.rubriques:
+                    if rub.id == rubrique_id and rub.value == value:
+                        return True
+
+    def get_number_of_payment(self, subbloc_id, rubrique_id, value):
+        num = 1
+        for sb in self.sub_blocs:
+            if sb.id == subbloc_id:
+                for rub in sb.rubriques:
+                    if rub.id == rubrique_id and rub.value == value:
+                        num += 1
+        return num
 
     def append_envoi(self, wynsure_version):
         envoi = Bloc.create_bloc_from_label('Envoi')
@@ -132,7 +148,7 @@ class Bloc:
         envoi.append_rubrique('002', "Nom de l'éditeur", 'MPHASIS WYDE')
         envoi.append_rubrique('003', 'Numéro de version du logiciel utilisé', wynsure_version)
         envoi.append_rubrique('005', "Code envoi du fichier d'essai ou réel", '02')
-        envoi.append_rubrique('006', 'Numéro de version de la norme utilisée', '201710')
+        envoi.append_rubrique('006', 'Numéro de version de la norme utilisée', 'P20V01')
         envoi.append_rubrique('008', "Type de l'envoi", '01')
         self.append_sub_bloc(envoi)
 
@@ -161,9 +177,9 @@ class Bloc:
 
     def append_pasrau(self, mapping):
         pasrau = Bloc.create_bloc_from_label('PASRAU')
-        pasrau.append_rubrique('001', 'Nature de la déclaration', '11')
+        pasrau.append_rubrique('001', 'Nature de la déclaration', '14')
         pasrau.append_rubrique('002', 'Type de la déclaration', '01')
-        pasrau.append_rubrique('003', 'Numéro de fraction de déclaration', '11')
+        pasrau.append_rubrique('003', 'Numéro de fraction de déclaration', '01')
         pasrau.append_rubrique('004', "Numéro d'ordre de la déclaration", '0')
         declaration_month = xpath_get(mapping, 'month')
         declaration_year = xpath_get(mapping, 'year')
@@ -275,27 +291,54 @@ class Bloc:
         self.append_sub_bloc(individu)
         return individu
 
+    def append_droit(self, mapping):
+        claim_no = xpath_get(mapping, 'getClaimNumber')
+        droit = Bloc.create_bloc_from_label('Droit')
+        if not self.is_rubrique_value_same(droit.id, '002', claim_no):
+            event_date = datetime.strptime(xpath_get(mapping, 'getEventdate'), "%Y-%m-%d")
+            close_date = xpath_get(mapping, 'GetCloseDate')
+            droit.append_rubrique('001', 'Type d\'identifiant du droit', '01')
+            droit.append_rubrique('002', 'Identifiant du droit', claim_no)
+            droit.append_rubrique('003', 'Date d\'ouverture effective du droit', event_date.strftime("%d%m%Y"))
+            if close_date is not None:
+                closure_date = datetime.strptime(xpath_get(mapping, 'GetCloseDate'), "%Y-%m-%d")
+                droit.append_rubrique('004', 'Date de fin effective de droit', closure_date.strftime("%d%m%Y"))
+            droit.append_rubrique('005', 'Date d\'ouverture théorique du droit', event_date.strftime("%d%m%Y"))
+            self.append_sub_bloc(droit)
+
     def append_versement_individu(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement individu')
         reverse_log = xpath_get(mapping, 'reversedLog')
         taxes_calculation_date_str = xpath_get(mapping, 'getTaxesCalculationDate')
         disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
+        benefit_code = xpath_get(mapping, 'getBenefitCode')
+        if benefit_code in BENEFIT_CODE_DICT:
+            income_class_code = BENEFIT_CODE_DICT[benefit_code]
+        else:
+            income_class_code = benefit_code
         if disbursement_date_str:
             disbursement_date = datetime.strptime(disbursement_date_str, "%Y-%m-%d")
-            versement.append_rubrique('001', 'Date de versement', disbursement_date.strftime("%d%m%Y"))
+            payment_date = disbursement_date.strftime("%d%m%Y")
         else:
             taxes_calculation_date = datetime.strptime(taxes_calculation_date_str, "%Y-%m-%d")
-            versement.append_rubrique('001', 'Date de versement', taxes_calculation_date.strftime("%d%m%Y"))
+            payment_date = taxes_calculation_date.strftime("%d%m%Y")
         rate = xpath_get(mapping, 'getTaxRate')
+        payment_no = self.get_number_of_payment(versement.id, '001', payment_date)
         identifier = xpath_get(mapping, 'getIdentifier')
         is_default_taxrate = xpath_get(mapping, 'isDefaultTaxRate')
         tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
         net_fiscal = xpath_get(mapping, 'getbaseAmount/amount')
+        amount_of_taxes_excluded_from_base = xpath_get(mapping, 'getSumoftaxesExcudedbase/amount')
+        net_amount_paid = net_fiscal - amount_of_taxes_excluded_from_base
+        versement.append_rubrique('001', 'Date de versement', payment_date)
+        birth_country_code = self.get_rubrique_value_from_bloc('015')
         if reverse_log is None:
             versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
         else:
             versement.append_rubrique('002', 'Rémunération nette fiscale', '0.00')
-        versement.append_rubrique('003', 'Numéro de versement', '1')
+        versement.append_rubrique('003', 'Numéro de versement', str(payment_no))
+        # to be completed
+        versement.append_rubrique('004', 'Montant net versé', "{0:.2f}".format(net_amount_paid))
         versement.append_rubrique('006', 'Taux de prélèvement à la source', "{0:.2f}".format(rate))
         """ according to tax tax code will be given in file """
         tax_name = xpath_get(mapping, 'getTaxname')
@@ -316,26 +359,56 @@ class Bloc:
             versement.append_rubrique_from_path('008', 'Identifiant du taux de prélèvement à la source', mapping,
                                                 'getIdentifier')
         if reverse_log is None:
-            versement.append_rubrique('009', 'Montant du prélèvement à la source', "{0:.2f}".format(tax_amount))
+            amount_withhold_tax = "{0:.2f}".format(tax_amount)
         else:
-            versement.append_rubrique('009', 'Montant du prélèvement à la source', '0.00')
+            amount_withhold_tax = '0.00'
+        versement.append_rubrique('009', 'Montant du prélèvement à la source', amount_withhold_tax)
+        # to be completed
+        # not included this rubrique :versement.append_rubrique('011', 'Montant de la part non imposable du revenu', '')
+        versement.append_rubrique('014', 'Classe de revenu', income_class_code)
+        versement.append_rubrique('015', 'Cotisations et contributions sociales déductibles',
+                                  "{0:.2f}".format(net_amount_paid))
+        versement.append_rubrique_from_path('016', 'Contributions sociales non'
+                                                   ' déductibles', mapping, 'getSumoftaxesExcudedbase/amount')
+        versement.append_rubrique('017', 'Cotisations salariales complémentaires santé prévoyance retraite', '0.00')
+        versement.append_rubrique('018', 'Contributions des employeurs destinées à financer des garanties', '0.00')
+        if birth_country_code in FRENCH_COUNTRYCODE:
+            amount_non_resident_withhold_tax = '0.00'
+        else:
+            amount_non_resident_withhold_tax = versement.get_rubrique_value_from_bloc('009')
+        versement.append_rubrique('019', 'Montant de la retenue à la source des non-résidents déclarée en PASRAU',
+                                  amount_non_resident_withhold_tax)
         self.append_sub_bloc(versement)
         return versement
 
+    def append_remuneration(self, mapping):
+        remuneration = Bloc.create_bloc_from_label('Rémunération')
+        from_date = datetime.strptime(xpath_get(mapping, 'getIndemnificationFrom'), "%Y-%m-%d")
+        to_date = datetime.strptime(xpath_get(mapping, 'getIndemnificationTo'), "%Y-%m-%d")
+        number_of_days = str((to_date - from_date).days + 1) + '.00'
+        remuneration.append_rubrique('001', 'Date de début de période afférente', from_date.strftime("%d%m%Y"))
+        remuneration.append_rubrique('002', 'Date de fin de période afférente', to_date.strftime("%d%m%Y"))
+        remuneration.append_rubrique_from_path('010', 'Identifiant du droit', mapping, 'getClaimNumber')
+        remuneration.append_rubrique_from_path('013', 'Montant', mapping, 'getBnefitAmount/amount')
+        remuneration.append_rubrique('017', 'Nombre de jours', number_of_days)
+        self.append_sub_bloc(remuneration)
+
     def append_regularisation(self, mapping):
-        reverse_tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
-        net_fiscal = -xpath_get(mapping, 'reversedLog/getbaseAmount/amount')
-        reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
-        regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
-        regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'reversedLog/getMonthAndYear')
-        regularisation.append_rubrique('002', 'Type d\'erreur', '03')
-        regularisation.append_rubrique('003', 'Régularisation de la rémunération nette fiscale',
-                                       "{0:.2f}".format(net_fiscal))
-        regularisation.append_rubrique('006', 'Taux déclaré le mois de l’erreur',
-                                       "{0:.2f}".format(reverse_tax_rate))
-        regularisation.append_rubrique('007', 'Montant de la régularisation du prélèvement à'
-                                              ' la source', "{0:.2f}".format(reverse_tax_amount))
-        self.append_sub_bloc(regularisation)
+        reverse_log = xpath_get(mapping, 'reversedLog')
+        if reverse_log:
+            reverse_tax_amount = xpath_get(mapping, 'getTaxAmount/amount')
+            net_fiscal = -xpath_get(mapping, 'reversedLog/getbaseAmount/amount')
+            reverse_tax_rate = xpath_get(mapping, 'reversedLog/getTaxRate')
+            regularisation = Bloc.create_bloc_from_label('Régularisation du prélèvement à la source')
+            regularisation.append_rubrique_from_path('001', 'Mois de l\'erreur', mapping, 'reversedLog/getMonthAndYear')
+            regularisation.append_rubrique('002', 'Type d\'erreur', '03')
+            regularisation.append_rubrique('003', 'Régularisation de la rémunération nette fiscale',
+                                           "{0:.2f}".format(net_fiscal))
+            regularisation.append_rubrique('006', 'Taux déclaré le mois de l’erreur',
+                                           "{0:.2f}".format(reverse_tax_rate))
+            regularisation.append_rubrique('007', 'Montant de la régularisation du prélèvement à'
+                                                  ' la source', "{0:.2f}".format(reverse_tax_amount))
+            self.append_sub_bloc(regularisation)
 
     def total_rubrique(self):
         """Give the total number of rubriques (lines) in the file"""
@@ -366,10 +439,12 @@ def create_pasrau_file_from_mapping(json_file, out_pasrau_path, wynsure_version)
         etablissement.append_versement_organisme(data)
         for individu_data in data['getListWithPersonDeductions']:
             individu = etablissement.append_individu(individu_data)
+            for droit_data in individu_data['claimLogs']:
+                individu.append_droit(droit_data)
             for versement_data in individu_data['claimLogs']:
                 versement = individu.append_versement_individu(versement_data)
-                if not versement.is_regularisation_not_found(versement_data):
-                    versement.append_regularisation(versement_data)
+                versement.append_remuneration(versement_data)
+                versement.append_regularisation(versement_data)
         root.append_total()
     pasrau_file = (str(json_file).split('\\'))[-1].replace(".json", "")+".pasrau"
     out_pasrau = os.path.join(out_pasrau_path, pasrau_file)
@@ -384,14 +459,15 @@ def manage_pasrau(config):
     if pasrau_file_input_json:
         input_json = get_valid_directory_path(pasrau_file_input_json)
     else:
-        input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'),
-                                                       'batch', 'OUT_APPLI', 'PASRAU'))
+        input_json = get_valid_directory_path(os.path.join(config.get('WydeEnvironment',
+                                                                      'wf-root'), 'batch', 'OUT_APPLI', 'PASRAU'))
     pasrau_file_output = config.get('PASRAU_FILE', 'pasrau_file_output')
     if pasrau_file_output:
-        out_python = get_valid_directory_path(pasrau_file_output)
+        out_pasrau = get_valid_directory_path(pasrau_file_output)
     else:
-        out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'batch', 'OUT_PYTHON'))
-    out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
+        out_python = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'),
+                                                           'batch', 'OUT_PYTHON'))
+        out_pasrau = create_dir(os.path.join(out_python, 'PASRAU'))
     python_log = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'env-root'), 'Log', 'Python'))
     pasrau = get_valid_directory_path(os.path.join(config.get('WydeEnvironment', 'wf-root'), 'Python', 'Pasrau_File'))
     wyn_version = config.get('WydeEnvironment', 'wynsure-version')
@@ -422,4 +498,3 @@ def manage_pasrau(config):
                 os.remove(json_file_path)
             else:
                 shutil.move(json_file_path, archive_dir)
-
