@@ -37,7 +37,7 @@
 				"enum-as-const": false,
 				"use-translation": false,
 				"serialize-type-as-instance": true,
-				"max-deep": 4,
+				"maxDeep": 4,
 				"error-manager" : ""
 			},
 			"deserialization": {
