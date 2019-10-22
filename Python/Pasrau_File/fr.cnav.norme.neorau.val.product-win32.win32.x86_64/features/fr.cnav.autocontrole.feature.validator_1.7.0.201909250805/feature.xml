@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Logiciel créé en 2009 par la Caisse Nationale d'Assurance Vieillesse (Cnav) France.
+Logiciel protégé au sens de l'article L.112-2 13 du Code de la propriété intellectuelle (CPI).
+Tous les droits relatifs audit logiciel, sa documentation,
+y compris le matériel de conception préparatoire sont la propriété de la Cnav au sens du CPI.
+Ce fichier appartient a la suite d'outils SATURNE
+(Suite Applicative pour des Traitements Unifiés et Rationalisés fondés sur une Norme d'Echange).
+depot INPI en cours
+
+Ce logiciel et sa documentation sont proteges par la licence incluse.
+Vous devez avoir souscrit à une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+
+
+This file is part of the SATURNE Tool Suite
+(Suite of Autonomous Tools for Unified and Rationalized Norms of Exchange)..
+
+This software and the attached documentation are protected by the included license.
+You must be in possession of a valid license conceded by the Cnav
+to install and use this software.
+-->
+<feature
+      id="fr.cnav.autocontrole.feature.validator"
+      label="Saturne 2 Validator"
+      version="1.7.0.201909250805"
+      provider-name="CNAV">
+
+   <description url="http://www.example.com/description">
+      This feature contains all the plugins that are part of the generic validator.
+   </description>
+
+   <copyright url="">
+      Logiciel créé en 2009 par la Caisse Nationale d&apos;Assurance Vieillesse (Cnav) France.
+Logiciel protégé au sens de l&apos;article L.112-2 13 du Code de la propriété intellectuelle (CPI).
+Tous les droits relatifs audit logiciel, sa documentation,
+y compris le matériel de conception préparatoire sont la propriété de la Cnav au sens du CPI.
+Ce fichier appartient a la suite d&apos;outils SATURNE
+(Suite Applicative pour des Traitements Unifiés et Rationalisés fondés sur une Norme d&apos;Echange).
+depot INPI en cours
+
+Ce logiciel et sa documentation sont proteges par la licence incluse.
+Vous devez avoir souscrit à une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+
+
+This file is part of the SATURNE Tool Suite
+(Suite of Autonomous Tools for Unified and Rationalized Norms of Exchange)..
+
+This software and the attached documentation are protected by the included license.
+You must be in possession of a valid license conceded by the Cnav
+to install and use this software.
+   </copyright>
+
+   <license url="">
+      La Cnav a conçu une suite d&apos;outils dénommée SATURNE.
+
+Les utilisateurs extérieurs à la Cnav de cette suite ou de tout produit logiciel issu de cette suite s’engagent à l&apos;utiliser dans le respect de sa finalité, à n’en faire aucun usage commercial et à ne tenter aucune rétro-ingéniérie.
+
+La Cnav conserve la propriété pleine et entière de la suite et des produits logiciels qui en sont issus.
+
+La Cnav décline toute responsabilité dans le cas de l&apos;utilisation de la suite et de tout produit logiciel issu de cette suite.
+
+La Cnav n&apos;assure pas de support sauf convention spécifique et expresse passée avec un utilisateur tiers.
+
+
+
+The Cnav has designed a suite of tools called SATURNE.
+
+Any user outside Cnav of the suite or of any software product built with the suite promises to use it according to its functional goals, promises not to sell it or to attempt any reverse engineering.
+
+The Cnav remains the sole and exclusive owner of the suite or of any product built with the suite.
+
+The Cnav cannot be held responsible for any damage incurred in the use of the suite or of products built with it.
+The Cnav does not provide user support except in the case of specific contracts passed with a third-party user.
+   </license>
+
+   <plugin
+         id="fr.cnav.saturne"
+         download-size="2546"
+         install-size="3519"
+         version="1.1.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.saturne.edit"
+         download-size="2194"
+         install-size="4234"
+         version="1.1.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.saturne.validator"
+         download-size="486"
+         install-size="1244"
+         version="1.2.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="fr.cnav.saturne.editor"
+         download-size="142"
+         install-size="283"
+         version="1.0.0.201909250805"
+         unpack="false"/>
+
+   <plugin
+         id="org.joda.time"
+         download-size="493"
+         install-size="575"
+         version="2.6.0"/>
+
+   <plugin
+         id="dk.brics.automaton"
+         download-size="153"
+         install-size="174"
+         version="1.11.8"/>
+
+</feature>

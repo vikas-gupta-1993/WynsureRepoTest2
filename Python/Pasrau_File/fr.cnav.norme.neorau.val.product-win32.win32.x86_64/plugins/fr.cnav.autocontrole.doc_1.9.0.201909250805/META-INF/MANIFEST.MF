@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: fr.cnav.autocontrole.doc
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: CNAV
+Export-Package: fr.cnav.autocontrole.doc
+Bundle-Name: Doc
+Bundle-Version: 1.9.0.201909250805
+Bundle-ClassPath: help/,icons/,.
+Bundle-Activator: fr.cnav.autocontrole.doc.Activator
+Created-By: Apache Maven 3.5.4
+Build-Jdk: 1.8.0_192
+Eclipse-BundleShape: dir
+

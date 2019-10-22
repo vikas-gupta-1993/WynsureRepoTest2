@@ -1,0 +1,33 @@
+=======================================================================================================
+LISEZ-MOI
+=======================================================================================================
+
+Mode graphique :
+
+Pour lancer DSN-VAL en mode graphique :
+	- sous Windows, lancer "DSN-Validateur.exe"
+	- sous Linux, lancer "DSN-Validateur"
+
+Prérequis :
+	Pour pouvoir utiliser l’application en mode graphique, il faut :
+	- une machine avec un système d’exploitation Linux 32bits ou Windows 32 bits,
+	- l’application DSNVal présente sur la machine,
+	- une machine virtuelle Java JDK 6 32 bits SUN installée sur la machine.
+	
+--------------------------------------------------------------------------------------------------------
+Mode ligne de commande :
+
+Pour lancer Autocontrol-Validateur en mode ligne de commande
+	- sous Windows avec java 32 bits, lancer Autocontrol-ValidateurModeBatchWin32.cmd
+	- sous Windows avec java 64 bits, lancer Autocontrol-ValidateurModeBatchWin64.cmd
+	- sous Linux avec java 32 bits , lancer Autocontrol-ValidateurModeBatchLinux32.sh
+	- sous Linux avec java 64 bits , lancer Autocontrol-ValidateurModeBatchLinux64.sh
+  	
+Pour plus d'informations sur ces commandes et sur leurs paramètres, la documentation du mode ligne de commande se trouve dans le fichier doc/DSNValid -Documentation du mode batch.html
+
+Prérequis :
+	Pour pouvoir utiliser l’application en mode ligne de commande, il faut :
+	- une machine avec un système d’exploitation Linux 32bits ou 64 bits , ou Windows 32 bits ou 64 bits,
+	- l’application Autocontrol-Validateur correspondante à l'architecture de la machine présente sur la machine,
+	- une machine virtuelle Java JDK 6 32 bits ou 64 bits SUN installée sur la machine.
+	La machine sur laquelle est exécutée la validation en mode ligne de commande n’a pas besoin de serveur graphique.

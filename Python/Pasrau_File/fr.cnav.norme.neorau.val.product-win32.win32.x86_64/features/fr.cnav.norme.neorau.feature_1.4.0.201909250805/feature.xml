@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="fr.cnav.norme.neorau.feature"
+      label="Norme NEORAU"
+      version="1.4.0.201909250805"
+      provider-name="CNAV">
+
+   <description url="http://www.example.com/description">
+      Norme Déclaration Sociale Nominative (DSN) Phase 3 version 1 (P03V01).
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2013 Caisse Nationale d&apos;Assurance Vieillesse (Cnav)
+France.
+Ce fichier appartient a la suite d&apos;outils Norm
+Ce logiciel et sa documentation sont proteges par la licence
+incluse.
+Vous devez etre en possession d&apos;une licence concedee par la Cnav
+pour installer et utiliser ce logiciel.
+This file is part of the Norm Tool Suite.
+This software and the attached documentation are protected by
+the included license.
+You must be in possession of a valid license conceded by the
+Cnav
+to install and use this software.
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="com.google.guava" version="10.0.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="fr.cnav.norme.neorau.autocontrol"
+         download-size="5133"
+         install-size="5819"
+         version="1.2.0.201909250805"/>
+
+   <plugin
+         id="n4ds.neorau.v161r1.all"
+         download-size="984"
+         install-size="3191"
+         version="1.0.0.201909250805"
+         unpack="false"/>
+
+</feature>

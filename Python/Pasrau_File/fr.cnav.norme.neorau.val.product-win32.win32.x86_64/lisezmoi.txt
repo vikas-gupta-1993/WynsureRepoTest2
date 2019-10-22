@@ -1,0 +1,31 @@
+=======================================================================================================
+LISEZ-MOI
+=======================================================================================================
+
+Mode graphique :
+
+Pour lancer DSN-VAL en mode graphique :
+	- sous Windows, lancer "Autocontrol-Validateur.exe"
+	- sous Linux, lancer "Autocontrol-Validateur"
+
+Prérequis :
+	Pour pouvoir utiliser l’application en mode graphique, il faut :
+	- une machine avec un système d’exploitation Linux 32bits ou Windows 32 bits,
+	- l’application PasrauVal présente sur la machine,
+	- une machine virtuelle Java (JVM) 6 32 bits SUN installée sur la machine.
+	
+--------------------------------------------------------------------------------------------------------
+Mode ligne de commande :
+
+Pour lancer PASRAU-VAL en mode ligne de commande
+	- sous Windows, lancer Autocontrol-ValidateurModeBatchWin32.cmd
+	- sous Linux, lancer Autocontrol-ValidateurModeBatchLin32.sh
+
+Pour plus d'informations sur ces commandes et sur leurs paramètres, la documentation du mode ligne de commande se trouve dans le fichier doc/PasrauValid -Documentation du mode batch.html
+
+Prérequis :
+	Pour pouvoir utiliser l’application en mode ligne de commande, il faut :
+	- une machine avec un système d’exploitation Linux 32bits ou Windows 32 bits,
+	- l’application DSNVal présente sur la machine,
+	- une machine virtuelle Java (JVM) 6 32 bits SUN installée sur la machine.
+	La machine sur laquelle est exécutée la validation en mode ligne de commande n’a pas besoin de serveur graphique.

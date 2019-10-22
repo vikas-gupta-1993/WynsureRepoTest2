@@ -10,7 +10,9 @@ BLOCS = {
     'S21.G00.20': 'Versement organisme',
     'S21.G00.30': 'Individu',
     'S21.G00.31': 'Changements Individu',
+    'S21.G00.47': 'Droit',
     'S21.G00.50': 'Versement individu',
+    'S21.G00.51': 'Rémunération',
     'S21.G00.56': 'Régularisation du prélèvement à la source',
     'S90.G00.90': "Total de l'envoi",
 }
@@ -37,3 +39,26 @@ GENDER = {
     'gMale':  '02'
 }
 FRENCH_COUNTRYCODE = ['FR', 'GP', 'BL', 'MF', 'MQ', 'GF', 'RE', 'PM', 'YT', 'WF', 'PF', 'NC', 'MC']
+BENEFIT_CODE_DICT = {
+    '8': ' 101',
+    '127': '102 ',
+    '128': '103',
+    '129': '104',
+    '143': '105',
+    '144': '106',
+    '145': '107',
+    '146': '108',
+    '161': '121',
+    '164': '122',
+    '205': '123',
+    '206': '124',
+    '207': '125',
+    '208': '201',
+    'DSPC': '202',
+    'PTIA': '203',
+    'PTIA_2': '204',
+    'PTIA_3': '205',
+    'EXO': '206',
+}
+
+
