@@ -23,6 +23,13 @@
 			"otp": {
 				"length": 5,
 				"validity": 600
+			},
+			"password" : {
+				"complexity":0,
+				"minimal-length":0,
+				"enforce-history-check":0,
+				"minimum-age-hours":0,
+				"minimum-age-days":0
 			}
 		},
 		"json": {
@@ -31,8 +38,7 @@
 				"lower-case-first-char": true,
 				"enum-as-const": false,
 				"use-translation": false,
-				"serialize-type-as-instance": true,
-				"max-deep": 4,
+				"serialize-type-as-instance": true,				
 				"error-manager" : ""
 			},
 			"deserialization": {
