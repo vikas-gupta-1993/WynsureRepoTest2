@@ -50,6 +50,9 @@
 			"picker": {
 				"max-page-size": 100,
 				"dws130compatible":true
+			},
+			"email": {
+				"regexp" : ""
 			}
 		}
 	},
@@ -66,7 +69,7 @@
 	"StatelessAPI" : {
 		"rest": {			
 			"router": {
-				"mapping":["aWF_FW_StatelessMappingAPI"]
+				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
 			}
 		}
 	},
@@ -81,7 +84,7 @@
 			}
 		},
 		"router": {
-			"turbo": false,
+			"turbo": true,
 			"definition":"_aWT_UrlTurboDecorationServerRouter",
 			"mapping": [
 				"aCSF_OnlyRPCMapping"
@@ -97,7 +100,7 @@
 		"rpc": {
 			"connection-timeout": {
 				"ping-route": "api/rpc/connection-ping",
-				"timeout": 3600
+				"timeout": 180
 			},
 			"model": {
 				"transaction-box": ""
