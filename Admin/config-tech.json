@@ -90,7 +90,7 @@
 			}
 		},
 		"router": {
-			"turbo": true,
+			"turbo": false,
 			"definition":"_aWT_UrlTurboDecorationServerRouter",
 			"mapping": [
 				"aCSF_OnlyRPCMapping"
