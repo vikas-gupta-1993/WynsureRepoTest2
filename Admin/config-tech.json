@@ -24,11 +24,13 @@
 				"length": 5,
 				"validity": 600
 			},
-			"password-minimum-length": 0,
-			"password-complexity": 0,
-			"password-enforce-history-check" : 0,
-			"password-minimum-age-hours": 0,
-			"password-maximum-age-days": 0
+			"password" : {
+				"complexity":0,
+				"minimal-length":0,
+				"enforce-history-check":0,
+				"minimum-age-hours":0,
+				"minimum-age-days":0
+			}
 		},
 		"json": {
 			"serialization": {
@@ -36,8 +38,7 @@
 				"lower-case-first-char": true,
 				"enum-as-const": false,
 				"use-translation": false,
-				"serialize-type-as-instance": true,
-				"maxDeep": 4,
+				"serialize-type-as-instance": true,				
 				"error-manager" : ""
 			},
 			"deserialization": {
@@ -53,7 +54,11 @@
 				"error-level": "MajorError"
 			},
 			"picker": {
-				"max-page-size": 100
+				"max-page-size": 100,
+				"dws130compatible":true
+			},
+			"email": {
+				"regexp" : ""
 			}
 		}
 	},
@@ -70,7 +75,7 @@
 	"StatelessAPI" : {
 		"rest": {			
 			"router": {
-				"mapping":["aWF_FW_StatelessMappingAPI"]
+				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
 			}
 		}
 	},
@@ -101,7 +106,7 @@
 		"rpc": {
 			"connection-timeout": {
 				"ping-route": "api/rpc/connection-ping",
-				"timeout": 3600
+				"timeout": 180
 			},
 			"model": {
 				"transaction-box": ""

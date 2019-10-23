@@ -1,0 +1,11 @@
+{
+	"OVH": {
+		"SimulationMode" : "false",
+		"sender" : "R et D Wyde",
+		"TimestampUrl": "https://eu.api.ovh.com/1.0/auth/time",
+		"ApplicationKey" :"mfgwLXC9eC3hQe9z",
+		"ApplicationSecret" : "47pcTye1kDpSOmY8G23yGa2ZufdFp9FJ",
+		"ConsumerKey" : "GhxpvDeqmlZBm7f3ec8eNSNAgkqhEyhu",
+		"BrokerUrl" : "https://api.ovh.com/1.0/sms/sms-pi48608-1/jobs"		
+	}
+}
