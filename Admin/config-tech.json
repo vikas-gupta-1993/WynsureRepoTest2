@@ -29,7 +29,7 @@
 				"minimal-length":0,
 				"enforce-history-check":0,
 				"minimum-age-hours":0,
-				"minimum-age-days":0
+				"maximum-age-days":0
 			}
 		},
 		"json": {
@@ -78,7 +78,7 @@
 				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
 			}
 		}
-	},
+	},	
 	"rest": {
 		"cache": {
 			"client": {
