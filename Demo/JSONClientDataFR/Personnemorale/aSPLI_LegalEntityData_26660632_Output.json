@@ -162,7 +162,7 @@
 				}
 			],
 			"companyType":"Secteur Privé",
-			"sIRET":"36252187900100"
+			"sIRET":"36252187400101"
 		},
 		"headquarters":[
 		]
@@ -170,7 +170,7 @@
 	"identifier":{
 		"className":"aSPLI_LegalEntityIdentifier",
 		"bUID":"",
-		"description":"W Assurance SA (W Assurance SA) - 36252187900100",
+		"description":"W Assurance SA (W Assurance SA) - 36252187400101",
 		"internalClientId":"",
 		"externalClientId":{
 			"externalClientId":"0000000135",
