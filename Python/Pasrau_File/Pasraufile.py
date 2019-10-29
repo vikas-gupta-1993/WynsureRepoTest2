@@ -235,7 +235,10 @@ class Bloc:
 
     def append_versement_organisme(self, mapping):
         versement = Bloc.create_bloc_from_label('Versement organisme')
+        le_path = 'getClaimTaxDeductionFlowConfig/legalEntity/'
+        siret = xpath_get(mapping, le_path + 'sIRET')
         versement.append_rubrique('001', 'Identifiant organisme', 'DGFiP')
+        versement.append_rubrique('002', 'Entité d\'affectation des opérations', siret)
         versement.append_rubrique_from_path('003', 'BIC', mapping, "getClaimTaxDeductionFlowConfig/bankAccount/bIC")
         versement.append_rubrique_from_path('004', 'IBAN', mapping, "getClaimTaxDeductionFlowConfig/bankAccount/iBAN")
         amount = xpath_get(mapping, "globalAmount/amount")
@@ -311,7 +314,7 @@ class Bloc:
         reverse_log = xpath_get(mapping, 'reversedLog')
         taxes_calculation_date_str = xpath_get(mapping, 'getTaxesCalculationDate')
         disbursement_date_str = xpath_get(mapping, 'getDisbursementDate')
-        benefit_code = xpath_get(mapping, 'getBenefitCode')
+        benefit_code = xpath_get(mapping, 'getBenefitCodewithCoverageAndProductName')
         if benefit_code in BENEFIT_CODE_DICT:
             income_class_code = BENEFIT_CODE_DICT[benefit_code]
         else:

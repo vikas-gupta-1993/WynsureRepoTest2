@@ -39,7 +39,7 @@ GENDER = {
     'gMale':  '02'
 }
 FRENCH_COUNTRYCODE = ['FR', 'GP', 'BL', 'MF', 'MQ', 'GF', 'RE', 'PM', 'YT', 'WF', 'PF', 'NC', 'MC']
-BENEFIT_CODE_DICT = {
+BENEFIT_CODE_DICT_DEP = {
     '8': ' 101',
     '127': '102 ',
     '128': '103',
@@ -59,6 +59,12 @@ BENEFIT_CODE_DICT = {
     'PTIA_2': '204',
     'PTIA_3': '205',
     'EXO': '206',
+}
+BENEFIT_CODE_DICT = {
+    'CSPREV_ITT_162': '104',
+    'CSPREV_INVAL_165': '202',
+    'OISP_ITT_161': '103',
+    'OISP_Inval_164': '104',
 }
 
 
