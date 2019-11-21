@@ -61,10 +61,10 @@ BENEFIT_CODE_DICT_DEP = {
     'EXO': '206',
 }
 BENEFIT_CODE_DICT = {
-    'CSPREV_ITT_162': '104',
+    'CSPREV_ITT_162': '105',
     'CSPREV_INVAL_165': '202',
-    'OISP_ITT_161': '103',
-    'OISP_Inval_164': '104',
+    'OISP_ITT_161': '105',
+    'OISP_Inval_164': '202',
 }
 
 
