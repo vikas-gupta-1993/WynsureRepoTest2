@@ -335,6 +335,7 @@ class Bloc:
         net_amount_paid = net_fiscal - amount_of_taxes_excluded_from_base
         versement.append_rubrique('001', 'Date de versement', payment_date)
         birth_country_code = self.get_rubrique_value_from_bloc('015')
+        code_pays = self.get_rubrique_value_from_bloc('011')
         if reverse_log is None:
             versement.append_rubrique('002', 'Rémunération nette fiscale', "{0:.2f}".format(net_fiscal))
         else:
@@ -375,7 +376,7 @@ class Bloc:
                                                    ' déductibles', mapping, 'getSumoftaxesExcudedbase/amount')
         versement.append_rubrique('017', 'Cotisations salariales complémentaires santé prévoyance retraite', '0.00')
         versement.append_rubrique('018', 'Contributions des employeurs destinées à financer des garanties', '0.00')
-        if birth_country_code in FRENCH_COUNTRYCODE:
+        if code_pays in FRENCH_COUNTRYCODE:
             amount_non_resident_withhold_tax = '0.00'
         else:
             amount_non_resident_withhold_tax = versement.get_rubrique_value_from_bloc('009')
