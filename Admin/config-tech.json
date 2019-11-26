@@ -19,7 +19,7 @@
 			"initial-wait-time": 2,
 			"wait-factor": 2,
 			"hash-passwords": true,
-			"salt": "Wynsure",
+			"salt": "Wynsure",			
 			"otp": {
 				"length": 5,
 				"validity": 600
@@ -30,7 +30,32 @@
 				"enforce-history-check":0,
 				"minimum-age-hours":0,
 				"maximum-age-days":0
+			},
+			"sso" : {
+				"user-info" : {
+					"http-header":"REMOTEUSER",
+					"server-variable":"HTTP_REMOTEUSER"
+				},
+				"profile-info" : {
+					"http-header":"PROFILES",
+					"server-variable":"HTTP_PROFILES"
+				},
+				"user-provisioning": {
+					"enabled" : true,					
+					"default" : {												
+					
+						"profiles" : [
+							"super gestionnaire",
+							"super manager"
+						]
+					},
+					"password" : {
+						"type": "fixed",
+						"value" : "Wyde456Web"
+					}
+				}
 			}
+			
 		},
 		"json": {
 			"serialization": {
@@ -65,7 +90,7 @@
 	"StatefulAPI": {
 		"rest": {
 			"session": {
-				"timeout": 3600
+				"timeout": 600
 			},
 			"router": {
 				"mapping":["aWF_FW_StatefulMappingAPI"]
@@ -106,7 +131,7 @@
 		"rpc": {
 			"connection-timeout": {
 				"ping-route": "api/rpc/connection-ping",
-				"timeout": 180
+				"timeout": 120
 			},
 			"model": {
 				"transaction-box": ""
