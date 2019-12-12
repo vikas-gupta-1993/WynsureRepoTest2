@@ -190,8 +190,9 @@ def manage_pasrau_crm(config):
         else:
             crm_log.error(
                 f"Error while requesting for business service:[{response.status_code}] {response.reason}")
-        if os.path.isfile(os.path.join(input_crm_file_path, 'Archive', crm_file)):
-            shutil.copy2(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
-            os.remove(crm_file_path)
-        else:
-            shutil.move(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
+        if response.status_code == 200 or response.status_code == 400:
+            if os.path.isfile(os.path.join(input_crm_file_path, 'Archive', crm_file)):
+                shutil.copy2(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
+                os.remove(crm_file_path)
+            else:
+                shutil.move(crm_file_path, os.path.join(input_crm_file_path, 'Archive'))
