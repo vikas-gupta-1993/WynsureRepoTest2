@@ -376,10 +376,13 @@ class Bloc:
                                                    ' déductibles', mapping, 'getSumoftaxesExcudedbase/amount')
         versement.append_rubrique('017', 'Cotisations salariales complémentaires santé prévoyance retraite', '0.00')
         versement.append_rubrique('018', 'Contributions des employeurs destinées à financer des garanties', '0.00')
-        if code_pays in FRENCH_COUNTRYCODE:
-            amount_non_resident_withhold_tax = '0.00'
+        if code_pays != '':
+            if code_pays in FRENCH_COUNTRYCODE:
+                amount_non_resident_withhold_tax = '0.00'
+            else:
+                amount_non_resident_withhold_tax = versement.get_rubrique_value_from_bloc('009')
         else:
-            amount_non_resident_withhold_tax = versement.get_rubrique_value_from_bloc('009')
+            amount_non_resident_withhold_tax = '0.00'
         versement.append_rubrique('019', 'Montant de la retenue à la source des non-résidents déclarée en PASRAU',
                                   amount_non_resident_withhold_tax)
         self.append_sub_bloc(versement)
