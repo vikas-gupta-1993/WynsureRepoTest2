@@ -12,7 +12,7 @@
 		},
 		"module": {
 			"obj": "aWF_ObjectModule",
-			"dataManager": "aFW_RPCDataManager",
+			"dataManager": "aWLIRPCDataManager",
 			"errorManager": "aWT_ErrorManager"
 		},
 		"login": {
@@ -100,7 +100,7 @@
 	"StatelessAPI" : {
 		"rest": {			
 			"router": {
-				"mapping":["aWF_FW_StatelessMappingAPI", "aMRS_EwamDefaultMapping"]
+				"mapping":["aWF_FW_StatelessMappingAPI"]
 			}
 		}
 	},	
@@ -117,9 +117,7 @@
 		"router": {
 			"turbo": false,
 			"definition":"_aWT_UrlTurboDecorationServerRouter",
-			"mapping": [
-				"aCSF_OnlyRPCMapping"
-			],
+			"mapping": [],
 			"decoration": false,
 			"identifier": "",
 			"shortcut-url": false,
