@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<aWEXIntegrationPlanDesc name="Integration-GenerationRelease">
-	<aWFxIntegReleaseGeneratorDesc name="Check Generation Release">
-			<bMajorReleases>True</bMajorReleases>
-			<ReleaseName>Wynsure 5.4.0.0</ReleaseName>
-	</aWFxIntegReleaseGeneratorDesc>
-</aWEXIntegrationPlanDesc>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-<gui display="Bundle Diff">
-  <nested href="VarDiff\VarDiff.gui" />
-</gui>

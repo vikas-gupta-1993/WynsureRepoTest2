@@ -1,8 +1,0 @@
-@echo off
-set SERVERPORT={SERVER_PORT}
-SET CURDIR=%~dp0
-CD %CURDIR%
-call "..\..\eWAM Set Env.bat"
-SET WYDESERVER-ROOT=%WYDE-ROOT%\WydeServer
-set WYDE-NETCONF=%CURDIR%WNETCONF.ini
-start %WYDESERVER-ROOT%\wsmServer\Wyseman.exe /PORT:%SERVERPORT% %*

@@ -1,2 +1,0 @@
-ByTel/opsTabOPOS/OPSOSTabCroise.vbs
-Free/xmlTreeNav/xtn_ops_descript.xsl

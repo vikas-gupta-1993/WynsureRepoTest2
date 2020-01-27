@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
-<gui display="Wyde Technical Features (WTF)">
-	<nested href="Welcome\Welcome.gui" />
-	<nested href="wWeb\wWeb.gui" />
-	<nested href="SoapAPIWebServices\SoapAPIWebServices.gui" />
-	<nested href="RestAPIWebServices\RestAPIWebServices.gui" />
-	<nested href="ClickOnce\ClickOnce.gui" />
-</gui>

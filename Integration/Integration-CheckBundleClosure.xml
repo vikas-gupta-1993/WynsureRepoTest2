@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<aWEXIntegrationPlanDesc name="Integration-CheckBundleClosure">
-	<aWFxBundleClosureCheckDesc name="Check Bundles Closure">
-		<Name>Check Bundles Closure</Name>
-        <Bundles/>	  
-	</aWFxBundleClosureCheckDesc>
-</aWEXIntegrationPlanDesc>

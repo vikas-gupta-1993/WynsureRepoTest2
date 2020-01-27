@@ -1,1 +1,0 @@
-@start files\GuiIt\GuiIt files\Guid\root.gui
