@@ -19,7 +19,7 @@
 			"initial-wait-time": 2,
 			"wait-factor": 2,
 			"hash-passwords": true,
-			"salt": "Wynsure",			
+			"salt": "Wynsure",
 			"otp": {
 				"length": 5,
 				"validity": 600
@@ -55,7 +55,6 @@
 					}
 				}
 			}
-			
 		},
 		"json": {
 			"serialization": {
@@ -63,7 +62,7 @@
 				"lower-case-first-char": true,
 				"enum-as-const": false,
 				"use-translation": false,
-				"serialize-type-as-instance": true,				
+				"serialize-type-as-instance": true,
 				"error-manager" : ""
 			},
 			"deserialization": {
@@ -79,8 +78,7 @@
 				"error-level": "MajorError"
 			},
 			"picker": {
-				"max-page-size": 100,
-				"dws130compatible":true
+				"max-page-size": 100
 			},
 			"email": {
 				"regexp" : ""
@@ -103,7 +101,7 @@
 				"mapping":["aWF_FW_StatelessMappingAPI"]
 			}
 		}
-	},	
+	},
 	"rest": {
 		"cache": {
 			"client": {
@@ -116,7 +114,7 @@
 		},
 		"router": {
 			"turbo": false,
-			"definition":"_aWT_UrlTurboDecorationServerRouter",
+			"definition": "_aWT_UrlTurboDecorationServerRouter",
 			"mapping": [],
 			"decoration": false,
 			"identifier": "",
@@ -124,7 +122,7 @@
 			"logging": {
 				"log-level": "none",
 				"log-file": "(wyde-err)"
-			}			
+			}
 		},
 		"rpc": {
 			"connection-timeout": {
