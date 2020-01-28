@@ -376,7 +376,7 @@ class Bloc:
                                                    ' déductibles', mapping, 'getSumoftaxesExcudedbase/amount')
         versement.append_rubrique('017', 'Cotisations salariales complémentaires santé prévoyance retraite', '0.00')
         versement.append_rubrique('018', 'Contributions des employeurs destinées à financer des garanties', '0.00')
-        if code_pays != '':
+        if code_pays is not None:
             if code_pays in FRENCH_COUNTRYCODE:
                 amount_non_resident_withhold_tax = '0.00'
             else:
